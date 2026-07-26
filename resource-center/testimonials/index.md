@@ -10,7 +10,7 @@ Real feedback from students and clients who trained with and received support fr
 
 ★★★★★
 5.0
-Google reviews
+Rated on Google Reviews
 
 [See all reviews on Google →](https://search.google.com/local/reviews?placeid=ChIJhz5k1Dt_VDcRBCCQGjDjw8I)
 

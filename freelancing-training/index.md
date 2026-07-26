@@ -4,8 +4,6 @@
 
 On-Demand, Hands-On Training in Cutting-Edge Technologies & Trends
 
-★★★★★ 5.0 Rating · 36 Verified Reviews
-
 All Training
 Linux
 DevOps

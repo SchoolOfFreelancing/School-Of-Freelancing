@@ -6,7 +6,7 @@
 
 Architect and launch a production-grade 2-Way Bulk SMS system for the USA market. Master 10DLC vetting, Jasmin SMS Gateway, and the Telnyx Messaging API to deliver high-throughput business communication solutions.
 
-💵 $800
+💵 $799
 ⏱ 40 Hours
 📅 1-4 Weeks
 🎯 2-Way SMS · A2P/P2P · 10DLC · SMPP/REST HTTP API v2
@@ -21,7 +21,7 @@ Telnyx SMS API Training is School of Freelancing's 40-hour, hands-on program bui
 
 - **Format:** Online, hands-on, project-based training
 - **Duration:** 40 hours across a flexible 1-4 week schedule
-- **Price:** $800 USD, paid before enrollment
+- **Price:** $799 USD, paid before enrollment
 - **Covers:** 10DLC/TCR compliance, Jasmin SMS Gateway, playSMS, SMPP/REST HTTP API v2, 2-way messaging webhooks, RabbitMQ queueing, DLR tracking
 - **Best for:** Freelancers and Linux practitioners building production A2P 10DLC / 2-way bulk SMS systems for the USA market
 
@@ -29,12 +29,35 @@ Telnyx SMS API Training is School of Freelancing's 40-hour, hands-on program bui
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $800 USD |
+| Price | $799 USD |
 | Duration | 40 hours over 1-4 weeks |
 | Sessions/Days | 4 weekly modules (schedule flexible, 1-4 weeks) |
 | Format | Online, hands-on |
 | Prerequisites | DigitalOcean account, Ubuntu Linux Server, a Telnyx account/domain for 10DLC registration |
 | Marketplaces targeted | General freelancing platforms (GMI clause requires purchasing connects/bids; no specific marketplace named on this page) |
+
+## What You'll Learn in Telnyx SMS API Training
+
+- **Telnyx API Fundamentals & Authentication:** Authenticate, use webhooks, and integrate the SMS/voice APIs for production deployments.
+- **10DLC Compliance & Carrier Requirements:** Brand & campaign registration with TCR, 10DLC vetting, and number management.
+- **SMS Gateway Architecture & Deployment:** Scalable infrastructure with message queuing, retry logic, and throughput optimization.
+- **Two-Way Messaging & Webhooks:** Inbound handling, replies, and real-time delivery reports with conversation threading.
+- **API Integration & Application Development:** Wire Telnyx SMS into web apps, CRMs, and automation platforms securely.
+- **Cost Optimization & Rate Management:** Rate limiting and accurate usage-based billing.
+- **Troubleshooting & Support:** Bounce codes, retry strategies, and carrier rejection diagnostics.
+
+## Course Objectives
+
+By the end of this training program, you will be able to:
+
+- **Authenticate** with Telnyx API and make successful SMS requests
+- **Register** brands and campaigns with TCR for 10DLC compliance
+- **Deploy** scalable SMS infrastructure using Telnyx
+- **Build** two-way messaging systems with webhooks and message handling
+- **Integrate** Telnyx SMS into web applications and platforms
+- **Troubleshoot** SMS delivery issues and carrier rejections
+- **Optimize** SMS costs and throughput for production workloads
+- **Offer** Telnyx SMS integration as a freelance service
 
 ## Technology Stack
 
@@ -98,7 +121,7 @@ This training secures a **Guaranteed Minimum Income (GMI)** under two conditions
 
 ## Secure Payment Gateways
 
-Pay the **$800** enrollment fee below, then click **Complete Registration** to secure your spot.
+Pay the **$799** enrollment fee below, then click **Complete Registration** to secure your spot.
 
 [Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
 

@@ -143,42 +143,43 @@
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"></noscript>
-<link rel="stylesheet" href="/assets/css/style.css?v=20260720b">
+<link rel="stylesheet" href="/assets/css/style.css">
 <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
 <style>
-  :root { --text-primary: #ffffff; --text-secondary: #e0e0e0; }
-  body { background:
+  /* Page-specific background: a richer gradient variant of the site's blue theme */
+  body {
+    background:
       radial-gradient(ellipse 70% 55% at 12% -8%, rgba(94, 130, 255, 0.45) 0%, transparent 60%),
       radial-gradient(ellipse 55% 45% at 105% 12%, rgba(0, 255, 225, 0.12) 0%, transparent 60%),
       radial-gradient(ellipse 85% 65% at 50% 112%, rgba(0, 8, 80, 0.85) 0%, transparent 65%),
-      linear-gradient(180deg, #0024ED 0%, #001bb0 55%, #00137e 100%) !important;
-    background-attachment: fixed; color: white !important; font-family: sans-serif; margin: 0; padding: 0; }
-  body * { color: inherit; }
-  .detail-wrap { max-width: 900px; margin: 0 auto; padding: 20px; }
-  
-  /* Hero Spacing Fix */
-  .page-hero { padding: 80px 0 40px 0; border-bottom: 1px solid rgba(255,255,255,0.1); }
-  .page-hero h1 { margin: 10px 0; font-size: 2.5rem; }
-  
-  .detail-meta { display:flex; gap:12px; flex-wrap:wrap; margin: 25px 0 0 0; }
-  .detail-meta span { background: rgba(255,255,255,0.15); border-radius: 6px; padding: 10px 18px; font-weight: 600; font-size: 0.95rem; }
-  
-  /* Section Spacing Fix */
-  .section { padding: 40px 0; }
-  article h2 { margin-top: 0; }
+      linear-gradient(180deg, #0024ED 0%, #001bb0 55%, #00137e 100%);
+    background-attachment: fixed;
+  }
 
-  .detail-list { padding-left: 20px; margin-bottom: 30px; list-style-type: square; }
+  .detail-wrap { max-width: 1100px; margin: 0 auto; }
+  .page-hero { padding-bottom: 0; }
+  .page-hero + .section { padding-top: 0; }
+  .detail-list { padding-left: 20px; margin-bottom: 0; list-style-type: square; }
   .detail-list li { margin-bottom: 12px; line-height: 1.6; }
-  .pipeline-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; margin: 25px 0; }
-  .pipeline-item { background: rgba(255, 255, 255, 0.1); border: 1px solid rgba(255, 255, 255, 0.2); border-radius: 4px; text-align: center; }
-  .pipeline-item a { display: block; padding: 10px; font-size: 0.85rem; text-decoration: none; transition: 0.2s; }
-  .pipeline-item:hover { background: rgba(255, 255, 255, 0.25); }
-  .payment-box { background: rgba(0,0,0,0.2); padding: 25px; border-radius: 12px; border: 1px solid rgba(255,255,255,0.3); margin: 30px 0; }
-  .payment-methods { display: flex; gap: 15px; flex-wrap: wrap; margin-top: 15px; }
-  .payment-btn { background: #fff; color: #0024ED !important; padding: 10px 20px; border-radius: 6px; font-weight: bold; text-decoration: none; }
-  .requirement-card { background: rgba(255,255,255,0.05); padding: 20px; border-left: 4px solid #fff; margin-bottom: 20px; }
-  .btn-primary { background-color: white !important; color: #0024ED !important; padding: 15px 30px; border-radius: 5px; font-weight: bold; text-decoration: none; display: inline-block; }
+  .detail-list li:last-child { margin-bottom: 0; }
+
+  /* 90-session grid */
+  .pipeline-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; margin-top: 24px; }
+  .pipeline-item { background: rgba(255, 255, 255, 0.08); border: 1px solid var(--border-color); border-radius: var(--radius-sm); text-align: center; transition: var(--transition); }
+  .pipeline-item a { display: block; padding: 10px; font-size: 0.82rem; text-decoration: none; }
+  .pipeline-item:hover { background: rgba(255, 255, 255, 0.2); border-color: var(--border-active); transform: translateY(-2px); }
+
+  /* Payment gateways */
+  .payment-methods { display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 16px; margin-top: 20px; }
+
+  /* Numbered icon used in feature cards ("You'll leave with" / requirements) */
+  .feature-icon-num { font-family: var(--font-display); font-weight: 900; font-size: 1.2rem; }
+
+  /* Force Participation Requirements cards onto a single row, equal width & height */
+  .features-grid-3 { grid-template-columns: repeat(3, 1fr); align-items: stretch; }
+  .features-grid-3 .feature-card { height: 100%; display: flex; flex-direction: column; }
+  @media (max-width: 800px) { .features-grid-3 { grid-template-columns: 1fr; } .features-grid-3 .feature-card { height: auto; } }
 </style>
 <!-- Microsoft Clarity -->
 <script type="text/javascript">
@@ -234,22 +235,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- PAGE HERO -->
 <header class="page-hero">
-  <div class="container detail-wrap">
-    <p><a href="/">Home</a> / <a href="/freelancing-training/">All Training</a> / Linux Freelancing Training</p>
-    <h1>LINUX FREELANCING TRAINING</h1>
-    <p style="font-size: 1.0rem; opacity: 0.9;">BUILT BY FREELANCERS, FOR FREELANCERS</p>
-    </div> 
+  <div class="container">
+    <nav class="breadcrumb" aria-label="Breadcrumb">
+      <a href="/">Home</a><span class="sep">/</span><a href="/freelancing-training/">All Training</a><span class="sep">/</span><span class="current">Linux Freelancing Training</span>
+    </nav>
+    <h2>LINUX FREELANCING TRAINING</h2>
+    <p>BUILT BY FREELANCERS, FOR FREELANCERS</p>
+  </div>
 </header>
 <!-- AI-CITABLE OVERVIEW -->
 <section class="section" style="padding-bottom:0;" aria-label="Linux Freelancing Training overview">
   <div class="container detail-wrap">
 
-    <h3>Overview</h3>
-    <p style="color:var(--text-secondary); line-height:1.7;">
-      Linux Freelancing Training is a premium hands-on Linux System Administration program that prepares you to deliver Linux server, cloud, and DevOps services, earn on freelance marketplaces, and work directly with global clients.
-    </p>
+    <div class="card" style="margin-bottom:32px;">
+      <h3 style="margin-bottom:12px;">Overview</h3>
+      <p style="color:var(--text-secondary); line-height:1.7; margin:0;">
+        Linux Freelancing Training is a premium hands-on Linux System Administration program that prepares you to deliver Linux server, cloud, and DevOps services, earn on freelance marketplaces, and work directly with global clients.
+      </p>
+    </div>
 
-  
     <h3>Training at a Glance:</h3>
     <table class="spec-table" width="100%" border="0">
       <thead><tr><th>Aspect</th><th>Detail</th></tr></thead>
@@ -263,100 +267,60 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<!-- PHASE 3: WHAT YOU'LL LEARN -->
-<section class="section" style="background-color: #f8f9fa; padding: 40px 0;">
-  <div class="container detail-wrap">
-    <h2 style="margin-bottom: 30px;">What You'll Learn</h2>
-
-    <h3>Linux System Administration: Server Setup & Hardening</h3>
-    <p>Master Ubuntu server configuration from initial deployment through production hardening. You'll perform user management, set up SSH key-based authentication, configure UFW firewalls, and implement security best practices that enterprise clients expect on their infrastructure.</p>
-
-    <h3>Package Management: APT & System Updates</h3>
-    <p>Learn Debian's APT package management system (apt-get, apt) to install, update, and remove software safely. Understand dependency resolution, repository configuration, security patching strategies, and how to maintain stable production systems while keeping packages current.</p>
-
-    <h3>Systemd Service Management: Automation & Monitoring</h3>
-    <p>Master systemd, Ubuntu's modern service management framework. You'll create custom services, set up process monitoring and auto-restart policies, manage system resources, and ensure applications stay running reliably 24/7 even after server reboots.</p>
-
-    <h3>Docker & Container Basics: Modern Application Deployment</h3>
-    <p>Understand containerization fundamentals: pulling images, running containers, managing volumes and networking, and deploying containerized applications on Linux servers. Prepare your infrastructure for the container-based applications your freelance clients will demand.</p>
-
-    <h3>Networking & Connectivity: DNS, DHCP, SSH</h3>
-    <p>Configure network interfaces, understand IPv4/IPv6 addressing schemes, set up secure SSH access with key-based authentication, and troubleshoot connectivity issues. Essential foundational skills for managing servers remotely and integrating them into client networks securely.</p>
-
-    <h3>File System & Permissions: Security Through Access Control</h3>
-    <p>Master Linux file permissions (chmod/chown), understand the filesystem hierarchy (FHS), manage symbolic and hard links, and configure mount points. Build secure multi-user systems where user data is protected and application access is properly restricted.</p>
-
-    <h3>System Troubleshooting & Log Analysis: Real-World Problem-Solving</h3>
-    <p>Learn to read and interpret system logs using journalctl and common log files, understand error messages, use diagnostic tools (ps, top, netstat, lsof), and methodically troubleshoot system performance issues. Real-world problem-solving skills that clients desperately need when things go wrong.</p>
-
-    <h3>Backup & Disaster Recovery: Data Protection Strategy</h3>
-    <p>Implement backup strategies using tar and rsync, understand recovery procedures, set up automated backup systems and verify they work. Protect client data, minimize downtime, and build reliability into every system you deploy.</p>
-
-    <h3>Nginx Web Server: Modern HTTP/HTTPS Infrastructure</h3>
-    <p>Deploy and configure Nginx as a reverse proxy, static file server, and load balancer. Understand virtual hosts, SSL/TLS configuration with Certbot, and performance tuning for production web applications.</p>
-  </div>
-</section>
-
-<!-- PHASE 3: COURSE OBJECTIVES -->
 <section class="section">
-  <div class="container detail-wrap">
-    <h2 style="margin-bottom: 30px;">Course Objectives</h2>
-    <p style="margin-bottom: 20px;">By the end of this training program, you will be able to:</p>
-    <ul class="detail-list">
-      <li><strong>Deploy</strong> a hardened Ubuntu Linux server from bare metal through production-ready configuration</li>
-      <li><strong>Configure</strong> system security including firewall rules, SSH hardening, and user access controls</li>
-      <li><strong>Manage</strong> system services and applications using systemd for reliable 24/7 operation</li>
-      <li><strong>Troubleshoot</strong> server issues using logs, diagnostic tools, and methodical problem-solving techniques</li>
-      <li><strong>Implement</strong> automated backup and disaster recovery procedures to protect client data</li>
-      <li><strong>Deploy</strong> containerized applications using Docker on Linux servers</li>
-      <li><strong>Configure</strong> web infrastructure with Nginx including SSL/TLS certificates and reverse proxying</li>
-      <li><strong>Optimize</strong> server performance for production workloads and high-traffic applications</li>
-      <li><strong>Create</strong> a professional freelance service offering and complete job proposals on Upwork, Guru, and Freelancer</li>
-      <li><strong>Market</strong> your Linux skills on YouTube and LinkedIn to attract direct clients</li>
-    </ul>
-  </div>
-</section>
-
-<section class="section">
-  <div class="container detail-wrap">
-
-    <article>
-      <h3>Participation Requirements</h3>
-      <div class="requirement-card">
-        <h3>Training Prerequisites</h3>
-        <ul class="detail-list">
-          <li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_new">DigitalOcean:</a></strong> Ubuntu Linux Server (24.04 or 26.04 LTS recommended).</li>
-          <li><strong>Domain:</strong> Any domain or sub domain will work.</li>
-          <li><strong>Accounts:</strong> Verified Freelance Profiles and others accounts.</li>
-           <li><strong>Rigorous:</strong> Need to have patience and concentration during all training sessions.</li>
-                 </ul>
-        <h3>Connectivity</h3>
-        <ul class="detail-list">
-        <li>Portable messaging devices for 24/7 client communication.</li>
-        <li>Reliable fiber-optic internet access for uninterruptible training sessions.</li>
-        </ul>
-        <h3>Training Rules</h3>
-        <ul class="detail-list">
-        <li>These <strong><a href="/legal/training-rules/" target="_self">Training Rules ("Ground Rules")</a></strong> apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.</li>
-        </ul>        
-      </div>
+  <div class="container">
+    <article class="detail-wrap" style="max-width:none;">
+      <h3 style="margin-bottom:20px;">Participation Requirements:</h3>
     </article>
+      <div class="features-grid features-grid-3">
+        <div class="feature-card">
+         
+          <h3 class="feature-title">Training Prerequisites</h3>
+          <ul class="detail-list">
+            <li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_new">DigitalOcean account,</a></strong> Any Domain, &amp; Verified Marketplace Profiles.</li>
+            <li><strong>Rigorous:</strong> Need to have patience and concentration during all training sessions.</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+         
+          <h3 class="feature-title">Connectivity</h3>
+          <ul class="detail-list">
+            <li>Portable messaging devices for 24/7 client communication.</li>
+            <li>Reliable fiber-optic internet access for uninterruptible training sessions.</li>
+          </ul>
+        </div>
+        <div class="feature-card">
+         
+          <h3 class="feature-title">Training Rules</h3>
+          <ul class="detail-list">
+            <li>These <strong><a href="/legal/training-rules/" target="_self">Training Rules</a></strong> apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.</li>
+          </ul>
+        </div>
+      </div>
 
-<h3>You'll leave with:</h3>
-    <table class="spec-table" width="100%" border="0">
-            <tbody>
-        <tr><td>1:</td><td>Hands-on experience in Linux system administration and how it can be applied to online earning.</td></tr>
-        <tr><td>2:</td><td>Stronger habits for deploying, troubleshooting, and reviewing Linux server applications.</td></tr>
-        <tr><td>3:</td><td>An improved version of a real task you regularly perform.</td></tr>
-    <tr><td>4:</td><td>One year of free credential verification support after successfully completing this training.</td></tr>
-        </tbody>
-    </table>
+  <div class="detail-wrap">
+
+<h3 style="margin:40px 0 20px;">You'll leave with:</h3>
+    <div class="features-grid">
+      <div class="feature-card">
+        <div class="feature-icon"><span class="feature-icon-num">1</span></div>
+        <p style="color:var(--text-secondary); margin:0;">Hands-on experience in Linux system administration and how it can be applied to online earning.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><span class="feature-icon-num">2</span></div>
+        <p style="color:var(--text-secondary); margin:0;">Stronger habits for deploying, troubleshooting, and reviewing Linux server applications.</p>
+      </div>
+      <div class="feature-card">
+        <div class="feature-icon"><span class="feature-icon-num">3</span></div>
+        <p style="color:var(--text-secondary); margin:0;">An improved version of a real task you regularly perform.</p>
+      </div>
+         </div>
 
 
-    <article>
-      <h3>Training Modules (90 Hands-on Training Sessions)</h3>
-      <p>Review your training sessions closely to make sure they help you improve your Linux skills for freelancing.</p>
-      
+    <article class="card" style="margin-top:40px;">
+      <h3>Hands-on Training Modules:</h3>
+      <p style="color:var(--text-secondary);">Review each session to maximize your freelancing Linux skills.</p>
+
       <div class="pipeline-grid">
         <div class="pipeline-item"><a href="https://docs.google.com/document/d/17XTxh_9XgJ4--37dLbIe8ZNkr416ThnypsMwPjbb_nU/edit?usp=sharing" target="_blank">Session 01</a></div>
         <div class="pipeline-item"><a href="https://docs.google.com/document/d/13iPvZZvilKKCK0To08sWtHG2O1IZgIOpVZP-erq8UR0/edit?usp=sharing" target="_blank">Session 02</a></div>
@@ -451,21 +415,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
     </article>
 
-<article>
-         <h3>Guaranteed Minimum Income (GMI)*:</h3>
-      <p>This training secures a <strong>Guaranteed Minimum Income (GMI)*</strong> under two conditions:</p>
+<article class="card" style="margin-top:24px;">
+      <h3>Guaranteed Minimum Income Conditions:</h3>
       <ul class="detail-list">
         <li><strong>Attendance:</strong> Zero-Leave attendance across all training sessions.</li>
         <li><strong>Active Bidding:</strong> Purchase bids/connects on marketplaces to search, apply, and get hired for jobs.</li>
       </ul>
     </article>
 
-    <article class="payment-box">
-      <h2 align="center">Secure Payment Gateways</h2>
-      <p align="center">Pay the <strong>$600</strong> enrollment fee below, then click <strong>Complete Registration</strong> to secure your seat.</p>
-     
+    <article class="payment-box card" style="text-align:center; margin-top:24px;">
+      <h2>Payment Gateways</h2>
+      <p>Pay the <strong>$599</strong> enrollment fee below, then click <strong>Complete Registration</strong>.</p>
 
-     <div class="payment-methods" style="display: flex; justify-content: center; align-items: center; flex-wrap: wrap; gap: 16px;">
+     <div class="payment-methods">
 
        <!--Wise Payment-->
 <a href="https://wise.com/pay/me/mohammadk206?utm_source=request_flow" target="_blank" style="display: inline-block; padding: 12px 28px; background-color: #00E676; color: #1E1E1F; font-family: Arial, sans-serif; font-weight: bold; font-size: 16px; text-decoration: none; border-radius: 24px; box-shadow: 0 2px 4px rgba(0,0,0,0.1); transition: background-color 0.2s;"><i class="fa-solid fa-building-columns" aria-hidden="true"></i> Pay with Wise</a>
@@ -519,15 +481,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </div>
     </article>
 
-     <article style="text-align: center;">
+     <article class="card" style="text-align: center; margin-top:24px;">
       <h2>Already paid?</h2>
-      
+
       <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
        <a href="/register/" class="btn btn-primary btn-lg">Complete Registration</a>
       <a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
       </div>
     </article>
   </div>
+
+</div>
 
 </section>
 </main>
@@ -596,7 +560,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </footer>
 
-<script src="/assets/js/main.js?v=20260718" defer></script>
+<script src="/assets/js/main.js" defer></script>
 <chat-bubble-snippet
   api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
 ></chat-bubble-snippet>

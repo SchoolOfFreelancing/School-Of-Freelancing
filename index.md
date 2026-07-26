@@ -1,6 +1,6 @@
 <!-- Auto-generated Markdown of https://www.schooloffreelancing.com/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
-# Build a High-Income Linux & AI Freelancing Career
+# Linux Freelancing Training & Services | School of Freelancing
 
 Practical, instructor-led training and reliable Linux & AI services for businesses. Serving clients worldwide since 2015.
 
@@ -86,7 +86,7 @@ Allocation: 40 Training Hours / 1-4 Weeks
 
 ## Verified Rating
 
-⭐⭐⭐⭐⭐ on Google Reviews
+⭐⭐⭐⭐⭐ 5.0 Rated on Google Reviews
 
 “
 
@@ -116,7 +116,7 @@ Verified Student
 
 ## Linux & AI Services
 
-Fast, reliable support for businesses worldwide, whenever you need
+Fast global support, always on
 
 ![DigitalOcean logo](/assets/images/digitalocean.png)
 
