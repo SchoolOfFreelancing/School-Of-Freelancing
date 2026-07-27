@@ -6,35 +6,34 @@
 
 A hands-on LocalAI Training: run any model — LLMs, vision, voice, image, and video — on standard hardware with no GPU required, then sell it as a freelance service to clients who want AI without the cloud API bill.
 
-💵 $200
-⏱ 20 Hours
-📅 5 Days
-🎯 Guru · Freelancer · Upwork
-
 Prefer to skip the training and have it done for you? [**Hire us for LocalAI Support**](/linux-ai-services/local-ai-services/) instead.
 
-## What Is LocalAI Hands-on Training?
+## Overview
 
 LocalAI Hands-on Training is School of Freelancing's 20-hour, instructor-led course on LocalAI, the open-source AI engine that runs LLM, vision, voice, image, and video models on standard hardware without requiring a GPU. The training walks Linux users through installing and configuring LocalAI, deploying multi-modal models, and securing a client-facing API, then teaches how to sell that skill set as a freelance service on Upwork, Freelancer.com, and Guru.com.
 
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on labs
-- **Duration:** 20 hours across 5 days (4 hours/day)
-- **Price:** $200 USD, paid in full before enrollment
-- **Covers:** LocalAI installation, LLM/vision/image/video/voice model deployment, API security, client integration
-- **Best for:** Beginner-to-intermediate Linux users seeking freelance AI/LocalAI work
-
-## LocalAI Hands-on Training at a Glance
+## Training at a Glance
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $200 USD |
-| Duration | 20 hours over 5 days |
-| Sessions/Days | 5 days × 4 hours |
+| Price | $219 USD |
+| Duration | 20 hours over 2 weeks |
+| Sessions/Days | 10 sessions (5 sessions/week, 2 hours each) |
 | Format | Online, instructor-led |
 | Prerequisites | Ubuntu Linux server (no GPU required), a domain, a freelance marketplace account |
 | Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+
+## What You'll Learn
+
+- **LocalAI Engine: Open-Source AI Without GPU Costs** — Understand LocalAI's architecture and how it runs LLM, vision, voice, image, and video models on CPU hardware without expensive GPUs.
+- **Model Management: Downloading, Installing, and Optimizing** — Download models from HuggingFace, configure quantization, manage multiple models on limited hardware.
+- **LLM Deployment: Text Generation & Chat Interfaces** — Deploy LLMs for text generation, set up chat interfaces, configure system prompts, integrate into client applications.
+- **Vision Models: Image Recognition & Analysis** — Deploy vision models for classification, object detection, captioning, and OCR.
+- **Speech Recognition & Text-to-Speech** — Deploy speech-to-text and text-to-speech models for voice-enabled applications.
+- **Image Generation: Stable Diffusion Alternatives** — Run local image generation models to create artwork and visual content from text prompts.
+- **API Security & Client Integration** — Expose LocalAI through a secure API with authentication and rate limiting for production use.
+- **Performance Tuning & Hardware Optimization** — Optimize memory management, batch processing, and multi-core scaling.
+- **Troubleshooting & Support** — Diagnose model loading issues, out-of-memory errors, and inference speed problems.
 
 ## Participation Requirements
 
@@ -46,8 +45,8 @@ LocalAI Hands-on Training is School of Freelancing's 20-hour, instructor-led cou
 
 ## Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
 ## Training Rules
 
@@ -55,49 +54,31 @@ LocalAI Hands-on Training is School of Freelancing's 20-hour, instructor-led cou
 
 ## Who This Is For
 
-Beginners to intermediate Linux users who want job-ready LocalAI skills and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach. You should be able to commit to 20 hours of hands-on, instructor-led training over 5 days.
+Beginners to intermediate Linux users who want job-ready LocalAI skills and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach. You should be able to commit to 20 hours of hands-on, instructor-led training over 2 weeks.
 
-## Curriculum: 5 Days × 4 Hours (20 Hours Total)
+## Training Curriculum: 10 Sessions
 
-### Day 1: LocalAI Fundamentals & Installation (4h)
+2 weeks, 5 sessions/week, 2 hours per session (20 hours total).
 
-- What LocalAI is, the OpenAI-compatible API, and why no GPU is needed
-- Installing LocalAI on a Linux VPS (Docker and binary methods)
-- CLI basics, config files, and the model gallery
+### Week 1
 
-🧪 Lab: Install LocalAI on a fresh VPS and run your first prompt via the API
+| Session | Topic | Content |
+| --- | --- | --- |
+| 1 | LocalAI Fundamentals | What LocalAI is, the OpenAI-compatible API, why no GPU is needed |
+| 2 | Install & First API Call | Docker/binary install on a Linux VPS, CLI basics, config files, model gallery — Lab: install and run your first prompt via the API |
+| 3 | LLM Backends | Downloading and configuring LLM backends (llama.cpp-based, quantized GGUF) |
+| 4 | Prompting & Chat Endpoints | Prompt templates, context size tuning, quantization tradeoffs, OpenAI-compatible chat endpoint — Lab: deploy a quantized LLM and query it via curl/Postman |
+| 5 | Image Generation | Stable Diffusion-compatible backends for text-to-image generation |
 
-### Day 2: Running LLM Models (4h)
+### Week 2
 
-- Downloading and configuring LLM backends (llama.cpp-based models, quantized GGUF)
-- Prompt templates, context size tuning, and quantization tradeoffs
-- Exposing an OpenAI-compatible chat completions endpoint
-
-🧪 Lab: Deploy a quantized LLM and query it via curl/Postman
-
-### Day 3: Vision, Image & Video Models (4h)
-
-- Image generation backends (Stable Diffusion-compatible models)
-- Vision models for image captioning and analysis
-- Video generation basics with LocalAI
-
-🧪 Lab: Generate images and captions through LocalAI's REST API
-
-### Day 4: Voice Models & Secure Client Integration (4h)
-
-- Speech-to-text and text-to-speech backends
-- Securing the API: authentication, reverse proxy, SSL
-- Integrating LocalAI into a client-facing application
-
-🧪 Lab: Wire up speech-to-text/text-to-speech endpoints behind an SSL reverse proxy
-
-### Day 5: Client Project Simulation & Freelance Client Acquisition (4h)
-
-- Full end-to-end task: fresh VPS → LocalAI install → multi-modal models → domain → SSL
-- Building winning Upwork/Freelancer.com/Guru.com profiles & portfolios
-- Pricing your services and LinkedIn outreach for direct clients
-
-🧪 Final Assessment: Submit 1 Upwork proposal + 1 LinkedIn outreach message (reviewed live)
+| Session | Topic | Content |
+| --- | --- | --- |
+| 6 | Vision & Video Models | Image captioning and analysis, video generation basics — Lab: generate images and captions through LocalAI's REST API |
+| 7 | Speech Models | Speech-to-text and text-to-speech backends |
+| 8 | API Security & Client Integration | Authentication, reverse proxy, SSL, integrating LocalAI into a client-facing app — Lab: wire up STT/TTS behind an SSL reverse proxy |
+| 9 | End-to-End Deployment | Full task: fresh VPS → LocalAI install → multi-modal models → domain → SSL |
+| 10 | Marketplace Launch & Outreach | Upwork/Freelancer/Guru profiles & portfolios, pricing, LinkedIn outreach — Final Assessment: submit 1 proposal + 1 outreach message (reviewed live) |
 
 ## Deliverables Upon Completion
 
@@ -112,7 +93,7 @@ LocalAI, Docker, Nginx, Certbot/Let's Encrypt, Stable Diffusion-compatible model
 
 ## Secure Payment Gateways
 
-Pay the **$200** enrollment fee below, then click **Complete Registration** to confirm.
+Pay the **$219** enrollment fee below, then click **Complete Registration** to confirm.
 
 [Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
 
