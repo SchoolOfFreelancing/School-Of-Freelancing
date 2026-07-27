@@ -271,7 +271,7 @@ img { max-width: 100%; height: auto; display: block; }
 
 .nav-links {
   display: flex;
-  align-items: center;
+  align-items: right;
   gap: 8px;
 }
 
@@ -279,7 +279,7 @@ img { max-width: 100%; height: auto; display: block; }
   position: relative;
   font-size: 0.8rem;
   letter-spacing: 0.1em;
-  text-transform: uppercase;
+  text-transform: none;
   color: white;
   padding: 6px 14px;
   border-radius: var(--radius-sm);
