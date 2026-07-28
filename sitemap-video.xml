@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9"
+        xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
+  <url>
+    <loc>https://www.schooloffreelancing.com/</loc>
+    <video:video>
+      <video:thumbnail_loc>https://i.ytimg.com/vi/bbJCBn_vUzs/maxresdefault.jpg</video:thumbnail_loc>
+      <video:title>School of Freelancing — Linux &amp; AI Freelancing Training Introduction</video:title>
+      <video:description>Introduction to School of Freelancing: hands-on Linux &amp; AI freelancing training and reliable Linux/IT support services, built on real production systems.</video:description>
+      <video:content_loc>https://www.youtube.com/watch?v=bbJCBn_vUzs</video:content_loc>
+      <video:player_loc>https://www.youtube.com/embed/bbJCBn_vUzs</video:player_loc>
+      <video:publication_date>2022-06-13T00:00:00+06:00</video:publication_date>
+    </video:video>
+  </url>
+</urlset>
