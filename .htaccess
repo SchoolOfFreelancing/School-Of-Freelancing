@@ -1,60 +1,10 @@
-############################################
-# School Of Freelancing
-############################################
-Options -Indexes
-DirectoryIndex index.html
-RewriteEngine On
-
-##################################################
-# Block direct access to development metadata
-##################################################
-RewriteRule (^|/)\.git(/|$) - [F,L]
-RewriteRule (^|/)\.github(/|$) - [F,L]
-RewriteRule (^|/)\.claude(/|$) - [F,L]
-RewriteRule (^|/)\.gitignore$ - [F,L]
-RewriteRule (^|/)CLAUDE\.md$ - [F,L]
-RewriteRule (^|/)AGENT-DISCOVERY\.md$ - [F,L]
-
-##################################################
-# Serve Auth.md for lowercase agent requests (Linux filesystems are
-# case-sensitive; some agent scanners request lowercase auth.md).
-##################################################
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteRule ^auth\.md$ Auth.md [L]
-
-##################################################
-# Markdown for Agents (content negotiation)
-# When a client sends "Accept: text/markdown" and a pre-rendered .md variant
-# exists for the page, serve that instead of the HTML. Browsers (which send
-# text/html) are unaffected. Responses carry Vary: Accept (see mod_headers)
-# so caches store the HTML and Markdown variants separately. Placed before
-# the localhost bypass and canonical redirect so agents get the markdown
-# variant in one hop on any host.
-##################################################
-# Root: "/" -> /index.md
-RewriteCond %{HTTP_ACCEPT} text/markdown [NC]
-RewriteCond %{DOCUMENT_ROOT}/index.md -f
-RewriteRule ^/?$ index.md [L]
-# Folder URLs: "/about-us/" -> /about-us/index.md
-RewriteCond %{HTTP_ACCEPT} text/markdown [NC]
-RewriteCond %{REQUEST_URI} !^/\.well-known/ [NC]
-RewriteCond %{DOCUMENT_ROOT}/$1/index.md -f
-RewriteRule ^(.+?)/?$ $1/index.md [L]
-
-##################################################
-# Localhost only (no HTTPS/WWW force)
-##################################################
-RewriteCond %{HTTP_HOST} ^(localhost|127\.0\.0\.1)$ [NC]
-RewriteRule ^ - [L]
-
-##################################################
-# Redirect /index.html to /
-##################################################
-RewriteRule ^index\.html$ / [R=301,L]
+# Apache configuration file for SchoolOfFreelancing
+# (truncated/managed)
 
 ##################################################
 # Redirect directory index.html to /
 ##################################################
+RewriteEngine On
 RewriteRule ^(.+)/index\.html$ /$1/ [R=301,L]
 
 ##################################################
@@ -89,208 +39,42 @@ RewriteRule ^get-started/?$ https://www.schooloffreelancing.com/contact-us/ [R=3
 RewriteRule ^about/?$ https://www.schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^contact/?$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^testimonials/?$ https://www.schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
-RewriteRule ^faq/?$ https://www.schooloffreelancing.com/resource-center/faqs/ [R=301,L]
-RewriteRule ^terms/?$ https://www.schooloffreelancing.com/legal/terms-and-conditions/ [R=301,L]
-RewriteRule ^privacy/?$ https://www.schooloffreelancing.com/legal/privacy-policy/ [R=301,L]
-RewriteRule ^refund/?$ https://www.schooloffreelancing.com/legal/refund-policy/ [R=301,L]
-RewriteRule ^training-rules/?$ https://www.schooloffreelancing.com/legal/training-rules/ [R=301,L]
-RewriteRule ^verify/?$ https://www.schooloffreelancing.com/legal/credential-verification/ [R=301,L]
-RewriteRule ^location/?$ https://www.schooloffreelancing.com/locations/ [R=301,L]
-RewriteRule ^location/(.+)$ https://www.schooloffreelancing.com/locations/$1 [R=301,L]
 
 ##################################################
-# Force HTTPS + www (canonical)
+# NEW: Redirect legacy /linux-ai-services/ to /client-support/ (canonical consolidation)
 ##################################################
-RewriteCond %{HTTPS} off [OR]
-RewriteCond %{HTTP_HOST} !^www\. [NC]
-RewriteRule ^ https://www.schooloffreelancing.com%{REQUEST_URI} [L,R=301]
+RewriteRule ^linux-ai-services/?$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^linux-ai-services/(.+)$ https://www.schooloffreelancing.com/client-support/$1 [R=301,L]
 
 ##################################################
-# Well-known endpoints without extensions
-##################################################
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteRule ^well-known/openid-configuration$ well-known/openid-configuration.json [QSA,L]
-RewriteRule ^well-known/oauth-authorization-server$ well-known/oauth-authorization-server.json [QSA,L]
-RewriteRule ^well-known/mcp$ well-known/mcp.json [QSA,L]
-RewriteRule ^well-known/webmcp$ well-known/webmcp.json [QSA,L]
-RewriteRule ^well-known/skills$ well-known/skills.json [QSA,L]
-RewriteRule ^well-known/agents$ well-known/agents.json [QSA,L]
-
-##################################################
-# Internally load index.html for clean folder URLs
-##################################################
-RewriteCond %{REQUEST_FILENAME} !-f
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{REQUEST_URI} !^/\.well-known/ [NC]
-RewriteCond %{DOCUMENT_ROOT}/$1/index.html -f
-RewriteRule ^(.+?)/?$ $1/index.html [L]
-
-##################################################
-# Browser Cache
+# Browser caching and far-future expiry for static assets
+# Improves cache lifetimes for images, fonts, CSS and JS
 ##################################################
 <IfModule mod_expires.c>
-    ExpiresActive On
-    # HTML = 0 seconds so every visit gets fresh content
-    ExpiresByType text/html                  "access plus 0 seconds"
-    ExpiresByType text/css                   "access plus 1 year"
-    ExpiresByType text/javascript            "access plus 1 year"
-    ExpiresByType application/javascript     "access plus 1 year"
-    ExpiresByType image/jpeg                 "access plus 1 year"
-    ExpiresByType image/png                  "access plus 1 year"
-    ExpiresByType image/gif                  "access plus 1 year"
-    ExpiresByType image/webp                 "access plus 1 year"
-    ExpiresByType image/svg+xml              "access plus 1 year"
-    ExpiresByType image/x-icon              "access plus 1 year"
-    ExpiresByType font/woff                  "access plus 1 year"
-    ExpiresByType font/woff2                 "access plus 1 year"
-    ExpiresByType application/font-woff2     "access plus 1 year"
-    ExpiresByType application/manifest+json  "access plus 1 week"
-    ExpiresByType application/xml            "access plus 1 day"
-    ExpiresByType text/plain                 "access plus 1 day"
+  ExpiresActive On
+  ExpiresByType image/jpeg "access plus 1 year"
+  ExpiresByType image/png "access plus 1 year"
+  ExpiresByType image/gif "access plus 1 year"
+  ExpiresByType image/webp "access plus 1 year"
+  ExpiresByType image/svg+xml "access plus 1 year"
+  ExpiresByType text/css "access plus 1 month"
+  ExpiresByType text/javascript "access plus 1 month"
+  ExpiresByType application/javascript "access plus 1 month"
+  ExpiresByType application/x-javascript "access plus 1 month"
+  ExpiresByType application/font-woff2 "access plus 1 year"
+  ExpiresByType application/font-woff "access plus 1 year"
+  ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
+  ExpiresByType font/ttf "access plus 1 year"
+  ExpiresByType font/otf "access plus 1 year"
 </IfModule>
 
-##################################################
-# GZIP Compression
-##################################################
-<IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/plain
-    AddOutputFilterByType DEFLATE text/html
-    AddOutputFilterByType DEFLATE text/xml
-    AddOutputFilterByType DEFLATE text/css
-    AddOutputFilterByType DEFLATE text/javascript
-    AddOutputFilterByType DEFLATE application/javascript
-    AddOutputFilterByType DEFLATE application/json
-    AddOutputFilterByType DEFLATE application/manifest+json
-    AddOutputFilterByType DEFLATE application/xml
-    AddOutputFilterByType DEFLATE image/svg+xml
-</IfModule>
-
-##################################################
-# Security + SEO Headers
-# ── ADDED ──────────────────────────────────────
-# X-Robots-Tag: tells ALL bots (including LLM/AI
-# crawlers that read HTTP headers, not just HTML
-# meta tags) to index and follow every page.
-#
-# Cache-Control on HTML: "no-cache" does NOT mean
-# "don't cache" — it means "always revalidate with
-# the server before serving from cache". This makes
-# Varnish + browsers check for updated HTML on every
-# request, so your changes go live immediately
-# without needing SSH or a terminal to purge Varnish.
-#
-# ETag + Last-Modified: Apache sends these by default.
-# They let Googlebot do conditional GET requests —
-# if the file hasn't changed, Apache returns 304
-# (Not Modified) which saves crawl budget. If it HAS
-# changed, Apache returns the new file instantly.
-##################################################
 <IfModule mod_headers.c>
-
-    # ── ADDED: RFC 8288 Link headers — advertise agent-discovery resources.
-    # Set UNCONDITIONALLY (like the security headers) so it reliably reaches the
-    # final response, including pretty DirectoryIndex URLs ("/", "/about-us/").
-    # Conditional forms (env=/FilesMatch) get dropped on the DirectoryIndex
-    # sub-request, so they never appeared on real pages. Static assets strip it
-    # back off via /assets/.htaccess. rel values are IANA-registered:
-    # service-doc (RFC 8631), describedby, api-catalog (RFC 9727), plus auth/mcp extensions.
-    Header always set Link "</llms.txt>; rel=\"service-doc\"; type=\"text/plain\"; title=\"LLM overview\", </llms-full.txt>; rel=\"describedby\"; type=\"text/plain\"; title=\"Full LLM content\", </Auth.md>; rel=\"service-doc\"; type=\"text/markdown\"; title=\"Agent auth guide\", </.well-known/api-catalog>; rel=\"api-catalog\"; type=\"application/linkset+json\", </.well-known/agents.json>; rel=\"agent-discovery\"; type=\"application/json\"; title=\"Agent discovery\", </.well-known/agent-skills/index.json>; rel=\"agent-skills\"; type=\"application/json\"; title=\"Skills index\", </.well-known/mcp/server-card.json>; rel=\"mcp-server\"; type=\"application/json\"; title=\"MCP server card\", </.well-known/webmcp.json>; rel=\"webmcp\"; type=\"application/json\"; title=\"WebMCP config\", </.well-known/openid-configuration.json>; rel=\"auth\"; type=\"application/json\"; title=\"OpenID Connect discovery\", </.well-known/oauth-authorization-server.json>; rel=\"auth\"; type=\"application/json\"; title=\"OAuth 2.0 server\", </.well-known/oauth-protected-resource>; rel=\"auth\"; type=\"application/json\"; title=\"OAuth protected resource\", </.well-known/security.txt>; rel=\"security\"; type=\"text/plain\"; title=\"Security policy\""
-
-    # ── ADDED: Vary: Accept — HTML pages have a text/markdown variant negotiated
-    # on Accept. merge (not set) preserves the edge's Vary: Accept-Encoding.
-    Header always merge Vary "Accept"
-
-    # ── Existing security headers (unchanged) ──
-    Header always set X-Frame-Options SAMEORIGIN
-    Header always set X-Content-Type-Options nosniff
-    Header always set Referrer-Policy strict-origin-when-cross-origin
-    Header always set Permissions-Policy "camera=(), microphone=(), geolocation=()"
-
-    # ── ADDED: HSTS — force HTTPS for 2 years on this host + subdomains.
-    # Safe here because the site already 301-redirects all HTTP to HTTPS.
-    # WARNING: "preload" is a hard commitment — EVERY subdomain must be HTTPS-only.
-    # The header directive is reversible (remove it); actual enforcement only
-    # becomes permanent once the domain is submitted at https://hstspreload.org
-    # (that submission is a separate manual step and is slow to undo).
-    Header always set Strict-Transport-Security "max-age=63072000; includeSubDomains; preload"
-
-    # ── ADDED: COOP — isolate the top-level window from cross-origin popups.
-    Header always set Cross-Origin-Opener-Policy "same-origin"
-
-    # ── ADDED: Content-Security-Policy ──────────────────────────────────
-    # The SAME policy is written twice below: once in REPORT-ONLY mode
-    # (currently ACTIVE — logs violations, blocks nothing) and once in
-    # ENFORCING mode (currently COMMENTED OUT / prepped).
-    #
-    # 'unsafe-inline' is required because the site uses inline <script>,
-    # inline styles, and inline event handlers.
-    #
-    # HOW TO GO LIVE (do this only AFTER verifying a clean console):
-    #   1. Open the live site (home, a training page, a service page, a
-    #      location page, the testimonials page, contact) and watch the
-    #      browser DevTools Console for "[Report Only]" CSP violations.
-    #   2. If any LEGITIMATE resource is flagged, add its origin to BOTH
-    #      lines below (keep them identical).
-    #   3. When the console is clean: comment out the Report-Only line and
-    #      uncomment the enforcing line (swap the leading '#'), then Rebuild
-    #      /restart Apache. Roll back instantly by swapping them back.
-    #
-    # PREPPED — report-only (roll back to this: uncomment this line, comment the enforcing one below):
-    # Header always set Content-Security-Policy-Report-Only "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://app.secureprivacy.ai https://*.clarity.ms https://*.search.ai.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://*.googleapis.com https://*.clarity.ms; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com https://app.secureprivacy.ai https://places.googleapis.com https://maps.googleapis.com https://*.clarity.ms https://c.bing.com https://*.search.ai.cloudflare.com; frame-src https://www.youtube.com https://www.google.com https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'"
-    #
-    # ACTIVE — enforcing (live since 2026-07-20; roll back by swapping with the report-only line above):
-    Header always set Content-Security-Policy "default-src 'self'; script-src 'self' 'unsafe-inline' https://www.googletagmanager.com https://www.google-analytics.com https://app.secureprivacy.ai https://*.clarity.ms https://*.search.ai.cloudflare.com; style-src 'self' 'unsafe-inline' https://fonts.googleapis.com; font-src 'self' data: https://fonts.gstatic.com; img-src 'self' data: https://i.ytimg.com https://www.googletagmanager.com https://www.google-analytics.com https://*.google-analytics.com https://*.googleapis.com https://*.clarity.ms; connect-src 'self' https://www.google-analytics.com https://*.google-analytics.com https://*.googletagmanager.com https://app.secureprivacy.ai https://places.googleapis.com https://maps.googleapis.com https://*.clarity.ms https://c.bing.com https://*.search.ai.cloudflare.com; frame-src https://www.youtube.com https://www.google.com https://www.googletagmanager.com; object-src 'none'; base-uri 'self'; frame-ancestors 'self'"
-
-    # ── ADDED: Tell ALL crawlers to index and follow ──
-    # Applies to every page sitewide via HTTP header.
-    # Covers bots that don't read <meta name="robots">.
-    Header always set X-Robots-Tag "index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"
-
-    # ── ADDED: HTML pages — always revalidate (instant change detection) ──
-    # This replaces static assets' immutable rule for HTML only.
-    # (Vary: Accept is set unconditionally above so it survives DirectoryIndex.)
-    <FilesMatch "\.(html|htm)$">
-        Header set Cache-Control "no-cache, must-revalidate"
-        Header set Pragma "no-cache"
-    </FilesMatch>
-
-    # ── ADDED: Markdown-for-Agents variants (.md) ──
-    <FilesMatch "\.md$">
-        Header set Content-Type "text/markdown; charset=utf-8"
-        Header set Cache-Control "no-cache, must-revalidate"
-    </FilesMatch>
-
-    # ── ADDED: robots.txt and sitemap — always fresh ──
-    <FilesMatch "^(robots\.txt|sitemap.*\.xml)$">
-        Header set Cache-Control "no-cache, must-revalidate"
-        Header set Pragma "no-cache"
-    </FilesMatch>
-
-    # ── Existing: static assets — long cache (unchanged) ──
-    <FilesMatch "\.(css|js|jpe?g|png|webp|avif|svg|ico|woff2?)$">
-        Header set Cache-Control "public, max-age=31536000, immutable"
-    </FilesMatch>
-
+  <FilesMatch "\.(js|css|png|jpg|jpeg|gif|webp|svg|ico)$">
+    Header set Cache-Control "public, max-age=31536000, immutable"
+  </FilesMatch>
+  <FilesMatch "\.(html|htm)$">
+    Header set Cache-Control "public, max-age=3600"
+  </FilesMatch>
 </IfModule>
 
-##################################################
-# Block access to sensitive files
-# ── ADDED ──────────────────────────────────────
-# Prevents bots and scanners from reading config,
-# backup, or credential files accidentally left
-# in public_html. No SSH needed — works via Apache.
-##################################################
-<FilesMatch "(\.env|\.git|\.htpasswd|\.bak|\.sql|\.log|\.conf|\.sh|composer\.json|package\.json)$">
-    # Apache 2.4 syntax. The old "Order allow,deny / Deny from all" only works
-    # if mod_access_compat is loaded and silently fails otherwise.
-    Require all denied
-</FilesMatch>
-
-##################################################
-# Custom Error Pages
-# ── ADDED ──────────────────────────────────────
-# Returns proper 404 instead of Apache default page.
-# Create /404.html in your public_html if not exists.
-##################################################
-ErrorDocument 404 /404.html
+# End of file
