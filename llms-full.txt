@@ -1,0 +1,107 @@
+# School of Freelancing — Complete Training & Service Directory
+
+**Last Updated:** 2026-07-22 | **Language:** English | **Delivery:** 100% Remote/Online
+
+School of Freelancing is a Bangladesh-based, government-verified Linux and AI freelancing training and remote IT support provider. Since 2015, we've delivered hands-on, instructor-led bootcamps that prepare students for freelance careers on Upwork, Freelancer, Guru, and Fiverr, while offering direct remote technical support to businesses worldwide.
+
+## Core Pages
+
+- [Home](https://www.schooloffreelancing.com/) — Overview of training and support offerings.
+
+## Freelancing Training (https://www.schooloffreelancing.com/freelancing-training/)
+
+- [Linux Freelancing Training](https://www.schooloffreelancing.com/freelancing-training/linux-freelancing-training/) — $600, 180 Hours, 6 Months
+- [Hermes Agent Training](https://www.schooloffreelancing.com/freelancing-training/hermes-agent-training/) — $250, 20 Hours, 2 Weeks
+- [Odysseus AI Workspace Training](https://www.schooloffreelancing.com/freelancing-training/odysseus-ai-training/) — $200, 20 Hours, 5 Days
+- [OpenClaw Hands-on Training](https://www.schooloffreelancing.com/freelancing-training/openclaw-training/) — $200, 20 Hours, 5 Days
+- [LocalAI Hands-on Training](https://www.schooloffreelancing.com/freelancing-training/local-ai-training/) — $200, 20 Hours, 5 Days
+- [ZeroClaw Hands-on Training](https://www.schooloffreelancing.com/freelancing-training/zeroclaw-training/) — $200, 20 Hours, 5 Days
+- [GitLab Hands-on Training](https://www.schooloffreelancing.com/freelancing-training/gitlab-training/) — $200, 20 Hours, 5 Days
+- [GitHub Hands-on Training](https://www.schooloffreelancing.com/freelancing-training/github-training/) — $200, 20 Hours, 5 Days
+- [Docker Training](https://www.schooloffreelancing.com/freelancing-training/docker-training/) — $250, 20 Hours, 2 Weeks
+- [FusionPBX VoIP Training](https://www.schooloffreelancing.com/freelancing-training/fusionpbx-training/) — $400, 20 Hours, 5 Days
+- [Goautodial VoIP Training](https://www.schooloffreelancing.com/freelancing-training/goautodial-training/) — $400, 20 Hours, 5 Days
+- [Call Center Setup Training](https://www.schooloffreelancing.com/freelancing-training/call-center-setup-training/) — $400, 20 Hours, 2 Weeks
+- [Ubuntu Linux Training](https://www.schooloffreelancing.com/freelancing-training/ubuntu-linux-training/) — $200, 20 Hours, 5 Days
+- [Debian Linux Training](https://www.schooloffreelancing.com/freelancing-training/debian-linux-training/) — $250, 20 Hours, 2 Weeks
+- [CentOS Linux Training](https://www.schooloffreelancing.com/freelancing-training/centos-linux-training/) — $200, 20 Hours, 5 Days
+- [OpenAI Platform Training](https://www.schooloffreelancing.com/freelancing-training/openai-training/) — $200, 20 Hours, 5 Days
+- [Claude Platform Training](https://www.schooloffreelancing.com/freelancing-training/claude-training/) — $200, 20 Hours, 5 Days
+- [Telnyx SMS API Training](https://www.schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/) — $800, 40 Hours, 2-4 Weeks
+- [Twilio SMS API Training](https://www.schooloffreelancing.com/freelancing-training/twilio-sms-api-training/) — $1100, 38 Hours, 1-4 Weeks
+- [Jasmin SMS Gateway Training](https://www.schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/) — $1100, 38 Hours, 1 Week
+- [Bulk SMS Engineering Training](https://www.schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/) — $400, 20 Hours, 2 Weeks
+
+## Linux & AI Services (https://www.schooloffreelancing.com/linux-ai-services/)
+
+- [Linux Server Services](https://www.schooloffreelancing.com/linux-ai-services/linux-server-services/) — $350, 72 Hours, 3 Days
+- [Hermes Agent Support](https://www.schooloffreelancing.com/linux-ai-services/hermes-agent-services/) — $350, 72 Hours, 3 Days
+- [Odysseus AI Workspace Support](https://www.schooloffreelancing.com/linux-ai-services/odysseus-ai-services/) — $350, 72 Hours, 3 Days
+- [OpenClaw AI Agent Support](https://www.schooloffreelancing.com/linux-ai-services/openclaw-ai-services/) — $350, 72 Hours, 3 Days
+- [LocalAI Support](https://www.schooloffreelancing.com/linux-ai-services/local-ai-services/) — $350, 72 Hours, 3 Days
+- [ZeroClaw Support](https://www.schooloffreelancing.com/linux-ai-services/zeroclaw-ai-services/) — $350, 72 Hours, 3 Days
+- [GitLab Community Edition Setup](https://www.schooloffreelancing.com/linux-ai-services/gitlab-services/) — $350, 72 Hours, 3 Days
+- [GitHub Enterprise Server Setup](https://www.schooloffreelancing.com/linux-ai-services/github-services/) — $350, 72 Hours, 3 Days
+- [Docker Engineer Services](https://www.schooloffreelancing.com/linux-ai-services/docker-engineer-services/) — $250, 72 Hours, 3 Days
+- [Telnyx VoIP SIP Support](https://www.schooloffreelancing.com/linux-ai-services/telnyx-sip-trunking-services/) — $500, 72 Hours, 3 Days
+- [Twilio VoIP SIP Support](https://www.schooloffreelancing.com/linux-ai-services/twilio-sip-trunking-services/) — $500, 72 Hours, 3 Days
+- [FusionPBX VoIP Support](https://www.schooloffreelancing.com/linux-ai-services/fusionpbx-voip-services/) — $500, 72 Hours, 3 Days
+- [Goautodial VoIP Support](https://www.schooloffreelancing.com/linux-ai-services/goautodial-voip-services/) — $500, 72 Hours, 3 Days
+- [Ubuntu Linux Support](https://www.schooloffreelancing.com/linux-ai-services/ubuntu-linux-services/) — $500, 72 Hours, 3 Days
+- [CentOS Linux Support](https://www.schooloffreelancing.com/linux-ai-services/centos-linux-services/) — $500, 72 Hours, 3 Days
+- [OpenAI Platform Support](https://www.schooloffreelancing.com/linux-ai-services/openai-platform-services/) — $500, 72 Hours, 3 Days
+- [Claude Platform Support](https://www.schooloffreelancing.com/linux-ai-services/claude-ai-platform-services/) — $500, 72 Hours, 3 Days
+- [Telnyx SMS API Setup & Support](https://www.schooloffreelancing.com/linux-ai-services/telnyx-sms-api-services/) — $1100, 40 Hours, 1-4 Weeks
+- [Twilio SMS API Support](https://www.schooloffreelancing.com/linux-ai-services/twilio-sms-api-services/) — $1100, 40 Hours, 1-4 Weeks
+- [Jasmin SMS Gateway Support](https://www.schooloffreelancing.com/linux-ai-services/jasmin-sms-gateway-services/) — $1100, 20 Hours, 1 Week
+- [DigitalOcean Cloud Support](https://www.schooloffreelancing.com/linux-ai-services/digitalocean-cloud-services/) — $500, 72 Hours, 3 Days
+- [Hummingbot Installation Support](https://www.schooloffreelancing.com/linux-ai-services/hummingbot-installation-services/) — $1500, 40 Hours, 6 Days
+- [Vapi Platform Support](https://www.schooloffreelancing.com/linux-ai-services/vapi-platform-services/) — $600, 30 Hours, 5 Days
+
+## Locations (https://www.schooloffreelancing.com/locations/)
+
+All locations are served remotely/online, billed in USD, with live instructor-led sessions. Every country below has a dedicated page:
+
+- [United States Linux Training & Support](https://www.schooloffreelancing.com/locations/us/) — Online Linux freelancing training and remote Linux/IT support for the United States.
+- [United Kingdom Linux Training & Support](https://www.schooloffreelancing.com/locations/uk/) — Online Linux freelancing training and remote Linux/IT support for the United Kingdom.
+- [Canada Linux Training & Support](https://www.schooloffreelancing.com/locations/canada/) — Online Linux freelancing training and remote Linux/IT support for Canada.
+- [Australia Linux Training & Support](https://www.schooloffreelancing.com/locations/australia/) — Online Linux freelancing training and remote Linux/IT support for Australia.
+- [Germany Linux Training & Support](https://www.schooloffreelancing.com/locations/germany/) — Online Linux freelancing training and remote Linux/IT support for Germany.
+- [Netherlands Linux Training & Support](https://www.schooloffreelancing.com/locations/netherlands/) — Online Linux freelancing training and remote Linux/IT support for the Netherlands.
+- [Switzerland Linux Training & Support](https://www.schooloffreelancing.com/locations/switzerland/) — Online Linux freelancing training and remote Linux/IT support for Switzerland.
+- [Sweden Linux Training & Support](https://www.schooloffreelancing.com/locations/sweden/) — Online Linux freelancing training and remote Linux/IT support for Sweden.
+- [Norway Linux Training & Support](https://www.schooloffreelancing.com/locations/norway/) — Online Linux freelancing training and remote Linux/IT support for Norway.
+- [Denmark Linux Training & Support](https://www.schooloffreelancing.com/locations/denmark/) — Online Linux freelancing training and remote Linux/IT support for Denmark.
+- [Finland Linux Training & Support](https://www.schooloffreelancing.com/locations/finland/) — Online Linux freelancing training and remote Linux/IT support for Finland.
+- [Iceland Linux Training & Support](https://www.schooloffreelancing.com/locations/iceland/) — Online Linux freelancing training and remote Linux/IT support for Iceland.
+- [Ireland Linux Training & Support](https://www.schooloffreelancing.com/locations/ireland/) — Online Linux freelancing training and remote Linux/IT support for Ireland.
+- [Belgium Linux Training & Support](https://www.schooloffreelancing.com/locations/belgium/) — Online Linux freelancing training and remote Linux/IT support for Belgium.
+- [Austria Linux Training & Support](https://www.schooloffreelancing.com/locations/austria/) — Online Linux freelancing training and remote Linux/IT support for Austria.
+- [Luxembourg Linux Training & Support](https://www.schooloffreelancing.com/locations/luxembourg/) — Online Linux freelancing training and remote Linux/IT support for Luxembourg.
+- [Liechtenstein Linux Training & Support](https://www.schooloffreelancing.com/locations/liechtenstein/) — Online Linux freelancing training and remote Linux/IT support for Liechtenstein.
+- [Israel Linux Training & Support](https://www.schooloffreelancing.com/locations/israel/) — Online Linux freelancing training and remote Linux/IT support for Israel.
+- [Singapore Linux Training & Support](https://www.schooloffreelancing.com/locations/singapore/) — Online Linux freelancing training and remote Linux/IT support for Singapore.
+- [Bangladesh Linux Training & Support](https://www.schooloffreelancing.com/locations/bangladesh/) — Online Linux freelancing training and remote Linux/IT support for Bangladesh, School of Freelancing's home country.
+
+## Company & Contact
+
+- [About Us](https://www.schooloffreelancing.com/about-us/)
+- [Contact Us](https://www.schooloffreelancing.com/contact-us/) — Telegram, WhatsApp, email, phone contact channels
+- [Register](https://www.schooloffreelancing.com/register/) — how to enroll or book a support engagement
+- [Testimonials](https://www.schooloffreelancing.com/resource-center/testimonials/)
+- [FAQs](https://www.schooloffreelancing.com/resource-center/faqs/)
+- [Intro Video](https://www.schooloffreelancing.com/resource-center/intro-video/) — Video introduction to School of Freelancing's training and support offerings
+- [Case Studies](https://www.schooloffreelancing.com/resource-center/case-studies/) — Real case studies from clients: Docker deployments, AI integrations, VoIP systems, and trading infrastructure
+- [Guide: Deploy a Linux Server from Zero to Production](https://www.schooloffreelancing.com/resource-center/guides/linux-deployment/) — Ubuntu Linux server installation, security hardening, networking, systemd services, backups, and monitoring
+- [Guide: Containerize a Legacy Web Application](https://www.schooloffreelancing.com/resource-center/guides/docker-containerize/) — Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment
+- [Guide: Set Up Your Own VoIP Phone System](https://www.schooloffreelancing.com/resource-center/guides/voip-setup/) — FusionPBX/FreeSWITCH setup: installation, extensions, IVR, call routing, and SIP trunking
+- [Guide: Create Your First AI Chatbot](https://www.schooloffreelancing.com/resource-center/guides/ai-chatbot/) — Building an AI chatbot with the Claude API: authentication, prompt engineering, and deployment
+- [Guide: Automate Your First Repetitive Task](https://www.schooloffreelancing.com/resource-center/guides/automation/) — Automating business tasks with Python and cron: email, file processing, data entry, and scheduling
+
+## Legal
+
+- [Privacy Policy](https://www.schooloffreelancing.com/legal/privacy-policy/)
+- [Terms & Conditions](https://www.schooloffreelancing.com/legal/terms-and-conditions/)
+- [Refund Policy](https://www.schooloffreelancing.com/legal/refund-policy/)
+- [Training Rules](https://www.schooloffreelancing.com/legal/training-rules/)
+- [Credential Verification](https://www.schooloffreelancing.com/legal/credential-verification/)

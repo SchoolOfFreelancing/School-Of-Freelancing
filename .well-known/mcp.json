@@ -1,0 +1,136 @@
+{
+  "name": "School of Freelancing MCP Server",
+  "description": "Model Context Protocol server for discovering training programs, services, and resources",
+  "version": "1.0.0",
+  "schemas": {
+    "training": "https://www.schooloffreelancing.com/schemas/training.json",
+    "service": "https://www.schooloffreelancing.com/schemas/service.json",
+    "resource": "https://www.schooloffreelancing.com/schemas/resource.json"
+  },
+  "endpoints": {
+    "sse": {
+      "uri": "https://www.schooloffreelancing.com/api/mcp/sse",
+      "description": "Server-Sent Events endpoint for MCP protocol"
+    },
+    "stdio": {
+      "uri": "https://www.schooloffreelancing.com/api/mcp/stdio",
+      "description": "Standard I/O endpoint for MCP protocol"
+    },
+    "websocket": {
+      "uri": "wss://www.schooloffreelancing.com/api/mcp/ws",
+      "description": "WebSocket endpoint for MCP protocol"
+    }
+  },
+  "capabilities": {
+    "tools": [
+      {
+        "name": "search_training_programs",
+        "description": "Search available training programs by category, level, or keyword",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string", "description": "Search query" },
+            "category": { "type": "string", "enum": ["linux", "ai", "crypto", "voip", "cloud", "cicd"] },
+            "level": { "type": "string", "enum": ["beginner", "intermediate", "advanced"] }
+          },
+          "required": ["query"]
+        }
+      },
+      {
+        "name": "get_training_details",
+        "description": "Get detailed information about a specific training program",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "training_id": { "type": "string", "description": "Training program ID" }
+          },
+          "required": ["training_id"]
+        }
+      },
+      {
+        "name": "search_services",
+        "description": "Search available IT and AI services",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "query": { "type": "string", "description": "Search query" },
+            "category": { "type": "string" }
+          },
+          "required": ["query"]
+        }
+      },
+      {
+        "name": "get_service_details",
+        "description": "Get detailed information about a specific service offering",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "service_id": { "type": "string", "description": "Service ID" }
+          },
+          "required": ["service_id"]
+        }
+      },
+      {
+        "name": "list_resources",
+        "description": "List available resources (testimonials, FAQs, documentation)",
+        "inputSchema": {
+          "type": "object",
+          "properties": {
+            "resource_type": { "type": "string", "enum": ["testimonial", "faq", "guide"] }
+          }
+        }
+      }
+    ],
+    "resources": [
+      {
+        "uri": "https://www.schooloffreelancing.com/freelancing-training/",
+        "name": "Training Catalog",
+        "description": "Complete training program catalog",
+        "mimeType": "text/html"
+      },
+      {
+        "uri": "https://www.schooloffreelancing.com/linux-ai-services/",
+        "name": "Services Catalog",
+        "description": "Complete services offering catalog",
+        "mimeType": "text/html"
+      },
+      {
+        "uri": "https://www.schooloffreelancing.com/llms-full.txt",
+        "name": "Full Content Index",
+        "description": "Complete indexed content for LLM consumption",
+        "mimeType": "text/plain"
+      }
+    ],
+    "prompts": [
+      {
+        "name": "recommend_training",
+        "description": "Get training recommendations based on user goals",
+        "arguments": [
+          {
+            "name": "goals",
+            "description": "User's learning goals"
+          },
+          {
+            "name": "background",
+            "description": "User's technical background"
+          }
+        ]
+      }
+    ]
+  },
+  "authentication": {
+    "required": false,
+    "methods": [
+      "bearer_token",
+      "oauth2"
+    ],
+    "endpoints": {
+      "oauth": "https://www.schooloffreelancing.com/.well-known/openid-configuration.json"
+    }
+  },
+  "transport": {
+    "supported": ["sse", "websocket", "stdio"]
+  },
+  "documentation": "https://www.schooloffreelancing.com/Auth.md",
+  "homepage": "https://www.schooloffreelancing.com/"
+}

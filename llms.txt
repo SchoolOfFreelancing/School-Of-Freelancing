@@ -1,0 +1,9 @@
+## Core Pages
+
+- [Home](https://www.schooloffreelancing.com/): Overview of training and support offerings.
+- [Freelancing Training](https://www.schooloffreelancing.com/freelancing-training/): Full catalog of hands-on training programs.
+- [Client Support](https://www.schooloffreelancing.com/client-support/): Full catalog of remote technical support services.
+- [About Us](https://www.schooloffreelancing.com/about-us/): Company background and mission.
+- [Contact Us](https://www.schooloffreelancing.com/contact-us/): Contact channels (Telegram, WhatsApp, email) to begin training or request support.
+- [Register](https://www.schooloffreelancing.com/register/): How to register for a training program or support service.
+- [Locations](https://www.schooloffreelancing.com/locations/): Countries served (all delivery is remote/online, priced in USD).

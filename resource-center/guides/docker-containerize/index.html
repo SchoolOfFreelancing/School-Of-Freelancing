@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script
+  type="module"
+  src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
+></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Containerize a Legacy Web Application | School of Freelancing</title>
+    <meta name="description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+    <link rel="canonical" href="https://www.schooloffreelancing.com/resource-center/docker-containerize/">
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-1LNS69YXG5');</script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="navbar" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="/" class="nav-logo"><span>SCHOOL OF FREELANCING</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/freelancing-training/">Training</a></li>
+      <li><a href="/client-support/">Services</a></li>
+      <li><a href="/about-us/">About</a></li>
+      <li><a href="/contact-us/">Contact</a></li>
+    </ul>
+    <button class="nav-toggle" aria-label="Toggle mobile menu"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<main id="main">
+<header class="page-hero">
+  <div class="container detail-wrap">
+    <h1>How to Containerize a Legacy Web Application with Docker</h1>
+    <p>Transform any web application into a containerized, production-ready deployment.</p>
+  </div>
+</header>
+<article class="section">
+  <div class="container detail-wrap">
+
+    <h2>Overview</h2>
+    <p>This guide teaches containerizing existing web applications with Docker. You'll create a Dockerfile, build optimized images, and deploy with Docker Compose — enabling reliable, scalable deployments.</p>
+
+    <h2>Prerequisites</h2>
+    <ul class="detail-list">
+      <li>Docker installed on your development machine</li>
+      <li>Your web application source code (Node.js, Python, PHP, etc.)</li>
+      <li>Basic familiarity with your application's dependencies</li>
+    </ul>
+
+    <h2>Step 1: Create a Dockerfile</h2>
+    <p>Create a `Dockerfile` in your application's root directory:</p>
+    <pre><code># Use official base image
+FROM node:20-alpine
+
+# Set working directory
+WORKDIR /app
+
+# Copy package files
+COPY package*.json ./
+
+# Install dependencies
+RUN npm install --only=production
+
+# Copy application code
+COPY . .
+
+# Expose port
+EXPOSE 3000
+
+# Health check
+HEALTHCHECK --interval=30s CMD curl -f http://localhost:3000/health || exit 1
+
+# Start application
+CMD ["npm", "start"]</code></pre>
+
+    <h2>Step 2: Build the Docker Image</h2>
+    <pre><code>docker build -t myapp:1.0 .</code></pre>
+    <p>Test locally:</p>
+    <pre><code>docker run -p 3000:3000 myapp:1.0</code></pre>
+
+    <h2>Step 3: Create Docker Compose</h2>
+    <p>Create `docker-compose.yml` for multi-container orchestration:</p>
+    <pre><code>version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://user:password@db:5432/app
+    depends_on:
+      - db
+    restart: always
+    volumes:
+      - ./logs:/app/logs
+
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=app
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    restart: always
+
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - /etc/letsencrypt:/etc/letsencrypt
+    depends_on:
+      - web
+    restart: always
+
+volumes:
+  db_data:</code></pre>
+
+    <h2>Step 4: Deploy to Production</h2>
+    <pre><code>docker-compose up -d</code></pre>
+    <p>Verify all services running:</p>
+    <pre><code>docker-compose ps</code></pre>
+
+    <h2>Step 5: SSL/HTTPS Configuration</h2>
+    <p>Install Certbot on the host and mount certificates into the nginx container:</p>
+    <pre><code>sudo certbot certonly --standalone -d yourdomain.com</code></pre>
+
+    <h2>Next Steps</h2>
+    <ul class="detail-list">
+      <li>Implement health checks and monitoring</li>
+      <li>Set up automated backups for database containers</li>
+      <li>Deploy to production servers with Compose</li>
+      <li>Implement container logging and monitoring</li>
+    </ul>
+
+    <p>Learn more in our <a href="/freelancing-training/docker-training/">Docker Training</a> program.</p>
+  </div>
+</article>
+</main>
+<script src="/assets/js/main.js"></script>
+<chat-bubble-snippet
+  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
+></chat-bubble-snippet>
+
+</body>
+</html>

@@ -1,0 +1,45 @@
+RewriteEngine On
+RewriteBase /.well-known/
+
+# Rewrite requests for well-known endpoints without extensions to their .json files
+RewriteCond %{REQUEST_FILENAME} !-f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteRule ^openid-configuration$ openid-configuration.json [QSA,L]
+RewriteRule ^oauth-authorization-server$ oauth-authorization-server.json [QSA,L]
+RewriteRule ^oauth-protected-resource$ oauth-protected-resource.json [QSA,L]
+RewriteRule ^mcp$ mcp.json [QSA,L]
+RewriteRule ^webmcp$ webmcp.json [QSA,L]
+RewriteRule ^skills$ skills.json [QSA,L]
+RewriteRule ^agents$ agents.json [QSA,L]
+
+# Serve the RFC 9727 API catalog with its registered media type.
+<Files "api-catalog">
+    ForceType application/linkset+json
+</Files>
+
+# Serve discovery JSON files with proper content type
+<Files ~ "\.(json)$">
+    ForceType application/json
+</Files>
+
+# Serve security.txt with proper content type
+<Files "security.txt">
+    ForceType text/plain
+</Files>
+
+# OAuth/OIDC discovery configuration
+<Files ~ "^(oauth-authorization-server|oauth-protected-resource|openid-configuration|mcp|webmcp|skills|agents)\.json$">
+    ForceType application/json
+</Files>
+
+# Allow browser-based agents and crawlers to fetch discovery metadata cross-origin.
+# These files are public, read-only, and safe to expose to any origin.
+# Essential for agent discovery, OAuth/OIDC, and MCP integration from other domains.
+<IfModule mod_headers.c>
+    Header always set Access-Control-Allow-Origin "*"
+    Header always set Access-Control-Allow-Methods "GET, OPTIONS"
+    Header always set Access-Control-Allow-Headers "Content-Type, Authorization"
+    Header always set Access-Control-Max-Age "86400"
+    Header always set Cache-Control "no-cache, must-revalidate"
+    Header always merge Vary "Accept"
+</IfModule>

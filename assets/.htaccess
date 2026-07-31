@@ -1,0 +1,6 @@
+# Static assets: remove the site-wide agent-discovery Link header and the
+# Vary: Accept hint (assets have no markdown variant and aren't discovery docs).
+<IfModule mod_headers.c>
+    Header always unset Link
+    Header always unset Vary
+</IfModule>

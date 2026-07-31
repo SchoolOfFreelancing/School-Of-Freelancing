@@ -1,0 +1,154 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script
+  type="module"
+  src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
+></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Create Your First AI Chatbot | School of Freelancing</title>
+    <meta name="description" content="Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.">
+    <link rel="canonical" href="https://www.schooloffreelancing.com/resource-center/ai-chatbot/">
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-1LNS69YXG5');</script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="navbar" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="/" class="nav-logo"><span>SCHOOL OF FREELANCING</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/freelancing-training/">Training</a></li>
+      <li><a href="/client-support/">Services</a></li>
+      <li><a href="/about-us/">About</a></li>
+      <li><a href="/contact-us/">Contact</a></li>
+    </ul>
+    <button class="nav-toggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<main id="main">
+<header class="page-hero">
+  <div class="container detail-wrap">
+    <h1>How to Create Your First AI Chatbot</h1>
+    <p>Build a production-ready AI chatbot using Claude API in under an hour.</p>
+  </div>
+</header>
+<article class="section">
+  <div class="container detail-wrap">
+
+    <h2>Overview</h2>
+    <p>This guide shows how to build an AI chatbot using Claude API. You'll authenticate, design prompts, and deploy a working chatbot that answers customer questions intelligently.</p>
+
+    <h2>Prerequisites</h2>
+    <ul class="detail-list">
+      <li>Python 3.8+ installed</li>
+      <li>Claude API key (get at console.anthropic.com)</li>
+      <li>Basic Python programming knowledge</li>
+    </ul>
+
+    <h2>Step 1: Install Dependencies</h2>
+    <pre><code>pip install anthropic flask</code></pre>
+
+    <h2>Step 2: Create Your Chatbot</h2>
+    <p>Create `chatbot.py`:</p>
+    <pre><code>import anthropic
+
+client = anthropic.Anthropic(api_key="your-api-key")
+
+def chat(user_message):
+    response = client.messages.create(
+        model="claude-3-5-sonnet-20241022",
+        max_tokens=1024,
+        system="You are a helpful customer support assistant for an e-commerce store.",
+        messages=[
+            {"role": "user", "content": user_message}
+        ]
+    )
+    return response.content[0].text
+
+# Test it
+response = chat("What's your return policy?")
+print(response)</code></pre>
+
+    <h2>Step 3: Build a Web Interface</h2>
+    <p>Create `app.py`:</p>
+    <pre><code>from flask import Flask, request, jsonify
+from chatbot import chat
+
+app = Flask(__name__)
+
+@app.route('/chat', methods=['POST'])
+def handle_chat():
+    data = request.json
+    message = data.get('message', '')
+    response = chat(message)
+    return jsonify({'response': response})
+
+if __name__ == '__main__':
+    app.run(debug=False, host='0.0.0.0', port=5000)</code></pre>
+
+    <h2>Step 4: Create Frontend</h2>
+    <p>Create `index.html`:</p>
+    <pre><code>&lt;!DOCTYPE html&gt;
+&lt;html&gt;
+&lt;head&gt;
+    &lt;title&gt;AI Chatbot&lt;/title&gt;
+    &lt;style&gt;
+        body { font-family: Arial; max-width: 600px; margin: 50px auto; }
+        .chat { border: 1px solid #ccc; padding: 20px; height: 400px; overflow-y: auto; }
+        .message { margin: 10px 0; padding: 10px; border-radius: 5px; }
+        .user { background: #e3f2fd; }
+        .bot { background: #f5f5f5; }
+    &lt;/style&gt;
+&lt;/head&gt;
+&lt;body&gt;
+    &lt;h1&gt;AI Customer Support&lt;/h1&gt;
+    &lt;div class="chat" id="chat"&gt;&lt;/div&gt;
+    &lt;input type="text" id="message" placeholder="Ask a question..."&gt;
+    &lt;button onclick="sendMessage()"&gt;Send&lt;/button&gt;
+    &lt;script&gt;
+        async function sendMessage() {
+            const msg = document.getElementById('message').value;
+            document.getElementById('chat').innerHTML += '&lt;div class="message user"&gt;' + msg + '&lt;/div&gt;';
+
+            const response = await fetch('/chat', {
+                method: 'POST',
+                headers: { 'Content-Type': 'application/json' },
+                body: JSON.stringify({ message: msg })
+            });
+            const data = await response.json();
+            document.getElementById('chat').innerHTML += '&lt;div class="message bot"&gt;' + data.response + '&lt;/div&gt;';
+            document.getElementById('message').value = '';
+        }
+    &lt;/script&gt;
+&lt;/body&gt;
+&lt;/html&gt;</code></pre>
+
+    <h2>Step 5: Deploy to Production</h2>
+    <pre><code>gunicorn -w 4 -b 0.0.0.0:5000 app:app</code></pre>
+    <p>Use Docker to containerize and deploy on your Ubuntu server.</p>
+
+    <h2>Pro Tips</h2>
+    <ul class="detail-list">
+      <li><strong>Customize the system prompt</strong> for your specific use case</li>
+      <li><strong>Add conversation history</strong> for multi-turn conversations</li>
+      <li><strong>Implement rate limiting</strong> to control costs</li>
+      <li><strong>Monitor token usage</strong> to optimize expenses</li>
+    </ul>
+
+    <p>Learn advanced AI integration in our <a href="/freelancing-training/claude-training/">Claude AI Training</a> program.</p>
+  </div>
+</article>
+</main>
+<script src="/assets/js/main.js"></script>
+<chat-bubble-snippet
+  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
+></chat-bubble-snippet>
+
+</body>
+</html>

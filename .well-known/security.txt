@@ -1,0 +1,6 @@
+Contact: security@schooloffreelancing.com
+Expires: 2027-07-23T19:45:00Z
+Preferred-Languages: en
+Canonical: https://www.schooloffreelancing.com/.well-known/security.txt
+Policy: https://www.schooloffreelancing.com/legal/privacy-policy/
+Acknowledgments: https://www.schooloffreelancing.com/legal/privacy-policy/

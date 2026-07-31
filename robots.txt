@@ -1,0 +1,5 @@
+User-agent: *
+Disallow:
+
+Sitemap: https://www.schooloffreelancing.com/sitemap.xml
+Sitemap: https://www.schooloffreelancing.com/video-sitemap.xml

@@ -1,0 +1,10 @@
+- name: Claude Code Action Official
+  uses: anthropics/claude-code-action@v1
+with:
+    anthropic_api_key: ${{ secrets.ANTHROPIC_API_KEY }}
+    additional_permissions: |
+      actions: read
+
+prompt: "Review this PR"
+claude_args: |
+  --system-prompt "Focus on security"

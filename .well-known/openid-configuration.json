@@ -1,0 +1,170 @@
+{
+  "issuer": "https://www.schooloffreelancing.com",
+  "authorization_endpoint": "https://www.schooloffreelancing.com/api/oauth/authorize",
+  "token_endpoint": "https://www.schooloffreelancing.com/api/oauth/token",
+  "token_introspection_endpoint": "https://www.schooloffreelancing.com/api/oauth/introspect",
+  "userinfo_endpoint": "https://www.schooloffreelancing.com/api/oauth/userinfo",
+  "end_session_endpoint": "https://www.schooloffreelancing.com/api/oauth/logout",
+  "jwks_uri": "https://www.schooloffreelancing.com/api/oauth/jwks",
+  "registration_endpoint": "https://www.schooloffreelancing.com/api/oauth/register",
+  "scopes_supported": [
+    "openid",
+    "profile",
+    "email",
+    "phone",
+    "address",
+    "training:read",
+    "services:read",
+    "resources:read",
+    "agent:access",
+    "offline_access"
+  ],
+  "response_types_supported": [
+    "code",
+    "token",
+    "id_token",
+    "id_token token",
+    "code id_token",
+    "code token",
+    "code id_token token"
+  ],
+  "response_modes_supported": [
+    "query",
+    "fragment",
+    "form_post"
+  ],
+  "grant_types_supported": [
+    "authorization_code",
+    "implicit",
+    "refresh_token",
+    "client_credentials",
+    "urn:ietf:params:oauth:grant-type:device_code"
+  ],
+  "acr_values_supported": [
+    "urn:mace:incommon:iap:silver",
+    "urn:mace:incommon:iap:bronze"
+  ],
+  "subject_types_supported": [
+    "public",
+    "pairwise"
+  ],
+  "id_token_signing_alg_values_supported": [
+    "RS256",
+    "ES256",
+    "PS256"
+  ],
+  "id_token_encryption_alg_values_supported": [
+    "RSA-OAEP",
+    "A128KW",
+    "A192KW",
+    "A256KW"
+  ],
+  "id_token_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512"
+  ],
+  "userinfo_signing_alg_values_supported": [
+    "RS256",
+    "ES256",
+    "PS256"
+  ],
+  "userinfo_encryption_alg_values_supported": [
+    "RSA-OAEP",
+    "A128KW",
+    "A192KW",
+    "A256KW"
+  ],
+  "userinfo_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512"
+  ],
+  "request_object_signing_alg_values_supported": [
+    "RS256",
+    "ES256",
+    "PS256"
+  ],
+  "request_object_encryption_alg_values_supported": [
+    "RSA-OAEP",
+    "A128KW",
+    "A192KW",
+    "A256KW"
+  ],
+  "request_object_encryption_enc_values_supported": [
+    "A128CBC-HS256",
+    "A192CBC-HS384",
+    "A256CBC-HS512"
+  ],
+  "token_endpoint_auth_methods_supported": [
+    "client_secret_basic",
+    "client_secret_post",
+    "client_secret_jwt",
+    "private_key_jwt",
+    "none"
+  ],
+  "token_endpoint_auth_signing_alg_values_supported": [
+    "RS256",
+    "ES256",
+    "PS256"
+  ],
+  "display_values_supported": [
+    "page",
+    "popup",
+    "touch",
+    "wap"
+  ],
+  "claim_types_supported": [
+    "normal",
+    "aggregated",
+    "distributed"
+  ],
+  "claims_supported": [
+    "iss",
+    "sub",
+    "aud",
+    "exp",
+    "iat",
+    "auth_time",
+    "nonce",
+    "acr",
+    "amr",
+    "name",
+    "given_name",
+    "family_name",
+    "middle_name",
+    "nickname",
+    "preferred_username",
+    "profile",
+    "picture",
+    "website",
+    "email",
+    "email_verified",
+    "gender",
+    "birthdate",
+    "zoneinfo",
+    "locale",
+    "phone_number",
+    "phone_number_verified",
+    "address",
+    "updated_at"
+  ],
+  "claim_parameter_supported": false,
+  "claims_parameter_supported": false,
+  "code_challenge_methods_supported": [
+    "plain",
+    "S256"
+  ],
+  "request_parameter_supported": true,
+  "request_uri_parameter_supported": false,
+  "require_request_uri_registration": false,
+  "tls_client_certificate_bound_access_tokens": true,
+  "mtls_endpoint_aliases": {
+    "token_endpoint": "https://www.schooloffreelancing.com/api/oauth/token",
+    "revocation_endpoint": "https://www.schooloffreelancing.com/api/oauth/revoke",
+    "introspection_endpoint": "https://www.schooloffreelancing.com/api/oauth/introspect"
+  },
+  "service_documentation": "https://www.schooloffreelancing.com/Auth.md",
+  "policy_uri": "https://www.schooloffreelancing.com/legal/privacy-policy/",
+  "terms_of_service_uri": "https://www.schooloffreelancing.com/legal/terms-and-conditions/"
+}

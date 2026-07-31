@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<script
+  type="module"
+  src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
+></script>
+
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Automate Your First Repetitive Task | School of Freelancing</title>
+    <meta name="description" content="Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.">
+    <link rel="canonical" href="https://www.schooloffreelancing.com/resource-center/automation/">
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
+    <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
+    <script>window.dataLayer = window.dataLayer || [];function gtag(){dataLayer.push(arguments);}gtag('js', new Date());gtag('config', 'G-1LNS69YXG5');</script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+</head>
+<body>
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<a class="skip-link" href="#main">Skip to main content</a>
+<nav class="navbar" aria-label="Main navigation">
+  <div class="nav-container">
+    <a href="/" class="nav-logo"><span>SCHOOL OF FREELANCING</span></a>
+    <ul class="nav-links" id="nav-links">
+      <li><a href="/freelancing-training/">Training</a></li>
+      <li><a href="/client-support/">Services</a></li>
+      <li><a href="/about-us/">About</a></li>
+      <li><a href="/contact-us/">Contact</a></li>
+    </ul>
+    <button class="nav-toggle"><span></span><span></span><span></span></button>
+  </div>
+</nav>
+<main id="main">
+<header class="page-hero">
+  <div class="container detail-wrap">
+    <h1>How to Automate Your First Repetitive Business Task</h1>
+    <p>Save 5+ hours per week by automating repetitive work with Python and Linux.</p>
+  </div>
+</header>
+<article class="section">
+  <div class="container detail-wrap">
+
+    <h2>Overview</h2>
+    <p>This guide teaches automating common business tasks: processing files, sending emails, managing data, and scheduling recurring jobs. You'll write a Python script and schedule it to run automatically on your Linux server.</p>
+
+    <h2>Prerequisites</h2>
+    <ul class="detail-list">
+      <li>Ubuntu Linux server with Python 3 installed</li>
+      <li>Basic Python programming knowledge</li>
+      <li>A repetitive task you want to automate</li>
+    </ul>
+
+    <h2>Example: Automated Daily Report Email</h2>
+    <p>Let's automate sending a daily sales report via email:</p>
+
+    <h2>Step 1: Create the Python Script</h2>
+    <pre><code>#!/usr/bin/env python3
+import smtplib
+import pandas as pd
+from datetime import datetime
+from email.mime.text import MIMEText
+from email.mime.multipart import MIMEMultipart
+
+# Read yesterday's sales data
+df = pd.read_csv('/data/sales.csv')
+yesterday = df[df['date'] == (datetime.now().date() - timedelta(days=1))]
+
+# Calculate metrics
+total_sales = yesterday['amount'].sum()
+orders = len(yesterday)
+avg_order = total_sales / orders if orders > 0 else 0
+
+# Create email
+msg = MIMEMultipart()
+msg['From'] = 'reports@yourcompany.com'
+msg['To'] = 'manager@yourcompany.com'
+msg['Subject'] = f'Daily Sales Report - {datetime.now().date()}'
+
+body = f"""
+Yesterday's Sales Summary:
+- Total Revenue: ${total_sales:,.2f}
+- Number of Orders: {orders}
+- Average Order Value: ${avg_order:,.2f}
+
+View full report at: yourcompany.com/reports
+"""
+
+msg.attach(MIMEText(body, 'plain'))
+
+# Send email
+server = smtplib.SMTP('localhost', 587)
+server.starttls()
+server.login('your-email@gmail.com', 'app-password')
+server.send_message(msg)
+server.quit()
+
+print(f"Report sent successfully at {datetime.now()}")</code></pre>
+
+    <h2>Step 2: Save and Test</h2>
+    <pre><code>nano /home/admin/send_report.py
+chmod +x /home/admin/send_report.py
+python3 /home/admin/send_report.py</code></pre>
+
+    <h2>Step 3: Schedule with Cron</h2>
+    <p>Edit crontab to run daily at 8 AM:</p>
+    <pre><code>crontab -e</code></pre>
+    <p>Add this line:</p>
+    <pre><code>0 8 * * * /usr/bin/python3 /home/admin/send_report.py >> /var/log/report.log 2>&1</code></pre>
+
+    <h2>More Automation Ideas</h2>
+    <ul class="detail-list">
+      <li><strong>File Processing:</strong> Convert images, compress files, organize folders</li>
+      <li><strong>Data Entry:</strong> Parse PDFs, extract data, populate databases</li>
+      <li><strong>API Integration:</strong> Sync data between tools (Stripe to database, etc.)</li>
+      <li><strong>Backup & Cleanup:</strong> Archive old files, delete temp data daily</li>
+      <li><strong>Monitoring:</strong> Check if services are running, send alerts if down</li>
+    </ul>
+
+    <h2>Best Practices</h2>
+    <ul class="detail-list">
+      <li>Log output for debugging: `>> /var/log/script.log 2>&1`</li>
+      <li>Use absolute paths in scripts (not relative paths)</li>
+      <li>Test scripts manually before scheduling with cron</li>
+      <li>Monitor cron logs: `grep CRON /var/log/syslog`</li>
+      <li>Set proper error handling and email alerts on failure</li>
+    </ul>
+
+    <p>Learn advanced automation techniques in our <a href="/freelancing-training/openclaw-training/">OpenClaw Automation Training</a> program.</p>
+  </div>
+</article>
+</main>
+<script src="/assets/js/main.js"></script>
+<chat-bubble-snippet
+  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
+></chat-bubble-snippet>
+
+</body>
+</html>

@@ -1,0 +1,27 @@
+{
+  "name": "School of Freelancing",
+  "description": "Learn Linux freelancing, AI agents, and SMS APIs. Get professional DevOps and trading bot setup services.",
+  "url": "https://www.schooloffreelancing.com",
+  "skills": [
+    {
+      "name": "confirm_registration_payment",
+      "description": "Fill and submit the School of Freelancing payment confirmation form (/register/). Opens WhatsApp with pre-filled details.",
+      "parameters": {
+        "fullName": "string",
+        "email": "string",
+        "trainingOrService": "string",
+        "paymentMethod": "string",
+        "transactionId": "string"
+      }
+    },
+    {
+      "name": "get_registration_form_options",
+      "description": "Returns the valid training/service names and payment method names accepted by confirm_registration_payment.",
+      "parameters": {}
+    }
+  ],
+  "webmcp": true,
+  "markdownAlternative": "/index.md",
+  "robotsTxt": "/robots.txt",
+  "sitemap": "/sitemap.xml"
+}

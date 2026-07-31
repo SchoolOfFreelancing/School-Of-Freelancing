@@ -1,0 +1,29 @@
+{
+  "linkset": [
+    {
+      "anchor": "https://www.schooloffreelancing.com/",
+      "service-doc": [
+        { "href": "https://www.schooloffreelancing.com/llms.txt", "type": "text/plain", "title": "LLM-friendly site overview" },
+        { "href": "https://www.schooloffreelancing.com/llms-full.txt", "type": "text/plain", "title": "Full LLM-friendly site content" },
+        { "href": "https://www.schooloffreelancing.com/Auth.md", "type": "text/markdown", "title": "Agent authentication and registration guide" }
+      ],
+      "describedby": [
+        { "href": "https://www.schooloffreelancing.com/sitemap.xml", "type": "application/xml", "title": "XML sitemap" },
+        { "href": "https://www.schooloffreelancing.com/.well-known/agents.json", "type": "application/json", "title": "Agent discovery endpoints" },
+        { "href": "https://www.schooloffreelancing.com/.well-known/skills.json", "type": "application/json", "title": "Agent skills index" },
+        { "href": "https://www.schooloffreelancing.com/.well-known/mcp.json", "type": "application/json", "title": "MCP server configuration" },
+        { "href": "https://www.schooloffreelancing.com/.well-known/webmcp.json", "type": "application/json", "title": "Web-based MCP configuration" }
+      ],
+      "security": [
+        { "href": "https://www.schooloffreelancing.com/.well-known/security.txt", "type": "text/plain", "title": "Security disclosure policy" }
+      ],
+      "auth": [
+        { "href": "https://www.schooloffreelancing.com/.well-known/openid-configuration.json", "type": "application/json", "title": "OpenID Connect discovery" },
+        { "href": "https://www.schooloffreelancing.com/.well-known/oauth-authorization-server.json", "type": "application/json", "title": "OAuth 2.0 authorization server" }
+      ],
+      "status": [
+        { "href": "https://www.schooloffreelancing.com/", "type": "text/html", "title": "Site homepage (health/liveness)" }
+      ]
+    }
+  ]
+}

@@ -1,0 +1,185 @@
+{
+  "version": "1.0",
+  "name": "School of Freelancing WebMCP",
+  "description": "Web-based Model Context Protocol for browser-based agent integration",
+  "baseUrl": "https://www.schooloffreelancing.com",
+  "endpoints": {
+    "mcp": {
+      "sse": "https://www.schooloffreelancing.com/api/mcp/sse",
+      "websocket": "wss://www.schooloffreelancing.com/api/mcp/ws",
+      "http": "https://www.schooloffreelancing.com/api/mcp/http"
+    },
+    "oauth": {
+      "authorize": "https://www.schooloffreelancing.com/api/oauth/authorize",
+      "token": "https://www.schooloffreelancing.com/api/oauth/token",
+      "userinfo": "https://www.schooloffreelancing.com/api/oauth/userinfo",
+      "jwks": "https://www.schooloffreelancing.com/api/oauth/jwks"
+    },
+    "discovery": {
+      "mcp": "https://www.schooloffreelancing.com/.well-known/mcp.json",
+      "openid": "https://www.schooloffreelancing.com/.well-known/openid-configuration.json",
+      "skills": "https://www.schooloffreelancing.com/.well-known/skills.json"
+    }
+  },
+  "capabilities": {
+    "methods": [
+      "call_tool",
+      "list_tools",
+      "list_resources",
+      "read_resource",
+      "list_prompts",
+      "get_prompt"
+    ],
+    "features": [
+      "streaming",
+      "batching",
+      "caching",
+      "subscriptions"
+    ]
+  },
+  "authentication": {
+    "type": "oauth2",
+    "flows": [
+      "authorization_code",
+      "implicit",
+      "client_credentials"
+    ],
+    "scopes": [
+      "openid",
+      "profile",
+      "email",
+      "training:read",
+      "services:read",
+      "resources:read",
+      "agent:access"
+    ]
+  },
+  "security": {
+    "tls": "required",
+    "cors": {
+      "enabled": true,
+      "origins": ["https://*"]
+    },
+    "rateLimiting": {
+      "enabled": true,
+      "requests": 100,
+      "window": "1m"
+    }
+  },
+  "tools": {
+    "training": {
+      "search": {
+        "name": "search_training",
+        "description": "Search training programs",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string",
+              "description": "Search query"
+            },
+            "category": {
+              "type": "string",
+              "enum": ["linux", "ai", "crypto", "voip", "cloud", "cicd"]
+            },
+            "limit": {
+              "type": "integer",
+              "default": 10
+            }
+          },
+          "required": ["query"]
+        }
+      },
+      "getDetails": {
+        "name": "get_training_details",
+        "description": "Get training program details",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "programId": {
+              "type": "string",
+              "description": "Training program ID"
+            }
+          },
+          "required": ["programId"]
+        }
+      }
+    },
+    "services": {
+      "search": {
+        "name": "search_services",
+        "description": "Search IT and AI services",
+        "inputSchema": {
+          "$schema": "http://json-schema.org/draft-07/schema#",
+          "type": "object",
+          "properties": {
+            "query": {
+              "type": "string"
+            },
+            "limit": {
+              "type": "integer",
+              "default": 10
+            }
+          },
+          "required": ["query"]
+        }
+      }
+    }
+  },
+  "resources": [
+    {
+      "uri": "https://www.schooloffreelancing.com/freelancing-training/",
+      "type": "text/html",
+      "title": "Training Catalog",
+      "description": "Complete catalog of training programs"
+    },
+    {
+      "uri": "https://www.schooloffreelancing.com/linux-ai-services/",
+      "type": "text/html",
+      "title": "Services Catalog",
+      "description": "Complete catalog of IT and AI services"
+    },
+    {
+      "uri": "https://www.schooloffreelancing.com/llms-full.txt",
+      "type": "text/plain",
+      "title": "Full Content",
+      "description": "Full indexed content for AI/LLM consumption"
+    }
+  ],
+  "prompts": [
+    {
+      "name": "recommend_training",
+      "description": "Get personalized training recommendations",
+      "arguments": [
+        {
+          "name": "goals",
+          "description": "Learning goals or objectives"
+        },
+        {
+          "name": "background",
+          "description": "Technical background and experience"
+        }
+      ]
+    },
+    {
+      "name": "find_service",
+      "description": "Find appropriate service for specific needs",
+      "arguments": [
+        {
+          "name": "requirements",
+          "description": "Service requirements and needs"
+        },
+        {
+          "name": "budget",
+          "description": "Budget constraints"
+        }
+      ]
+    }
+  ],
+  "documentation": "https://www.schooloffreelancing.com/Auth.md",
+  "homepage": "https://www.schooloffreelancing.com/",
+  "termsOfService": "https://www.schooloffreelancing.com/legal/terms-and-conditions/",
+  "privacyPolicy": "https://www.schooloffreelancing.com/legal/privacy-policy/"
+}

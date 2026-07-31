@@ -1,0 +1,32 @@
+{
+  "schemaVersion": "2025-06-18",
+  "protocolVersion": "2025-06-18",
+  "name": "School of Freelancing MCP Server",
+  "description": "Model Context Protocol server for discovering training programs, services, and resources",
+  "version": "1.0.0",
+  "serverInfo": {
+    "name": "School of Freelancing MCP Server",
+    "version": "1.0.0"
+  },
+  "url": "https://www.schooloffreelancing.com/.well-known/mcp.json",
+  "endpoints": {
+    "sse": "https://www.schooloffreelancing.com/api/mcp/sse",
+    "stdio": "https://www.schooloffreelancing.com/api/mcp/stdio",
+    "websocket": "wss://www.schooloffreelancing.com/api/mcp/ws"
+  },
+  "capabilities": {
+    "tools": true,
+    "resources": true,
+    "prompts": true
+  },
+  "authentication": {
+    "required": false,
+    "methods": ["bearer_token", "oauth2"],
+    "oauth": {
+      "authorization_server": "https://www.schooloffreelancing.com/.well-known/oauth-authorization-server.json",
+      "protected_resource": "https://www.schooloffreelancing.com/.well-known/oauth-protected-resource"
+    }
+  },
+  "documentation": "https://www.schooloffreelancing.com/Auth.md",
+  "homepage": "https://www.schooloffreelancing.com/"
+}

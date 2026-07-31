@@ -1,0 +1,108 @@
+{
+  "version": "1.0",
+  "skills": [
+    {
+      "id": "training-discovery",
+      "name": "Training Program Discovery",
+      "description": "Discover and search training programs in Linux, AI, crypto trading, VoIP, cloud platforms, and CI/CD",
+      "category": "discovery",
+      "subcategories": ["search", "filter", "recommend"],
+      "endpoint": "https://www.schooloffreelancing.com/api/skills/training-discovery",
+      "authentication": "optional",
+      "scopes": ["training:read"]
+    },
+    {
+      "id": "service-discovery",
+      "name": "Service Discovery",
+      "description": "Find and explore IT support services for infrastructure, AI platforms, and enterprise solutions",
+      "category": "discovery",
+      "subcategories": ["search", "details", "pricing"],
+      "endpoint": "https://www.schooloffreelancing.com/api/skills/service-discovery",
+      "authentication": "optional",
+      "scopes": ["services:read"]
+    },
+    {
+      "id": "resource-access",
+      "name": "Resource Access",
+      "description": "Access testimonials, FAQs, documentation, and learning materials",
+      "category": "access",
+      "subcategories": ["testimonials", "faqs", "guides"],
+      "endpoint": "https://www.schooloffreelancing.com/api/skills/resource-access",
+      "authentication": "optional",
+      "scopes": ["resources:read"]
+    },
+    {
+      "id": "enrollment",
+      "name": "Training Enrollment",
+      "description": "Get information about training enrollment process and requirements",
+      "category": "action",
+      "subcategories": ["registration", "pricing", "schedule"],
+      "endpoint": "https://www.schooloffreelancing.com/api/skills/enrollment",
+      "authentication": "optional",
+      "scopes": ["training:read"]
+    },
+    {
+      "id": "contact",
+      "name": "Contact & Support",
+      "description": "Get contact information and support channels (Telegram, WhatsApp, email)",
+      "category": "communication",
+      "subcategories": ["contact-info", "support"],
+      "endpoint": "https://www.schooloffreelancing.com/api/skills/contact",
+      "authentication": false,
+      "scopes": []
+    },
+    {
+      "id": "content-negotiation",
+      "name": "Content Negotiation",
+      "description": "Request content in markdown, HTML, or plaintext formats",
+      "category": "utility",
+      "subcategories": ["format-conversion", "export"],
+      "endpoint": "https://www.schooloffreelancing.com/api/skills/content-negotiation",
+      "authentication": false,
+      "scopes": []
+    },
+    {
+      "id": "agent-registration",
+      "name": "Agent Registration",
+      "description": "Register custom agents and integrate with the platform",
+      "category": "integration",
+      "subcategories": ["oauth", "mcp-integration"],
+      "endpoint": "https://www.schooloffreelancing.com/api/oauth/register",
+      "authentication": true,
+      "scopes": ["agent:access"],
+      "documentation": "https://www.schooloffreelancing.com/Auth.md"
+    },
+    {
+      "id": "mcp-integration",
+      "name": "Model Context Protocol",
+      "description": "Integrate via Model Context Protocol for extended capabilities",
+      "category": "integration",
+      "subcategories": ["tools", "resources", "prompts"],
+      "endpoint": "https://www.schooloffreelancing.com/.well-known/mcp.json",
+      "authentication": "optional",
+      "scopes": ["agent:access"]
+    }
+  ],
+  "skillGroups": {
+    "discovery": {
+      "name": "Discovery Skills",
+      "description": "Find and explore available training and services",
+      "skills": ["training-discovery", "service-discovery", "resource-access"]
+    },
+    "integration": {
+      "name": "Integration Skills",
+      "description": "Integrate agents and extend platform capabilities",
+      "skills": ["agent-registration", "mcp-integration"]
+    },
+    "utility": {
+      "name": "Utility Skills",
+      "description": "Format conversion and data export",
+      "skills": ["content-negotiation"]
+    }
+  },
+  "endpoints": {
+    "index": "https://www.schooloffreelancing.com/.well-known/skills.json",
+    "mcp": "https://www.schooloffreelancing.com/.well-known/mcp.json",
+    "oauth": "https://www.schooloffreelancing.com/.well-known/openid-configuration.json"
+  }
+}
