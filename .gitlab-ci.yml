@@ -1,26 +1,26 @@
-##########################################################
-# Release
-##########################################################
+include:
+  - component: $CI_SERVER_FQDN/to-be-continuous/lighthouse/gitlab-ci-lighthouse@1.8.0
+
+variables:
+  LHCI_RUN_OPTS: >-
+    --collect.url="https://www.schooloffreelancing.com"
+    --collect.settings.chromeFlags="--no-sandbox --disable-gpu --disable-dev-shm-usage --disable-setuid-sandbox"
+
+stages:
+  - build
+  - test
+  - acceptance
+  - deploy
+  - release
 
 create-release:
   stage: release
   image: registry.gitlab.com/gitlab-org/cli:latest
-
+  script: echo "Creating release $CI_COMMIT_TAG"
   rules:
-    - if: '$CI_COMMIT_TAG'
-
-  script:
-    - |
-      glab release create "$CI_COMMIT_TAG" \
-        --name "School of Freelancing $CI_COMMIT_TAG" \
-        --notes "Release $CI_COMMIT_TAG of $CI_PROJECT_PATH"
-
+    - if: $CI_COMMIT_TAG
   release:
     tag_name: $CI_COMMIT_TAG
-    name: "School of Freelancing $CI_COMMIT_TAG"
-    description: "Release $CI_COMMIT_TAG of $CI_PROJECT_PATH"
+    description: "Release $CI_COMMIT_TAG of components in $CI_PROJECT_PATH"
 
-    assets:
-      links:
-        - name: "Website"
-          url: "https://www.schooloffreelancing.com"
+
