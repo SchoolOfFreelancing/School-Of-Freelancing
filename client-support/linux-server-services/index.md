@@ -1,6 +1,6 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/linux-ai-services/linux-server-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/client-support/linux-server-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
-[Home](/) / [Support Services](/linux-ai-services/) / Linux Server Support
+[Home](/) / [Client Support](/client-support/) / Linux Server Support
 
 # Linux Server Support
 
@@ -12,7 +12,7 @@ Get expert Linux server support for setup, security hardening, troubleshooting, 
 🌍 Worldwide Remote
 
 [Get Support](/contact-us/)
-[View All Support](/linux-ai-services/)
+[View All Support](/client-support/)
 
 Want to learn this yourself instead of hiring us? [**Check out Linux Freelancing Training**](/freelancing-training/linux-freelancing-training/).
 
@@ -73,4 +73,4 @@ Yes. We provide one-time fixes as well as monthly maintenance and support plans 
 Book a free 15-minute consultation to scope your project.
 
 [Get Support](/contact-us/)
-[View All Support →](/linux-ai-services/)
+[View All Support →](/client-support/)
