@@ -5,23 +5,34 @@
 # Redirect directory index.html to /
 ##################################################
 RewriteEngine On
-RewriteRule ^(.+)/index\.html$ /$1/ [R=301,L]
 
 ##################################################
 # Redirect old flat HTML pages to current folders
 ##################################################
 RewriteRule ^training\.html$ https://www.schooloffreelancing.com/freelancing-training/ [R=301,L]
 RewriteRule ^enrollment\.html$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^tech-support\.html$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
-RewriteRule ^support\.html$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
-RewriteRule ^get-support\.html$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
-RewriteRule ^get_support\.html$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
+RewriteRule ^tech-support\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^support\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^get-support\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^get_support\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
 RewriteRule ^testimonials\.html$ https://www.schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
 RewriteRule ^about\.html$ https://www.schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^faq\.html$ https://www.schooloffreelancing.com/resource-center/faqs/ [R=301,L]
 RewriteRule ^privacy-policy\.html$ https://www.schooloffreelancing.com/legal/privacy-policy/ [R=301,L]
 RewriteRule ^terms\.html$ https://www.schooloffreelancing.com/legal/terms-and-conditions/ [R=301,L]
 RewriteRule ^contact\.html$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
+
+##################################################
+# Legacy folder index.html variants -> direct to final target
+# (prevents double-hop through the bare-folder rules below)
+##################################################
+RewriteRule ^training/index\.html$ https://www.schooloffreelancing.com/freelancing-training/ [R=301,L]
+RewriteRule ^about/index\.html$ https://www.schooloffreelancing.com/about-us/ [R=301,L]
+RewriteRule ^contact/index\.html$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
+RewriteRule ^testimonials/index\.html$ https://www.schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
+RewriteRule ^tech-support/index\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^linux-it-services/index\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^linux-ai-services/index\.html$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
 
 ##################################################
 # Redirect deleted section folders
@@ -31,20 +42,25 @@ RewriteRule ^training/oldenroll(/.*)?$ https://www.schooloffreelancing.com/conta
 RewriteRule ^training/enroll1(/.*)?$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^training/files(/.*)?$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^training/?$ https://www.schooloffreelancing.com/freelancing-training/ [R=301,L]
-RewriteRule ^tech-support/get-support/?$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
-RewriteRule ^tech-support/?$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
-RewriteRule ^linux-it-services/?$ https://www.schooloffreelancing.com/linux-ai-services/ [R=301,L]
-RewriteRule ^linux-it-services/(.+)$ https://www.schooloffreelancing.com/linux-ai-services/$1 [R=301,L]
+RewriteRule ^tech-support/get-support/?$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^tech-support/?$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^linux-it-services/?$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^linux-it-services/(.+)$ https://www.schooloffreelancing.com/client-support/$1 [R=301,L]
 RewriteRule ^get-started/?$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^about/?$ https://www.schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^contact/?$ https://www.schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^testimonials/?$ https://www.schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
 
 ##################################################
-# NEW: Redirect legacy /linux-ai-services/ to /client-support/ (canonical consolidation)
+# Legacy /linux-ai-services/ URLs (still indexed/linked externally) -> /client-support/
 ##################################################
 RewriteRule ^linux-ai-services/?$ https://www.schooloffreelancing.com/client-support/ [R=301,L]
 RewriteRule ^linux-ai-services/(.+)$ https://www.schooloffreelancing.com/client-support/$1 [R=301,L]
+
+##################################################
+# Fallback: strip index.html for any other folder not covered above
+##################################################
+RewriteRule ^(.+)/index\.html$ /$1/ [R=301,L]
 
 ##################################################
 # Browser caching and far-future expiry for static assets
@@ -69,6 +85,12 @@ RewriteRule ^linux-ai-services/(.+)$ https://www.schooloffreelancing.com/client-
 </IfModule>
 
 <IfModule mod_headers.c>
+
+  # AI Agent Discovery (RFC 8288)
+  Header always add Link "</llms.txt>; rel=\"service-doc\""
+  Header always add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
+  Header always set Origin-Trial "Av+BW1EgTw2Ai9TL+ICppUahuULVfREBo0upZzYoeUVr0VB5MjoKTIpokKYDi0L3tswE7PlGk6KOlztG/tQKSQYAAABqeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZWxhbmNpbmcuY29tOjQ0MyIsImZlYXR1cmUiOiJXZWJNQ1AiLCJleHBpcnkiOjE3OTQ4NzM2MDAsImlzU3ViZG9tYWluIjp0cnVlfQ=="
+   
   <FilesMatch "\.(js|css|png|jpg|jpeg|gif|webp|svg|ico)$">
     Header set Cache-Control "public, max-age=31536000, immutable"
   </FilesMatch>

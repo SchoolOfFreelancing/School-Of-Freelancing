@@ -1,0 +1,90 @@
+# School Of Freelancing
+
+Looking for high-paying remote careers? School of Freelancing offers practical online training in Linux system administration, DevOps pipelines, AI integrations, and web development. We also deliver on-demand remote technical support and IT consulting infrastructure to global businesses.
+
+Website: https://schooloffreelancing.com/
+
+## Training
+
+- https://schooloffreelancing.com/freelancing-training/
+- https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/
+- https://schooloffreelancing.com/freelancing-training/hermes-agent-training/
+- https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/
+- https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/
+- https://schooloffreelancing.com/freelancing-training/openclaw-training/
+- https://schooloffreelancing.com/freelancing-training/local-ai-training/
+- https://schooloffreelancing.com/freelancing-training/zeroclaw-training/
+- https://schooloffreelancing.com/freelancing-training/gitlab-training/
+- https://schooloffreelancing.com/freelancing-training/github-training/
+- https://schooloffreelancing.com/freelancing-training/docker-training/
+- https://schooloffreelancing.com/freelancing-training/fusionpbx-training/
+- https://schooloffreelancing.com/freelancing-training/goautodial-training/
+- https://schooloffreelancing.com/freelancing-training/call-center-setup-training/
+- https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/
+- https://schooloffreelancing.com/freelancing-training/debian-linux-training/
+- https://schooloffreelancing.com/freelancing-training/centos-linux-training/
+- https://schooloffreelancing.com/freelancing-training/openai-training/
+- https://schooloffreelancing.com/freelancing-training/claude-training/
+- https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/
+- https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/
+- https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/
+
+## Client Support
+
+- https://schooloffreelancing.com/client-support/
+- https://schooloffreelancing.com/client-support/linux-server-services/
+- https://schooloffreelancing.com/client-support/hermes-agent-services/
+- https://schooloffreelancing.com/client-support/odysseus-ai-services/
+- https://schooloffreelancing.com/client-support/openclaw-ai-services/
+- https://schooloffreelancing.com/client-support/local-ai-services/
+- https://schooloffreelancing.com/client-support/zeroclaw-ai-services/
+- https://schooloffreelancing.com/client-support/gitlab-services/
+- https://schooloffreelancing.com/client-support/github-services/
+- https://schooloffreelancing.com/client-support/docker-engineer-services/
+- https://schooloffreelancing.com/client-support/telnyx-sip-trunking-services/
+- https://schooloffreelancing.com/client-support/twilio-sip-trunking-services/
+- https://schooloffreelancing.com/client-support/fusionpbx-voip-services/
+- https://schooloffreelancing.com/client-support/goautodial-voip-services/
+- https://schooloffreelancing.com/client-support/ubuntu-linux-services/
+- https://schooloffreelancing.com/client-support/centos-linux-services/
+- https://schooloffreelancing.com/client-support/openai-platform-services/
+- https://schooloffreelancing.com/client-support/claude-ai-platform-services/
+- https://schooloffreelancing.com/client-support/telnyx-sms-api-services/
+- https://schooloffreelancing.com/client-support/twilio-sms-api-services/
+- https://schooloffreelancing.com/client-support/jasmin-sms-gateway-services/
+- https://schooloffreelancing.com/client-support/digitalocean-cloud-services/
+- https://schooloffreelancing.com/client-support/hummingbot-installation-services/
+- https://schooloffreelancing.com/client-support/vapi-platform-services/
+
+## Company
+
+- https://schooloffreelancing.com/resource-center/faqs/
+- https://schooloffreelancing.com/about-us/
+- https://schooloffreelancing.com/resource-center/testimonials/
+- https://schooloffreelancing.com/contact-us/
+- https://schooloffreelancing.com/register/
+- https://schooloffreelancing.com/locations/
+- https://schooloffreelancing.com/legal/credential-verification/
+
+
+## Policies
+
+- https://schooloffreelancing.com/legal/refund-policy/
+- https://schooloffreelancing.com/legal/privacy-policy/
+- https://schooloffreelancing.com/legal/terms-and-conditions/
+- https://schooloffreelancing.com/legal/training-rules/
+
+## Sitemap
+
+- https://schooloffreelancing.com/sitemap.html
+- https://schooloffreelancing.com/sitemap.xml
+
+## AI Resources
+
+- https://schooloffreelancing.com/.well-known/api-catalog.json
+- https://schooloffreelancing.com/.well-known/mcp.json
+- https://schooloffreelancing.com/openapi.json
+
+## Robots
+
+- https://www.schooloffreelancing.com/robots.txt

@@ -1,106 +1,107 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/sitemap/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
-
-[Home](/) / Sitemap
+---
+title: "Sitemap | School of Freelancing"
+description: "A complete, human-readable list of every page on School of Freelancing — training programs, support services, locations, and legal pages."
+url: "https://schooloffreelancing.com/sitemap/"
+canonical: "https://schooloffreelancing.com/sitemap/"
+site: "School of Freelancing"
+type: "CollectionPage"
+---
 
 # Sitemap
 
 Every page on School of Freelancing, in one place.
 
-All Pages
-
-## Browse Every Page
-
 ## Main
 
-- [Home](/)
-- [About Us](/about-us/)
-- [Contact Us](/contact-us/)
-- [Register](/register/)
-- [Locations](/locations/)
-- [Resource Center](/resource-center/)
-- [FAQs](/resource-center/faqs/)
-- [Testimonials](/resource-center/testimonials/)
+- [Home](https://schooloffreelancing.com/)
+- [About Us](https://schooloffreelancing.com/about-us/)
+- [Contact Us](https://schooloffreelancing.com/contact-us/)
+- [Register](https://schooloffreelancing.com/register/)
+- [Locations](https://schooloffreelancing.com/locations/)
+- [Resource Center](https://schooloffreelancing.com/resource-center/)
+- [FAQs](https://schooloffreelancing.com/resource-center/faqs/)
+- [Testimonials](https://schooloffreelancing.com/resource-center/testimonials/)
 
-## Legal
+## Client Support
 
-- [Privacy Policy](/legal/privacy-policy/)
-- [Terms & Conditions](/legal/terms-and-conditions/)
-- [Refund Policy](/legal/refund-policy/)
-- [Training Rules](/legal/training-rules/)
-- [Credential Verification](/legal/credential-verification/)
-- [Sitemap](/sitemap/)
+- [All Services](https://schooloffreelancing.com/client-support/)
+- [CentOS Linux Support](https://schooloffreelancing.com/client-support/centos-linux-services/)
+- [Claude Platform Support](https://schooloffreelancing.com/client-support/claude-ai-platform-services/)
+- [DigitalOcean Cloud Support](https://schooloffreelancing.com/client-support/digitalocean-cloud-services/)
+- [Docker Engineer Services](https://schooloffreelancing.com/client-support/docker-engineer-services/)
+- [FusionPBX VoIP Support](https://schooloffreelancing.com/client-support/fusionpbx-voip-services/)
+- [GitHub Enterprise Server Setup](https://schooloffreelancing.com/client-support/github-services/)
+- [GitLab Community Edition Setup](https://schooloffreelancing.com/client-support/gitlab-services/)
+- [Goautodial VoIP Support](https://schooloffreelancing.com/client-support/goautodial-voip-services/)
+- [Hermes Agent Support](https://schooloffreelancing.com/client-support/hermes-agent-services/)
+- [Hummingbot Installation Support](https://schooloffreelancing.com/client-support/hummingbot-installation-services/)
+- [Jasmin SMS Gateway Support](https://schooloffreelancing.com/client-support/jasmin-sms-gateway-services/)
+- [Linux Server Support](https://schooloffreelancing.com/client-support/linux-server-services/)
+- [LocalAI Support](https://schooloffreelancing.com/client-support/local-ai-services/)
+- [Odysseus AI Workspace Support](https://schooloffreelancing.com/client-support/odysseus-ai-services/)
+- [OpenAI Platform Support](https://schooloffreelancing.com/client-support/openai-platform-services/)
+- [OpenClaw AI Agent Support](https://schooloffreelancing.com/client-support/openclaw-ai-services/)
+- [Telnyx VoIP SIP Support](https://schooloffreelancing.com/client-support/telnyx-sip-trunking-services/)
+- [Telnyx SMS API Setup & Support](https://schooloffreelancing.com/client-support/telnyx-sms-api-services/)
+- [Twilio VoIP SIP Support](https://schooloffreelancing.com/client-support/twilio-sip-trunking-services/)
+- [Twilio SMS API Support](https://schooloffreelancing.com/client-support/twilio-sms-api-services/)
+- [Ubuntu Linux Support](https://schooloffreelancing.com/client-support/ubuntu-linux-services/)
+- [Vapi Platform Support](https://schooloffreelancing.com/client-support/vapi-platform-services/)
+- [ZeroClaw Support](https://schooloffreelancing.com/client-support/zeroclaw-ai-services/)
 
 ## Freelancing Training
 
-- [All Training](/freelancing-training/)
-- [Bulk SMS Engineering Training](/freelancing-training/bulk-sms-setup-training/)
-- [Call Center Setup Training](/freelancing-training/call-center-setup-training/)
-- [CentOS Linux Training](/freelancing-training/centos-linux-training/)
-- [Claude Platform Training](/freelancing-training/claude-training/)
-- [Debian Linux Training](/freelancing-training/debian-linux-training/)
-- [Docker Training](/freelancing-training/docker-training/)
-- [FusionPBX VoIP Training](/freelancing-training/fusionpbx-training/)
-- [GitHub Hands-on Training](/freelancing-training/github-training/)
-- [GitLab Hands-on Training](/freelancing-training/gitlab-training/)
-- [Goautodial VoIP Training](/freelancing-training/goautodial-training/)
-- [Hermes Agent Training](/freelancing-training/hermes-agent-training/)
-- [Jasmin SMS Gateway Training](/freelancing-training/jasmin-sms-gateway-training/)
-- [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/)
-- [LocalAI Hands-on Training](/freelancing-training/local-ai-training/)
-- [Odysseus AI Workspace Training](/freelancing-training/odysseus-ai-training/)
-- [OpenAI Platform Training](/freelancing-training/openai-training/)
-- [OpenClaw Hands-on Training](/freelancing-training/openclaw-training/)
-- [Telnyx SMS API Training](/freelancing-training/telnyx-sms-api-training/)
-- [Twilio SMS API Training](/freelancing-training/twilio-sms-api-training/)
-- [Ubuntu Linux Training](/freelancing-training/ubuntu-linux-training/)
-- [ZeroClaw Hands-on Training](/freelancing-training/zeroclaw-training/)
-
-## Linux & AI Services
-
-- [All Services](/linux-ai-services/)
-- [CentOS Linux Support](/linux-ai-services/centos-linux-services/)
-- [Claude Platform Support](/linux-ai-services/claude-ai-platform-services/)
-- [DigitalOcean Cloud Support](/linux-ai-services/digitalocean-cloud-services/)
-- [Docker Engineer Services](/linux-ai-services/docker-engineer-services/)
-- [FusionPBX VoIP Support](/linux-ai-services/fusionpbx-voip-services/)
-- [GitHub Enterprise Server Setup](/linux-ai-services/github-services/)
-- [GitLab Community Edition Setup](/linux-ai-services/gitlab-services/)
-- [Goautodial VoIP Support](/linux-ai-services/goautodial-voip-services/)
-- [Hermes Agent Support](/linux-ai-services/hermes-agent-services/)
-- [Hummingbot Installation Support](/linux-ai-services/hummingbot-installation-services/)
-- [Jasmin SMS Gateway Support](/linux-ai-services/jasmin-sms-gateway-services/)
-- [Linux Server Support](/linux-ai-services/linux-server-services/)
-- [LocalAI Support](/linux-ai-services/local-ai-services/)
-- [Odysseus AI Workspace Support](/linux-ai-services/odysseus-ai-services/)
-- [OpenAI Platform Support](/linux-ai-services/openai-platform-services/)
-- [OpenClaw AI Agent Support](/linux-ai-services/openclaw-ai-services/)
-- [Telnyx VoIP SIP Support](/linux-ai-services/telnyx-sip-trunking-services/)
-- [Telnyx SMS API Setup & Support](/linux-ai-services/telnyx-sms-api-services/)
-- [Twilio VoIP SIP Support](/linux-ai-services/twilio-sip-trunking-services/)
-- [Twilio SMS API Support](/linux-ai-services/twilio-sms-api-services/)
-- [Ubuntu Linux Support](/linux-ai-services/ubuntu-linux-services/)
-- [Vapi Platform Support](/linux-ai-services/vapi-platform-services/)
-- [ZeroClaw Support](/linux-ai-services/zeroclaw-ai-services/)
+- [All Training](https://schooloffreelancing.com/freelancing-training/)
+- [Bulk SMS Engineering Training](https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/)
+- [Call Center Setup Training](https://schooloffreelancing.com/freelancing-training/call-center-setup-training/)
+- [CentOS Linux Training](https://schooloffreelancing.com/freelancing-training/centos-linux-training/)
+- [Claude Platform Training](https://schooloffreelancing.com/freelancing-training/claude-training/)
+- [Debian Linux Training](https://schooloffreelancing.com/freelancing-training/debian-linux-training/)
+- [Docker Training](https://schooloffreelancing.com/freelancing-training/docker-training/)
+- [FusionPBX VoIP Training](https://schooloffreelancing.com/freelancing-training/fusionpbx-training/)
+- [GitHub Hands-on Training](https://schooloffreelancing.com/freelancing-training/github-training/)
+- [GitLab Hands-on Training](https://schooloffreelancing.com/freelancing-training/gitlab-training/)
+- [Goautodial VoIP Training](https://schooloffreelancing.com/freelancing-training/goautodial-training/)
+- [Hermes Agent Training](https://schooloffreelancing.com/freelancing-training/hermes-agent-training/)
+- [Jasmin SMS Gateway Training](https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/)
+- [Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/)
+- [LocalAI Hands-on Training](https://schooloffreelancing.com/freelancing-training/local-ai-training/)
+- [Odysseus AI Workspace Training](https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/)
+- [OpenAI Platform Training](https://schooloffreelancing.com/freelancing-training/openai-training/)
+- [OpenClaw Hands-on Training](https://schooloffreelancing.com/freelancing-training/openclaw-training/)
+- [Telnyx SMS API Training](https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/)
+- [Twilio SMS API Training](https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/)
+- [Ubuntu Linux Training](https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/)
+- [ZeroClaw Hands-on Training](https://schooloffreelancing.com/freelancing-training/zeroclaw-training/)
 
 ## Locations
 
-- [Australia Linux Training & Support](/locations/australia/)
-- [Austria Linux Training & Support](/locations/austria/)
-- [Bangladesh Linux Training & Support](/locations/bangladesh/)
-- [Belgium Linux Training & Support](/locations/belgium/)
-- [Canada Linux Training & Support](/locations/canada/)
-- [Denmark Linux Training & Support](/locations/denmark/)
-- [Finland Linux Training & Support](/locations/finland/)
-- [Germany Linux Training & Support](/locations/germany/)
-- [Iceland Linux Training & Support](/locations/iceland/)
-- [Ireland Linux Training & Support](/locations/ireland/)
-- [Israel Linux Training & Support](/locations/israel/)
-- [Liechtenstein Linux Training & Support](/locations/liechtenstein/)
-- [Luxembourg Linux Training & Support](/locations/luxembourg/)
-- [Netherlands Linux Training & Support](/locations/netherlands/)
-- [Norway Linux Training & Support](/locations/norway/)
-- [Singapore Linux Training & Support](/locations/singapore/)
-- [Sweden Linux Training & Support](/locations/sweden/)
-- [Switzerland Linux Training & Support](/locations/switzerland/)
-- [United Kingdom Linux Training & Support](/locations/uk/)
-- [United States Linux Training & Support](/locations/us/)
+- [Australia](https://schooloffreelancing.com/locations/australia/)
+- [Austria](https://schooloffreelancing.com/locations/austria/)
+- [Bangladesh](https://schooloffreelancing.com/locations/bangladesh/)
+- [Belgium](https://schooloffreelancing.com/locations/belgium/)
+- [Canada](https://schooloffreelancing.com/locations/canada/)
+- [Denmark](https://schooloffreelancing.com/locations/denmark/)
+- [Finland](https://schooloffreelancing.com/locations/finland/)
+- [Germany](https://schooloffreelancing.com/locations/germany/)
+- [Iceland](https://schooloffreelancing.com/locations/iceland/)
+- [Ireland](https://schooloffreelancing.com/locations/ireland/)
+- [Israel](https://schooloffreelancing.com/locations/israel/)
+- [Liechtenstein](https://schooloffreelancing.com/locations/liechtenstein/)
+- [Luxembourg](https://schooloffreelancing.com/locations/luxembourg/)
+- [Netherlands](https://schooloffreelancing.com/locations/netherlands/)
+- [Norway](https://schooloffreelancing.com/locations/norway/)
+- [Singapore](https://schooloffreelancing.com/locations/singapore/)
+- [Sweden](https://schooloffreelancing.com/locations/sweden/)
+- [Switzerland](https://schooloffreelancing.com/locations/switzerland/)
+- [United Kingdom](https://schooloffreelancing.com/locations/uk/)
+- [United States](https://schooloffreelancing.com/locations/us/)
+
+## Legal
+
+- [FAQs](https://schooloffreelancing.com/resource-center/faqs/)
+- [Locations](https://schooloffreelancing.com/locations/)
+- [Refund Policy](https://schooloffreelancing.com/legal/refund-policy/)
+- [Privacy Policy](https://schooloffreelancing.com/legal/privacy-policy/)
+- [Terms & Conditions](https://schooloffreelancing.com/legal/terms-and-conditions/)
+- [Credential Verification](https://schooloffreelancing.com/legal/credential-verification/)

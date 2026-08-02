@@ -1,0 +1,15 @@
+{
+  "version": "1.0",
+  "name": "School Of Freelancing API Catalog",
+  "description": "Public APIs provided by School Of Freelancing.",
+  "apis": [
+    {
+      "name": "Course API",
+      "description": "Retrieve training course information.",
+      "base_url": "https://schooloffreelancing.com/api/",
+      "specification": "https://schooloffreelancing.com/openapi.json",
+      "documentation": "https://schooloffreelancing.com/docs/api/",
+      "authentication": "None"
+    }
+  ]
+}

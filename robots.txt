@@ -1,5 +1,44 @@
 User-agent: *
-Disallow:
+Allow: /
+Disallow: /cgi-bin/
+
+# AI search / retrieval crawlers (power citations in AI answers)
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Perplexity-User
+Allow: /
+
+# AI training crawlers
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: CCBot
+Allow: /
 
 Sitemap: https://www.schooloffreelancing.com/sitemap.xml
 Sitemap: https://www.schooloffreelancing.com/video-sitemap.xml
