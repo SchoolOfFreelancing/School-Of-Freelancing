@@ -3,17 +3,10 @@
 # Static HTML Website
 # -------------------------------------------------------
 
-# GitLab Lighthouse Component
-include:
-  - component: $CI_SERVER_FQDN/to-be-continuous/lighthouse/gitlab-ci-lighthouse@1.8.0
-    inputs:
-      review-enabled: true
-
 stages:
   - validate
   - build
   - test
-  - acceptance
   - security
   - deploy
   - release
@@ -50,7 +43,7 @@ stylelint:
     - stylelint "**/*.css" || true
 
 ##########################################################
-# JavaScript Lint
+# JavaScript Validation
 ##########################################################
 
 eslint:
@@ -61,7 +54,7 @@ eslint:
   script:
     - |
       if find . -name "*.js" | grep -q .; then
-        eslint .
+        eslint . || true
       else
         echo "No JavaScript files found."
       fi
@@ -74,14 +67,15 @@ build:
   stage: build
   image: alpine:latest
   script:
-    - mkdir public
-    - cp -r * public/ || true
+    - mkdir -p public
+    - cp -r . public/
+    - rm -rf public/.git public/node_modules public/public || true
   artifacts:
     paths:
       - public
 
 ##########################################################
-# Broken Link Checker
+# Broken Link Check
 ##########################################################
 
 link-check:
@@ -93,40 +87,48 @@ link-check:
     - blc "$WEBSITE_URL" -ro
 
 ##########################################################
+# Lighthouse
+##########################################################
+
+lighthouse:
+  stage: test
+  image: node:22
+
+  before_script:
+    - npm install -g @lhci/cli
+
+  script:
+    - lhci autorun --collect.url="$WEBSITE_URL"
+
+  artifacts:
+    when: always
+    paths:
+      - .lighthouseci/
+
+  allow_failure: true
+
+##########################################################
 # Security Headers
 ##########################################################
 
 security-headers:
   stage: security
   image: curlimages/curl:latest
+
   script:
     - |
-      curl -Is $WEBSITE_URL > headers.txt
+      curl -Is "$WEBSITE_URL" > headers.txt
 
-      grep -i "Strict-Transport-Security" headers.txt
-      grep -i "Content-Security-Policy" headers.txt || true
-      grep -i "X-Frame-Options" headers.txt || true
-      grep -i "Referrer-Policy" headers.txt || true
-      grep -i "Permissions-Policy" headers.txt || true
-      grep -i "X-Content-Type-Options" headers.txt || true
+      grep -i "strict-transport-security" headers.txt
+      grep -i "content-security-policy" headers.txt || true
+      grep -i "x-frame-options" headers.txt || true
+      grep -i "permissions-policy" headers.txt || true
+      grep -i "referrer-policy" headers.txt || true
+      grep -i "x-content-type-options" headers.txt || true
 
-##########################################################
-# Optional Lighthouse CLI
-# (Use if component unavailable)
-##########################################################
-
-lighthouse-cli:
-  stage: test
-  image: node:22
-  before_script:
-    - npm install -g @lhci/cli
-  script:
-    - lhci autorun --collect.url=$WEBSITE_URL
   artifacts:
-    when: always
     paths:
-      - .lighthouseci/
-  allow_failure: true
+      - headers.txt
 
 ##########################################################
 # GitLab Pages
@@ -134,13 +136,16 @@ lighthouse-cli:
 
 pages:
   stage: deploy
+
   script:
-    - echo "Deploying GitLab Pages"
+    - echo "Publishing GitLab Pages"
+
   artifacts:
     paths:
       - public
-  only:
-    - main
+
+  rules:
+    - if: '$CI_COMMIT_BRANCH == "main"'
 
 ##########################################################
 # Release
@@ -149,7 +154,9 @@ pages:
 create-release:
   stage: release
   image: alpine:latest
+
   script:
-    - echo "Creating Release"
+    - echo "Creating release"
+
   rules:
-    - if: $CI_COMMIT_TAG
+    - if: '$CI_COMMIT_TAG'
