@@ -1,10 +1,10 @@
 include:
   - component: $CI_SERVER_FQDN/to-be-continuous/lighthouse/gitlab-ci-lighthouse@1.8.0
-    inputs:
-      review-enabled: true
 
 variables:
-  LIGHTHOUSE_URL: "https://www.schooloffreelancing.com"
+  LHCI_RUN_OPTS: >-
+    --collect.url="https://www.schooloffreelancing.com"
+    --collect.settings.chromeFlags="--no-sandbox"
 
 stages:
   - build
