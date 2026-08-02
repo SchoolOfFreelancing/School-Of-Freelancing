@@ -153,10 +153,14 @@ pages:
 
 create-release:
   stage: release
-  image: alpine:latest
+  image: registry.gitlab.com/gitlab-org/cli:latest
 
   script:
-    - echo "Creating release"
+    - echo "Creating release ${CI_COMMIT_TAG}"
+
+  release:
+    tag_name: $CI_COMMIT_TAG
+    description: "Release $CI_COMMIT_TAG of components in $CI_PROJECT_PATH"
 
   rules:
     - if: '$CI_COMMIT_TAG'
