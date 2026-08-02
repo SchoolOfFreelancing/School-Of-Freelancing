@@ -1,152 +1,3 @@
-# -------------------------------------------------------
-# Production GitLab CI/CD Pipeline
-# Static HTML Website
-# -------------------------------------------------------
-
-stages:
-  - validate
-  - build
-  - test
-  - security
-  - deploy
-  - release
-
-variables:
-  WEBSITE_URL: "https://www.schooloffreelancing.com"
-
-cache:
-  paths:
-    - node_modules/
-
-##########################################################
-# HTML Validation
-##########################################################
-
-html-validate:
-  stage: validate
-  image: node:22
-  before_script:
-    - npm install -g html-validate
-  script:
-    - html-validate "**/*.html"
-
-##########################################################
-# CSS Validation
-##########################################################
-
-stylelint:
-  stage: validate
-  image: node:22
-  before_script:
-    - npm install -g stylelint stylelint-config-standard
-  script:
-    - stylelint "**/*.css" || true
-
-##########################################################
-# JavaScript Validation
-##########################################################
-
-eslint:
-  stage: validate
-  image: node:22
-  before_script:
-    - npm install -g eslint
-  script:
-    - |
-      if find . -name "*.js" | grep -q .; then
-        eslint . || true
-      else
-        echo "No JavaScript files found."
-      fi
-
-##########################################################
-# Build
-##########################################################
-
-build:
-  stage: build
-  image: alpine:latest
-  script:
-    - mkdir -p public
-    - cp -r . public/
-    - rm -rf public/.git public/node_modules public/public || true
-  artifacts:
-    paths:
-      - public
-
-##########################################################
-# Broken Link Check
-##########################################################
-
-link-check:
-  stage: test
-  image: node:22
-  before_script:
-    - npm install -g broken-link-checker
-  script:
-    - blc "$WEBSITE_URL" -ro
-
-##########################################################
-# Lighthouse
-##########################################################
-
-lighthouse:
-  stage: test
-  image: node:22
-
-  before_script:
-    - npm install -g @lhci/cli
-
-  script:
-    - lhci autorun --collect.url="$WEBSITE_URL"
-
-  artifacts:
-    when: always
-    paths:
-      - .lighthouseci/
-
-  allow_failure: true
-
-##########################################################
-# Security Headers
-##########################################################
-
-security-headers:
-  stage: security
-  image: curlimages/curl:latest
-
-  script:
-    - |
-      curl -Is "$WEBSITE_URL" > headers.txt
-
-      grep -i "strict-transport-security" headers.txt
-      grep -i "content-security-policy" headers.txt || true
-      grep -i "x-frame-options" headers.txt || true
-      grep -i "permissions-policy" headers.txt || true
-      grep -i "referrer-policy" headers.txt || true
-      grep -i "x-content-type-options" headers.txt || true
-
-  artifacts:
-    paths:
-      - headers.txt
-
-##########################################################
-# GitLab Pages
-##########################################################
-
-pages:
-  stage: deploy
-
-  script:
-    - echo "Publishing GitLab Pages"
-
-  artifacts:
-    paths:
-      - public
-
-  rules:
-    - if: '$CI_COMMIT_BRANCH == "main"'
-
 ##########################################################
 # Release
 ##########################################################
@@ -155,21 +6,21 @@ create-release:
   stage: release
   image: registry.gitlab.com/gitlab-org/cli:latest
 
-rules:
+  rules:
     - if: '$CI_COMMIT_TAG'
 
-script:
+  script:
     - |
       glab release create "$CI_COMMIT_TAG" \
-        --name "Release $CI_COMMIT_TAG" \
+        --name "School of Freelancing $CI_COMMIT_TAG" \
         --notes "Release $CI_COMMIT_TAG of $CI_PROJECT_PATH"
-release:
-  tag_name: $CI_COMMIT_TAG
-  name: "School of Freelancing $CI_COMMIT_TAG"
-  description: "Release $CI_COMMIT_TAG of $CI_PROJECT_PATH"
 
-  assets:
-    links:
-      - name: "Website"
-        url: "https://www.schooloffreelancing.com"
+  release:
+    tag_name: $CI_COMMIT_TAG
+    name: "School of Freelancing $CI_COMMIT_TAG"
+    description: "Release $CI_COMMIT_TAG of $CI_PROJECT_PATH"
 
+    assets:
+      links:
+        - name: "Website"
+          url: "https://www.schooloffreelancing.com"
