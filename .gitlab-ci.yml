@@ -13,6 +13,7 @@ stages:
   - validate
   - build
   - test
+  - acceptance
   - security
   - deploy
   - release

@@ -1,18 +1,17 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9" xmlns:video="http://www.google.com/schemas/sitemap-video/1.1">
   <url>
-    <loc>https://www.schooloffreelancing.com/resource-center/intro-video/</loc>
+    <loc>https://schooloffreelancing.com/resource-center/intro-video/</loc>
     <video:video>
-      <video:thumbnail_loc>https://i.ytimg.com/vi/bbJCBn_vUzs/maxresdefault.jpg</video:thumbnail_loc>
-      <video:title>School of Freelancing — Linux & AI Freelancing Training Introduction</video:title>
-      <video:description>Introduction to School of Freelancing: hands-on Linux & AI freelancing training and reliable Linux/IT support services, built on real production systems.</video:description>
-      <video:player_loc>https://www.youtube.com/embed/bbJCBn_vUzs</video:player_loc>
-      <video:content_loc>https://www.youtube.com/watch?v=bbJCBn_vUzs</video:content_loc>
+      <video:thumbnail_loc>https://i.ytimg.com/vi_webp/bbJCBn_vUzs/4x3/hqdefault.webp</video:thumbnail_loc>
+      <video:title>School of Freelancing — Linux &amp; AI Freelancing Training Introduction</video:title>
+      <video:description>Introduction to School of Freelancing: hands-on Linux &amp; AI freelancing training and reliable Linux/IT support services, built on real production systems.</video:description>
+      <video:player_loc>https://www.youtube.com/embed/bbJCBn_vUzs?si=RlGlvzj-xUlgQLBp</video:player_loc>
       <video:tag>Linux</video:tag>
       <video:tag>AI</video:tag>
       <video:tag>Freelancing</video:tag>
-      <video:publication_date>2022-06-13T00:00:00+06:00</video:publication_date>
-      <video:duration>120</video:duration>
+      <video:publication_date>2022-06-13T11:19:11+06:00</video:publication_date>
+      <video:duration>52</video:duration>
     </video:video>
   </url>
 </urlset>

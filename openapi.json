@@ -1,0 +1,13 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "School Of Freelancing API",
+    "version": "1.0.0"
+  },
+  "servers": [
+    {
+      "url": "https://schooloffreelancing.com/api"
+    }
+  ],
+  "paths": {}
+}
