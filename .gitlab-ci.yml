@@ -9,6 +9,7 @@ variables:
 stages:
   - build
   - test
+  - acceptance
   - deploy
   - release
 
