@@ -1,7 +1,7 @@
 {
-  "resource": "https://www.schooloffreelancing.com",
+  "resource": "https://schooloffreelancing.com",
   "authorization_servers": [
-    "https://www.schooloffreelancing.com"
+    "https://schooloffreelancing.com"
   ],
   "bearer_methods_supported": [
     "header"
@@ -10,9 +10,9 @@
     "RS256",
     "ES256"
   ],
-  "resource_documentation": "https://www.schooloffreelancing.com/Auth.md",
-  "resource_policy_uri": "https://www.schooloffreelancing.com/legal/privacy-policy/",
-  "resource_tos_uri": "https://www.schooloffreelancing.com/legal/terms-and-conditions/",
+  "resource_documentation": "https://schooloffreelancing.com/Auth.md",
+  "resource_policy_uri": "https://schooloffreelancing.com/legal/privacy-policy/",
+  "resource_tos_uri": "https://schooloffreelancing.com/legal/terms-and-conditions/",
   "scopes_supported": [
     "openid",
     "profile",

@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/locations/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/locations/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 # Locations We Serve
 

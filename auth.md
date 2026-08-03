@@ -4,7 +4,7 @@
 
 Issuer
 
-https://www.schooloffreelancing.com
+https://schooloffreelancing.com
 
 ## Registration
 
@@ -21,4 +21,4 @@ support@schooloffreelancing.com
 
 ## Documentation
 
-https://www.schooloffreelancing.com/llms.txt
+https://schooloffreelancing.com/llms.txt

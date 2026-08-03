@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/about-us/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/about-us/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 [Home](/)/About Us
 **Our Story**

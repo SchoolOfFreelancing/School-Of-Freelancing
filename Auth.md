@@ -18,22 +18,22 @@ Agents should first discover available authentication methods:
 
 ```bash
 # OAuth 2.0 Authorization Server
-curl https://www.schooloffreelancing.com/.well-known/oauth-authorization-server.json
+curl https://schooloffreelancing.com/.well-known/oauth-authorization-server.json
 
 # OpenID Connect Configuration
-curl https://www.schooloffreelancing.com/.well-known/openid-configuration.json
+curl https://schooloffreelancing.com/.well-known/openid-configuration.json
 
 # MCP Server Configuration
-curl https://www.schooloffreelancing.com/.well-known/mcp.json
+curl https://schooloffreelancing.com/.well-known/mcp.json
 
 # WebMCP Configuration
-curl https://www.schooloffreelancing.com/.well-known/webmcp.json
+curl https://schooloffreelancing.com/.well-known/webmcp.json
 
 # Agent Skills Index
-curl https://www.schooloffreelancing.com/.well-known/skills.json
+curl https://schooloffreelancing.com/.well-known/skills.json
 
 # OAuth Protected Resource Metadata (RFC 9728)
-curl https://www.schooloffreelancing.com/.well-known/oauth-protected-resource
+curl https://schooloffreelancing.com/.well-known/oauth-protected-resource
 ```
 
 ## Agent Registration Methods
@@ -45,16 +45,16 @@ how agents register:
   discovery and catalog APIs.
 - **Anonymous registration** (`identity_types_supported: ["anonymous"]`):
   agents register without a user identity by POSTing to the
-  `register_uri` (`https://www.schooloffreelancing.com/api/oauth/register`)
+  `register_uri` (`https://schooloffreelancing.com/api/oauth/register`)
   and receive an `oauth2_client` credential (client ID and secret).
 - **Claiming:** an anonymous registration can later be claimed by a human
   account via the `claim_uri`
-  (`https://www.schooloffreelancing.com/api/oauth/claim`).
+  (`https://schooloffreelancing.com/api/oauth/claim`).
 - **Credential use:** the issued client credentials are exchanged for access
   tokens at the token endpoint (see flows below); tokens are sent as
   `Authorization: Bearer` headers.
 - **Revocation:** credentials can be revoked at
-  `https://www.schooloffreelancing.com/api/oauth/revoke`.
+  `https://schooloffreelancing.com/api/oauth/revoke`.
 
 ## OAuth 2.0 Registration
 
@@ -63,7 +63,7 @@ how agents register:
 POST to the registration endpoint with your agent details:
 
 ```bash
-curl -X POST https://www.schooloffreelancing.com/api/oauth/register \
+curl -X POST https://schooloffreelancing.com/api/oauth/register \
   -H "Content-Type: application/json" \
   -d '{
     "client_name": "My AI Agent",
@@ -98,7 +98,7 @@ curl -X POST https://www.schooloffreelancing.com/api/oauth/register \
   "client_secret": "your-client-secret",
   "client_id_issued_at": 1234567890,
   "client_secret_expires_at": 0,
-  "registration_client_uri": "https://www.schooloffreelancing.com/api/oauth/client/your-client-id",
+  "registration_client_uri": "https://schooloffreelancing.com/api/oauth/client/your-client-id",
   "registration_access_token": "registration-token"
 }
 ```
@@ -120,7 +120,7 @@ CODE_CHALLENGE=$(echo -n $CODE_VERIFIER | sha256sum | base64 | tr -d '=' | tr '+
 #### Step B: Redirect User to Authorization Endpoint
 
 ```
-https://www.schooloffreelancing.com/api/oauth/authorize?
+https://schooloffreelancing.com/api/oauth/authorize?
   client_id=your-client-id&
   response_type=code&
   scope=openid%20profile%20training:read&
@@ -144,7 +144,7 @@ Verify `state` parameter matches your request.
 #### Step D: Exchange Code for Token
 
 ```bash
-curl -X POST https://www.schooloffreelancing.com/api/oauth/token \
+curl -X POST https://schooloffreelancing.com/api/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "grant_type=authorization_code&
       client_id=your-client-id&
@@ -172,7 +172,7 @@ curl -X POST https://www.schooloffreelancing.com/api/oauth/token \
 For backend agent services:
 
 ```bash
-curl -X POST https://www.schooloffreelancing.com/api/oauth/token \
+curl -X POST https://schooloffreelancing.com/api/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "grant_type=client_credentials&
       client_id=your-client-id&
@@ -198,7 +198,7 @@ curl -X POST https://www.schooloffreelancing.com/api/oauth/token \
 Include the access token in the Authorization header:
 
 ```bash
-curl https://www.schooloffreelancing.com/api/skills/training-discovery \
+curl https://schooloffreelancing.com/api/skills/training-discovery \
   -H "Authorization: Bearer access-token"
 ```
 
@@ -207,7 +207,7 @@ curl https://www.schooloffreelancing.com/api/skills/training-discovery \
 When access token expires:
 
 ```bash
-curl -X POST https://www.schooloffreelancing.com/api/oauth/token \
+curl -X POST https://schooloffreelancing.com/api/oauth/token \
   -H "Content-Type: application/x-www-form-urlencoded" \
   -d "grant_type=refresh_token&
       client_id=your-client-id&
@@ -221,7 +221,7 @@ After authentication, access protected resources:
 
 ```bash
 # Get user info
-curl https://www.schooloffreelancing.com/api/oauth/userinfo \
+curl https://schooloffreelancing.com/api/oauth/userinfo \
   -H "Authorization: Bearer access-token"
 
 # Response
@@ -252,7 +252,7 @@ curl https://www.schooloffreelancing.com/api/oauth/userinfo \
 ### Endpoint Discovery
 
 ```bash
-curl https://www.schooloffreelancing.com/.well-known/mcp.json
+curl https://schooloffreelancing.com/.well-known/mcp.json
 ```
 
 ### Connection Methods
@@ -261,7 +261,7 @@ curl https://www.schooloffreelancing.com/.well-known/mcp.json
 
 ```javascript
 const eventSource = new EventSource(
-  'https://www.schooloffreelancing.com/api/mcp/sse',
+  'https://schooloffreelancing.com/api/mcp/sse',
   { headers: { 'Authorization': 'Bearer access-token' } }
 );
 
@@ -275,7 +275,7 @@ eventSource.onmessage = (event) => {
 
 ```javascript
 const ws = new WebSocket(
-  'wss://www.schooloffreelancing.com/api/mcp/ws',
+  'wss://schooloffreelancing.com/api/mcp/ws',
   ['mcp'],
   { headers: { 'Authorization': 'Bearer access-token' } }
 );
@@ -290,7 +290,7 @@ ws.onmessage = (event) => {
 
 ```bash
 # For standalone agents
-curl -X POST https://www.schooloffreelancing.com/api/mcp/stdio \
+curl -X POST https://schooloffreelancing.com/api/mcp/stdio \
   -H "Authorization: Bearer access-token" \
   -H "Content-Type: application/json" \
   -d '{
@@ -305,11 +305,11 @@ curl -X POST https://www.schooloffreelancing.com/api/mcp/stdio \
 For browser-based agents, use WebMCP:
 
 ```html
-<script src="https://www.schooloffreelancing.com/webmcp/client.js"></script>
+<script src="https://schooloffreelancing.com/webmcp/client.js"></script>
 
 <script>
   const webMcp = new WebMCP({
-    baseUrl: 'https://www.schooloffreelancing.com',
+    baseUrl: 'https://schooloffreelancing.com',
     clientId: 'your-client-id',
     scopes: ['openid', 'training:read', 'services:read']
   });
@@ -330,7 +330,7 @@ For browser-based agents, use WebMCP:
 Discover available skills via the skills endpoint:
 
 ```bash
-curl https://www.schooloffreelancing.com/.well-known/skills.json
+curl https://schooloffreelancing.com/.well-known/skills.json
 ```
 
 Available skills include:
@@ -363,10 +363,10 @@ Available skills include:
 ## Support
 
 For authentication issues:
-- **Documentation**: https://www.schooloffreelancing.com/Auth.md
-- **OIDC Configuration**: https://www.schooloffreelancing.com/.well-known/openid-configuration.json
-- **MCP Configuration**: https://www.schooloffreelancing.com/.well-known/mcp.json
-- **Contact**: See https://www.schooloffreelancing.com/contact-us/
+- **Documentation**: https://schooloffreelancing.com/Auth.md
+- **OIDC Configuration**: https://schooloffreelancing.com/.well-known/openid-configuration.json
+- **MCP Configuration**: https://schooloffreelancing.com/.well-known/mcp.json
+- **Contact**: See https://schooloffreelancing.com/contact-us/
 
 ## Examples
 
@@ -383,14 +383,14 @@ client = OAuth2Session(
 )
 
 token = client.fetch_token(
-    'https://www.schooloffreelancing.com/api/oauth/token',
+    'https://schooloffreelancing.com/api/oauth/token',
     grant_type='client_credentials'
 )
 
 # Use token for API requests
 headers = {'Authorization': f'Bearer {token["access_token"]}'}
 response = requests.get(
-    'https://www.schooloffreelancing.com/api/skills/training-discovery',
+    'https://schooloffreelancing.com/api/skills/training-discovery',
     headers=headers,
     params={'query': 'Linux'}
 )
@@ -405,7 +405,7 @@ const client = {
 };
 
 const tokenResponse = await fetch(
-  'https://www.schooloffreelancing.com/api/oauth/token',
+  'https://schooloffreelancing.com/api/oauth/token',
   {
     method: 'POST',
     body: new URLSearchParams({
@@ -421,7 +421,7 @@ const token = await tokenResponse.json();
 
 // Use token
 const response = await fetch(
-  'https://www.schooloffreelancing.com/api/skills/training-discovery',
+  'https://schooloffreelancing.com/api/skills/training-discovery',
   {
     headers: {
       'Authorization': `Bearer ${token.access_token}`

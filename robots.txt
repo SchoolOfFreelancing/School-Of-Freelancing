@@ -40,5 +40,5 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
-Sitemap: https://www.schooloffreelancing.com/sitemap.xml
-Sitemap: https://www.schooloffreelancing.com/video-sitemap.xml
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Sitemap: https://schooloffreelancing.com/video-sitemap.xml

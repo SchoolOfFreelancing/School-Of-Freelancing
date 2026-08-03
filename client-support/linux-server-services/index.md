@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/client-support/linux-server-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/client-support/linux-server-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 [Home](/) / [Client Support](/client-support/) / Linux Server Support
 

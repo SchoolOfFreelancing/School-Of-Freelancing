@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/resource-center/testimonials/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/resource-center/testimonials/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 [Home](/) / [Resource Center](/resource-center/) / Testimonials
 

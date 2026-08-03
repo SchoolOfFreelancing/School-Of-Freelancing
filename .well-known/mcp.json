@@ -17,7 +17,7 @@
       "description": "Standard I/O endpoint for MCP protocol"
     },
     "websocket": {
-      "uri": "wss://www.schooloffreelancing.com/api/mcp/ws",
+      "uri": "wss://schooloffreelancing.com/api/mcp/ws",
       "description": "WebSocket endpoint for MCP protocol"
     }
   },

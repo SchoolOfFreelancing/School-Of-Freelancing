@@ -2,7 +2,7 @@
 
 > Expert Linux, DevOps, AI, VoIP & SMS support services at School of Freelancing. Fast, remote, worldwide assistance.
 
-**URL:** https://www.schooloffreelancing.com/client-support/
+**URL:** https://schooloffreelancing.com/client-support/
 **Rating:** 5.0 / 5 (36 verified Google reviews)
 **Provider:** School of Freelancing — Cumilla, Bangladesh, serving clients worldwide since 2015
 
@@ -17,7 +17,7 @@ Linux · DevOps · AI · VoIP · SMS
 - **Category:** Linux
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/linux-server-services/
+- **URL:** https://schooloffreelancing.com/client-support/linux-server-services/
 
 Professional Linux server services specializing in enterprise systems administration, automated security hardening, and 24/7 cloud infrastructure troubleshooting.
 
@@ -32,7 +32,7 @@ Professional Linux server services specializing in enterprise systems administra
 - **Category:** AI
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/hermes-agent-services/
+- **URL:** https://schooloffreelancing.com/client-support/hermes-agent-services/
 
 Professional implementation services for Hermes AI Agents featuring persistent memory configuration, self-improving skill mapping, and multi-platform messaging integration.
 
@@ -47,7 +47,7 @@ Professional implementation services for Hermes AI Agents featuring persistent m
 - **Category:** AI
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/odysseus-ai-services/
+- **URL:** https://schooloffreelancing.com/client-support/odysseus-ai-services/
 
 On-premise deployment support for Odysseus AI Workspace, allowing businesses to run secure large language models on local localized hardware.
 
@@ -62,7 +62,7 @@ On-premise deployment support for Odysseus AI Workspace, allowing businesses to 
 - **Category:** AI
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/openclaw-ai-services/
+- **URL:** https://schooloffreelancing.com/client-support/openclaw-ai-services/
 
 Professional open-source installation and support for OpenClaw autonomous AI agent platforms, configuring 24/7 digital personal assistants.
 
@@ -77,7 +77,7 @@ Professional open-source installation and support for OpenClaw autonomous AI age
 - **Category:** AI
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/local-ai-services/
+- **URL:** https://schooloffreelancing.com/client-support/local-ai-services/
 
 Professional installation and support for LocalAI open-source engines, running multi-modal models including LLMs, vision, voice, and video on consumer hardware without mandatory GPU requirements.
 
@@ -92,7 +92,7 @@ Professional installation and support for LocalAI open-source engines, running m
 - **Category:** AI
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/zeroclaw-ai-services/
+- **URL:** https://schooloffreelancing.com/client-support/zeroclaw-ai-services/
 
 Professional installation and support for ZeroClaw personal AI assistant agent runtimes, configuring seamless integration with Anthropic, OpenAI, Ollama, and over 20 other LLM providers.
 
@@ -107,7 +107,7 @@ Professional installation and support for ZeroClaw personal AI assistant agent r
 - **Category:** DevOps
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/gitlab-services/
+- **URL:** https://schooloffreelancing.com/client-support/gitlab-services/
 
 Professional self-hosted GitLab Community Edition (CE) setup, secure backup migration, and enterprise Linux system administration support.
 
@@ -122,7 +122,7 @@ Professional self-hosted GitLab Community Edition (CE) setup, secure backup migr
 - **Category:** DevOps
 - **Price:** $350 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/github-services/
+- **URL:** https://schooloffreelancing.com/client-support/github-services/
 
 Professional self-hosted GitHub Enterprise Server setup, repository migration, and automated DevOps infrastructure management by an experienced Linux systems administrator.
 
@@ -137,7 +137,7 @@ Professional self-hosted GitHub Enterprise Server setup, repository migration, a
 - **Category:** DevOps
 - **Price:** $250 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/docker-engineer-services/
+- **URL:** https://schooloffreelancing.com/client-support/docker-engineer-services/
 
 Professional Docker containerization and production deployment services, including Dockerfile/Compose setup, Nginx reverse proxy with SSL, and security-hardened container infrastructure.
 
@@ -152,7 +152,7 @@ Professional Docker containerization and production deployment services, includi
 - **Category:** VoIP
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/telnyx-sip-trunking-services/
+- **URL:** https://schooloffreelancing.com/client-support/telnyx-sip-trunking-services/
 
 Professional installation and engineering support for Telnyx VoIP SIP trunking, private IP network routing, and global call center telephony integrations.
 
@@ -167,7 +167,7 @@ Professional installation and engineering support for Telnyx VoIP SIP trunking, 
 - **Category:** VoIP
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/twilio-sip-trunking-services/
+- **URL:** https://schooloffreelancing.com/client-support/twilio-sip-trunking-services/
 
 Professional implementation and optimization support for Twilio VoIP elastic SIP trunking, programmable voice workflows, and global call center API integrations.
 
@@ -182,7 +182,7 @@ Professional implementation and optimization support for Twilio VoIP elastic SIP
 - **Category:** VoIP
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/fusionpbx-voip-services/
+- **URL:** https://schooloffreelancing.com/client-support/fusionpbx-voip-services/
 
 Professional installation, configuration, and engineering support for FusionPBX multi-tenant switching platforms and FreeSWITCH-based VoIP infrastructure.
 
@@ -197,7 +197,7 @@ Professional installation, configuration, and engineering support for FusionPBX 
 - **Category:** VoIP
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/goautodial-voip-services/
+- **URL:** https://schooloffreelancing.com/client-support/goautodial-voip-services/
 
 Professional installation, customization, and engineering support for Goautodial open-source omnichannel contact center systems integrating Asterisk, Kamailio, and Vicidial.
 
@@ -212,7 +212,7 @@ Professional installation, customization, and engineering support for Goautodial
 - **Category:** Linux
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/ubuntu-linux-services/
+- **URL:** https://schooloffreelancing.com/client-support/ubuntu-linux-services/
 
 Professional administration and system support for Ubuntu Linux operating systems across production servers, workstations, cloud instances, and IoT devices.
 
@@ -227,7 +227,7 @@ Professional administration and system support for Ubuntu Linux operating system
 - **Category:** Linux
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/centos-linux-services/
+- **URL:** https://schooloffreelancing.com/client-support/centos-linux-services/
 
 Professional enterprise systems administration and long-term support for CentOS Linux infrastructures, package repositories, and migration deployments.
 
@@ -242,7 +242,7 @@ Professional enterprise systems administration and long-term support for CentOS 
 - **Category:** AI
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/openai-platform-services/
+- **URL:** https://schooloffreelancing.com/client-support/openai-platform-services/
 
 Professional software engineering and infrastructure support for OpenAI API platform integration, large language model custom fine-tuning, and scalable enterprise AI application deployment.
 
@@ -257,7 +257,7 @@ Professional software engineering and infrastructure support for OpenAI API plat
 - **Category:** AI
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/claude-ai-platform-services/
+- **URL:** https://schooloffreelancing.com/client-support/claude-ai-platform-services/
 
 Professional software engineering and infrastructure support for Anthropic Claude API platform integration, context window optimization, and secure enterprise AI application deployment.
 
@@ -272,7 +272,7 @@ Professional software engineering and infrastructure support for Anthropic Claud
 - **Category:** SMS
 - **Price:** $1100 flat rate
 - **Delivery:** Allocation: 40 Engineering Hours / 1-4 Weeks
-- **URL:** https://www.schooloffreelancing.com/client-support/telnyx-sms-api-services/
+- **URL:** https://schooloffreelancing.com/client-support/telnyx-sms-api-services/
 
 Professional software engineering support for Telnyx SMS REST API setup, including A2P 10DLC registration, two-way messaging, bulk SMS integration, and secure SMPP API deployment.
 
@@ -287,7 +287,7 @@ Professional software engineering support for Telnyx SMS REST API setup, includi
 - **Category:** SMS
 - **Price:** $1100 flat rate
 - **Delivery:** Allocation: 40 Engineering Hours / 1-4 Weeks
-- **URL:** https://www.schooloffreelancing.com/client-support/twilio-sms-api-services/
+- **URL:** https://schooloffreelancing.com/client-support/twilio-sms-api-services/
 
 Professional software engineering and production support for Twilio Messaging API integration, bulk SMS infrastructure development, and US A2P 10DLC compliance configuration.
 
@@ -302,7 +302,7 @@ Professional software engineering and production support for Twilio Messaging AP
 - **Category:** SMS
 - **Price:** $1100 flat rate
 - **Delivery:** Allocation: 20 Engineering Hours / 1 Week
-- **URL:** https://www.schooloffreelancing.com/client-support/jasmin-sms-gateway-services/
+- **URL:** https://schooloffreelancing.com/client-support/jasmin-sms-gateway-services/
 
 Professional open-source telecom software engineering support for Jasmin SMS Gateway deployment, AMQP/Redis queue tuning, playSMS web portal integration, and production-ready enterprise bulk SMS architecture.
 
@@ -317,7 +317,7 @@ Professional open-source telecom software engineering support for Jasmin SMS Gat
 - **Category:** Cloud
 - **Price:** $500 flat rate
 - **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/digitalocean-cloud-services/
+- **URL:** https://schooloffreelancing.com/client-support/digitalocean-cloud-services/
 
 Professional DigitalOcean cloud support for server deployment, troubleshooting, security, networking, backups, and production infrastructure.
 
@@ -332,7 +332,7 @@ Professional DigitalOcean cloud support for server deployment, troubleshooting, 
 - **Category:** AI
 - **Price:** $1500 flat rate
 - **Delivery:** Allocation: 40 Engineering Hours / 6 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/hummingbot-installation-services/
+- **URL:** https://schooloffreelancing.com/client-support/hummingbot-installation-services/
 
 Professional Hummingbot setup, configuration, and deployment for automated crypto trading, plus Exchange API integration and MCP & Skills setup.
 
@@ -347,7 +347,7 @@ Professional Hummingbot setup, configuration, and deployment for automated crypt
 - **Category:** AI
 - **Price:** $600 flat rate
 - **Delivery:** Allocation: 30 Engineering Hours / 5 Days
-- **URL:** https://www.schooloffreelancing.com/client-support/vapi-platform-services/
+- **URL:** https://schooloffreelancing.com/client-support/vapi-platform-services/
 
 Expert Vapi setup, configuration, and troubleshooting for voice AI agents that make and receive phone calls.
 
@@ -381,6 +381,6 @@ Yes. We provide one-time fixes as well as monthly maintenance and support plans 
 
 ## Contact
 
-- **Start a project:** https://www.schooloffreelancing.com/contact-us/
-- **All training programs:** https://www.schooloffreelancing.com/freelancing-training/
-- **Testimonials:** https://www.schooloffreelancing.com/resource-center/testimonials/
+- **Start a project:** https://schooloffreelancing.com/contact-us/
+- **All training programs:** https://schooloffreelancing.com/freelancing-training/
+- **Testimonials:** https://schooloffreelancing.com/resource-center/testimonials/

@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/linux-ai-services/telnyx-sip-trunking-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/linux-ai-services/telnyx-sip-trunking-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 [Home](/) / [Support Services](/linux-ai-services/) / Telnyx VoIP SIP Support
 

@@ -2,23 +2,23 @@
   "version": "1.0",
   "name": "School of Freelancing WebMCP",
   "description": "Web-based Model Context Protocol for browser-based agent integration",
-  "baseUrl": "https://www.schooloffreelancing.com",
+  "baseUrl": "https://schooloffreelancing.com",
   "endpoints": {
     "mcp": {
-      "sse": "https://www.schooloffreelancing.com/api/mcp/sse",
-      "websocket": "wss://www.schooloffreelancing.com/api/mcp/ws",
-      "http": "https://www.schooloffreelancing.com/api/mcp/http"
+      "sse": "https://schooloffreelancing.com/api/mcp/sse",
+      "websocket": "wss://schooloffreelancing.com/api/mcp/ws",
+      "http": "https://schooloffreelancing.com/api/mcp/http"
     },
     "oauth": {
-      "authorize": "https://www.schooloffreelancing.com/api/oauth/authorize",
-      "token": "https://www.schooloffreelancing.com/api/oauth/token",
-      "userinfo": "https://www.schooloffreelancing.com/api/oauth/userinfo",
-      "jwks": "https://www.schooloffreelancing.com/api/oauth/jwks"
+      "authorize": "https://schooloffreelancing.com/api/oauth/authorize",
+      "token": "https://schooloffreelancing.com/api/oauth/token",
+      "userinfo": "https://schooloffreelancing.com/api/oauth/userinfo",
+      "jwks": "https://schooloffreelancing.com/api/oauth/jwks"
     },
     "discovery": {
-      "mcp": "https://www.schooloffreelancing.com/.well-known/mcp.json",
-      "openid": "https://www.schooloffreelancing.com/.well-known/openid-configuration.json",
-      "skills": "https://www.schooloffreelancing.com/.well-known/skills.json"
+      "mcp": "https://schooloffreelancing.com/.well-known/mcp.json",
+      "openid": "https://schooloffreelancing.com/.well-known/openid-configuration.json",
+      "skills": "https://schooloffreelancing.com/.well-known/skills.json"
     }
   },
   "capabilities": {
@@ -130,19 +130,19 @@
   },
   "resources": [
     {
-      "uri": "https://www.schooloffreelancing.com/freelancing-training/",
+      "uri": "https://schooloffreelancing.com/freelancing-training/",
       "type": "text/html",
       "title": "Training Catalog",
       "description": "Complete catalog of training programs"
     },
     {
-      "uri": "https://www.schooloffreelancing.com/linux-ai-services/",
+      "uri": "https://schooloffreelancing.com/linux-ai-services/",
       "type": "text/html",
       "title": "Services Catalog",
       "description": "Complete catalog of IT and AI services"
     },
     {
-      "uri": "https://www.schooloffreelancing.com/llms-full.txt",
+      "uri": "https://schooloffreelancing.com/llms-full.txt",
       "type": "text/plain",
       "title": "Full Content",
       "description": "Full indexed content for AI/LLM consumption"
@@ -178,8 +178,8 @@
       ]
     }
   ],
-  "documentation": "https://www.schooloffreelancing.com/Auth.md",
-  "homepage": "https://www.schooloffreelancing.com/",
-  "termsOfService": "https://www.schooloffreelancing.com/legal/terms-and-conditions/",
-  "privacyPolicy": "https://www.schooloffreelancing.com/legal/privacy-policy/"
+  "documentation": "https://schooloffreelancing.com/Auth.md",
+  "homepage": "https://schooloffreelancing.com/",
+  "termsOfService": "https://schooloffreelancing.com/legal/terms-and-conditions/",
+  "privacyPolicy": "https://schooloffreelancing.com/legal/privacy-policy/"
 }

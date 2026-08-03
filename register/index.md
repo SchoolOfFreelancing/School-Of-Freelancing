@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/register/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/register/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 [Home](/) / Register
 

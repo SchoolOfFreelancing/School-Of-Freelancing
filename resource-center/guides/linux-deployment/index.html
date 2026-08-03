@@ -13,7 +13,7 @@
     <meta name="og:type" content="article">
     <meta name="og:title" content="How to Deploy a Linux Server from Zero to Production">
     <meta name="og:description" content="Complete guide to deploying Ubuntu servers: hardening, networking, services, backups, and monitoring for production.">
-    <link rel="canonical" href="https://www.schooloffreelancing.com/resource-center/linux-deployment/">
+    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/linux-deployment/">
 
     <!-- Google Tag Manager -->
     <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -157,7 +157,7 @@ sudo systemctl start nginx</code></pre>
 
     <h3>4.2 Obtain SSL Certificate with Certbot</h3>
     <pre><code>sudo apt install certbot python3-certbot-nginx -y
-sudo certbot certonly --nginx -d yourdomain.com -d www.yourdomain.com</code></pre>
+sudo certbot certonly --nginx -d yourdomain.com</code></pre>
     <p>Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com</p>
 
     <h2>Step 5: Package Management & Services</h2>

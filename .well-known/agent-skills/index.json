@@ -11,7 +11,7 @@
         "filter",
         "recommend"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/skills/training-discovery",
+      "endpoint": "https://schooloffreelancing.com/api/skills/training-discovery",
       "authentication": "optional",
       "scopes": [
         "training:read"
@@ -27,7 +27,7 @@
         "details",
         "pricing"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/skills/service-discovery",
+      "endpoint": "https://schooloffreelancing.com/api/skills/service-discovery",
       "authentication": "optional",
       "scopes": [
         "services:read"
@@ -43,7 +43,7 @@
         "faqs",
         "guides"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/skills/resource-access",
+      "endpoint": "https://schooloffreelancing.com/api/skills/resource-access",
       "authentication": "optional",
       "scopes": [
         "resources:read"
@@ -59,7 +59,7 @@
         "pricing",
         "schedule"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/skills/enrollment",
+      "endpoint": "https://schooloffreelancing.com/api/skills/enrollment",
       "authentication": "optional",
       "scopes": [
         "training:read"
@@ -74,7 +74,7 @@
         "contact-info",
         "support"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/skills/contact",
+      "endpoint": "https://schooloffreelancing.com/api/skills/contact",
       "authentication": false,
       "scopes": []
     },
@@ -87,7 +87,7 @@
         "format-conversion",
         "export"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/skills/content-negotiation",
+      "endpoint": "https://schooloffreelancing.com/api/skills/content-negotiation",
       "authentication": false,
       "scopes": []
     },
@@ -100,12 +100,12 @@
         "oauth",
         "mcp-integration"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/api/oauth/register",
+      "endpoint": "https://schooloffreelancing.com/api/oauth/register",
       "authentication": true,
       "scopes": [
         "agent:access"
       ],
-      "documentation": "https://www.schooloffreelancing.com/Auth.md"
+      "documentation": "https://schooloffreelancing.com/Auth.md"
     },
     {
       "id": "mcp-integration",
@@ -117,7 +117,7 @@
         "resources",
         "prompts"
       ],
-      "endpoint": "https://www.schooloffreelancing.com/.well-known/mcp.json",
+      "endpoint": "https://schooloffreelancing.com/.well-known/mcp.json",
       "authentication": "optional",
       "scopes": [
         "agent:access"
@@ -151,8 +151,8 @@
     }
   },
   "endpoints": {
-    "index": "https://www.schooloffreelancing.com/.well-known/agent-skills/index.json",
-    "mcp": "https://www.schooloffreelancing.com/.well-known/mcp.json",
-    "oauth": "https://www.schooloffreelancing.com/.well-known/openid-configuration.json"
+    "index": "https://schooloffreelancing.com/.well-known/agent-skills/index.json",
+    "mcp": "https://schooloffreelancing.com/.well-known/mcp.json",
+    "oauth": "https://schooloffreelancing.com/.well-known/openid-configuration.json"
   }
 }

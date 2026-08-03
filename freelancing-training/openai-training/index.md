@@ -1,4 +1,4 @@
-<!-- Auto-generated Markdown of https://www.schooloffreelancing.com/freelancing-training/openai-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/openai-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
 
 [Home](/) / [All Training](/freelancing-training/) / OpenAI Platform Training
 

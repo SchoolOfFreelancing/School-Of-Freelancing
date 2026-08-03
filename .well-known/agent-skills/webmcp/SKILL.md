@@ -18,7 +18,7 @@ Expose site tools to AI agents via the browser using the
 POST https://isitagentready.com/api/scan
 Content-Type: application/json
 
-{"url": "https://www.schooloffreelancing.com"}
+{"url": "https://schooloffreelancing.com"}
 ```
 
 Check that `checks.discovery.webMcp.status` is `"pass"`.

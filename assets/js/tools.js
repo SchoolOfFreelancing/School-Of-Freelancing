@@ -76,7 +76,7 @@
             content: [{
               type: "text",
               text: `Could not find on page: ${missing.join(", ")}. ` +
-                `Make sure you are on https://www.schooloffreelancing.com/register/ .`
+                `Make sure you are on https://schooloffreelancing.com/register/ .`
             }],
             isError: true
           };

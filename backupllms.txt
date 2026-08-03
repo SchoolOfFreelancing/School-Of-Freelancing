@@ -87,4 +87,4 @@ Website: https://schooloffreelancing.com/
 
 ## Robots
 
-- https://www.schooloffreelancing.com/robots.txt
+- https://schooloffreelancing.com/robots.txt

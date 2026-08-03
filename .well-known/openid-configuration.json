@@ -1,12 +1,12 @@
 {
-  "issuer": "https://www.schooloffreelancing.com",
-  "authorization_endpoint": "https://www.schooloffreelancing.com/api/oauth/authorize",
-  "token_endpoint": "https://www.schooloffreelancing.com/api/oauth/token",
-  "token_introspection_endpoint": "https://www.schooloffreelancing.com/api/oauth/introspect",
-  "userinfo_endpoint": "https://www.schooloffreelancing.com/api/oauth/userinfo",
-  "end_session_endpoint": "https://www.schooloffreelancing.com/api/oauth/logout",
-  "jwks_uri": "https://www.schooloffreelancing.com/api/oauth/jwks",
-  "registration_endpoint": "https://www.schooloffreelancing.com/api/oauth/register",
+  "issuer": "https://schooloffreelancing.com",
+  "authorization_endpoint": "https://schooloffreelancing.com/api/oauth/authorize",
+  "token_endpoint": "https://schooloffreelancing.com/api/oauth/token",
+  "token_introspection_endpoint": "https://schooloffreelancing.com/api/oauth/introspect",
+  "userinfo_endpoint": "https://schooloffreelancing.com/api/oauth/userinfo",
+  "end_session_endpoint": "https://schooloffreelancing.com/api/oauth/logout",
+  "jwks_uri": "https://schooloffreelancing.com/api/oauth/jwks",
+  "registration_endpoint": "https://schooloffreelancing.com/api/oauth/register",
   "scopes_supported": [
     "openid",
     "profile",
@@ -160,11 +160,11 @@
   "require_request_uri_registration": false,
   "tls_client_certificate_bound_access_tokens": true,
   "mtls_endpoint_aliases": {
-    "token_endpoint": "https://www.schooloffreelancing.com/api/oauth/token",
-    "revocation_endpoint": "https://www.schooloffreelancing.com/api/oauth/revoke",
-    "introspection_endpoint": "https://www.schooloffreelancing.com/api/oauth/introspect"
+    "token_endpoint": "https://schooloffreelancing.com/api/oauth/token",
+    "revocation_endpoint": "https://schooloffreelancing.com/api/oauth/revoke",
+    "introspection_endpoint": "https://schooloffreelancing.com/api/oauth/introspect"
   },
-  "service_documentation": "https://www.schooloffreelancing.com/Auth.md",
-  "policy_uri": "https://www.schooloffreelancing.com/legal/privacy-policy/",
-  "terms_of_service_uri": "https://www.schooloffreelancing.com/legal/terms-and-conditions/"
+  "service_documentation": "https://schooloffreelancing.com/Auth.md",
+  "policy_uri": "https://schooloffreelancing.com/legal/privacy-policy/",
+  "terms_of_service_uri": "https://schooloffreelancing.com/legal/terms-and-conditions/"
 }

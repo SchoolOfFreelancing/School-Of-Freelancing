@@ -1,7 +1,7 @@
 {
   "ci": {
     "collect": {
-      "url": ["https://www.schooloffreelancing.com"],
+      "url": ["https://schooloffreelancing.com"],
       "settings": {
         "chromeFlags": "--no-sandbox --disable-gpu --disable-dev-shm-usage --disable-setuid-sandbox"
       }

@@ -1,10 +1,10 @@
 {
-  "issuer": "https://www.schooloffreelancing.com",
-  "authorization_endpoint": "https://www.schooloffreelancing.com/api/oauth/authorize",
-  "token_endpoint": "https://www.schooloffreelancing.com/api/oauth/token",
-  "userinfo_endpoint": "https://www.schooloffreelancing.com/api/oauth/userinfo",
-  "revocation_endpoint": "https://www.schooloffreelancing.com/api/oauth/revoke",
-  "introspection_endpoint": "https://www.schooloffreelancing.com/api/oauth/introspect",
+  "issuer": "https://schooloffreelancing.com",
+  "authorization_endpoint": "https://schooloffreelancing.com/api/oauth/authorize",
+  "token_endpoint": "https://schooloffreelancing.com/api/oauth/token",
+  "userinfo_endpoint": "https://schooloffreelancing.com/api/oauth/userinfo",
+  "revocation_endpoint": "https://schooloffreelancing.com/api/oauth/revoke",
+  "introspection_endpoint": "https://schooloffreelancing.com/api/oauth/introspect",
   "scopes_supported": [
     "openid",
     "profile",
@@ -131,17 +131,17 @@
     "en-US",
     "en"
   ],
-  "service_documentation": "https://www.schooloffreelancing.com/Auth.md",
-  "policy_uri": "https://www.schooloffreelancing.com/legal/privacy-policy/",
-  "terms_of_service_uri": "https://www.schooloffreelancing.com/legal/terms-and-conditions/",
-  "registration_endpoint": "https://www.schooloffreelancing.com/api/oauth/register",
+  "service_documentation": "https://schooloffreelancing.com/Auth.md",
+  "policy_uri": "https://schooloffreelancing.com/legal/privacy-policy/",
+  "terms_of_service_uri": "https://schooloffreelancing.com/legal/terms-and-conditions/",
+  "registration_endpoint": "https://schooloffreelancing.com/api/oauth/register",
   "agent_auth": {
-    "skill": "https://www.schooloffreelancing.com/auth.md",
-    "register_uri": "https://www.schooloffreelancing.com/api/oauth/register",
-    "identity_endpoint": "https://www.schooloffreelancing.com/api/oauth/register",
-    "claim_uri": "https://www.schooloffreelancing.com/api/oauth/claim",
-    "claim_endpoint": "https://www.schooloffreelancing.com/api/oauth/claim",
-    "revocation_uri": "https://www.schooloffreelancing.com/api/oauth/revoke",
+    "skill": "https://schooloffreelancing.com/auth.md",
+    "register_uri": "https://schooloffreelancing.com/api/oauth/register",
+    "identity_endpoint": "https://schooloffreelancing.com/api/oauth/register",
+    "claim_uri": "https://schooloffreelancing.com/api/oauth/claim",
+    "claim_endpoint": "https://schooloffreelancing.com/api/oauth/claim",
+    "revocation_uri": "https://schooloffreelancing.com/api/oauth/revoke",
     "identity_types_supported": [
       "anonymous"
     ],
@@ -149,7 +149,7 @@
       "credential_types_supported": [
         "oauth2_client"
       ],
-      "claim_uri": "https://www.schooloffreelancing.com/api/oauth/claim"
+      "claim_uri": "https://schooloffreelancing.com/api/oauth/claim"
     }
   }
 }

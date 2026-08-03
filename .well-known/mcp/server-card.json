@@ -8,11 +8,11 @@
     "name": "School of Freelancing MCP Server",
     "version": "1.0.0"
   },
-  "url": "https://www.schooloffreelancing.com/.well-known/mcp.json",
+  "url": "https://schooloffreelancing.com/.well-known/mcp.json",
   "endpoints": {
-    "sse": "https://www.schooloffreelancing.com/api/mcp/sse",
-    "stdio": "https://www.schooloffreelancing.com/api/mcp/stdio",
-    "websocket": "wss://www.schooloffreelancing.com/api/mcp/ws"
+    "sse": "https://schooloffreelancing.com/api/mcp/sse",
+    "stdio": "https://schooloffreelancing.com/api/mcp/stdio",
+    "websocket": "wss://schooloffreelancing.com/api/mcp/ws"
   },
   "capabilities": {
     "tools": true,
@@ -23,10 +23,10 @@
     "required": false,
     "methods": ["bearer_token", "oauth2"],
     "oauth": {
-      "authorization_server": "https://www.schooloffreelancing.com/.well-known/oauth-authorization-server.json",
-      "protected_resource": "https://www.schooloffreelancing.com/.well-known/oauth-protected-resource"
+      "authorization_server": "https://schooloffreelancing.com/.well-known/oauth-authorization-server.json",
+      "protected_resource": "https://schooloffreelancing.com/.well-known/oauth-protected-resource"
     }
   },
-  "documentation": "https://www.schooloffreelancing.com/Auth.md",
-  "homepage": "https://www.schooloffreelancing.com/"
+  "documentation": "https://schooloffreelancing.com/Auth.md",
+  "homepage": "https://schooloffreelancing.com/"
 }
