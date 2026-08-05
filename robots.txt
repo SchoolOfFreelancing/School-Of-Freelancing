@@ -40,5 +40,8 @@ Allow: /
 User-agent: CCBot
 Allow: /
 
+User-agent: cohere-ai
+Allow: /
+
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Sitemap: https://schooloffreelancing.com/video-sitemap.xml
