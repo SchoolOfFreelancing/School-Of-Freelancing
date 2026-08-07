@@ -1,5 +1,5 @@
 ---
-title: MaraOne IT Website
+title: School of Freelancing
 license: mit
 ---
 # School of Freelancing
