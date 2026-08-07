@@ -1,3 +1,7 @@
+---
+title: MaraOne IT Website
+license: mit
+---
 # School of Freelancing
 
 **Linux & AI Freelancing Training and Client Services**

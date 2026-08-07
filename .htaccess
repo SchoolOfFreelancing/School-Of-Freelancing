@@ -105,6 +105,5 @@ RewriteRule ^(.*)$ https://schooloffreelancing.com/$1 [R=301,L]
   </FilesMatch>
 </IfModule>
 
-ErrorDocument 404 /error/404.html
-
+ErrorDocument 404 /404.html
 # End of file
