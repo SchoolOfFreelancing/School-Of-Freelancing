@@ -28,7 +28,7 @@ As per my experience, one of the best institutes for freelancers ever in Banglad
 
 Google Review★★★★★
 
-Last year, I was desperately looking for the right platform with proper guidance to start my Linux freelancing career, and then I met S K Chowdhury Masum and started my Linux freelancing journey with him. Today, when I check my profile on freelancing platforms, I can see more than 15 projects, all completed with 5-star ratings — which would never have been possible without the training and guidance I received from School of Freelancing. I will definitely recommend this platform to others.
+Last year, I was desperately looking for the right platform with proper guidance to start my Linux freelancing career, and then I met Karim (Masum) and started my Linux freelancing journey with him. Today, when I check my profile on freelancing platforms, I can see more than 15 projects, all completed with 5-star ratings — which would never have been possible without the training and guidance I received from School of Freelancing. I will definitely recommend this platform to others.
 
 — via Google Reviews
 

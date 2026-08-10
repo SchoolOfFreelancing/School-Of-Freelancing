@@ -92,11 +92,11 @@ Who's Behind It
 
 ## Meet the Founder
 
-S K Chowdhury Masum
+Karim (Masum)
 
 Founder & Lead Instructor · Est. 2015 (11+ years)
 
-School of Freelancing was founded in 2015 by **S K Chowdhury Masum**, Founder & Lead Instructor, who personally leads instruction for our training programs.
+School of Freelancing was founded in 2015 by **Karim (Masum)**, Founder & Lead Instructor, who personally leads instruction for our training programs.
 
 > Students consistently credit his hands-on, plain-language teaching style. As one puts it in a [Google review](/resource-center/testimonials/): "Mr. Masum had the ability to convey complicated ideas in a way that was simple to comprehend, with beneficial examples."
 

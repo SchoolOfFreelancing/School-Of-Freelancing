@@ -204,9 +204,9 @@ A world where Linux literacy is the fastest, most reliable on-ramp into the glob
 
 **🛠️ Linux Cloud Support** — Linux system administration (setup, hardening, patching, performance tuning, maintenance); Bulk SMS API integration (Telnyx and Twilio, deployed on Linux infrastructure); self-hosted AI & automation (AI workspace setup, Hermes Agent, Hummingbot, deployed and secured on your own servers); migration & emergency support (cloud migrations, downtime recovery, on-call troubleshooting from real sysadmins).
 
-### Meet the founder — S K Chowdhury Masum
+### Meet the founder — Karim (Masum)
 
-Founder & Lead Instructor, est. 2015 (11+ years). S K Chowdhury Masum personally leads instruction for School of Freelancing's training programs, with 11+ years of hands-on Linux infrastructure experience building and maintaining production systems for businesses worldwide, from startups to enterprises.
+Founder & Lead Instructor, est. 2015 (11+ years). Karim (Masum) personally leads instruction for School of Freelancing's training programs, with 11+ years of hands-on Linux infrastructure experience building and maintaining production systems for businesses worldwide, from startups to enterprises.
 
 **Expertise:** Linux administration (Ubuntu, CentOS, Debian hardening, performance tuning, troubleshooting); cloud infrastructure (DigitalOcean, AWS, Google Cloud); DevOps & automation (Docker, Kubernetes, CI/CD, Infrastructure-as-Code); VoIP & telecommunications (FusionPBX, FreeSWITCH, SIP trunking, call center systems); API integration (Twilio, Telnyx, VAPI voice AI, SMS gateways); AI & automation (Claude, Hermes Agent, LLM deployment, AI workflow integration).
 
@@ -275,7 +275,7 @@ Selected reviews:
 
 - "Definitely one of the best school to kickstart your freelancing career. The expertise they share and provide are of global quality ensuring that the students are up to date with the recent trend of technology... This is Industry 4.0 and School of Freelancing is totally ready for it." — via Google Reviews
 - "As per my experience, one of the best institutes for freelancers ever in Bangladesh — even in the world... Mr. Masum had the ability to convey complicated ideas in a way that was simple to comprehend, with beneficial examples." — via Google Reviews
-- "Last year, I was desperately looking for the right platform with proper guidance to start my Linux freelancing career, and then I met S K Chowdhury Masum... Today, when I check my profile on freelancing platforms, I can see more than 15 projects, all completed with 5-star ratings." — via Google Reviews
+- "Last year, I was desperately looking for the right platform with proper guidance to start my Linux freelancing career, and then I met Karim (Masum)... Today, when I check my profile on freelancing platforms, I can see more than 15 projects, all completed with 5-star ratings." — via Google Reviews
 - "School Of Freelancing is the best place for Linux freelancing. I learned and earned my first income working with this school. Highly recommended." — Rajan C., via Google Reviews
 - "A place run by my old schoolmate, who is technically sound and has genuinely innovative ideas in freelancing." — Khalid N., via Google Reviews
 - "In this era, freelancing plays a vital role in earning foreign currency. School Of Freelancing is one of the best places to learn and to earn." — via Google Reviews
@@ -528,7 +528,7 @@ Sample (United States): "School of Freelancing provides live, instructor-led onl
 
 # Company & Contact Summary
 
-- **Operator:** School of Freelancing, founded 2015 by S K Chowdhury Masum, Founder & Lead Instructor.
+- **Operator:** School of Freelancing, founded 2015 by Karim (Masum), Founder & Lead Instructor.
 - **Location:** Bangladesh (Google Plus Code F55Q+63). All training and support delivered 100% remote, worldwide.
 - **Email:** office@schooloffreelancing.com
 - **Telegram:** https://t.me/SchoolOfFreelancingTraining

@@ -5,7 +5,7 @@ canonical: https://schooloffreelancing.com/
 og_image: https://schooloffreelancing.com/assets/images/og-home.jpg
 author: School of Freelancing
 founded: 2015-02-02
-founder: S K Chowdhury Masum
+founder: Karim (Masum)
 address: "Ward no: 12, North Chortha, Nobab Bari Rd, Cumilla City Corporation, Chattogram, 3500, BD"
 phone: "+8801748973769"
 email: office@schooloffreelancing.com
