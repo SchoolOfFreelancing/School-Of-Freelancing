@@ -1,21 +1,26 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/zeroclaw-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "ZeroClaw Hands-on Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 5-day hands-on ZeroClaw Training covering fundamentals, production deployment, and building a profitable freelance service around ZeroClaw. $250."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / ZeroClaw Hands-on Training
+# ZeroClaw Hands-on Training | School of Freelancing
 
-# ZeroClaw Hands-on Training
+Prefer to skip the training and have it done for you? [**Hire us for ZeroClaw
+Support**](/client-support/zeroclaw-ai-services/) instead.
 
-A hands-on training covering ZeroClaw fundamentals, production deployment, and everything you need to build a profitable freelance service around it.
-
-💵 $250
-⏱ 20 Hours
-📅 2 Weeks
-🎯 Guru · Freelancer · Upwork
-
-Prefer to skip the training and have it done for you? [**Hire us for ZeroClaw Support**](/linux-ai-services/zeroclaw-ai-services/) instead.
+[TOC]
 
 ## What Is ZeroClaw Hands-on Training?
 
-ZeroClaw Hands-on Training is School of Freelancing's 20-hour, instructor-led course covering ZeroClaw — a personal AI agent runtime that connects to LLM providers such as Anthropic, OpenAI, Ollama, and around 20 others — from core fundamentals through production deployment. Trainees learn to install, configure, and troubleshoot ZeroClaw for real client workloads, then structure that expertise as a paid freelance service on marketplaces like Upwork, Freelancer.com, and Guru.com.
+ZeroClaw Hands-on Training is School of Freelancing's 20-hour, instructor-led
+course covering ZeroClaw — a personal AI agent runtime that connects to LLM
+providers such as Anthropic, OpenAI, Ollama, and around 20 others — from core
+fundamentals through production deployment. Trainees learn to install,
+configure, and troubleshoot ZeroClaw for real client workloads, then structure
+that expertise as a paid freelance service on marketplaces like Upwork,
+Freelancer.com, and Guru.com.
 
 ## Key Takeaways
 
@@ -38,30 +43,61 @@ ZeroClaw Hands-on Training is School of Freelancing's 20-hour, instructor-led co
 
 ## What You'll Learn
 
-- ZeroClaw fundamentals and core architecture
-- Deploying ZeroClaw into production-style environments
-- Configuring and maintaining ZeroClaw instances for real client workloads
-- Troubleshooting common ZeroClaw deployment issues
-- Structuring ZeroClaw deployment and support as a paid freelance service
+### ZeroClaw Architecture & Fundamentals
+
+Understand ZeroClaw's design as a personal AI agent runtime. Learn how it
+connects to multiple LLM providers and enables flexible AI agent deployment.
+
+### LLM Provider Integration
+
+Configure ZeroClaw to work with various LLM providers: Anthropic Claude, OpenAI
+GPT, Ollama local models, and 20+ others. Understand provider selection and
+optimization.
+
+### Production Deployment
+
+Deploy ZeroClaw on production Ubuntu servers with proper security, networking,
+and configuration management.
+
+### Instance Configuration & Maintenance
+
+Configure ZeroClaw instances for specific client workloads, manage
+configurations, and maintain instances reliably.
+
+### Troubleshooting & Support
+
+Diagnose and resolve ZeroClaw issues, understand error codes, and support
+production deployments.
+
+### Building Client Solutions
+
+Design ZeroClaw deployments that solve real business problems, integrate with
+client systems, and deliver measurable value.
+
+## Course Objectives
+
+By the end of this training program, you will be able to:
+
+- **Deploy** ZeroClaw on production Ubuntu servers
+- **Configure** ZeroClaw to work with multiple LLM providers
+- **Maintain** ZeroClaw instances for client workloads
+- **Troubleshoot** ZeroClaw deployment issues
+- **Design** solutions using ZeroClaw for business problems
+- **Offer** ZeroClaw deployment and support as a freelance service
 
 ## Who This Is For
 
-This training suits beginners and career-changers who want to specialize in ZeroClaw and can commit to 20 hours of hands-on, instructor-led training over 5 days, and who meet the
-[system & participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid government-issued ID).
+This training suits beginners and career-changers who want to specialize in
+ZeroClaw and can commit to 20 hours of hands-on, instructor-led training over 5
+days, and who meet the [system & participation requirements](/contact-us/)
+(Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid
+government-issued ID).
 
 ## Secure Payment Gateways
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to secure your spot.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
- [Pay with PayPal](https://www.paypal.com/ncp/payment/J5F7BS5QZMWGJ)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$250** enrollment fee below, then click **Complete Registration** to
+secure your spot.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training/)

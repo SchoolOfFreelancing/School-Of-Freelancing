@@ -1,21 +1,26 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/goautodial-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Goautodial VoIP Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 5-day hands-on Goautodial VoIP Training covering the open-source omnichannel contact center suite built on Asterisk, Kamailio, and Vicidial. $500."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / Goautodial VoIP Training
+# Goautodial VoIP Training | School of Freelancing
 
-# Goautodial VoIP Training
+Prefer to skip the training and have it done for you? [**Hire us for Goautodial
+VoIP Support**](/client-support/goautodial-voip-services/) instead.
 
-Master Goautodial, the open-source omnichannel contact center suite that combines Asterisk, Kamailio, and the Vicidial dialer engine. This hands-on training covers deploying and administering Goautodial for outbound, inbound, and blended call center campaigns.
-
-💵 $500
-⏱ 20 Hours
-📅 2 Weeks
-🎯 Guru · Freelancer · Upwork
-
-Prefer to skip the training and have it done for you? [**Hire us for Goautodial VoIP Support**](/linux-ai-services/goautodial-voip-services/) instead.
+[TOC]
 
 ## What Is Goautodial VoIP Training?
 
-Goautodial VoIP Training is School of Freelancing's 20-hour, instructor-led course covering Goautodial, an open-source omnichannel contact center suite that combines Asterisk, Kamailio, and the Vicidial dialer engine. The training teaches beginners and career-changers to install and configure Goautodial, run outbound, inbound, and blended call center campaigns, and manage agents, queues, and reporting — preparing them to offer Goautodial deployment and support as a freelance service.
+Goautodial VoIP Training is School of Freelancing's 20-hour, instructor-led
+course covering Goautodial, an open-source omnichannel contact center suite that
+combines Asterisk, Kamailio, and the Vicidial dialer engine. The training
+teaches beginners and career-changers to install and configure Goautodial, run
+outbound, inbound, and blended call center campaigns, and manage agents, queues,
+and reporting — preparing them to offer Goautodial deployment and support as a
+freelance service.
 
 ## Key Takeaways
 
@@ -59,20 +64,16 @@ Goautodial VoIP Training is School of Freelancing's 20-hour, instructor-led cour
 
 ## Who This Is For
 
-This training suits beginners and career-changers who can commit to 20 hours of hands-on, instructor-led training over 5 days, and who meet the
-[system & participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid government-issued ID).
+This training suits beginners and career-changers who can commit to 20 hours of
+hands-on, instructor-led training over 5 days, and who meet the [system &
+participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
+reliable fiber-optic internet, and a valid government-issued ID).
 
 ## Secure Payment Gateways
 
-Pay the **$500** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$500** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/Goautodial-VoIP-Training.git/)

@@ -1,24 +1,25 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/linux-ai-services/vapi-platform-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Vapi Platform Support | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Expert Vapi setup, configuration, and troubleshooting for voice AI agents that make and receive phone calls. Fast, remote support worldwide."
+---
 
-[Home](/) / [Support Services](/linux-ai-services/) / Vapi Platform Support
+# Vapi Platform Support | School of Freelancing
 
-# Vapi Platform Support
+Want to build these skills yourself? [**See our Hermes Agent
+Training**](/freelancing-training/hermes-agent-training/) .
 
-Build voice AI agents that can make and receive phone calls. Expert Vapi setup, configuration, and troubleshooting to keep your voice AI agents running smoothly — delivered remotely, worldwide.
-
-💵 $600
-⏱ 30 Hours
-📅 5 Days
-🌍 Worldwide Remote
-
-[Apply for Services](/contact-us/)
-[Service Docs](https://github.com/SchoolOfFreelancing/Vapi-Platform-Support.git)
-
-Want to build these skills yourself? [**See our Hermes Agent Training**](/freelancing-training/hermes-agent-training/).
+[TOC]
 
 ## What Is Vapi Platform Support?
 
-Vapi Platform Support is School of Freelancing's done-for-you service for Vapi, a platform for building voice AI agents that can make and receive phone calls. We handle the agent setup, natural-conversation configuration, and integration with your existing systems and APIs, so you get a working voice AI agent for support lines, scheduling, or outbound calling without building and debugging the integration yourself.
+Vapi Platform Support is School of Freelancing's done-for-you service for Vapi,
+a platform for building voice AI agents that can make and receive phone calls.
+We handle the agent setup, natural-conversation configuration, and integration
+with your existing systems and APIs, so you get a working voice AI agent for
+support lines, scheduling, or outbound calling without building and debugging
+the integration yourself.
 
 ## Key Takeaways
 
@@ -46,21 +47,12 @@ Vapi Platform Support is School of Freelancing's done-for-you service for Vapi, 
 
 ## Who This Is For
 
-Businesses that want a working voice AI agent on the Vapi platform — for support lines, scheduling, or outbound calling — without building and debugging the integration themselves.
+Businesses that want a working voice AI agent on the Vapi platform — for support
+lines, scheduling, or outbound calling — without building and debugging the
+integration themselves.
 
 ## Frequently Asked Questions
-
-Can you start immediately? +
-
-Yes, in most cases we can begin as soon as the project requirements are confirmed.
-
-Do you provide remote support? +
-
-Yes. We provide secure remote support for Vapi voice AI agent setup and integrations worldwide.
 
 ## Need Vapi Platform Support?
 
 Book a free 15-minute consultation to scope your project.
-
-[Get Support](/contact-us/)
-[View All Support →](/linux-ai-services/)

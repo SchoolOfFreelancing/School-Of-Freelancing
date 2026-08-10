@@ -1,21 +1,25 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Ubuntu Linux Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 5-day hands-on Ubuntu Linux Training covering step-by-step development and dev-ops workflows on Ubuntu machines, servers, and devices. $200."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / Ubuntu Linux Training
+# Ubuntu Linux Training | School of Freelancing
 
-# Ubuntu Linux Training
+Prefer to skip the training and have it done for you? [**Hire us for Ubuntu
+Linux Support**](/client-support/ubuntu-linux-services/) instead.
 
-Learn a step-by-step process for doing development and dev-ops activities on Ubuntu machines, servers, and devices. This hands-on training builds practical Ubuntu skills you can apply immediately to real client environments.
-
-💵 $200
-⏱ 20 Hours
-📅 5 Days
-🎯 Guru · Freelancer · Upwork
-
-Prefer to skip the training and have it done for you? [**Hire us for Ubuntu Linux Support**](/linux-ai-services/ubuntu-linux-services/) instead.
+[TOC]
 
 ## What Is Ubuntu Linux Training?
 
-Ubuntu Linux Training is School of Freelancing's 20-hour, instructor-led course built around Ubuntu — a widely-used Linux distribution — that teaches a step-by-step process for doing development and dev-ops activities on Ubuntu machines, servers, and devices. It's designed for beginners and career-changers who want practical Ubuntu setup, configuration, and dev-ops skills they can offer as a freelance service on Upwork, Freelancer.com, and Guru.com.
+Ubuntu Linux Training is School of Freelancing's 20-hour, instructor-led course
+built around Ubuntu — a widely-used Linux distribution — that teaches a
+step-by-step process for doing development and dev-ops activities on Ubuntu
+machines, servers, and devices. It's designed for beginners and career-changers
+who want practical Ubuntu setup, configuration, and dev-ops skills they can
+offer as a freelance service on Upwork, Freelancer.com, and Guru.com.
 
 ## Key Takeaways
 
@@ -34,6 +38,56 @@ Ubuntu Linux Training is School of Freelancing's 20-hour, instructor-led course 
 | Format | Online, instructor-led |
 | Prerequisites | Ubuntu Linux Server (24.04 or 26.04 LTS recommended), a domain or sub-domain, a verified Upwork/Guru/Freelancer account |
 | Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+
+## What You'll Learn in Ubuntu Linux Training
+
+### Ubuntu System Administration & Desktop Management
+
+Master Ubuntu administration on both desktop and server. Configure users, manage
+packages, handle system updates, and troubleshoot common issues.
+
+### Linux Fundamentals & Command Line Mastery
+
+Deep dive into Linux fundamentals: file systems, permissions, processes,
+networking, and shell scripting. Build solid command-line proficiency.
+
+### Server Deployment & Hardening
+
+Deploy production Ubuntu servers with security hardening: firewall
+configuration, SSH security, user management, and security best practices.
+
+### Systemd Services & Process Management
+
+Manage system services with systemd, create custom services, implement
+auto-restart policies, and monitor service health.
+
+### Networking & Connectivity Configuration
+
+Configure networking on Ubuntu: IP addressing, DNS, DHCP, SSH, and troubleshoot
+connectivity issues.
+
+### Package Management with APT
+
+Master Ubuntu's package management system (apt/apt-get), understand
+repositories, handle dependencies, and manage security updates.
+
+### Backup & Disaster Recovery
+
+Implement backup strategies, understand recovery procedures, and set up
+automated backup systems to protect data.
+
+## Course Objectives
+
+By the end of this training program, you will be able to:
+
+- **Deploy** production-ready Ubuntu servers with proper security hardening
+- **Manage** users, permissions, and system access controls
+- **Configure** networking, DNS, DHCP, and SSH for secure remote administration
+- **Install** and maintain software using APT package management
+- **Create** and manage systemd services for applications
+- **Troubleshoot** system issues using logs and diagnostic tools
+- **Implement** backup and disaster recovery procedures
+- **Offer** Ubuntu administration as a freelance service to clients
 
 ## Participation Requirements
 
@@ -64,20 +118,16 @@ Ubuntu Linux Training is School of Freelancing's 20-hour, instructor-led course 
 
 ## Who This Is For
 
-This training suits beginners and career-changers who can commit to 20 hours of hands-on, instructor-led training over 5 days, and who meet the
-[system & participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid government-issued ID).
+This training suits beginners and career-changers who can commit to 20 hours of
+hands-on, instructor-led training over 5 days, and who meet the [system &
+participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
+reliable fiber-optic internet, and a valid government-issued ID).
 
 ## Secure Payment Gateways
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$250** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Training.git/)

@@ -1,21 +1,27 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/gitlab-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "GitLab Hands-on Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 5-day hands-on GitLab Training: production deployment, data migration, and secure dependency tracking for corporate infrastructure. $250."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / GitLab Hands-on Training
+# GitLab Hands-on Training | School of Freelancing
 
-# GitLab Hands-on Training
+Prefer to skip the training and have it done for you? [**Hire us for GitLab
+Support**](/client-support/gitlab-services/) instead.
 
-Master GitLab production deployment, data migration, and secure dependency tracking so you can support corporate web application infrastructures as a freelance specialist.
-
-💵 $250
-⏱ 20 Hours
-📅 2 Weeks
-🎯 Guru · Freelancer · Upwork
-
-Prefer to skip the training and have it done for you? [**Hire us for GitLab Support**](/linux-ai-services/gitlab-services/) instead.
+[TOC]
 
 ## What Is GitLab Hands-on Training?
 
-GitLab Hands-on Training is School of Freelancing's 20-hour, instructor-led course built around GitLab, a self-hosted DevOps and Git repository platform that organizations deploy on their own servers to manage source code, CI/CD, and dependency security. The training teaches freelancers to deploy and configure GitLab in production, plan and execute data migrations without downtime, and set up secure dependency tracking and vulnerability scanning — skills aimed at supporting corporate web application infrastructures as a freelance GitLab specialist.
+GitLab Hands-on Training is School of Freelancing's 20-hour, instructor-led
+course built around GitLab, a self-hosted DevOps and Git repository platform
+that organizations deploy on their own servers to manage source code, CI/CD, and
+dependency security. The training teaches freelancers to deploy and configure
+GitLab in production, plan and execute data migrations without downtime, and set
+up secure dependency tracking and vulnerability scanning — skills aimed at
+supporting corporate web application infrastructures as a freelance GitLab
+specialist.
 
 ## Key Takeaways
 
@@ -35,6 +41,49 @@ GitLab Hands-on Training is School of Freelancing's 20-hour, instructor-led cour
 | Format | Online, instructor-led |
 | Prerequisites | Ubuntu Linux server, a domain, a verified freelance marketplace account |
 | Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+
+## What You'll Learn in GitLab Training
+
+### GitLab Self-Hosted Deployment & Administration
+
+Deploy GitLab on production Ubuntu servers. Configure the omnibus package,
+manage SSL/TLS, set up backups, and optimize performance for enterprise teams.
+
+### GitLab CI/CD Pipelines
+
+Build powerful CI/CD pipelines with GitLab CI/CD for automated testing,
+building, and deployment. Use runners, stages, and advanced pipeline features.
+
+### User & Project Management
+
+Manage users, groups, projects, and permissions in GitLab. Implement access
+controls and organizational structures for enterprise teams.
+
+### GitLab Integrations & APIs
+
+Integrate GitLab with external tools, use webhooks, and leverage GitLab APIs for
+custom automation and integrations.
+
+### Monitoring & Performance Optimization
+
+Monitor GitLab health, troubleshoot performance issues, and optimize for large
+teams and high-traffic repositories.
+
+### Migration & Disaster Recovery
+
+Migrate repositories to GitLab, implement backup strategies, and plan disaster
+recovery for critical infrastructure.
+
+## Course Objectives
+
+By the end of this training program, you will be able to:
+
+- **Deploy** GitLab on production servers
+- **Configure** CI/CD pipelines for automated testing and deployment
+- **Manage** users, projects, and permissions
+- **Implement** integrations and automation with GitLab APIs
+- **Monitor** and optimize GitLab performance
+- **Offer** GitLab services as a freelance offering
 
 ## Participation Requirements
 
@@ -59,20 +108,17 @@ GitLab Hands-on Training is School of Freelancing's 20-hour, instructor-led cour
 
 ## Who This Is For
 
-This training suits freelancers who want to specialize in GitLab deployment and DevOps support for corporate clients, and who can commit to 20 hours of hands-on, instructor-led training over 5 days, and who meet the
-[system & participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid government-issued ID).
+This training suits freelancers who want to specialize in GitLab deployment and
+DevOps support for corporate clients, and who can commit to 20 hours of
+hands-on, instructor-led training over 5 days, and who meet the [system &
+participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
+reliable fiber-optic internet, and a valid government-issued ID).
 
 ## Secure Payment Gateways
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$250** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/GitLab-Hands-on-Training.git/)

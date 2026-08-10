@@ -1,24 +1,26 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/linux-ai-services/github-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "GitHub Enterprise Server Setup | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Professional GitHub Enterprise Server installation, migration, and support from an experienced Linux system administrator. 24-hour support included."
+---
 
-[Home](/) / [Support Services](/linux-ai-services/) / GitHub Enterprise Server Setup
+# GitHub Enterprise Server Setup | School of Freelancing
 
-# GitHub Enterprise Server Setup
+Want to learn this yourself instead of hiring us? [**Check out GitHub
+Training**](/freelancing-training/github-training/) .
 
-Get professional GitHub Enterprise Server installation, migration, and support from an experienced Linux system administrator — delivered remotely, worldwide.
-
-💵 $350
-⏱ 72 Hours
-📅 3 Days
-🌍 Worldwide Remote
-
-[Get Support](/contact-us/)
-[View All Support](/linux-ai-services/)
-
-Want to learn this yourself instead of hiring us? [**Check out GitHub Training**](/freelancing-training/github-training/).
+[TOC]
 
 ## What Is GitHub Enterprise Server Setup?
 
-GitHub Enterprise Server Setup is School of Freelancing's done-for-you installation and migration service for GitHub Enterprise Server — the self-hosted version of GitHub that businesses run on their own infrastructure for source control and collaboration. An experienced Linux system administrator installs and configures the platform, migrates existing repositories, issues, and CI/CD pipeline configuration into it, and hardens the setup, so businesses can self-host GitHub correctly the first time without doing the work themselves.
+GitHub Enterprise Server Setup is School of Freelancing's done-for-you
+installation and migration service for GitHub Enterprise Server — the
+self-hosted version of GitHub that businesses run on their own infrastructure
+for source control and collaboration. An experienced Linux system administrator
+installs and configures the platform, migrates existing repositories, issues,
+and CI/CD pipeline configuration into it, and hardens the setup, so businesses
+can self-host GitHub correctly the first time without doing the work themselves.
 
 ## Key Takeaways
 
@@ -48,26 +50,13 @@ GitHub Enterprise Server Setup is School of Freelancing's done-for-you installat
 
 ## Who This Is For
 
-Businesses that want to self-host GitHub Enterprise Server for source control and collaboration, but need an
-experienced Linux administrator to handle installation, migration, and configuration correctly the first time.
+Businesses that want to self-host GitHub Enterprise Server for source control
+and collaboration, but need an
+experienced Linux administrator to handle installation, migration, and
+configuration correctly the first time.
 
 ## Frequently Asked Questions
-
-Do you handle GitHub Enterprise Server installation from scratch? +
-
-Yes. We install and configure GitHub Enterprise Server on your infrastructure, including initial setup and hardening.
-
-Can you migrate our repositories to GitHub Enterprise Server? +
-
-Yes. We migrate existing repositories, issues, and CI/CD pipeline configuration into your self-hosted GitHub Enterprise Server instance.
-
-Do you provide remote support? +
-
-Yes. We provide secure remote support for GitHub Enterprise Server installations worldwide.
 
 ## Need GitHub Enterprise Server Support?
 
 Book a free 15-minute consultation to scope your project.
-
-[Get Support](/contact-us/)
-[View All Support →](/linux-ai-services/)

@@ -1,24 +1,27 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/linux-ai-services/claude-ai-platform-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Claude Platform Support | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Claude API & developer support for building AI applications on the Claude Platform API: integration, authentication, streaming, tool use, and troubleshooting."
+---
 
-[Home](/) / [Support Services](/linux-ai-services/) / Claude Platform Support
+# Claude Platform Support | School of Freelancing
 
-# Claude Platform Support
+Want to learn this yourself instead of hiring us? [**Check out Claude Platform
+Training**](/freelancing-training/claude-training/) .
 
-Get hands-on Claude API and developer support for building AI applications on the Claude Platform API — from initial integration and authentication to streaming responses, tool use, and production troubleshooting, delivered remotely, worldwide.
-
-💵 $500
-⏱ 72 Hours
-📅 3 Days
-🌍 Worldwide Remote
-
-[Get Support](/contact-us/)
-[View All Support](/linux-ai-services/)
-
-Want to learn this yourself instead of hiring us? [**Check out Claude Platform Training**](/freelancing-training/claude-training/).
+[TOC]
 
 ## What Is Claude Platform Support?
 
-Claude Platform Support is School of Freelancing's done-for-you engineering service for teams building AI applications on Anthropic's Claude Platform API — the Claude API itself is Anthropic's model API for building AI applications, covering the Messages API, streaming responses, and tool use / function calling. The service provides hands-on help with integration, authentication, streaming, tool use, and production troubleshooting, delivered remotely worldwide, for developers, founders, and teams who need results without hiring a full-time AI engineer.
+Claude Platform Support is School of Freelancing's done-for-you engineering
+service for teams building AI applications on Anthropic's Claude Platform API —
+the Claude API itself is Anthropic's model API for building AI applications,
+covering the Messages API, streaming responses, and tool use / function calling.
+The service provides hands-on help with integration, authentication, streaming,
+tool use, and production troubleshooting, delivered remotely worldwide, for
+developers, founders, and teams who need results without hiring a full-time AI
+engineer.
 
 ## Key Takeaways
 
@@ -47,26 +50,13 @@ Claude Platform Support is School of Freelancing's done-for-you engineering serv
 
 ## Who This Is For
 
-Developers, founders, and teams building AI applications on the Claude Platform API who need hands-on help
-integrating, debugging, or shipping features without hiring a full-time AI engineer.
+Developers, founders, and teams building AI applications on the Claude Platform
+API who need hands-on help
+integrating, debugging, or shipping features without hiring a full-time AI
+engineer.
 
 ## Frequently Asked Questions
-
-What can you help with on the Claude Platform? +
-
-We help you integrate the Claude API into your application, including the Messages API, streaming responses, tool use / function calling, and general prompt and error-handling troubleshooting.
-
-Do I need my own Anthropic API key? +
-
-Yes, you'll need your own Anthropic account and Claude API key. If you're new to the platform, we can walk you through account setup and key management as part of the engagement.
-
-Do you offer ongoing maintenance? +
-
-Yes. We provide one-time fixes as well as monthly maintenance and support plans tailored to your business needs.
 
 ## Need Claude Platform Support?
 
 Book a free 15-minute consultation to scope your project.
-
-[Get Support](/contact-us/)
-[View All Support →](/linux-ai-services/)

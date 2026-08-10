@@ -1,357 +1,329 @@
+---
+title: "Client Support Services | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Expert Linux, DevOps, AI, VoIP & SMS support services at School of Freelancing. Fast, remote, worldwide assistance."
+---
+
 # Client Support Services | School of Freelancing
 
-> Expert Linux, DevOps, AI, VoIP & SMS support services at School of Freelancing. Fast, remote, worldwide assistance.
+![Linux Server Support](/assets/images/linux.webp)
 
-**URL:** https://schooloffreelancing.com/client-support/
-**Rating:** 5.0 / 5 (36 verified Google reviews)
-**Provider:** School of Freelancing — Cumilla, Bangladesh, serving clients worldwide since 2015
+[TOC]
 
-## Categories
+## [Linux Server Services](/client-support/linux-server-services/)
 
-Linux · DevOps · AI · VoIP · SMS
+Deploy enterprise-grade Linux systems administration with intelligent cloud
+tuning. Our certified engineers deliver robust server setup, automated security
+hardening (CIS benchmarks), fast remote issue resolution, and custom shell
+scripting for complex DevOps pipelines.
 
-## Services
-
-### Linux Server Services
-
-- **Category:** Linux
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/linux-server-services/
-
-Professional Linux server services specializing in enterprise systems administration, automated security hardening, and 24/7 cloud infrastructure troubleshooting.
-
-**What's included:**
 - Secure server setup & hybrid cloud orchestration.
 - Fast remote troubleshooting & log analysis.
 - Cryptographic auditing & firewall configuration.
 - 24-hour dedicated post-installation support.
 
-### Hermes Agent Setup Service
+![Hermes Agent logo](/assets/images/hermesagent.webp)
 
-- **Category:** AI
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/hermes-agent-services/
+## [Hermes Agent Setup Service](/client-support/hermes-agent-services/)
 
-Professional implementation services for Hermes AI Agents featuring persistent memory configuration, self-improving skill mapping, and multi-platform messaging integration.
+Deploy advanced autonomous workflows with Hermes Agent Support. Our certified
+engineers configure persistent memory layers, orchestrate self-improving skill
+graphs, and establish low-latency multi-platform messaging integrations across
+enterprise secure nodes.
 
-**What's included:**
 - Persistent cognitive memory setup & vector routing.
 - Self-improving tool calling & custom skill mapping.
 - Multi-platform enterprise messaging agent deployment.
 - 24-hour dedicated post-installation engineering support.
 
-### Odysseus Private AI Workspace Support
+![Odysseus logo](/assets/images/odysseus.webp)
 
-- **Category:** AI
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/odysseus-ai-services/
+## [Odysseus Private AI Workspace Support](/client-support/odysseus-ai-services/)
 
-On-premise deployment support for Odysseus AI Workspace, allowing businesses to run secure large language models on local localized hardware.
+Take absolute control over data privacy with Odysseus Self-hosted AI Workspace
+Support. Our infrastructure experts deploy enterprise LLMs, fine-tuning scripts,
+and collaboration web UIs directly onto your dedicated bare-metal hardware or
+private cloud cluster.
 
-**What's included:**
 - Local bare-metal hardware deployment & GPU tuning.
 - Private LLM integration & secure dataset onboarding.
 - Zero-leakage data privacy & local firewall management.
 - 24-hour dedicated post-installation systems support.
 
-### OpenClaw AI Agent Support
+![OpenClaw logo](/assets/images/openclaw.webp)
 
-- **Category:** AI
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/openclaw-ai-services/
+## [OpenClaw AI Agent Support](/client-support/openclaw-ai-services/)
 
-Professional open-source installation and support for OpenClaw autonomous AI agent platforms, configuring 24/7 digital personal assistants.
+Deploy open-source autonomous agent platforms with OpenClaw Support. Our
+certified systems engineers optimize complex runtime environments, manage
+tool-calling APIs, and configure secure workflows for your 24/7 self-hosted
+digital personal assistant.
 
-**What's included:**
 - Autonomous agent node setup & runtime tuning.
 - Secure local tool-calling API key integration.
 - 24/7 digital personal assistant workflow automation.
 - 24-hour dedicated post-installation infrastructure support.
 
-### LocalAI Support & Local Model Deployment
+![LocalAI logo](/assets/images/localai.svg)
 
-- **Category:** AI
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/local-ai-services/
+## [LocalAI Deployment Support](/client-support/local-ai-services/)
 
-Professional installation and support for LocalAI open-source engines, running multi-modal models including LLMs, vision, voice, and video on consumer hardware without mandatory GPU requirements.
+Run full multi-modal AI pipelines on premise with LocalAI Support. Our certified
+engineers configure open-source AI engines to execute LLMs, computer vision,
+voice generation, and video synthesis on your existing hardware infrastructure
+with or without dedicated GPUs.
 
-**What's included:**
 - Local AI engine setup & CPU/GPU hardware scaling.
 - Multi-modal model configuration (LLM, vision, voice).
 - Private API endpoint creation & local inference routing.
 - 24-hour dedicated post-installation systems support.
 
-### ZeroClaw Support & Runtime Configuration
+![ZeroClaw logo](/assets/images/zeroc.svg)
 
-- **Category:** AI
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/zeroclaw-ai-services/
+## [ZeroClaw Expert Support](/client-support/zeroclaw-ai-services/)
 
-Professional installation and support for ZeroClaw personal AI assistant agent runtimes, configuring seamless integration with Anthropic, OpenAI, Ollama, and over 20 other LLM providers.
+Optimize your autonomous workflows with ZeroClaw Support. Our certified systems
+engineers deploy your personal AI assistant runtime, establish multi-LLM secure
+API routing, and build low-latency custom integrations for Anthropic, OpenAI,
+Ollama, and 20+ other leading language model infrastructures.
 
-**What's included:**
 - Agent runtime deployment & server configuration.
 - Multi-LLM provider endpoint & secure API routing.
 - Personal AI assistant workflow cross-platform integration.
 - 24-hour dedicated post-installation infrastructure support.
 
-### GitLab Community Edition Setup & Support
+![GitLab logo](/assets/images/gitlab.webp)
 
-- **Category:** DevOps
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/gitlab-services/
+## [GitLab Setup Support](/client-support/gitlab-services/)
 
-Professional self-hosted GitLab Community Edition (CE) setup, secure backup migration, and enterprise Linux system administration support.
+Optimize your development pipeline with self-hosted GitLab CE Support. Our
+experienced Linux system administrators deliver robust on-premise installation,
+seamless repository migration, secure backup configurations, and optimized CI/CD
+runner setups.
 
-**What's included:**
 - GitLab CE bare-metal or cloud installation.
 - Seamless repository & secure data migration.
 - CI/CD runner optimization & pipeline tuning.
 - 24-hour dedicated post-installation system support.
 
-### GitHub Enterprise Server Setup & Support
+![GitHub logo](/assets/images/github.webp)
 
-- **Category:** DevOps
-- **Price:** $350 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/github-services/
+## [GitHub Server Setup Support](/client-support/github-services/)
 
-Professional self-hosted GitHub Enterprise Server setup, repository migration, and automated DevOps infrastructure management by an experienced Linux systems administrator.
+Deploy secure, on-premise development workflows with GitHub Enterprise Server
+Support. Our expert Linux administrators deliver flawless bare-metal or cloud
+server deployment, enterprise repository migration, and optimized integration
+for GitHub Actions CI/CD pipelines.
 
-**What's included:**
 - GitHub Enterprise installation & identity access configuration.
 - Secure repository migration & data backup engineering.
 - GitHub Actions runner deployment & workflow tuning.
 - 24-hour dedicated post-installation infrastructure support.
 
-### Docker Engineer Services
+![Docker logo](/assets/images/docker.webp)
 
-- **Category:** DevOps
-- **Price:** $250 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/docker-engineer-services/
+## [Docker Engineer Services](/client-support/docker-engineer-services/)
 
-Professional Docker containerization and production deployment services, including Dockerfile/Compose setup, Nginx reverse proxy with SSL, and security-hardened container infrastructure.
+Ship production-grade containers with Docker Engineer Services. Our certified
+engineers deliver optimized Dockerfile & Compose builds, Nginx reverse proxy
+with Let's Encrypt SSL, hardened non-root images, and persistent volume &
+secrets configuration.
 
-**What's included:**
 - Dockerfile & multi-stage Compose build optimization.
 - Domain, SSL & Nginx reverse proxy configuration.
 - Security hardening & non-root container auditing.
 - 24-hour dedicated post-deployment infrastructure support.
 
-### Telnyx VoIP SIP Support & Telephony
+![Telnyx logo](/assets/images/telnyx.webp)
 
-- **Category:** VoIP
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/telnyx-sip-trunking-services/
+## [Telnyx VoIP SIP Support & Telephony](/client-support/telnyx-sip-trunking-services/)
 
-Professional installation and engineering support for Telnyx VoIP SIP trunking, private IP network routing, and global call center telephony integrations.
+Deploy global voice connectivity with Telnyx VoIP SIP Support. Our expert
+telecommunication engineers optimize private IP network routing, configure
+high-availability SIP trunking pipelines, and implement secure cloud call center
+API integrations.
 
-**What's included:**
 - SIP trunking configuration & private IP voice routing.
 - Fast remote VoIP troubleshooting & latency tuning.
 - Cloud telephony setup & CRM call center integration.
 - 24-hour dedicated post-installation infrastructure support.
 
-### Twilio VoIP SIP Support & Telephony
+![Twilio logo](/assets/images/twilio.svg)
 
-- **Category:** VoIP
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/twilio-sip-trunking-services/
+## [Twilio VoIP SIP Support & Telephony](/client-support/twilio-sip-trunking-services/)
 
-Professional implementation and optimization support for Twilio VoIP elastic SIP trunking, programmable voice workflows, and global call center API integrations.
+Scale global cloud communications with Twilio VoIP SIP Support. Our certified
+telecommunication engineers deliver seamless Elastic SIP Trunking setup,
+configure programmable cloud voice API pipelines, and deploy secure remote call
+center architectures.
 
-**What's included:**
 - Elastic SIP trunking setup & programmable voice routing.
 - Fast remote VoIP troubleshooting & call quality tuning.
 - Cloud communication architecture & call center API integration.
 - 24-hour dedicated post-installation infrastructure support.
 
-### FusionPBX VoIP Support & Telephony
+![FusionPBX logo](/assets/images/fusionpbx.webp)
 
-- **Category:** VoIP
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/fusionpbx-voip-services/
+## [FusionPBX VoIP Support & Telephony](/client-support/fusionpbx-voip-services/)
 
-Professional installation, configuration, and engineering support for FusionPBX multi-tenant switching platforms and FreeSWITCH-based VoIP infrastructure.
+Deploy enterprise multi-tenant switching platforms with FusionPBX VoIP Support.
+Our certified systems engineers deliver robust server administration, advanced
+inbound/outbound dialplan configuration, secure carrier trunking setup, and
+high-availability FreeSWITCH tuning.
 
-**What's included:**
 - Multi-tenant PBX installation & FreeSWITCH optimization.
 - Advanced inbound/outbound dialplan routing configuration.
 - Secure carrier SIP trunking & ACL firewall setup.
 - 24-hour dedicated post-installation infrastructure support.
 
-### Goautodial VoIP Support & Contact Center
+![Goautodial logo](/assets/images/goautodial.webp)
 
-- **Category:** VoIP
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/goautodial-voip-services/
+## [Goautodial VoIP Support & Contact Center](/client-support/goautodial-voip-services/)
 
-Professional installation, customization, and engineering support for Goautodial open-source omnichannel contact center systems integrating Asterisk, Kamailio, and Vicidial.
+Deploy high-performance call center infrastructures with Goautodial VoIP
+Support. Our certified systems engineers optimize open-source omnichannel
+suites, configure advanced Asterisk and Kamailio routing, and tune Vicidial
+engines for scalable enterprise lead management.
 
-**What's included:**
 - Omnichannel suite setup & Vicidial engine optimization.
 - Advanced Asterisk SIP trunking & Kamailio session routing.
 - Predictive dialer configuration & inbound/outbound setup.
 - 24-hour dedicated post-installation infrastructure support.
 
-### Ubuntu Linux Support & Engineering
+![Ubuntu logo](/assets/images/ubuntu.svg)
 
-- **Category:** Linux
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/ubuntu-linux-services/
+## [Ubuntu Linux Support & Engineering](/client-support/ubuntu-linux-services/)
 
-Professional administration and system support for Ubuntu Linux operating systems across production servers, workstations, cloud instances, and IoT devices.
+Deploy production-grade server architectures with Ubuntu Linux Support. Our
+certified systems administrators handle OS installation, kernel optimization,
+custom security hardening, continuous update repository management, and
+automated troubleshooting for scalable DevOps nodes.
 
-**What's included:**
 - Ubuntu server optimization & production OS deployment.
 - Automated kernel patching & security policy updates.
 - Fast remote environment diagnostics & crash log resolution.
 - 24-hour dedicated post-installation system support.
 
-### CentOS Linux Support & Engineering
+![CentOS logo](/assets/images/centos.svg)
 
-- **Category:** Linux
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/centos-linux-services/
+## [CentOS Linux Support & Engineering](/client-support/centos-linux-services/)
 
-Professional enterprise systems administration and long-term support for CentOS Linux infrastructures, package repositories, and migration deployments.
+Deploy secure and reliable infrastructure with enterprise CentOS Linux Support.
+Our certified systems engineers deliver specialized package management,
+repository mirroring, custom security hardening, and safe migration strategies
+to modern Enterprise Linux distributions.
 
-**What's included:**
 - CentOS infrastructure management & enterprise package updates.
 - Legacy systems troubleshooting & security patch orchestration.
 - Rocky/AlmaLinux migration paths & server configuration.
 - 24-hour dedicated post-installation system support.
 
-### OpenAI Platform Support & API Integration
+![OpenAI logo](/assets/images/openai.png)
 
-- **Category:** AI
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/openai-platform-services/
+## [OpenAI Platform Support & API Integration](/client-support/openai-platform-services/)
 
-Professional software engineering and infrastructure support for OpenAI API platform integration, large language model custom fine-tuning, and scalable enterprise AI application deployment.
+Accelerate production deployment with enterprise OpenAI Platform Support. Our
+certified AI engineers deliver secure API key optimization, structured data
+formatting setup, custom model fine-tuning orchestration, and robust middleware
+engineering for next-generation intelligence.
 
-**What's included:**
 - OpenAI API key optimization & token budget tuning.
 - Custom model fine-tuning & structured input mapping.
 - Secure enterprise middleware & private endpoint configuration.
 - 24-hour dedicated post-installation development support.
 
-### Claude Platform Support & API Integration
+![Claude logo](/assets/images/claudelogo.webp)
 
-- **Category:** AI
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/claude-ai-platform-services/
+## [Claude Platform Support & API Integration](/client-support/claude-ai-platform-services/)
 
-Professional software engineering and infrastructure support for Anthropic Claude API platform integration, context window optimization, and secure enterprise AI application deployment.
+Deploy production-grade intelligent applications with enterprise Claude Platform
+Support. Our certified AI engineers optimize Anthropic API pipelines, configure
+massive context window tracking, implement structured tool-calling, and build
+secure middleware infrastructure.
 
-**What's included:**
 - Claude API integration & prompt caching optimization.
 - Context window tuning & structured data extraction.
 - Secure Anthropic model middleware & agent orchestration.
 - 24-hour dedicated post-installation deployment support.
 
-### Telnyx SMS API Setup
+![Telnyx logo](/assets/images/telnyx.webp)
 
-- **Category:** SMS
-- **Price:** $1100 flat rate
-- **Delivery:** Allocation: 40 Engineering Hours / 1-4 Weeks
-- **URL:** https://schooloffreelancing.com/client-support/telnyx-sms-api-services/
+### [Telnyx SMS API Setup](/client-support/telnyx-sms-api-services/)
 
-Professional software engineering support for Telnyx SMS REST API setup, including A2P 10DLC registration, two-way messaging, bulk SMS integration, and secure SMPP API deployment.
+[View Sample Repo
+→](https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Setup.git)
 
-**What's included:**
+Telnyx's Messaging API supports sending and receiving both SMS and MMS.
+Including A2P/P2P 10DLC registration &smp; campaign setup support for bulk SMS
+integration and testing.
+
 - ✔ Telnyx REST API & SMPP API Integration
 - ✔ Configure Telnyx A2P or P2P Traffic Architecture
 - ✔ Webhook endpoint deployment for two-way messaging
 - ✔ 40 Hours of expert remote engineering support
 
-### Twilio SMS API Support & Integration
+![Twilio logo](/assets/images/twilio.svg)
 
-- **Category:** SMS
-- **Price:** $1100 flat rate
-- **Delivery:** Allocation: 40 Engineering Hours / 1-4 Weeks
-- **URL:** https://schooloffreelancing.com/client-support/twilio-sms-api-services/
+## [Twilio SMS API Support & Integration](/client-support/twilio-sms-api-services/)
 
-Professional software engineering and production support for Twilio Messaging API integration, bulk SMS infrastructure development, and US A2P 10DLC compliance configuration.
+Deploy production-grade communication infrastructure with expert Twilio
+Messaging API support. We build secure API authentication pipelines, configure
+automated multi-tenant bulk messaging, and handle enterprise A2P 10DLC
+compliance campaign registrations.
 
-**What's included:**
 - ✔ Fast Twilio Messaging API issue resolution.
 - ✔ Secure remote infrastructure deployment & authentication.
 - ✔ Cost-effective bulk SMS architectural optimization.
 - ✔ 24-hour dedicated post-installation deployment assistance.
 
-### Jasmin SMS Gateway Support
+![Jasmin SMS Gateway logo](/assets/images/jasmin.svg)
 
-- **Category:** SMS
-- **Price:** $1100 flat rate
-- **Delivery:** Allocation: 20 Engineering Hours / 1 Week
-- **URL:** https://schooloffreelancing.com/client-support/jasmin-sms-gateway-services/
+## [Jasmin SMS Gateway Support](/client-support/jasmin-sms-gateway-services/)
 
-Professional open-source telecom software engineering support for Jasmin SMS Gateway deployment, AMQP/Redis queue tuning, playSMS web portal integration, and production-ready enterprise bulk SMS architecture.
+Build a robust, production-grade telco communication system. Our systems
+engineers configure Jasmin SMS Gateway with playSMS, optimizing Redis DLR
+tracking, RabbitMQ message brokers, and advanced SMPP/HTTP server routing tables
+for high-throughput business messaging.
 
-**What's included:**
 - ✔ Fast Jasmin SMS core engine & jCli issue resolution.
 - ✔ Secure remote AMQP broker & Redis storage clustering.
 - ✔ Cost-effective multi-tenant playSMS web portal integration.
 - ✔ 24-hour dedicated post-installation deployment assistance.
 
-### DigitalOcean Cloud Support
+![DigitalOcean logo](/assets/images/digitalocean.webp)
 
-- **Category:** Cloud
-- **Price:** $500 flat rate
-- **Delivery:** Allocation: 72 Engineering Hours / 3 Days
-- **URL:** https://schooloffreelancing.com/client-support/digitalocean-cloud-services/
+## [DigitalOcean Cloud Support](/client-support/digitalocean-cloud-services/)
 
-Professional DigitalOcean cloud support for server deployment, troubleshooting, security, networking, backups, and production infrastructure.
+Professional DigitalOcean cloud support for server deployment, troubleshooting,
+security, networking, backups, and production infrastructure — delivered
+remotely, worldwide.
 
-**What's included:**
 - Storage, AI & API support for DigitalOcean Spaces and managed services.
 - Inference & compute support for droplets and Kubernetes workloads.
 - Data services and networking support (managed databases, VPCs, load balancers).
 - Ongoing remote support after initial deployment.
 
-### Hummingbot Installation Support
+![Hummingbot logo](/assets/images/blackhummingbot.svg)
 
-- **Category:** AI
-- **Price:** $1500 flat rate
-- **Delivery:** Allocation: 40 Engineering Hours / 6 Days
-- **URL:** https://schooloffreelancing.com/client-support/hummingbot-installation-services/
+## [Hummingbot Installation Support](/client-support/hummingbot-installation-services/)
 
-Professional Hummingbot setup, configuration, and deployment for automated crypto trading, plus Exchange API integration and MCP & Skills setup.
+Professional Hummingbot setup, configuration, and deployment — plus Exchange API
+integration and MCP & Skills setup — for automated crypto trading, delivered
+remotely, worldwide.
 
-**What's included:**
 - Full Hummingbot ecosystem deployment on your own server or cloud instance.
 - Cloud AI API integration support for strategy configuration.
 - Exchange REST API integration support for connecting trading accounts.
 - Hummingbot MCP, Skills, and Tailscale setup for secure remote access.
 
-### Vapi Platform Support
+![Vapi logo](/assets/images/agent.svg)
 
-- **Category:** AI
-- **Price:** $600 flat rate
-- **Delivery:** Allocation: 30 Engineering Hours / 5 Days
-- **URL:** https://schooloffreelancing.com/client-support/vapi-platform-services/
+## [Vapi Platform Support](/client-support/vapi-platform-services/)
 
-Expert Vapi setup, configuration, and troubleshooting for voice AI agents that make and receive phone calls.
+Build voice AI agents that can make and receive phone calls. Expert Vapi setup,
+configuration, and troubleshooting, delivered remotely, worldwide.
 
-**What's included:**
 - Vapi voice AI agent setup so it can make and receive phone calls.
 - Natural-conversation configuration tuned to your use case.
 - Integration with your existing systems and APIs.
@@ -359,28 +331,6 @@ Expert Vapi setup, configuration, and troubleshooting for voice AI agents that m
 
 ## Frequently Asked Questions
 
-### What technical services do you provide?
+## Need Expert Support? Start Now!
 
-We offer Linux server administration, cloud deployment, VoIP, DevOps, security, troubleshooting, and ongoing technical support for businesses worldwide.
-
-### Can you start immediately?
-
-Yes, in most cases we can begin as soon as the project requirements are confirmed by both parties.
-
-### Do you provide remote support?
-
-Yes. We provide secure remote support for servers, cloud infrastructure, and applications worldwide through secure channels.
-
-### How long does it take to complete a project?
-
-The timeline depends on the project's complexity. Small tasks can often be completed within hours. Complex infrastructure projects may take days or weeks.
-
-### Do you offer ongoing maintenance and support?
-
-Yes. We provide one-time fixes as well as monthly maintenance and support plans tailored to your business needs.
-
-## Contact
-
-- **Start a project:** https://schooloffreelancing.com/contact-us/
-- **All training programs:** https://schooloffreelancing.com/freelancing-training/
-- **Testimonials:** https://schooloffreelancing.com/resource-center/testimonials/
+Book a free 15-minute consultation to find the right support for your business.

@@ -1,28 +1,27 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/linux-ai-services/jasmin-sms-gateway-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Jasmin SMS Gateway Support | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Jasmin SMS Gateway support for building a production-ready bulk SMS system with Jasmin and playSMS for legitimate business SMS delivery."
+---
 
-[Home](/) / [Support Services](/linux-ai-services/) / Jasmin SMS Gateway Support
+# Jasmin SMS Gateway Support | School of Freelancing
 
-# Jasmin SMS Gateway Support
+Want to learn this yourself instead of hiring us? [**Check out Jasmin SMS
+Gateway Training**](/freelancing-training/jasmin-sms-gateway-training/) .
 
-Get expert support for building a production-ready bulk SMS system with Jasmin SMS Gateway and playSMS,
-set up for legitimate business SMS delivery — delivered remotely, worldwide.
-
-💵 $1100
-⏱ 20 Hours
-📅 1 Week
-🌍 Worldwide Remote
-
-[Get Support](/contact-us/)
-[View All Support](/linux-ai-services/)
-
-Want to learn this yourself instead of hiring us? [**Check out Jasmin SMS Gateway Training**](/freelancing-training/jasmin-sms-gateway-training/).
+[TOC]
 
 ## What Is Jasmin SMS Gateway Support?
 
-Jasmin SMS Gateway Support is School of Freelancing's done-for-you service for deploying Jasmin — an open-source
-SMS gateway that sends and receives SMS traffic over SMPP — together with playSMS, the web-based interface built
-on top of it for managing and sending bulk SMS campaigns. An experienced engineer installs and configures both,
-sets up the SMPP connector, and tests message routing and delivery, so you get a production-ready bulk SMS
+Jasmin SMS Gateway Support is School of Freelancing's done-for-you service for
+deploying Jasmin — an open-source
+SMS gateway that sends and receives SMS traffic over SMPP — together with
+playSMS, the web-based interface built
+on top of it for managing and sending bulk SMS campaigns. An experienced
+engineer installs and configures both,
+sets up the SMPP connector, and tests message routing and delivery, so you get a
+production-ready bulk SMS
 system for legitimate business SMS delivery without building it yourself.
 
 ## Key Takeaways
@@ -53,26 +52,12 @@ system for legitimate business SMS delivery without building it yourself.
 
 ## Who This Is For
 
-Businesses and developers who need a production-ready bulk SMS system built on Jasmin SMS Gateway and playSMS
+Businesses and developers who need a production-ready bulk SMS system built on
+Jasmin SMS Gateway and playSMS
 for legitimate business SMS delivery.
 
 ## Frequently Asked Questions
 
-What is Jasmin SMS Gateway used for? +
-
-Jasmin is an open-source SMS gateway that sends and receives SMS traffic over SMPP. We configure it to route bulk business SMS reliably for production use.
-
-Do you set up playSMS as well? +
-
-Yes. We configure playSMS on top of Jasmin so you have a web-based interface for managing and sending bulk SMS campaigns.
-
-Do you offer ongoing maintenance? +
-
-Yes. We provide one-time fixes as well as monthly maintenance and support plans tailored to your business needs.
-
 ## Need Jasmin SMS Gateway Support?
 
 Book a free 15-minute consultation to scope your project.
-
-[Get Support](/contact-us/)
-[View All Support →](/linux-ai-services/)

@@ -1,61 +1,67 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Odysseus AI Workspace Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Odysseus AI Workspace Training: deploy secure self-hosted AI systems with NGINX & SSL, build a portfolio, then land Upwork, Guru & Freelancer clients."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / Odysseus AI Workspace Training
+# Odysseus AI Workspace Training | School of Freelancing
 
-# Odysseus AI Workspace Training
-
-Project-based training for Self-Hosted AI Deployment Specialists.
-
-10 Sessions
-2 Weeks
-20 Hours
-Fee: $189
-Upwork · Guru · Freelancer
-
-Prefer to skip the training and have it done for you? [**Hire us for Odysseus AI Workspace Support**](/linux-ai-services/odysseus-ai-services/) instead.
-
+[TOC]
 ## Overview
 
-You'll become a production-ready Odysseus AI Workspace engineer with a live, self-hosted deployment proving real privacy-focused AI skills. Earn via freelance gigs, direct client contracts, or building your own self-hosted AI service offering.
+You'll become a production-ready Odysseus AI Workspace engineer with a live,
+self-hosted deployment proving real privacy-focused AI skills. Earn via
+freelance gigs, direct client contracts, or building your own self-hosted AI
+service offering.
 
-## What Is Odysseus AI Workspace Training?
-
-Odysseus AI Workspace Training is School of Freelancing's 10-session, 2-week hands-on training for deploying and hardening secure, self-hosted Odysseus AI Workspaces on remote servers — private AI systems trainees control end-to-end, rather than third-party cloud AI services, for clients who need full control over their data. Trainees provision and harden a production server, configure NGINX and SSL, install and secure an Odysseus AI Workspace with role-based access controls, and maintain it for ongoing clients. Beyond deployment, the training builds a full freelance launch pipeline: three marketplace profiles (Upwork, Guru, Freelancer), five Odysseus AI Workspace service videos, LinkedIn/social marketing, job search and bidding strategy, and client communication and delivery — preparing freelancers to work as Odysseus AI Workspace Support Specialists from day one.
-
-## Key Takeaways
-
-- **Format:** Online, project-based, hands-on training with mandatory attendance across all sessions
-- **Duration:** 10 sessions over 2 weeks, 2 hours per session (20 hours total)
-- **Price:** $189 USD
-- **Covers:** Server provisioning & SSH hardening, DNS/NGINX/HTTPS, Odysseus AI Workspace installation, access control & privacy architecture, production hardening & backups, ongoing maintenance, marketplace profile setup, service video production & marketing, job search & bidding, client communication & delivery
-- **Best for:** Freelancers and IT professionals who want to specialize in privacy-focused, self-hosted AI deployments targeting Upwork, Guru, and Freelancer
-
-## Odysseus AI Workspace Training at a Glance
+## Training at a Glance:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $189 USD |
-| Duration | 10 sessions over 2 weeks, 2 hours per session (20 hours total) |
-| Format | Live, hands-on training with no pre-recorded videos |
-| Prerequisites | DigitalOcean account, any domain or subdomain, verified marketplace profiles |
-| Marketplaces targeted | Upwork, Guru, Freelancer |
+| Duration: | 10 sessions over 2 weeks, 2 hours per session (20 hours total). |
+| Format: | Live, Hands-On Training with no Pre-Recorded Videos. |
+| Covers: | Server setup, NGINX & SSL, Odysseus AI Workspace install, access control & privacy architecture, production hardening, maintenance, marketplace profiles, service videos, job bidding, client delivery. |
+| Best for: | Freelancers and IT professionals who want to specialize in privacy-focused, self-hosted AI deployments and launch a freelance career around them. |
+| Marketplace: | Upwork, Guru, Freelancer |
+
+## Participation Requirements:
+
+### Training Prerequisites
+
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain/Subdomain, & Verified Marketplace Profiles.
+- **Rigorous:** Need to have patience and concentration during all training sessions.
+
+### Connectivity
+
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
+
+### Training Rules
+
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ## Why Join This Training?
 
-Privacy-focused, self-hosted AI deployment is a fast-growing, low-competition category on Upwork, Guru, and Freelancer, and most freelancers can't fill it because they've never taken an Odysseus AI Workspace live in production. This training closes that gap fast: existing Linux/cloud freelancers add a high-ticket skill on top of what they already know, while newcomers leave with a live, SSL-secured deployment, 3 marketplace profiles, and 5 service videos as instant proof of work. Job search, proposals, client communication, and delivery are covered too, so you're not just trained — you're positioned to get hired.
+Privacy-focused, self-hosted AI deployment is a fast-growing, low-competition
+category on Upwork, Guru, and Freelancer, and most freelancers can't fill it
+because they've never taken an Odysseus AI Workspace live in production. This
+training closes that gap fast: existing Linux/cloud freelancers add a
+high-ticket skill on top of what they already know, while newcomers leave with a
+live, SSL-secured deployment, 3 marketplace profiles, and 5 service videos as
+instant proof of work. Job search, proposals, client communication, and delivery
+are covered too, so you're not just trained — you're positioned to get hired.
 
-### You'll Leave With
+### You'll leave with:
 
-1. Hands-on experience deploying a live, self-hosted, privacy-focused Odysseus AI Workspace
-2. Marketplace portfolio proving real deployment and data-privacy engineering skills
-3. Stronger habits for hardening, maintaining, and troubleshooting production AI workspaces
+Hands-on experience deploying a live, self-hosted, privacy-focused Odysseus AI
+Workspace
 
-## Participation Requirements
+Marketplace portfolio proving real deployment and data-privacy engineering
+skills
 
-- **DigitalOcean account:** Any domain or subdomain, and verified marketplace profiles.
-- **Rigorous:** Need to have patience and concentration during all training sessions.
-- **Connectivity:** Portable messaging devices for 24/7 client communication, and reliable fiber-optic internet for uninterruptible training sessions.
-- **Training Rules:** [Training Rules](/legal/training-rules/) apply to all School of Freelancing trainees and may be updated as the program evolves.
+Stronger habits for hardening, maintaining, and troubleshooting production AI
+workspaces
 
 ## Training Curriculum: 20 Training Hours / 2 Weeks
 
@@ -76,38 +82,31 @@ Privacy-focused, self-hosted AI deployment is a fast-growing, low-competition ca
 
 ## Milestone Checkpoint
 
-Progress benchmarks every trainee must clear to stay on track for the GMI guarantee.
+Progress benchmarks every trainee must clear to stay on track for the GMI
+guarantee.
 
 | Milestone | Reached By | Checkpoint Criteria |
 | --- | --- | --- |
-| Server Live | Session 2 | Domain resolves over HTTPS with a valid, auto-renewing SSL certificate |
-| Workspace Deployed | Session 4 | Odysseus AI Workspace running in production with role-based access controls configured |
-| Security Hardened | Session 5 | Fail2ban, backups, and monitoring verified; security review passed |
-| Portfolio Live | Session 7 | Public deployment demo/repo published as proof of work |
-| Marketplace Ready | Session 8 | 3 verified marketplace profiles (Upwork, Guru, Freelancer) published |
-| Marketing Assets Ready | Session 9 | 5 service videos produced and LinkedIn presence active |
-| First Application Sent | Session 10 | At least 1 live job proposal submitted before graduation |
+| 1 | Server Live | Domain resolves over HTTPS with a valid, auto-renewing SSL certificate (Session 2) |
+| 2 | Workspace Deployed | Odysseus AI Workspace running in production with role-based access controls configured (Session 4) |
+| 3 | Security Hardened | Fail2ban, backups, and monitoring verified; security review passed (Session 5) |
+| 4 | Portfolio Live | Public deployment demo/repo published as proof of work (Session 7) |
+| 5 | Marketplace Ready | 3 verified marketplace profiles (Upwork, Guru, Freelancer) published (Session 8) |
+| 6 | Marketing Assets Ready | 5 service videos produced and LinkedIn presence active (Session 9) |
+| 7 | First Application Sent | At least 1 live job proposal submitted before graduation (Session 10) |
 
-### Guaranteed Minimum Income (GMI)
+## Guaranteed Minimum Income Conditions:
 
-This training secures a **Guaranteed Minimum Income (GMI)** under two conditions:
+- **Attendance:** Zero-Leave attendance across all 10 training sessions.
+- **Active Bidding:** Purchase bids/connects on marketplaces to search, apply, and get hired for jobs.
 
-- **Attendance Requirement:** Zero-leave attendance across all 10 training sessions is mandatory. The guarantee is automatically voided in the event of any absence, personal dropouts, or technical disruptions.
-- **Active Marketplace Engagement:** Trainees must purchase the required connects or bids on freelancing platforms to actively apply for marketplace jobs.
+This training secures a **Guaranteed Minimum Income (GMI)** only when both
+conditions are met. The guarantee is automatically voided in the event of any
+absence, personal dropouts, technical disruptions, or inactive marketplace
+engagement.
 
-## Secure Payment Gateways
+## Payment Gateways
 
-Pay the **$189** enrollment fee below, then click **Complete Registration** to secure your spot.
+Pay the **$189** enrollment fee below, then click **Complete Registration** .
 
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with PayPal](https://www.paypal.com/ncp/payment/J5F7BS5QZMWGJ)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git/)
+## Already paid?

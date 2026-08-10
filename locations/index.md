@@ -1,32 +1,12 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/locations/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Locations We Serve | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "School of Freelancing delivers online Linux freelancing training and remote Linux/IT support worldwide — Australia, Canada, the UK, the US, and across Europe."
+---
 
-# Locations We Serve
-
-All training and support is delivered online — pick your country below for local scheduling notes, or jump straight to training or support.
-
-[🇦🇺 Australia](/locations/australia/)
-[🇦🇹 Austria](/locations/austria/)
-[🇧🇩 Bangladesh](/locations/bangladesh/)
-[🇧🇪 Belgium](/locations/belgium/)
-[🇨🇦 Canada](/locations/canada/)
-[🇩🇰 Denmark](/locations/denmark/)
-[🇫🇮 Finland](/locations/finland/)
-[🇩🇪 Germany](/locations/germany/)
-[🇮🇸 Iceland](/locations/iceland/)
-[🇮🇪 Ireland](/locations/ireland/)
-[🇮🇱 Israel](/locations/israel/)
-[🇱🇮 Liechtenstein](/locations/liechtenstein/)
-[🇱🇺 Luxembourg](/locations/luxembourg/)
-[🇳🇱 Netherlands](/locations/netherlands/)
-[🇳🇴 Norway](/locations/norway/)
-[🇸🇬 Singapore](/locations/singapore/)
-[🇸🇪 Sweden](/locations/sweden/)
-[🇨🇭 Switzerland](/locations/switzerland/)
-[🇬🇧 United Kingdom](/locations/uk/)
-[🇺🇸 United States](/locations/us/)
+# Locations We Serve | School of Freelancing
 
 ## Don't See Your Country?
 
-Online training and services worldwide — message us to schedule for your time zone.
-
-[Contact us →](/contact-us/)
+Message us to schedule a time that works for your time zone.

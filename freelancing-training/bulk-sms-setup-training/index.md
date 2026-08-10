@@ -1,21 +1,25 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Bulk SMS Engineering Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 2-week hands-on Bulk SMS Engineering Training: Jasmin/PlaySMS deployment, SMPP connectors, REST/HTTP API integration, DLR tracking. $400."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / Bulk SMS Engineering Training
+# Bulk SMS Engineering Training | School of Freelancing
 
-# Bulk SMS Engineering Training
+Prefer to have this deployed for you instead? [**See our Jasmin SMS Gateway
+Support**](/client-support/jasmin-sms-gateway-services/) .
 
-A hands-on Bulk SMS Engineering Training: deploy a production bulk SMS gateway on Linux — Jasmin SMS Gateway/PlaySMS with SSL, SMPP connectors, REST/HTTP API integration, bulk queuing, and DLR tracking — then land freelance and direct clients with job-ready skills.
-
-💵 $400
-⏱ 20 Hours
-📅 2 Weeks
-🎯 Guru · Freelancer · Upwork
-
-Prefer to have this deployed for you instead? [**See our Jasmin SMS Gateway Support**](/linux-ai-services/jasmin-sms-gateway-services/).
+[TOC]
 
 ## What Is Bulk SMS Engineering Training?
 
-Bulk SMS Engineering Training is School of Freelancing's 20-hour, instructor-led course that teaches Linux users to deploy a production bulk SMS gateway — Jasmin SMS Gateway/PlaySMS with SSL, SMPP connectors, REST/HTTP API integration, bulk queuing, and DLR tracking — then apply those skills to win freelance SMS gateway clients. It is built for beginners to intermediate Linux users who want job-ready SMPP and REST/HTTP API integration skills.
+Bulk SMS Engineering Training is School of Freelancing's 20-hour, instructor-led
+course that teaches Linux users to deploy a production bulk SMS gateway — Jasmin
+SMS Gateway/PlaySMS with SSL, SMPP connectors, REST/HTTP API integration, bulk
+queuing, and DLR tracking — then apply those skills to win freelance SMS gateway
+clients. It is built for beginners to intermediate Linux users who want
+job-ready SMPP and REST/HTTP API integration skills.
 
 ## Key Takeaways
 
@@ -56,7 +60,10 @@ Bulk SMS Engineering Training is School of Freelancing's 20-hour, instructor-led
 
 ## Who This Is For
 
-Beginners to intermediate Linux users who want job-ready SMS gateway engineering skills (SMPP + REST/HTTP API integration) and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach. You should be able to commit to 20 hours of hands-on, instructor-led training over 2 weeks.
+Beginners to intermediate Linux users who want job-ready SMS gateway engineering
+skills (SMPP + REST/HTTP API integration) and the ability to freelance on
+Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach. You should
+be able to commit to 20 hours of hands-on, instructor-led training over 2 weeks.
 
 ## Curriculum: 10 Sessions × 2 Hours (20 Hours Total)
 
@@ -68,15 +75,11 @@ Beginners to intermediate Linux users who want job-ready SMS gateway engineering
 - SMS gateway architecture: MC/SMSC, ESME, connectors
 - Server provisioning on Ubuntu (DigitalOcean VPS)
 
-🧪 Lab: Spin up a fresh Ubuntu VPS for the SMS gateway
-
 ### Session 2: Installing an Open-Source SMS Gateway (2h)
 
 - Installing Jasmin SMS Gateway (or PlaySMS)
 - Web admin/CLI setup, initial configuration
 - Firewall (UFW) & port planning for SMPP
-
-🧪 Lab: Install and access the SMS gateway admin console
 
 ### Session 3: Domain, SSL & Secure Access (2h)
 
@@ -84,23 +87,17 @@ Beginners to intermediate Linux users who want job-ready SMS gateway engineering
 - SSL/HTTPS for the admin panel/API endpoints
 - Securing SSH and admin access
 
-🧪 Lab: Attach domain, enable HTTPS, lock down server access
-
 ### Session 4: SMPP Connector Setup (2h)
 
 - Configuring SMPP binds (transmitter/receiver/transceiver)
 - Connecting to an SMPP provider, testing bind status
 - Sending/receiving test SMS over SMPP
 
-🧪 Lab: Establish a live SMPP connection and send a test message
-
 ### Session 5: REST/HTTP API Integration (2h)
 
 - Building REST/HTTP API routes for sending SMS (Twilio/Telnyx APIs as reference)
 - API authentication, rate limits, error handling
 - Webhook setup for delivery reports (DLRs) and inbound SMS
-
-🧪 Lab: Send and receive SMS via a REST/HTTP API integration
 
 ### Week 2 — Advanced Setup & Freelance Readiness
 
@@ -110,15 +107,11 @@ Beginners to intermediate Linux users who want job-ready SMS gateway engineering
 - Message routing rules, filters, and priority queues
 - Handling long messages (concatenated SMS)
 
-🧪 Lab: Configure a bulk send job with throttling and routing rules
-
 ### Session 7: Delivery Reports & Two-Way Messaging (2h)
 
 - DLR handling and status tracking
 - Two-way SMS flows (auto-replies, keyword triggers)
 - Database logging of sent/received messages
-
-🧪 Lab: Build a two-way SMS flow with DLR tracking
 
 ### Session 8: Monitoring, Logs & Maintenance (2h)
 
@@ -126,15 +119,11 @@ Beginners to intermediate Linux users who want job-ready SMS gateway engineering
 - Backups of configuration and message logs
 - Scaling considerations for high-volume campaigns
 
-🧪 Lab: Configure monitoring + automated backup
-
 ### Session 9: Client Project Simulation (2h)
 
 - Full end-to-end task: fresh VPS → SMS gateway → domain/SSL → SMPP + REST API → bulk send campaign
 - Troubleshooting common issues (bind failures, throughput throttling, DLR mismatches)
 - Documentation & handover practices (client-ready reports)
-
-🧪 Lab: Complete a timed "client ticket" simulation
 
 ### Session 10: Freelance Client Acquisition (2h)
 
@@ -142,8 +131,6 @@ Beginners to intermediate Linux users who want job-ready SMS gateway engineering
 - Writing proposals that win SMS gateway/bulk messaging gigs
 - Pricing your services (hourly vs fixed-price gigs)
 - LinkedIn strategy: optimizing profile, outreach scripts, content posting for direct clients
-
-🧪 Final Assessment: Submit 1 Upwork proposal + 1 LinkedIn outreach message (reviewed live)
 
 ## Deliverables Upon Completion
 
@@ -154,19 +141,14 @@ Beginners to intermediate Linux users who want job-ready SMS gateway engineering
 
 ## Tools & Platforms Covered
 
-Ubuntu Linux, Jasmin SMS Gateway/PlaySMS, SMPP, REST/HTTP APIs, UFW, Nginx, Certbot/Let's Encrypt, Upwork, Freelancer.com, Guru.com, LinkedIn
+Ubuntu Linux, Jasmin SMS Gateway/PlaySMS, SMPP, REST/HTTP APIs, UFW, Nginx,
+Certbot/Let's Encrypt, Upwork, Freelancer.com, Guru.com, LinkedIn
 
 ## Secure Payment Gateways
 
-Pay the **$400** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$400** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/Bulk-SMS-Engineering-Training.git/)

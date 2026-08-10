@@ -1,29 +1,19 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/legal/training-rules/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Training Rules — School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training."
+---
 
-[Home](/) / Training Rules
+# Training Rules — School of Freelancing
 
-# Training Rules
-
-Effective date: July 5, 2026 · School of Freelancing (schooloffreelancing.com)
-
-[1. Introduction](#intro)
-[2. Enrollment & Eligibility](#enrollment)
-[3. Attendance & Scheduling](#attendance)
-[4. Program Duration & Absence Policy](#duration)
-[5. Communication Tools & Conduct](#communication)
-[6. Scope of Mentor Support](#mentorscope)
-[7. Proof of Work & Trello Usage](#proof)
-[8. Freelancing Income During Training](#income)
-[9. Behavior & Security](#conduct)
-[10. Training Topics & Changes](#topics)
-[11. Completion & Post-Training Support](#completion)
-[12. Suspension & Disqualification](#disqualify)
-[13. Miscellaneous](#misc)
-[14. Contact Us](#contact)
-
+[TOC]
 ## 1. Introduction
 
-These Training Rules ("Ground Rules") apply to everyone enrolled in School of Freelancing's Linux Freelancing Training. They exist to keep the training environment fair, focused, and productive for both trainees and mentors, and they may be updated from time to time as our program evolves.
+These Training Rules ("Ground Rules") apply to everyone enrolled in School of
+Freelancing's Linux Freelancing Training. They exist to keep the training
+environment fair, focused, and productive for both trainees and mentors, and
+they may be updated from time to time as our program evolves.
 
 ## 2. Enrollment & Eligibility
 
@@ -72,7 +62,11 @@ These Training Rules ("Ground Rules") apply to everyone enrolled in School of Fr
 
 ## 8. Freelancing Income During Training
 
-Our goal is to help you finish sessions and gain real experience, so during training we only support you in earning your first Linux freelancing income. Chasing more income than that during the program can distract from the sessions and your learning focus. Once training is complete, you're free to take on as many projects as you'd like.
+Our goal is to help you finish sessions and gain real experience, so during
+training we only support you in earning your first Linux freelancing income.
+Chasing more income than that during the program can distract from the sessions
+and your learning focus. Once training is complete, you're free to take on as
+many projects as you'd like.
 
 ## 9. Behavior & Security
 
@@ -95,30 +89,19 @@ Our goal is to help you finish sessions and gain real experience, so during trai
 
 ## 12. Suspension & Disqualification
 
-Violations of these rules — including unexcused absence, inappropriate conduct, unauthorized VPN or dual-boot use, phishing/hacking attempts, or performing office work during sessions — may lead to session cancellation, temporary suspension, or permanent disqualification as outlined above. If your account on any platform is suspended due to your own actions, you are responsible for the consequences.
+Violations of these rules — including unexcused absence, inappropriate conduct,
+unauthorized VPN or dual-boot use, phishing/hacking attempts, or performing
+office work during sessions — may lead to session cancellation, temporary
+suspension, or permanent disqualification as outlined above. If your account on
+any platform is suspended due to your own actions, you are responsible for the
+consequences.
 
 ## 13. Miscellaneous
 
-These Ground Rules were adapted from our public Training Wiki and are provided here for convenient reference. They are subject to updates over time; the Wiki and your enrollment agreement remain the authoritative source in case of any discrepancy.
-
 ## 14. Contact Us
 
-Questions about these Training Rules can be sent to us via our [contact page](/contact-us/), or reach us directly on WhatsApp at +8801748973769, or by email at office@schooloffreelancing.com.
+Questions about these Training Rules can be sent to us via our [contact
+page](/contact-us/) , or reach us directly on WhatsApp at +8801748973769, or by
+email at office@schooloffreelancing.com.
 
 ## Frequently Asked Questions
-
-What happens if I miss a training session or pause my training? +
-
-You may pause for up to two weeks total. A one-month absence causes temporary disqualification with a 25% re-admission fee to restart, and a six-month absence causes permanent disqualification, restartable only by paying 50% of the fee within one year, subject to available capacity.
-
-Can I be removed from training for misconduct or security violations? +
-
-Yes. Attempting phishing or hacking against School of Freelancing's accounts, intellectual property, or a mentor's PC triggers a temporary pause and a 72-hour explanation notice on Trello; failing to provide a satisfactory explanation results in disqualification and removal from Trello and GitHub.
-
-Do these Training Rules apply to all trainees? +
-
-Yes. The Ground Rules apply to everyone enrolled in School of Freelancing's Linux Freelancing Training, to keep the training environment fair, focused, and productive for trainees and mentors alike.
-
-Is any support available after I complete training? +
-
-After completing training and earning your first freelancing income, you're asked to leave a review and mark training complete in Trello; extended advisory support is then available for a $300/year membership fee.

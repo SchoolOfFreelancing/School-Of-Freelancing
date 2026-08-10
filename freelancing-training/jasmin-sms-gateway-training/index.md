@@ -1,21 +1,25 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Jasmin SMS Gateway Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "30-hour, 2-week hands-on Jasmin SMS Gateway Training: build a production-ready bulk SMS system with Jasmin and playSMS. $700."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / Jasmin SMS Gateway Training
+# Jasmin SMS Gateway Training | School of Freelancing
 
-# Jasmin SMS Gateway Training
+Prefer to skip the training and have it done for you? [**Hire us for Jasmin SMS
+Gateway Support**](/client-support/jasmin-sms-gateway-services/) instead.
 
-Learn to build a production-ready bulk SMS system with Jasmin SMS Gateway and playSMS for legitimate business SMS delivery. Master gateway configuration, message routing, and queue management to deliver reliable messaging systems for freelance clients.
-
-💵 $700
-⏱ 30 Hours
-📅 2 Week
-🎯 Guru · Freelancer · Upwork
-
-Prefer to skip the training and have it done for you? [**Hire us for Jasmin SMS Gateway Support**](/linux-ai-services/jasmin-sms-gateway-services/) instead.
+[TOC]
 
 ## What Is Jasmin SMS Gateway Training?
 
-Jasmin SMS Gateway Training is School of Freelancing's $700, 30-hour hands-on course built around Jasmin SMS Gateway, an open-source SMS gateway typically paired with playSMS to route, queue, and deliver bulk SMS traffic for legitimate business communication systems. The training teaches gateway configuration, message routing, and queue management so participants can build a production-ready bulk SMS system and offer it to freelance clients.
+Jasmin SMS Gateway Training is School of Freelancing's $700, 30-hour hands-on
+course built around Jasmin SMS Gateway, an open-source SMS gateway typically
+paired with playSMS to route, queue, and deliver bulk SMS traffic for legitimate
+business communication systems. The training teaches gateway configuration,
+message routing, and queue management so participants can build a
+production-ready bulk SMS system and offer it to freelance clients.
 
 ## Key Takeaways
 
@@ -58,15 +62,9 @@ Jasmin SMS Gateway Training is School of Freelancing's $700, 30-hour hands-on co
 
 ## Secure Payment Gateways
 
-Pay the **$700** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$700** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Training.git/)

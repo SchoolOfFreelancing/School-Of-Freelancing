@@ -1,21 +1,25 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/debian-linux-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Debian Linux Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 2-week hands-on Debian Linux Server Administration Bootcamp — SSH hardening, Nginx, SSL, Docker, backups, and client acquisition. $250."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / Debian Linux Training
+# Debian Linux Training | School of Freelancing
 
-# Debian Linux Training
+Need a Debian server managed by a professional instead? [**See our Linux Server
+Support**](/client-support/linux-server-services/) .
 
-A hands-on Debian Linux Server Administration Bootcamp: deploy production Debian servers — SSH hardening, Nginx, SSL, databases, Docker, monitoring, and backups — then land freelance and direct clients with job-ready skills.
-
-💵 $250
-⏱ 20 Hours
-📅 2 Weeks
-🎯 Guru · Freelancer · Upwork
-
-Need a Debian server managed by a professional instead? [**See our Linux Server Support**](/linux-ai-services/linux-server-services/).
+[TOC]
 
 ## What Is Debian Linux Training?
 
-Debian Linux Training is School of Freelancing's 20-hour, instructor-led Debian Linux Server Administration Bootcamp. Debian itself is a stable, widely-used Linux distribution favored for production servers, and the course teaches beginner-to-intermediate Linux users to deploy and secure production Debian servers — SSH hardening, Nginx, SSL, databases, Docker, monitoring, and backups — then apply those skills to win freelance and direct clients.
+Debian Linux Training is School of Freelancing's 20-hour, instructor-led Debian
+Linux Server Administration Bootcamp. Debian itself is a stable, widely-used
+Linux distribution favored for production servers, and the course teaches
+beginner-to-intermediate Linux users to deploy and secure production Debian
+servers — SSH hardening, Nginx, SSL, databases, Docker, monitoring, and backups
+— then apply those skills to win freelance and direct clients.
 
 ## Key Takeaways
 
@@ -55,7 +59,10 @@ Debian Linux Training is School of Freelancing's 20-hour, instructor-led Debian 
 
 ## Who This Is For
 
-Beginners to intermediate Linux users who want job-ready Debian server admin skills and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach. You should be able to commit to 20 hours of hands-on, instructor-led training over 2 weeks.
+Beginners to intermediate Linux users who want job-ready Debian server admin
+skills and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via
+direct LinkedIn outreach. You should be able to commit to 20 hours of hands-on,
+instructor-led training over 2 weeks.
 
 ## Curriculum: 10 Sessions × 2 Hours (20 Hours Total)
 
@@ -67,15 +74,11 @@ Beginners to intermediate Linux users who want job-ready Debian server admin ski
 - Installing Debian (VM + cloud VPS via DigitalOcean/Vultr)
 - Filesystem hierarchy, basic shell navigation
 
-🧪 Lab: Spin up a Debian 12 VPS, SSH in
-
 ### Session 2: Linux Command Line Mastery (2h)
 
 - File/directory management, permissions (chmod/chown), users & groups
 - Package management: apt, dpkg
 - Process management, systemd basics
-
-🧪 Lab: User/group setup, install & manage packages, systemctl practice
 
 ### Session 3: Networking & Remote Access (2h)
 
@@ -83,15 +86,11 @@ Beginners to intermediate Linux users who want job-ready Debian server admin ski
 - Networking basics: netstat, ss, ip, DNS, /etc/hosts
 - UFW firewall configuration
 
-🧪 Lab: Harden SSH, configure UFW rules on live server
-
 ### Session 4: Web Server Deployment (2h)
 
 - Installing & configuring Nginx (and Apache basics)
 - Virtual hosts / server blocks
 - Deploying a static site + a simple app
-
-🧪 Lab: Host 2 websites on one server using server blocks
 
 ### Session 5: SSL, Domains & Security Basics (2h)
 
@@ -99,17 +98,13 @@ Beginners to intermediate Linux users who want job-ready Debian server admin ski
 - Let's Encrypt / Certbot SSL setup
 - Fail2ban, automatic security updates
 
-🧪 Lab: Attach a real domain, enable HTTPS, configure Fail2ban
-
 ### Week 2 — Production Skills & Freelance Readiness
 
 ### Session 6: Databases & Backend Services (2h)
 
 - Installing MySQL/MariaDB or PostgreSQL
-- Basic DB management, backups (mysqldump/pg\_dump)
+- Basic DB management, backups (mysqldump/pg_dump)
 - Installing Node.js/Python runtime for app hosting
-
-🧪 Lab: Deploy a database-backed app behind Nginx reverse proxy
 
 ### Session 7: Docker on Debian (2h)
 
@@ -117,15 +112,11 @@ Beginners to intermediate Linux users who want job-ready Debian server admin ski
 - Container basics, images, volumes, networks
 - Deploying multi-container stacks
 
-🧪 Lab: Deploy a Dockerized app with Nginx reverse proxy
-
 ### Session 8: Monitoring, Backups & Maintenance (2h)
 
 - Server monitoring (htop, disk usage, logs via journalctl)
 - Automated backups (cron + rsync/rclone to remote storage)
 - Log rotation, uptime monitoring basics
-
-🧪 Lab: Set up automated backup script + cron schedule
 
 ### Session 9: Client Project Simulation (2h)
 
@@ -133,16 +124,12 @@ Beginners to intermediate Linux users who want job-ready Debian server admin ski
 - Troubleshooting common client issues (site down, disk full, permission errors)
 - Documentation & handover practices (client-ready reports)
 
-🧪 Lab: Complete a timed "client ticket" simulation
-
 ### Session 10: Freelance Client Acquisition (2h)
 
 - Building winning Upwork/Freelancer.com/Guru.com profiles & portfolios
 - Writing proposals that win Debian/Linux server gigs
 - Pricing your services (hourly vs fixed-price gigs)
 - LinkedIn strategy: optimizing profile, outreach scripts, content posting for direct clients
-
-🧪 Final Assessment: Submit 1 Upwork proposal + 1 LinkedIn outreach message (reviewed live)
 
 ## Deliverables Upon Completion
 
@@ -153,19 +140,15 @@ Beginners to intermediate Linux users who want job-ready Debian server admin ski
 
 ## Tools & Platforms Covered
 
-Debian 12, SSH, UFW, Nginx, Certbot/Let's Encrypt, Fail2ban, MySQL/PostgreSQL, Docker & Docker Compose, systemd, cron, Upwork, Freelancer.com, Guru.com, LinkedIn
+Debian 12, SSH, UFW, Nginx, Certbot/Let's Encrypt, Fail2ban, MySQL/PostgreSQL,
+Docker & Docker Compose, systemd, cron, Upwork, Freelancer.com, Guru.com,
+LinkedIn
 
 ## Secure Payment Gateways
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$250** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/Debian-Linux-Training.git/)

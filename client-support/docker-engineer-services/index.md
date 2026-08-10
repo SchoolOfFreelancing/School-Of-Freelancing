@@ -1,24 +1,24 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/linux-ai-services/docker-engineer-services/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "Docker Engineer Services | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Professional Docker containerization & production deployment — Dockerfile & Compose setup, domain/SSL configuration, and security hardening."
+---
 
-[Home](/) / [Support Services](/linux-ai-services/) / Docker Engineer Services
+# Docker Engineer Services | School of Freelancing
 
-# Docker Engineer Services
+Want to learn this yourself instead of hiring us? [**Check out Docker
+Training**](/freelancing-training/docker-training/) .
 
-Production-grade Docker containerization and deployment for your application — done right, done fast — delivered remotely, worldwide.
-
-💵 $250
-⏱ 72 Hours
-📅 3 Days
-🌍 Worldwide Remote
-
-[Get Support](/contact-us/)
-[View All Support](/linux-ai-services/)
-
-Want to learn this yourself instead of hiring us? [**Check out Docker Training**](/freelancing-training/docker-training/).
+[TOC]
 
 ## What Are Docker Engineer Services?
 
-Docker Engineer Services is School of Freelancing's done-for-you Docker deployment service: an experienced Linux engineer containerizes your application and deploys it to production — Dockerfile and Compose setup, domain and SSL configuration, security hardening, and monitoring — without you having to do the work yourself.
+Docker Engineer Services is School of Freelancing's done-for-you Docker
+deployment service: an experienced Linux engineer containerizes your application
+and deploys it to production — Dockerfile and Compose setup, domain and SSL
+configuration, security hardening, and monitoring — without you having to do the
+work yourself.
 
 ## Key Takeaways
 
@@ -55,8 +55,10 @@ Docker Engineer Services is School of Freelancing's done-for-you Docker deployme
 
 ## Who This Is For
 
-Teams and individuals who need their application containerized and deployed to production the right way, but want
-an experienced Linux & cloud infrastructure engineer to handle the Dockerfile, networking, SSL, and security
+Teams and individuals who need their application containerized and deployed to
+production the right way, but want
+an experienced Linux & cloud infrastructure engineer to handle the Dockerfile,
+networking, SSL, and security
 hardening without the trial and error.
 
 ## What We Need From You
@@ -68,25 +70,6 @@ hardening without the trial and error.
 
 ## Frequently Asked Questions
 
-Do you write the Dockerfile and Compose setup from scratch? +
-
-Yes. We write optimized, multi-stage Dockerfile and Docker Compose configurations tailored to your application, following production best practices.
-
-Will my domain and SSL be configured? +
-
-Yes. We configure an Nginx reverse proxy in front of your containers and issue a free SSL certificate via Let's Encrypt (Certbot).
-
-What do you need from me to get started? +
-
-SSH access to your Linux server, your domain's A record pointed to the server IP, access to your application source code, and any existing environment variables or secrets.
-
-Do you provide remote support? +
-
-Yes. We provide secure remote support for Docker deployments worldwide.
-
 ## Need Docker Deployment Support?
 
 Book a free 15-minute consultation to scope your project.
-
-[Get Support](/contact-us/)
-[View All Support →](/linux-ai-services/)

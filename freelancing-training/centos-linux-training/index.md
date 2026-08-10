@@ -1,21 +1,25 @@
-<!-- Auto-generated Markdown of https://schooloffreelancing.com/freelancing-training/centos-linux-training/ for AI agents (Accept: text/markdown). Source of truth: the HTML page. -->
+---
+title: "CentOS Linux Training | School of Freelancing"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "20-hour, 5-day intensive CentOS Linux Training covering system administration, server security, networking, automation, and troubleshooting. $250."
+---
 
-[Home](/) / [All Training](/freelancing-training/) / CentOS Linux Training
+# CentOS Linux Training | School of Freelancing
 
-# CentOS Linux Training
+Prefer to skip the training and have it done for you? [**Hire us for CentOS
+Linux Support**](/client-support/centos-linux-services/) instead.
 
-This intensive 5-day CentOS training focuses on practical CentOS system administration, server security, networking, automation, and troubleshooting using real-world scenarios you'll actually encounter with clients.
-
-💵 $250
-⏱ 20 Hours
-📅 2 Weeks
-🎯 Guru · Freelancer · Upwork
-
-Prefer to skip the training and have it done for you? [**Hire us for CentOS Linux Support**](/linux-ai-services/centos-linux-services/) instead.
+[TOC]
 
 ## What Is CentOS Linux Training?
 
-CentOS Linux Training is School of Freelancing's 20-hour, instructor-led course built around CentOS Linux, an enterprise-grade Linux server distribution. The training teaches beginners and career-changers practical CentOS system administration, server security, networking, automation, and troubleshooting through real-world scenarios, then prepares them to turn those skills into freelance work.
+CentOS Linux Training is School of Freelancing's 20-hour, instructor-led course
+built around CentOS Linux, an enterprise-grade Linux server distribution. The
+training teaches beginners and career-changers practical CentOS system
+administration, server security, networking, automation, and troubleshooting
+through real-world scenarios, then prepares them to turn those skills into
+freelance work.
 
 ## Key Takeaways
 
@@ -65,20 +69,16 @@ CentOS Linux Training is School of Freelancing's 20-hour, instructor-led course 
 
 ## Who This Is For
 
-This training suits beginners and career-changers who can commit to 20 hours of hands-on, instructor-led training over 5 days, and who meet the
-[system & participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid government-issued ID).
+This training suits beginners and career-changers who can commit to 20 hours of
+hands-on, instructor-led training over 5 days, and who meet the [system &
+participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
+reliable fiber-optic internet, and a valid government-issued ID).
 
 ## Secure Payment Gateways
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to confirm.
-
-[Pay with Wise](https://wise.com/pay/me/mohammadk206?utm_source=request_flow)
-
-[Pay with Bitcoin](bitcoin:13UiGT3tx1K6ntGZWx2QiYTHNG8UYAYgXp)
+Pay the **$250** enrollment fee below, then click **Complete Registration** to
+confirm.
 
 ## Finalize Your Seat
 
 Already paid? Click **Complete Registration** to confirm your enrollment.
-
-[Complete Registration](/register/)
-[Technical Docs](https://github.com/SchoolOfFreelancing/CentOS-Linux-Training.git/)

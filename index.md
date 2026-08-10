@@ -1,161 +1,152 @@
 ---
-title: "Linux, AI Freelancing Training & Client Services | SOF"
-description: "Join School Of Freelancing for hands-on Linux and AI training, plus top-notch client support services tailored for freelancers and businesses."
-canonical: https://schooloffreelancing.com/
-og_image: https://schooloffreelancing.com/assets/images/og-home.jpg
-author: School of Freelancing
-founded: 2015-02-02
-founder: Karim (Masum)
-address: "Ward no: 12, North Chortha, Nobab Bari Rd, Cumilla City Corporation, Chattogram, 3500, BD"
-phone: "+8801748973769"
-email: office@schooloffreelancing.com
-intro_video: https://youtu.be/bbJCBn_vUzs
+title: "Linux Training, AI Freelancing & Support Services"
+author: "Karim (Masum)"
+date: 2026-08-10
+description: "Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized Linux support and client services for businesses."
 ---
 
-# Freelancing Training & Services
+# Linux Training, AI Freelancing & Support Services
 
-Linux & AI instructor-led training for freelancers and reliable support services for businesses. Serving clients worldwide since 2015.
+[TOC]
+## What Training Do We Offer?
 
-**5.0★** Reviews · **2015** Founded · **Worldwide** Training & Services
+Live, hands-on, instructor-led Linux & AI training
 
-[Explore Training](https://schooloffreelancing.com/freelancing-training/) · [Hire Services](https://schooloffreelancing.com/client-support/)
+![Linux Freelancing Training](/assets/images/linux.webp)
 
-**Intro video:** [School of Freelancing — Linux Freelancing Training](https://youtu.be/bbJCBn_vUzs)
-Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
+### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/)
 
----
+Become an in-demand Linux system administrator, build a freelance business, and
+win high-paying global clients.
 
-## Freelancing Training
+**FEATURES OF TRAINING:**
 
-On-Demand, Hands-On Training
-
-### Linux Freelancing Training
-Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
-
-- 90 hands-on training modules
-- Online, instructor-led training
+- 90 Hands-on Training Sessions
+- No Pre-Recorded Training Videos
+- Live Online, Instructor-led Training
 - Guaranteed Minimum Income (GMI)*
-- Credential verification support
+- Credential Verification Support
 
-**Training Investment:** Starting at $599 — 180 Training Hours / 6 Months
-[View Modules & Enroll](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/)
+![Hermes Agent Training](/assets/images/hermesagent.webp)
 
-### Hermes Agent Training
-Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
+### [Hermes Agent Training](/freelancing-training/hermes-agent-training/)
 
-- 20 hands-on training modules
-- Online, instructor-led training
+Build an in-demand freelance career as a Hermes AI Agent Engineer and attract
+premium global projects.
+
+**FEATURES OF TRAINING:**
+
+- 20 Hands-on Training Sessions
+- No Pre-Recorded Training Videos
+- Live Online, Instructor-led Training
 - Guaranteed Minimum Income (GMI)*
-- Credential verification support
+- Credential Verification Support
 
-**Training Investment:** Starting at $199 — 20 Training Hours / 2 Weeks
-[View Modules & Enroll](https://schooloffreelancing.com/freelancing-training/hermes-agent-training/)
+![Telnyx SMS API Training](/assets/images/telnyx.webp)
 
-### Telnyx SMS API Training
-Learn Telnyx — the most in-demand messaging skill in the freelance market and attract premium global clients now!
+### [Telnyx SMS API Training](/freelancing-training/telnyx-sms-api-training/)
 
-- 40 hands-on training modules
-- Online, instructor-led training
+Learn Telnyx—the most in-demand messaging skill in the freelance market and
+attract premium global clients now!
+
+**FEATURES OF TRAINING:**
+
+- 30 Hands-on Training Sessions
+- No Pre-Recorded Training Videos
+- Live Online, Instructor-led Training
 - Guaranteed Minimum Income (GMI)*
-- Credential verification support
+- Credential Verification Support
 
-**Training Investment:** Starting at $799 — 40 Training Hours / 1–4 Weeks
-[View Modules & Enroll](https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/)
+| Training Program | Sessions | Duration | Training Investment |
+| --- | --- | --- | --- |
+| [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/) | 90 Sessions | 180 Hours / 6 Months | Starting at $599 |
+| [Hermes Agent Training](/freelancing-training/hermes-agent-training/) | 20 Sessions | 20 Hours / 1 Month | Starting at $199 |
+| [Telnyx SMS API Training](/freelancing-training/telnyx-sms-api-training/) | 30 Sessions | 30 Hours / 1 Month | Starting at $799 |
 
-[View All Training →](https://schooloffreelancing.com/freelancing-training/)
+## What Do Students Say?
 
----
+Definitely one of the best schools to kickstart your freelancing career. The
+expertise they share is of global quality, keeping students up to date with the
+latest technology trends.
 
-## Verified Rating
+One of the best institutes for freelancers in Bangladesh, even the world. The
+instructor was very knowledgeable and helpful, explaining complicated ideas in a
+way that was simple to understand.
 
-5/5 Rated on Google Reviews
+School Of Freelancing is the best place for Linux freelancing. I learned and
+earned my first income working with this school. Highly recommended.
 
-> ★★★★★ "Definitely one of the best schools to kickstart your freelancing career. The expertise they share is of global quality, keeping students up to date with the latest technology trends."
-> — Verified Student, Google Review
-
-> ★★★★★ "One of the best institutes for freelancers in Bangladesh, even the world. The instructor was very knowledgeable and helpful, explaining complicated ideas in a way that was simple to understand."
-> — Verified Student, Google Review
-
-> ★★★★★ "School Of Freelancing is the best place for Linux freelancing. I learned and earned my first income working with this school. Highly recommended."
-> — Verified Student, Google Review
-
-[Read All Reviews →](https://schooloffreelancing.com/resource-center/testimonials/)
-
----
-
-## Client Support
+## What Services Do We Provide?
 
 Fast global support—always on
 
-### DigitalOcean Cloud Support
-DigitalOcean Cloud Support for Linux Servers, AI, Kubernetes, VPS, Networking, and Production Automation.
+![DigitalOcean 24/7 Tech Support](/assets/images/digitalocean.webp)
 
-- Launchpad, Inference, and Compute Setup
-- API, Databases, and Networking Support
-- AI Agents, Storage, and Security Support
-- Deploy Production-Ready Apps and Monitor
+### [DigitalOcean Tech Support](/client-support/digitalocean-cloud-services/)
 
-**Service Investment:** Starting at $499 — ETA: 15 Engineering Hours / 3 Days
-[View Services](https://schooloffreelancing.com/client-support/digitalocean-cloud-services/)
+DigitalOcean 24/7 Tech Support for Linux Servers, AI, Kubernetes, VPS,
+Networking, and Production Automation.
 
-### Hummingbot Setup Support
-Can't get Hummingbot running? Get expert help fixing installation, dependency, API, and configuration bugs now.
+**Service Features:**
 
+- 24/7 Emergency Response
+- Full Server Maintenance
+- Automated Backup Management
+- Production-Ready App Deploy & Monitoring
+
+![Hummingbot Setup Support](/assets/images/blackhummingbot.svg)
+
+### [Hummingbot Setup Support](/client-support/hummingbot-installation-services/)
+
+Can't get Hummingbot running? Get expert help fixing installation, dependency,
+API, and configuration bugs now.
+
+**Service Features:**
+
+- 24/7 Emergency Response
 - Setup Hummingbot API & Condor on Tailscale
 - Setup MCP, Client Gateway & Telegram Bot
-- Secure API management & strategy test
-- Post installation support for bug fixing
+- API Integrate, Strategy & Bug Fixing
 
-**Service Investment:** Starting at $999 — ETA: 20 Engineering Hours / 4 Days
-[View Services](https://schooloffreelancing.com/client-support/hummingbot-installation-services/)
+![AI Agent Setup Support](/assets/images/agent.svg)
 
-### Vapi AI Agents Setup
-Vapi.ai support for voice agent build, STT/LLM/TTS integration, telephony, webhooks, function call configs.
+### [AI Agent Setup Support](/client-support/vapi-platform-services/)
 
-- Voice AI agent build & deployment
-- AI prompt & conversation flows
-- Telephony SIP, API & webhook integration
-- Campaign, CRM Integration & test
+AI Agent Setup Support for voice agent build, STT/LLM/TTS integration,
+telephony, webhooks, function call configs.
 
-**Service Investment:** Starting at $569 — Allocation: 30 Engineering Hours / 5 Days
-[View Services](https://schooloffreelancing.com/client-support/vapi-platform-services/)
+**Service Features:**
 
-[View All Services →](https://schooloffreelancing.com/client-support/)
+- 24/7 Emergency Response
+- AI Prompt & Conversation Flows
+- Telephony SIP, API & Webhook Integration
+- Campaign, CRM Integration & Test
 
----
+## How Do You Enroll?
 
-## Footer
+Four steps from inquiry to your first live session
 
-**SCHOOL OF FREELANCING v1.3.5**
+1. Choose a Training Program Browse Linux Freelancing, Hermes Agent, or Telnyx SMS API Training and pick the program that matches your target freelance career.
+2. Submit an Enrollment Inquiry Contact School of Freelancing via the enrollment form, WhatsApp, or Telegram to confirm seat availability and your preferred schedule.
+3. Complete Training Investment Payment Secure your seat by paying the training investment via PayPal, bKash, Wise, or crypto.
+4. Join Your First Live Session Attend your first live, instructor-led session and start building a publicly verifiable GitHub portfolio from day one.
 
-AI-driven Linux training for freelancers and elite service for businesses. Build practical skills, resolve critical issues, and grow with confidence.
+## Frequently Asked Questions
 
-**Community:**
-[GitHub](https://github.com/SchoolOfFreelancing) · [YouTube](https://www.youtube.com/@SchoolOfFreelancing) · [LinkedIn](https://www.linkedin.com/company/schooloffreelancing) · [Facebook](https://www.facebook.com/SchoolOfFreelancing) · [Instagram](https://instagram.com/schooloffreelancing) · [Threads](https://www.threads.com/schooloffreelancing) · [WhatsApp](https://wa.me/8801748973769) · [Telegram](https://t.me/SchoolOfFreelancingTraining) · [X (Twitter)](https://x.com/SchoolOfFreelan)
+### What is School of Freelancing and what do you do?
 
-### Freelancing Training
-- [Hermes Agent Training](https://schooloffreelancing.com/freelancing-training/hermes-agent-training/)
-- [Telnyx SMS API Training](https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/)
-- [FusionPBX VoIP Training](https://schooloffreelancing.com/freelancing-training/fusionpbx-training/)
-- [OpenAI Platform Training](https://schooloffreelancing.com/freelancing-training/openai-training/)
-- [Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/)
-- [View All Trainings](https://schooloffreelancing.com/freelancing-training/)
+School of Freelancing provides Linux and AI-related instructor-led training for
+freelancers, and reliable technical client support for businesses.
 
-### Linux & AI Services
-- [Linux Server Services](https://schooloffreelancing.com/client-support/linux-server-services/)
-- [Telnyx SMS API Services](https://schooloffreelancing.com/client-support/telnyx-sms-api-services/)
-- [Odysseus AI Services](https://schooloffreelancing.com/client-support/odysseus-ai-services/)
-- [Goautodial VoIP Services](https://schooloffreelancing.com/client-support/goautodial-voip-services/)
-- [Claude Platform Services](https://schooloffreelancing.com/client-support/claude-ai-platform-services/)
-- [View All Services](https://schooloffreelancing.com/client-support/)
+### What technologies does School of Freelancing teach and support?
 
-### Legal
-- [FAQs](https://schooloffreelancing.com/resource-center/faqs/)
-- [Locations](https://schooloffreelancing.com/locations/)
-- [Refund Policy](https://schooloffreelancing.com/legal/refund-policy/)
-- [Privacy Policy](https://schooloffreelancing.com/legal/privacy-policy/)
-- [Terms & Conditions](https://schooloffreelancing.com/legal/terms-and-conditions/)
-- [Credential Verification](https://schooloffreelancing.com/legal/credential-verification/)
+We teach and support Linux system administration, cloud infrastructure, AI agent
+deployment, VoIP, and bulk SMS API integration, all using free and open-source
+software (FOSS).
 
-© School of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.
-[Sitemap](https://schooloffreelancing.com/sitemap.xml) · [Robots.txt](https://schooloffreelancing.com/robots.txt)
+### What is Guaranteed Minimum Income (GMI)* into any training?
+
+Our Guaranteed Minimum Income (GMI)* applies under two conditions: maintain
+zero-leave attendance throughout the training, and purchase sufficient
+bids/connects on freelance marketplaces to search, apply, and get hired for
+jobs.
