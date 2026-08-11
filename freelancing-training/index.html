@@ -3,7 +3,6 @@
 <head>
 <!-- Basic Meta -->
 <meta charset="UTF-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
 <link rel="icon" href="/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
@@ -45,7 +44,7 @@
 
 
 <!-- Yandex.Metrika counter -->
-<script type="text/javascript">
+<script>
     (function(m,e,t,r,i,k,a){
         m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
         m[i].l=1*new Date();
@@ -55,7 +54,6 @@
 
     ym(111429259, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
 </script>
-<noscript><div><img src="https://mc.yandex.ru/watch/111429259" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
 <!-- /Yandex.Metrika counter -->
 
 <!-- Structured Data / Training Page Schema -->
@@ -99,51 +97,559 @@
       ]
     },
     {
-      "@type": "Course",
-      "@id": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/#course",
-      "name": "Linux Server Freelancing Training",
-      "description": "Become a top-earning freelance Linux Systems Administrator managing production servers and daily package updates.",
-      "url": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/",
-      "educationalLevel": "Advanced",
-      "learningResourceType": "Training",
-      "provider": { 
-        "@type": "EducationalOrganization", 
-        "@id": "https://schooloffreelancing.com/#organization", 
-        "name": "School of Freelancing" 
-      },
-      "hasCourseInstance": { 
-        "@type": "CourseInstance", 
-        "courseMode": "online" 
-      },
-      "offers": {
-        "@type": "Offer",
-        "price": "600.00",
-        "priceCurrency": "USD",
-        "availability": "https://schema.org/InStock"
-      }
-    },
-    {
-      "@type": "AggregateOffer",
-      "@id": "https://schooloffreelancing.com/freelancing-training/#aggregateOffer",
-      "priceCurrency": "USD",
-      "lowPrice": "200",
-      "highPrice": "1100",
-      "offerCount": 25,
-      "offers": [
-        {
-          "@type": "Offer",
-          "name": "Freelancing Training Programs",
-          "price": "200",
-          "priceCurrency": "USD",
-          "availability": "https://schema.org/InStock",
-          "url": "https://schooloffreelancing.com/freelancing-training/"
-        }
-      ],
-      "seller": {
-        "@type": "Organization",
-        "@id": "https://schooloffreelancing.com/#organization"
-      }
-    },
+      "@type": "ItemList",
+      "@id": "https://schooloffreelancing.com/freelancing-training/#courselist",
+      "name": "All Training Programs",
+      "numberOfItems": 21,
+      "itemListElement": [
+            {
+                  "@type": "ListItem",
+                  "position": 1,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Linux Freelancing Training",
+                        "description": "Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "599",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 2,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Hermes Agent Training",
+                        "description": "Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "199",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 3,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Telnyx SMS API Training",
+                        "description": "Learn Telnyx — the most in-demand messaging skill in the freelance market — and attract premium global clients now!",
+                        "url": "https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "799",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 4,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Odysseus: Hands-on Training",
+                        "description": "Learn to set up Odysseus in production — a self-hosted AI workspace for chat, agents, research, documents, email, notes, calendar, and local model workflows.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "189",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 5,
+                  "item": {
+                        "@type": "Course",
+                        "name": "OpenClaw: Hands-on Training",
+                        "description": "Learn to set up OpenClaw in production — a self-hosted gateway connecting chat apps via plugins to autonomous AI coding agents. Then find and apply for freelance jobs on Upwork.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/openclaw-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "269",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/openclaw-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 6,
+                  "item": {
+                        "@type": "Course",
+                        "name": "LocalAI Production Training",
+                        "description": "Learn how to deploy and scale the open-source LocalAI engine. Run LLMs, vision, and voice models with a CPU-optimized, GPU-optional setup on your own infrastructure.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/local-ai-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "185",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/local-ai-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 7,
+                  "item": {
+                        "@type": "Course",
+                        "name": "ZeroClaw Hands-on Training",
+                        "description": "A hands-on training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/zeroclaw-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "250",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/zeroclaw-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 8,
+                  "item": {
+                        "@type": "Course",
+                        "name": "GitLab Hands-on Training",
+                        "description": "Master GitLab production setup, migration, DevSecOps workflows, version control, CI/CD automation, and project management to secure freelance jobs on Upwork.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/gitlab-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "239",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/gitlab-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 9,
+                  "item": {
+                        "@type": "Course",
+                        "name": "GitHub Hands-on Training",
+                        "description": "A hands-on training on GitHub Enterprise Server deployment, Actions CI/CD, migration, and building a profitable freelance service.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/github-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "249",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/github-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 10,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Docker Training",
+                        "description": "Hands-on Docker training covering three production deployments, building a freelance service, and client acquisition.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/docker-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "291",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/docker-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 11,
+                  "item": {
+                        "@type": "Course",
+                        "name": "FusionPBX VoIP Training",
+                        "description": "Hands-on FusionPBX training covering production deployment, advanced configuration, freelance service building, and client acquisition.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/fusionpbx-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "519",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/fusionpbx-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 12,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Goautodial VoIP Training",
+                        "description": "Hands-on Goautodial training covering production deployment, advanced configuration, freelance business building, and client acquisition.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/goautodial-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "549",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/goautodial-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 13,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Call Center Setup Training",
+                        "description": "Deploy a production open-source call center on Linux — FreeSWITCH/FusionPBX, Telnyx &amp; Twilio SIP trunking, IVR menus, call queues, and freelance client acquisition.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/call-center-setup-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "611",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/call-center-setup-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 14,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Ubuntu Linux Training",
+                        "description": "Get Ubuntu Linux Server training in system administration, networking, security hardening, production deployment, and profitable Linux freelancing.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "311",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 15,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Debian Linux Training",
+                        "description": "Debian Linux Server Administration training: SSH hardening, Nginx, SSL, Docker, backups, production deployment, and freelance client acquisition.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/debian-linux-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "319",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/debian-linux-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 16,
+                  "item": {
+                        "@type": "Course",
+                        "name": "CentOS Linux Training",
+                        "description": "CentOS Linux Administration training: networking, security hardening, production deployment, and profitable Linux freelancing.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/centos-linux-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "315",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/centos-linux-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 17,
+                  "item": {
+                        "@type": "Course",
+                        "name": "OpenAI Developer Training",
+                        "description": "OpenAI Developer Training: Build real-world AI applications, then find and apply for freelance jobs on Upwork.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/openai-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "225",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/openai-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 18,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Claude Developer Training",
+                        "description": "Learn to develop Claude-powered applications with the Claude API and best practices, then find and apply for freelance jobs on Upwork.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/claude-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "227",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/claude-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 19,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Twilio Developer Training",
+                        "description": "Learn to build engaging AI-powered communication solutions with Twilio, then find and apply for freelance jobs on Upwork.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "811",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 20,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Jasmin SMS Gateway Training",
+                        "description": "Learn to build a production-ready bulk SMS platform using SMPP/HTTP APIs, Jasmin SMS Gateway, and playSMS for business messaging.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "349",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/"
+                        }
+                  }
+            },
+            {
+                  "@type": "ListItem",
+                  "position": 21,
+                  "item": {
+                        "@type": "Course",
+                        "name": "Bulk SMS Developer Training",
+                        "description": "Learn to deploy a production bulk SMS gateway on Linux with SMPP, REST APIs, bulk queuing, DLR tracking, CSV SMS sending, and freelance client acquisition.",
+                        "url": "https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/",
+                        "provider": {
+                              "@type": "EducationalOrganization",
+                              "@id": "https://schooloffreelancing.com/#organization",
+                              "name": "School of Freelancing"
+                        },
+                        "hasCourseInstance": {
+                              "@type": "CourseInstance",
+                              "courseMode": "online"
+                        },
+                        "offers": {
+                              "@type": "Offer",
+                              "price": "849",
+                              "priceCurrency": "USD",
+                              "availability": "https://schema.org/InStock",
+                              "url": "https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/"
+                        }
+                  }
+            }
+      ]
+},
     {
       "@type": "FAQPage",
       "@id": "https://schooloffreelancing.com/freelancing-training/#faq",
@@ -190,10 +696,10 @@
         },
         {
           "@type": "Question",
-          "name": "Can I pay in installments to join a training program?",
+          "name": "How Do You Enroll?",
           "acceptedAnswer": {
             "@type": "Answer",
-            "text": "No, all training programs require full upfront payment prior to enrollment to secure dedicated mentor resources and efforts."
+            "text": "Four steps from inquiry to your first live session: choose a Freelancing Training Program, submit an Enrollment Inquiry, complete your Training Investment Payment, then join your first live session."
           }
         },
         {
@@ -227,13 +733,14 @@
 
 <!-- Google tag (gtag.js) -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  gtag('js', new Date());
-  gtag('config', 'G-1LNS69YXG5');
-
   // Defer the ~169KB gtag.js payload until the user actually interacts
   // (or a short fallback delay for non-interacting visits/bots), so it
   // doesn't compete with the critical rendering path on first load.
+  window.dataLayer = window.dataLayer || [];
+  function gtag() { dataLayer.push(arguments); }
+  gtag('js', new Date());
+  gtag('config', 'G-1LNS69YXG5');
+
   (function() {
     var loaded = false;
     function loadGtagJs() {
@@ -241,12 +748,13 @@
       loaded = true;
       var s = document.createElement('script');
       s.async = true;
+      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5';
       document.head.appendChild(s);
-      ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
+      ['scroll', 'mousemove', 'keydown', 'touchstart', 'click'].forEach(function(evt) {
         window.removeEventListener(evt, loadGtagJs, { passive: true });
       });
     }
-    ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
+    ['scroll', 'mousemove', 'keydown', 'touchstart', 'click'].forEach(function(evt) {
       window.addEventListener(evt, loadGtagJs, { passive: true, once: true });
     });
     setTimeout(loadGtagJs, 3500);
@@ -322,9 +830,25 @@
     background-color: #f0f0f0 !important;
     color: #0024ED !important;
   }
+  /* Training card titles: single line, 12px, bold */
+  .training-title {
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    font-size: 12px;
+    font-weight: bold;
+  }
+  .training-title .service-link {
+    display: block;
+    min-width: 0;
+  }
+  .training-title span[itemprop="name"] {
+    font-size: 12px;
+    font-weight: bold;
+  }
 </style>
 <!-- Microsoft Clarity -->
-<script type="text/javascript">
+<script>
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
@@ -352,6 +876,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- End Google Tag Manager (noscript) -->
 
+<!-- Yandex.Metrika noscript pixel -->
+<noscript><div><img src="https://mc.yandex.ru/watch/111429259" style="position:absolute; left:-9999px;" alt="" /></div></noscript>
+<!-- End Yandex.Metrika noscript pixel -->
+
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- ===== NAVBAR ===== -->
@@ -361,12 +889,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
-      <li><a href="/freelancing-training/">Freelancing Training</a></li>
-      <li><a href="/client-support/">Client Support</a></li>
-      <li><a href="/resource-center/testimonials/">Testimonials</a></li>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact Us</a></li>
-    </ul>
+            <li><a href="/freelancing-training/">Freelancing Training</a></li>
+            <li><a href="/client-support/">Client Support</a></li>
+            <li><a href="/resource-center/testimonials/">Testimonials</a></li>
+            <li><a href="/about-us/">About Us</a></li>
+            <li><a href="/contact-us/">Contact Us</a></li>
+          </ul>
     <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
       <span></span><span></span><span></span>
     </button>
@@ -429,14 +957,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
           </p>
 
-          <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Linux Training Features:</strong></p>
           <ul class="service-features-list">
             <li>90 Hands-on Training Sessions</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
-                      </ul>
+          </ul>
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
             <div class="price-container">
               <span class="price-label">Training Investment</span>
@@ -458,7 +986,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </article>
 
-      <!-- Hermes Agent Training -->
+      <!-- Hermes Agent Freelancing Training -->
       <article class="training-card" data-reveal data-delay="0" data-category="ai" itemscope itemtype="https://schema.org/Course">
         <meta itemprop="provider" content="School Of Freelancing">
 
@@ -475,7 +1003,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/hermes-agent-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Hermes Agent Training</span>
+              <span itemprop="name">Hermes Agent Freelancing Training</span>
             </a>
           </h3>
 
@@ -483,14 +1011,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
           </p>
 
-     <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+           <p class="training-features-label"><strong>Hermes Agent Training Features:</strong></p>
           <ul class="service-features-list">
-          <li>20 Hands-on Training Sessions</li>
+           <li>20 Hands-on Training Sessions</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
-                    </ul>
+          </ul>
 
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
             <div class="price-container">
@@ -530,22 +1058,21 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/telnyx-sms-api-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Telnyx SMS API Training</span>
+              <span itemprop="name">Telnyx SMS API Freelancing Training</span>
             </a>
           </h3>
 
           <p class="training-desc" itemprop="description">
-          Learn Telnyx—the most in-demand messaging skill in the freelance market and attract premium global clients now!      
+            Learn Telnyx — the most in-demand messaging skill in the freelance market — and attract premium global clients now!
           </p>
-     <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+         <p class="training-features-label"><strong>Telnyx SMS Training Features:</strong></p>
           <ul class="service-features-list">
-        <li>30 Hands-on Training Sessions</li>
+            <li>30 Hands-on Training Sessions</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
-                   </ul>
-                   </ul>
+          </ul>
 
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
             <div class="price-container">
@@ -574,28 +1101,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="40%" height="40%" src="/assets/images/odysseus.webp" alt="Odysseus: Hands-on Training">
+          <img loading="lazy" decoding="async" style="width:40%;height:40%;" src="/assets/images/odysseus.webp" alt="Odysseus: Hands-on Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/odysseus-ai-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Odysseus: Hands-on Training</span>
+              <span itemprop="name">Odysseus: Freelancing Training</span>
             </a>
           </h3>
 
           <p class="training-desc" itemprop="description">
-          Learn to set up Odysseus in production — a self-hosted AI workspace for chat, agents, research, documents, email, notes, calendar, and local model workflows.
+            Set up Odysseus on Linux, optimize AI synergy, and build service portfolios across marketplaces.
           </p>
 
-               <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Odysseus Training Features:</strong></p>
           <ul class="service-features-list">
-         <li>20 Hands-on Training Sessions</li>
+            <li>20 Hands-on Training Sessions</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Service Portfolio Development</li>
             <li>Credential Verification Support</li>
-                   </ul>
           </ul>
 
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
@@ -605,8 +1131,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="189">$189</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">2 Weeks</time>
+                Allocation: 20 Training Hours / <span>2 Weeks</span>
               </span>
             </div>
           </div>
@@ -622,25 +1149,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="35%" src="/assets/images/openclaw.webp" alt="OpenClaw: Hands-on Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:35%;" src="/assets/images/openclaw.webp" alt="OpenClaw: Hands-on Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/openclaw-training/" class="service-link" itemprop="url">
-              <span itemprop="name">OpenClaw: Hands-on Training</span>
+              <span itemprop="name">OpenClaw: Freelancing Training</span>
             </a>
           </h3>
 
           <p class="training-desc" itemprop="description">
-            Learn to set up OpenClaw in production — a self-hosted gateway connecting chat apps via plugins to autonomous AI coding agents. Then find and apply for freelance jobs on Upwork.
+            Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance.
           </p>
 
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>OpenClaw Training Features:</strong></p>
           <ul class="service-features-list">
             <li>25 Hands-on Training Sessions</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
@@ -652,8 +1179,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="269">$269</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 25 Training Hours / <time datetime="P2W">1 Month</time>
+                Allocation: 25 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -669,25 +1197,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="40%" src="/assets/images/localai.svg" alt="LocalAI Production Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:40%;" src="/assets/images/localai.svg" alt="LocalAI Production Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/local-ai-training/" class="service-link" itemprop="url">
-              <span itemprop="name">LocalAI Production Training</span>
+              <span itemprop="name">LocalAI Freelancing Training</span>
             </a>
           </h3>
 
           <p class="training-desc" itemprop="description">
-            Learn how to deploy and scale the open-source LocalAI engine. Run LLMs, vision, and voice models with a CPU-optimized, GPU-optional setup on your own infrastructure.
+           Master LocalAI setup on your own infra. Scale CPU-optimized, GPU-optional LLMs, vision, and voice in production.
           </p>
 
-          <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>LocalAI Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Service Portfolio Development</li>
             <li>Credential Verification Support</li>
           </ul>
@@ -699,8 +1227,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="185">$185</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">2 Weeks</time>
+                Allocation: 20 Training Hours / <span>2 Weeks</span>
               </span>
             </div>
           </div>
@@ -716,25 +1245,25 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="40%" height="35%" src="/assets/images/zeroc.svg" alt="ZeroClaw Hands-on Training" border="0">
+          <img loading="lazy" decoding="async" style="width:40%;height:35%;" src="/assets/images/zeroc.svg" alt="ZeroClaw Hands-on Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/zeroclaw-training/" class="service-link" itemprop="url">
-              <span itemprop="name">ZeroClaw Hands-on Training</span>
+              <span itemprop="name">ZeroClaw Freelancing Training</span>
             </a>
           </h3>
 
           <p class="training-desc" itemprop="description">
-            A hands-on Training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
+            A hands-on training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
           </p>
 
-            <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>ZeroClaw Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
+            <li>Live Online, Instructor-Led Training</li>
             <li>Service Portfolio Development</li>
             <li>Credential Verification Support</li>
           </ul>
@@ -746,8 +1275,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="250">$250</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">2 Weeks</time>
+                Allocation: 20 Training Hours / <span>2 Weeks</span>
               </span>
             </div>
           </div>
@@ -759,17 +1289,17 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </article>
       
       <!-- GitLab Hands-on Training -->
-      <article class="training-card" data-reveal data-delay="0" data-category="devops" id="devopst" itemscope itemtype="https://schema.org/Course">
+      <article class="training-card" data-reveal data-delay="0" data-category="devops" itemscope itemtype="https://schema.org/Course">
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="100%" height="50%" src="/assets/images/gitlab.webp" alt="GitLab Hands-on Training">
+          <img loading="lazy" decoding="async" style="width:100%;height:50%;" src="/assets/images/gitlab.webp" alt="GitLab Hands-on Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/gitlab-training/" class="service-link" itemprop="url">
-              <span itemprop="name">GitLab Hands-on Training</span>
+              <span itemprop="name">GitLab Freelancing Training</span>
             </a>
           </h3>
 
@@ -777,12 +1307,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Master GitLab production setup, migration, DevSecOps workflows, version control, CI/CD automation, and project management to secure freelance jobs on Upwork.
           </p>
 
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>GitLab Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -793,8 +1323,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="239">$239</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -810,13 +1341,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="25%" src="/assets/images/github.webp" alt="GitHub Hands-on Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:25%;" src="/assets/images/github.webp" alt="GitHub Hands-on Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/github-training/" class="service-link" itemprop="url">
-              <span itemprop="name">GitHub Hands-on Training</span>
+              <span itemprop="name">GitHub Freelancing Training</span>
             </a>
           </h3>
 
@@ -824,12 +1355,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             A hands-on training on GitHub Enterprise Server deployment, Actions CI/CD, migration, and building a profitable freelance service.
           </p>
 
-           <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>GitHub Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -840,8 +1371,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="249">$249</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -857,13 +1389,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="30%" height="45%" src="/assets/images/docker.webp" alt="Docker Training">
+          <img loading="lazy" decoding="async" style="width:30%;height:45%;" src="/assets/images/docker.webp" alt="Docker Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/docker-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Docker Training</span>
+              <span itemprop="name">Docker Freelancing Training</span>
             </a>
           </h3>
 
@@ -871,12 +1403,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Hands-on Docker training covering three production deployments, building a freelance service, and client acquisition.
           </p>
 
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Docker Training Features:</strong></p>
           <ul class="service-features-list">
             <li>25 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -887,8 +1419,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="291">$291</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 25 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 25 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -899,18 +1432,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </article>
 
-      <!-- FusionPBX VoIP Training -->
+      <!-- FusionPBX Freelancing Training -->
       <article class="training-card" data-reveal data-delay="100" data-category="voip" itemscope itemtype="https://schema.org/Course">
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="25%" src="/assets/images/fusionpbx.webp" alt="FusionPBX VoIP Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:25%;" src="/assets/images/fusionpbx.webp" alt="FusionPBX VoIP Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/fusionpbx-training/" class="service-link" itemprop="url">
-              <span itemprop="name">FusionPBX VoIP Training</span>
+              <span itemprop="name">FusionPBX Freelancing Training</span>
             </a>
           </h3>
 
@@ -918,12 +1451,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Hands-on FusionPBX training covering production deployment, advanced configuration, freelance service building, and client acquisition.
           </p>
 
-          <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>FusionPBX Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
@@ -933,8 +1466,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="519">$519</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -950,26 +1484,26 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="25%" src="/assets/images/goautodial.webp" alt="Goautodial VoIP Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:25%;" src="/assets/images/goautodial.webp" alt="Goautodial VoIP Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/goautodial-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Goautodial VoIP Training</span>
+              <span itemprop="name">GOautodial Freelancing Training</span>
             </a>
           </h3>
           
-           <p class="training-desc" itemprop="description">
+          <p class="training-desc" itemprop="description">
             Hands-on Goautodial training covering production deployment, advanced configuration, freelance business building, and client acquisition.
           </p>
 
-           <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Goautodial Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -980,8 +1514,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="549">$549</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -997,13 +1532,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="30%" height="45%" src="/assets/images/callcenter.svg" alt="FreeSWITCH logo">
+          <img loading="lazy" decoding="async" style="width:30%;height:45%;" src="/assets/images/callcenter.svg" alt="Call Center Setup Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/call-center-setup-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Call Center Setup Training</span>
+              <span itemprop="name">Call Center Freelancing Training</span>
             </a>
           </h3>
 
@@ -1011,12 +1546,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Deploy a production open-source call center on Linux — FreeSWITCH/FusionPBX, Telnyx &amp; Twilio SIP trunking, IVR menus, call queues, and freelance client acquisition.
           </p>
 
-                  <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Call Center Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -1027,8 +1562,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="611">$611</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1039,18 +1575,18 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </article>
 
-      <!-- Ubuntu Linux Training -->
+      <!-- Ubuntu Freelancing Training -->
       <article class="training-card" data-reveal data-delay="100" data-category="linux" itemscope itemtype="https://schema.org/Course">
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="50%" height="30%" src="/assets/images/ubuntu.svg" alt="Ubuntu Linux Training">
+          <img loading="lazy" decoding="async" style="width:50%;height:30%;" src="/assets/images/ubuntu.svg" alt="Ubuntu Linux Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/ubuntu-linux-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Ubuntu Linux Training</span>
+              <span itemprop="name">Ubuntu Linux Freelancing Training</span>
             </a>
           </h3>
 
@@ -1058,12 +1594,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            Get Ubuntu Linux Server training in system administration, networking, security hardening, production deployment, and profitable Linux freelancing.
           </p>
 
-           <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Ubuntu Linux Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
@@ -1073,8 +1609,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="311">$311</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1090,13 +1627,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="20%" height="50%" src="/assets/images/debian.svg" alt="Debian Linux Training">
+          <img loading="lazy" decoding="async" style="width:20%;height:50%;" src="/assets/images/debian.svg" alt="Debian Linux Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/debian-linux-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Debian Linux Training</span>
+              <span itemprop="name">Debian Linux Freelancing Training</span>
             </a>
           </h3>
 
@@ -1104,12 +1641,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Debian Linux Server Administration training: SSH hardening, Nginx, SSL, Docker, backups, production deployment, and freelance client acquisition.
           </p>
 
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Debian Linux Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -1120,8 +1657,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="319">$319</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1137,13 +1675,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="90%" height="70%" src="/assets/images/centos.svg" alt="CentOS Linux Training">
+          <img loading="lazy" decoding="async" style="width:90%;height:70%;" src="/assets/images/centos.svg" alt="CentOS Linux Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/centos-linux-training/" class="service-link" itemprop="url">
-              <span itemprop="name">CentOS Linux Training</span>
+              <span itemprop="name">CentOS Linux Freelancing Training</span>
             </a>
           </h3>
 
@@ -1151,12 +1689,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             CentOS Linux Administration training: networking, security hardening, production deployment, and profitable Linux freelancing.
           </p>
 
-           <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>CentOS Linux Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -1167,8 +1705,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="315">$315</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1184,13 +1723,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="40%" height="40%" src="/assets/images/openai.webp" alt="OpenAI Developer Training">
+          <img loading="lazy" decoding="async" style="width:40%;height:40%;" src="/assets/images/openai.webp" alt="OpenAI Developer Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/openai-training/" class="service-link" itemprop="url">
-              <span itemprop="name">OpenAI Developer Training</span>
+              <span itemprop="name">OpenAI Freelancing Training</span>
             </a>
           </h3>
 
@@ -1198,12 +1737,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
            OpenAI Developer Training: Build real-world AI applications, then find and apply for freelance jobs on Upwork.
           </p>
 
-          <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>OpenAI Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
           
@@ -1214,8 +1753,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="225">$225</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1231,13 +1771,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="40%" height="40%" src="/assets/images/claudelogo.webp" alt="Claude Developer Training">
+          <img loading="lazy" decoding="async" style="width:40%;height:40%;" src="/assets/images/claudelogo.webp" alt="Claude Developer Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/claude-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Claude Developer Training</span>
+              <span itemprop="name">Claude Freelancing Training</span>
             </a>
           </h3>
 
@@ -1245,12 +1785,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Learn to develop Claude-powered applications with the Claude API and best practices, then find and apply for freelance jobs on Upwork.
           </p>
 
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Claude Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -1261,8 +1801,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="227">$227</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P1M">1 Month</time>
+                Allocation: 20 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1278,27 +1819,27 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="25%" src="/assets/images/twilio.svg" alt="Twilio Developer Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:25%;" src="/assets/images/twilio.svg" alt="Twilio Developer Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/twilio-sms-api-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Twilio Developer Training</span>
+              <span itemprop="name">Twilio Freelancing Training</span>
             </a>
           </h3>
 
           <p class="training-desc" itemprop="description">
             Learn to build engaging AI-powered communication solutions with Twilio, then find and apply for freelance jobs on Upwork.
           </p>
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Twilio Training Features:</strong></p>
           <ul class="service-features-list">
             <li>30 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
-</ul>
+          </ul>
           <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
             <div class="price-container">
               <span class="price-label">Training Investment</span>
@@ -1306,8 +1847,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="811">$811</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 30 Training Hours / <time datetime="P4W">1 Month</time>
+                Allocation: 30 Training Hours / <span>1 Month</span>
               </span>
             </div>
           </div>
@@ -1323,13 +1865,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="25%" src="/assets/images/jasmin.svg" alt="Jasmin SMS Gateway Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:25%;" src="/assets/images/jasmin.svg" alt="Jasmin SMS Gateway Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/jasmin-sms-gateway-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Jasmin SMS Gateway Training</span>
+              <span itemprop="name">Jasmin SMS Gateway Freelancing Training</span>
             </a>
           </h3>
 
@@ -1337,12 +1879,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Learn to build a production-ready bulk SMS platform using SMPP/HTTP APIs, Jasmin SMS Gateway, and playSMS for business messaging.
           </p>
 
-         <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Jasmin SMS Gateway Training Features:</strong></p>
           <ul class="service-features-list">
             <li>20 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -1353,8 +1895,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="349">$349</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 20 Training Hours / <time datetime="P2W">2 Weeks</time>
+                Allocation: 20 Training Hours / <span>2 Weeks</span>
               </span>
             </div>
           </div>
@@ -1370,13 +1913,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <meta itemprop="provider" content="School Of Freelancing">
 
         <div class="training-banner">
-          <img loading="lazy" decoding="async" width="35%" height="25%" src="/assets/images/bulksms.svg" alt="Bulk SMS Developer Training">
+          <img loading="lazy" decoding="async" style="width:35%;height:25%;" src="/assets/images/bulksms.svg" alt="Bulk SMS Developer Training">
         </div>
 
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/bulk-sms-setup-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Bulk SMS Developer Training</span>
+              <span itemprop="name">Bulk SMS Freelancing Training</span>
             </a>
           </h3>
 
@@ -1384,12 +1927,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             Learn to deploy a production bulk SMS gateway on Linux with SMPP, REST APIs, bulk queuing, DLR tracking, CSV SMS sending, and freelance client acquisition.
           </p>
 
-           <p class="training-features-label"><strong>FEATURES OF TRAINING:</strong></p>
+          <p class="training-features-label"><strong>Bulk SMS Freelancing Training Features:</strong></p>
           <ul class="service-features-list">
             <li>25 Comprehensive Modules</li>
             <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-led Training</li>
-             <li>Guaranteed Minimum Income (GMI)*</li>
+            <li>Live Online, Instructor-Led Training</li>
+            <li>Guaranteed Minimum Income (GMI)*</li>
             <li>Credential Verification Support</li>
           </ul>
 
@@ -1400,8 +1943,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                 Starting at <span itemprop="price" content="849">$849</span>
               </strong>
               <meta itemprop="priceCurrency" content="USD">
+              <meta itemprop="priceValidUntil" content="2027-12-31">
               <span class="delivery-time">
-                Allocation: 25 Training Hours / <time datetime="P2W">2 Weeks</time>
+                Allocation: 25 Training Hours / <span>2 Weeks</span>
               </span>
             </div>
           </div>
@@ -1446,7 +1990,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       </div>
        <div class="faq-item">
         <button class="faq-question">How Do You Enroll? <span class="faq-icon">+</span></button>
-        <div class="faq-answer"><div class="faq-answer-inner">Four steps from inquiry to your first live session. Choose a Freelancing Training Program, Submit an Enrollment Inquiry, Complete Training Investment Payment then Join Your First Live Session.</div></div>
+        <div class="faq-answer"><div class="faq-answer-inner">Four steps from inquiry to your first live session: choose a Freelancing Training Program, submit an Enrollment Inquiry, complete your Training Investment Payment, then join your first live session.</div></div>
       </div>
       <div class="faq-item">
         <button class="faq-question">What kind of projects are used in the training pipeline? <span class="faq-icon">+</span></button>
@@ -1464,12 +2008,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </main>
 
 <!-- ===== FOOTER ===== -->
-<footer class="footer footer-glass">
+<footer class="footer">
   <div class="container">
     <div class="footer-grid">
 
         <div class="footer-brand">
-          <p>AI-driven Linux training for freelancers and elite professional support for businesses. Founded 2015 by <strong><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="noopener noreferrer">Karim (Masum)</a></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).</p>
+          <p>AI-driven Linux training for freelancers and elite professional support for businesses. Founded in 2015 by <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).</p>
+    
 
           <aside aria-label="Follow us">
             <p>Community:</p>
@@ -1522,9 +2067,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
             <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
             <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-            <li><a href="/freelancing-training/linux-freelancing-training/">Claude Developer Training</a></li>
+            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
             <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
-            <li><a href="/freelancing-training/">View All Your Trainings</a></li>
+            <li><a href="/freelancing-training/">View All Training</a></li>
           </ul>
         </nav>
 
@@ -1535,10 +2080,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
             <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
             <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
             <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-            <li><a href="/client-support/claude-ai-platform-services/">Ubuntu Linux Support</a></li>
+            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
             <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
-            <li><a href="/client-support/goautodial-voip-services/">Goautodial VoIP Support</a></li>
-            <li><a href="/client-support/" aria-label="View all client support services in footer">View All Your Support</a></li>
+            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
+            <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
           </ul>
         </nav>
 
@@ -1546,12 +2091,12 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <h2><span>Legal</span></h2>
 
           <ul class="footer-links">
-            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
+            <li><a href="/resource-center/faqs/">FAQs</a></li>
             <li><a href="/locations/">Locations</a></li>
             <li><a href="/legal/refund-policy/">Refund Policy</a></li>
             <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
             <li><a href="/resource-center/">Resource Center</a></li>
-            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
+            <li><a href="/legal/terms-and-conditions/">Terms &amp; Conditions</a></li>
             <li><a href="/legal/credential-verification/">Credential Verification</a></li>
           </ul>
         </nav>
@@ -1560,38 +2105,16 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
       <div class="footer-bottom">
         <p>© School of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.</p>
-        <p>Page last updated: <time datetime="2026-08-10">August 10, 2026</time></p>
+        <p>Page last updated: <time datetime="2026-08-11">August 11, 2026</time></p>
         <p><a href="/sitemap.xml">Sitemap</a> · <a href="/robots.txt">Robots.txt</a></p>
       </div>
   </div>
 </footer>
 
 <script src="/assets/js/main.js?v=20260718" defer></script>
-<script>
-// Filter functionality
-document.querySelectorAll('.filter-btn').forEach(btn => {
-  btn.addEventListener('click', () => {
-    document.querySelectorAll('.filter-btn').forEach(b => {
-      b.classList.remove('btn-primary'); b.classList.add('btn-secondary');
-      b.setAttribute('aria-pressed', 'false');
-    });
-    btn.classList.add('btn-primary'); btn.classList.remove('btn-secondary');
-    btn.setAttribute('aria-pressed', 'true');
-    const filter = btn.dataset.filter;
-    document.querySelectorAll('.training-card').forEach(card => {
-      const match = filter === 'all' || card.dataset.category === filter;
-      card.style.display = match ? '' : 'none';
-      if (match) {
-        // cards hidden before their reveal animation fired stay invisible — force them visible
-        card.style.opacity = '1';
-        card.style.transform = 'translateY(0)';
-      }
-    });
-  });
-});
-</script>
 <chat-bubble-snippet
   api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
 ></chat-bubble-snippet>
 
 </body>
+</html>
