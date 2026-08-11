@@ -830,21 +830,23 @@
     background-color: #f0f0f0 !important;
     color: #0024ED !important;
   }
-  /* Training card titles: single line, 12px, bold */
+  /* Training card titles: single line, 13px, bold */
   .training-title {
-    white-space: nowrap;
-    overflow: hidden;
-    text-overflow: ellipsis;
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
   }
   .training-title .service-link {
     display: block;
     min-width: 0;
+    max-width: 100%;
+    overflow: hidden;
+    white-space: nowrap;
+    text-overflow: ellipsis;
   }
   .training-title span[itemprop="name"] {
-    font-size: 12px;
+    font-size: 13px;
     font-weight: bold;
+    white-space: nowrap;
   }
 </style>
 <!-- Microsoft Clarity -->
@@ -1871,7 +1873,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <div class="training-body">
           <h3 class="training-title">
             <a href="/freelancing-training/jasmin-sms-gateway-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Jasmin SMS Gateway Freelancing Training</span>
+              <span itemprop="name" style="font-size:12px;font-weight:bold;">Jasmin SMS Gateway Freelancing Training</span>
             </a>
           </h3>
 
