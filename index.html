@@ -406,10 +406,14 @@
     -webkit-background-clip: text; background-clip: text; -webkit-text-fill-color: transparent; }
 
   /* Fix: nav items compress unevenly toward the right, crowding
-     "Contact Us" against the edge — force an even, fixed gap */
-  .nav-links {
-    display: flex;
-    gap: 1.5rem;
+     "Contact Us" against the edge — force an even, fixed gap.
+     Scoped to desktop/tablet only so it doesn't override the mobile
+     stylesheet's display:none for the off-canvas menu. */
+  @media (min-width: 769px) {
+    .nav-links {
+      display: flex;
+      gap: 1.5rem;
+    }
   }
   .nav-container {
     padding-right: 2rem;
