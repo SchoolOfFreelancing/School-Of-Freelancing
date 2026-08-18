@@ -4,6 +4,7 @@
 <!-- Basic Meta -->
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
 <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
@@ -49,81 +50,603 @@
 <meta name="yandex-verification" content="7a5b0116b50f4d68">
 <meta name="facebook-domain-verification" content="2304476026236470">
 
-<!-- Google tag (gtag.js) -->
+<!-- Google Analytics -->
 <script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){ dataLayer.push(arguments); }
-  gtag('js', new Date());
-  gtag('config', 'G-1LNS69YXG5');
+window.dataLayer = window.dataLayer || [];
+function gtag(){ dataLayer.push(arguments); }
+gtag('js', new Date());
+gtag('config', 'G-1LNS69YXG5');
 
-  (function() {
-    var loaded = false;
-    function loadGtagJs() {
-      if (loaded) return;
-      loaded = true;
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5';
-      document.head.appendChild(s);
-      ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
-        window.removeEventListener(evt, loadGtagJs, { passive: true });
-      });
-    }
+(function() {
+  var loaded = false;
+
+  function loadGtagJs() {
+    if (loaded) return;
+    loaded = true;
+
+    var s = document.createElement('script');
+    s.async = true;
+    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5';
+    document.head.appendChild(s);
+
     ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
-      window.addEventListener(evt, loadGtagJs, { passive: true, once: true });
+      window.removeEventListener(evt, loadGtagJs, { passive: true });
     });
-    setTimeout(loadGtagJs, 3500);
-  })();
+  }
+
+  ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
+    window.addEventListener(evt, loadGtagJs, {
+      passive: true,
+      once: true
+    });
+  });
+
+  setTimeout(loadGtagJs, 3500);
+})();
 </script>
 
-<!-- Preconnect to external domains -->
+<!-- External Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"></noscript>
+
+<link rel="preload"
+      as="style"
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
+
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"
+      media="print"
+      onload="this.media='all'">
+
+<noscript>
+<link rel="stylesheet"
+      href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
+</noscript>
+
 <link rel="stylesheet" href="/assets/css/style.css?v=20260720b">
 <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
 <!-- Microsoft Clarity -->
-<script type="text/javascript">
-    (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-    })(window, document, "clarity", "script", "xpbr03hkw6");
+<script>
+(function(c,l,a,r,i,t,y){
+    c[a]=c[a]||function(){
+      (c[a].q=c[a].q||[]).push(arguments)
+    };
+    t=l.createElement(r);
+    t.async=1;
+    t.src="https://www.clarity.ms/tag/"+i;
+    y=l.getElementsByTagName(r)[0];
+    y.parentNode.insertBefore(t,y);
+})(window, document, "clarity", "script", "xpbr03hkw6");
 </script>
-<!-- End Microsoft Clarity -->
 
 <!-- Google Tag Manager -->
-<script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
-<!-- End Google Tag Manager -->
-<!-- FontAwesome -->
-<script src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-</head>
+<script>
+(function(w,d,s,l,i){
+w[l]=w[l]||[];
+w[l].push({'gtm.start': new Date().getTime(),event:'gtm.js'});
 
+var f=d.getElementsByTagName(s)[0],
+j=d.createElement(s),
+dl=l!='dataLayer'?'&l='+l:'';
+
+j.async=true;
+j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;
+
+f.parentNode.insertBefore(j,f);
+})(window,document,'script','dataLayer','GTM-K52NJCLQ');
+</script>
+
+<!-- FontAwesome -->
+<script src="https://kit.fontawesome.com/2f6f1b0709.js"
+        crossorigin="anonymous"></script>
+
+<style>
+/* =========================================================
+   404 DINO GAME
+   ========================================================= */
+
+.dino-404 {
+  width: 100%;
+  min-height: 720px;
+  padding: 90px 20px 70px;
+  background: #0024ED;
+  color: #fff;
+  text-align: center;
+  overflow: hidden;
+}
+
+.dino-404 h1 {
+  margin: 0 0 10px;
+  font-family: "Orbitron", sans-serif;
+  font-size: clamp(30px, 5vw, 52px);
+  font-weight: 900;
+  letter-spacing: 2px;
+  text-transform: uppercase;
+}
+
+.dino-404 .subtitle {
+  margin: 0 auto 25px;
+  max-width: 700px;
+  color: #d9e2ff;
+  font-family: "Source Code Pro", monospace;
+  font-size: 16px;
+  line-height: 1.7;
+}
+
+/* Game container */
+
+.dino-game {
+  position: relative;
+  width: min(100%, 900px);
+  height: 400px;
+  margin: 30px auto 25px;
+  background: #f7f7f7;
+  border: 4px solid #111;
+  border-radius: 12px;
+  overflow: hidden;
+  box-shadow:
+    0 15px 45px rgba(0, 0, 0, 0.35),
+    inset 0 0 0 2px rgba(255,255,255,0.5);
+  touch-action: manipulation;
+  user-select: none;
+}
+
+/* Sky */
+
+.dino-sky {
+  position: absolute;
+  inset: 0;
+  background:
+    linear-gradient(
+      to bottom,
+      #f7f7f7 0%,
+      #ffffff 65%,
+      #f1f1f1 100%
+    );
+}
+
+/* Clouds */
+
+.cloud {
+  position: absolute;
+  width: 70px;
+  height: 24px;
+  background: #dedede;
+  border-radius: 30px;
+  opacity: 0.75;
+}
+
+.cloud::before,
+.cloud::after {
+  content: "";
+  position: absolute;
+  background: #dedede;
+  border-radius: 50%;
+}
+
+.cloud::before {
+  width: 30px;
+  height: 30px;
+  left: 12px;
+  top: -12px;
+}
+
+.cloud::after {
+  width: 38px;
+  height: 38px;
+  right: 8px;
+  top: -18px;
+}
+
+.cloud-1 {
+  top: 65px;
+  left: 75%;
+  animation: cloudMove 18s linear infinite;
+}
+
+.cloud-2 {
+  top: 125px;
+  left: 40%;
+  transform: scale(0.75);
+  animation: cloudMove 26s linear infinite;
+}
+
+@keyframes cloudMove {
+  from {
+    transform: translateX(100px);
+  }
+
+  to {
+    transform: translateX(-850px);
+  }
+}
+
+/* Score */
+
+.dino-score {
+  position: absolute;
+  top: 18px;
+  right: 22px;
+  z-index: 20;
+  color: #555;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 22px;
+  font-weight: 700;
+  letter-spacing: 2px;
+}
+
+.dino-hi {
+  margin-right: 15px;
+  color: #888;
+}
+
+/* Ground */
+
+.dino-ground {
+  position: absolute;
+  left: 0;
+  bottom: 62px;
+  width: 100%;
+  height: 3px;
+  background: #535353;
+}
+
+.ground-pattern {
+  position: absolute;
+  left: 0;
+  bottom: 45px;
+  width: 100%;
+  height: 10px;
+  background:
+    repeating-linear-gradient(
+      90deg,
+      transparent 0 20px,
+      #777 20px 27px,
+      transparent 27px 60px
+    );
+  animation: groundMove 0.35s linear infinite;
+}
+
+@keyframes groundMove {
+  from {
+    background-position: 0 0;
+  }
+
+  to {
+    background-position: -60px 0;
+  }
+}
+
+/* Dino */
+
+.dino {
+  position: absolute;
+  z-index: 10;
+  left: 75px;
+  bottom: 65px;
+  width: 58px;
+  height: 65px;
+  background: #222;
+  border-radius: 4px 5px 2px 2px;
+  transition: height 0.08s;
+}
+
+/* Dino head */
+
+.dino::before {
+  content: "";
+  position: absolute;
+  width: 45px;
+  height: 39px;
+  right: -15px;
+  top: 0;
+  background: #222;
+  border-radius: 5px 8px 2px 2px;
+}
+
+/* Eye */
+
+.dino::after {
+  content: "";
+  position: absolute;
+  width: 6px;
+  height: 6px;
+  right: -5px;
+  top: 8px;
+  background: #fff;
+  box-shadow: inset -2px 0 0 #111;
+}
+
+/* Legs */
+
+.dino-leg {
+  position: absolute;
+  bottom: -13px;
+  width: 10px;
+  height: 16px;
+  background: #222;
+}
+
+.dino-leg-1 {
+  left: 9px;
+}
+
+.dino-leg-2 {
+  left: 37px;
+}
+
+/* Tail */
+
+.dino-tail {
+  position: absolute;
+  left: -25px;
+  bottom: 10px;
+  width: 35px;
+  height: 10px;
+  background: #222;
+  transform: rotate(-25deg);
+  transform-origin: right center;
+}
+
+/* Dino arm */
+
+.dino-arm {
+  position: absolute;
+  right: -12px;
+  top: 40px;
+  width: 25px;
+  height: 8px;
+  background: #222;
+  transform: rotate(18deg);
+}
+
+/* Jump */
+
+.dino.jumping {
+  animation: none;
+}
+
+/* Duck */
+
+.dino.duck {
+  height: 38px;
+  bottom: 65px;
+}
+
+.dino.duck::before {
+  top: 2px;
+}
+
+.dino.duck .dino-leg {
+  bottom: -10px;
+}
+
+/* Obstacles */
+
+.obstacle {
+  position: absolute;
+  z-index: 8;
+  bottom: 65px;
+  right: -80px;
+  width: 28px;
+  height: 55px;
+  background: #333;
+  border-radius: 3px 3px 0 0;
+}
+
+.obstacle::before,
+.obstacle::after {
+  content: "";
+  position: absolute;
+  background: #333;
+}
+
+.obstacle::before {
+  width: 15px;
+  height: 30px;
+  left: -9px;
+  bottom: 10px;
+}
+
+.obstacle::after {
+  width: 13px;
+  height: 25px;
+  right: -8px;
+  bottom: 20px;
+}
+
+/* Cactus variation */
+
+.obstacle.small {
+  width: 22px;
+  height: 38px;
+}
+
+.obstacle.tall {
+  width: 32px;
+  height: 72px;
+}
+
+/* Game Over */
+
+.game-over {
+  position: absolute;
+  inset: 0;
+  z-index: 50;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  background: rgba(247, 247, 247, 0.94);
+  color: #333;
+  opacity: 0;
+  visibility: hidden;
+  transition: opacity 0.2s ease;
+}
+
+.game-over.show {
+  opacity: 1;
+  visibility: visible;
+}
+
+.game-over h2 {
+  margin: 0 0 8px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 34px;
+  font-weight: 900;
+}
+
+.game-over p {
+  margin: 5px 0 20px;
+  font-family: "Source Code Pro", monospace;
+  color: #555;
+}
+
+.restart-btn {
+  border: 0;
+  padding: 14px 28px;
+  background: #0024ED;
+  color: #fff;
+  border-radius: 30px;
+  font-family: "Orbitron", sans-serif;
+  font-size: 15px;
+  font-weight: 700;
+  cursor: pointer;
+  box-shadow: 0 5px 0 #00158a;
+}
+
+.restart-btn:hover,
+.restart-btn:focus {
+  background: #1739ff;
+}
+
+.restart-btn:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 #00158a;
+}
+
+/* Instructions */
+
+.game-instructions {
+  margin: 0 auto 20px;
+  color: #e0e7ff;
+  font-family: "Share Tech Mono", monospace;
+  font-size: 14px;
+  line-height: 1.7;
+}
+
+.game-instructions strong {
+  color: #fff;
+}
+
+/* Home button */
+
+.dino-home {
+  display: inline-block;
+  margin-top: 15px;
+  padding: 15px 32px;
+  border-radius: 30px;
+  background: #f95801;
+  color: #fff;
+  font-family: "Orbitron", sans-serif;
+  font-size: 16px;
+  font-weight: 700;
+  text-decoration: none;
+  box-shadow: 0 5px 0 #9c1007;
+  transition: 0.2s ease;
+}
+
+.dino-home:hover,
+.dino-home:focus {
+  background: #ff7400;
+  transform: translateY(-2px);
+}
+
+.dino-home:active {
+  transform: translateY(3px);
+  box-shadow: 0 2px 0 #9c1007;
+}
+
+/* Mobile */
+
+@media (max-width: 600px) {
+  .dino-404 {
+    min-height: 650px;
+    padding: 70px 10px 50px;
+  }
+
+  .dino-404 h1 {
+    font-size: 30px;
+  }
+
+  .dino-404 .subtitle {
+    font-size: 14px;
+  }
+
+  .dino-game {
+    height: 330px;
+    border-width: 3px;
+  }
+
+  .dino {
+    left: 45px;
+    transform: scale(0.85);
+    transform-origin: bottom left;
+  }
+
+  .obstacle {
+    transform: scale(0.9);
+    transform-origin: bottom right;
+  }
+
+  .dino-score {
+    top: 12px;
+    right: 12px;
+    font-size: 16px;
+  }
+
+  .game-over h2 {
+    font-size: 27px;
+  }
+}
+
+@media (prefers-reduced-motion: reduce) {
+  .ground-pattern,
+  .cloud {
+    animation: none;
+  }
+}
+</style>
+</head>
 
 <body>
 
 <!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
+<noscript>
+<iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
+height="0"
+width="0"
+style="display:none;visibility:hidden"></iframe>
+</noscript>
 
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
+
+    <a href="/"
+       class="nav-logo"
+       aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
+
+      <div class="logo-icon" aria-hidden="true">
+        <i class="fa-solid fa-house" aria-hidden="true"></i>
+      </div>
+
+      <span>SCHOOL OF FREELANCING</span>
     </a>
+
     <ul class="nav-links" id="nav-links">
       <li><a href="/freelancing-training/">Freelancing Training</a></li>
       <li><a href="/client-support/">Client Support</a></li>
@@ -131,231 +654,705 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li><a href="/about-us/">About Us</a></li>
       <li><a href="/contact-us/">Contact Us</a></li>
     </ul>
-    <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
-      <span></span><span></span><span></span>
+
+    <button class="nav-toggle"
+            aria-label="Toggle mobile menu"
+            aria-expanded="false"
+            aria-controls="nav-links">
+
+      <span></span>
+      <span></span>
+      <span></span>
+
     </button>
+
   </div>
 </nav>
+
 <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
 
 <main id="main">
 
-<!-- ===== BIG BOOM 404 ANIMATION ===== -->
-<style>
-.bl_page404 {
-  width: 100%;
-  padding: 140px 20px 40px;
-  background-color: #0024ED;
-  color: #fff;
-  font-family: "Open Sans", sans-serif;
-  text-align: center;
-}
-.bl_page404 h2 {
-  margin: 0 0 25px;
-  font-size: 30px;
-  font-weight: 400;
-  text-transform: uppercase;
-}
-.bl_page404 p {
-  display: block;
-  margin: 0 auto 25px;
-  max-width: 776px;
-  color: #bcecf2;
-  font-size: 16px;
-  font-weight: 400;
-  line-height: 24px;
-}
-.bl_page404__wrapper {
-  position: relative;
-  width: 100%;
-  margin: 10px auto;
-  max-width: 440px;
-  min-height: 410px;
-}
-.bl_page404__wrapper img {
-  width: 100%;
-}
-.bl_page404__link {
-  display: block;
-  margin: 0 auto;
-  width: 260px;
-  height: 64px;
-  box-shadow: 0 5px 0 #9c1007, inset 0 0 18px rgba(253, 60, 0, 0.75);
-  background-color: #f95801;
-  color: #fff;
-  font-size: 24px;
-  font-weight: 700;
-  line-height: 64px;
-  text-transform: uppercase;
-  text-decoration: none;
-  border-radius: 30px;
-}
-.bl_page404__link:hover,
-.bl_page404__link:focus {
-  background-color: #ff7400;
-}
-.bl_page404__el1 {
-  position: absolute;
-  top: 108px;
-  left: 102px;
-  opacity: 1;
-  animation: el1Move 800ms linear infinite;
-  width: 84px;
-  height: 106px;
-  background: url("/assets/images/404-1.webp") 50% 50% no-repeat;
-  z-index: 2;
-}
-.bl_page404__el2 {
-  position: absolute;
-  top: 92px;
-  left: 136px;
-  opacity: 1;
-  animation: el2Move 800ms linear infinite;
-  width: 184px;
-  height: 106px;
-  background: url("/assets/images/404-2.webp") 50% 50% no-repeat;
-  z-index: 2;
-}
-.bl_page404__el3 {
-  position: absolute;
-  top: 108px;
-  left: 180px;
-  opacity: 1;
-  animation: el3Move 800ms linear infinite;
-  width: 284px;
-  height: 106px;
-  background: url("/assets/images/404-3.webp") 50% 50% no-repeat;
-  z-index: 2;
-}
-@keyframes el1Move {
-  0% { top: 108px; left: 102px; opacity: 1; }
-  100% { top: -10px; left: 22px; opacity: 0; }
-}
-@keyframes el2Move {
-  0% { top: 92px; left: 136px; opacity: 1; }
-  100% { top: -10px; left: 108px; opacity: 0; }
-}
-@keyframes el3Move {
-  0% { top: 108px; left: 180px; opacity: 1; }
-  100% { top: 28px; left: 276px; opacity: 0; }
-}
-</style>
-<section class="bl_page404">
-  <h2>404 Not Found</h2>
-  <p>THE PAGE YOU WERE LOOKING FOR COULD NOT BE FOUND OR NEVER EXISTED!</p>
-  <div class="bl_page404__wrapper">
-    <a class="bl_page404__link" href="/">Go Home</a>
+<!-- =========================================================
+     404 DINO GAME
+     ========================================================= -->
+
+<section class="dino-404" aria-labelledby="error-title">
+
+  <h1 id="error-title">404 Not Found</h1>
+
+  <p class="subtitle">
+    The page you were looking for doesn't exist.
+    While you're here, play the School of Freelancing Dino Game!
+  </p>
+
+  <div
+    class="dino-game"
+    id="dinoGame"
+    tabindex="0"
+    role="application"
+    aria-label="Dinosaur game. Press Space or Arrow Up to jump.">
+
+    <div class="dino-sky"></div>
+
+    <div class="cloud cloud-1"></div>
+    <div class="cloud cloud-2"></div>
+
+    <div class="dino-score">
+      <span class="dino-hi">HI 00000</span>
+      <span id="score">00000</span>
+    </div>
+
+    <!-- Dino -->
+    <div class="dino" id="dino">
+
+      <div class="dino-tail"></div>
+      <div class="dino-arm"></div>
+
+      <div class="dino-leg dino-leg-1"></div>
+      <div class="dino-leg dino-leg-2"></div>
+
+    </div>
+
+    <!-- Ground -->
+    <div class="dino-ground"></div>
+    <div class="ground-pattern"></div>
+
+    <!-- Game Over -->
+    <div class="game-over" id="gameOver">
+
+      <h2>GAME OVER</h2>
+
+      <p>
+        Your score:
+        <strong id="finalScore">00000</strong>
+      </p>
+
+      <button class="restart-btn" id="restartButton">
+        PLAY AGAIN
+      </button>
+
+    </div>
+
   </div>
+
+  <p class="game-instructions">
+    <strong>SPACE / ↑</strong> Jump &nbsp; • &nbsp;
+    <strong>↓</strong> Duck &nbsp; • &nbsp;
+    <strong>Tap</strong> to jump on mobile
+  </p>
+
+  <a class="dino-home" href="/">
+    <i class="fa-solid fa-house" aria-hidden="true"></i>
+    Back to School of Freelancing
+  </a>
+
 </section>
 
 </main>
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer">
+
   <div class="container">
+
     <div class="footer-grid">
 
-        <div class="footer-brand">
-          <p>AI-driven Linux training for freelancers and elite professional support for businesses. Founded in 2015 by <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).</p>
-    
+      <div class="footer-brand">
 
-          <aside aria-label="Follow us">
-            <p>Community:</p>
-
-            <address class="footer-social">
-              <a href="https://github.com/SchoolOfFreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on GitHub">
-                <i class="fa-brands fa-github" aria-hidden="true"></i>
+        <p>
+          AI-driven Linux training for freelancers and elite professional support
+          for businesses. Founded in 2015 by
+          <strong>
+            <cite>
+              <a href="https://www.linkedin.com/in/anythinglinux/"
+                 target="_blank"
+                 rel="author noopener noreferrer">
+                Karim (Masum)
               </a>
+            </cite>
+          </strong>,
+          Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+        </p>
 
-              <a href="https://www.youtube.com/@SchoolOfFreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on YouTube">
-                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-              </a>
+        <aside aria-label="Follow us">
 
-              <a href="https://www.linkedin.com/company/schooloffreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on LinkedIn">
-                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-              </a>
+          <p>Community:</p>
 
-              <a href="https://www.facebook.com/SchoolOfFreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on Facebook">
-                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
-              </a>
+          <address class="footer-social">
 
-              <a href="https://instagram.com/schooloffreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on Instagram">
-                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-              </a>
+            <a href="https://github.com/SchoolOfFreelancing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on GitHub">
+              <i class="fa-brands fa-github" aria-hidden="true"></i>
+            </a>
 
-              <a href="https://www.threads.com/schooloffreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on Threads">
-                <i class="fa-brands fa-threads" aria-hidden="true"></i>
-              </a>
+            <a href="https://www.youtube.com/@SchoolOfFreelancing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on YouTube">
+              <i class="fa-brands fa-youtube" aria-hidden="true"></i>
+            </a>
 
-              <a href="https://wa.me/8801748973769" target="_blank" rel="noopener noreferrer" aria-label="Message School of Freelancing on WhatsApp">
-                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-              </a>
+            <a href="https://www.linkedin.com/company/schooloffreelancing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on LinkedIn">
+              <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
+            </a>
 
-              <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" aria-label="Message School of Freelancing on Telegram">
-                <i class="fa-brands fa-telegram" aria-hidden="true"></i>
-              </a>
+            <a href="https://www.facebook.com/SchoolOfFreelancing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on Facebook">
+              <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
+            </a>
 
-              <a href="https://x.com/SchoolOfFreelan" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on X (Twitter)">
-                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-              </a>
-            </address>
-          </aside>
-        </div>
+            <a href="https://instagram.com/schooloffreelancing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on Instagram">
+              <i class="fa-brands fa-instagram" aria-hidden="true"></i>
+            </a>
 
-        <nav class="footer-col" aria-label="Footer: Freelancing Training">
-          <h2><span>Freelancing Training</span></h2>
+            <a href="https://www.threads.com/schooloffreelancing"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on Threads">
+              <i class="fa-brands fa-threads" aria-hidden="true"></i>
+            </a>
 
-          <ul class="footer-links">
-            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
-            <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
-            <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
-            <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
-            <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
-            <li><a href="/freelancing-training/">View All Training</a></li>
-          </ul>
-        </nav>
+            <a href="https://wa.me/8801748973769"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Message School of Freelancing on WhatsApp">
+              <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
+            </a>
 
-        <nav class="footer-col" aria-label="Footer: Client Support">
-          <h2><span>Client Support</span></h2>
+            <a href="https://t.me/SchoolOfFreelancingTraining"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="Message School of Freelancing on Telegram">
+              <i class="fa-brands fa-telegram" aria-hidden="true"></i>
+            </a>
 
-          <ul class="footer-links">
-            <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
-            <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
-            <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
-            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
-            <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
-          </ul>
-        </nav>
+            <a href="https://x.com/SchoolOfFreelan"
+               target="_blank"
+               rel="noopener noreferrer"
+               aria-label="School of Freelancing on X (Twitter)">
+              <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
+            </a>
 
-        <nav class="footer-col" aria-label="Footer: Legal &amp; Resources">
-          <h2><span>Legal</span></h2>
+          </address>
 
-          <ul class="footer-links">
-            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
-            <li><a href="/locations/">Locations</a></li>
-            <li><a href="/legal/refund-policy/">Refund Policy</a></li>
-            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="/resource-center/">Resource Center</a></li>
-            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
-            <li><a href="/legal/credential-verification/">Credential Verification</a></li>
-          </ul>
-        </nav>
+        </aside>
 
       </div>
 
-      <div class="footer-bottom">
-        <p>© School of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.</p>
-        <p>Page last updated: <time datetime="2026-08-10">August 11, 2026</time></p>
-        <p><a href="/sitemap.xml">Sitemap</a> · <a href="/robots.txt">Robots.txt</a></p>
-      </div>
+      <nav class="footer-col" aria-label="Footer: Freelancing Training">
+
+        <h2><span>Freelancing Training</span></h2>
+
+        <ul class="footer-links">
+          <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
+          <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
+          <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
+          <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
+          <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
+          <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
+          <li><a href="/freelancing-training/">View All Training</a></li>
+        </ul>
+
+      </nav>
+
+      <nav class="footer-col" aria-label="Footer: Client Support">
+
+        <h2><span>Client Support</span></h2>
+
+        <ul class="footer-links">
+          <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
+          <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
+          <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
+          <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
+          <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
+          <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
+          <li><a href="/client-support/">View All Support</a></li>
+        </ul>
+
+      </nav>
+
+      <nav class="footer-col" aria-label="Footer: Legal & Resources">
+
+        <h2><span>Legal</span></h2>
+
+        <ul class="footer-links">
+
+          <li><a href="/resource-center/faqs/">FAQs</a></li>
+          <li><a href="/locations/">Locations</a></li>
+          <li><a href="/legal/refund-policy/">Refund Policy</a></li>
+          <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/resource-center/">Resource Center</a></li>
+          <li><a href="/legal/terms-and-conditions/">Terms & Conditions</a></li>
+          <li><a href="/legal/credential-verification/">Credential Verification</a></li>
+
+        </ul>
+
+      </nav>
+
+    </div>
+
+    <div class="footer-bottom">
+
+      <p>
+        © School of Freelancing. All rights reserved.
+        Built with ❤️ from Bangladesh.
+      </p>
+
+      <p>
+        Page last updated:
+        <time datetime="2026-08-18">August 18, 2026</time>
+      </p>
+
+      <p>
+        <a href="/sitemap.xml">Sitemap</a>
+        ·
+        <a href="/robots.txt">Robots.txt</a>
+      </p>
+
+    </div>
+
   </div>
+
 </footer>
 
 <script src="/assets/js/main.js?v=20260718" defer></script>
 
+<!-- =========================================================
+     DINO GAME JAVASCRIPT
+     ========================================================= -->
+
+<script>
+(function () {
+
+  "use strict";
+
+  const game = document.getElementById("dinoGame");
+  const dino = document.getElementById("dino");
+  const scoreElement = document.getElementById("score");
+  const gameOverScreen = document.getElementById("gameOver");
+  const finalScoreElement = document.getElementById("finalScore");
+  const restartButton = document.getElementById("restartButton");
+
+  let running = true;
+  let score = 0;
+  let highScore = Number(localStorage.getItem("schoolFreelancingDinoHighScore")) || 0;
+
+  let dinoY = 0;
+  let velocityY = 0;
+  let jumping = false;
+  let ducking = false;
+
+  let obstacles = [];
+  let obstacleTimer = 0;
+
+  let lastTime = performance.now();
+
+  let gameSpeed = 6;
+
+  const gravity = 0.75;
+  const jumpStrength = 15;
+
+  const hiScoreElement = document.querySelector(".dino-hi");
+
+  hiScoreElement.textContent =
+    "HI " + String(highScore).padStart(5, "0");
+
+
+  /* =========================================================
+     FORMAT SCORE
+     ========================================================= */
+
+  function formatScore(number) {
+    return String(Math.floor(number)).padStart(5, "0");
+  }
+
+
+  /* =========================================================
+     JUMP
+     ========================================================= */
+
+  function jump() {
+
+    if (!running) {
+      restartGame();
+      return;
+    }
+
+    if (jumping) return;
+
+    jumping = true;
+    velocityY = jumpStrength;
+    dino.classList.add("jumping");
+  }
+
+
+  /* =========================================================
+     DUCK
+     ========================================================= */
+
+  function startDuck() {
+
+    if (!running) return;
+
+    if (!jumping) {
+      ducking = true;
+      dino.classList.add("duck");
+    }
+
+  }
+
+
+  function stopDuck() {
+
+    ducking = false;
+    dino.classList.remove("duck");
+
+  }
+
+
+  /* =========================================================
+     KEYBOARD
+     ========================================================= */
+
+  document.addEventListener("keydown", function (event) {
+
+    if (
+      event.code === "Space" ||
+      event.code === "ArrowUp"
+    ) {
+
+      event.preventDefault();
+      jump();
+
+    }
+
+    if (event.code === "ArrowDown") {
+
+      event.preventDefault();
+      startDuck();
+
+    }
+
+  });
+
+
+  document.addEventListener("keyup", function (event) {
+
+    if (event.code === "ArrowDown") {
+      stopDuck();
+    }
+
+  });
+
+
+  /* =========================================================
+     MOBILE / MOUSE
+     ========================================================= */
+
+  game.addEventListener(
+    "pointerdown",
+    function (event) {
+
+      if (
+        event.target === restartButton ||
+        restartButton.contains(event.target)
+      ) {
+        return;
+      }
+
+      jump();
+
+    },
+    { passive: true }
+  );
+
+
+  /* =========================================================
+     CREATE OBSTACLE
+     ========================================================= */
+
+  function createObstacle() {
+
+    const obstacle = document.createElement("div");
+
+    obstacle.className = "obstacle";
+
+    const random = Math.random();
+
+    if (random < 0.25) {
+      obstacle.classList.add("small");
+    } else if (random > 0.75) {
+      obstacle.classList.add("tall");
+    }
+
+    obstacle.style.right = "-80px";
+
+    game.appendChild(obstacle);
+
+    obstacles.push({
+      element: obstacle,
+      x: game.clientWidth + 80
+    });
+
+  }
+
+
+  /* =========================================================
+     COLLISION
+     ========================================================= */
+
+  function checkCollision(obstacle) {
+
+    const dinoRect = dino.getBoundingClientRect();
+    const obstacleRect = obstacle.element.getBoundingClientRect();
+
+    const padding = 8;
+
+    return !(
+      dinoRect.right - padding < obstacleRect.left ||
+      dinoRect.left + padding > obstacleRect.right ||
+      dinoRect.bottom - padding < obstacleRect.top ||
+      dinoRect.top + padding > obstacleRect.bottom
+    );
+
+  }
+
+
+  /* =========================================================
+     GAME OVER
+     ========================================================= */
+
+  function gameOver() {
+
+    running = false;
+
+    finalScoreElement.textContent = formatScore(score);
+
+    if (score > highScore) {
+
+      highScore = Math.floor(score);
+
+      localStorage.setItem(
+        "schoolFreelancingDinoHighScore",
+        highScore
+      );
+
+      hiScoreElement.textContent =
+        "HI " + formatScore(highScore);
+
+    }
+
+    gameOverScreen.classList.add("show");
+
+  }
+
+
+  /* =========================================================
+     RESTART
+     ========================================================= */
+
+  function restartGame() {
+
+    obstacles.forEach(function (item) {
+
+      if (item.element.parentNode) {
+        item.element.remove();
+      }
+
+    });
+
+    obstacles = [];
+
+    score = 0;
+    gameSpeed = 6;
+
+    obstacleTimer = 0;
+
+    dinoY = 0;
+    velocityY = 0;
+
+    jumping = false;
+    ducking = false;
+
+    dino.classList.remove(
+      "jumping",
+      "duck"
+    );
+
+    gameOverScreen.classList.remove("show");
+
+    scoreElement.textContent = formatScore(0);
+
+    running = true;
+
+    lastTime = performance.now();
+
+  }
+
+
+  restartButton.addEventListener(
+    "click",
+    function (event) {
+
+      event.preventDefault();
+      event.stopPropagation();
+
+      restartGame();
+
+    }
+  );
+
+
+  /* =========================================================
+     GAME LOOP
+     ========================================================= */
+
+  function gameLoop(currentTime) {
+
+    const delta =
+      Math.min(
+        (currentTime - lastTime) / 16.666,
+        2
+      );
+
+    lastTime = currentTime;
+
+    if (running) {
+
+      /* -------------------------
+         Dino physics
+         ------------------------- */
+
+      if (jumping) {
+
+        dinoY += velocityY * delta;
+
+        velocityY -= gravity * delta;
+
+        if (dinoY <= 0) {
+
+          dinoY = 0;
+          velocityY = 0;
+
+          jumping = false;
+
+          dino.classList.remove("jumping");
+
+        }
+
+      }
+
+      dino.style.bottom =
+        (65 + dinoY) + "px";
+
+
+      /* -------------------------
+         Score
+         ------------------------- */
+
+      score += 0.08 * delta;
+
+      scoreElement.textContent =
+        formatScore(score);
+
+
+      /* -------------------------
+         Difficulty
+         ------------------------- */
+
+      gameSpeed =
+        6 + Math.min(score / 100, 8);
+
+
+      /* -------------------------
+         Create obstacles
+         ------------------------- */
+
+      obstacleTimer -= delta;
+
+      if (obstacleTimer <= 0) {
+
+        createObstacle();
+
+        const minimumGap = 70;
+        const randomGap =
+          Math.random() * 90;
+
+        obstacleTimer =
+          minimumGap +
+          randomGap -
+          gameSpeed * 2;
+
+      }
+
+
+      /* -------------------------
+         Move obstacles
+         ------------------------- */
+
+      obstacles.forEach(function (item) {
+
+        item.x -= gameSpeed * delta;
+
+        item.element.style.right =
+          (game.clientWidth - item.x) + "px";
+
+      });
+
+
+      /* -------------------------
+         Collision detection
+         ------------------------- */
+
+      for (let i = obstacles.length - 1; i >= 0; i--) {
+
+        const item = obstacles[i];
+
+        if (checkCollision(item)) {
+
+          gameOver();
+          break;
+
+        }
+
+        if (item.x < -100) {
+
+          if (item.element.parentNode) {
+            item.element.remove();
+          }
+
+          obstacles.splice(i, 1);
+
+        }
+
+      }
+
+    }
+
+    requestAnimationFrame(gameLoop);
+
+  }
+
+
+  /* =========================================================
+     START GAME
+     ========================================================= */
+
+  requestAnimationFrame(gameLoop);
+
+})();
+</script>
+
 </body>
 </html>
-
