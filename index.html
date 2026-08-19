@@ -425,6 +425,42 @@
     display: block;
   }
 
+  /* Hero quick facts: center each label directly below its value and
+     keep the action buttons close to the statistics. */
+  .hero-stats {
+    justify-content: flex-start;
+    column-gap: 48px;
+    row-gap: 10px;
+    margin-top: -12px;
+    transform: translateX(-28px);
+    margin-bottom: 12px;
+  }
+
+  .hero-stats .stat-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: flex-start;
+    text-align: center;
+  }
+
+  .hero-stats .stat-number,
+  .hero-stats .stat-label {
+    width: 100%;
+    text-align: center;
+  }
+
+  .hero-actions {
+    margin-top: 0;
+  }
+
+  @media (max-width: 768px) {
+    .hero-stats {
+      justify-content: center;
+      transform: none;
+    }
+  }
+
   /* Terminal window: deeper shadow + cyan halo (theme shadow value is broken) */
   .terminal-window {
     border-color: rgba(255, 255, 255, 0.18);
@@ -575,6 +611,110 @@
   .faq-item[open] summary::after { content: "−"; }
   .faq-item p { padding-bottom: 16px; margin: 0; color: rgba(255,255,255,0.8); line-height: 1.6; }
   .video-embed { border: 0; }
+</style>
+
+<!-- Comfort & trust pass: readability, hierarchy, consistency.
+     Additive only — does not modify any existing rule above, and touches
+     no text or image content. Purely visual/CSS. -->
+<style>
+  /* Readability: existing body copy sits at fairly low opacity on the deep
+     blue background. Raise contrast toward WCAG AA without changing tone. */
+  .training-desc,
+  .testimonial-text,
+  .faq-item p,
+  .hero-subtitle {
+    color: rgba(255, 255, 255, 0.88);
+  }
+  .service-features-list li {
+    color: rgba(255, 255, 255, 0.82);
+  }
+
+  /* Card title consistency: two training cards had inline 13px overrides
+     while the theme default is larger elsewhere — normalize sizing/weight
+     across every card in #trainings and #services so the grid reads as
+     one consistent system rather than mismatched cards. */
+  #trainings .training-title,
+  #services .training-title {
+    font-size: 1.05rem;
+    font-weight: 700;
+    line-height: 1.35;
+    margin-bottom: 10px;
+  }
+
+  /* Trust signals: make price/ETA and the GMI guarantee line easier to
+     scan at a glance — this is the "can I trust this / what do I get"
+     moment for a first-time visitor. */
+  .training-meta .price-label {
+    letter-spacing: 0.02em;
+    opacity: 0.75;
+  }
+  .training-meta .training-price {
+    font-size: 1.15rem;
+  }
+  .training-meta .delivery-time {
+    display: inline-flex;
+    align-items: center;
+    gap: 6px;
+    margin-top: 4px;
+    color: rgba(0, 255, 225, 0.85);
+    font-size: 0.82rem;
+  }
+  /* Rating strip: nudge it into a slightly stronger visual anchor since it
+     carries the aggregate-rating trust signal (5.0★, 36 reviews). */
+  .rating-strip {
+    box-shadow: var(--shadow-card), 0 0 24px rgba(0, 255, 225, 0.06);
+  }
+
+  /* Section rhythm: normalize vertical spacing so FAQ/footer don't feel
+     cramped relative to the more generously spaced hero/trainings blocks. */
+  .faq-section {
+    padding-top: 60px;
+    padding-bottom: 60px;
+  }
+  .footer {
+    padding-top: 56px;
+  }
+
+  /* Consistent, calmer focus states across every interactive element —
+     extends the existing cyan focus-visible pattern used on the video
+     facade to links, buttons, and the FAQ disclosure triggers. */
+  a:focus-visible,
+  button:focus-visible,
+  .faq-item summary:focus-visible {
+    outline: 3px solid #00ffe1;
+    outline-offset: 2px;
+    border-radius: 4px;
+  }
+
+  /* Testimonial and training cards: slightly softer, more even internal
+     spacing so long descriptions don't crowd the price/CTA area. */
+  .training-card .training-body {
+    display: flex;
+    flex-direction: column;
+    gap: 4px;
+  }
+  .training-card .btn-block {
+    margin-top: 14px;
+  }
+
+  /* Reduced-motion: respect users who've asked for less animation —
+     the hover lift/scale/glow effects above are otherwise unconditional. */
+  @media (prefers-reduced-motion: reduce) {
+    #trainings .training-card,
+    #services .training-card,
+    .training-banner img,
+    .video-facade img,
+    .video-facade .play-icon {
+      transition: none !important;
+    }
+    #trainings .training-card:hover,
+    #services .training-card:hover {
+      transform: none;
+    }
+    .training-card:hover .training-banner img {
+      transform: none;
+    }
+  }
 </style>
 
 <!-- Analytics (GTM + Clarity), gated strictly on Secure Privacy consent. FIX: removed a duplicate direct gtag('config',...) call that double-fired page_view alongside GTM's own GA4 tag — GA4 is configured inside GTM-K52NJCLQ, don't re-add the config call here. -->
@@ -752,7 +892,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
 
         <div class="training-body">
-          <h3 class="training-title">
+          <h3 class="training-title" style="font-size: 13px; font-weight: bold;">
             <a href="/freelancing-training/linux-freelancing-training/" class="service-link" itemprop="url">
               <span itemprop="name">Linux Freelancing Training</span>
             </a>
@@ -1236,7 +1376,7 @@ Can't get Hummingbot running? Get expert help fixing installation, dependency, A
           <h2><span>Freelancing Training</span></h2>
 
           <ul class="footer-links">
-            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Freelancing Training</a></li>
+            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
             <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
             <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
             <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
