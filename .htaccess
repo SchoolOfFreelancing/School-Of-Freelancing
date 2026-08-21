@@ -114,7 +114,7 @@ RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
     # https://developer.chrome.com/origintrials/#/view_trial/4163014905550602241
     # --------------------------------------------------------
 
-  Header always set Origin-Trial "AjBt18ONfDupOHO+pn5N5FzfefWof5r231ixB2m2fG7gCQ94DyFVs2b7zYhUpWWNkH3r/xud7NgDh4CzH2C3fAsAAAByeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZWxhbmNpbmcuY29tOjQ0MyIsImZlYXR1cmUiOiJJbnN0YWxsRWxlbWVudCIsImV4cGlyeSI6MTc5MTI0NDgwMCwiaXNTdWJkb21haW4iOnRydWV9"
+  Header always set Origin-Trial "AjBt18ONfDupOHO+pn5N5FzfefWof5r231ixB2m2fG7gCQ94DyFVs2b7zYhUpWWNkH3r/xud7NgDh4CzH2C3fAsAAAByeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZMyIsImZlYXR1cmUiOiJJbnN0YWxsRWxlbWVudCIsImV4cGlyeSI6MTc5MTI0NDgwMCwiaXNTdWJkb21haW4iOnRydWV9"
     # --------------------------------------------------------
     # Static assets
     # One-year browser cache
