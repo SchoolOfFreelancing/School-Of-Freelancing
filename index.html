@@ -1,373 +1,67 @@
-<!DOCTYPE html>
-<html lang="en-US">
+<!doctypehtml>
+<html lang=en-US>
 <head>
-<meta charset="utf-8">
-<meta http-equiv="x-ua-compatible" content="ie=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
-<title>Linux, AI Freelancing Training &amp; Support</title>
-<link rel="canonical" href="https://schooloffreelancing.com/">
-<meta name="description" content="Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.">
-<meta name="author" content="Karim (Masum), School of Freelancing">
-<meta name="googlebot" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
-<meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
-<meta name="referrer" content="strict-origin-when-cross-origin">
-
-<!-- Mobile & Accessibility -->
-<meta name="theme-color" content="#0024ED">
-<meta name="apple-mobile-web-app-capable" content="yes">
-<meta name="apple-mobile-web-app-status-bar-style" content="default">
-<link rel="alternate" href="https://schooloffreelancing.com/">
-
-<!-- FontAwsome -->
-<script src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-
-<!-- Favicon -->
-<link rel="icon" href="/favicon.ico" sizes="any">
-<link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
-<link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
-<link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
-<link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-chrome-192x192.png">
-<link rel="manifest" href="/site.webmanifest">
-
-<!-- Verification Tags -->
-<meta name="google-site-verification" content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw">
-<meta name="msvalidate.01" content="C18D42C136729AADD540EB2FE7763E57">
-<meta name="yandex-verification" content="7a5b0116b50f4d68">
-<meta name="facebook-domain-verification" content="2304476026236470">
-
-<!-- Open Graph / Facebook (domain now matches the canonical + JSON-LD host everywhere: schooloffreelancing.com) -->
-<meta property="og:type" content="website">
-<meta property="og:url" content="https://schooloffreelancing.com/">
-<meta property="og:title" content="School of Freelancing">
-<meta property="og:description" content="Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.">
-<meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
-<meta property="article:published_time" content="2015-02-02T00:00:00+06:00">
-<meta property="article:modified_time" content="2026-08-10T00:00:00+06:00">
-<meta property="og:image:width" content="1200">
-<meta property="og:image:height" content="630">
-<meta property="og:image:type" content="image/jpeg">
-<meta property="og:image:alt" content="Linux Freelancing Training and Support | School of Freelancing">
-<meta property="og:locale" content="en_US">
-<meta property="og:site_name" content="School of Freelancing">
-
-<!-- Twitter Card -->
-<meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:url" content="https://schooloffreelancing.com/">
-<meta name="twitter:title" content="School of Freelancing">
-<meta name="twitter:description" content="Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.">
-<meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
-<meta name="twitter:creator" content="@SchoolOfFreelan">
-
-<!-- Yandex.Metrika counter -->
-<script>
-    (function(m,e,t,r,i,k,a){
-        m[i]=m[i]||function(){(m[i].a=m[i].a||[]).push(arguments)};
-        m[i].l=1*new Date();
-        for (var j = 0; j < document.scripts.length; j++) {if (document.scripts[j].src === r) { return; }}
-        k=e.createElement(t),a=e.getElementsByTagName(t)[0],k.async=1,k.src=r,a.parentNode.insertBefore(k,a)
-    })(window, document,'script','https://mc.yandex.ru/metrika/tag.js?id=111429259', 'ym');
-
-    ym(111429259, 'init', {ssr:true, webvisor:true, clickmap:true, ecommerce:"dataLayer", referrer: document.referrer, url: location.href, accurateTrackBounce:true, trackLinks:true});
-</script>
-<!-- /Yandex.Metrika counter -->
-
-<!-- Structured Data / Schema.org -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@graph": [
-    {
-      "@type": ["Organization", "LocalBusiness"],
-      "@id": "https://schooloffreelancing.com/#organization",
-      "name": "School of Freelancing",
-      "alternateName": "School of Freelancing",
-      "url": "https://schooloffreelancing.com/",
-      "logo": {
-        "@type": "ImageObject",
-        "@id": "https://schooloffreelancing.com/#logo",
-        "url": "https://schooloffreelancing.com/assets/images/logo.jpg",
-        "contentUrl": "https://schooloffreelancing.com/assets/images/logo.jpg",
-        "width": 512,
-        "height": 512,
-        "caption": "School of Freelancing logo"
-      },
-      "image": "https://schooloffreelancing.com/assets/images/og-home.jpg",
-      "description": "Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.",
-      "foundingDate": "2015-02-02",
-      "founder": {
-        "@id": "https://schooloffreelancing.com/#person"
-      },
-      "telephone": "+8801748973769",
-      "email": "office@schooloffreelancing.com",
-      "priceRange": "$199 - $999+",
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "telephone": "+8801748973769",
-        "email": "office@schooloffreelancing.com",
-        "contactType": "Customer Service",
-        "areaServed": "Worldwide"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/company/schooloffreelancing",
-        "https://www.facebook.com/SchoolOfFreelancing",
-        "https://www.youtube.com/@SchoolOfFreelancing",
-        "https://x.com/SchoolOfFreelan",
-        "https://www.instagram.com/schooloffreelancing",
-        "https://www.threads.com/@schooloffreelancing",
-        "https://github.com/SchoolOfFreelancing",
-        "https://wa.me/8801748973769",
-        "https://t.me/SchoolOfFreelancingTraining"
-      ],
-      "address": {
-        "@type": "PostalAddress",
-        "postalCode": "3500",
-        "streetAddress": "Ward no: 12, North Chortha, Nobab Bari Rd",
-        "addressLocality": "Cumilla City Corporation",
-        "addressRegion": "Chattogram",
-        "addressCountry": "BD"
-      },
-      "geo": {
-        "@type": "GeoCoordinates",
-        "latitude": "23.1973",
-        "longitude": "91.1729"
-      },
-      "aggregateRating": {
-        "@id": "https://schooloffreelancing.com/#aggregateRating"
-      },
-      "review": [
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Verified Student"
-          },
-          "reviewBody": "Definitely one of the best schools to kickstart your freelancing career. The expertise they share is of global quality, keeping students up to date with the latest technology trends.",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Verified Student"
-          },
-          "reviewBody": "One of the best institutes for freelancers in Bangladesh, even the world. The instructor was very knowledgeable and helpful, explaining complicated ideas in a way that was simple to understand.",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        },
-        {
-          "@type": "Review",
-          "reviewRating": {
-            "@type": "Rating",
-            "ratingValue": "5",
-            "bestRating": "5"
-          },
-          "author": {
-            "@type": "Person",
-            "name": "Verified Student"
-          },
-          "reviewBody": "School of Freelancing is the best place for Linux freelancing. I learned and earned my first income working with this school. Highly recommended.",
-          "publisher": {
-            "@type": "Organization",
-            "name": "Google"
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Person",
-      "@id": "https://schooloffreelancing.com/#person",
-      "name": "Karim (Masum)",
-      "url": "https://schooloffreelancing.com/about-us/",
-      "image": "https://schooloffreelancing.com/assets/images/logo.jpg",
-      "jobTitle": "Founder & Lead Instructor",
-      "description": "Founder and Lead Instructor at School of Freelancing, Senior Linux & Cloud Infrastructure Security Engineer, and Bangladesh Government-Verified Freelancer.",
-      "worksFor": {
-        "@id": "https://schooloffreelancing.com/#organization"
-      },
-      "sameAs": [
-        "https://www.linkedin.com/in/anythinglinux/",
-        "https://github.com/AnythingLinux",
-        "https://www.youtube.com/@SchoolOfFreelancing",
-        "https://x.com/AnythingLinux"
-      ]
-    },
-    {
-      "@type": "WebSite",
-      "@id": "https://schooloffreelancing.com/#website",
-      "url": "https://schooloffreelancing.com/",
-      "name": "School of Freelancing",
-      "description": "Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.",
-      "publisher": {
-        "@id": "https://schooloffreelancing.com/#organization"
-      },
-      "potentialAction": {
-        "@type": "SearchAction",
-        "target": {
-          "@type": "EntryPoint",
-          "urlTemplate": "https://schooloffreelancing.com/freelancing-training/?q={search_term_string}"
-        },
-        "query-input": "required name=search_term_string"
-      }
-    },
-    {
-      "@type": "BreadcrumbList",
-      "@id": "https://schooloffreelancing.com/#breadcrumb",
-      "itemListElement": [
-        {
-          "@type": "ListItem",
-          "position": 1,
-          "name": "School of Freelancing",
-          "item": "https://schooloffreelancing.com/"
-        }
-      ]
-    },
-    {
-      "@type": "WebPage",
-      "@id": "https://schooloffreelancing.com/#webpage",
-      "url": "https://schooloffreelancing.com/",
-      "name": "School of Freelancing | Linux Training, AI Freelancing & Support",
-      "description": "Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.",
-      "datePublished": "2015-02-02",
-      "dateModified": "2026-08-10",
-      "isPartOf": {
-        "@id": "https://schooloffreelancing.com/#website"
-      },
-      "publisher": {
-        "@id": "https://schooloffreelancing.com/#organization"
-      },
-      "author": {
-        "@id": "https://schooloffreelancing.com/#person"
-      },
-      "about": {
-        "@id": "https://schooloffreelancing.com/#organization"
-      },
-      "breadcrumb": {
-        "@id": "https://schooloffreelancing.com/#breadcrumb"
-      },
-      "primaryImageOfPage": {
-        "@id": "https://schooloffreelancing.com/#logo"
-      },
-      "video": {
-        "@id": "https://schooloffreelancing.com/#intro-video"
-      },
-      "mainEntity": {
-        "@id": "https://schooloffreelancing.com/#faq"
-      }
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://schooloffreelancing.com/#faq",
-      "url": "https://schooloffreelancing.com/",
-      "name": "Frequently Asked Questions | School of Freelancing",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is School of Freelancing and what do you do?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "School of Freelancing provides Linux and AI-related instructor-led training for freelancers, and reliable technical client support for businesses."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "What technologies does School of Freelancing teach and support?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "We teach and support Linux system administration, cloud infrastructure, AI agent deployment, VoIP, and bulk SMS API integration, all using free and open-source software (FOSS)."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How does Guaranteed Minimum Income (GMI)* work?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Our Guaranteed Minimum Income (GMI)* applies under two conditions: maintain zero-leave attendance throughout the training, and purchase sufficient bids/connects on freelance marketplaces to search, apply, and get hired for jobs."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "VideoObject",
-      "@id": "https://schooloffreelancing.com/#intro-video",
-      "name": "Linux Freelancing Training | School of Freelancing",
-      "description": "Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients. Explore the Training Pipeline and enroll at schooloffreelancing.com/freelancing-training/linux-freelancing-training. This live, hands-on Linux System Administration program (no pre-recorded videos) prepares you to deliver Linux server, cloud, and DevOps services and work directly with global clients.",
-      "thumbnailUrl": [
-        "https://i.ytimg.com/vi_webp/bbJCBn_vUzs/4x3/1x1/hqdefault.webp",
-        "https://i.ytimg.com/vi_webp/bbJCBn_vUzs/4x3/4x3/hqdefault.webp"
-      ],
-      "uploadDate": "2022-06-13T11:19:11+06:00",
-      "duration": "PT52S",
-      "contentUrl": "https://youtu.be/bbJCBn_vUzs",
-      "embedUrl": "https://www.youtube.com/embed/bbJCBn_vUzs?si=RlGlvzj-xUlgQLBp",
-      "interactionStatistic": {
-        "@type": "InteractionCounter",
-        "interactionType": {
-          "@type": "WatchAction"
-        },
-        "userInteractionCount": 124367
-      },
-      "publisher": {
-        "@id": "https://schooloffreelancing.com/#organization"
-      }
-    },
-    {
-      "@type": "AggregateRating",
-      "@id": "https://schooloffreelancing.com/#aggregateRating",
-      "itemReviewed": {
-        "@id": "https://schooloffreelancing.com/#organization"
-      },
-      "ratingValue": "5.0",
-      "ratingCount": 36,
-      "bestRating": "5",
-      "worstRating": "1",
-      "reviewCount": 36
-    }
-  ]
-}
-</script>
-
-<!-- Consent (Secure Privacy): loads immediately, async/non-blocking, so it can gate all other scripts before tracking runs. -->
-<script src="https://app.secureprivacy.ai/script/6a5c2c6d8f68c24d419372cd.js" async></script>
-
-<!-- Preconnect to external domains -->
-<link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link rel="preconnect" href="https://i.ytimg.com">
-<link rel="dns-prefetch" href="https://www.google-analytics.com">
-<link rel="dns-prefetch" href="https://www.googletagmanager.com">
-<link rel="dns-prefetch" href="https://www.clarity.ms">
-
-<!-- Font loading uses display=swap (not optional) to guarantee brand fonts load, trading a brief FOUT. -->
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=swap">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=swap" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=swap"></noscript>
-
-<!-- Preload hero thumbnail (LCP element). WebP only — YouTube's CDN has no JPEG fallback here, but all evergreen browsers support WebP. -->
-<link rel="preload" as="image" href="https://i.ytimg.com/vi_webp/bbJCBn_vUzs/hqdefault.webp" fetchpriority="high">
-
-<!-- Homepage stylesheet: purged/minified, loaded blocking (splitting caused CLS). TODO: fold the "Homepage polish" inline <style> below into this file and bump ?v= once stable. -->
-<link rel="stylesheet" href="/assets/css/style.home.min.css?v=20260802">
-
-<link rel="stylesheet" href="/assets/css/fa-subset.min.css">
-
-<!-- Homepage polish: layered background, glow accents, glass cards -->
+<meta charset=utf-8>
+<meta content="ie=edge"http-equiv=x-ua-compatible>
+<meta content="width=device-width,initial-scale=1,maximum-scale=5"name=viewport>
+<title>Linux, AI Freelancing Training & Support</title>
+<link href=https://schooloffreelancing.com/ rel=canonical>
+<meta content="Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses."name=description>
+<meta content="Karim (Masum), School of Freelancing"name=author>
+<meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1"name=googlebot>
+<meta content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"name=robots>
+<meta content=strict-origin-when-cross-origin name=referrer>
+<meta content=#0024ED name=theme-color>
+<meta content=yes name=apple-mobile-web-app-capable>
+<meta content=default name=apple-mobile-web-app-status-bar-style>
+<script src=https://kit.fontawesome.com/2f6f1b0709.js crossorigin></script>
+<link href=/favicon.ico rel=icon sizes=any>
+<link href=/assets/icons/favicon-32x32.png rel=icon sizes=32x32 type=image/png>
+<link href=/assets/icons/favicon-16x16.png rel=icon sizes=16x16 type=image/png>
+<link href=/assets/icons/apple-touch-icon.png rel=apple-touch-icon sizes=180x180>
+<link href=/assets/icons/android-chrome-192x192.png rel=icon sizes=192x192 type=image/png>
+<link href=/site.webmanifest rel=manifest>
+<meta content=aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw name=google-site-verification>
+<meta content=C18D42C136729AADD540EB2FE7763E57 name=msvalidate.01>
+<meta content=7a5b0116b50f4d68 name=yandex-verification>
+<meta content=2304476026236470 name=facebook-domain-verification>
+<meta content=website property=og:type>
+<meta content=https://schooloffreelancing.com/ property=og:url>
+<meta content="School of Freelancing"property=og:title>
+<meta content="Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses."property=og:description>
+<meta content=https://schooloffreelancing.com/assets/images/og-home.jpg property=og:image>
+<meta content=2015-02-02T00:00:00+06:00 property=article:published_time>
+<meta content=2026-08-10T00:00:00+06:00 property=article:modified_time>
+<meta content=1200 property=og:image:width>
+<meta content=630 property=og:image:height>
+<meta content=image/jpeg property=og:image:type>
+<meta content="Linux Freelancing Training and Support | School of Freelancing"property=og:image:alt>
+<meta content=en_US property=og:locale>
+<meta content="School of Freelancing"property=og:site_name>
+<meta content=summary_large_image name=twitter:card>
+<meta content=https://schooloffreelancing.com/ name=twitter:url>
+<meta content="School of Freelancing"name=twitter:title>
+<meta content="Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses."name=twitter:description>
+<meta content=https://schooloffreelancing.com/assets/images/og-home.jpg name=twitter:image>
+<meta content=@SchoolOfFreelan name=twitter:creator>
+<script type=application/ld+json>{"@context":"https://schema.org","@graph":[{"@type":["Organization","LocalBusiness"],"@id":"https://schooloffreelancing.com/#organization","name":"School of Freelancing","alternateName":"School of Freelancing","url":"https://schooloffreelancing.com/","logo":{"@type":"ImageObject","@id":"https://schooloffreelancing.com/#logo","url":"https://schooloffreelancing.com/assets/images/logo.jpg","contentUrl":"https://schooloffreelancing.com/assets/images/logo.jpg","width":512,"height":512,"caption":"School of Freelancing logo"},"image":"https://schooloffreelancing.com/assets/images/og-home.jpg","description":"Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.","foundingDate":"2015-02-02","founder":{"@id":"https://schooloffreelancing.com/#person"},"telephone":"+8801748973769","email":"office@schooloffreelancing.com","priceRange":"$199 - $999+","contactPoint":{"@type":"ContactPoint","telephone":"+8801748973769","email":"office@schooloffreelancing.com","contactType":"Customer Service","areaServed":"Worldwide"},"sameAs":["https://www.linkedin.com/company/schooloffreelancing","https://www.facebook.com/SchoolOfFreelancing","https://www.youtube.com/@SchoolOfFreelancing","https://x.com/SchoolOfFreelan","https://www.instagram.com/schooloffreelancing","https://www.threads.com/@schooloffreelancing","https://github.com/SchoolOfFreelancing","https://wa.me/8801748973769","https://t.me/SchoolOfFreelancingTraining"],"address":{"@type":"PostalAddress","postalCode":"3500","streetAddress":"Ward no: 12, North Chortha, Nobab Bari Rd","addressLocality":"Cumilla City Corporation","addressRegion":"Chattogram","addressCountry":"BD"},"geo":{"@type":"GeoCoordinates","latitude":"23.1973","longitude":"91.1729"},"aggregateRating":{"@id":"https://schooloffreelancing.com/#aggregateRating"},"review":[{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"author":{"@type":"Person","name":"Verified Student"},"reviewBody":"Definitely one of the best schools to kickstart your freelancing career. The expertise they share is of global quality, keeping students up to date with the latest technology trends.","publisher":{"@type":"Organization","name":"Google"}},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"author":{"@type":"Person","name":"Verified Student"},"reviewBody":"One of the best institutes for freelancers in Bangladesh, even the world. The instructor was very knowledgeable and helpful, explaining complicated ideas in a way that was simple to understand.","publisher":{"@type":"Organization","name":"Google"}},{"@type":"Review","reviewRating":{"@type":"Rating","ratingValue":"5","bestRating":"5"},"author":{"@type":"Person","name":"Verified Student"},"reviewBody":"School of Freelancing is the best place for Linux freelancing. I learned and earned my first income working with this school. Highly recommended.","publisher":{"@type":"Organization","name":"Google"}}]},{"@type":"Person","@id":"https://schooloffreelancing.com/#person","name":"Karim (Masum)","url":"https://schooloffreelancing.com/about-us/","image":"https://schooloffreelancing.com/assets/images/logo.jpg","jobTitle":"Founder & Lead Instructor","description":"Founder and Lead Instructor at School of Freelancing, Senior Linux & Cloud Infrastructure Security Engineer, and Bangladesh Government-Verified Freelancer.","worksFor":{"@id":"https://schooloffreelancing.com/#organization"},"sameAs":["https://www.linkedin.com/in/anythinglinux/","https://github.com/AnythingLinux","https://www.youtube.com/@SchoolOfFreelancing","https://x.com/AnythingLinux"]},{"@type":"WebSite","@id":"https://schooloffreelancing.com/#website","url":"https://schooloffreelancing.com/","name":"School of Freelancing","description":"Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.","publisher":{"@id":"https://schooloffreelancing.com/#organization"},"potentialAction":{"@type":"SearchAction","target":{"@type":"EntryPoint","urlTemplate":"https://schooloffreelancing.com/freelancing-training/?q={search_term_string}"},"query-input":"required name=search_term_string"}},{"@type":"BreadcrumbList","@id":"https://schooloffreelancing.com/#breadcrumb","itemListElement":[{"@type":"ListItem","position":1,"name":"School of Freelancing","item":"https://schooloffreelancing.com/"}]},{"@type":"WebPage","@id":"https://schooloffreelancing.com/#webpage","url":"https://schooloffreelancing.com/","name":"School of Freelancing | Linux Training, AI Freelancing & Support","description":"Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses.","datePublished":"2015-02-02","dateModified":"2026-08-10","isPartOf":{"@id":"https://schooloffreelancing.com/#website"},"publisher":{"@id":"https://schooloffreelancing.com/#organization"},"author":{"@id":"https://schooloffreelancing.com/#person"},"about":{"@id":"https://schooloffreelancing.com/#organization"},"breadcrumb":{"@id":"https://schooloffreelancing.com/#breadcrumb"},"primaryImageOfPage":{"@id":"https://schooloffreelancing.com/#logo"},"video":{"@id":"https://schooloffreelancing.com/#intro-video"},"mainEntity":{"@id":"https://schooloffreelancing.com/#faq"}},{"@type":"FAQPage","@id":"https://schooloffreelancing.com/#faq","url":"https://schooloffreelancing.com/","name":"Frequently Asked Questions | School of Freelancing","mainEntity":[{"@type":"Question","name":"What is School of Freelancing and what do you do?","acceptedAnswer":{"@type":"Answer","text":"School of Freelancing provides Linux and AI-related instructor-led training for freelancers, and reliable technical client support for businesses."}},{"@type":"Question","name":"What technologies does School of Freelancing teach and support?","acceptedAnswer":{"@type":"Answer","text":"We teach and support Linux system administration, cloud infrastructure, AI agent deployment, VoIP, and bulk SMS API integration, all using free and open-source software (FOSS)."}},{"@type":"Question","name":"How does Guaranteed Minimum Income (GMI)* work?","acceptedAnswer":{"@type":"Answer","text":"Our Guaranteed Minimum Income (GMI)* applies under two conditions: maintain zero-leave attendance throughout the training, and purchase sufficient bids/connects on freelance marketplaces to search, apply, and get hired for jobs."}}]},{"@type":"VideoObject","@id":"https://schooloffreelancing.com/#intro-video","name":"Linux Freelancing Training | School of Freelancing","description":"Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients. Explore the Training Pipeline and enroll at schooloffreelancing.com/freelancing-training/linux-freelancing-training. This live, hands-on Linux System Administration program (no pre-recorded videos) prepares you to deliver Linux server, cloud, and DevOps services and work directly with global clients.","thumbnailUrl":["https://i.ytimg.com/vi_webp/bbJCBn_vUzs/4x3/1x1/hqdefault.webp","https://i.ytimg.com/vi_webp/bbJCBn_vUzs/4x3/4x3/hqdefault.webp"],"uploadDate":"2022-06-13T11:19:11+06:00","duration":"PT52S","contentUrl":"https://youtu.be/bbJCBn_vUzs","embedUrl":"https://www.youtube.com/embed/bbJCBn_vUzs?si=RlGlvzj-xUlgQLBp","interactionStatistic":{"@type":"InteractionCounter","interactionType":{"@type":"WatchAction"},"userInteractionCount":124367},"publisher":{"@id":"https://schooloffreelancing.com/#organization"}},{"@type":"AggregateRating","@id":"https://schooloffreelancing.com/#aggregateRating","itemReviewed":{"@id":"https://schooloffreelancing.com/#organization"},"ratingValue":"5.0","ratingCount":36,"bestRating":"5","worstRating":"1","reviewCount":36}]}</script>
+<script src=https://app.secureprivacy.ai/script/6a5c2c6d8f68c24d419372cd.js async></script>
+<link href=https://fonts.googleapis.com/ rel=preconnect>
+<link href=https://fonts.gstatic.com/ rel=preconnect crossorigin>
+<link href=https://i.ytimg.com/ rel=preconnect>
+<link href=https://www.google-analytics.com/ rel=dns-prefetch>
+<link href=https://www.googletagmanager.com/ rel=dns-prefetch>
+<link href=https://www.clarity.ms/ rel=dns-prefetch>
+<script>!function(e,r,t,c,n,a,s){e[n]=e[n]||function(){(e[n].a=e[n].a||[]).push(arguments)},e[n].l=1*new Date;for(var i=0;i<document.scripts.length;i++)if(document.scripts[i].src===c)return;a=r.createElement(t),s=r.getElementsByTagName(t)[0],a.async=1,a.src=c,s.parentNode.insertBefore(a,s)}(window,document,"script","https://mc.yandex.ru/metrika/tag.js?id=111809326","ym"),ym(111809326,"init",{ssr:!0,webvisor:!0,clickmap:!0,ecommerce:"dataLayer",referrer:document.referrer,url:location.href,accurateTrackBounce:!0,trackLinks:!0})</script>
+<noscript><div><img alt=""src=https://mc.yandex.ru/watch/111809326 style="position:absolute; left:-9999px;"></div></noscript>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap"rel=preload as=style>
+<link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap"rel=stylesheet media=print onload='this.media="all"'>
+<noscript><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap"rel=stylesheet></noscript>
+<link href=https://i.ytimg.com/vi_webp/bbJCBn_vUzs/hqdefault.webp rel=preload as=image fetchpriority=high>
+<link href="/assets/css/style.home.min.css?v=20260802"rel=stylesheet>
+<link href=/assets/css/fa-subset.min.css rel=stylesheet>
 <style>
-  /* Layered ambient background instead of flat blue */
+/* Layered ambient background instead of flat blue */
   body {
     background:
       radial-gradient(ellipse 70% 55% at 12% -8%, rgba(94, 130, 255, 0.45) 0%, transparent 60%),
@@ -418,7 +112,7 @@
     padding-right: 2rem;
   }
 
-  /* Fix: stat-label (e.g. "Training & Support") collides with the
+  /* Fix: stat-label (e.g. "Training &amp; Support") collides with the
      stat-item's top border divider on wrap — add breathing room above it */
   .hero-stats .stat-label {
     margin-top: 8px;
@@ -612,12 +306,8 @@
   .faq-item p { padding-bottom: 16px; margin: 0; color: rgba(255,255,255,0.8); line-height: 1.6; }
   .video-embed { border: 0; }
 </style>
-
-<!-- Comfort & trust pass: readability, hierarchy, consistency.
-     Additive only — does not modify any existing rule above, and touches
-     no text or image content. Purely visual/CSS. -->
 <style>
-  /* Readability: existing body copy sits at fairly low opacity on the deep
+/* Readability: existing body copy sits at fairly low opacity on the deep
      blue background. Raise contrast toward WCAG AA without changing tone. */
   .training-desc,
   .testimonial-text,
@@ -716,905 +406,514 @@
     }
   }
 </style>
-
-<!-- Analytics (GTM + Clarity), gated strictly on Secure Privacy consent. FIX: removed a duplicate direct gtag('config',...) call that double-fired page_view alongside GTM's own GA4 tag — GA4 is configured inside GTM-K52NJCLQ, don't re-add the config call here. -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-
-  (function () {
-    var analyticsLoaded = false;
-    function loadAnalytics() {
-      if (analyticsLoaded) return;
-      analyticsLoaded = true;
-      // Google Tag Manager
-      (function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-      new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-      j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-      'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-      })(window,document,'script','dataLayer','GTM-K52NJCLQ');
-      // Microsoft Clarity
-      (function(c,l,a,r,i,t,y){
-        c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
-        t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
-        y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
-      })(window, document, "clarity", "script", "xpbr03hkw6");
-    }
-
-    // Returning visitor with an already-saved decision: Secure Privacy
-    // exposes consent state once it's initialized.
-    window.addEventListener('sp_init', function () {
-      try {
-        if (window.sp && typeof window.sp.checkConsent === 'function' &&
-            window.sp.checkConsent('Google_Analytics')) {
-          loadAnalytics();
-        }
-      } catch (e) {}
-    });
-
-    // Fresh decision from the banner itself.
-    window.addEventListener('sp_cookie_banner_save', function (evt) {
-      if (evt && evt.detail === 'accept') loadAnalytics();
-    });
-    window.addEventListener('sp_privacy_banner_save', function (evt) {
-      if (evt && evt.detail === 'accept') loadAnalytics();
-    });
-  })();
-</script>
-<!-- End analytics & tag managers -->
-
+<script>function gtag(){dataLayer.push(arguments)}window.dataLayer=window.dataLayer||[],gtag("js",new Date),function(){var e=!1;function t(){var t,n,a,i,c,o;e||(e=!0,function(e,t,n,a){e[a]=e[a]||[],e[a].push({"gtm.start":(new Date).getTime(),event:"gtm.js"});var i=t.getElementsByTagName(n)[0],c=t.createElement(n);c.async=!0,c.src="https://www.googletagmanager.com/gtm.js?id=GTM-K52NJCLQ",i.parentNode.insertBefore(c,i)}(window,document,"script","dataLayer"),t=window,n=document,i="script",t[a="clarity"]=t[a]||function(){(t[a].q=t[a].q||[]).push(arguments)},(c=n.createElement(i)).async=1,c.src="https://www.clarity.ms/tag/xpbr03hkw6",(o=n.getElementsByTagName(i)[0]).parentNode.insertBefore(c,o))}window.addEventListener("sp_init",function(){try{window.sp&&"function"==typeof window.sp.checkConsent&&window.sp.checkConsent("Google_Analytics")&&t()}catch(e){}}),window.addEventListener("sp_cookie_banner_save",function(e){e&&"accept"===e.detail&&t()}),window.addEventListener("sp_privacy_banner_save",function(e){e&&"accept"===e.detail&&t()})}()</script>
+<link href=/rss.xml rel=alternate type=application/rss+xml title="School of Freelancing RSS Feed">
+<link href=/atom.xml rel=alternate type=application/atom+xml title="School of Freelancing Atom Feed">
 </head>
-
-
 <body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<!-- Yandex.Metrika noscript pixel -->
-<noscript><img src="https://mc.yandex.ru/watch/111429259" style="position:absolute; left:-9999px;" alt="Yandex.Metrika counter"></noscript>
-<!-- End Yandex.Metrika noscript pixel -->
-
-
-
-<a class="skip-link" href="#main">Skip to main content</a>
-
-<!-- Reusable Google "G" mark, referenced via <use> on review cards -->
-<svg width="0" height="0" style="position:absolute" aria-hidden="true" focusable="false">
-  <symbol id="google-g" viewBox="0 0 48 48">
-    <path fill="#FFC107" d="M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z"/>
-    <path fill="#FF3D00" d="M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z"/>
-    <path fill="#4CAF50" d="M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z"/>
-    <path fill="#1976D2" d="M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z"/>
-  </symbol>
+<noscript><iframe height=0 src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"width=0 style=display:none;visibility:hidden></iframe></noscript>
+<noscript><img alt="Yandex.Metrika counter"src=https://mc.yandex.ru/watch/111429259 style="position:absolute; left:-9999px;"></noscript>
+<a href=#main class=skip-link>Skip to main content</a>
+<svg aria-hidden=true focusable=false height=0 style=position:absolute width=0>
+<symbol id=google-g viewBox="0 0 48 48">
+<path d=M43.611,20.083H42V20H24v8h11.303c-1.649,4.657-6.08,8-11.303,8c-6.627,0-12-5.373-12-12c0-6.627,5.373-12,12-12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C12.955,4,4,12.955,4,24c0,11.045,8.955,20,20,20c11.045,0,20-8.955,20-20C44,22.659,43.862,21.35,43.611,20.083z fill=#FFC107 />
+<path d=M6.306,14.691l6.571,4.819C14.655,15.108,18.961,12,24,12c3.059,0,5.842,1.154,7.961,3.039l5.657-5.657C34.046,6.053,29.268,4,24,4C16.318,4,9.656,8.337,6.306,14.691z fill=#FF3D00 />
+<path d=M24,44c5.166,0,9.86-1.977,13.409-5.192l-6.19-5.238C29.211,35.091,26.715,36,24,36c-5.202,0-9.619-3.317-11.283-7.946l-6.522,5.025C9.505,39.556,16.227,44,24,44z fill=#4CAF50 />
+<path d=M43.611,20.083H42V20H24v8h11.303c-0.792,2.237-2.231,4.166-4.087,5.571c0.001-0.001,0.002-0.001,0.003-0.002l6.19,5.238C36.971,39.205,44,34,44,24C44,22.659,43.862,21.35,43.611,20.083z fill=#1976D2 />
+</symbol>
 </svg>
+<nav aria-label="Main navigation"class=navbar>
+<div class=nav-container>
+<a href=/ aria-label="Freelancing Training on Linux & Linux AI Support | School of Freelancing"class=nav-logo>
+<div class=logo-icon aria-hidden=true></div><span>SCHOOL OF FREELANCING</span>
+</a>
+<ul class=nav-links id=nav-links>
+<li><a href=/freelancing-training/>Freelancing Training</a></li>
+<li><a href=/client-support/>Client Support</a></li>
+<li><a href=/resource-center/testimonials/>Testimonials</a></li>
+<li><a href=/about-us/>About Us</a></li>
+<li><a href=/contact-us/>Contact Us</a></li>
+</ul>
+<button aria-label="Toggle mobile menu"class=nav-toggle aria-controls=nav-links aria-expanded=false>
 
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar" aria-label="Main navigation">
-  <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="Freelancing Training on Linux &amp; Linux AI Support | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
-    </a>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="/freelancing-training/">Freelancing Training</a></li>
-      <li><a href="/client-support/">Client Support</a></li>
-      <li><a href="/resource-center/testimonials/">Testimonials</a></li>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact Us</a></li>
-    </ul>
-    <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
+</button>
+</div>
 </nav>
-
-<div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
-
-<main id="main">
-
-<!-- ===== HERO ===== -->
-<header class="hero" aria-label="Hero section">
-  <div class="hero-container">
-    <div class="hero-content">
-      <h1 class="hero-title" data-reveal data-delay="100">Freelancing <span class="highlight">Training &amp; Support</span></h1>
-      <p class="hero-subtitle" id="direct-answer" data-reveal data-delay="200">School of Freelancing provides live Linux, AI-agent, and VoIP training, plus global business tech support. Based in Cumilla, Bangladesh since 2015, it empowers worldwide freelancers and clients via FOSS.</p>
-      <aside class="hero-stats" aria-label="Quick facts" data-reveal data-delay="250">
-        <div class="stat-item">
-          <span class="stat-number">5.0★</span>
-          <span class="stat-label">Reviews</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">2015</span>
-          <span class="stat-label">Founded</span>
-        </div>
-        <div class="stat-item">
-          <span class="stat-number">Worldwide</span>
-          <span class="stat-label">Training &amp; Support</span>
-        </div>
-      </aside>
-      <div class="hero-actions" data-reveal data-delay="300">
-        <a href="/freelancing-training/" class="btn btn-primary btn-lg">Explore Training</a>
-        <a href="/client-support/" class="btn btn-outline btn-lg">Hire Support</a>
-      </div>
-    </div>
-
-    <!-- YouTube click-to-load facade avoids loading the iframe on first paint. FIX: replaced fragile outerHTML/onclick iframe injection (broke under strict CSP) with addEventListener. -->
-    <div class="hero-video">
-      <button
-        type="button"
-        class="video-facade"
-        id="video-facade"
-        aria-label="Play video: School of Freelancing introduction"
-      >
-        <img
-          src="https://i.ytimg.com/vi_webp/bbJCBn_vUzs/hqdefault.webp"
-          alt="School of Freelancing introduction video"
-          loading="eager"
-          fetchpriority="high"
-          decoding="async"
-          width="480"
-          height="270">
-        <span class="play-icon" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
-      </button>
-      <!-- Noscript/crawlable <iframe> fallback for search engines and no-JS clients. -->
-      <noscript>
-        <iframe class="video-embed" src="https://www.youtube.com/embed/bbJCBn_vUzs" title="School of Freelancing introduction" width="480" height="270" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
-      </noscript>
-    </div>
-  </div>
+<div class=nav-overlay aria-hidden=true id=nav-overlay></div>
+<main id=main>
+<header aria-label="Hero section"class=hero>
+<div class=hero-container>
+<div class=hero-content>
+<h1 class=hero-title data-delay=100 data-reveal=data-reveal>Freelancing <span class=highlight>Training & Support</span></h1>
+<p class=hero-subtitle data-delay=200 data-reveal=data-reveal id=direct-answer>School of Freelancing provides live Linux, AI-agent, and VoIP training, plus global business tech support. Based in Cumilla, Bangladesh since 2015, it empowers worldwide freelancers and clients via FOSS.</p>
+<aside aria-label="Quick facts"class=hero-stats data-delay=250 data-reveal=data-reveal>
+<div class=stat-item>
+<span class=stat-number>5.0★</span>
+<span class=stat-label>Reviews</span>
+</div>
+<div class=stat-item>
+<span class=stat-number>2015</span>
+<span class=stat-label>Founded</span>
+</div>
+<div class=stat-item>
+<span class=stat-number>Worldwide</span>
+<span class=stat-label>Training & Support</span>
+</div>
+</aside>
+<div class=hero-actions data-reveal=data-reveal data-delay=300>
+<a href=/freelancing-training/ class="btn btn-primary btn-lg">Explore Training</a>
+<a href=/client-support/ class="btn btn-lg btn-outline">Hire Support</a>
+</div>
+</div>
+<div class=hero-video>
+<button aria-label="Play video: School of Freelancing introduction"class=video-facade id=video-facade type=button>
+<img alt="School of Freelancing introduction video"src=https://i.ytimg.com/vi_webp/bbJCBn_vUzs/hqdefault.webp decoding=async height=270 width=480 fetchpriority=high>
+<span class=play-icon aria-hidden=true></span>
+</button>
+<noscript>
+<iframe height=270 src=https://www.youtube.com/embed/bbJCBn_vUzs width=480 allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"allowfullscreen class=video-embed referrerpolicy=strict-origin-when-cross-origin title="School of Freelancing introduction"></iframe>
+</noscript>
+</div>
+</div>
 </header>
-
-<!-- ===== FEATURED TRAINING ===== -->
-<section id="trainings" class="section no-terminal-prompt" aria-labelledby="trainings-heading">
-
-  <div class="container">
-    <div class="section-header" data-reveal>
-      <h2 class="section-title" id="trainings-heading"><span>What Freelancing Training Do We Offer?</span></h2>
-      <p class="section-subtitle">Live, hands-on, instructor-led Linux &amp; AI training</p>
-    </div>
-    <div class="trainings-grid">
-
-      <!-- Linux Freelancing Training -->
-      <article class="training-card" data-reveal data-delay="0" itemscope itemtype="https://schema.org/Course">
-        <meta itemprop="provider" content="School of Freelancing">
-
-        <div class="training-banner">
-          <img
-            width="120"
-            height="120"
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/linux.webp"
-            alt="Linux Freelancing Training">
-        </div>
-
-        <div class="training-body">
-          <h3 class="training-title" style="font-size: 13px; font-weight: bold;">
-            <a href="/freelancing-training/linux-freelancing-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Linux Freelancing Training</span>
-            </a>
-          </h3>
-
-          <p class="training-desc" itemprop="description">
-            Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
-          </p>
-
-          <p class="training-features-label"><strong>Linux Training Features:</strong></p>
-          <ul class="service-features-list">
-            <li>90 Hands-on Training Sessions</li>
-            <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-Led Training</li>
-            <li>Guaranteed Minimum Income (GMI)*</li>
-            <li>Credential Verification Support</li>
-                      </ul>
-          <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-            <div class="price-container">
-              <span class="price-label">Training Investment</span>
-              <strong class="training-price">
-                Starting at <span itemprop="price" content="599">$599</span>
-              </strong>
-              <meta itemprop="priceCurrency" content="USD">
-              <meta itemprop="priceValidUntil" content="2027-12-31">
-              <meta itemprop="availability" content="https://schema.org/InStock">
-              <span class="delivery-time">
-                Allocation: 180 Training Hours / 6 Months
-              </span>
-            </div>
-          </div>
-
-          <a href="/freelancing-training/linux-freelancing-training/" class="btn btn-primary btn-block" aria-label="View sessions and enroll in Linux Freelancing Training">
-            View Sessions &amp; Enroll
-          </a>
-        </div>
-      </article>
-
-      <!-- Hermes Agent Freelancing Training -->
-      <article class="training-card" data-reveal data-delay="100" itemscope itemtype="https://schema.org/Course">
-        <meta itemprop="provider" content="School of Freelancing">
-
-        <div class="training-banner">
-          <img
-            width="120"
-            height="120"
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/hermesagent.webp"
-            alt="Hermes Agent Freelancing Training">
-        </div>
-
-        <div class="training-body">
-          <h3 class="training-title" style="font-size: 13px;">
-            <a href="/freelancing-training/hermes-agent-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Hermes Agent Freelancing Training</span>
-            </a>
-          </h3>
-
-          <p class="training-desc" itemprop="description">
-            Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
-          </p>
-
-     <p class="training-features-label"><strong>Hermes Agent Freelancing Training Features:</strong></p>
-          <ul class="service-features-list">
-           <li>20 Hands-on Training Sessions</li>
-            <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-Led Training</li>
-            <li>Guaranteed Minimum Income (GMI)*</li>
-            <li>Credential Verification Support</li>
-                    </ul>
-
-          <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-            <div class="price-container">
-              <span class="price-label">Training Investment</span>
-              <strong class="training-price">
-                Starting at <span itemprop="price" content="199">$199</span>
-              </strong>
-              <meta itemprop="priceCurrency" content="USD">
-              <meta itemprop="priceValidUntil" content="2027-12-31">
-              <meta itemprop="availability" content="https://schema.org/InStock">
-              <span class="delivery-time">
-                Allocation: 20 Training Hours / 1 Month
-              </span>
-            </div>
-          </div>
-
-          <a href="/freelancing-training/hermes-agent-training/" class="btn btn-primary btn-block" aria-label="View sessions and enroll in Hermes Agent Freelancing Training">
-            View Sessions &amp; Enroll
-          </a>
-        </div>
-      </article>
-
-      <!-- Telnyx SMS Training -->
-      <article class="training-card" data-reveal data-delay="100" data-category="sms" id="smst" itemscope itemtype="https://schema.org/Course">
-        <meta itemprop="provider" content="School of Freelancing">
-
-        <div class="training-banner">
-          <img
-            width="140"
-            height="100"
-            loading="lazy"
-            decoding="async"
-            src="/assets/images/telnyx.webp"
-            alt="Telnyx SMS API Freelancing Training">
-        </div>
-
-        <div class="training-body">
-          <h3 class="training-title" style="font-size: 13px; font-weight: bold;">
-            <a href="/freelancing-training/telnyx-sms-api-training/" class="service-link" itemprop="url">
-              <span itemprop="name">Telnyx SMS API Freelancing Training</span>
-            </a>
-          </h3>
-
-          <p class="training-desc" itemprop="description">
-          Learn Telnyx—the most in-demand messaging skill in the freelance market and attract premium global clients now!      
-          </p>
-     <p class="training-features-label"><strong>Telnyx SMS Training Features:</strong></p>
-          <ul class="service-features-list">
-            <li>30 Hands-on Training Sessions</li>
-            <li>No Pre-Recorded Training Videos</li>
-            <li>Live Online, Instructor-Led Training</li>
-            <li>Guaranteed Minimum Income (GMI)*</li>
-            <li>Credential Verification Support</li>
-                   </ul>
-
-          <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-            <div class="price-container">
-              <span class="price-label">Training Investment</span>
-              <strong class="training-price">
-                Starting at <span itemprop="price" content="799">$799</span>
-              </strong>
-              <meta itemprop="priceCurrency" content="USD">
-              <meta itemprop="priceValidUntil" content="2027-12-31">
-              <meta itemprop="availability" content="https://schema.org/InStock">
-              <span class="delivery-time">
-                Allocation: 30 Training Hours / 1 Month
-              </span>
-            </div>
-          </div>
-
-          <a href="/freelancing-training/telnyx-sms-api-training/" class="btn btn-primary btn-block" aria-label="View sessions and enroll in Telnyx SMS API Freelancing Training">
-            View Sessions &amp; Enroll
-          </a>
-        </div>
-      </article>
-
-    </div>
-
-    <div class="text-center" style="margin-top:40px;" data-reveal>
-      <a href="/freelancing-training/" class="btn btn-outline btn-lg" aria-label="View all freelancing training programs">View All Training →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== TESTIMONIALS ===== -->
-<section id="testimonials" class="section" aria-labelledby="testimonials-heading">
-  <div class="container">
-    <div class="section-header" data-reveal>
-      <h2 class="section-title" id="testimonials-heading"><span>What Do Students Say?</span></h2>
-      <div class="rating-strip" aria-live="polite">
-        <svg class="google-mark" aria-hidden="true" focusable="false"><use href="#google-g"></use></svg>
-        <span class="stars" id="reviewStars">★★★★★</span>
-        <span class="score" id="reviewScore">5.0</span>
-        <span class="count">Verified Rating on<span class="review-total" data-review-total> <a href="/resource-center/testimonials" target="_self">Google Reviews</a></span></span>
-      </div>
-    </div>
-    <div class="testimonials-grid">
-
-      <div class="testimonial-card" data-reveal data-delay="0">
-        <div class="testimonial-quote">&ldquo;</div>
-        <p class="testimonial-text">Definitely one of the best schools to kickstart your freelancing career. The expertise they share is of global quality, keeping students up to date with the latest technology trends.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-          <div>
-            <div class="author-name">Verified Student</div>
-            <div class="author-role"><span class="stars">★★★★★</span> Google Review</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonial-card" data-reveal data-delay="100">
-        <div class="testimonial-quote">&ldquo;</div>
-        <p class="testimonial-text">One of the best institutes for freelancers in Bangladesh, even the world. The instructor was very knowledgeable and helpful, explaining complicated ideas in a way that was simple to understand.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-          <div>
-            <div class="author-name">Verified Student</div>
-            <div class="author-role"><span class="stars">★★★★★</span> Google Review</div>
-          </div>
-        </div>
-      </div>
-
-      <div class="testimonial-card" data-reveal data-delay="200">
-        <div class="testimonial-quote">&ldquo;</div>
-        <p class="testimonial-text">School of Freelancing is the best place for Linux freelancing. I learned and earned my first income working with this school. Highly recommended.</p>
-        <div class="testimonial-author">
-          <div class="author-avatar"><i class="fa-solid fa-user" aria-hidden="true"></i></div>
-          <div>
-            <div class="author-name">Verified Student</div>
-            <div class="author-role"><span class="stars">★★★★★</span> Google Review</div>
-          </div>
-        </div>
-      </div>
-
-    </div>
-    <div class="text-center" style="margin-top:40px;" data-reveal>
-      <a href="/resource-center/testimonials/" class="btn btn-outline btn-lg" aria-label="Read all verified student reviews">Read All Reviews →</a>
-    </div>
-  </div>
-</section>
-
-<!-- ===== FEATURED SUPPORT ===== -->
-<section id="services" class="section" aria-labelledby="services-heading">
-    <div class="container">
- <div class="section-header" data-reveal>
-      <h2 class="section-title" id="services-heading"><span>What Support Do We Provide?</span></h2>
-      <p class="section-subtitle">Fast global support—always on</p>
-    </div>
-    <div class="trainings-grid">
-
-<!-- DigitalOcean 24/7 Tech Support -->
-<article class="training-card" data-reveal data-delay="0" itemscope itemtype="https://schema.org/Service">
-  <meta itemprop="serviceType" content="DigitalOcean 24/7 Tech Support">
-  <meta itemprop="provider" content="School of Freelancing">
-  <meta itemprop="areaServed" content="Worldwide">
-
-  <div class="training-banner">
-    <img width="140" height="100" loading="lazy" decoding="async" src="/assets/images/digitalocean.webp" alt="DigitalOcean 24/7 Tech Support">
-  </div>
-
-  <div class="training-body">
-    <h3 class="training-title">
-      <a href="/client-support/digitalocean-cloud-services/" class="service-link" itemprop="url">
-        <span itemprop="name">DigitalOcean Tech Support</span>
-      </a>
-    </h3>
-
-    <p class="training-desc" itemprop="description">
-      DigitalOcean 24/7 Tech Support for Linux Servers, AI, Kubernetes, VPS, Networking, and Production Automation.
-    </p>
-
-    <p class="training-features-label"><strong>DigitalOcean Support Features:</strong></p>
-    <ul class="service-features-list">
-      <li>24/7 Emergency Response</li>
-      <li>Full Server Maintenance</li>
-      <li>Production-Ready App Deployment</li>
-            <li>Automated Backup &amp; Monitoring</li>
-    </ul>
-
-    <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-      <div class="price-container">
-        <span class="price-label">Support Investment</span>
-        <strong class="training-price">
-          Starting at <span itemprop="price" content="499">$499</span>
-        </strong>
-        <meta itemprop="priceCurrency" content="USD">
-        <meta itemprop="priceValidUntil" content="2027-12-31">
-        <meta itemprop="availability" content="https://schema.org/InStock">
-        <span class="delivery-time">
-        ETA: 3-4 Business Days
-        </span>
-      </div>
-    </div>
-
-    <a href="/client-support/digitalocean-cloud-services/" class="btn btn-primary btn-block" aria-label="View DigitalOcean Tech Support details">
-      View Support
-    </a>
-  </div>
+<section aria-labelledby=trainings-heading class="section no-terminal-prompt"id=trainings>
+<div class=container>
+<div class=section-header data-reveal=data-reveal>
+<h2 class=section-title id=trainings-heading><span>What Freelancing Training Do We Offer?</span></h2>
+<p class=section-subtitle>Live, hands-on, instructor-led Linux & AI training</p>
+</div>
+<div class=trainings-grid>
+<article class=training-card data-delay=0 data-reveal=data-reveal itemscope itemtype=https://schema.org/Course>
+<meta content="School of Freelancing"itemprop=provider>
+<div class=training-banner>
+<img alt="Linux Freelancing Training"src=/assets/images/linux.webp decoding=async height=120 width=120 loading=lazy>
+</div>
+<div class=training-body>
+<h3 class=training-title style="font-size: 13px; font-weight: bold;">
+<a href=/freelancing-training/linux-freelancing-training/ class=service-link itemprop=url>
+<span itemprop=name>Linux Freelancing Training</span>
+</a>
+</h3>
+<p class=training-desc itemprop=description>
+Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
+</p>
+<p class=training-features-label><strong>Linux Training Features:</strong></p>
+<ul class=service-features-list>
+<li>90 Hands-on Training Sessions</li>
+<li>No Pre-Recorded Training Videos</li>
+<li>Live Online, Instructor-Led Training</li>
+<li>Guaranteed Minimum Income (GMI)*</li>
+<li>Credential Verification Support</li>
+</ul>
+<div class=training-meta itemprop=offers itemscope itemtype=https://schema.org/Offer>
+<div class=price-container>
+<span class=price-label>Training Investment</span>
+<strong class=training-price>
+Starting at <span itemprop=price content=599>$599</span>
+</strong>
+<meta content=USD itemprop=priceCurrency>
+<meta content=2027-12-31 itemprop=priceValidUntil>
+<meta content=https://schema.org/InStock itemprop=availability>
+<span class=delivery-time>
+Allocation: 180 Training Hours / 6 Months
+</span>
+</div>
+</div>
+<a href=/freelancing-training/linux-freelancing-training/ aria-label="View sessions and enroll in Linux Freelancing Training"class="btn btn-primary btn-block">
+View Sessions & Enroll
+</a>
+</div>
 </article>
-
-   <!-- Hummingbot Setup Support -->
-<article class="training-card" data-reveal data-delay="200" itemscope itemtype="https://schema.org/Service">
-  <meta itemprop="serviceType" content="Hummingbot Advanced Trading Deployment Support">
-
-  <div itemprop="provider" itemscope itemtype="https://schema.org/Organization">
-    <meta itemprop="name" content="School of Freelancing">
-    <meta itemprop="url" content="https://schooloffreelancing.com">
-  </div>
-  <meta itemprop="areaServed" content="Worldwide">
-
-  <div class="training-banner">
-    <img
-      width="120"
-      height="120"
-      loading="lazy"
-      decoding="async"
-      src="/assets/images/blackhummingbot.svg"
-      alt="Hummingbot Setup Support">
-  </div>
-
-  <div class="training-body">
-    <h3 class="training-title">
-      <a href="/client-support/hummingbot-installation-services/" class="service-link" itemprop="url">
-        <span itemprop="name">Hummingbot Setup Support</span>
-      </a>
-    </h3>
-
-    <p class="training-desc" itemprop="description">
+<article class=training-card data-delay=100 data-reveal=data-reveal itemscope itemtype=https://schema.org/Course>
+<meta content="School of Freelancing"itemprop=provider>
+<div class=training-banner>
+<img alt="Hermes Agent Freelancing Training"src=/assets/images/hermesagent.webp decoding=async height=120 width=120 loading=lazy>
+</div>
+<div class=training-body>
+<h3 class=training-title style="font-size: 13px;">
+<a href=/freelancing-training/hermes-agent-training/ class=service-link itemprop=url>
+<span itemprop=name>Hermes Agent Freelancing Training</span>
+</a>
+</h3>
+<p class=training-desc itemprop=description>
+Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
+</p>
+<p class=training-features-label><strong>Hermes Agent Freelancing Training Features:</strong></p>
+<ul class=service-features-list>
+<li>20 Hands-on Training Sessions</li>
+<li>No Pre-Recorded Training Videos</li>
+<li>Live Online, Instructor-Led Training</li>
+<li>Guaranteed Minimum Income (GMI)*</li>
+<li>Credential Verification Support</li>
+</ul>
+<div class=training-meta itemprop=offers itemscope itemtype=https://schema.org/Offer>
+<div class=price-container>
+<span class=price-label>Training Investment</span>
+<strong class=training-price>
+Starting at <span itemprop=price content=199>$199</span>
+</strong>
+<meta content=USD itemprop=priceCurrency>
+<meta content=2027-12-31 itemprop=priceValidUntil>
+<meta content=https://schema.org/InStock itemprop=availability>
+<span class=delivery-time>
+Allocation: 20 Training Hours / 1 Month
+</span>
+</div>
+</div>
+<a href=/freelancing-training/hermes-agent-training/ aria-label="View sessions and enroll in Hermes Agent Freelancing Training"class="btn btn-primary btn-block">
+View Sessions & Enroll
+</a>
+</div>
+</article>
+<article class=training-card data-delay=100 data-reveal=data-reveal itemscope itemtype=https://schema.org/Course data-category=sms id=smst>
+<meta content="School of Freelancing"itemprop=provider>
+<div class=training-banner>
+<img alt="Telnyx SMS API Freelancing Training"src=/assets/images/telnyx.webp decoding=async height=100 width=140 loading=lazy>
+</div>
+<div class=training-body>
+<h3 class=training-title style="font-size: 13px; font-weight: bold;">
+<a href=/freelancing-training/telnyx-sms-api-training/ class=service-link itemprop=url>
+<span itemprop=name>Telnyx SMS API Freelancing Training</span>
+</a>
+</h3>
+<p class=training-desc itemprop=description>
+Learn Telnyx—the most in-demand messaging skill in the freelance market and attract premium global clients now!
+</p>
+<p class=training-features-label><strong>Telnyx SMS Training Features:</strong></p>
+<ul class=service-features-list>
+<li>30 Hands-on Training Sessions</li>
+<li>No Pre-Recorded Training Videos</li>
+<li>Live Online, Instructor-Led Training</li>
+<li>Guaranteed Minimum Income (GMI)*</li>
+<li>Credential Verification Support</li>
+</ul>
+<div class=training-meta itemprop=offers itemscope itemtype=https://schema.org/Offer>
+<div class=price-container>
+<span class=price-label>Training Investment</span>
+<strong class=training-price>
+Starting at <span itemprop=price content=799>$799</span>
+</strong>
+<meta content=USD itemprop=priceCurrency>
+<meta content=2027-12-31 itemprop=priceValidUntil>
+<meta content=https://schema.org/InStock itemprop=availability>
+<span class=delivery-time>
+Allocation: 30 Training Hours / 1 Month
+</span>
+</div>
+</div>
+<a href=/freelancing-training/telnyx-sms-api-training/ aria-label="View sessions and enroll in Telnyx SMS API Freelancing Training"class="btn btn-primary btn-block">
+View Sessions & Enroll
+</a>
+</div>
+</article>
+</div>
+<div class=text-center data-reveal=data-reveal style=margin-top:40px;>
+<a href=/freelancing-training/ aria-label="View all freelancing training programs"class="btn btn-lg btn-outline">View All Training →</a>
+</div>
+</div>
+</section>
+<section aria-labelledby=testimonials-heading class=section id=testimonials>
+<div class=container>
+<div class=section-header data-reveal=data-reveal>
+<h2 class=section-title id=testimonials-heading><span>What Do Students Say?</span></h2>
+<div class=rating-strip aria-live=polite>
+<svg aria-hidden=true focusable=false class=google-mark><use href=#google-g></use></svg>
+<span class=stars id=reviewStars>★★★★★</span>
+<span class=score id=reviewScore>5.0</span>
+<span class=count>Verified Rating on<span class=review-total data-review-total=data-review-total> <a href=/resource-center/testimonials target=_self>Google Reviews</a></span></span>
+</div>
+</div>
+<div class=testimonials-grid>
+<div class=testimonial-card data-reveal=data-reveal data-delay=0>
+<div class=testimonial-quote>“</div>
+<p class=testimonial-text>Definitely one of the best schools to kickstart your freelancing career. The expertise they share is of global quality, keeping students up to date with the latest technology trends.</p>
+<div class=testimonial-author>
+<div class=author-avatar></div>
+<div>
+<div class=author-name>Verified Student</div>
+<div class=author-role><span class=stars>★★★★★</span> Google Review</div>
+</div>
+</div>
+</div>
+<div class=testimonial-card data-reveal=data-reveal data-delay=100>
+<div class=testimonial-quote>“</div>
+<p class=testimonial-text>One of the best institutes for freelancers in Bangladesh, even the world. The instructor was very knowledgeable and helpful, explaining complicated ideas in a way that was simple to understand.</p>
+<div class=testimonial-author>
+<div class=author-avatar></div>
+<div>
+<div class=author-name>Verified Student</div>
+<div class=author-role><span class=stars>★★★★★</span> Google Review</div>
+</div>
+</div>
+</div>
+<div class=testimonial-card data-reveal=data-reveal data-delay=200>
+<div class=testimonial-quote>“</div>
+<p class=testimonial-text>School of Freelancing is the best place for Linux freelancing. I learned and earned my first income working with this school. Highly recommended.</p>
+<div class=testimonial-author>
+<div class=author-avatar></div>
+<div>
+<div class=author-name>Verified Student</div>
+<div class=author-role><span class=stars>★★★★★</span> Google Review</div>
+</div>
+</div>
+</div>
+</div>
+<div class=text-center data-reveal=data-reveal style=margin-top:40px;>
+<a href=/resource-center/testimonials/ aria-label="Read all verified student reviews"class="btn btn-lg btn-outline">Read All Reviews →</a>
+</div>
+</div>
+</section>
+<section aria-labelledby=services-heading class=section id=services>
+<div class=container>
+<div class=section-header data-reveal=data-reveal>
+<h2 class=section-title id=services-heading><span>What Support Do We Provide?</span></h2>
+<p class=section-subtitle>Fast global support—always on</p>
+</div>
+<div class=trainings-grid>
+<article class=training-card data-delay=0 data-reveal=data-reveal itemscope itemtype=https://schema.org/Service>
+<meta content="DigitalOcean 24/7 Tech Support"itemprop=serviceType>
+<meta content="School of Freelancing"itemprop=provider>
+<meta content=Worldwide itemprop=areaServed>
+<div class=training-banner>
+<img alt="DigitalOcean 24/7 Tech Support"src=/assets/images/digitalocean.webp decoding=async height=100 width=140 loading=lazy>
+</div>
+<div class=training-body>
+<h3 class=training-title>
+<a href=/client-support/digitalocean-cloud-services/ class=service-link itemprop=url>
+<span itemprop=name>DigitalOcean Tech Support</span>
+</a>
+</h3>
+<p class=training-desc itemprop=description>
+DigitalOcean 24/7 Tech Support for Linux Servers, AI, Kubernetes, VPS, Networking, and Production Automation.
+</p>
+<p class=training-features-label><strong>DigitalOcean Support Features:</strong></p>
+<ul class=service-features-list>
+<li>24/7 Emergency Response</li>
+<li>Full Server Maintenance</li>
+<li>Production-Ready App Deployment</li>
+<li>Automated Backup & Monitoring</li>
+</ul>
+<div class=training-meta itemprop=offers itemscope itemtype=https://schema.org/Offer>
+<div class=price-container>
+<span class=price-label>Support Investment</span>
+<strong class=training-price>
+Starting at <span itemprop=price content=499>$499</span>
+</strong>
+<meta content=USD itemprop=priceCurrency>
+<meta content=2027-12-31 itemprop=priceValidUntil>
+<meta content=https://schema.org/InStock itemprop=availability>
+<span class=delivery-time>
+ETA: 3-4 Business Days
+</span>
+</div>
+</div>
+<a href=/client-support/digitalocean-cloud-services/ aria-label="View DigitalOcean Tech Support details"class="btn btn-primary btn-block">
+View Support
+</a>
+</div>
+</article>
+<article class=training-card data-delay=200 data-reveal=data-reveal itemscope itemtype=https://schema.org/Service>
+<meta content="Hummingbot Advanced Trading Deployment Support"itemprop=serviceType>
+<div itemprop=provider itemscope itemtype=https://schema.org/Organization>
+<meta content="School of Freelancing"itemprop=name>
+<meta content=https://schooloffreelancing.com itemprop=url>
+</div>
+<meta content=Worldwide itemprop=areaServed>
+<div class=training-banner>
+<img alt="Hummingbot Setup Support"src=/assets/images/blackhummingbot.svg decoding=async height=120 width=120 loading=lazy>
+</div>
+<div class=training-body>
+<h3 class=training-title>
+<a href=/client-support/hummingbot-installation-services/ class=service-link itemprop=url>
+<span itemprop=name>Hummingbot Setup Support</span>
+</a>
+</h3>
+<p class=training-desc itemprop=description>
 Can't get Hummingbot running? Get expert help fixing installation, dependency, API, and configuration bugs now.
-    </p>
-
-    <p class="training-features-label"><strong>Hummingbot Setup Features:</strong></p>
-    <ul class="service-features-list">
-     <li>24/7 Emergency Response</li>
-      <li>Set Up Hummingbot API &amp; Condor on Tailscale</li>
-      <li>Setup MCP, Client Gateway &amp; Telegram Bot</li>
-      <li>API Integration, Strategy &amp; Bug Fixing</li>
-    </ul> 
-    <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-      <div class="price-container">
-        <span class="price-label">Support Investment</span>
-        <strong class="training-price">
-          Starting at <span itemprop="price" content="999">$999</span>
-        </strong>
-        <meta itemprop="priceCurrency" content="USD">
-        <meta itemprop="priceValidUntil" content="2027-12-31">
-        <meta itemprop="availability" content="https://schema.org/InStock">
-
-        <span class="delivery-time">
-          ETA: 5-6 Business Days
-        </span>
-      </div>
-    </div>
-
-    <a href="/client-support/hummingbot-installation-services/" class="btn btn-primary btn-block" aria-label="View Hummingbot Setup Support details">
-      View Support
-    </a>
-  </div>
+</p>
+<p class=training-features-label><strong>Hummingbot Setup Features:</strong></p>
+<ul class=service-features-list>
+<li>24/7 Emergency Response</li>
+<li>Set Up Hummingbot API & Condor on Tailscale</li>
+<li>Setup MCP, Client Gateway & Telegram Bot</li>
+<li>API Integration, Strategy & Bug Fixing</li>
+</ul>
+<div class=training-meta itemprop=offers itemscope itemtype=https://schema.org/Offer>
+<div class=price-container>
+<span class=price-label>Support Investment</span>
+<strong class=training-price>
+Starting at <span itemprop=price content=999>$999</span>
+</strong>
+<meta content=USD itemprop=priceCurrency>
+<meta content=2027-12-31 itemprop=priceValidUntil>
+<meta content=https://schema.org/InStock itemprop=availability>
+<span class=delivery-time>
+ETA: 5-6 Business Days
+</span>
+</div>
+</div>
+<a href=/client-support/hummingbot-installation-services/ aria-label="View Hummingbot Setup Support details"class="btn btn-primary btn-block">
+View Support
+</a>
+</div>
 </article>
-
-<!-- AI Agent Setup Support -->
-<article class="training-card" data-reveal data-delay="100" itemscope itemtype="https://schema.org/Service">
-  <meta itemprop="serviceType" content="Vapi Voice AI Platform Implementation Support">
-  
-  
-  <div itemprop="provider" itemscope itemtype="https://schema.org/Organization">
-    <meta itemprop="name" content="School of Freelancing">
-    <meta itemprop="url" content="https://schooloffreelancing.com">
-  </div>
-  <meta itemprop="areaServed" content="Worldwide">
-
-  <div class="training-banner">
-    <img 
-      width="300" 
-      height="160" 
-      loading="lazy" 
-      decoding="async" 
-      src="/assets/images/agent.svg" 
-      alt="AI Agent Setup Support">
-  </div>
-
-  <div class="training-body">
-    
-    <h3 class="training-title">
-      <a href="/client-support/vapi-platform-services/" class="service-link" itemprop="url">
-        <span itemprop="name">Voice AI Agent Setup Support</span>
-      </a>
-    </h3>
-    
-    <p class="training-desc" itemprop="description">
-      AI Agent Setup Support for voice agent build, STT/LLM/TTS integration, telephony, webhooks, function call configs.
-    </p>
-    
-    <p class="training-features-label"><strong>Voice AI Agent Setup Features</strong></p>
-    <ul class="service-features-list">
-      <li>24/7 Emergency Response</li>
-      <li>AI Prompt &amp; Conversation Flows</li>
-      <li>Telephony SIP, API &amp; Webhook Integration</li>
-      <li>Campaign, CRM Integration &amp; Testing</li>
-    </ul>
-  
-    <div class="training-meta" itemprop="offers" itemscope itemtype="https://schema.org/Offer">
-      <div class="price-container">
-        <span class="price-label">Support Investment</span>
-        <strong class="training-price">
-          Starting at <span itemprop="price" content="569">$569</span>
-        </strong>
-        <meta itemprop="priceCurrency" content="USD">
-        <meta itemprop="priceValidUntil" content="2027-12-31">
-        <meta itemprop="availability" content="https://schema.org/InStock">
-        
-        <span class="delivery-time" itemprop="deliveryLeadTime" itemscope itemtype="https://schema.org/QuantitativeValue">
-          ETA: 4-5 Business Days
-          <meta itemprop="value" content="5">
-          <meta itemprop="unitCode" content="DAY">
-        </span>
-      </div>
-    </div>
-    
-    <a href="/client-support/vapi-platform-services/" class="btn btn-primary btn-block" aria-label="View AI Agent Setup Support details">
-      View Support
-    </a>
-  </div>
+<article class=training-card data-delay=100 data-reveal=data-reveal itemscope itemtype=https://schema.org/Service>
+<meta content="Vapi Voice AI Platform Implementation Support"itemprop=serviceType>
+<div itemprop=provider itemscope itemtype=https://schema.org/Organization>
+<meta content="School of Freelancing"itemprop=name>
+<meta content=https://schooloffreelancing.com itemprop=url>
+</div>
+<meta content=Worldwide itemprop=areaServed>
+<div class=training-banner>
+<img alt="AI Agent Setup Support"src=/assets/images/agent.svg decoding=async height=160 width=300 loading=lazy>
+</div>
+<div class=training-body>
+<h3 class=training-title>
+<a href=/client-support/vapi-platform-services/ class=service-link itemprop=url>
+<span itemprop=name>Voice AI Agent Setup Support</span>
+</a>
+</h3>
+<p class=training-desc itemprop=description>
+AI Agent Setup Support for voice agent build, STT/LLM/TTS integration, telephony, webhooks, function call configs.
+</p>
+<p class=training-features-label><strong>Voice AI Agent Setup Features</strong></p>
+<ul class=service-features-list>
+<li>24/7 Emergency Response</li>
+<li>AI Prompt & Conversation Flows</li>
+<li>Telephony SIP, API & Webhook Integration</li>
+<li>Campaign, CRM Integration & Testing</li>
+</ul>
+<div class=training-meta itemprop=offers itemscope itemtype=https://schema.org/Offer>
+<div class=price-container>
+<span class=price-label>Support Investment</span>
+<strong class=training-price>
+Starting at <span itemprop=price content=569>$569</span>
+</strong>
+<meta content=USD itemprop=priceCurrency>
+<meta content=2027-12-31 itemprop=priceValidUntil>
+<meta content=https://schema.org/InStock itemprop=availability>
+<span class=delivery-time itemprop=deliveryLeadTime itemscope itemtype=https://schema.org/QuantitativeValue>
+ETA: 4-5 Business Days
+<meta content=5 itemprop=value>
+<meta content=DAY itemprop=unitCode>
+</span>
+</div>
+</div>
+<a href=/client-support/vapi-platform-services/ aria-label="View AI Agent Setup Support details"class="btn btn-primary btn-block">
+View Support
+</a>
+</div>
 </article>
-    </div>
-    
-    <!-- ===== View All Support ===== -->
-    <div class="text-center" style="margin-top:20px; padding-bottom:20px;" data-reveal>
-      <a href="/client-support/" class="btn btn-outline btn-lg" aria-label="View all client support services">View All Support →</a>
-    </div>
-  </div>
+</div>
+<div class=text-center data-reveal=data-reveal style="margin-top:20px; padding-bottom:20px;">
+<a href=/client-support/ aria-label="View all client support services"class="btn btn-lg btn-outline">View All Support →</a>
+</div>
+</div>
 </section>
-
-<!-- ===== FAQ (visible content, mirrored in FAQPage schema below) ===== -->
-<section class="section faq-section" aria-labelledby="faq-heading" data-reveal>
-  <div class="container">
-    <h2 id="faq-heading" class="text-center">Frequently Asked Questions</h2>
-    <div class="faq-list">
-      <details class="faq-item">
-        <summary><h3>What is School of Freelancing and what do you do?</h3></summary>
-        <p>School of Freelancing provides Linux and AI-related instructor-led training for freelancers, and reliable technical client support for businesses.</p>
-      </details>
-      <details class="faq-item">
-        <summary><h3>What technologies does School of Freelancing teach and support?</h3></summary>
-        <p>We teach and support Linux system administration, cloud infrastructure, AI agent deployment, VoIP, and bulk SMS API integration, all using free and open-source software (FOSS).</p>
-      </details>
-      <details class="faq-item">
-        <summary><h3>How does Guaranteed Minimum Income (GMI)* work?</h3></summary>
-        <p>Our Guaranteed Minimum Income (GMI)* applies under two conditions: maintain zero-leave attendance throughout the training, and purchase sufficient bids/connects on freelance marketplaces to search, apply, and get hired for jobs.</p>
-      </details>
-    </div>
-  </div>
+<section aria-labelledby=faq-heading class="section faq-section"data-reveal=data-reveal>
+<div class=container>
+<h2 class=text-center id=faq-heading>Frequently Asked Questions</h2>
+<div class=faq-list>
+<details class=faq-item>
+<summary><h3>What is School of Freelancing and what do you do?</h3></summary>
+<p>School of Freelancing provides Linux and AI-related instructor-led training for freelancers, and reliable technical client support for businesses.</p>
+</details>
+<details class=faq-item>
+<summary><h3>What technologies does School of Freelancing teach and support?</h3></summary>
+<p>We teach and support Linux system administration, cloud infrastructure, AI agent deployment, VoIP, and bulk SMS API integration, all using free and open-source software (FOSS).</p>
+</details>
+<details class=faq-item>
+<summary><h3>How does Guaranteed Minimum Income (GMI)* work?</h3></summary>
+<p>Our Guaranteed Minimum Income (GMI)* applies under two conditions: maintain zero-leave attendance throughout the training, and purchase sufficient bids/connects on freelance marketplaces to search, apply, and get hired for jobs.</p>
+</details>
+</div>
+</div>
 </section>
-
 </main>
+<footer class=footer>
+<div class=container>
+<div class=footer-grid>
+<div class=footer-brand>
+<p>AI-driven Linux training for freelancers and elite professional support for businesses. Founded in 2015 by <strong><cite><a href=https://www.linkedin.com/in/anythinglinux/ target=_blank rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).</p>
+<aside aria-label="Follow us">
+<p>Community:</p>
+<address class=footer-social>
+<a href=https://github.com/SchoolOfFreelancing aria-label="School of Freelancing on GitHub"rel="noopener noreferrer"target=_blank>
 
-<!-- ===== FOOTER ===== -->
-<footer class="footer">
-  <div class="container">
-    <div class="footer-grid">
+</a>
+<a href=https://www.youtube.com/@SchoolOfFreelancing aria-label="School of Freelancing on YouTube"rel="noopener noreferrer"target=_blank>
 
-        <div class="footer-brand">
-          <p>AI-driven Linux training for freelancers and elite professional support for businesses. Founded in 2015 by <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).</p>
-    
+</a>
+<a href=https://www.linkedin.com/company/schooloffreelancing aria-label="School of Freelancing on LinkedIn"rel="noopener noreferrer"target=_blank>
 
-          <aside aria-label="Follow us">
-            <p>Community:</p>
+</a>
+<a href=https://www.facebook.com/SchoolOfFreelancing aria-label="School of Freelancing on Facebook"rel="noopener noreferrer"target=_blank>
 
-            <address class="footer-social">
-              <a href="https://github.com/SchoolOfFreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on GitHub">
-                <i class="fa-brands fa-github" aria-hidden="true"></i>
-              </a>
+</a>
+<a href=https://instagram.com/schooloffreelancing aria-label="School of Freelancing on Instagram"rel="noopener noreferrer"target=_blank>
 
-              <a href="https://www.youtube.com/@SchoolOfFreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on YouTube">
-                <i class="fa-brands fa-youtube" aria-hidden="true"></i>
-              </a>
+</a>
+<a href=https://www.threads.com/schooloffreelancing aria-label="School of Freelancing on Threads"rel="noopener noreferrer"target=_blank>
 
-              <a href="https://www.linkedin.com/company/schooloffreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on LinkedIn">
-                <i class="fa-brands fa-linkedin" aria-hidden="true"></i>
-              </a>
+</a>
+<a href=https://wa.me/8801748973769 aria-label="Message School of Freelancing on WhatsApp"rel="noopener noreferrer"target=_blank>
 
-              <a href="https://www.facebook.com/SchoolOfFreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on Facebook">
-                <i class="fa-brands fa-square-facebook" aria-hidden="true"></i>
-              </a>
+</a>
+<a href=https://t.me/SchoolOfFreelancingTraining aria-label="Message School of Freelancing on Telegram"rel="noopener noreferrer"target=_blank>
 
-              <a href="https://instagram.com/schooloffreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on Instagram">
-                <i class="fa-brands fa-instagram" aria-hidden="true"></i>
-              </a>
+</a>
+<a href=https://x.com/SchoolOfFreelan aria-label="School of Freelancing on X (Twitter)"rel="noopener noreferrer"target=_blank>
 
-              <a href="https://www.threads.com/schooloffreelancing" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on Threads">
-                <i class="fa-brands fa-threads" aria-hidden="true"></i>
-              </a>
-
-              <a href="https://wa.me/8801748973769" target="_blank" rel="noopener noreferrer" aria-label="Message School of Freelancing on WhatsApp">
-                <i class="fa-brands fa-whatsapp" aria-hidden="true"></i>
-              </a>
-
-              <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" aria-label="Message School of Freelancing on Telegram">
-                <i class="fa-brands fa-telegram" aria-hidden="true"></i>
-              </a>
-
-              <a href="https://x.com/SchoolOfFreelan" target="_blank" rel="noopener noreferrer" aria-label="School of Freelancing on X (Twitter)">
-                <i class="fa-brands fa-x-twitter" aria-hidden="true"></i>
-              </a>
-            </address>
-          </aside>
-        </div>
-
-        <nav class="footer-col" aria-label="Footer: Freelancing Training">
-          <h2><span>Freelancing Training</span></h2>
-
-          <ul class="footer-links">
-            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
-            <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
-            <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
-            <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
-            <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
-            <li><a href="/freelancing-training/">View All Training</a></li>
-          </ul>
-        </nav>
-
-        <nav class="footer-col" aria-label="Footer: Client Support">
-          <h2><span>Client Support</span></h2>
-
-          <ul class="footer-links">
-            <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
-            <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
-            <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
-            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
-            <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
-          </ul>
-        </nav>
-
-        <nav class="footer-col" aria-label="Footer: Legal &amp; Resources">
-          <h2><span>Legal</span></h2>
-
-          <ul class="footer-links">
-            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
-            <li><a href="/locations/">Locations</a></li>
-            <li><a href="/legal/refund-policy/">Refund Policy</a></li>
-            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-            <li><a href="/resource-center/">Resource Center</a></li>
-            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
-            <li><a href="/legal/credential-verification/">Credential Verification</a></li>
-          </ul>
-        </nav>
-
-      </div>
-
-      <div class="footer-bottom">
-        <p>© School of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.</p>
-        <p>Page last updated: <time datetime="2026-08-10">August 11, 2026</time></p>
-        <p><a href="/sitemap.xml">Sitemap</a> · <a href="/robots.txt">Robots.txt</a></p>
-      </div>
-  </div>
+</a>
+</address>
+</aside>
+</div>
+<nav aria-label="Footer: Freelancing Training"class=footer-col>
+<h2><span>Freelancing Training</span></h2>
+<ul class=footer-links>
+<li><a href=/freelancing-training/hermes-agent-training/>Hermes Agent Training</a></li>
+<li><a href=/freelancing-training/fusionpbx-training/>FusionPBX VoIP Training</a></li>
+<li><a href=/freelancing-training/telnyx-sms-api-training/>Telnyx Developer Training</a></li>
+<li><a href=/freelancing-training/openai-training/>OpenAI Developer Training</a></li>
+<li><a href=/freelancing-training/claude-training/>Claude Developer Training</a></li>
+<li><a href=/freelancing-training/twilio-sms-api-training/>Twilio Developer Training</a></li>
+<li><a href=/freelancing-training/>View All Training</a></li>
+</ul>
+</nav>
+<nav aria-label="Footer: Client Support"class=footer-col>
+<h2><span>Client Support</span></h2>
+<ul class=footer-links>
+<li><a href=/client-support/telnyx-sip-trunking-services/>Telnyx SIP Trunking</a></li>
+<li><a href=/client-support/odysseus-ai-services/>Odysseus AI Support</a></li>
+<li><a href=/client-support/linux-server-services/>Linux Server Support</a></li>
+<li><a href=/client-support/ubuntu-linux-services/>Ubuntu Linux Support</a></li>
+<li><a href=/client-support/vapi-platform-services/>Vapi Platform Support</a></li>
+<li><a href=/client-support/goautodial-voip-services/>GOautodial VoIP Support</a></li>
+<li><a href=/client-support/ aria-label="View all client support services in footer">View All Support</a></li>
+</ul>
+</nav>
+<nav aria-label="Footer: Legal & Resources"class=footer-col>
+<h2><span>Legal</span></h2>
+<ul class=footer-links>
+<li><a href=/resource-center/faqs/ target=_self>FAQs</a></li>
+<li><a href=/locations/>Locations</a></li>
+<li><a href=/legal/refund-policy/>Refund Policy</a></li>
+<li><a href=/legal/privacy-policy/>Privacy Policy</a></li>
+<li><a href=/resource-center/>Resource Center</a></li>
+<li><a href=/legal/terms-and-conditions/ target=_self>Terms & Conditions</a></li>
+<li><a href=/legal/credential-verification/>Credential Verification</a></li>
+</ul>
+</nav>
+</div>
+<div class=footer-bottom>
+<p>© School of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.</p>
+<p>Page last updated: <time datetime=2026-08-10>August 11, 2026</time></p>
+<p><a href=/sitemap.xml>Sitemap</a> · <a href=/robots.txt>Robots.txt</a></p>
+</div>
+</div>
 </footer>
+<script src="/assets/js/main.js?v=20260718"defer></script>
+<script>!function(){var e=document.getElementById("video-facade");e&&e.addEventListener("click",function(){var t=document.createElement("iframe");t.src="https://www.youtube.com/embed/bbJCBn_vUzs?si=VyxCKZl9nrrTYyQr&autoplay=1",t.title="YouTube video player",t.className="video-embed",t.setAttribute("allow","accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"),t.setAttribute("referrerpolicy","strict-origin-when-cross-origin"),t.setAttribute("allowfullscreen",""),t.width="480",t.height="270",e.replaceWith(t)})}()
+!function(){if(window.navigator){var e=[{name:"search_training_programs",description:"Search or open the School of Freelancing training catalog, optionally filtered by category (Linux, AI, crypto, VoIP, cloud, CI/CD). Requires user confirmation before navigating.",inputSchema:{type:"object",properties:{category:{type:"string",description:"Optional catalog category",enum:["linux","ai","crypto","voip","cloud","cicd"]}}},execute:function(e){var t="/freelancing-training/"+(e&&e.category?"?category="+encodeURIComponent(e.category):"");return Promise.resolve(r(t))}},{name:"search_services",description:"Open the School of Freelancing IT and AI services catalog. Requires user confirmation before navigating.",inputSchema:{type:"object",properties:{}},execute:function(){return Promise.resolve(r("/client-support/"))}},{name:"get_contact_info",description:"Get School of Freelancing contact channels (WhatsApp, Telegram, contact form). Read-only, does not navigate.",inputSchema:{type:"object",properties:{}},execute:function(){return Promise.resolve({whatsapp:"https://wa.me/8801748973769",telegram:"https://t.me/SchoolOfFreelancingTraining",contactForm:"https://schooloffreelancing.com/contact-us/"})}}],t="undefined"!=typeof AbortController?new AbortController:null,n=t?{signal:t.signal}:{},o="undefined"!=typeof WeakSet?new WeakSet:null;c(),"loading"===document.readyState&&document.addEventListener("DOMContentLoaded",c),window.addEventListener("load",c)}function r(e){var t=!0;try{"function"==typeof window.confirm&&(t=window.confirm("An AI assistant wants to open: "+e+"\n\nContinue?"))}catch(e){t=!1}return t?(window.location.href=e,{status:"navigated",url:e}):{status:"declined",url:e}}function a(t){if(t){if(o){if(o.has(t))return;o.add(t)}if("function"==typeof t.registerTool&&e.forEach(function(e){try{t.registerTool(e,n)}catch(n){try{t.registerTool(e)}catch(e){}}}),"function"==typeof t.provideContext)try{t.provideContext({tools:e})}catch(e){}}}function i(){var e=new Map,t={registerTool:function(t,n){e.set(t.name,t);var o=n&&n.signal;return o&&"function"==typeof o.addEventListener&&o.addEventListener("abort",function(){e.delete(t.name)}),Promise.resolve()},provideContext:function(t){e.clear(),(t&&t.tools||[]).forEach(function(t){e.set(t.name,t)})},getTools:function(){return Promise.resolve(Array.from(e.values()))},listTools:function(){return Array.from(e.values())}};return Object.defineProperty(t,"tools",{enumerable:!0,get:function(){return Array.from(e.values())}}),Object.defineProperty(t,"availableTools",{enumerable:!0,get:function(){return Array.from(e.values())}}),t}function c(){try{navigator.modelContext||(navigator.modelContext=i()),a(navigator.modelContext)}catch(e){}try{if(!document.modelContext)try{document.modelContext=navigator.modelContext||i()}catch(e){}a(document.modelContext)}catch(e){}}}()
+!function(){var e=!1,t=["scroll","mousemove","keydown","touchstart","click"];function c(){if(!e){e=!0,t.forEach(function(e){window.removeEventListener(e,c,{passive:!0})});var n=document.createElement("script");n.type="module",n.src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js",document.head.appendChild(n)}}t.forEach(function(e){window.addEventListener(e,c,{passive:!0,once:!0})}),"requestIdleCallback"in window?requestIdleCallback(c,{timeout:4e3}):setTimeout(c,3e3)}()</script>
 
-<script src="/assets/js/main.js?v=20260718" defer></script>
-
-<!-- Video facade activation: extracted from inline onclick (see comment
-     above the button) into a named handler, wired via addEventListener. -->
-<script>
-(function () {
-  var facade = document.getElementById('video-facade');
-  if (!facade) return;
-  facade.addEventListener('click', function () {
-    var iframe = document.createElement('iframe');
-    iframe.src = 'https://www.youtube.com/embed/bbJCBn_vUzs?si=VyxCKZl9nrrTYyQr&autoplay=1';
-    iframe.title = 'YouTube video player';
-    iframe.className = 'video-embed';
-    iframe.setAttribute('allow', 'accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share');
-    iframe.setAttribute('referrerpolicy', 'strict-origin-when-cross-origin');
-    iframe.setAttribute('allowfullscreen', '');
-    iframe.width = '480';
-    iframe.height = '270';
-    facade.replaceWith(iframe);
-  });
-})();
-</script>
-
-<script>
-(function () {
-  // WebMCP tool registration on both document.modelContext and navigator.modelContext (spec still stabilizing), with a polyfill fallback.
-  // FIX: navigation tools (search_training_programs, search_services) used to call window.location.href directly with no human in the loop. They now require an explicit confirm() gate before navigating.
-  if (!window.navigator) return;
-
-  function confirmedNavigate(url) {
-    var ok = true;
-    try {
-      if (typeof window.confirm === 'function') {
-        ok = window.confirm('An AI assistant wants to open: ' + url + '\n\nContinue?');
-      }
-    } catch (e) {
-      // If confirm() is unavailable (e.g. sandboxed context), fail closed
-      // rather than silently navigating.
-      ok = false;
-    }
-    if (ok) {
-      window.location.href = url;
-      return { status: 'navigated', url: url };
-    }
-    return { status: 'declined', url: url };
-  }
-
-  var TOOLS = [
-    {
-      name: 'search_training_programs',
-      description: 'Search or open the School of Freelancing training catalog, optionally filtered by category (Linux, AI, crypto, VoIP, cloud, CI/CD). Requires user confirmation before navigating.',
-      inputSchema: {
-        type: 'object',
-        properties: {
-          category: { type: 'string', description: 'Optional catalog category', enum: ['linux', 'ai', 'crypto', 'voip', 'cloud', 'cicd'] }
-        }
-      },
-      execute: function (input) {
-        var url = '/freelancing-training/' + (input && input.category ? '?category=' + encodeURIComponent(input.category) : '');
-        return Promise.resolve(confirmedNavigate(url));
-      }
-    },
-    {
-      name: 'search_services',
-      description: 'Open the School of Freelancing IT and AI services catalog. Requires user confirmation before navigating.',
-      inputSchema: { type: 'object', properties: {} },
-      execute: function () {
-        return Promise.resolve(confirmedNavigate('/client-support/'));
-      }
-    },
-    {
-      name: 'get_contact_info',
-      description: 'Get School of Freelancing contact channels (WhatsApp, Telegram, contact form). Read-only, does not navigate.',
-      inputSchema: { type: 'object', properties: {} },
-      execute: function () {
-        return Promise.resolve({
-          whatsapp: 'https://wa.me/8801748973769',
-          telegram: 'https://t.me/SchoolOfFreelancingTraining',
-          contactForm: 'https://schooloffreelancing.com/contact-us/'
-        });
-      }
-    }
-  ];
-
-  // AbortController lets agents unregister tools when no longer needed
-  // (WebMCP spec: ModelContextRegisterToolOptions.signal).
-  var ac = (typeof AbortController !== 'undefined') ? new AbortController() : null;
-  var registerOptions = ac ? { signal: ac.signal } : {};
-
-  // Track contexts we've already populated so late re-runs don't duplicate
-  // registrations on a native implementation that appends rather than dedupes.
-  var registered = (typeof WeakSet !== 'undefined') ? new WeakSet() : null;
-
-  function registerInto(ctx) {
-    if (!ctx) return;
-    if (registered) {
-      if (registered.has(ctx)) return;
-      registered.add(ctx);
-    }
-    // Imperative API — registerTool(tool, { signal }); fall back to the
-    // single-argument form for older implementations.
-    if (typeof ctx.registerTool === 'function') {
-      TOOLS.forEach(function (tool) {
-        try { ctx.registerTool(tool, registerOptions); }
-        catch (e) { try { ctx.registerTool(tool); } catch (e2) {} }
-      });
-    }
-    // Declarative API — provideContext({ tools }).
-    if (typeof ctx.provideContext === 'function') {
-      try { ctx.provideContext({ tools: TOOLS }); } catch (e) {}
-    }
-  }
-
-  function makePolyfill() {
-    var reg = new Map();
-    var api = {
-      registerTool: function (tool, options) {
-        reg.set(tool.name, tool);
-        var signal = options && options.signal;
-        if (signal && typeof signal.addEventListener === 'function') {
-          signal.addEventListener('abort', function () { reg.delete(tool.name); });
-        }
-        return Promise.resolve();
-      },
-      provideContext: function (context) {
-        reg.clear();
-        ((context && context.tools) || []).forEach(function (t) { reg.set(t.name, t); });
-      },
-      getTools: function () { return Promise.resolve(Array.from(reg.values())); },
-      listTools: function () { return Array.from(reg.values()); }
-    };
-    Object.defineProperty(api, 'tools', { enumerable: true, get: function () { return Array.from(reg.values()); } });
-    Object.defineProperty(api, 'availableTools', { enumerable: true, get: function () { return Array.from(reg.values()); } });
-    return api;
-  }
-
-  function ensureAndRegister() {
-    // navigator.modelContext — Chrome EPP location and what agent scanners read.
-    try {
-      if (!navigator.modelContext) { navigator.modelContext = makePolyfill(); }
-      registerInto(navigator.modelContext);
-    } catch (e) {}
-    // document.modelContext — current WebMCP spec location. Share the same
-    // object as navigator's when we can, so both surfaces expose one tool set.
-    try {
-      if (!document.modelContext) {
-        try { document.modelContext = navigator.modelContext || makePolyfill(); } catch (e2) {}
-      }
-      registerInto(document.modelContext);
-    } catch (e) {}
-  }
-
-  ensureAndRegister();
-  // Re-assert once the document is ready and fully loaded, in case a native
-  // implementation is injected after this inline script executes.
-  if (document.readyState === 'loading') {
-    document.addEventListener('DOMContentLoaded', ensureAndRegister);
-  }
-  window.addEventListener('load', ensureAndRegister);
-})();
-</script>
-<chat-bubble-snippet
-  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
-></chat-bubble-snippet>
-
-<!-- Lazy-load Cloudflare AI search module on idle/first-interaction — was blocking FCP/LCP on mobile as a sync <head> import. -->
-<script>
-  (function () {
-    var loaded = false;
-    var events = ['scroll', 'mousemove', 'keydown', 'touchstart', 'click'];
-    function loadSearch() {
-      if (loaded) return;
-      loaded = true;
-      events.forEach(function (evt) {
-        window.removeEventListener(evt, loadSearch, { passive: true });
-      });
-      var s = document.createElement('script');
-      s.type = 'module';
-      s.src = 'https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js';
-      document.head.appendChild(s);
-    }
-    events.forEach(function (evt) {
-      window.addEventListener(evt, loadSearch, { passive: true, once: true });
-    });
-    if ('requestIdleCallback' in window) {
-      requestIdleCallback(loadSearch, { timeout: 4000 });
-    } else {
-      setTimeout(loadSearch, 3000);
-    }
-  })();
-</script>
-
-</body>
-</html>

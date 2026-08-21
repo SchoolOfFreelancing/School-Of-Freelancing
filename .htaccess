@@ -6,7 +6,7 @@ RewriteEngine On
 
 # ============================================================
 # 1. CANONICAL DOMAIN
-# Redirect www -> non-www
+# www -> non-www
 # ============================================================
 
 RewriteCond %{HTTP_HOST} ^www\.schooloffreelancing\.com$ [NC]
@@ -22,21 +22,19 @@ RewriteRule ^index\.html$ https://schooloffreelancing.com/ [R=301,L]
 # 3. OLD FLAT HTML URLS -> CURRENT URLS
 # ============================================================
 
+RewriteRule ^(tech-support|support|get-support|get_support)\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
 RewriteRule ^training\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
 RewriteRule ^enrollment\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^tech-support\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
-RewriteRule ^support\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
-RewriteRule ^get-support\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
-RewriteRule ^get_support\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
+RewriteRule ^contact\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^testimonials\.html$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
 RewriteRule ^about\.html$ https://schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^faq\.html$ https://schooloffreelancing.com/resource-center/faqs/ [R=301,L]
 RewriteRule ^privacy-policy\.html$ https://schooloffreelancing.com/legal/privacy-policy/ [R=301,L]
 RewriteRule ^terms\.html$ https://schooloffreelancing.com/legal/terms-and-conditions/ [R=301,L]
-RewriteRule ^contact\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 
 # ============================================================
 # 4. LEGACY FOLDER index.html -> FINAL URL
+# (targets differ from folder name, so must precede rule 6)
 # ============================================================
 
 RewriteRule ^training/index\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
@@ -49,11 +47,7 @@ RewriteRule ^tech-support/index\.html$ https://schooloffreelancing.com/client-su
 # 5. DELETED / LEGACY SECTIONS
 # ============================================================
 
-RewriteRule ^training/enroll(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^training/oldenroll(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^training/enroll1(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^training/files(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-
+RewriteRule ^training/(enroll|oldenroll|enroll1|files)(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^training/?$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
 
 RewriteRule ^tech-support/get-support/?$ https://schooloffreelancing.com/client-support/ [R=301,L]
@@ -66,10 +60,8 @@ RewriteRule ^testimonials/?$ https://schooloffreelancing.com/resource-center/tes
 
 # ============================================================
 # 6. GENERIC index.html -> FOLDER/
+# Catches remaining /some-folder/index.html -> /some-folder/
 # ============================================================
-
-# Handles remaining URLs such as:
-# /some-folder/index.html -> /some-folder/
 
 RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
 
@@ -122,8 +114,7 @@ RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
     # https://developer.chrome.com/origintrials/#/view_trial/4163014905550602241
     # --------------------------------------------------------
 
-    Header always set Origin-Trial "AjBt18ONfDupOHO+pn5N5FzfefWof5r231ixB2m2fG7gCQ94DyFVs2b7zYhUpWWNkH3r/xud7NgDh4CzH2C3fAsAAAByeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZWxhbmNpbmcuY29tOjQ0MyIsImZlYXR1cmUiOiJJbnN0YWxsRWxlbWVudCIsImV4cGlyhaW4iOnRydWV9"
-
+  Header always set Origin-Trial "AjBt18ONfDupOHO+pn5N5FzfefWof5r231ixB2m2fG7gCQ94DyFVs2b7zYhUpWWNkH3r/xud7NgDh4CzH2C3fAsAAAByeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZWxhbmNpbmcuY29tOjQ0MyIsImZlYXR1cmUiOiJJbnN0YWxsRWxlbWVudCIsImV4cGlyeSI6MTc5MTI0NDgwMCwiaXNTdWJkb21haW4iOnRydWV9"
     # --------------------------------------------------------
     # Static assets
     # One-year browser cache
