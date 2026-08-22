@@ -1,6 +1,7 @@
 User-agent: *
 Allow: /
 Disallow: /cgi-bin/
+Content-Signal: search=yes, ai-train=no, ai-input=no
 
 # AI search / retrieval crawlers (power citations in AI answers)
 User-agent: OAI-SearchBot
@@ -21,26 +22,27 @@ Allow: /
 User-agent: Perplexity-User
 Allow: /
 
-# AI training crawlers
+# AI training crawlers — blocked
 User-agent: GPTBot
-Allow: /
+Disallow: /
 
 User-agent: ClaudeBot
-Allow: /
+Disallow: /
 
 User-agent: anthropic-ai
-Allow: /
+Disallow: /
 
 User-agent: Google-Extended
-Allow: /
+Disallow: /
 
 User-agent: Applebot-Extended
-Allow: /
+Disallow: /
 
 User-agent: CCBot
-Allow: /
+Disallow: /
 
 User-agent: cohere-ai
-Allow: /
+Disallow: /
 
 Sitemap: https://schooloffreelancing.com/sitemap.xml
+
