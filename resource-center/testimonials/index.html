@@ -4,6 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <meta name="theme-color" content="#0024ED">
+<meta content="default" name="apple-mobile-web-app-status-bar-style">
 <link rel="icon" href="/assets/icons/favicon.ico" sizes="any">
 <link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png">
 <link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png">
@@ -170,7 +171,7 @@
       box-shadow:var(--shadow-card);
       transition:var(--transition);
     }
-    .testi-card:hover{border-color:var(--border-active);box-shadow:0 0 20px var(--green-glow2),var(--shadow-card);transform:translateY(-3px);}
+    .testi-card:hover{border-color:var(--border-active);--testi-hover-shadow:0 0 20px var(--green-glow2), var(--shadow-card);box-shadow:var(--testi-hover-shadow);transform:translateY(-3px);}
     .testi-card .card-top{display:flex;align-items:center;justify-content:space-between;font-family:var(--font-code);font-size:.78rem;color:var(--text-muted);}
     .testi-card .card-top .source{display:flex;align-items:center;gap:6px;}
     .testi-card .card-top .google-mark{width:15px;height:15px;}

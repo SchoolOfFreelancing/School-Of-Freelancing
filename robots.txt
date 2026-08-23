@@ -44,5 +44,4 @@ Disallow: /
 User-agent: cohere-ai
 Disallow: /
 
-Sitemap: https://schooloffreelancing.com/sitemap.xml
-
+Sitemap: https://schooloffreelancing.com
