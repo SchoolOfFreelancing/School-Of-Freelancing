@@ -1,8 +1,14 @@
 User-agent: *
 Allow: /
 Disallow: /cgi-bin/
-Content-Signal: search=yes, ai-train=no, ai-input=no
 
+# ============================================================
+# Content Signals (RFC draft-romm-aipref-contentsignals)
+# Declare AI content usage preferences
+# ============================================================
+Content-Signal: ai-train=no, search=yes, ai-input=no
+
+# ============================================================
 # AI search / retrieval crawlers (power citations in AI answers)
 User-agent: OAI-SearchBot
 Allow: /
@@ -44,4 +50,4 @@ Disallow: /
 User-agent: cohere-ai
 Disallow: /
 
-Sitemap: https://schooloffreelancing.com
+Sitemap: https://schooloffreelancing.com/sitemap.xml

@@ -7,9 +7,20 @@ Options -Indexes
 
 # ============================================================
 # 1. CANONICAL DOMAIN
-# www -> non-www
+# www -> non-www (using HTTPS)
 # ============================================================
 
+# Single hop: www + /index.html -> https://schooloffreelancing.com/
+RewriteCond %{HTTP_HOST} ^www\.schooloffreelancing\.com$ [NC]
+RewriteCond %{THE_REQUEST} \s/+index\.html\s [NC]
+RewriteRule ^index\.html$ https://schooloffreelancing.com/ [R=301,L]
+
+# Single hop: www + subfolder/index.html -> non-www subfolder/
+RewriteCond %{HTTP_HOST} ^www\.schooloffreelancing\.com$ [NC]
+RewriteCond %{REQUEST_URI} ^/(.+)/index\.html$ [NC]
+RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
+
+# General www -> non-www redirect (force HTTPS)
 RewriteCond %{HTTP_HOST} !^localhost$ [NC]
 RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
 RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
@@ -21,7 +32,24 @@ RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
 RewriteRule ^index\.html$ https://schooloffreelancing.com/ [R=301,L]
 
 # ============================================================
-# 3. OLD FLAT HTML URLS -> CURRENT URLS
+# 3. CANONICALIZE QUERY PARAMETER URLs
+# Strip all query parameters from URLs to clean canonical versions
+# ============================================================
+
+# Strip query parameters from index.html (canonicalize to /)
+RewriteCond %{QUERY_STRING} .
+RewriteCond %{REQUEST_URI} ^/index\.html$ [NC]
+RewriteRule ^index\.html$ https://schooloffreelancing.com/? [R=301,L]
+
+# Strip query parameters from ANY page - redirect to clean URL
+# This catches all URLs with query strings and redirects to path only
+RewriteCond %{QUERY_STRING} .
+RewriteCond %{REQUEST_URI} !^/api/ [NC]
+RewriteCond %{REQUEST_URI} !^/.well-known/ [NC]
+RewriteRule ^(.*)$ https://schooloffreelancing.com/$1? [R=301,L]
+
+# ============================================================
+# 4. OLD FLAT HTML URLS -> CURRENT URLS
 # ============================================================
 
 RewriteRule ^(tech-support|support|get-support|get_support)\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
@@ -38,8 +66,8 @@ RewriteRule ^terms\.html$ https://schooloffreelancing.com/legal/terms-and-condit
 RewriteRule ^sitemap\.html$ https://schooloffreelancing.com/sitemap/ [R=301,L]
 
 # ============================================================
-# 4. LEGACY FOLDER index.html -> FINAL URL
-# (targets differ from folder name, so must precede rule 6)
+# 5. LEGACY FOLDER index.html -> FINAL URL
+# (targets differ from folder name, so must precede rule 7)
 # ============================================================
 
 RewriteRule ^training/index\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
@@ -49,7 +77,7 @@ RewriteRule ^testimonials/index\.html$ https://schooloffreelancing.com/resource-
 RewriteRule ^tech-support/index\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
 
 # ============================================================
-# 5. DELETED / LEGACY SECTIONS
+# 6. DELETED / LEGACY SECTIONS
 # ============================================================
 
 RewriteRule ^training/(enroll|oldenroll|enroll1|files)(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
@@ -64,14 +92,14 @@ RewriteRule ^contact/?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^testimonials/?$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
 
 # ============================================================
-# 6. GENERIC index.html -> FOLDER/
+# 7. GENERIC index.html -> FOLDER/
 # Catches remaining /some-folder/index.html -> /some-folder/
 # ============================================================
 
 RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
 
 # ============================================================
-# 6B. FLAT .HTML SAFETY NET (extensionless URLs)
+# 8. FLAT .HTML SAFETY NET (extensionless URLs)
 # Redirects any remaining flat *.html request (except 404.html)
 # to its extensionless URL, then serves it internally.
 # Prevents /page vs /page.html duplicate-content splits.
@@ -86,7 +114,7 @@ RewriteCond %{REQUEST_FILENAME}\.html -f
 RewriteRule ^(.*)$ $1.html [L]
 
 # ============================================================
-# 7. STATIC ASSET CACHING
+# 9. STATIC ASSET CACHING
 # ============================================================
 
 <IfModule mod_expires.c>
@@ -116,7 +144,7 @@ RewriteRule ^(.*)$ $1.html [L]
 </IfModule>
 
 # ============================================================
-# 8. HTTP RESPONSE HEADERS
+# 10. HTTP RESPONSE HEADERS
 # ============================================================
 
 <IfModule mod_headers.c>
@@ -135,7 +163,7 @@ RewriteRule ^(.*)$ $1.html [L]
     # --------------------------------------------------------
 
      Header always set Origin-Trial "AjBt18ONfDupOHO+pn5N5FzfefWof5r231ixB2m2fG7gCQ94DyFVs2b7zYhUpWWNkH3r/xud7NgDh4CzH2C3fAsAAAByeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZMyIsImZlYXR1cmUiOiJJbnN0YWxsRWxlbWVudCIsImV4cGlyeSI6MTc5MTI0NDgwMCwiaXNTdWJkb21haW4iOnRydWV9"
-     
+
     # --------------------------------------------------------
     # Static assets
     # One-year browser cache
@@ -166,20 +194,20 @@ RewriteRule ^(.*)$ $1.html [L]
 </IfModule>
 
 # ============================================================
-# 9. CUSTOM 404 PAGE
+# 11. CUSTOM 404 PAGE
 # ============================================================
 
 ErrorDocument 404 /404.html
 
 # ============================================================
-# 10. Tell Googlebot Not to Index robots.txt
+# 12. Tell Googlebot Not to Index robots.txt
 # ============================================================
 <Files "robots.txt">
     Header set X-Robots-Tag "noindex, nofollow"
 </Files>
 
 # ============================================================
-# 11. Enabling Gzip Compression
+# 13. Enabling Gzip Compression
 # ============================================================
 <IfModule mod_deflate.c>
     # Compression
