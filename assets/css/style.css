@@ -336,6 +336,22 @@ img { max-width: 100%; height: auto; display: block; }
   box-shadow: 0 0 20px rgba(255, 255, 255, 0.5) !important;
 }
 
+.external-cta-link {
+  position: relative;
+  z-index: 100;
+  display: inline-block;
+  color: #fff !important;
+  pointer-events: auto !important;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.external-cta-link:hover,
+.external-cta-link:focus {
+  color: #ccc !important;
+  text-decoration: underline;
+}
+
 .nav-toggle {
   display: none;
   flex-direction: column;
