@@ -1,90 +1,71 @@
+# Hermes Agent Freelancing Training
+
+- **Duration:** 20 Hands-on training sessions over one month training.
+- **Price:** $149 (One-Time Investment).
+- **Format:** Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos.
+- **Covers:** Deploy Hermes Agents into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube.
+- **Best for:** The ultimate Hermes Agent training designed to help developers, freelancers, and agency owners master high-demand AI skills and sign premium global clients.
+- **(GMI)\*:** Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs.
+
 ---
-title: "Hermes Agent: Hands-On Training for New Freelancers"
-author: "Karim (Masum)"
-date: 2026-08-10
-description: "Get hands-on Hermes Agent training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!"
+
+## Overview
+
+Master production deployment of Hermes Agent and package your technical setup into high-demand freelance services. Learn proven client acquisition strategies across Upwork, Freelancer, Guru, LinkedIn, and YouTube to land global remote contracts.
+
 ---
 
-# Hermes Agent: Hands-On Training for New Freelancers
-
-### Overview
-
-You'll become a production-ready Hermes Agent engineer with a public portfolio
-proving real deployment skills. Earn via freelance gigs, direct client
-contracts, or building your own agent-based services.
-
-## Training at a Glance:
-
-| Aspect | Detail |
-| --- | --- |
-| Duration: | Allocation: 20 Training Hours / 1 Month |
-| Format: | Live, Hands-On Training with no Pre-Recorded Videos. |
-| Covers: | Server setup, Nginx & SSL, Hermes install, MCP, systemd, production hardening, bots & automation, marketplace profiles, service videos, job bidding, client delivery, capstone. |
-| Best for: | For aspiring freelancers, Linux admins, and developers wanting hands-on AI agent deployment skills to launch a freelance career. |
-| Marketplace: | Upwork, Guru, Freelancer |
-
-### Participation Requirements:
+## Participation Requirements
 
 ### Training Prerequisites
-
-- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
-- **Rigorous:** Need to have patience and concentration during all training sessions.
+* **[DigitalOcean account](https://try.digitalocean.com/freetrialoffer/),** Any Domain, & Verified Marketplace Profiles.
+* **Rigorous:** Need to have patience and concentration during all training sessions.
 
 ### Connectivity
-
-- Portable messaging devices for 24/7 client communication.
-- Reliable fiber-optic internet access for uninterruptible training sessions.
+* Portable messaging devices for 24/7 client communication.
+* Reliable fiber-optic internet access for uninterruptible training sessions.
 
 ### Training Rules
+* These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+---
 
-### Why Join This Training?
+## You'll Leave With
 
-AI agent deployment is a fast-growing, low-competition category on Upwork, Guru,
-and Freelancer, and most freelancers can't fill it because they've never
-deployed Hermes Agent in production. This training closes that gap fast:
-existing Linux/cloud freelancers add a high-ticket skill on top of what they
-already know, while newcomers leave with a public GitHub deployment, 3
-marketplace profiles, and 5 service videos as instant proof of work. Job search,
-proposals, client communication, and delivery are covered too, so you're not
-just trained — you're positioned to get hired.
+1. Hands-on experience in live, self-hosted Hermes Agent deployment
+2. Marketplace portfolio proving real support and Freelance-ready AI agent skills
+3. Stronger habits for deploying, troubleshooting, and reviewing Hermes Agent projects
 
-### You'll leave with:
+---
 
-Hands-on experience in live, self-hosted Hermes Agent deployment
+## Training Modules
 
-Marketplace portfolio proving real support and Freelance-ready AI agent skills
+| Week | Session | Topic | Content |
+| :---: | :---: | :--- | :--- |
+| **One** | 1 | Server & DNS Foundations | DigitalOcean droplet setup, SSH keys, domain DNS configuration |
+| **One** | 2 | Linux Security Hardening | Ubuntu server hardening, UFW firewall configuration, user roles |
+| **One** | 3 | Web Server Setup | Nginx reverse proxy installation, basic server block configs |
+| **One** | 4 | Domain SSL Security | Certbot / Let's Encrypt SSL setup, HTTPS forcing, live-check testing |
+| **One** | 5 | Hermes Agent Installation | Source/Docker installation, .env file configuration, API key setup |
+| **Two** | 6 | AI Engine Integration | Connecting Hermes Agent to Ollama local models & cloud LLM APIs |
+| **Two** | 7 | Core Features Setup | Configuring Skills, persistent Memory, and MCP server integrations |
+| **Two** | 8 | Daemonization | systemd service setup, process management, auto-restart policies |
+| **Two** | 9 | Production Hardening | Fail2ban installation, automated backup scripts, log management |
+| **Two** | 10 | Bot Integrations | Telegram & Discord bot connection, webhook configurations, cron jobs |
+| **Three** | 11 | Advanced Automations | Building custom tools, workflow pipelines, live agent testing |
+| **Three** | 12 | Portfolio Repository Build | Structuring a public GitHub repository to showcase production work |
+| **Three** | 13 | Service Packaging | Defining Hermes Agent freelance packages, scope, pricing models |
+| **Three** | 14 | Upwork Profile Setup | Writing high-converting Upwork profiles, bio, portfolio link setup |
+| **Three** | 15 | Freelancer Marketplace Profiles | Setting up Guru, Freelancer.com, alternative platform profiles |
+| **Four** | 16 | Content Strategy | Creating 5 Hermes Agent service showcase videos for marketing |
+| **Four** | 17 | Social Lead Generation | Crafting LinkedIn content, social post templates, direct outreach |
+| **Four** | 18 | Bidding & Proposal Mastery | Search filters, proposal writing, fast-apply bidding strategy |
+| **Four** | 19 | Client Onboarding & Delivery | Scope-setting, client communication, milestone delivery, invoicing |
+| **Four** | 20 | Capstone Review & Live Q&A | Real client troubleshooting scenario, collect testimonials, program wrap-up |
 
-Stronger habits for deploying, troubleshooting, and reviewing Hermes Agent
-projects
+---
 
-### Training Curriculum: 12 Sessions
+## Secure Your Seat Now
 
-2 weeks, 6 sessions/week, 1.5–2 hours per session.
-
-| Session | Topic | Content |
-| --- | --- | --- |
-| 1 | Server & Foundations | DigitalOcean droplet, Ubuntu hardening, domain DNS, SSH keys, UFW |
-| 2 | Nginx & SSL | Nginx reverse proxy, Certbot/Let's Encrypt SSL, domain live-check |
-| 3 | Hermes Agent Install | Source/Docker install, .env config, AI provider (Ollama/API) connection |
-| 4 | Core Features | Skills, Memory, MCP servers, systemd service, auto-restart |
-| 5 | Production Hardening | Fail2ban, backups, logging, monitoring, security review |
-| 6 | Bots & Automation | Telegram/Discord integration, cron jobs, custom tools |
-| 7 | Portfolio Build | Deploy your own public GitHub repo as proof of work |
-| 8 | Marketplace Setup | Create Upwork, Guru, Freelancer profiles — bio, portfolio links, pricing |
-| 9 | Content & Marketing | 5 Hermes Agent service videos, LinkedIn/social post templates |
-| 10 | Job Search & Bidding | Search filters, proposal writing, fast-apply strategy, red flags to avoid |
-| 11 | Client Communication & Delivery | Onboarding, scope-setting, delivery, revisions, invoicing/withdrawal |
-| 12 | Capstone + Review | Live Q&A, real client troubleshooting, collect testimonials |
-
-### Guaranteed Minimum Income Conditions:
-
-- **Attendance:** Zero-Leave attendance across all training sessions.
-- **Active Bidding:** Purchase bids/connects on marketplaces to search, apply, and get hired for jobs.
-
-### Payment Gateways
-
-Pay the **$199** enrollment fee below, then click **Complete Registration** .
-
-## Already paid?
+* [Ask your mentor](https://t.me/SchoolOfFreelancingTraining)
+* [Technical Docs](https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git/)
