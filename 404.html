@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1LNS69YXG5');
+</script>
+
     <meta name="robots" content="noindex,follow">
 <!-- Basic Meta -->
 <meta charset="UTF-8">
@@ -49,41 +58,6 @@
 <meta name="msvalidate.01" content="C18D42C136729AADD540EB2FE7763E57">
 <meta name="yandex-verification" content="7a5b0116b50f4d68">
 <meta name="facebook-domain-verification" content="2304476026236470">
-
-<!-- Google Analytics -->
-<script>
-window.dataLayer = window.dataLayer || [];
-function gtag(){ dataLayer.push(arguments); }
-gtag('js', new Date());
-gtag('config', 'G-1LNS69YXG5');
-
-(function() {
-  var loaded = false;
-
-  function loadGtagJs() {
-    if (loaded) return;
-    loaded = true;
-
-    var s = document.createElement('script');
-    s.async = true;
-    s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5';
-    document.head.appendChild(s);
-
-    ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
-      window.removeEventListener(evt, loadGtagJs, { passive: true });
-    });
-  }
-
-  ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
-    window.addEventListener(evt, loadGtagJs, {
-      passive: true,
-      once: true
-    });
-  });
-
-  setTimeout(loadGtagJs, 3500);
-})();
-</script>
 
 <!-- External Fonts -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
@@ -796,7 +770,6 @@ style="display:none;visibility:hidden"></iframe>
   hiScoreElement.textContent =
     "HI " + String(highScore).padStart(5, "0");
 
-
   /* =========================================================
      FORMAT SCORE
      ========================================================= */
@@ -804,7 +777,6 @@ style="display:none;visibility:hidden"></iframe>
   function formatScore(number) {
     return String(Math.floor(number)).padStart(5, "0");
   }
-
 
   /* =========================================================
      JUMP
@@ -824,7 +796,6 @@ style="display:none;visibility:hidden"></iframe>
     dino.classList.add("jumping");
   }
 
-
   /* =========================================================
      DUCK
      ========================================================= */
@@ -840,14 +811,12 @@ style="display:none;visibility:hidden"></iframe>
 
   }
 
-
   function stopDuck() {
 
     ducking = false;
     dino.classList.remove("duck");
 
   }
-
 
   /* =========================================================
      KEYBOARD
@@ -874,7 +843,6 @@ style="display:none;visibility:hidden"></iframe>
 
   });
 
-
   document.addEventListener("keyup", function (event) {
 
     if (event.code === "ArrowDown") {
@@ -882,7 +850,6 @@ style="display:none;visibility:hidden"></iframe>
     }
 
   });
-
 
   /* =========================================================
      MOBILE / MOUSE
@@ -904,7 +871,6 @@ style="display:none;visibility:hidden"></iframe>
     },
     { passive: true }
   );
-
 
   /* =========================================================
      CREATE OBSTACLE
@@ -935,7 +901,6 @@ style="display:none;visibility:hidden"></iframe>
 
   }
 
-
   /* =========================================================
      COLLISION
      ========================================================= */
@@ -955,7 +920,6 @@ style="display:none;visibility:hidden"></iframe>
     );
 
   }
-
 
   /* =========================================================
      GAME OVER
@@ -984,7 +948,6 @@ style="display:none;visibility:hidden"></iframe>
     gameOverScreen.classList.add("show");
 
   }
-
 
   /* =========================================================
      RESTART
@@ -1028,7 +991,6 @@ style="display:none;visibility:hidden"></iframe>
 
   }
 
-
   restartButton.addEventListener(
     "click",
     function (event) {
@@ -1040,7 +1002,6 @@ style="display:none;visibility:hidden"></iframe>
 
     }
   );
-
 
   /* =========================================================
      GAME LOOP
@@ -1084,7 +1045,6 @@ style="display:none;visibility:hidden"></iframe>
       dino.style.bottom =
         (65 + dinoY) + "px";
 
-
       /* -------------------------
          Score
          ------------------------- */
@@ -1094,14 +1054,12 @@ style="display:none;visibility:hidden"></iframe>
       scoreElement.textContent =
         formatScore(score);
 
-
       /* -------------------------
          Difficulty
          ------------------------- */
 
       gameSpeed =
         6 + Math.min(score / 100, 8);
-
 
       /* -------------------------
          Create obstacles
@@ -1124,7 +1082,6 @@ style="display:none;visibility:hidden"></iframe>
 
       }
 
-
       /* -------------------------
          Move obstacles
          ------------------------- */
@@ -1137,7 +1094,6 @@ style="display:none;visibility:hidden"></iframe>
           (game.clientWidth - item.x) + "px";
 
       });
-
 
       /* -------------------------
          Collision detection
@@ -1171,7 +1127,6 @@ style="display:none;visibility:hidden"></iframe>
     requestAnimationFrame(gameLoop);
 
   }
-
 
   /* =========================================================
      START GAME

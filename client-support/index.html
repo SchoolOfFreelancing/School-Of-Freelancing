@@ -1,6 +1,15 @@
 <!DOCTYPE html>
 <html lang="en-US">
 <head>
+<!-- Google tag (gtag.js) -->
+<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
+<script>
+  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-1LNS69YXG5');
+</script>
+
 <meta charset="UTF-8">
 <meta http-equiv="x-ua-compatible" content="ie=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=5">
@@ -150,36 +159,6 @@
 <meta name="yandex-verification" content="7a5b0116b50f4d68">
 <meta name="facebook-domain-verification" content="2304476026236470">
 
-
-<!-- Google tag (gtag.js) -->
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-1LNS69YXG5');
-
-  // Defer the ~169KB gtag.js payload until the user actually interacts
-  // (or a short fallback delay for non-interacting visits/bots), so it
-  // doesn't compete with the critical rendering path on first load.
-  (function() {
-    var loaded = false;
-    function loadGtagJs() {
-      if (loaded) return;
-      loaded = true;
-      var s = document.createElement('script');
-      s.async = true;
-      s.src = 'https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5';
-      document.head.appendChild(s);
-      ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
-        window.removeEventListener(evt, loadGtagJs, { passive: true });
-      });
-    }
-    ['scroll','mousemove','keydown','touchstart','click'].forEach(function(evt) {
-      window.addEventListener(evt, loadGtagJs, { passive: true, once: true });
-    });
-    setTimeout(loadGtagJs, 3500);
-  })();
-</script>
 <!-- Preconnect to external domains -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
@@ -538,7 +517,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </a>
   </div>
 </article>
-
 
    <!-- Linux Server Support -->
 <article 
@@ -2068,12 +2046,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </a>
   </div>
 </article>
-
-
-
-
-
-
 
          </div>
 
