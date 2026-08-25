@@ -10,17 +10,21 @@ description: "180-hour, 6-month hands-on Linux Systems Administration training. 
 [TOC]
 ## Overview
 
-Linux Freelancing Training is a premium hands-on Linux System Administration
-program that prepares you to deliver Linux server, cloud, and DevOps services,
-earn on freelance marketplaces, and work directly with global clients.
+Linux Freelancing Training is a hands-on Linux system administration training
+program built by freelancers for freelancers to level up high-demand technical
+skills to secure top-tier marketplace gigs and work directly with global remote
+clients.
 
-## Training at a Glance:
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Format: | Live, Hands-On Training with Zero Pre-Recorded Videos. |
-| Covers: | Linux Systems Administration on Ubuntu Server, plus freelance client acquisition on Upwork, Guru, Freelancer, LinkedIn and YouTube Channel. |
-| Best for: | This training is designed for beginners who are comfortable using any operating system and want to learn Linux through hands-on, real-world, project-based training. |
+| Duration: | 90 Hands-on training sessions over six months training. |
+| Price: | $599 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Deploy real-world Linux projects into production and turn them into freelance Linux System Administrator services. Learn client acquisition through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
+| Best for: | Beginner-friendly Linux training for learners comfortable with any operating system, featuring hands-on, real-world, project-based learning. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ## Participation Requirements:
 
@@ -48,17 +52,6 @@ applications.
 
 An improved version of a real task you regularly perform.
 
-## Hands-on Training Modules:
+## Training Modules:
 
-Review each session to maximize your freelancing Linux skills.
-
-## Guaranteed Minimum Income Conditions:
-
-- **Attendance:** Zero-Leave attendance across all training sessions.
-- **Active Bidding:** Purchase bids/connects on marketplaces to search, apply, and get hired for jobs.
-
-## Payment Gateways
-
-Pay the **$599** enrollment fee below, then click **Complete Registration** .
-
-## Already paid?
+## Secure Your Seat Now

@@ -7,49 +7,31 @@ description: "Telnyx SMS REST API setup and support: A2P 10DLC registration, two
 
 # Telnyx SMS API Setup & Support | School of Freelancing
 
-Want to learn this yourself instead of hiring us? [**Check out Telnyx SMS API
-Training**](/freelancing-training/telnyx-sms-api-training/) .
-
 [TOC]
-
 ## What Is Telnyx SMS API Setup & Support?
 
-Telnyx SMS API Setup & Support is School of Freelancing's done-for-you
-integration service for the Telnyx
-Messaging API — a REST API for sending bulk and two-way SMS, including A2P
-10DLC-compliant messaging for U.S.
-long codes. We handle account and messaging profile setup, A2P 10DLC brand and
-campaign registration guidance,
-two-way messaging with inbound webhooks, and bulk SMS integration into your
-application, so businesses and
-developers get a working, tested integration without doing the compliance and
-engineering work themselves.
+Telnyx SMS API Setup & Support (by School of Freelancing) gets your two-way bulk
+SMS up and running — fast, compliant, and hassle-free. We manage everything:
+account setup, A2P 10DLC brand/campaign registration guidance, inbound webhook
+configuration, and full integration into your app. You get a tested, working SMS
+system without touching the compliance paperwork or backend engineering.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 40 engineering hours over 1-4 weeks
+- **Format:** Remote support, worldwide delivery
+- **Turnaround:** ~40 hours, delivered in 1–4 weeks — pace depends on your responsiveness with Telnyx.
 - **Price:** $1,100 USD flat rate
-- **Covers:** Telnyx REST API & messaging profile setup, A2P 10DLC brand/campaign registration guidance, two-way messaging with inbound webhooks, bulk SMS integration
-- **Best for:** Businesses and developers who need to launch bulk or two-way SMS messaging on Telnyx and need A2P 10DLC registration handled alongside a working, tested API integration
+- **Covers:** Telnyx Messaging API full setup, A2P 10DLC registration, two-way webhooks, and send bulk SMS from CSV.
+- **Best for:** Businesses and developers launching bulk/two-way SMS on Telnyx who need A2P 10DLC registration and a tested integration.
 
-## Telnyx SMS API Setup & Support at a Glance
+## Setup Requirements:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $1,100 USD flat rate |
-| Turnaround | 40 engineering hours / 1-4 weeks |
-| Delivery | Remote, worldwide |
-| What you provide | Telnyx account & messaging profile access, application/workflow details for SMS integration |
-| Support window | Post-delivery support window included, with optional monthly maintenance plans |
-
-## What's Included
-
-- Telnyx SMS REST API setup and configuration for your account and messaging profile
-- A2P 10DLC brand and campaign registration guidance for U.S. SMS compliance
-- Two-way SMS messaging setup, including inbound webhooks and message routing
-- Bulk SMS integration into your application or workflow
-- Secure remote assistance and a post-delivery support window
+| DigitalOcean | Ubuntu Linux Server |
+| Subdomain | sms.domain.com & api.domain.com |
+| Messaging API | SMPP or REST HTTP API |
+| SMS API | A2P and P2P |
 
 ## Who This Is For
 

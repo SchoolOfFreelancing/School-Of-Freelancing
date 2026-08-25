@@ -1,11 +1,11 @@
 ---
-title: "Twilio SMS API Training | School of Freelancing"
+title: "Learn how to send bulk SMS using the Twilio Messaging API"
 author: "Karim (Masum)"
 date: 2026-08-10
-description: "40-hour, 1-4 week hands-on Twilio SMS API Training: bulk SMS via the Twilio Messaging API, A2P 10DLC registration, production-ready integrations. $800."
+description: "Learn how to send bulk SMS using the Twilio Messaging API, A2P 10DLC campaign registration, and production-ready SMS integration."
 ---
 
-# Twilio SMS API Training | School of Freelancing
+# Learn how to send bulk SMS using the Twilio Messaging API
 
 Prefer to skip the training and have it done for you? [**Hire us for Twilio SMS
 API Support**](/linux-ai-services/twilio-sms-api-services/) instead.

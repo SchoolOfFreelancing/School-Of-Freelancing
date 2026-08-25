@@ -1,83 +1,87 @@
 ---
-title: "About us | School of Freelancing"
+title: "About Us | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-08-10
 description: "Founded in 2015 by Karim (Masum), School of Freelancing trains beginners into professional Linux freelancers and offers Linux support to businesses."
 ---
 
-# About us | School of Freelancing
+# About Us | School Of Freelancing
 
 [TOC]
 ## Why We're Obsessed With Linux
 
-Linux powers most servers, cloud platforms, and DevOps pipelines. We put that
-power and its income in your hands.
+Linux powers most servers, cloud platforms, and DevOps pipelines.
+We put that power and its income in your hands.
 
 ### Our Mission
 
-To make professional Linux skills accessible to anyone, anywhere, and to turn
-those skills into real, dependable income — for individuals building a freelance
-career and for businesses that rely on Linux infrastructure every day.
+To democratize Linux and AI skills worldwide,
+turning technical training into freelance income
+and robust business infrastructure solutions.
 
 We deliver on this through two pillars:
 
-- **Linux Freelancing Training** — practical trainings in server administration, DevOps, cloud infrastructure, and automation, paired with the freelance business skills (proposals, pricing, client communication) needed to actually get hired on Upwork, Fiverr, and Toptal.
-- **Linux Cloud Support** — hands-on, expert support for businesses: VPS setup, server hardening, migrations, monitoring, and emergency troubleshooting, delivered by the same specialists who train our students.
+- **Freelancing Training:** Master Linux, AI, DevOps, VoIP, SMS and cloud automation
+to secure high-paying clients on Upwork, Fiverr, and Toptal.
+- **Client Support:** Direct expert assistance for business VPS setup,
+server hardening, migrations, and 24/7 troubleshooting.
 
 ### Our Vision
 
-A world where Linux literacy is the fastest, most reliable on-ramp into the
-global freelance economy, and where no business ever loses time or revenue to a
-server they don't understand.
+To power the global freelance economy through Linux and AI
+literacy while eliminating business revenue loss from server downtime.
 
 Concretely, we're working toward a future where:
 
-- Any motivated beginner, regardless of location, degree, or background, can become a confident, employable Linux freelancer in months, not years.
-- School of Freelancing is the first name businesses think of when they need affordable, trustworthy Linux and cloud support.
-- Our graduates form a global, self-sustaining community of Linux freelancers who hire, refer, and mentor one another for life.
+- Any motivated beginner, regardless of location, degree,
+or background, can become a confident, employable Linux
+freelancer in months, not years.
+- School of Freelancing is the first name businesses think of
+when they need affordable, trustworthy Linux, AI and cloud support.
 
 ## Two Ways to Work With Us
 
-Want to learn Linux and freelance? Or need a Linux expert to run your
-infrastructure today? Either way, we've built a track for you.
+Learn Linux freelancing or secure expert infrastructure support.
+We have the perfect track for you.
 
-### 🎓 Linux Freelancing Training
+### Freelancing Training:
 
 ### 🛠️ Linux Cloud Support
 
 ## Meet the Founder
 
-School of Freelancing was founded in 2015 by **Karim (Masum)** , Founder & Lead
-Instructor, who personally leads instruction for our training programs. With 11+
-years of hands-on Linux infrastructure experience, Mr. Masum has built and
-maintained production systems for businesses worldwide, from startups to
-enterprises.
+![Masum](/assets/images/masum.webp)
 
-### Expertise & Experience
-
-His technical background spans:
-
-- **Linux Administration:** Ubuntu, CentOS, Debian server hardening, performance tuning, and troubleshooting
-- **Cloud Infrastructure:** DigitalOcean, AWS, Google Cloud deployment and optimization
-- **DevOps & Automation:** Docker, Kubernetes, CI/CD pipelines, Infrastructure-as-Code
-- **VoIP & Telecommunications:** FusionPBX, FreeSWITCH, SIP trunking, call center systems
-- **API Integration:** Twilio, Telnyx, VAPI voice AI, SMS gateways
-- **AI & Automation:** Claude, Hermes Agent, LLM deployment, AI workflow integration
+Founded in 2015 by Lead Instructor **[Karim
+(Masum)](https://www.linkedin.com/in/anythinglinux/)** ,
+School of Freelancing delivers expert-led technical training.
+A pioneer in Bangladesh’s tech ecosystem since 2001,
+Mr. Masum specializes in enterprise production systems
+and organized the country’s first Web Development and
+E-Commerce Fair, as well as the landmark workshop at the
+British Council in Dhaka.
 
 ### Teaching Philosophy
 
-Mr. Masum believes technology should be accessible. He teaches by doing, using
-real production systems rather than simulations. Every training program ends
-with a live, deployed system and a completed Upwork/Freelancer profile — not a
-certificate.
+Mr. Masum believes technology should be accessible.
+He teaches by doing, using real production systems rather
+than simulations. Every training program ends with a live,
+deployed system and a completed Upwork/Freelancer profile —
+not a certificate.
 
-> Students consistently credit his hands-on, plain-language teaching style. As one puts it in a [Google review](/resource-center/testimonials/) : "Mr. Masum had the ability to convey complicated ideas in a way that was simple to comprehend, with beneficial examples."
+> Students consistently credit his hands-on,
+> plain-language teaching style. As one puts it in a [Google review](/resource-center/testimonials/) :
+> "Mr. Masum had the ability to convey complicated ideas
+> in a way that was simple to comprehend, with beneficial examples."
 
-His approach has trained 100+ successful freelancers now earning on Upwork,
-Freelancer, and Guru, and supported 50+ businesses with mission-critical
-infrastructure.
+Mr. Masum’s signature training approach has built a global
+community of successful freelancers earning on top platforms.
+Additionally, his technical expertise has powered
+mission-critical infrastructure for over 50 global businesses,
+driving digital transformation from startups to enterprises.
 
-## Freelance Training & Service
+## Backed by the Pi Network Community
 
-At School Of Freelancing, get expert Linux & AI Freelancing Training or 24/7
-Linux & IT Technical Services.
+School Of Freelancing has been validated on [Pi Network's
+Brainstorm](https://brainstorm.pinet.com/project/66eac4846833d5003cb3ba54)
+platform.

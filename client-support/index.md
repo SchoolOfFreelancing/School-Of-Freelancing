@@ -7,330 +7,330 @@ description: "Expert Linux, DevOps, AI, VoIP & SMS support services at School of
 
 # Client Support Services | School of Freelancing
 
-![Linux Server Support](/assets/images/linux.webp)
+![DigitalOcean Tech Support](/assets/images/digitalocean.webp)
 
 [TOC]
 
-## [Linux Server Services](/client-support/linux-server-services/)
+## [DigitalOcean Tech Support](/client-support/digitalocean-cloud-services/)
 
-Deploy enterprise-grade Linux systems administration with intelligent cloud
-tuning. Our certified engineers deliver robust server setup, automated security
-hardening (CIS benchmarks), fast remote issue resolution, and custom shell
-scripting for complex DevOps pipelines.
+DigitalOcean 24/7 Tech Support for Linux Servers, AI, Kubernetes, VPS,
+Networking, and Production Automation.
 
-- Secure server setup & hybrid cloud orchestration.
-- Fast remote troubleshooting & log analysis.
-- Cryptographic auditing & firewall configuration.
-- 24-hour dedicated post-installation support.
+**DigitalOcean Support Features:**
 
-![Hermes Agent logo](/assets/images/hermesagent.webp)
+- 24/7 Emergency Response
+- Full Server Maintenance
+- Production-Ready App Deployment
+- Automated Backup & Monitoring
 
-## [Hermes Agent Setup Service](/client-support/hermes-agent-services/)
+![Hummingbot Setup Support](/assets/images/blackhummingbot.svg)
 
-Deploy advanced autonomous workflows with Hermes Agent Support. Our certified
-engineers configure persistent memory layers, orchestrate self-improving skill
-graphs, and establish low-latency multi-platform messaging integrations across
-enterprise secure nodes.
+## [Hummingbot Setup Support](/client-support/hummingbot-installation-services/)
 
-- Persistent cognitive memory setup & vector routing.
-- Self-improving tool calling & custom skill mapping.
-- Multi-platform enterprise messaging agent deployment.
-- 24-hour dedicated post-installation engineering support.
+Can't get Hummingbot running? Get expert help fixing installation, dependency,
+API, and configuration bugs now.
 
-![Odysseus logo](/assets/images/odysseus.webp)
+**Hummingbot Setup Features:**
 
-## [Odysseus Private AI Workspace Support](/client-support/odysseus-ai-services/)
+- 24/7 Emergency Response
+- Setup Production Hummingbot on Tailscale
+- Setup MCP, Client Gateway & Telegram Bot
+- API Integration, Strategy & Bug Fixing
 
-Take absolute control over data privacy with Odysseus Self-hosted AI Workspace
-Support. Our infrastructure experts deploy enterprise LLMs, fine-tuning scripts,
-and collaboration web UIs directly onto your dedicated bare-metal hardware or
-private cloud cluster.
+## [Voice AI Agent Setup Support](/client-support/vapi-platform-services/)
 
-- Local bare-metal hardware deployment & GPU tuning.
-- Private LLM integration & secure dataset onboarding.
-- Zero-leakage data privacy & local firewall management.
-- 24-hour dedicated post-installation systems support.
+AI Agent Setup Support for voice agent build, STT/LLM/TTS integration,
+telephony, webhooks, function call configs.
 
-![OpenClaw logo](/assets/images/openclaw.webp)
+**Voice AI Agent Setup Features**
 
-## [OpenClaw AI Agent Support](/client-support/openclaw-ai-services/)
+- 24/7 Emergency Response
+- AI Prompt & Conversation Flows
+- Telephony SIP, API & Webhook Integration
+- Campaign, CRM Integration & Testing
 
-Deploy open-source autonomous agent platforms with OpenClaw Support. Our
-certified systems engineers optimize complex runtime environments, manage
-tool-calling APIs, and configure secure workflows for your 24/7 self-hosted
-digital personal assistant.
+![Linux Server Support](/assets/images/linux.webp)
 
-- Autonomous agent node setup & runtime tuning.
-- Secure local tool-calling API key integration.
-- 24/7 digital personal assistant workflow automation.
-- 24-hour dedicated post-installation infrastructure support.
+## [Linux Server Support](/client-support/linux-server-services/)
 
-![LocalAI logo](/assets/images/localai.svg)
+One-stop solution for app deployment, configuration, migration, monitoring, and
+troubleshooting.
 
-## [LocalAI Deployment Support](/client-support/local-ai-services/)
+**Linux Server Support Features**
 
-Run full multi-modal AI pipelines on premise with LocalAI Support. Our certified
-engineers configure open-source AI engines to execute LLMs, computer vision,
-voice generation, and video synthesis on your existing hardware infrastructure
-with or without dedicated GPUs.
+- 24/7 Emergency Support
+- Fast remote troubleshooting
+- Monitoring Linux Server.
+- Post-installation support.
 
-- Local AI engine setup & CPU/GPU hardware scaling.
-- Multi-modal model configuration (LLM, vision, voice).
-- Private API endpoint creation & local inference routing.
-- 24-hour dedicated post-installation systems support.
+![Hermes Agent Setup Support](/assets/images/hermesagent.webp)
 
-![ZeroClaw logo](/assets/images/zeroc.svg)
+## [Hermes Agent Setup Support](/client-support/hermes-agent-services/)
 
-## [ZeroClaw Expert Support](/client-support/zeroclaw-ai-services/)
+Hermes Agent setup support for task automation, chat workflows, code and remote
+messaging control.
 
-Optimize your autonomous workflows with ZeroClaw Support. Our certified systems
-engineers deploy your personal AI assistant runtime, establish multi-LLM secure
-API routing, and build low-latency custom integrations for Anthropic, OpenAI,
-Ollama, and 20+ other leading language model infrastructures.
+**Hermes Agent Support Features**
 
-- Agent runtime deployment & server configuration.
-- Multi-LLM provider endpoint & secure API routing.
-- Personal AI assistant workflow cross-platform integration.
-- 24-hour dedicated post-installation infrastructure support.
+- Full Hermes Agent Setup.
+- Model Integration.
+- Multi-Profile System.
+- Sandboxed Environment
 
-![GitLab logo](/assets/images/gitlab.webp)
+![Odysseus AI Setup Support](/assets/images/odysseus.webp)
+
+## [Odysseus AI Setup Support](/client-support/odysseus-ai-services/)
+
+Odysseus AI setup for enterprise LLMs, fine-tuning, and UIs on bare-metal or
+private cloud.
+
+**Odysseus AI Support Features**
+
+- Odysseus AI production setup.
+- Enterprise LLM Integration.
+- Fine-Tuning Scripts.
+- Collaboration Web UIs.
+
+![OpenClaw Setup Support](/assets/images/openclaw.webp)
+
+## [OpenClaw Setup Support](/client-support/openclaw-ai-services/)
+
+OpenClaw production setup support starts here. Our engineers optimize OpenClaw,
+APIs, and secure 24/7 self-hosting.
+
+**OpenClaw Setup Features**
+
+- OpenClaw Production Setup.
+- Tool-Calling API Management.
+- Secure Workflow Configuration.
+- Autonomous Platform Deployment.
+
+![LocalAI Setup Support](/assets/images/localai.svg)
+
+## [LocalAI Setup Support](/client-support/local-ai-services/)
+
+Set up LocalAI to run open-source LLMs, vision, voice, and video engines locally
+on your existing hardware.
+
+**LocalAI Setup Features**
+
+- LocalAI Full Installation.
+- Model Gallery & YAML Configuration.
+- Models Directory Setup.
+- Local API Endpoint support.
+
+![ZeroClaw Setup Support](/assets/images/zeroc.svg)
+
+## [ZeroClaw Setup Support](/client-support/zeroclaw-ai-services/)
+
+Deploy ZeroClaw for your personal AI runtime, secure multi-LLM API routing, and
+low-latency language models.
+
+**ZeroClaw Setup Features**
+
+- ZeroClaw Installation & configuration.
+- Multi-LLM provider endpoint setup.
+- Secure API routing integration.
+- Post-installation infrastructure support.
+
+![GitLab Setup Support](/assets/images/gitlab.webp)
 
 ## [GitLab Setup Support](/client-support/gitlab-services/)
 
-Optimize your development pipeline with self-hosted GitLab CE Support. Our
-experienced Linux system administrators deliver robust on-premise installation,
-seamless repository migration, secure backup configurations, and optimized CI/CD
-runner setups.
+Optimize pipelines with self-hosted GitLab CE: on-prem installation, secure
+backups, and fast CI/CD runners.
 
-- GitLab CE bare-metal or cloud installation.
-- Seamless repository & secure data migration.
-- CI/CD runner optimization & pipeline tuning.
-- 24-hour dedicated post-installation system support.
+**GitLab Setup Features**
 
-![GitHub logo](/assets/images/github.webp)
+- On-premise secure installation.
+- Seamless repository migration.
+- Robust backup configurations.
+- Optimized CI/CD runners.
+
+![GitHub Server Setup Support](/assets/images/github.webp)
 
 ## [GitHub Server Setup Support](/client-support/github-services/)
 
-Deploy secure, on-premise development workflows with GitHub Enterprise Server
-Support. Our expert Linux administrators deliver flawless bare-metal or cloud
-server deployment, enterprise repository migration, and optimized integration
-for GitHub Actions CI/CD pipelines.
+Deploy GitHub Enterprise Server: on-premise installation, secure migrations, and
+optimized Actions pipelines.
 
-- GitHub Enterprise installation & identity access configuration.
-- Secure repository migration & data backup engineering.
-- GitHub Actions runner deployment & workflow tuning.
-- 24-hour dedicated post-installation infrastructure support.
+**GitHub Setup Features**
 
-![Docker logo](/assets/images/docker.webp)
+- On-premise server deployment.
+- Enterprise repository migration.
+- Secure development workflows.
+- Optimized Actions pipelines.
 
-## [Docker Engineer Services](/client-support/docker-engineer-services/)
+![Docker Engineer Support](/assets/images/docker.webp)
 
-Ship production-grade containers with Docker Engineer Services. Our certified
-engineers deliver optimized Dockerfile & Compose builds, Nginx reverse proxy
-with Let's Encrypt SSL, hardened non-root images, and persistent volume &
-secrets configuration.
+## [Docker Engineer Support](/client-support/docker-engineer-services/)
 
-- Dockerfile & multi-stage Compose build optimization.
-- Domain, SSL & Nginx reverse proxy configuration.
-- Security hardening & non-root container auditing.
-- 24-hour dedicated post-deployment infrastructure support.
+Ship production containers with Docker: optimized builds, SSL reverse proxy,
+non-root images, and secure secrets.
 
-![Telnyx logo](/assets/images/telnyx.webp)
+**Docker Engineer Support Features**
 
-## [Telnyx VoIP SIP Support & Telephony](/client-support/telnyx-sip-trunking-services/)
+- Docker Application Setup
+- Optimized Dockerfile builds
+- Hardened non-root images.
+- Secure secrets configuration.
 
-Deploy global voice connectivity with Telnyx VoIP SIP Support. Our expert
-telecommunication engineers optimize private IP network routing, configure
-high-availability SIP trunking pipelines, and implement secure cloud call center
-API integrations.
+![Telnyx VoIP SIP Support](/assets/images/telnyx.webp)
 
-- SIP trunking configuration & private IP voice routing.
-- Fast remote VoIP troubleshooting & latency tuning.
-- Cloud telephony setup & CRM call center integration.
-- 24-hour dedicated post-installation infrastructure support.
+## [Telnyx VoIP SIP Support](/client-support/telnyx-sip-trunking-services/)
 
-![Twilio logo](/assets/images/twilio.svg)
+Deploy global voice via Telnyx VoIP SIP: private IP routing, HA trunking, and
+secure cloud call center APIs.
 
-## [Twilio VoIP SIP Support & Telephony](/client-support/twilio-sip-trunking-services/)
+**Telnyx Support Features**
 
-Scale global cloud communications with Twilio VoIP SIP Support. Our certified
-telecommunication engineers deliver seamless Elastic SIP Trunking setup,
-configure programmable cloud voice API pipelines, and deploy secure remote call
-center architectures.
+- Full setup and SIP call test.
+- Private IP network routing.
+- High-availability SIP trunking.
+- Secure call center APIs.
 
-- Elastic SIP trunking setup & programmable voice routing.
-- Fast remote VoIP troubleshooting & call quality tuning.
-- Cloud communication architecture & call center API integration.
-- 24-hour dedicated post-installation infrastructure support.
+![Twilio VoIP SIP Support](/assets/images/twilio.svg)
 
-![FusionPBX logo](/assets/images/fusionpbx.webp)
+## [Twilio VoIP SIP Support](/client-support/twilio-sip-trunking-services/)
 
-## [FusionPBX VoIP Support & Telephony](/client-support/fusionpbx-voip-services/)
+Scale global voice via Twilio: Elastic SIP trunking, programmable voice APIs,
+and secure call center setups.
 
-Deploy enterprise multi-tenant switching platforms with FusionPBX VoIP Support.
-Our certified systems engineers deliver robust server administration, advanced
-inbound/outbound dialplan configuration, secure carrier trunking setup, and
-high-availability FreeSWITCH tuning.
+**Twilio Support Features**
 
-- Multi-tenant PBX installation & FreeSWITCH optimization.
-- Advanced inbound/outbound dialplan routing configuration.
-- Secure carrier SIP trunking & ACL firewall setup.
-- 24-hour dedicated post-installation infrastructure support.
+- Full Twilio
+- Elastic SIP trunking setup.
+- Secure remote call centers.
+- Global communication scaling.
 
-![Goautodial logo](/assets/images/goautodial.webp)
+![FusionPBX VoIP Support](/assets/images/fusionpbx.webp)
 
-## [Goautodial VoIP Support & Contact Center](/client-support/goautodial-voip-services/)
+## [FusionPBX VoIP Support](/client-support/fusionpbx-voip-services/)
 
-Deploy high-performance call center infrastructures with Goautodial VoIP
-Support. Our certified systems engineers optimize open-source omnichannel
-suites, configure advanced Asterisk and Kamailio routing, and tune Vicidial
-engines for scalable enterprise lead management.
+Deploy multi-tenant switching via FusionPBX: advanced dialplans, carrier
+trunking, and FreeSWITCH tuning.
 
-- Omnichannel suite setup & Vicidial engine optimization.
-- Advanced Asterisk SIP trunking & Kamailio session routing.
-- Predictive dialer configuration & inbound/outbound setup.
-- 24-hour dedicated post-installation infrastructure support.
+**FreeSWITCH Support Features**
 
-![Ubuntu logo](/assets/images/ubuntu.svg)
+- FreeSWITCH full setup and test.
+- Advanced dialplan configuration setup.
+- Secure carrier trunking integration.
+- High-availability FreeSWITCH tuning.
 
-## [Ubuntu Linux Support & Engineering](/client-support/ubuntu-linux-services/)
+![Goautodial VoIP Support](/assets/images/goautodial.webp)
 
-Deploy production-grade server architectures with Ubuntu Linux Support. Our
-certified systems administrators handle OS installation, kernel optimization,
-custom security hardening, continuous update repository management, and
-automated troubleshooting for scalable DevOps nodes.
+## [Goautodial VoIP Support](/client-support/goautodial-voip-services/)
 
-- Ubuntu server optimization & production OS deployment.
-- Automated kernel patching & security policy updates.
-- Fast remote environment diagnostics & crash log resolution.
-- 24-hour dedicated post-installation system support.
+Deploy call centers via Goautodial: omnichannel routing, Asterisk tuning, and
+scalable lead management.
 
-![CentOS logo](/assets/images/centos.svg)
+**GOautodial Support Features**
+
+- GOautodial full setup and test.
+- Advanced Asterisk routing configuration.
+- Scalable enterprise lead management.
+- High-performance Kamailio engine tuning.
+
+![Ubuntu Linux Support](/assets/images/ubuntu.svg)
+
+## [Ubuntu Linux Support](/client-support/ubuntu-linux-services/)
+
+Deploy Ubuntu Linux servers: production-grade architecture, kernel tuning,
+custom hardening, and DevOps updates.
+
+**Ubuntu Support Features**
+
+- Setup application production.
+- Kernel optimization tuning options.
+- Custom security hardening protocols.
+- Automated DevOps node troubleshooting.
+
+![CentOS Linux Support](/assets/images/centos.svg)
 
 ## [CentOS Linux Support & Engineering](/client-support/centos-linux-services/)
 
-Deploy secure and reliable infrastructure with enterprise CentOS Linux Support.
-Our certified systems engineers deliver specialized package management,
-repository mirroring, custom security hardening, and safe migration strategies
-to modern Enterprise Linux distributions.
+Deploy CentOS Linux infrastructure: custom security hardening, package
+management, and safe modern migrations.
 
-- CentOS infrastructure management & enterprise package updates.
-- Legacy systems troubleshooting & security patch orchestration.
-- Rocky/AlmaLinux migration paths & server configuration.
-- 24-hour dedicated post-installation system support.
+**CentOS Support Features**
 
-![OpenAI logo](/assets/images/openai.png)
+- Setup application CentOS.
+- CentOS troubleshooting & security support.
+- Modern enterprise migration strategies.
+- 24-hour post-installation support.
 
-## [OpenAI Platform Support & API Integration](/client-support/openai-platform-services/)
+![OpenAI Platform Support](/assets/images/openai.png)
 
-Accelerate production deployment with enterprise OpenAI Platform Support. Our
-certified AI engineers deliver secure API key optimization, structured data
-formatting setup, custom model fine-tuning orchestration, and robust middleware
-engineering for next-generation intelligence.
+## [OpenAI Platform Support](/client-support/openai-platform-services/)
 
-- OpenAI API key optimization & token budget tuning.
-- Custom model fine-tuning & structured input mapping.
-- Secure enterprise middleware & private endpoint configuration.
-- 24-hour dedicated post-installation development support.
+Accelerate OpenAI deployment: secure API key optimization, model fine-tuning,
+and robust middleware setup.
 
-![Claude logo](/assets/images/claudelogo.webp)
+**OpenAI Support Features**
 
-## [Claude Platform Support & API Integration](/client-support/claude-ai-platform-services/)
+- OpenAI API Integration with app.
+- Secure API key optimization.
+- Structured data formatting setup.
+- 24-hour post-installation support.
 
-Deploy production-grade intelligent applications with enterprise Claude Platform
-Support. Our certified AI engineers optimize Anthropic API pipelines, configure
-massive context window tracking, implement structured tool-calling, and build
-secure middleware infrastructure.
+![Claude Platform Support](/assets/images/claudelogo.webp)
 
-- Claude API integration & prompt caching optimization.
-- Context window tuning & structured data extraction.
-- Secure Anthropic model middleware & agent orchestration.
-- 24-hour dedicated post-installation deployment support.
+## [Claude Platform Support](/client-support/claude-ai-platform-services/)
 
-![Telnyx logo](/assets/images/telnyx.webp)
+Deploy Claude apps: optimize Anthropic pipelines, track large contexts,
+implement tool-calling, and secure middleware.
 
-### [Telnyx SMS API Setup](/client-support/telnyx-sms-api-services/)
+**Claude Support Features**
 
-[View Sample Repo
-→](https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Setup.git)
+- Anthropic Claude API integration.
+- Context window tracking management.
+- Structured tool-calling setups.
+- 24-hour post-installation support.
 
-Telnyx's Messaging API supports sending and receiving both SMS and MMS.
-Including A2P/P2P 10DLC registration &smp; campaign setup support for bulk SMS
-integration and testing.
+![Telnyx SMS API Setup Support](/assets/images/telnyx.webp)
 
-- ✔ Telnyx REST API & SMPP API Integration
-- ✔ Configure Telnyx A2P or P2P Traffic Architecture
-- ✔ Webhook endpoint deployment for two-way messaging
-- ✔ 40 Hours of expert remote engineering support
+### [Telnyx SMS API Setup Support](/client-support/telnyx-sms-api-services/)
 
-![Twilio logo](/assets/images/twilio.svg)
+Telnyx Messaging API support: send/receive SMS/MMS, plus A2P 10DLC registration,
+campaign setup, and testing.
 
-## [Twilio SMS API Support & Integration](/client-support/twilio-sms-api-services/)
+**Telnyx Support Features**
 
-Deploy production-grade communication infrastructure with expert Twilio
-Messaging API support. We build secure API authentication pipelines, configure
-automated multi-tenant bulk messaging, and handle enterprise A2P 10DLC
-compliance campaign registrations.
+- SMS MMS messaging delivery.
+- A2P 10DLC brand registration.
+- Bulk campaign setup optimization.
+- Inbound/outbound webhook testing support.
 
-- ✔ Fast Twilio Messaging API issue resolution.
-- ✔ Secure remote infrastructure deployment & authentication.
-- ✔ Cost-effective bulk SMS architectural optimization.
-- ✔ 24-hour dedicated post-installation deployment assistance.
+![Twilio SMS API Support](/assets/images/twilio.svg)
 
-![Jasmin SMS Gateway logo](/assets/images/jasmin.svg)
+## [Twilio SMS API Support](/client-support/twilio-sms-api-services/)
+
+Deploy Twilio messaging: secure API authentication, automated bulk text
+pipelines, and A2P 10DLC compliance.
+
+**Twilio Support Features**
+
+- Twilio Messaging setup and test.
+- Automated bulk text messaging.
+- Enterprise A2P 10DLC compliance.
+- Production-grade communication infrastructure.
+
+![Jasmin SMS Gateway Support](/assets/images/jasmin.svg)
 
 ## [Jasmin SMS Gateway Support](/client-support/jasmin-sms-gateway-services/)
 
-Build a robust, production-grade telco communication system. Our systems
-engineers configure Jasmin SMS Gateway with playSMS, optimizing Redis DLR
-tracking, RabbitMQ message brokers, and advanced SMPP/HTTP server routing tables
-for high-throughput business messaging.
+Build Jasmin & playSMS: optimize Redis DLR, RabbitMQ brokers, and SMPP/HTTP
+high-throughput telco routing.
 
-- ✔ Fast Jasmin SMS core engine & jCli issue resolution.
-- ✔ Secure remote AMQP broker & Redis storage clustering.
-- ✔ Cost-effective multi-tenant playSMS web portal integration.
-- ✔ 24-hour dedicated post-installation deployment assistance.
+**Jasmin SMS Gateway Setup Features**
 
-![DigitalOcean logo](/assets/images/digitalocean.webp)
-
-## [DigitalOcean Cloud Support](/client-support/digitalocean-cloud-services/)
-
-Professional DigitalOcean cloud support for server deployment, troubleshooting,
-security, networking, backups, and production infrastructure — delivered
-remotely, worldwide.
-
-- Storage, AI & API support for DigitalOcean Spaces and managed services.
-- Inference & compute support for droplets and Kubernetes workloads.
-- Data services and networking support (managed databases, VPCs, load balancers).
-- Ongoing remote support after initial deployment.
-
-![Hummingbot logo](/assets/images/blackhummingbot.svg)
-
-## [Hummingbot Installation Support](/client-support/hummingbot-installation-services/)
-
-Professional Hummingbot setup, configuration, and deployment — plus Exchange API
-integration and MCP & Skills setup — for automated crypto trading, delivered
-remotely, worldwide.
-
-- Full Hummingbot ecosystem deployment on your own server or cloud instance.
-- Cloud AI API integration support for strategy configuration.
-- Exchange REST API integration support for connecting trading accounts.
-- Hummingbot MCP, Skills, and Tailscale setup for secure remote access.
-
-![Vapi logo](/assets/images/agent.svg)
-
-## [Vapi Platform Support](/client-support/vapi-platform-services/)
-
-Build voice AI agents that can make and receive phone calls. Expert Vapi setup,
-configuration, and troubleshooting, delivered remotely, worldwide.
-
-- Vapi voice AI agent setup so it can make and receive phone calls.
-- Natural-conversation configuration tuned to your use case.
-- Integration with your existing systems and APIs.
-- Appointment scheduling and customer-support call flow setup.
+- Jasmin SMS Gateway Full Setup
+- SMPP/REST API Integration
+- 2 Way Bulk SMS Test from CSV.
+- 24-hour post-installation support.
 
 ## Frequently Asked Questions
 
-## Need Expert Support? Start Now!
+## Need Consultation? Start Now!
 
 Book a free 15-minute consultation to find the right support for your business.
