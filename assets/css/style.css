@@ -680,10 +680,10 @@ img { max-width: 100%; height: auto; display: block; }
 .card:hover::before { opacity: 1; }
 
 /* ---------- Features Grid ---------- */
-.features-grid {
+.features-grid-3 {
   display: grid;
-  grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
-  gap: 24px;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 20px;
 }
 
 .feature-card {
@@ -2233,6 +2233,8 @@ img { max-width: 100%; height: auto; display: block; }
   h2 { font-size: 1.5rem; }
   .trainings-grid { grid-template-columns: 1fr; }
   .hero-stats { gap: 20px; flex-wrap: wrap; }
+  .features-grid-3 { gap: 8px; }
+  .feature-card { padding: 12px 8px; }
 }
 
 /* ---------- Utility ---------- */

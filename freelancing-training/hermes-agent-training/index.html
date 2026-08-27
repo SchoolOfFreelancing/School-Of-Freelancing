@@ -117,6 +117,18 @@
   .detail-meta { display:flex; gap:12px; flex-wrap:wrap; margin: 25px 0; }
   .detail-meta span { background: rgba(255,255,255,0.15); border-radius: 6px; padding: 10px 18px; font-weight: 600; font-size: 0.95rem; }
   .section { padding: 40px 0; }
+
+  /* Content spacing optimization */
+  .training-features-section { padding-bottom: 0; }
+  .training-features-section .spec-table { margin-bottom: 0; }
+  .participation-section { padding-top: 12px; }
+  .participation-section > .container > article { margin-bottom: 16px; }
+  .participation-section .features-grid { margin-top: 0; }
+  .participation-section .feature-card .detail-list { margin-bottom: 0; }
+  .participation-section .feature-card p:last-child,
+  .participation-section .feature-card ul:last-child { margin-bottom: 0; }
+  .participation-section .detail-wrap > article.card:first-child { margin-top: 24px; }
+  .participation-section .detail-wrap > article.card + article.card { margin-top: 24px !important; }
   .detail-list { padding-left: 20px; margin-bottom: 30px; list-style-type: square; }
   .detail-list li { margin-bottom: 12px; line-height: 1.6; }
   .requirement-card { background: rgba(255,255,255,0.05); padding: 20px; border-left: 4px solid #fff; margin-bottom: 30px; border-radius: 0 8px 8px 0; }
@@ -261,7 +273,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 </header>
 
 <!-- AI-CITABLE OVERVIEW -->
-<section class="section" style="padding-bottom:0;" aria-label="Hermes Agent Training overview">
+<section class="section training-features-section" style="padding-bottom:0;" aria-label="Hermes Agent Training overview">
   <div class="container detail-wrap">
 
     <div class="card" style="margin-bottom:32px;">
@@ -287,10 +299,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 
-<section class="section">
+<section class="section participation-section">
   <div class="container">
-    <article class="detail-wrap" style="max-width:none;">
-      <h3 style="margin-bottom:20px;">Participation Requirements:</h3>
+    <article class="detail-wrap" style="max-width:none; margin-bottom:0;">
+      <h3 style="margin:0 0 20px;">Participation Requirements:</h3>
     </article>
     <div class="features-grid features-grid-3">
       <div class="feature-card">
@@ -317,7 +329,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
     <div class="detail-wrap">
 
-      <article class="card" style="margin-top:30px;">
+      <article class="card" style="margin-top:24px;">
         <h3 style="margin-bottom:20px;">You'll leave with:</h3>
         <div class="features-grid features-grid-3">
           <div class="feature-card">
@@ -335,7 +347,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </article>
 
-      <article class="card" style="margin-top:30px;">
+      <article class="card" style="margin-top:24px;">
         <h3 style="text-align: center;">Training Modules</h3>
         <table class="spec-table" style="width:100%;">
           <thead>
@@ -378,7 +390,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </table>
       </article>
    
-      <article class="card" style="text-align: center; margin-top:24px;">
+      <article class="card" style="text-align:center; margin-top:24px;">
           <h2>Secure Your Seat Now</h2>
         <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
        <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" class="btn btn-primary btn-lg">Ask your mentor</a>
