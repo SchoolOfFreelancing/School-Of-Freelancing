@@ -1,103 +1,75 @@
 ---
-title: "ZeroClaw Hands-on Training | School of Freelancing"
+title: "ZeroClaw: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 5-day hands-on ZeroClaw Training covering fundamentals, production deployment, and building a profitable freelance service around ZeroClaw. $250."
+date: 2026-08-28
+description: "A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it."
 ---
 
-# ZeroClaw Hands-on Training | School of Freelancing
+# ZeroClaw: Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for ZeroClaw
-Support**](/client-support/zeroclaw-ai-services/) instead.
+## Overview
 
-[TOC]
+A hands-on Freelancing training covering ZeroClaw fundamentals, production
+deployment, and building a profitable service around it.
 
-## What Is ZeroClaw Hands-on Training?
-
-ZeroClaw Hands-on Training is School of Freelancing's 20-hour, instructor-led
-course covering ZeroClaw — a personal AI agent runtime that connects to LLM
-providers such as Anthropic, OpenAI, Ollama, and around 20 others — from core
-fundamentals through production deployment. Trainees learn to install,
-configure, and troubleshoot ZeroClaw for real client workloads, then structure
-that expertise as a paid freelance service on marketplaces like Upwork,
-Freelancer.com, and Guru.com.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on training
-- **Duration:** 20 hours over 2 weeks
-- **Price:** $250 USD, paid in full before enrollment
-- **Covers:** ZeroClaw fundamentals and core architecture, production deployment, configuring and maintaining instances for client workloads, troubleshooting, and turning ZeroClaw support into a paid freelance service
-- **Best for:** Beginners and career-changers who want to specialize in ZeroClaw and can commit to the full hands-on schedule
-
-## ZeroClaw Hands-on Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $250 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions | Not broken into numbered sessions on this page; the "Who This Is For" section describes the 20 hours as delivered over 5 days |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, valid government-issued ID |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 hours over 2 weeks. |
+| Price: | $115 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Deploy ZeroClaw into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
+| Best for: | Freelancers and IT professionals who want to specialize in high-performance ZeroClaw deployments and launch a freelance career around them. |
 
-## What You'll Learn
+### Participation Requirements:
 
-### ZeroClaw Architecture & Fundamentals
+### Training Prerequisites
 
-Understand ZeroClaw's design as a personal AI agent runtime. Learn how it
-connects to multiple LLM providers and enables flexible AI agent deployment.
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
+- **Rigorous:** Need to have patience and concentration during all training sessions.
 
-### LLM Provider Integration
+### Connectivity
 
-Configure ZeroClaw to work with various LLM providers: Anthropic Claude, OpenAI
-GPT, Ollama local models, and 20+ others. Understand provider selection and
-optimization.
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-### Production Deployment
+### Training Rules
 
-Deploy ZeroClaw on production Ubuntu servers with proper security, networking,
-and configuration management.
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-### Instance Configuration & Maintenance
+### You'll leave with:
 
-Configure ZeroClaw instances for specific client workloads, manage
-configurations, and maintain instances reliably.
+Hands-on experience in live, self-hosted ZeroClaw production deployment
 
-### Troubleshooting & Support
+Marketplace portfolio proving real support and Freelance-ready ZeroClaw
+integration skills
 
-Diagnose and resolve ZeroClaw issues, understand error codes, and support
-production deployments.
+Stronger habits for deploying, troubleshooting, and managing ZeroClaw projects
 
-### Building Client Solutions
+### Training Modules
 
-Design ZeroClaw deployments that solve real business problems, integrate with
-client systems, and deliver measurable value.
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **Week 1** | 1 | VPS Provisioning & DNS | Deploy DigitalOcean droplet, set up A/AAAA DNS records, initial server access |
+| 2 | Linux Server Hardening | Configure SSH keys, disable root password login, set up UFW firewall rules |  |
+| 3 | Web Server Setup | Install NGINX web server, construct virtual host block, set proxy rules |  |
+| 4 | SSL & Domain Security | Issue Certbot / Let's Encrypt SSL certificates, enforce HTTPS redirects |  |
+| 5 | Core Environment Setup | Install dependencies, configure database connections, set up environment paths |  |
+| 6 | ZeroClaw Installation | Deploy ZeroClaw core instance, configure .env settings, set initial configs |  |
+| 7 | Access Control & Roles | Configure user permissions, role-based access, workspace data isolation |  |
+| 8 | Daemonization & Systemd | Configure systemd service files, set up auto-restart policies on server reboot |  |
+| 9 | Production Hardening | Install Fail2ban intrusion protection, protect API endpoints, configure rate limits |  |
+| 10 | Automated Backups & Logs | Create automated backup scripts, setup log rotation routines, system health monitoring |  |
+| **Week 2** | 11 | Maintenance & Updates | Execute safe ZeroClaw update workflows, system health check automation |
+| 12 | Client Support & Alerts | Set up uptime monitoring services, build client-facing support routines |  |
+| 13 | Portfolio Live Deployment | Publish a live public demo instance of ZeroClaw to showcase to clients |  |
+| 14 | GitHub Proof of Work | Build and publish custom deployment scripts to a clean GitHub repository |  |
+| 15 | Marketplace Profile Setup | Create high-converting profiles on Upwork, Guru, and Freelancer.com |  |
+| 16 | Service & Pricing Tiers | Define fixed-rate ZeroClaw setups and recurring monthly maintenance packages |  |
+| 17 | Content & Video Marketing | Record 5 targeted ZeroClaw service demo videos for marketing showcase |  |
+| 18 | Social Outreach Strategy | Craft outbound LinkedIn post templates and direct client prospecting workflows |  |
+| 19 | Job Search & Proposals | Master job filtering techniques, write winning proposals, submit live bids |  |
+| 20 | Onboarding & Capstone | Client onboarding process, invoicing workflows, testimonial capture, capstone Q&A |  |
 
-## Course Objectives
-
-By the end of this training program, you will be able to:
-
-- **Deploy** ZeroClaw on production Ubuntu servers
-- **Configure** ZeroClaw to work with multiple LLM providers
-- **Maintain** ZeroClaw instances for client workloads
-- **Troubleshoot** ZeroClaw deployment issues
-- **Design** solutions using ZeroClaw for business problems
-- **Offer** ZeroClaw deployment and support as a freelance service
-
-## Who This Is For
-
-This training suits beginners and career-changers who want to specialize in
-ZeroClaw and can commit to 20 hours of hands-on, instructor-led training over 5
-days, and who meet the [system & participation requirements](/contact-us/)
-(Ubuntu Desktop 24.04/26.04 LTS PC, reliable fiber-optic internet, and a valid
-government-issued ID).
-
-## Secure Payment Gateways
-
-Pay the **$250** enrollment fee below, then click **Complete Registration** to
-secure your spot.
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now

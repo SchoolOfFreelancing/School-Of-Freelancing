@@ -1,7 +1,7 @@
 ---
 title: "Docker Engineer Services | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Professional Docker containerization & production deployment — Dockerfile & Compose setup, domain/SSL configuration, and security hardening."
 ---
 

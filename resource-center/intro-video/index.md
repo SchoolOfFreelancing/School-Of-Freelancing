@@ -1,7 +1,7 @@
 ---
 title: "Intro Video | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Watch the School of Freelancing introduction: hands-on Linux & AI freelancing training and reliable Linux/IT support services, built on real production systems."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!"
 ---
 

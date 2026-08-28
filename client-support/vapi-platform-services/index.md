@@ -1,7 +1,7 @@
 ---
 title: "Vapi Platform Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert Vapi setup, configuration, and troubleshooting for voice AI agents that make and receive phone calls. Fast, remote support worldwide."
 ---
 

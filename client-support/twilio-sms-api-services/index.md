@@ -1,7 +1,7 @@
 ---
 title: "Twilio SMS API Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Twilio SMS API support for sending bulk SMS: A2P 10DLC campaign registration, API authentication, and production-ready SMS integration."
 ---
 

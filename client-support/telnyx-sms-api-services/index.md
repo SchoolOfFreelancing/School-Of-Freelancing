@@ -1,7 +1,7 @@
 ---
 title: "Telnyx SMS API Setup & Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Telnyx SMS REST API setup and support: A2P 10DLC registration, two-way messaging, and bulk SMS integration and testing."
 ---
 

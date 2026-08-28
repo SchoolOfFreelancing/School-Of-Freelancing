@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw AI Agent Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert OpenClaw AI Agent Support: setup, configuration & troubleshooting for your open-source autonomous AI agent platform running as a 24/7 assistant."
 ---
 

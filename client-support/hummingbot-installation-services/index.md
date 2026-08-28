@@ -1,7 +1,7 @@
 ---
 title: "Hummingbot Installation Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Professional Hummingbot setup, configuration & deployment for automated crypto trading — plus Exchange API integration and MCP & Skills setup."
 ---
 

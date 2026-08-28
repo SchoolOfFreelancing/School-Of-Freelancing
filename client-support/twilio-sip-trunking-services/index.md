@@ -1,7 +1,7 @@
 ---
 title: "Twilio VoIP SIP Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Twilio VoIP SIP setup powering global VoIP connectivity with a private IP network, SIP, and call center integrations. 24-hour support included."
 ---
 

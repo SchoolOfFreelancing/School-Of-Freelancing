@@ -1,154 +1,79 @@
 ---
-title: "FusionPBX VoIP Training | School of Freelancing"
+title: "FusionPBX: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 5-day hands-on FusionPBX VoIP Training for all skill levels, from basic setup to advanced configuration. $500."
+date: 2026-08-28
+description: "Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service."
 ---
 
-# FusionPBX VoIP Training | School of Freelancing
+# FusionPBX: Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for FusionPBX
-VoIP Support**](/client-support/fusionpbx-voip-services/) instead.
+## Overview
 
-[TOC]
+Learn FusionPBX VoIP deployment, advanced configuration, and call-routing setup,
+then turn that skill into a profitable freelance service with real client
+acquisition.
 
-## What Is FusionPBX VoIP Training?
-
-FusionPBX VoIP Training is School of Freelancing's 20-hour, instructor-led
-course covering FusionPBX, an open-source, web-based VoIP/PBX platform built on
-FreeSWITCH that businesses use to run their phone infrastructure. The training
-takes students from basic setup — installing FusionPBX on a production server
-and configuring extensions, IVRs, call routing, and voicemail — through advanced
-multi-tenant and enterprise configuration and VoIP/SIP trunking troubleshooting.
-It's designed for beginners and career-changers who want to offer FusionPBX
-installation and support as a freelance service.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on training
-- **Duration:** 20 hours over 2 weeks
-- **Price:** $500 USD, paid in full before enrollment
-- **Covers:** FusionPBX installation and configuration, extensions/IVRs/call routing/voicemail, multi-tenant and enterprise features, VoIP/SIP trunking troubleshooting
-- **Best for:** Beginners and career-changers seeking freelance FusionPBX VoIP support work
-
-## FusionPBX VoIP Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $500 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions | 5 days of hands-on, instructor-led training |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server, a domain, a verified freelance marketplace account |
-| Marketplaces targeted | Upwork, Guru.com, Freelancer.com |
+| Duration: | 20 Hands-on training sessions over one month training. |
+| Price: | $519 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service. |
+| Best for: | VoIP Service Providers, Linux System Administrators & DevOps Engineers, Call Centers & Telemarketing Operations, Managed Service Providers, Enterprise & Large Organizations. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+|  |  |
 
-## What You'll Learn in FusionPBX Training
+### Participation Requirements:
 
-### FusionPBX Architecture: FreeSWITCH Foundations
+### Training Prerequisites
 
-Understand FusionPBX's architecture built on top of FreeSWITCH, the open-source
-VoIP engine powering thousands of phone systems. Learn how SIP, IVR, and call
-routing work at a technical level, so you can troubleshoot complex issues and
-explain systems to clients confidently.
-
-### FusionPBX Installation & Server Setup
-
-Deploy FusionPBX on production Ubuntu Linux servers from scratch. Configure the
-database, install dependencies, secure the web interface with SSL, and optimize
-performance for multi-tenant deployments handling hundreds of extensions.
-
-### Extensions, Users & Authentication
-
-Set up user accounts, configure SIP extensions, assign devices to users, and
-manage authentication and registration. Support remote workers, mobile clients,
-and desk phones all using the same underlying FusionPBX system.
-
-### Call Routing, IVR & Auto-Attendant
-
-Design professional call routing that directs callers to the right department,
-configure Interactive Voice Response (IVR) systems that guide callers, and set
-up auto-attendants that give businesses a professional phone presence without a
-receptionist.
-
-### Voicemail, Conference Rooms & Call Recording
-
-Implement voicemail systems with email notification, set up conference bridges
-for group calls, and configure call recording for compliance and quality
-assurance — features every business phone system needs.
-
-### VoIP & SIP Trunking Configuration
-
-Connect FusionPBX to external VoIP service providers (SIP trunks) to replace
-traditional phone lines. Configure inbound/outbound call handling, manage DID
-numbers, and understand the SIP protocol that makes VoIP work.
-
-### Multi-Tenant & Enterprise Features
-
-Build reseller-grade FusionPBX deployments where you manage multiple customer
-accounts from one system. Configure tenant isolation, resource limits, billing,
-and white-labeled interfaces so each customer feels they own their phone system.
-
-### Troubleshooting VoIP Issues & Call Quality
-
-Diagnose and fix no-audio, one-way audio, dropped calls, and quality issues.
-Read logs, understand SIP traces, test codecs, and identify whether problems are
-in FusionPBX, the SIP trunk, or the customer's network. Essential skills for
-client support.
-
-### FusionPBX Backup, Disaster Recovery & Maintenance
-
-Back up configurations and voicemail, implement automated disaster recovery,
-plan for failover, and perform system maintenance. Ensure your clients' phone
-systems never go down.
-
-## Course Objectives
-
-By the end of this training program, you will be able to:
-
-- **Install** FusionPBX on a production Ubuntu server with proper security and optimization
-- **Configure** extensions, IVR, call routing, and voicemail for professional phone systems
-- **Integrate** FusionPBX with external SIP trunks to replace traditional phone lines
-- **Troubleshoot** VoIP and SIP issues using logs, call traces, and diagnostic tools
-- **Deploy** multi-tenant FusionPBX environments for reseller and enterprise customers
-- **Implement** backup and disaster recovery procedures to protect phone system data
-- **Support** production FusionPBX systems including routine maintenance and upgrades
-- **Offer** FusionPBX installation and support as a freelance service on Upwork, Guru, and Freelancer
-- **Design** professional call flows that solve real business communication challenges
-- **Manage** billing and reporting for multi-tenant FusionPBX deployments
-
-## Participation Requirements
-
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## What You'll Learn
+### Training Rules
 
-- Installing and configuring FusionPBX from scratch on a production server
-- Setting up extensions, IVRs, call routing, and voicemail
-- Configuring advanced FusionPBX features for multi-tenant and enterprise use cases
-- Troubleshooting common VoIP and SIP trunking issues
-- Offering FusionPBX setup and support as a freelance service
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Who This Is For
+### You'll leave with:
 
-This training suits beginners and career-changers who can commit to 20 hours of
-hands-on, instructor-led training over 5 days, and who meet the [system &
-participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
-reliable fiber-optic internet, and a valid government-issued ID).
+Hands-on experience in live, FusionPBX VoIP deployment & administration
 
-## Secure Payment Gateways
+Marketplace portfolio proving FusionPBX VoIP setup, call test, migration and
+security.
 
-Pay the **$500** enrollment fee below, then click **Complete Registration** to
-confirm.
+Stronger habits for deploying, troubleshooting, and managing FusionPBX VoIP
+infrastructure
 
-## Finalize Your Seat
+### Training Modules
 
-Already paid? Click **Complete Registration** to confirm your enrollment.
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | Server & Cloud Infrastructure | DigitalOcean droplet deployment, Linux server setup, domain DNS setup, SSH security, and firewall configuration |
+| 2 | FusionPBX Production Installation | Installing FreeSWITCH and FusionPBX core on Debian/Ubuntu server infrastructure with PostgreSQL database setup |  |
+| 3 | SSL, Domain & GUI Hardening | Configuring NGINX web server, Let's Encrypt SSL certificates, HTTPS domain routing, and web admin portal security |  |
+| 4 | SIP Trunking & Gateways | Configuring external SIP gateways/trunks (Telnyx, Twilio, VoIP.ms) and setting up inbound/outbound call routing rules |  |
+| 5 | Extensions & Softphone Setup | Creating SIP extensions, configuring softphones (Linphone/Zoiper) & IP phones, NAT traversal, and TLS/SRTP encryption |  |
+| **Two** | 6 | Advanced Call Routing & IVR | Designing Interactive Voice Response (IVR) menus, auto-attendants, ring groups, call queues, and voicemail-to-email |
+| 7 | Multi-Tenancy & Domain Setup | Configuring multi-tenant FusionPBX architecture, tenant isolation, domain management, and custom branding |  |
+| 8 | Call Testing & Quality Verification | Executing live inbound/outbound call testing, audio codec optimization, SIP packet inspection, and audio quality verification |  |
+| 9 | Security Hardening & Fail2ban | Hardening FreeSWITCH/FusionPBX against SIP attacks, configuring Fail2ban, UFW rules, and SIP access control lists (ACL) |  |
+| 10 | Maintenance, Backups & Disaster Recovery | Automating PostgreSQL database backups, FreeSWITCH config backups, log rotation, and emergency recovery procedures |  |
+| **Three** | 11 | Freelancer Service & Portfolio Setup | Structuring a professional FusionPBX VoIP engineer service portfolio with technical proof-of-work documentation |
+| 12 | Upwork Profile & Service Creation | Creating targeted Upwork profile, specialized VoIP engineering profile, and Project Catalog for FusionPBX setup services |  |
+| 13 | Freelancer.com Service & Portfolio | Building a high-converting Freelancer.com profile, listing FusionPBX VoIP deployment services, and portfolio showcases |  |
+| 14 | Guru.com Service & Profile Setup | Establishing a complete Guru.com profile, service offerings, work agreement templates, and technical pricing tiers |  |
+| 15 | Cross-Platform Portfolio Integration | Embedding live test call recordings, gateway configs, and setup documentation across Upwork, Freelancer.com, and Guru |  |
+| **Four** | 16 | Service Video Content Creation | Recording professional service video demonstrations of FusionPBX deployment, IVR menu configuration, and call testing |
+| 17 | YouTube Video Publishing & SEO | Uploading demonstration videos to YouTube optimized with VoIP search tags, structured descriptions, and client CTA links |  |
+| 18 | Direct Client Outreach & Marketing | Executing targeted LinkedIn direct outreach and community marketing to acquire clients needing FusionPBX VoIP support |  |
+| 19 | Marketplace Bidding & Proposal Strategy | Crafting high-converting proposals, fast-response bidding techniques, and project scoping for VoIP job postings |  |
+| 20 | Client Onboarding, Handover & Support | Managing client onboarding, secure SIP credential handoff, maintenance contracts, requesting 5-star reviews, and final Q&A |  |
+
+## Secure Your Seat Now

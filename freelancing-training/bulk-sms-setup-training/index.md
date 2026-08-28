@@ -1,154 +1,78 @@
 ---
-title: "Bulk SMS Engineering Training | School of Freelancing"
+title: "Bulk SMS - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 2-week hands-on Bulk SMS Engineering Training: Jasmin/PlaySMS deployment, SMPP connectors, REST/HTTP API integration, DLR tracking. $400."
+date: 2026-08-28
+description: "Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients."
 ---
 
-# Bulk SMS Engineering Training | School of Freelancing
-
-Prefer to have this deployed for you instead? [**See our Jasmin SMS Gateway
-Support**](/client-support/jasmin-sms-gateway-services/) .
+# Bulk SMS - Freelancing Training
 
 [TOC]
+## Overview
 
-## What Is Bulk SMS Engineering Training?
+Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging,
+deploy production workflows, land freelance clients.
 
-Bulk SMS Engineering Training is School of Freelancing's 20-hour, instructor-led
-course that teaches Linux users to deploy a production bulk SMS gateway — Jasmin
-SMS Gateway/PlaySMS with SSL, SMPP connectors, REST/HTTP API integration, bulk
-queuing, and DLR tracking — then apply those skills to win freelance SMS gateway
-clients. It is built for beginners to intermediate Linux users who want
-job-ready SMPP and REST/HTTP API integration skills.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on labs
-- **Duration:** 20 hours across 10 sessions over 2 weeks
-- **Price:** $400 USD, paid in full before enrollment
-- **Covers:** Jasmin SMS Gateway/PlaySMS installation, domain/SSL, SMPP connectors, REST/HTTP API integration, bulk sending & queue management, DLR tracking, two-way messaging, monitoring
-- **Best for:** Beginner-to-intermediate Linux users seeking freelance SMS gateway/bulk messaging work
-
-## Bulk SMS Engineering Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $400 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions/Days | 10 sessions × 2 hours |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server, a domain, an SMPP or REST/HTTP API SMS provider account, a freelance marketplace account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Hands-On Sessions delivered across two weeks. |
+| Price: | $849 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Interactive Training with Practical Production Labs. |
+| Covers: | How to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients. |
+| Best for: | Backend Developers, Linux Administrators, Telecommunication Engineers, & Technical Freelancers. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
-## Participation Requirements
+### Participation Requirements:
 
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **SMS Provider:** Access to an SMPP connection or REST/HTTP API SMS provider (e.g. Twilio, Telnyx, or aggregator sandbox account).
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+### Training Prerequisites
+
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux, sub domains & SMS API.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Training Rules
+### Training Rules
 
-- These [Training Rules ("Ground Rules")](/legal/training-rules/) apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Who This Is For
+### What You'll Learn:
 
-Beginners to intermediate Linux users who want job-ready SMS gateway engineering
-skills (SMPP + REST/HTTP API integration) and the ability to freelance on
-Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach. You should
-be able to commit to 20 hours of hands-on, instructor-led training over 2 weeks.
+Learn how to build bulk SMS systems with SMS APIs and land freelance clients.
 
-## Curriculum: 10 Sessions × 2 Hours (20 Hours Total)
+Automate custom CSV batch messaging, rate-limiting, queuing, and real-time
+webhook delivery tracking.
 
-### Week 1 — Core SMS Gateway Infrastructure
+Package bulk messaging solutions into high-paying freelance offers on Upwork,
+Freelancer, and direct client outreach.
 
-### Session 1: SMS Protocols & Gateway Fundamentals (2h)
+## Training Modules
 
-- SMPP vs REST/HTTP API — how bulk SMS actually moves
-- SMS gateway architecture: MC/SMSC, ESME, connectors
-- Server provisioning on Ubuntu (DigitalOcean VPS)
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **Week 1** | 1 | Bulk SMS Ecosystem & Protocols | Understanding SMPP vs HTTP/REST APIs, SMSC architectures, Sender IDs, and regulatory compliance (10DLC, Toll-Free verification). |
+| 2 | SMS API Provider Setup & Webhooks | Provisioning Telnyx & Twilio accounts, acquiring long codes/shortcodes, configuring API tokens, and incoming webhooks. |  |
+| 3 | Linux Environment & Worker Setup | Configuring Ubuntu Server, installing Node.js/Python runtimes, Redis server, and setting up environment variables securely. |  |
+| 4 | REST API Message Dispatching | Building programatic single and batch SMS dispatch scripts using official SDKs and standard HTTP clients. |  |
+| 5 | Handling Delivery Receipts (DLR) | Designing incoming webhook listeners to track real-time message delivery statuses (queued, delivered, failed, undelivered). |  |
+| **Week 2** | 6 | CSV Data Parsing & Sanitization | Ingesting dynamic CSV/Excel files, cleaning E.164 phone numbers, validating carrier data, and handling variable substitution. |
+| 7 | High-Throughput Queue Management | Implementing RabbitMQ/Redis (BullMQ) queues to handle large-scale CSV bulk broadcasts without hitting provider rate limits. |  |
+| 8 | Rate Limiting & Concurrency Control | Configuring token bucket algorithms, managing MPS (Messages Per Second) restrictions, and multi-number pool rotation. |  |
+| 9 | Automated Retry & Failover Logic | Designing intelligent retry engines for transient errors, carrier fallback routing, and dead-letter queue (DLQ) processing. |  |
+| 10 | Google Sheets & Webhook Integration | Connecting bulk SMS engines with Google Sheets API and Zapier/Make for non-technical client campaign management. |  |
+| **Week 3** | 11 | Jasmin SMS Gateway Overview & Deployment | Installing Jasmin SMS Gateway on Ubuntu, configuring RabbitMQ message broker, and managing `jcli` configuration. |
+| 12 | SMPP Client Connectors (`smppcc`) | Connecting Jasmin to upstream wholesale SMS aggregators using SMPP v3.4 binds (Transmitter/Receiver/Transceiver). |  |
+| 13 | HTTP API & User Quotas in Jasmin | Configuring Jasmin HTTP API endpoints, setting up customer accounts, rate limits, and prepaid credit management. |  |
+| 14 | Database Logging & Analytics Dashboards | Persisting message logs into PostgreSQL/MySQL, creating real-time delivery reports, and building client-facing dashboards. |  |
+| 15 | Production Hardening, SSL & Systemd | Securing webhooks with HTTPS (Certbot/Nginx), setting up Systemd service daemons, log rotation, and system monitoring. |  |
+| **Week 4** | 16 | Two-Way SMS & Auto-Responder Workflows | Building interactive SMS bots, keyword-based auto-replies, and routing inbound SMS to customer support webhooks. |
+| 17 | End-to-End Production Stress Testing | Simulating a 50,000-message CSV campaign, benchmark testing system performance, queue latency, and error tracking. |  |
+| 18 | Packaging Bulk SMS Freelance Services | Defining high-demand freelance offers: custom bulk SMS dispatchers, Jasmin gateway setups, and Telnyx/Twilio integrations. |  |
+| 19 | Upwork & Marketplace Proposal Strategies | Crafting winning proposals, setting project pricing (fixed-rate vs. retainers), and building a standout technical portfolio. |  |
+| 20 | Direct Client Outreach & Project Handover | Finding direct clients on LinkedIn, delivering comprehensive documentation, automated deployment scripts, and ongoing support. |  |
 
-### Session 2: Installing an Open-Source SMS Gateway (2h)
-
-- Installing Jasmin SMS Gateway (or PlaySMS)
-- Web admin/CLI setup, initial configuration
-- Firewall (UFW) & port planning for SMPP
-
-### Session 3: Domain, SSL & Secure Access (2h)
-
-- Pointing a domain to the SMS gateway server
-- SSL/HTTPS for the admin panel/API endpoints
-- Securing SSH and admin access
-
-### Session 4: SMPP Connector Setup (2h)
-
-- Configuring SMPP binds (transmitter/receiver/transceiver)
-- Connecting to an SMPP provider, testing bind status
-- Sending/receiving test SMS over SMPP
-
-### Session 5: REST/HTTP API Integration (2h)
-
-- Building REST/HTTP API routes for sending SMS (Twilio/Telnyx APIs as reference)
-- API authentication, rate limits, error handling
-- Webhook setup for delivery reports (DLRs) and inbound SMS
-
-### Week 2 — Advanced Setup & Freelance Readiness
-
-### Session 6: Bulk Sending & Queue Management (2h)
-
-- Bulk message queuing, throughput throttling
-- Message routing rules, filters, and priority queues
-- Handling long messages (concatenated SMS)
-
-### Session 7: Delivery Reports & Two-Way Messaging (2h)
-
-- DLR handling and status tracking
-- Two-way SMS flows (auto-replies, keyword triggers)
-- Database logging of sent/received messages
-
-### Session 8: Monitoring, Logs & Maintenance (2h)
-
-- Monitoring gateway health, connector status, logs
-- Backups of configuration and message logs
-- Scaling considerations for high-volume campaigns
-
-### Session 9: Client Project Simulation (2h)
-
-- Full end-to-end task: fresh VPS → SMS gateway → domain/SSL → SMPP + REST API → bulk send campaign
-- Troubleshooting common issues (bind failures, throughput throttling, DLR mismatches)
-- Documentation & handover practices (client-ready reports)
-
-### Session 10: Freelance Client Acquisition (2h)
-
-- Building winning Upwork/Freelancer.com/Guru.com profiles & portfolios
-- Writing proposals that win SMS gateway/bulk messaging gigs
-- Pricing your services (hourly vs fixed-price gigs)
-- LinkedIn strategy: optimizing profile, outreach scripts, content posting for direct clients
-
-## Deliverables Upon Completion
-
-- A live portfolio project (your own SSL-secured SMS gateway with SMPP + REST/HTTP API integration and bulk send capability)
-- Ready-to-use Upwork/Freelancer/Guru profile & proposal templates
-- LinkedIn outreach message templates for direct client acquisition
-- Access to School of Freelancing community for ongoing support
-
-## Tools & Platforms Covered
-
-Ubuntu Linux, Jasmin SMS Gateway/PlaySMS, SMPP, REST/HTTP APIs, UFW, Nginx,
-Certbot/Let's Encrypt, Upwork, Freelancer.com, Guru.com, LinkedIn
-
-## Secure Payment Gateways
-
-Pay the **$400** enrollment fee below, then click **Complete Registration** to
-confirm.
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now

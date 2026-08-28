@@ -1,7 +1,7 @@
 ---
 title: "Claude Platform Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Claude API & developer support for building AI applications on the Claude Platform API: integration, authentication, streaming, tool use, and troubleshooting."
 ---
 

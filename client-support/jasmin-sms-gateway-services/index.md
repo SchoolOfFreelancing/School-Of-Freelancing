@@ -1,7 +1,7 @@
 ---
 title: "Jasmin SMS Gateway Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Jasmin SMS Gateway support for building a production-ready bulk SMS system with Jasmin and playSMS for legitimate business SMS delivery."
 ---
 

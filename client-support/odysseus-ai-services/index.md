@@ -1,7 +1,7 @@
 ---
 title: "Odysseus AI Workspace Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert Odysseus AI Workspace Support: self-hosted setup, configuration & troubleshooting for your own AI workspace on your own hardware."
 ---
 

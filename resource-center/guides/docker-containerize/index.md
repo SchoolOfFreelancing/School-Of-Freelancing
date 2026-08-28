@@ -1,7 +1,7 @@
 ---
 title: "How to Containerize a Legacy Web Application | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."
 ---
 

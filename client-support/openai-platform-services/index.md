@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Platform Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert OpenAI Platform Support: API & developer support for building AI applications using the OpenAI Platform API. 24-hour support included."
 ---
 

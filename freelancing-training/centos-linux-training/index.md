@@ -1,84 +1,80 @@
 ---
-title: "CentOS Linux Training | School of Freelancing"
+title: "CentOS Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 5-day intensive CentOS Linux Training covering system administration, server security, networking, automation, and troubleshooting. $250."
+date: 2026-08-28
+description: "Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients."
 ---
 
-# CentOS Linux Training | School of Freelancing
+# CentOS Linux - Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for CentOS
-Linux Support**](/client-support/centos-linux-services/) instead.
+## Overview
 
-[TOC]
+Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN &
+Next.js, troubleshoot errors, build portfolios, land clients.
 
-## What Is CentOS Linux Training?
-
-CentOS Linux Training is School of Freelancing's 20-hour, instructor-led course
-built around CentOS Linux, an enterprise-grade Linux server distribution. The
-training teaches beginners and career-changers practical CentOS system
-administration, server security, networking, automation, and troubleshooting
-through real-world scenarios, then prepares them to turn those skills into
-freelance work.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on training
-- **Duration:** 20 hours over 5 days (hero badge also lists a 2-week program window)
-- **Price:** $250 USD, paid in full before enrollment
-- **Covers:** CentOS system administration, server security, networking, automation, and troubleshooting
-- **Best for:** Beginners and career-changers seeking freelance CentOS server administration work
-
-## CentOS Linux Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $250 USD |
-| Duration | 20 hours (hero badge lists a 2-week program window) |
-| Sessions/Days | 5-day intensive format |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux Server (24.04/26.04 LTS via DigitalOcean), a domain or subdomain, a verified Upwork/Guru/Freelancer account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Hands-on training sessions over one month training. |
+| Price: | $181 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | CentOS server setup, LEMP/LAMP stack deployment with custom domains, Python Django SSL integration, Apache Hadoop cluster setup, MEAN stack, Next.js deployments, error troubleshooting, portfolio publishing (Upwork, Freelancer.com, Guru.com), YouTube Proof of Work (PoW) video marketing, and client outreach. |
+| Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, Data Engineers, & IT Support Technicians. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+|  |  |
 
-## Participation Requirements
+### Participation Requirements:
 
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+### Training Prerequisites
+
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Guaranteed Minimum Income (GMI)
+### Training Rules
 
-- **This training secures a Guaranteed Minimum Income (GMI) under two conditions:**
-- **Attendance Requirement: Consecutive attendance in all training sessions is mandatory. The guarantee is automatically voided in the event of any absence, personal dropouts, or technical disruptions.**
-- **Active Marketplace Engagement: Trainees must purchase the required connects or bids on freelancing platforms to actively apply for marketplace jobs.**
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## What You'll Learn
+### You'll leave with:
 
-- Practical CentOS system administration and server hardening
-- Configuring server security and access controls on CentOS
-- Networking setup and troubleshooting on CentOS servers
-- Automating repetitive administration tasks on CentOS
-- Diagnosing and resolving real-world CentOS server issues
+Proven expertise to set up LEMP/LAMP stacks with custom domains, and deploy &
+troubleshoot Python Django, Apache Hadoop, MEAN stack, and Next.js on CentOS
+Linux.
 
-## Who This Is For
+Published service offerings on Upwork, Freelancer.com, and Guru.com backed by
+Proof of Work (PoW) demonstration videos on YouTube.
 
-This training suits beginners and career-changers who can commit to 20 hours of
-hands-on, instructor-led training over 5 days, and who meet the [system &
-participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
-reliable fiber-optic internet, and a valid government-issued ID).
+Actionable marketing and client acquisition strategies to land marketplace
+projects and direct enterprise SysAdmin retainers.
 
-## Secure Payment Gateways
+### Training Modules
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to
-confirm.
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | CentOS Linux Server Hardening & Security | Deploying DigitalOcean CentOS droplets, user creation, SSH key setup, firewalld rules, SELinux policies, and YUM/DNF package management |
+| 2 | LEMP Stack Setup using Domain on CentOS | Installing NGINX, MariaDB, and PHP-FPM on CentOS; configuring domain server blocks and issuing Certbot SSL certificates |  |
+| 3 | LEMP Stack Error Diagnosis on CentOS | Debugging NGINX 502/504 Gateway errors, PHP-FPM socket configuration bugs, MariaDB startup failures, and SELinux permission denials |  |
+| 4 | LAMP Stack Configuration on CentOS | Installing Apache (httpd), MariaDB, and PHP; setting up VirtualHosts, htaccess directives, and firewall port bindings |  |
+| 5 | Troubleshooting LAMP Stack on CentOS | Fixing Apache 500 Internal Server Errors, MariaDB access denied issues, PHP memory limit errors, and httpd vhost conflicts |  |
+| **Two** | 6 | Python Django Setup on LAMP/LEMP with SSL | Installing Python venv, Gunicorn, WSGI connectors, setting up Django apps under domain SSL, and configuring NGINX/Apache reverse proxy |
+| 7 | Troubleshooting Django Deployment Errors | Resolving Gunicorn socket errors, `DisallowedHost` security exceptions, static file rendering failures (`collectstatic`), and migration bugs |  |
+| 8 | Apache Hadoop Cluster Setup on CentOS | Installing OpenJDK, SSH passwordless auth, configuring Hadoop HDFS, YARN (`core-site.xml`, `hdfs-site.xml`), and single/multi-node cluster initialization |  |
+| 9 | Troubleshooting Apache Hadoop Errors | Resolving HDFS SafeMode lockup, NameNode format bugs, DataNode connection timeouts, YARN resource manager leaks, and memory allocation errors |  |
+| 10 | MEAN Stack Setup on CentOS | Installing MongoDB, Express.js, Angular CLI, and Node.js; configuring systemd services, PM2 process management, and MongoDB security |  |
+| **Three** | 11 | Troubleshooting MEAN Stack Errors | Debugging MongoDB connection string failures, CORS origin blocks, Angular build errors, PM2 crash loops, and Node.js memory leaks |
+| 12 | Next.js Framework Setup on CentOS | Configuring Node.js runtime, building production Next.js SSR/SSG apps, PM2 daemon setup, and NGINX reverse proxy with domain SSL |  |
+| 13 | Troubleshooting Next.js Deployment Errors | Resolving Next.js 502 Bad Gateway proxy errors, build hydration mismatches, environment variable leakage, and port conflict issues |  |
+| 14 | Upwork Service Portfolio Setup | Creating specialized Upwork profiles and Project Catalogs showcasing Django, Hadoop, MEAN, and Next.js setups with proof visuals |  |
+| 15 | Freelancer.com Service Portfolio Setup | Structuring Freelancer.com profile services, cataloging CentOS stack troubleshooting offerings, and embedding setup diagrams/screenshots |  |
+| **Four** | 16 | Guru.com Service Portfolio & Milestone Setup | Configuring Guru.com services, setting diagnostic rates, and building milestone packages for Hadoop, Django, and Node/Next deployments |
+| 17 | YouTube Proof of Work (PoW) Video Production | Recording step-by-step video tutorials demonstrating live Django setups, Hadoop cluster fixes, and Next.js CentOS deployments as Proof of Work |  |
+| 18 | YouTube SEO & Lead Generation Marketing | Publishing PoW videos targeting high-intent client search terms (e.g., "Fix Hadoop NameNode Error CentOS"), with call-to-action booking links |  |
+| 19 | Marketplace Proposal Bidding Strategies | Writing custom proposals on Upwork, Freelancer.com, and Guru.com offering rapid server/stack diagnostics to convert clients quickly |  |
+| 20 | Direct Client Outreach Marketing & Retainers | Executing direct B2B outreach (LinkedIn/Cold Email) to tech founders and closing ongoing monthly SysAdmin maintenance retainers |  |
 
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now

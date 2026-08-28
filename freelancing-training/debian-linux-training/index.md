@@ -1,154 +1,79 @@
 ---
-title: "Debian Linux Training | School of Freelancing"
+title: "Debian Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 2-week hands-on Debian Linux Server Administration Bootcamp — SSH hardening, Nginx, SSL, Docker, backups, and client acquisition. $250."
+date: 2026-08-28
+description: "Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients."
 ---
 
-# Debian Linux Training | School of Freelancing
+# Debian Linux - Freelancing Training
 
-Need a Debian server managed by a professional instead? [**See our Linux Server
-Support**](/client-support/linux-server-services/) .
+## Overview
 
-[TOC]
+Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP &
+Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 
-## What Is Debian Linux Training?
-
-Debian Linux Training is School of Freelancing's 20-hour, instructor-led Debian
-Linux Server Administration Bootcamp. Debian itself is a stable, widely-used
-Linux distribution favored for production servers, and the course teaches
-beginner-to-intermediate Linux users to deploy and secure production Debian
-servers — SSH hardening, Nginx, SSL, databases, Docker, monitoring, and backups
-— then apply those skills to win freelance and direct clients.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on labs
-- **Duration:** 20 hours across 10 sessions over 2 weeks
-- **Price:** $250 USD, paid in full before enrollment
-- **Covers:** Debian fundamentals, SSH hardening, Nginx, SSL, databases, Docker, monitoring, backups, client acquisition
-- **Best for:** Beginner-to-intermediate Linux users seeking freelance Debian server admin work
-
-## Debian Linux Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $250 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions | 10 sessions × 2 hours |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server, a domain, a freelance marketplace account |
-| Marketplaces targeted | Upwork, Guru, Freelancer |
+| Duration: | 20 Hands-on training sessions over one month training. |
+| Price: | $169 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Debian server setup, LEMP stack deployment with domains, LEMP stack error troubleshooting, Vtiger CRM, Odoo ERP & Attendize deployments and troubleshooting, portfolio creation on Upwork, Freelancer.com, and Guru.com, YouTube Proof of Work (PoW) video marketing, and client outreach. |
+| Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, & System Integrators. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+|  |  |
 
-## Participation Requirements
+### Participation Requirements:
 
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+### Training Prerequisites
+
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Training Rules
+### Training Rules
 
-- These [Training Rules ("Ground Rules")](/legal/training-rules/) apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Who This Is For
+### You'll leave with:
 
-Beginners to intermediate Linux users who want job-ready Debian server admin
-skills and the ability to freelance on Upwork, Freelancer.com, Guru.com, and via
-direct LinkedIn outreach. You should be able to commit to 20 hours of hands-on,
-instructor-led training over 2 weeks.
+Proven expertise to set up LEMP stacks with custom domains, and deploy &
+troubleshoot Vtiger CRM, Odoo ERP, and Attendize on Debian Linux.
 
-## Curriculum: 10 Sessions × 2 Hours (20 Hours Total)
+Published service portfolios on Upwork, Freelancer.com, and Guru.com backed by
+Proof of Work (PoW) demonstration videos on YouTube.
 
-### Week 1 — Core Debian Server Skills
+Actionable client acquisition strategies to win marketplace projects and land
+direct high-paying corporate retainers.
 
-### Session 1: Linux & Debian Fundamentals (2h)
+### Training Modules
 
-- Linux architecture, distros overview, why Debian for servers
-- Installing Debian (VM + cloud VPS via DigitalOcean/Vultr)
-- Filesystem hierarchy, basic shell navigation
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | Debian Server Setup & Domain Configuration | Deploying DigitalOcean Debian droplets, user creation, SSH hardening, UFW firewall rules, and configuring DNS A-records/domain mapping |
+| 2 | LEMP Stack Setup using Domain | Installing NGINX, MariaDB/MySQL, and PHP-FPM on Debian; setting up domain-specific server blocks and SSL encryption via Let's Encrypt |  |
+| 3 | LEMP Stack Error Diagnosis & Resolution | Resolving NGINX 502 Bad Gateway, 504 Gateway Timeout, PHP-FPM socket errors, MariaDB crash recovery, and file permission issues |  |
+| 4 | LAMP Stack Configuration on Debian | Setting up Apache2, MariaDB, and PHP; managing virtual hosts, htaccess rules, and module management on Debian Linux |  |
+| 5 | Troubleshooting LAMP Stack Errors | Debugging Apache 500 Internal Server Errors, MySQL access denied issues, memory limit exhaustion, and broken URL rewrites |  |
+| **Two** | 6 | Vtiger CRM Setup on LAMP Stack | Installing Vtiger CRM prerequisites, database setup, directory permissions, PHP setting tweaks (`max_execution_time`), and installation wizard |
+| 7 | Troubleshooting Vtiger CRM Errors | Resolving blank screens, database connection drops, cron execution failures, mail server integration errors, and session timeouts |  |
+| 8 | Odoo ERP Setup on LAMP Stack | Installing PostgreSQL, Python dependencies, Odoo ERP core packages, configuring systemd services, and reverse proxy setup |  |
+| 9 | Troubleshooting Odoo ERP Errors | Fixing internal server 500 errors, database master password issues, longpolling/worker timeouts, and CSS/JS asset rendering failures |  |
+| 10 | Attendize Setup on LAMP Stack | Deploying Attendize ticketing platform, Composer dependencies, `.env` file configuration, and database migrations |  |
+| **Three** | 11 | Troubleshooting Attendize Errors | Resolving Laravel-based Attendize 500 errors, storage folder permissions (`chmod`/`chown`), payment gateway integration bugs, and email notification fails |
+| 12 | Upwork Service Portfolio Setup | Creating specialized Upwork profiles for Vtiger CRM, Odoo ERP, and Attendize setup/troubleshooting services; structuring project catalog items |  |
+| 13 | Freelancer.com Portfolio Setup | Building a professional Freelancer.com profile, listing specialized Debian Linux & ERP/CRM services, and publishing portfolio showcase items |  |
+| 14 | Guru.com Portfolio & Milestone Setup | Setting up a Guru.com profile, defining service scope agreements, diagnostic fees, and structured milestones for application setup |  |
+| 15 | Cross-Platform Portfolio Synchronization | Consolidating active portfolio items across Upwork, Freelancer.com, and Guru.com with verified server screenshots and architecture workflows |  |
+| **Four** | 16 | YouTube Proof of Work (PoW) Video Production | Recording hands-on video demonstrations of LEMP stack setups, Vtiger CRM installations, and Odoo/Attendize troubleshooting as Proof of Work |
+| 17 | YouTube SEO & Lead Generation | Optimizing YouTube videos for high-intent client search queries (e.g., "Fix Odoo 500 Internal Error Debian"), embedding booking links and portfolio CTAs |  |
+| 18 | Marketplace Proposal Bidding Strategies | Crafting targeted proposals on Upwork, Freelancer.com, and Guru.com offering rapid ERP/CRM diagnostic audits to quickly convert leads |  |
+| 19 | Direct Client Outreach Marketing | Identifying business owners, managers, and enterprise clients via LinkedIn and direct cold email outreach to sell custom Debian IT solutions |  |
+| 20 | Client Offboarding, Maintenance & Retainers | Establishing client handover protocols, secure credentials transfer, securing 5-star marketplace reviews, and converting one-off setups into monthly retainers |  |
 
-### Session 2: Linux Command Line Mastery (2h)
-
-- File/directory management, permissions (chmod/chown), users & groups
-- Package management: apt, dpkg
-- Process management, systemd basics
-
-### Session 3: Networking & Remote Access (2h)
-
-- SSH hardening (key auth, disabling root/password login, custom port)
-- Networking basics: netstat, ss, ip, DNS, /etc/hosts
-- UFW firewall configuration
-
-### Session 4: Web Server Deployment (2h)
-
-- Installing & configuring Nginx (and Apache basics)
-- Virtual hosts / server blocks
-- Deploying a static site + a simple app
-
-### Session 5: SSL, Domains & Security Basics (2h)
-
-- DNS records (A, CNAME) and domain pointing
-- Let's Encrypt / Certbot SSL setup
-- Fail2ban, automatic security updates
-
-### Week 2 — Production Skills & Freelance Readiness
-
-### Session 6: Databases & Backend Services (2h)
-
-- Installing MySQL/MariaDB or PostgreSQL
-- Basic DB management, backups (mysqldump/pg_dump)
-- Installing Node.js/Python runtime for app hosting
-
-### Session 7: Docker on Debian (2h)
-
-- Docker & Docker Compose installation
-- Container basics, images, volumes, networks
-- Deploying multi-container stacks
-
-### Session 8: Monitoring, Backups & Maintenance (2h)
-
-- Server monitoring (htop, disk usage, logs via journalctl)
-- Automated backups (cron + rsync/rclone to remote storage)
-- Log rotation, uptime monitoring basics
-
-### Session 9: Client Project Simulation (2h)
-
-- Full end-to-end task: fresh VPS → domain → SSL → app → database → backup
-- Troubleshooting common client issues (site down, disk full, permission errors)
-- Documentation & handover practices (client-ready reports)
-
-### Session 10: Freelance Client Acquisition (2h)
-
-- Building winning Upwork/Freelancer.com/Guru.com profiles & portfolios
-- Writing proposals that win Debian/Linux server gigs
-- Pricing your services (hourly vs fixed-price gigs)
-- LinkedIn strategy: optimizing profile, outreach scripts, content posting for direct clients
-
-## Deliverables Upon Completion
-
-- A live portfolio project (your own hardened, SSL-secured, Dockerized server)
-- Ready-to-use Upwork/Freelancer/Guru profile & proposal templates
-- LinkedIn outreach message templates for direct client acquisition
-- Access to School of Freelancing community for ongoing support
-
-## Tools & Platforms Covered
-
-Debian 12, SSH, UFW, Nginx, Certbot/Let's Encrypt, Fail2ban, MySQL/PostgreSQL,
-Docker & Docker Compose, systemd, cron, Upwork, Freelancer.com, Guru.com,
-LinkedIn
-
-## Secure Payment Gateways
-
-Pay the **$250** enrollment fee below, then click **Complete Registration** to
-confirm.
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now

@@ -1,7 +1,7 @@
 ---
 title: "FusionPBX VoIP Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "FusionPBX support catering to a wide range of individual skill levels, from basic setup up to advanced features and configuration. 24-hour support included."
 ---
 

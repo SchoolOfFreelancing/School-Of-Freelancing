@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training & Client Support for Austrians | SOF"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Boost your freelancing career with comprehensive training and client support specifically for Austrians. Start your journey to success today!"
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "CentOS Linux Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert CentOS Linux Support: server security, networking, automation, and troubleshooting for CentOS systems. 24-hour support included."
 ---
 

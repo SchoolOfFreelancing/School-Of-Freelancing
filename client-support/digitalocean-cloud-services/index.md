@@ -1,7 +1,7 @@
 ---
 title: "DigitalOcean Cloud Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Professional DigitalOcean cloud support: server deployment, troubleshooting, security, networking, backups & production infrastructure."
 ---
 

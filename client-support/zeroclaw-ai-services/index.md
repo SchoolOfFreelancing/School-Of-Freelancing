@@ -1,7 +1,7 @@
 ---
 title: "ZeroClaw Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert ZeroClaw Support: setup, configuration & troubleshooting for your AI agent runtime, connecting to Anthropic, OpenAI, Ollama & 20+ LLM providers."
 ---
 

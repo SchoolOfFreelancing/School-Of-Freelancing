@@ -1,124 +1,76 @@
 ---
-title: "GitLab Hands-on Training | School of Freelancing"
+title: "GitLab: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 5-day hands-on GitLab Training: production deployment, data migration, and secure dependency tracking for corporate infrastructure. $250."
+date: 2026-08-28
+description: "Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
-# GitLab Hands-on Training | School of Freelancing
+# GitLab: Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for GitLab
-Support**](/client-support/gitlab-services/) instead.
+## Overview
 
-[TOC]
+Learn GitLab production setup, migration, version control, CI/CD, & project
+management to secure freelance jobs.
 
-## What Is GitLab Hands-on Training?
-
-GitLab Hands-on Training is School of Freelancing's 20-hour, instructor-led
-course built around GitLab, a self-hosted DevOps and Git repository platform
-that organizations deploy on their own servers to manage source code, CI/CD, and
-dependency security. The training teaches freelancers to deploy and configure
-GitLab in production, plan and execute data migrations without downtime, and set
-up secure dependency tracking and vulnerability scanning — skills aimed at
-supporting corporate web application infrastructures as a freelance GitLab
-specialist.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on training
-- **Duration:** 20 hours over 2 weeks
-- **Price:** $250 USD, paid in full before enrollment
-- **Covers:** Production GitLab deployment, data migration, secure dependency tracking & vulnerability scanning, CI/CD pipeline and access-control management
-- **Best for:** Freelancers who want to specialize in GitLab deployment and DevOps support for corporate clients
-
-## GitLab Hands-on Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $250 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions | Delivered over 5 days of hands-on, instructor-led training (per the "Who This Is For" section) |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server, a domain, a verified freelance marketplace account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Hands-on training sessions over one month training. |
+| Price: | $239 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Set up a production GitLab server to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
+| Best for: | The ultimate GitLab freelancing training designed to help developers, freelancers, and sysadmins master high-demand DevOps skills and sign premium global clients. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
-## What You'll Learn in GitLab Training
+### Participation Requirements:
 
-### GitLab Self-Hosted Deployment & Administration
+### Training Prerequisites
 
-Deploy GitLab on production Ubuntu servers. Configure the omnibus package,
-manage SSL/TLS, set up backups, and optimize performance for enterprise teams.
-
-### GitLab CI/CD Pipelines
-
-Build powerful CI/CD pipelines with GitLab CI/CD for automated testing,
-building, and deployment. Use runners, stages, and advanced pipeline features.
-
-### User & Project Management
-
-Manage users, groups, projects, and permissions in GitLab. Implement access
-controls and organizational structures for enterprise teams.
-
-### GitLab Integrations & APIs
-
-Integrate GitLab with external tools, use webhooks, and leverage GitLab APIs for
-custom automation and integrations.
-
-### Monitoring & Performance Optimization
-
-Monitor GitLab health, troubleshoot performance issues, and optimize for large
-teams and high-traffic repositories.
-
-### Migration & Disaster Recovery
-
-Migrate repositories to GitLab, implement backup strategies, and plan disaster
-recovery for critical infrastructure.
-
-## Course Objectives
-
-By the end of this training program, you will be able to:
-
-- **Deploy** GitLab on production servers
-- **Configure** CI/CD pipelines for automated testing and deployment
-- **Manage** users, projects, and permissions
-- **Implement** integrations and automation with GitLab APIs
-- **Monitor** and optimize GitLab performance
-- **Offer** GitLab services as a freelance offering
-
-## Participation Requirements
-
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## What You'll Learn
+### Training Rules
 
-- Deploying and configuring GitLab in production environments
-- Planning and executing GitLab data migrations without downtime or data loss
-- Setting up secure dependency tracking and vulnerability scanning
-- Managing CI/CD pipelines and access controls for corporate teams
-- Supporting corporate web application infrastructures as a freelance GitLab specialist
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Who This Is For
+### You'll leave with:
 
-This training suits freelancers who want to specialize in GitLab deployment and
-DevOps support for corporate clients, and who can commit to 20 hours of
-hands-on, instructor-led training over 5 days, and who meet the [system &
-participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
-reliable fiber-optic internet, and a valid government-issued ID).
+Hands-on experience in live, self-hosted GitLab server deploy & manage.
 
-## Secure Payment Gateways
+Marketplace portfolio proving real GitLab migration, security, & CI/CD pipeline
+skills.
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to
-confirm.
+Stronger habits for deploying, troubleshooting, and managing enterprise GitLab.
 
-## Finalize Your Seat
+### Training Modules
 
-Already paid? Click **Complete Registration** to confirm your enrollment.
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | Server & DNS Foundations | DigitalOcean droplet sizing for GitLab Omnibus, SSH keys, domain DNS setup |
+| 2 | Linux OS Hardening | Ubuntu server security, UFW firewall configuration, swap space optimization |  |
+| 3 | GitLab Omnibus Installation | Official repository setup, omnibus package installation, configuration tuning |  |
+| 4 | SSL & Domain Security | Let's Encrypt integration, HTTPS redirection, custom domain binding |  |
+| 5 | GitLab Core Configuration | Initial root setup, SMTP email configuration, security policy defaults |  |
+| **Two** | 6 | GitLab Runner Architecture | Installing & registering dedicated GitLab Runners on Linux droplets |
+| 7 | CI/CD Pipeline Fundamentals | Writing custom `.gitlab-ci.yml` scripts, jobs, stages, & artifacts |  |
+| 8 | Docker & Container Registry | Configuring built-in Container Registry, Docker-in-Docker (dind) builds |  |
+| 9 | Backups & Disaster Recovery | Automating daily backups to AWS S3/Object Storage, restore procedures |  |
+| 10 | Server Security & Monitoring | Fail2ban integration, SSH hardening, monitoring system metrics & logs |  |
+| **Three** | 11 | GitHub to GitLab Migration | Migrating repositories, issues, PRs, and permissions seamlessly |
+| 12 | Third-Party Integrations | Slack/Discord webhooks, Jira integration, external auth (OAuth/LDAP) |  |
+| 13 | Portfolio Repository Build | Structuring a public repository showcasing GitLab administration work |  |
+| 14 | Service Packaging & Pricing | Defining GitLab setup, migration, and CI/CD maintenance service packages |  |
+| 15 | Upwork Profile Optimization | Writing high-converting Upwork bios & setting up targeted portfolios |  |
+| **Four** | 16 | Freelance Platform Profiles | Optimizing profiles on Guru, Freelancer.com, and LinkedIn services |
+| 17 | Content Marketing Strategy | Creating short video walkthroughs demonstrating GitLab technical expertise |  |
+| 18 | Proposal & Fast-Apply Strategy | Targeting job posts, crafting proposals, and bidding strategy |  |
+| 19 | Client Onboarding & Delivery | Project scoping, secure credential exchange, milestone delivery, invoicing |  |
+| 20 | Capstone Review & Live Q&A | Simulated enterprise troubleshooting scenario, testimonial collection, wrap-up |  |
+
+## Secure Your Seat Now

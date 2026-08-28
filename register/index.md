@@ -1,7 +1,7 @@
 ---
 title: "Register for Training or Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Ready to register for Linux freelancing training or IT support? Pick a program, message us on Telegram or WhatsApp, and confirm payment below."
 ---
 

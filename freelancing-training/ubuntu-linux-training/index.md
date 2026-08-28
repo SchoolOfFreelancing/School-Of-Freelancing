@@ -1,133 +1,79 @@
 ---
-title: "Ubuntu Linux Training | School of Freelancing"
+title: "Ubuntu Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 5-day hands-on Ubuntu Linux Training covering step-by-step development and dev-ops workflows on Ubuntu machines, servers, and devices. $200."
+date: 2026-08-28
+description: "Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support."
 ---
 
-# Ubuntu Linux Training | School of Freelancing
+# Ubuntu Linux - Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for Ubuntu
-Linux Support**](/client-support/ubuntu-linux-services/) instead.
+## Overview
 
-[TOC]
+Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a
+portfolio for freelance clients for Ubuntu support.
 
-## What Is Ubuntu Linux Training?
-
-Ubuntu Linux Training is School of Freelancing's 20-hour, instructor-led course
-built around Ubuntu — a widely-used Linux distribution — that teaches a
-step-by-step process for doing development and dev-ops activities on Ubuntu
-machines, servers, and devices. It's designed for beginners and career-changers
-who want practical Ubuntu setup, configuration, and dev-ops skills they can
-offer as a freelance service on Upwork, Freelancer.com, and Guru.com.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on training
-- **Duration:** 20 hours over 5 days
-- **Price:** $200 USD
-- **Covers:** Setting up and configuring Ubuntu on desktops, servers, and devices; development toolchain workflows; dev-ops automation and deployment; managing packages, services, and updates
-- **Best for:** Beginners and career-changers seeking freelance Ubuntu setup and dev-ops work on Upwork, Freelancer.com, and Guru.com
-
-## Ubuntu Linux Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $200 USD |
-| Duration | 20 hours over 5 days |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux Server (24.04 or 26.04 LTS recommended), a domain or sub-domain, a verified Upwork/Guru/Freelancer account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Hands-on training sessions over one month training. |
+| Price: | $165 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Ubuntu server setup, LAMP stack deployment & troubleshooting, WordPress, Drupal, & Laravel error diagnosis, hardening Ubuntu, marketplace portfolios (Upwork, Freelancer.com, Guru.com), YouTube video marketing, and direct B2B outreach. |
+| Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, & System Integrators. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+|  |  |
 
-## What You'll Learn in Ubuntu Linux Training
+### Participation Requirements:
 
-### Ubuntu System Administration & Desktop Management
+### Training Prerequisites
 
-Master Ubuntu administration on both desktop and server. Configure users, manage
-packages, handle system updates, and troubleshoot common issues.
-
-### Linux Fundamentals & Command Line Mastery
-
-Deep dive into Linux fundamentals: file systems, permissions, processes,
-networking, and shell scripting. Build solid command-line proficiency.
-
-### Server Deployment & Hardening
-
-Deploy production Ubuntu servers with security hardening: firewall
-configuration, SSH security, user management, and security best practices.
-
-### Systemd Services & Process Management
-
-Manage system services with systemd, create custom services, implement
-auto-restart policies, and monitor service health.
-
-### Networking & Connectivity Configuration
-
-Configure networking on Ubuntu: IP addressing, DNS, DHCP, SSH, and troubleshoot
-connectivity issues.
-
-### Package Management with APT
-
-Master Ubuntu's package management system (apt/apt-get), understand
-repositories, handle dependencies, and manage security updates.
-
-### Backup & Disaster Recovery
-
-Implement backup strategies, understand recovery procedures, and set up
-automated backup systems to protect data.
-
-## Course Objectives
-
-By the end of this training program, you will be able to:
-
-- **Deploy** production-ready Ubuntu servers with proper security hardening
-- **Manage** users, permissions, and system access controls
-- **Configure** networking, DNS, DHCP, and SSH for secure remote administration
-- **Install** and maintain software using APT package management
-- **Create** and manage systemd services for applications
-- **Troubleshoot** system issues using logs and diagnostic tools
-- **Implement** backup and disaster recovery procedures
-- **Offer** Ubuntu administration as a freelance service to clients
-
-## Participation Requirements
-
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Guaranteed Minimum Income (GMI)
+### Training Rules
 
-- **This training secures a Guaranteed Minimum Income (GMI) under two conditions:**
-- **Attendance Requirement: Consecutive attendance in all training sessions is mandatory. The guarantee is automatically voided in the event of any absence, personal dropouts, or technical disruptions.**
-- **Active Marketplace Engagement: Trainees must purchase the required connects or bids on freelancing platforms to actively apply for marketplace jobs.**
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## What You'll Learn
+### You'll leave with:
 
-- Setting up and configuring Ubuntu on desktops, servers, and devices
-- Performing common development workflows and toolchain setup on Ubuntu
-- Applying dev-ops practices such as automation and deployment on Ubuntu servers
-- Managing packages, services, and updates across Ubuntu environments
-- Offering Ubuntu setup and dev-ops support as a freelance service
+Proven expertise to set up, secure, and troubleshoot production LAMP, WordPress,
+Drupal, and Laravel environments on Ubuntu Linux.
 
-## Who This Is For
+Active service offerings published on Upwork, Freelancer.com, and Guru.com
+backed by video case studies on YouTube.
 
-This training suits beginners and career-changers who can commit to 20 hours of
-hands-on, instructor-led training over 5 days, and who meet the [system &
-participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
-reliable fiber-optic internet, and a valid government-issued ID).
+Actionable client acquisition strategies to win marketplace projects and land
+direct high-paying retainers.
 
-## Secure Payment Gateways
+### Training Modules
 
-Pay the **$250** enrollment fee below, then click **Complete Registration** to
-confirm.
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | Ubuntu Linux Server Hardening & SSH | Deploying DigitalOcean Ubuntu droplets, user creation, SSH key setup, UFW firewall rules, and basic terminal management |
+| 2 | LAMP Stack Installation on Ubuntu | Installing Apache web server, MySQL database server, and PHP extensions; configuring virtual hosts and SSL certificates |  |
+| 3 | LAMP Stack Advanced Troubleshooting | Resolving Apache 500/502/503 errors, MySQL access denied & crash recovery, PHP memory limit errors, and permissions issues |  |
+| 4 | WordPress CMS Setup on LAMP | Configuring MySQL databases, downloading WordPress core, setting file permissions (`www-data`), and Apache `.htaccess` rules |  |
+| 5 | WordPress Troubleshooting & Recovery | Fixing White Screen of Death (WSOD), `Error Establishing a Database Connection`, plugin conflicts, and uploading limits |  |
+| **Two** | 6 | Drupal CMS Setup on LAMP Stack | Installing Drupal core dependencies, configuring Apache `mod_rewrite`, setting up trusted host patterns, and database connections |
+| 7 | Drupal Error Diagnosis & Optimization | Resolving Drupal WSOD, Clean URLs issues, module dependency deadlocks, memory limit exhaustion, and OPCache tuning |  |
+| 8 | Laravel Framework Setup on LAMP | Installing Composer, configuring NGINX/Apache document root to `/public`, `.env` configuration, and Artisan migration setup |  |
+| 9 | Laravel Application Troubleshooting | Debugging 500 server errors, storage folder permission issues (`chmod`/`chown`), migration failures, and route caching bugs |  |
+| 10 | Server Monitoring, Log Analysis & Security | Analyzing `/var/log/apache2/`, `/var/log/syslog`, configuring Fail2ban, automating MySQL backups, and system health checks |  |
+| **Three** | 11 | Hardening Ubuntu | Harden your Ubuntu systems according to Internet Security (CIS) standards automatically using Canonical's native Ubuntu Security Guide (USG) |
+| 12 | Upwork Service Portfolio & Catalog | Building a specialized Upwork SysAdmin profile, publishing Project Catalogs for WordPress, Drupal, & Laravel server setups |  |
+| 13 | Freelancer.com Service Profile Setup | Optimizing a Freelancer.com profile, listing core Linux & web stack troubleshooting services, and creating portfolio items |  |
+| 14 | Guru.com Profile & Milestone Setup | Setting up a professional Guru.com profile, defining service scope agreements, diagnostic fees, and maintenance rates |  |
+| 15 | Cross-Platform Portfolio Synchronization | Integrating verified architecture diagrams, before/after server logs, and live application links across all marketplace profiles |  |
+| **Four** | 16 | YouTube Demonstration Video Production | Recording step-by-step video tutorials demonstrating LAMP installation, WordPress recovery, and Laravel deployment tricks |
+| 17 | YouTube SEO & Lead Generation | Publishing YouTube videos optimized for high-intent search terms (e.g., "Fix WordPress Database Error Ubuntu"), with CTA links |  |
+| 18 | Marketplace Bidding & Winning Proposals | Writing customized proposals for Upwork/Freelancer/Guru job posts, offering quick server diagnostics to win contracts fast |  |
+| 19 | Direct Client Outreach Marketing | Finding agency owners, SaaS founders, and e-commerce stores on LinkedIn/Cold Email for direct monthly SysAdmin retainers |  |
+| 20 | Client Offboarding, Maintenance & Retainers | Establishing client handover procedures, secure credential sharing, securing 5-star feedback, and closing monthly retainers |  |
 
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now

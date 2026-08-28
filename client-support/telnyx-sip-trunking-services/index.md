@@ -1,7 +1,7 @@
 ---
 title: "Telnyx VoIP SIP Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Telnyx VoIP SIP Support powers global VoIP connectivity with a private IP network, SIP trunking, and call center integrations. 24-hour support included."
 ---
 

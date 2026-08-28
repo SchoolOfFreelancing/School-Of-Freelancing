@@ -1,7 +1,7 @@
 ---
 title: "GitHub Enterprise Server Setup | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Professional GitHub Enterprise Server installation, migration, and support from an experienced Linux system administrator. 24-hour support included."
 ---
 

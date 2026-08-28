@@ -1,7 +1,7 @@
 ---
 title: "LocalAI Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert LocalAI Support: setup, configuration & troubleshooting for the open-source engine that runs LLM, vision, voice, image & video models — no GPU required."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Linux & AI Freelance Training with Business Client Support"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Learn Linux, AI, and freelancing with live, hands-on FOSS training for aspiring freelancers, plus specialized technical support for growing businesses."
 ---
 

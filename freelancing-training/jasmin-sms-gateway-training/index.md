@@ -1,70 +1,79 @@
 ---
-title: "Jasmin SMS Gateway Training | School of Freelancing"
+title: "Jasmin SMS Gateway - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "30-hour, 2-week hands-on Jasmin SMS Gateway Training: build a production-ready bulk SMS system with Jasmin and playSMS. $700."
+date: 2026-08-28
+description: "Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients."
 ---
 
-# Jasmin SMS Gateway Training | School of Freelancing
-
-Prefer to skip the training and have it done for you? [**Hire us for Jasmin SMS
-Gateway Support**](/client-support/jasmin-sms-gateway-services/) instead.
+# Jasmin SMS Gateway - Freelancing Training
 
 [TOC]
+## Overview
 
-## What Is Jasmin SMS Gateway Training?
+Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs,
+troubleshoot delivery, land freelance clients.
 
-Jasmin SMS Gateway Training is School of Freelancing's $700, 30-hour hands-on
-course built around Jasmin SMS Gateway, an open-source SMS gateway typically
-paired with playSMS to route, queue, and deliver bulk SMS traffic for legitimate
-business communication systems. The training teaches gateway configuration,
-message routing, and queue management so participants can build a
-production-ready bulk SMS system and offer it to freelance clients.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on
-- **Duration:** 30 hours over 2 weeks
-- **Price:** $700 USD, paid in full before enrollment
-- **Covers:** Jasmin SMS Gateway configuration, playSMS setup, message routing, queue management, Twilio SMPP/REST API integration, production-ready bulk SMS delivery
-- **Best for:** Freelancers building bulk SMS/messaging systems for business clients on Upwork, Freelancer.com, and Guru.com
-
-## Jasmin SMS Gateway Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $700 USD |
-| Duration | 30 hours over 2 weeks |
-| Sessions | Not broken into individual sessions on this page; delivered across 2 weeks |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server (DigitalOcean, 24.04/26.04 LTS), a domain, Twilio Programmable Messaging SMPP/REST API access, a verified freelance marketplace account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Hours of Intensive Training delivered across 2 Weeks. |
+| Price: | $349 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training based directly on Official Jasmin Documentation. |
+| Covers: | Jasmin Core Deployment, SMPP Connectors, HTTP API, Interceptors, AMQP/RabbitMQ Queues, Morouter/Mtrouter Rules, Redis Billing, & Freelance Client Onboarding. |
+| Best for: | Linux Sysadmins, Telecom Engineers, Backend Developers, & Freelancers handling enterprise SMS infrastructure. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
-## Participation Requirements
+### Participation Requirements:
 
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Twilio Messaging API:** Need Programmable Messaging SMPP/REST API to send and receive SMS.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+### Training Prerequisites
+
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Ubuntu 24.04 LTS Linux, sub domain & SMPP/HTTP API.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Guaranteed Minimum Income (GMI)
+### Training Rules
 
-- **This training secures a Guaranteed Minimum Income (GMI) under two conditions:**
-- **Attendance Requirement: Consecutive attendance in all training sessions is mandatory. The guarantee is automatically voided in the event of any absence, personal dropouts, or technical disruptions.**
-- **Active Marketplace Engagement: Trainees must purchase the required connects or bids on freelancing platforms to actively apply for marketplace jobs.**
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Secure Payment Gateways
+### What You'll Learn:
 
-Pay the **$700** enrollment fee below, then click **Complete Registration** to
-confirm.
+Deploy, configure, and secure Jasmin SMS Gateway with RabbitMQ, Redis, and
+PostgreSQL backends on Ubuntu Linux.
 
-## Finalize Your Seat
+Configure SMPP connectors, HTTP API endpoints, advanced MT/MO routing rules, and
+Python interceptors based on Jasmin docs.
 
-Already paid? Click **Complete Registration** to confirm your enrollment.
+Deliver end-to-end bulk SMS integrations for enterprise clients and monetize
+your expertise on top freelance platforms.
+
+## 20 Training Modules (2 Weeks Duration)
+
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **Week 1** | 1 | Jasmin Gateway Architecture & Ecosystem | Understanding Jasmin architecture, Twisted framework, RabbitMQ AMQP messaging, and Redis database roles. |
+| 2 | Server Provisioning & Dependencies | Setting up Ubuntu Server, installing Python dependencies, Redis Server, RabbitMQ broker, and system logs. |  |
+| 3 | Jasmin Core Installation & Configuration | Installing Jasmin Gateway via pip/packages, configuring `jasmin.conf`, telnet management console (`jcli`), and systemd services. |  |
+| 4 | Jasmin CLI (`jcli`) & Security Hardening | Navigating `jcli`, configuring telnet credentials, user/group privileges, firewall rules, and SSL configuration. |  |
+| 5 | SMPP Protocol Fundamentals & Bindings | SMPP v3.4 specification, PDUs, Transmitter (TX), Receiver (RX), and Transceiver (TRX) binding configurations. |  |
+| 6 | Configuring SMPP Client Connectors (`smppcc`) | Provisioning upstream SMSC connections via `smppccm`, parameters tuning, window size, and link monitoring. |  |
+| 7 | Managing SMPP Users & Credentials (`user`) | Creating downstream client accounts via `userm`, credential provisioning, quota limits, and speed throughput caps. |  |
+| 8 | HTTP API Interface Configuration | Setting up Jasmin HTTP API server (`/send`, `/balance`), URL parameter mapping, and basic auth security. |  |
+| 9 | Outbound Mobile Terminated (MT) Message Flow | Testing outbound MT message submission through HTTP API and SMPP, inspecting log outputs and delivery status. |  |
+| 10 | Inbound Mobile Originated (MO) Webhook Setup | Configuring HTTP connectors to forward incoming SMS (MO traffic) to external webhooks and client endpoints. |  |
+| **Week 2** | 11 | MT Message Routing Engine (`mtrouter`) | Configuring Mobile Terminated routers, Static/Default routes, Round-Robin, Failover, and Priority-based routing. |
+| 12 | MO Message Routing Engine (`morouter`) | Building Mobile Originated routing rules based on Sender ID, Shortcodes, Destination Regex, and User ID filters. |  |
+| 13 | Filter Engine Implementation | Creating reusable filters: `DestinationAddrFilter`, `SourceAddrFilter`, `ShortCodeFilter`, and `UserFilter`. |  |
+| 14 | Python Interceptors for Content & Compliance | Writing Python scripts for message modification, DLR interceptors, blacklist enforcement, and SHAFT compliance filtering. |  |
+| 15 | Delivery Receipt (DLR) Tracking & Callbacks | Processing incoming DLR PDUs, mapping message IDs, updating status tables, and sending HTTP DLR webhooks. |  |
+| 16 | RabbitMQ Queue Management & Rate Limiting | Monitoring AMQP message queues, handling congestion, configuring retry policies, and tuning message throughput. |  |
+| 17 | Billing, Quotas & Redis Credit Management | Setting up prepaid user balances, credit deduction hooks, dynamic rate limits, and Redis session tracking. |  |
+| 18 | High-Volume Load Testing & Benchmarking | Simulating concurrent SMPP and HTTP message traffic, stress testing RabbitMQ queues, and log rotation setup. |  |
+| 19 | Hands-On Capstone Project: Enterprise Bulk Gateway | Deploying a complete 2-way Jasmin SMS Gateway instance connected to SMPP/HTTP carriers with live client webhooks. |  |
+| 20 | Freelancing Strategy, Proposals & Client Delivery | Packaging Jasmin setup services on Upwork/Freelancer, auditing client architectures, and securing monthly retainers. |  |
+
+## Secure Your Seat Now

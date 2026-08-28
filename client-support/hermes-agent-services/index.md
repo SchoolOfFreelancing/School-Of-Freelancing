@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert Hermes Agent Support: setup, persistent memory configuration, self-improving skills, and multi-platform messaging integration. 24-hour support included."
 ---
 

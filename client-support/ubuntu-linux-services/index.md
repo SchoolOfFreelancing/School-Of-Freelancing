@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Linux Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert Ubuntu Linux Support: step-by-step help for development and dev-ops activities on Ubuntu machines, servers, and devices. 24-hour support included."
 ---
 

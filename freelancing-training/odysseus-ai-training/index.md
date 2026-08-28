@@ -1,29 +1,29 @@
 ---
-title: "Odysseus AI Workspace Training | School of Freelancing"
+title: "Odysseus AI: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "Odysseus AI Workspace Training: deploy secure self-hosted AI systems with NGINX & SSL, build a portfolio, then land Upwork, Guru & Freelancer clients."
+date: 2026-08-28
+description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
-# Odysseus AI Workspace Training | School of Freelancing
+# Odysseus AI: Freelancing Training
 
 [TOC]
 ## Overview
 
-You'll become a production-ready Odysseus AI Workspace engineer with a live,
-self-hosted deployment proving real privacy-focused AI skills. Earn via
-freelance gigs, direct client contracts, or building your own self-hosted AI
-service offering.
+Odysseus AI Freelancing Training is an online training program for deploying AI
+workflows, LLM integrations, and custom agents. Learn high-demand tech skills to
+land clients on marketplace and boost your earnings.
 
-## Training at a Glance:
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Duration: | 10 sessions over 2 weeks, 2 hours per session (20 hours total). |
-| Format: | Live, Hands-On Training with no Pre-Recorded Videos. |
-| Covers: | Server setup, NGINX & SSL, Odysseus AI Workspace install, access control & privacy architecture, production hardening, maintenance, marketplace profiles, service videos, job bidding, client delivery. |
+| Duration: | 20 Hands-on training sessions over two weeks training. |
+| Price: | $121 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Deploy Odysseus AI - Self-Hosted AI Workspace into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | Freelancers and IT professionals who want to specialize in privacy-focused, self-hosted AI deployments and launch a freelance career around them. |
-| Marketplace: | Upwork, Guru, Freelancer |
+|  |  |
 
 ## Participation Requirements:
 
@@ -41,18 +41,7 @@ service offering.
 
 - These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Why Join This Training?
-
-Privacy-focused, self-hosted AI deployment is a fast-growing, low-competition
-category on Upwork, Guru, and Freelancer, and most freelancers can't fill it
-because they've never taken an Odysseus AI Workspace live in production. This
-training closes that gap fast: existing Linux/cloud freelancers add a
-high-ticket skill on top of what they already know, while newcomers leave with a
-live, SSL-secured deployment, 3 marketplace profiles, and 5 service videos as
-instant proof of work. Job search, proposals, client communication, and delivery
-are covered too, so you're not just trained — you're positioned to get hired.
-
-### You'll leave with:
+## You'll leave with:
 
 Hands-on experience deploying a live, self-hosted, privacy-focused Odysseus AI
 Workspace
@@ -63,50 +52,29 @@ skills
 Stronger habits for hardening, maintaining, and troubleshooting production AI
 workspaces
 
-## Training Curriculum: 20 Training Hours / 2 Weeks
-
-2 weeks, 5 sessions/week, 2 hours per session.
+## Training Modules
 
 | Session | Topic | Content |
 | --- | --- | --- |
-| 1 | Server & Foundations | DigitalOcean droplet, Ubuntu 24.04/26.04 LTS hardening, domain DNS, SSH keys, UFW |
-| 2 | NGINX & SSL | NGINX reverse proxy, Certbot/Let's Encrypt SSL, forced HTTPS, domain live-check |
-| 3 | Odysseus AI Workspace Install | Production install, environment configuration, storage/database setup, admin account |
-| 4 | Access Control & Privacy Architecture | User roles, permissions, workspace isolation, privacy-focused system design |
-| 5 | Production Hardening | Fail2ban, backups, logging, monitoring, hardening against unauthorized access & data leakage |
-| 6 | Maintenance & Client Support | Update workflow, health checks, uptime monitoring, ongoing client maintenance routine |
-| 7 | Portfolio Build | Deploy your own public demo/GitHub repo as proof of work |
-| 8 | Marketplace Setup | Create Upwork, Guru, Freelancer profiles — bio, portfolio links, pricing |
-| 9 | Content & Marketing | 5 Odysseus AI Workspace service videos, LinkedIn/social post templates |
-| 10 | Job Search, Bidding & Client Delivery | Search filters, proposal writing, onboarding, delivery, invoicing/withdrawal, capstone Q&A, collect testimonials |
+| 1 | VPS Provisioning & DNS | Deploy DigitalOcean droplet, set up A/AAAA DNS records, initial server login |
+| 2 | Linux Server Hardening | Configure SSH keys, disable root password login, set up UFW firewall |
+| 3 | NGINX Installation & Setup | Install NGINX web server, construct custom virtual host block, set proxy parameters |
+| 4 | SSL & Domain Live-Check | Issue Certbot/Let's Encrypt SSL certificates, enforce HTTPS redirect, run live check |
+| 5 | Core Dependency & DB Setup | Provision databases, configure local storage directories, set up environment paths |
+| 6 | Odysseus AI Production Install | Deploy Odysseus AI Workspace, build initial environment configs, create admin account |
+| 7 | Access Control & Permissions | Setup user roles, configure workspace isolation, test multi-tenant access levels |
+| 8 | Privacy Architecture | Implement data isolation policies, configure secure local storage encryption rules |
+| 9 | System Intrusion Prevention | Configure Fail2ban rules, protect API routes, implement rate limiting |
+| 10 | Backups & System Monitoring | Set up automated database/file backups, configure log rotation and system monitoring |
+| 11 | Maintenance & Update Workflows | Execute safe application update routines, health check scripts, and rollbacks |
+| 12 | Client Support & Monitoring | Setup uptime monitoring alerts, build routine maintenance checklists for clients |
+| 13 | Portfolio Deployment | Publish a live public demo instance of Odysseus AI for client viewings |
+| 14 | Code Repository & Proof of Work | Structure and publish custom deployment scripts to a public GitHub repository |
+| 15 | Profile Optimization | Build high-converting profiles on Upwork, Guru, and Freelancer with optimized bios |
+| 16 | Service Pricing Strategy | Map out fixed-rate setup vs. recurring monthly maintenance service tiers |
+| 17 | Content & Demo Video Creation | Record and produce 5 targeted Odysseus AI Workspace service feature demo videos |
+| 18 | Social Marketing Strategy | Build outbound LinkedIn post templates and social outreach content strategies |
+| 19 | Job Filtering & Proposal Writing | Master search filters, write winning proposals, submit live client applications |
+| 20 | Onboarding, Invoicing & Capstone | Client onboarding workflows, invoicing/withdrawals, testimonial capture & capstone Q&A |
 
-## Milestone Checkpoint
-
-Progress benchmarks every trainee must clear to stay on track for the GMI
-guarantee.
-
-| Milestone | Reached By | Checkpoint Criteria |
-| --- | --- | --- |
-| 1 | Server Live | Domain resolves over HTTPS with a valid, auto-renewing SSL certificate (Session 2) |
-| 2 | Workspace Deployed | Odysseus AI Workspace running in production with role-based access controls configured (Session 4) |
-| 3 | Security Hardened | Fail2ban, backups, and monitoring verified; security review passed (Session 5) |
-| 4 | Portfolio Live | Public deployment demo/repo published as proof of work (Session 7) |
-| 5 | Marketplace Ready | 3 verified marketplace profiles (Upwork, Guru, Freelancer) published (Session 8) |
-| 6 | Marketing Assets Ready | 5 service videos produced and LinkedIn presence active (Session 9) |
-| 7 | First Application Sent | At least 1 live job proposal submitted before graduation (Session 10) |
-
-## Guaranteed Minimum Income Conditions:
-
-- **Attendance:** Zero-Leave attendance across all 10 training sessions.
-- **Active Bidding:** Purchase bids/connects on marketplaces to search, apply, and get hired for jobs.
-
-This training secures a **Guaranteed Minimum Income (GMI)** only when both
-conditions are met. The guarantee is automatically voided in the event of any
-absence, personal dropouts, technical disruptions, or inactive marketplace
-engagement.
-
-## Payment Gateways
-
-Pay the **$189** enrollment fee below, then click **Complete Registration** .
-
-## Already paid?
+## Secure Your Seat Now

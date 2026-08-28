@@ -1,7 +1,7 @@
 ---
 title: "Case Studies - Linux & AI Freelancing Services | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Real case studies from School of Freelancing clients: Docker deployments, AI integrations, VoIP systems, and trading infrastructure that transformed their business operations."
 ---
 

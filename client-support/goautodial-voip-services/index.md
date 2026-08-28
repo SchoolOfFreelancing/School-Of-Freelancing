@@ -1,7 +1,7 @@
 ---
 title: "Goautodial VoIP Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Expert Goautodial VoIP Support: setup, configuration, troubleshooting & optimization for the open-source omnichannel contact center suite."
 ---
 

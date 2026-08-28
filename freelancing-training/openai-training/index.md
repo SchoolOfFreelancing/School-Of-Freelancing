@@ -1,140 +1,79 @@
 ---
-title: "OpenAI Platform Training | School of Freelancing"
+title: "OpenAI - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 5-day hands-on OpenAI Platform Training: build AI applications with the OpenAI API and land freelance AI development clients. $200."
+date: 2026-08-28
+description: "Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
-# OpenAI Platform Training | School of Freelancing
+# OpenAI - Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for OpenAI
-Platform Support**](/client-support/openai-platform-services/) instead.
+## Overview
 
-[TOC]
+Learn OpenAI API development — build GPT-powered apps, API integration, automate
+workflows, integrate AI tools. Build a portfolio to land direct and marketplace
+freelance clients.
 
-## What Is OpenAI Platform Training?
-
-OpenAI Platform Training is School of Freelancing's 20-hour, instructor-led
-course on the OpenAI Platform API — OpenAI's API for building AI applications,
-covering authentication, model selection, and integration patterns. The program
-teaches beginners and developers how to build real AI-powered features and apply
-those skills to win freelance AI development clients.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on
-- **Duration:** 20 hours over 5 days
-- **Price:** $200 USD, paid in full before enrollment
-- **Covers:** OpenAI Platform API fundamentals, authentication and rate limits, prompt design and API integration patterns, building AI-powered applications, freelance portfolio building, and client acquisition
-- **Best for:** Beginners and developers seeking freelance AI development work
-
-## OpenAI Platform Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $200 USD |
-| Duration | 20 hours over 5 days |
-| Sessions/Days | 5 days |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server, a domain, a verified freelance marketplace account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Live interactive training sessions completed over 1 Month. |
+| Price: | $179 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Interactive Training with Zero Pre-Recorded Videos. |
+| Covers: | OpenAI API setup, Integration, System Prompt Engineering, Structured Outputs (JSON Schema), Assistants API, Function Calling, Vector Embeddings (RAG), Fine-Tuning, Realtime API, Autonomous Agents, Upwork/Freelancer/Guru profile services, YouTube PoW videos, and Client Outreach. |
+| Best for: | AI Engineers, Software Developers, Technical Freelancers, Product Builders, & IT Consultants. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to submit client proposals. |
 
-## Participation Requirements
+### Participation Requirements:
 
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
-- **Rigorous:** Need to have patience and concentration during all training sessions.
+### Training Prerequisites
 
-## Connectivity
+- Active **[OpenAI Platform Account](https://platform.openai.com/)** & API keys.
+- **Commitment:** Full dedication to complete 20 hands-on sessions over 30 days.
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+### Connectivity
 
-## What You'll Learn
+- Messaging apps for real-time mentor guidance and client support.
+- Stable high-speed internet for code streaming and API testing.
 
-### OpenAI API Architecture & Authentication
+### Training Rules
 
-Master OpenAI's API platform: understand authentication, API keys, organization
-management, and rate limits. Learn how to use GPT-4, GPT-3.5-turbo, and other
-models through the API for maximum flexibility.
+- Our standard **[Training Rules](/legal/training-rules/)** apply to maintain high accountability, rapid project delivery, and skill verification.
 
-### Prompt Engineering for Production
+### You'll leave with:
 
-Design effective prompts that get high-quality outputs from GPT models.
-Understand system messages, few-shot learning, temperature and token settings,
-and techniques that optimize accuracy for specific tasks.
+In-depth technical expertise to build end-to-end OpenAI API applications,
+autonomous agents, RAG pipelines, and fine-tuned domain models.
 
-### Building AI-Powered Web Applications
+Live service offerings on Upwork, Freelancer.com, and Guru.com verified by
+public YouTube Proof of Work (PoW) video demonstrations.
 
-Integrate OpenAI API into web apps, chatbots, and tools. Handle streaming
-responses, manage context windows, implement cost tracking, and build responsive
-user interfaces that leverage GPT capabilities.
+Battle-tested client outreach frameworks to win high-ticket AI engineering
+contracts and ongoing enterprise monthly retainers.
 
-### Advanced API Features: Vision & Function Calling
+### 20-Session Training Syllabus (1 Month)
 
-Deploy GPT-4 Vision to analyze images and documents. Implement function calling
-to enable GPT to interact with external APIs, databases, and systems for
-multi-step workflows and integrations.
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | OpenAI Developer Ecosystem & API Setup | Setting up OpenAI API keys, workspace billing, rate limits, model parameters (GPT-4o, mini), and python/node SDK initialization |
+| 2 | Prompt Engineering & System Instructions | Mastering zero-shot/few-shot prompts, context window management, system roles, and OpenAI Academy prompt evaluation frameworks |  |
+| 3 | Structured Outputs & JSON Schema Validation | Implementing guaranteed Pydantic/JSON Schema responses using OpenAI Structured Outputs for robust API integration |  |
+| 4 | OpenAI Function Calling & Tool Use | Connecting OpenAI models to external REST APIs, databases, and custom functions via structured tool definitions |  |
+| 5 | Troubleshooting API Rates, Tokens & Errors | Handling 429 Rate Limit errors, exponential backoff strategies, token counting optimization (tiktoken), and API error handling |  |
+| **Two** | 6 | OpenAI Assistants API Architecture | Building stateful Assistants using Threads, Runs, Code Interpreter, and File Search vector stores for enterprise workflows |
+| 7 | Troubleshooting Assistants API & Run States | Debugging run status stalls (`requires_action`, `failed`), handling tool outputs, and managing persistent thread storage |  |
+| 8 | Vector Embeddings & RAG Knowledge Bases | Generating embeddings (`text-embedding-3`), building vector database pipelines (Pinecone/Chroma), and implementing Semantic Search |  |
+| 9 | Troubleshooting RAG & Context Retrieval Errors | Fixing vector chunking flaws, hallucination errors, similarity score thresholds, and context window overflow in RAG pipelines |  |
+| 10 | Custom Model Fine-Tuning Pipeline | Preparing jsonl datasets, running fine-tuning jobs on GPT-4o-mini, hyperparameter tuning, and evaluating custom model performance |  |
+| **Three** | 11 | Troubleshooting Fine-Tuning & Data Quality Errors | Debugging dataset validation errors, format mismatches, overfitting issues, and model deployment endpoint errors |
+| 12 | OpenAI Realtime API & Speech WebSockets | Building low-latency speech-to-speech voice agents using the Realtime API, WebSockets, and Whisper integration |  |
+| 13 | Troubleshooting Realtime Voice & WebSocket Errors | Resolving audio buffer latencies, WebSocket disconnects, echo feedback loops, and function calling interrupts in voice sessions |  |
+| 14 | Upwork AI Service Portfolio Publishing | Setting up specialized Upwork profiles and Project Catalogs offering custom GPT development, RAG buildout, and API integration |  |
+| 15 | Freelancer.com AI Service Package Setup | Structuring service offerings on Freelancer.com, attaching architecture diagrams, and setting diagnostic diagnostic pricing |  |
+| **Four** | 16 | Guru.com AI Service Setup & Milestones | Publishing specialized OpenAI services on Guru.com, establishing fixed milestone deliverables, and structuring contracts |
+| 17 | YouTube Proof of Work (PoW) Recording | Recording step-by-step video tutorials demonstrating live OpenAI API integrations, RAG pipelines, and custom agent builds as Proof of Work |  |
+| 18 | YouTube SEO & Client Lead Generation | Optimizing PoW videos for client search intent (e.g., "Build Custom RAG for Enterprise Documents"), with direct booking call-to-actions |  |
+| 19 | Marketplace Proposal Bidding Strategies | Writing high-converting technical proposals on Upwork, Freelancer, and Guru incorporating PoW demo links to close deals quickly |  |
+| 20 | Direct Client Outreach & Enterprise Retainers | Executing outbound marketing to AI startups and business owners to land monthly $1,000–$3,000 AI development & maintenance retainers |  |
 
-### Vector Databases & RAG (Retrieval-Augmented Generation)
-
-Build RAG systems with vector databases that enable GPT to answer questions
-based on proprietary documents and data. Implement semantic search, context
-injection, and knowledge-base queries for accurate, domain-specific AI.
-
-### Fine-Tuning & Model Customization
-
-Fine-tune GPT models on proprietary data to improve accuracy for specific use
-cases. Understand the fine-tuning process, cost implications, and when
-fine-tuning is worthwhile vs. few-shot prompting.
-
-### Cost Optimization & Token Management
-
-Understand OpenAI's token pricing for different models and implement cost
-optimization strategies. Use caching, batch processing, cheaper models where
-appropriate, and monitor API spending to control expenses.
-
-### Production Reliability & Error Handling
-
-Build robust applications that handle timeouts, rate limiting, and API errors
-gracefully. Implement retries, fallbacks, logging, and monitoring to ensure
-OpenAI-powered applications stay reliable and observable in production.
-
-### Packaging OpenAI Services as Freelance Offerings
-
-Create freelance service offerings around OpenAI: AI integration projects,
-chatbot development, custom GPT applications, and consulting. Build a portfolio
-that showcases your OpenAI expertise to attract high-value clients.
-
-## Course Objectives
-
-By the end of this training program, you will be able to:
-
-- **Authenticate** with OpenAI API and make successful requests using different models
-- **Design** effective prompts that maximize GPT accuracy for business tasks
-- **Build** web applications, chatbots, and tools that integrate OpenAI API
-- **Deploy** GPT-4 Vision capabilities to analyze images and documents
-- **Implement** function calling for multi-step workflows and external integrations
-- **Build** RAG systems with vector databases for domain-specific AI responses
-- **Fine-tune** GPT models on proprietary data when appropriate
-- **Optimize** token usage and API costs for scalable applications
-- **Handle** errors, rate limiting, and production reliability concerns
-- **Offer** OpenAI integration and AI development as freelance services to clients
-
-## Who This Is For
-
-This training suits beginners and developers who can commit to 20 hours of
-hands-on, instructor-led training over five days, and who meet the [system &
-participation requirements](/contact-us/) (Ubuntu Desktop 24.04/26.04 LTS PC,
-reliable fiber-optic internet, and a valid government-issued ID).
-
-## Secure Payment Gateways
-
-Pay the **$200** enrollment fee below, then click **Complete Registration** to
-confirm.
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Enroll in the OpenAI Freelancing Training

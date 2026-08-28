@@ -1,7 +1,7 @@
 ---
 title: "Hands-on Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "Hands-on live freelancing training at School of Freelancing. Learn Linux, VoIP, AI & cloud tech, build real projects, and land top global clients today!"
 ---
 
@@ -56,7 +56,7 @@ attract premium global clients now!
 
 ![Odysseus: Hands-on Training](/assets/images/odysseus.webp)
 
-### [Odysseus: Freelancing Training](/freelancing-training/odysseus-ai-training/)
+### [Odysseus Freelancing Training](/freelancing-training/odysseus-ai-training/)
 
 Set up Odysseus on Linux, optimize AI synergy, and build service portfolios
 across marketplaces.
@@ -69,27 +69,27 @@ across marketplaces.
 - Service Portfolio Development
 - Credential Verification Support
 
-![OpenClaw: Hands-on Training](/assets/images/openclaw.webp)
+![OpenClaw Freelancing Training](/assets/images/openclaw.webp)
 
-### [OpenClaw: Freelancing Training](/freelancing-training/openclaw-training/)
+### [OpenClaw Freelancing Training](/freelancing-training/openclaw-training/)
 
 Learn to deploy OpenClaw Linux servers for AI agents, build your service
 portfolio, and get hired freelance.
 
 **OpenClaw Training Features:**
 
-- 25 Hands-on Training Sessions
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![LocalAI Production Training](/assets/images/localai.svg)
+![LocalAI Freelancing Training](/assets/images/localai.svg)
 
 ### [LocalAI Freelancing Training](/freelancing-training/local-ai-training/)
 
-Master LocalAI setup on your own infra. Scale CPU-optimized, GPU-optional LLMs,
-vision, and voice in production.
+Learn how to deploy LocalAI production to run AI models directly on your own
+device or local server instead of a remote cloud.
 
 **LocalAI Training Features:**
 
@@ -114,12 +114,12 @@ building a profitable service around it.
 - Service Portfolio Development
 - Credential Verification Support
 
-![GitLab Hands-on Training](/assets/images/gitlab.webp)
+![GitLab Freelancing Training](/assets/images/gitlab.webp)
 
 ### [GitLab Freelancing Training](/freelancing-training/gitlab-training/)
 
-Master GitLab production setup, migration, DevSecOps workflows, version control,
-CI/CD automation, and project management to secure freelance jobs on Upwork.
+Learn GitLab production setup, migration, version control, CI/CD, & project
+management to secure freelance jobs.
 
 **GitLab Training Features:**
 
@@ -133,8 +133,8 @@ CI/CD automation, and project management to secure freelance jobs on Upwork.
 
 ### [GitHub Freelancing Training](/freelancing-training/github-training/)
 
-A hands-on training on GitHub Enterprise Server deployment, Actions CI/CD,
-migration, and building a profitable freelance service.
+Learn GitHub Enterprise Server deployment, Actions CI/CD, migration, and
+building a profitable freelance service.
 
 **GitHub Training Features:**
 
@@ -144,7 +144,7 @@ migration, and building a profitable freelance service.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Docker Training](/assets/images/docker.webp)
+![Docker Freelancing Training](/assets/images/docker.webp)
 
 ### [Docker Freelancing Training](/freelancing-training/docker-training/)
 
@@ -153,7 +153,7 @@ freelance service, and client acquisition.
 
 **Docker Training Features:**
 
-- 25 Comprehensive Modules
+- 20 Comprehensive Modules
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -163,8 +163,8 @@ freelance service, and client acquisition.
 
 ### [FusionPBX Freelancing Training](/freelancing-training/fusionpbx-training/)
 
-Hands-on FusionPBX training covering production deployment, advanced
-configuration, freelance service building, and client acquisition.
+Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then
+build a profitable freelance service.
 
 **FusionPBX Training Features:**
 
@@ -178,8 +178,8 @@ configuration, freelance service building, and client acquisition.
 
 ### [GOautodial Freelancing Training](/freelancing-training/goautodial-training/)
 
-Hands-on Goautodial training covering production deployment, advanced
-configuration, freelance business building, and client acquisition.
+Learn GOautodial Freelancing Training for VoIP setup, call testing, freelance
+portfolio creation, and landing clients.
 
 **Goautodial Training Features:**
 
@@ -189,13 +189,12 @@ configuration, freelance business building, and client acquisition.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Call Center Setup Training](/assets/images/callcenter.svg)
+![Call Center Freelancing Training](/assets/images/callcenter.svg)
 
 ### [Call Center Freelancing Training](/freelancing-training/call-center-setup-training/)
 
-Deploy a production open-source call center on Linux — FreeSWITCH/FusionPBX,
-Telnyx & Twilio SIP trunking, IVR menus, call queues, and freelance client
-acquisition.
+Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers,
+and CRM integration, to work as a freelancer.
 
 **Call Center Training Features:**
 
@@ -209,8 +208,8 @@ acquisition.
 
 ### [Ubuntu Linux Freelancing Training](/freelancing-training/ubuntu-linux-training/)
 
-Get Ubuntu Linux Server training in system administration, networking, security
-hardening, production deployment, and profitable Linux freelancing.
+Learn Ubuntu Linux: setup web servers, CRMs & harden security. Build a portfolio
+for freelance clients for Ubuntu support.
 
 **Ubuntu Linux Training Features:**
 
@@ -220,12 +219,12 @@ hardening, production deployment, and profitable Linux freelancing.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Debian Linux Training](/assets/images/debian.svg)
+![Debian Linux Freelancing Training](/assets/images/debian.svg)
 
 ### [Debian Linux Freelancing Training](/freelancing-training/debian-linux-training/)
 
-Debian Linux Server Administration training: SSH hardening, Nginx, SSL, Docker,
-backups, production deployment, and freelance client acquisition.
+Learn Debian Linux admin: Set up LEMP, deploy Vtiger/Odoo/Attendize, fix errors,
+build portfolio & land clients.
 
 **Debian Linux Training Features:**
 
@@ -235,12 +234,12 @@ backups, production deployment, and freelance client acquisition.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![CentOS Linux Training](/assets/images/centos.svg)
+![CentOS Linux Freelancing Training](/assets/images/centos.svg)
 
 ### [CentOS Linux Freelancing Training](/freelancing-training/centos-linux-training/)
 
-CentOS Linux Administration training: networking, security hardening, production
-deployment, and profitable Linux freelancing.
+Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN,
+Next.js, troubleshoot, and land clients.
 
 **CentOS Linux Training Features:**
 
@@ -250,7 +249,7 @@ deployment, and profitable Linux freelancing.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![OpenAI Developer Training](/assets/images/openai.webp)
+![OpenAI Freelancing Training](/assets/images/openai.webp)
 
 ### [OpenAI Freelancing Training](/freelancing-training/openai-training/)
 
@@ -269,8 +268,8 @@ for freelance jobs on Upwork.
 
 ### [Claude Freelancing Training](/freelancing-training/claude-training/)
 
-Learn to develop Claude-powered applications with the Claude API and best
-practices, then find and apply for freelance jobs on Upwork.
+Learn Claude API & AI agent engineering — prompt engineering, tool use, RAG,
+agent orchestration. Land freelance clients.
 
 **Claude Training Features:**
 
@@ -280,12 +279,12 @@ practices, then find and apply for freelance jobs on Upwork.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Twilio Developer Training](/assets/images/twilio.svg)
+![Twilio SMS API Freelancing Training](/assets/images/twilio.svg)
 
-### [Twilio Freelancing Training](/freelancing-training/twilio-sms-api-training/)
+### [Twilio SMS API Freelancing Training](/freelancing-training/twilio-sms-api-training/)
 
-Learn to build engaging AI-powered communication solutions with Twilio, then
-find and apply for freelance jobs on Upwork.
+Learn Twilio SMS API setup, integration, automation, troubleshooting, and
+real-world freelancing skills.
 
 **Twilio Training Features:**
 
@@ -295,12 +294,12 @@ find and apply for freelance jobs on Upwork.
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Jasmin SMS Gateway Training](/assets/images/jasmin.svg)
+![Jasmin SMS Gateway Freelancing Training](/assets/images/jasmin.svg)
 
 ### [Jasmin SMS Gateway Freelancing Training](/freelancing-training/jasmin-sms-gateway-training/)
 
-Learn to build a production-ready bulk SMS platform using SMPP/HTTP APIs, Jasmin
-SMS Gateway, and playSMS for business messaging.
+Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs,
+troubleshoot, land freelance clients.
 
 **Jasmin SMS Gateway Training Features:**
 
@@ -314,12 +313,12 @@ SMS Gateway, and playSMS for business messaging.
 
 ### [Bulk SMS Freelancing Training](/freelancing-training/bulk-sms-setup-training/)
 
-Learn to deploy a production bulk SMS gateway on Linux with SMPP, REST APIs,
-bulk queuing, DLR tracking, CSV SMS sending, and freelance client acquisition.
+Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production
+workflows, land freelance clients.
 
 **Bulk SMS Freelancing Training Features:**
 
-- 25 Comprehensive Modules
+- 20 Comprehensive Modules
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*

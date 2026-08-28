@@ -1,7 +1,7 @@
 ---
 title: "Resource Center | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-10
+date: 2026-08-28
 description: "The School of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI."
 ---
 

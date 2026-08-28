@@ -1,91 +1,66 @@
 ---
-title: "LocalAI Hands-on Training | School of Freelancing"
+title: "LocalAI: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "LocalAI Training: deploy LLM, vision, voice & image models on standard hardware with no GPU, then sell it on Upwork, Guru & Freelancer"
+date: 2026-08-28
+description: "Learn how to deploy LocalAI production to run AI models directly on your own device or local server instead of a remote cloud."
 ---
 
-# LocalAI Hands-on Training | School of Freelancing
+# LocalAI: Freelancing Training
 
-[TOC]
 ## Overview
 
-LocalAI Hands-on Training is School of Freelancing's 20-hour, instructor-led
-course on LocalAI, the open-source AI engine that runs LLM, vision, voice,
-image, and video models on standard hardware without requiring a GPU. The
-training walks Linux users through installing and configuring LocalAI, deploying
-multi-modal models, and securing a client-facing API, then teaches how to sell
-that skill set as a freelance service on Upwork, Freelancer.com, and Guru.com.
+LocalAI Freelancing Training teaches you to run LLMs and AI agents locally for
+free. You will learn to build private RAG systems for clients and sell these
+high-paying setup services on platforms like Upwork and Fiverr.
 
-## Training at a Glance:
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $219 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions/Days | 10 sessions (5 sessions/week, 2 hours each) |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server (no GPU required), a domain, a freelance marketplace account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 hours over 2 weeks. |
+| Price: | $111 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Deploy LocalAI into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
+| Best for: | Freelancers and IT professionals who want to specialize in privacy-focused, self-hosted AI deployments and launch a freelance career around them. |
 
-## Participation Requirements
+### Participation Requirements:
 
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended) — no GPU required.
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+### Training Prerequisites
+
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Training Rules
+### Training Rules
 
-- These [Training Rules ("Ground Rules")](/legal/training-rules/) apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Who This Is For
+### You'll leave with:
 
-Beginners to intermediate Linux users who want job-ready LocalAI skills and the
-ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct
-LinkedIn outreach. You should be able to commit to 20 hours of hands-on,
-instructor-led training over 2 weeks.
+Hands-on experience in live, self-hosted LocalAI deployment
 
-## Training Curriculum: 10 Sessions
+Marketplace portfolio proving real support and Freelance-ready LocalAI agent
+skills
 
-| Session | Topic | Content |
-| --- | --- | --- |
-| Week 1 |  |  |
-| 1 | LocalAI Fundamentals | What LocalAI is, the OpenAI-compatible API, why no GPU is needed |
-| 2 | Install & First API Call | Docker/binary install on a Linux VPS, CLI basics, config files, model gallery — Lab: install and run your first prompt via the API |
-| 3 | LLM Backends | Downloading and configuring LLM backends (llama.cpp-based, quantized GGUF) |
-| 4 | Prompting & Chat Endpoints | Prompt templates, context size tuning, quantization tradeoffs, OpenAI-compatible chat endpoint — Lab: deploy a quantized LLM and query it via curl/Postman |
-| 5 | Image Generation | Stable Diffusion-compatible backends for text-to-image generation |
-| Week 2 |  |  |
-| 6 | Vision & Video Models | Image captioning and analysis, video generation basics — Lab: generate images and captions through LocalAI's REST API |
-| 7 | Speech Models | Speech-to-text and text-to-speech backends |
-| 8 | API Security & Client Integration | Authentication, reverse proxy, SSL, integrating LocalAI into a client-facing app — Lab: wire up STT/TTS behind an SSL reverse proxy |
-| 9 | End-to-End Deployment | Full task: fresh VPS → LocalAI install → multi-modal models → domain → SSL |
-| 10 | Marketplace Launch & Outreach | Upwork/Freelancer/Guru profiles & portfolios, pricing, LinkedIn outreach — Final Assessment: submit 1 proposal + 1 outreach message (reviewed live) |
+Stronger habits for deploying, troubleshooting, and reviewing LocalAI projects
 
-## Deliverables Upon Completion
+### Training Modules
 
-- A live portfolio project (your own LocalAI server running LLM, vision, and voice models)
-- Ready-to-use Upwork/Freelancer/Guru profile & proposal templates
-- LinkedIn outreach message templates for direct client acquisition
-- Access to School of Freelancing community for ongoing support
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | LocalAI Fundamentals | What LocalAI is, the OpenAI-compatible API, why no GPU is needed |
+| 2 | Install & First API Call | Docker/binary install on a Linux VPS, CLI basics, config files, model gallery — Lab: install and run your first prompt via the API |  |
+| 3 | LLM Backends | Downloading and configuring LLM backends (llama.cpp-based, quantized GGUF) |  |
+| 4 | Prompting & Chat Endpoints | Prompt templates, context size tuning, quantization tradeoffs, OpenAI-compatible chat endpoint — Lab: deploy a quantized LLM and query it via curl/Postman |  |
+| 5 | Image Generation | Stable Diffusion-compatible backends for text-to-image generation |  |
+| **Two** | 6 | Vision & Video Models | Image captioning and analysis, video generation basics — Lab: generate images and captions through LocalAI's REST API |
+| 7 | Speech Models | Speech-to-text and text-to-speech backends |  |
+| 8 | API Security & Client Integration | Authentication, reverse proxy, SSL, integrating LocalAI into a client-facing app — Lab: wire up STT/TTS behind an SSL reverse proxy |  |
+| 9 | End-to-End Deployment | Full task: fresh VPS → LocalAI install → multi-modal models → domain → SSL |  |
+| 10 | Marketplace Launch & Outreach | Upwork/Freelancer/Guru profiles & portfolios, pricing, LinkedIn outreach — Final Assessment: submit 1 proposal + 1 outreach message (reviewed live) |  |
 
-## Tools & Platforms Covered
-
-LocalAI, Docker, Nginx, Certbot/Let's Encrypt, Stable Diffusion-compatible
-models, GGUF-quantized LLMs, Upwork, Freelancer.com, Guru.com, LinkedIn
-
-## Secure Payment Gateways
-
-Pay the **$219** enrollment fee below, then click **Complete Registration** to
-confirm.
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now

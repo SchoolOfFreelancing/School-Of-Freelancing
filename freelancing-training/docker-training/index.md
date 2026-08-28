@@ -1,226 +1,78 @@
 ---
-title: "Docker Training | School of Freelancing"
+title: "Docker Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-10
-description: "20-hour, 2-week hands-on Docker Training: Dockerfiles, Compose, volumes, networking, reverse proxy with SSL, and container security. $250."
+date: 2026-08-28
+description: "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer."
 ---
 
-# Docker Training | School of Freelancing
+# Docker Freelancing Training
 
-Prefer to skip the training and have it done for you? [**Hire us for Docker
-Support**](/client-support/docker-engineer-services/) instead.
+## Overview
 
-[TOC]
+Comprehensive Docker Freelancing Training designed to take you from a Docker
+practitioner to a high-earning freelancer, then land freelance and direct
+clients with job-ready skills.
 
-## What Is Docker Training?
-
-Docker Training is School of Freelancing's 20-hour, instructor-led course that
-teaches Linux users to build, secure, and deploy production Docker container
-environments — custom images, Compose stacks, an SSL-secured reverse proxy, and
-hardened, monitored infrastructure — then apply those skills to win freelance
-Docker/DevOps clients.
-
-## Key Takeaways
-
-- **Format:** Online, instructor-led, hands-on labs
-- **Duration:** 20 hours across 10 sessions over 2 weeks
-- **Price:** $250 USD, paid in full before enrollment
-- **Covers:** Dockerfiles, Compose, networking, Nginx/SSL reverse proxy, container security, monitoring
-- **Best for:** Beginner-to-intermediate Linux users seeking freelance Docker/DevOps work
-
-## Docker Training at a Glance
+## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Price | $250 USD |
-| Duration | 20 hours over 2 weeks |
-| Sessions | 10 sessions × 2 hours |
-| Format | Online, instructor-led |
-| Prerequisites | Ubuntu Linux server, a domain, a freelance marketplace account |
-| Marketplaces targeted | Upwork, Freelancer.com, Guru.com |
+| Duration: | 20 Hands-on training sessions over one month training. |
+| Price: | $159 (One-Time Investment). |
+| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Covers: | Set up a production Docker and Docker Compose application to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
+| Best for: | Freelancers, sysadmins, and DevOps engineers looking to master Docker and Docker Compose for offer high-demand Docker support service. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
-## What You'll Learn in Docker Training
+### Participation Requirements:
 
-### Docker Fundamentals: Containers vs Virtual Machines
+### Training Prerequisites
 
-Understand the architecture behind Docker: how containers differ from VMs, the
-Docker daemon and client, image layers, and the container lifecycle. Master this
-foundation to troubleshoot container issues and design efficient container
-strategies for your clients.
-
-### Building Custom Docker Images with Dockerfiles
-
-Learn to write production-quality Dockerfiles that build optimized, secure, and
-maintainable images. Understand layering, caching, multi-stage builds, and best
-practices that reduce image size and improve deployment speed.
-
-### Docker Compose: Multi-Container Application Orchestration
-
-Deploy complex applications with multiple services using Docker Compose. Define
-networks, volumes, environment variables, and service dependencies in YAML.
-Manage database containers, application servers, caches, and message queues as
-coordinated stacks.
-
-### Container Networking & Inter-Service Communication
-
-Configure Docker networks, understand service discovery, set up reverse proxy
-containers, and troubleshoot networking issues. Build secure, scalable
-multi-container applications where services communicate reliably.
-
-### Nginx Reverse Proxy & SSL/TLS for Containers
-
-Deploy Nginx as a reverse proxy in front of containerized applications.
-Implement SSL/TLS certificates using Certbot, redirect HTTP to HTTPS, and load
-balance traffic across multiple container instances.
-
-### Container Security & Hardening
-
-Implement security best practices: run containers as non-root users, use
-read-only filesystems, implement resource limits, scan images for
-vulnerabilities, and manage secrets securely without leaking credentials.
-
-### Container Volumes & Data Persistence
-
-Manage persistent data in containers using volumes and bind mounts. Back up and
-restore container data, understand volume drivers, and implement backup
-strategies for databases running inside containers.
-
-### Container Monitoring & Logging
-
-Monitor container health, capture and analyze logs, set up alerts for resource
-exhaustion, and implement auto-restart policies. Know immediately when
-containerized applications fail so you can respond before clients notice.
-
-### Docker Compose in Production & Deployment Strategies
-
-Deploy Compose stacks to production Linux servers, manage configuration for
-different environments, scale applications, and implement rolling updates with
-zero downtime.
-
-## Course Objectives
-
-By the end of this training program, you will be able to:
-
-- **Build** custom Docker images with optimized, production-quality Dockerfiles
-- **Deploy** multi-container applications using Docker Compose with proper networking and data persistence
-- **Configure** Nginx reverse proxy with SSL/TLS for containerized applications
-- **Implement** security hardening including user restrictions, read-only filesystems, and secret management
-- **Monitor** running containers for performance, errors, and resource usage
-- **Troubleshoot** container networking, image build failures, and runtime errors
-- **Back up and restore** container data and handle disaster recovery scenarios
-- **Deploy** production Docker environments on Linux servers for real client workloads
-- **Create** a freelance service offering for Docker/DevOps work and win clients on Upwork and Freelancer
-- **Scale** and manage containerized applications as they grow
-
-## Participation Requirements
-
-- **[DigitalOcean:](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server (24.04 or 26.04 LTS recommended).
-- **Domain:** Any domain or sub domain will work.
-- **Freelance Marketplace:** Verified Upwork · Guru · Freelancer Account.
-- **Land Direct Clients:** From Linkedin and YouTube Account.
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain, & Verified Marketplace Profiles.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
 
-## Connectivity
+### Connectivity
 
-- **Portable messaging devices for 24/7 client communication.**
-- **Reliable fiber-optic internet access for uninterruptible training sessions.**
+- Portable messaging devices for 24/7 client communication.
+- Reliable fiber-optic internet access for uninterruptible training sessions.
 
-## Training Rules
+### Training Rules
 
-- These [Training Rules ("Ground Rules")](/legal/training-rules/) apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
-## Who This Is For
+### You'll leave with:
 
-Beginners to intermediate Linux users who want job-ready Docker skills and the
-ability to freelance on Upwork, Freelancer.com, Guru.com, and via direct
-LinkedIn outreach. You should be able to commit to 20 hours of hands-on,
-instructor-led training over 2 weeks.
+Hands-on experience in live, Docker application deployment & administration
 
-## Curriculum: 10 Sessions × 2 Hours (20 Hours Total)
+Marketplace portfolio proving Docker app deploy, migration, security, & CI/CD
+pipeline skills
 
-### Week 1 — Core Docker Skills
+Stronger habits for deploying, troubleshooting, and managing enterprise GitHub
+infrastructure
 
-### Session 1: Containers & Docker Fundamentals (2h)
+### Training Modules
 
-- Containers vs VMs, Docker architecture (daemon, client, images, containers)
-- Installing Docker Engine + Docker Compose on Ubuntu
-- Docker CLI basics: run, ps, logs, exec, stop, rm
+| Week | Session | Topic | Content |
+| --- | --- | --- | --- |
+| **One** | 1 | Server & Container Fundamentals | DigitalOcean droplet setup, SSH security, domain DNS setup, Docker & Docker Compose installation |
+| 2 | Application 1 Setup (WordPress Stack) | Dockerizing WordPress with MySQL database, volume persistence, and environment variables |  |
+| 3 | Application 1 Production Hardening | Configuring NGINX Reverse Proxy, Let's Encrypt SSL, and custom domain routing for WordPress |  |
+| 4 | Application 2 Setup (Node.js/Python App) | Writing custom Dockerfiles, multi-stage builds, and connecting to a Redis/PostgreSQL container stack |  |
+| 5 | Application 2 Production Hardening | Health checks, container auto-restarts, network isolation, and environment configuration |  |
+| **Two** | 6 | Application 3 Setup (Full MERN Stack) | Multi-container Docker Compose configuration featuring React frontend, Node backend, and MongoDB database |
+| 7 | Application 3 Production Hardening | Securing full-stack deployments with SSL certificates, NGINX proxy, UFW firewall, and Fail2ban integration |  |
+| 8 | Production Optimization & Monitoring | Optimizing Docker image sizes, log management, resource limits, and automated container backups |  |
+| 9 | GitHub & Docker Registry | Pushing custom Docker images to Docker Hub & GitHub Container Registry with automated GitHub Actions |  |
+| 10 | Container Maintenance & Troubleshooting | Live debugging, container log inspection, volume backups, and disaster recovery procedures |  |
+| **Three** | 11 | Portfolio Repository Setup | Structuring a public GitHub portfolio showcasing all 3 production Docker application deployment repositories |
+| 12 | Upwork Profile & Catalog Setup | Creating optimized Upwork profiles and Project Catalog offerings for Docker Compose & container deployment services |  |
+| 13 | Freelancer.com Profile & Service | Setting up Freelancer.com profile, service offerings, and portfolio showcases for container management |  |
+| 14 | Guru.com Profile & Service | Building a high-converting Guru profile, service packages, and technical pricing tiers for Docker tasks |  |
+| 15 | Marketplace Portfolio Integration | Embedding live application demos and repository links into Upwork, Freelancer.com, and Guru portfolio sections |  |
+| **Four** | 16 | Video Content Creation | Recording step-by-step walkthrough videos demonstrating live deployment of the 3 production Docker applications |
+| 17 | YouTube Optimization & Marketing | Uploading service demonstration videos to YouTube with SEO title tags, descriptions, and direct booking CTA links |  |
+| 18 | Client Outreach & Service Marketing | Executing LinkedIn direct outreach, target community marketing, and content sharing to capture direct clients |  |
+| 19 | Proposal & Bidding Strategy | Crafting custom proposals, fast-apply bidding strategies, and project estimation for marketplace job posts |  |
+| 20 | Client Onboarding & Capstone | Managing secure credential handoffs, project delivery, invoicing, client reviews, and final live Q&A |  |
 
-### Session 2: Images & Dockerfiles (2h)
-
-- Image layers, Docker Hub, pulling/pushing images
-- Writing Dockerfiles (FROM, COPY, RUN, CMD, ENTRYPOINT)
-- Multi-stage builds, image optimization
-
-### Session 3: Volumes & Networking (2h)
-
-- Bind mounts vs named volumes, data persistence
-- Docker networks: bridge, host, custom networks
-- Container-to-container communication
-
-### Session 4: Docker Compose (2h)
-
-- Compose file structure (services, volumes, networks)
-- Multi-container app orchestration
-- Environment variables, .env files, secrets basics
-
-### Session 5: Reverse Proxy & SSL (2h)
-
-- Nginx reverse proxy in front of containers
-- Domain setup + Let's Encrypt/Certbot SSL for containerized apps
-- Handling multiple containerized sites on one server
-
-### Week 2 — Production Skills & Freelance Readiness
-
-### Session 6: Databases in Docker (2h)
-
-- Running MySQL/PostgreSQL/MongoDB in containers
-- Backups & restores for containerized databases
-- Data persistence best practices
-
-### Session 7: Container Security & Firewalling (2h)
-
-- UFW with Docker (avoiding the UFW/iptables bypass issue)
-- Least-privilege containers, non-root users, secrets management
-- Image scanning basics, keeping images updated
-
-### Session 8: Monitoring, Logs & Maintenance (2h)
-
-- Container monitoring (docker stats, logs, healthchecks)
-- Log rotation for containers
-- Updating/restarting services with zero-downtime practices
-
-### Session 9: Client Project Simulation (2h)
-
-- Full end-to-end task: fresh VPS → Docker install → Compose stack → domain → SSL → backup
-- Troubleshooting common client issues (container crashes, port conflicts, disk full)
-- Documentation & handover practices (client-ready reports)
-
-### Session 10: Freelance Client Acquisition (2h)
-
-- Building winning Upwork/Freelancer.com/Guru.com profiles & portfolios
-- Writing proposals that win Docker/DevOps gigs
-- Pricing your services (hourly vs fixed-price gigs)
-- LinkedIn strategy: optimizing profile, outreach scripts, content posting for direct clients
-
-## Deliverables Upon Completion
-
-- A live portfolio project (your own Dockerized, SSL-secured, multi-container server)
-- Ready-to-use Upwork/Freelancer/Guru profile & proposal templates
-- LinkedIn outreach message templates for direct client acquisition
-- Access to School of Freelancing community for ongoing support
-
-## Tools & Platforms Covered
-
-Docker Engine, Docker Compose, Dockerfiles, Docker Hub, Nginx, Certbot/Let's
-Encrypt, UFW, MySQL/PostgreSQL/MongoDB, Upwork, Freelancer.com, Guru.com,
-LinkedIn
-
-## Secure Payment Gateways
-
-Pay the **$250** enrollment fee below, then click **Complete Registration** to
-confirm.
-
-## Finalize Your Seat
-
-Already paid? Click **Complete Registration** to confirm your enrollment.
+## Secure Your Seat Now
