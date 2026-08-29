@@ -2,13 +2,6 @@ User-agent: *
 Allow: /
 Disallow: /cgi-bin/
 
-# ============================================================
-# Content Signals (RFC draft-romm-aipref-contentsignals)
-# Declare AI content usage preferences
-# ============================================================
-Content-Signal: ai-train=no, search=yes, ai-input=no
-
-# ============================================================
 # AI search / retrieval crawlers (power citations in AI answers)
 User-agent: OAI-SearchBot
 Allow: /
