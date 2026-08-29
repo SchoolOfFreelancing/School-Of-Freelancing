@@ -6,52 +6,13 @@ RewriteEngine On
 Options -Indexes
 
 # ============================================================
-# 1. CANONICAL DOMAIN
-# www -> non-www (using HTTPS)
+# 1. ROOT & LEGACY SPECIFIC REDIRECTS (EXACT MATCHES FIRST)
 # ============================================================
 
-# Single hop: www + /index.html -> https://schooloffreelancing.com/
-RewriteCond %{HTTP_HOST} ^www\.schooloffreelancing\.com$ [NC]
-RewriteCond %{THE_REQUEST} \s/+index\.html\s [NC]
+# Root index.html -> /
 RewriteRule ^index\.html$ https://schooloffreelancing.com/ [R=301,L]
 
-# Single hop: www + subfolder/index.html -> non-www subfolder/
-RewriteCond %{HTTP_HOST} ^www\.schooloffreelancing\.com$ [NC]
-RewriteCond %{REQUEST_URI} ^/(.+)/index\.html$ [NC]
-RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
-
-# General www -> non-www redirect (force HTTPS)
-RewriteCond %{HTTP_HOST} !^localhost$ [NC]
-RewriteCond %{HTTP_HOST} ^www\.(.+)$ [NC]
-RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
-
-# ============================================================
-# 2. ROOT index.html -> /
-# ============================================================
-
-RewriteRule ^index\.html$ https://schooloffreelancing.com/ [R=301,L]
-
-# ============================================================
-# 3. CANONICALIZE QUERY PARAMETER URLs
-# Strip all query parameters from URLs to clean canonical versions
-# ============================================================
-
-# Strip query parameters from index.html (canonicalize to /)
-RewriteCond %{QUERY_STRING} .
-RewriteCond %{REQUEST_URI} ^/index\.html$ [NC]
-RewriteRule ^index\.html$ https://schooloffreelancing.com/? [R=301,L]
-
-# Strip query parameters from ANY page - redirect to clean URL
-# This catches all URLs with query strings and redirects to path only
-RewriteCond %{QUERY_STRING} .
-RewriteCond %{REQUEST_URI} !^/api/ [NC]
-RewriteCond %{REQUEST_URI} !^/.well-known/ [NC]
-RewriteRule ^(.*)$ https://schooloffreelancing.com/$1? [R=301,L]
-
-# ============================================================
-# 4. OLD FLAT HTML URLS -> CURRENT URLS
-# ============================================================
-
+# Flat HTML mappings
 RewriteRule ^(tech-support|support|get-support|get_support)\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
 RewriteRule ^training\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
 RewriteRule ^enrollment\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
@@ -61,25 +22,16 @@ RewriteRule ^about\.html$ https://schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^faq\.html$ https://schooloffreelancing.com/resource-center/faqs/ [R=301,L]
 RewriteRule ^privacy-policy\.html$ https://schooloffreelancing.com/legal/privacy-policy/ [R=301,L]
 RewriteRule ^terms\.html$ https://schooloffreelancing.com/legal/terms-and-conditions/ [R=301,L]
-
-# FIX: duplicate sitemap page -> canonical /sitemap/
 RewriteRule ^sitemap\.html$ https://schooloffreelancing.com/sitemap/ [R=301,L]
 
-# ============================================================
-# 5. LEGACY FOLDER index.html -> FINAL URL
-# (targets differ from folder name, so must precede rule 7)
-# ============================================================
-
+# Legacy folder index.html targets
 RewriteRule ^training/index\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
 RewriteRule ^about/index\.html$ https://schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^contact/index\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^testimonials/index\.html$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
 RewriteRule ^tech-support/index\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
 
-# ============================================================
-# 6. DELETED / LEGACY SECTIONS
-# ============================================================
-
+# Legacy / deleted sections
 RewriteRule ^training/(enroll|oldenroll|enroll1|files)(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^training/?$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
 
@@ -91,34 +43,40 @@ RewriteRule ^about/?$ https://schooloffreelancing.com/about-us/ [R=301,L]
 RewriteRule ^contact/?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
 RewriteRule ^testimonials/?$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
 
-# ============================================================
-# 7. GENERIC index.html -> FOLDER/
-# Catches remaining /some-folder/index.html -> /some-folder/
-# ============================================================
-
+# Generic folder index.html -> folder/
 RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
 
 # ============================================================
-# 8. FLAT .HTML SAFETY NET (extensionless URLs)
-# Redirects any remaining flat *.html request (except 404.html)
-# to its extensionless URL, then serves it internally.
-# Prevents /page vs /page.html duplicate-content splits.
+# 2. FLAT .HTML SAFETY NET (Extensionless URLs)
+# MUST RUN BEFORE QUERY PARAMETER STRIPPING
 # ============================================================
 
+# Redirect browser directly requesting .html to extensionless URL
 RewriteCond %{THE_REQUEST} \s/+([^?\s]+)\.html[\s?] [NC]
-RewriteCond %{1} !^404$
+RewriteCond %1 !^404$
 RewriteRule ^ /%1 [R=301,L]
 
+# Internal rewrite: map extensionless request to existing .html file
 RewriteCond %{REQUEST_URI} !^/404$
-RewriteCond %{REQUEST_FILENAME}\.html -f
+RewriteCond %{REQUEST_FILENAME} !-d
+RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}\.html -f
 RewriteRule ^(.*)$ $1.html [L]
 
 # ============================================================
-# 9. STATIC ASSET CACHING
+# 3. CANONICALIZE QUERY PARAMETER URLs
+# ============================================================
+
+# Strip query parameters from non-excluded external requests
+RewriteCond %{THE_REQUEST} \s/+[^\s?]*\? [NC]
+RewriteCond %{REQUEST_URI} !^/api/ [NC]
+RewriteCond %{REQUEST_URI} !^/.well-known/ [NC]
+RewriteRule ^(.*)$ https://schooloffreelancing.com/$1? [R=301,L]
+
+# ============================================================
+# 4. STATIC ASSET CACHING
 # ============================================================
 
 <IfModule mod_expires.c>
-
     ExpiresActive On
 
     # Images
@@ -140,80 +98,54 @@ RewriteRule ^(.*)$ $1.html [L]
     ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
     ExpiresByType font/ttf "access plus 1 year"
     ExpiresByType font/otf "access plus 1 year"
-
 </IfModule>
 
 # ============================================================
-# 10. HTTP RESPONSE HEADERS
+# 5. HTTP RESPONSE HEADERS
 # ============================================================
 
 <IfModule mod_headers.c>
 
-    # --------------------------------------------------------
     # AI / Agent Discovery
-    # RFC 8288 Link headers
-    # --------------------------------------------------------
-
     Header always add Link "</llms.txt>; rel=\"service-doc\""
     Header always add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
 
-    # --------------------------------------------------------
-    # WebMCP Origin Trial
-    # https://developer.chrome.com/origintrials/#/view_trial/4163014905550602241
-    # --------------------------------------------------------
-
-     Header always set Origin-Trial "AjBt18ONfDupOHO+pn5N5FzfefWof5r231ixB2m2fG7gCQ94DyFVs2b7zYhUpWWNkH3r/xud7NgDh4CzH2C3fAsAAAByeyJvcmlnaW4iOiJodHRwczovL3NjaG9vbG9mZnJlZMyIsImZlYXR1cmUiOiJJbnN0YWxsRWxlbWVudCIsImV4cGlyeSI6MTc5MTI0NDgwMCwiaXNTdWJkb21haW4iOnRydWV9"
-
-    # --------------------------------------------------------
-    # Static assets
-    # One-year browser cache
-    # --------------------------------------------------------
-
+    # Static Assets (1 year)
     <FilesMatch "\.(js|css|png|jpg|jpeg|gif|webp|svg|ico)$">
         Header set Cache-Control "public, max-age=31536000, immutable"
     </FilesMatch>
 
-    # --------------------------------------------------------
-    # HTML
-    # Five-minute browser cache
-    # --------------------------------------------------------
-
+    # HTML Pages (5 minutes)
     <FilesMatch "\.(html|htm)$">
         Header set Cache-Control "public, max-age=300"
     </FilesMatch>
 
-    # --------------------------------------------------------
-    # FIX: sitemap / robots / structured data
-    # Short cache so regenerated sitemap propagates fast
-    # --------------------------------------------------------
-
+    # Sitemap / Robots / Data Files
     <FilesMatch "\.(xml|txt|json)$">
         Header set Cache-Control "public, max-age=300"
     </FilesMatch>
 
+    # Robots.txt indexing directive
+    <Files "robots.txt">
+        Header set X-Robots-Tag "noindex, nofollow"
+    </Files>
+
 </IfModule>
 
 # ============================================================
-# 11. CUSTOM 404 PAGE
+# 6. SYSTEM CONFIGURATION & COMPRESSION
 # ============================================================
 
 ErrorDocument 404 /404.html
 
-# ============================================================
-# 12. Tell Googlebot Not to Index robots.txt
-# ============================================================
-<Files "robots.txt">
-    Header set X-Robots-Tag "noindex, nofollow"
-</Files>
+AddDefaultCharset UTF-8
+AddType text/plain txt
+AddType text/xml xml
+AddType application/json json
 
-# ============================================================
-# 13. Enabling Gzip Compression
-# ============================================================
 <IfModule mod_deflate.c>
-    # Compression
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript image/svg+xml image/x-icon
 
-    # Bug Handle
     BrowserMatch ^Mozilla/4 gzip-only-text/html
     BrowserMatch ^Mozilla/4\.0 no-gzip
     BrowserMatch \bMSIE !no-gzip !gzip-only-text/html

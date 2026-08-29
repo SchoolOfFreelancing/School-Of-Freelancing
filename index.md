@@ -1,8 +1,8 @@
 ---
-title: "Linux & AI Training with Tech Support | School of Freelancing"
+title: "#1 Linux & AI Freelancing Training | 5.0★ Rated"
 author: "Karim (Masum)"
 date: 2026-08-28
-description: "School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015."
+description: "School of Freelancing offers live Linux & AI training with tech support. Powered by FOSS since 2015. Enroll today!"
 ---
 
 # Linux & AI Training with Tech Support | School of Freelancing
