@@ -1,5 +1,6 @@
+DirectoryIndex index.html index.htm index.php
+
 Options -Indexes
-DirectoryIndex index.html index.php
 
 # ==============================================================================
 # ENCODING & MIME-TYPES (Forces UTF-8 for plain text, llms.txt, HTML, and CSS)
