@@ -1,13 +1,12 @@
 ---
 title: "Sitemap | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "A complete, human-readable list of every page on School of Freelancing — training programs, support services, locations, and legal pages."
 ---
 
 # Sitemap | School of Freelancing
 
-[TOC]
 ## Browse Every Page
 
 ## Main

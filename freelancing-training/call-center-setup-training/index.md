@@ -1,7 +1,7 @@
 ---
 title: "Call Center: Setup Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn enterprise call center infrastructure deployment, predictive dialers, IVR routing, SIP trunking, and CRM integration, then build a profitable freelance business."
 ---
 
@@ -9,10 +9,7 @@ description: "Learn enterprise call center infrastructure deployment, predictive
 
 ## Overview
 
-Learn enterprise call center infrastructure deployment, predictive dialer setup,
-IVR call routing, SIP trunking integration, and CRM connectivity, then transform
-this high-demand technical expertise into a lucrative freelance business with
-real client acquisition.
+Learn enterprise call center infrastructure deployment, predictive dialer setup, IVR call routing, SIP trunking integration, and CRM connectivity, then transform this high-demand technical expertise into a lucrative freelance business with real client acquisition.
 
 ## Training Features:
 
@@ -44,14 +41,11 @@ real client acquisition.
 
 ### You'll leave with:
 
-Hands-on experience in building, scaling, and maintaining enterprise contact
-center architectures.
+Hands-on experience in building, scaling, and maintaining enterprise contact center architectures.
 
-Marketplace portfolio demonstrating dialer deployment, IVR design, carrier
-setup, and security.
+Marketplace portfolio demonstrating dialer deployment, IVR design, carrier setup, and security.
 
-Proven techniques for onboarding call center clients, securing retainer
-contracts, and scaling services.
+Proven techniques for onboarding call center clients, securing retainer contracts, and scaling services.
 
 ### Training Modules
 

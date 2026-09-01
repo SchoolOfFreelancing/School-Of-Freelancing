@@ -1,18 +1,15 @@
 ---
 title: "Telnyx: SMS API Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn to integrate Telnyx SMS APIs for automated texting and OTPs. Boost your freelance developer portfolio and land high-paying gigs. Enroll today!"
 ---
 
 # Telnyx: SMS API Freelancing Training
 
-[TOC]
 ## Overview
 
-Learn to deploy a compliant 2-way bulk SMS system using the Telnyx Messaging
-API, Jasmin Gateway, playSMS, and RabbitMQ on DigitalOcean, then package that
-setup into high-demand freelance services for global clients.
+Learn to deploy a compliant 2-way bulk SMS system using the Telnyx Messaging API, Jasmin Gateway, playSMS, and RabbitMQ on DigitalOcean, then package that setup into high-demand freelance services for global clients.
 
 ## Training Features:
 

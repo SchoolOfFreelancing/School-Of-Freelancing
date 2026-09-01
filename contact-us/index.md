@@ -1,7 +1,7 @@
 ---
 title: "Contact Us | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Get in touch with School of Freelancing via Telegram, WhatsApp, phone, or email. We reply to enrollment, training, and Linux support inquiries within 24 hours."
 ---
 

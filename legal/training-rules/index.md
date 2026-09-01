@@ -1,19 +1,15 @@
 ---
 title: "Training Rules — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training."
 ---
 
 # Training Rules — School of Freelancing
 
-[TOC]
 ## 1. Introduction
 
-These Training Rules ("Ground Rules") apply to everyone enrolled in School of
-Freelancing's Linux Freelancing Training. They exist to keep the training
-environment fair, focused, and productive for both trainees and mentors, and
-they may be updated from time to time as our program evolves.
+These Training Rules ("Ground Rules") apply to everyone enrolled in School of Freelancing's Linux Freelancing Training. They exist to keep the training environment fair, focused, and productive for both trainees and mentors, and they may be updated from time to time as our program evolves.
 
 ## 2. Enrollment & Eligibility
 
@@ -62,11 +58,7 @@ they may be updated from time to time as our program evolves.
 
 ## 8. Freelancing Income During Training
 
-Our goal is to help you finish sessions and gain real experience, so during
-training we only support you in earning your first Linux freelancing income.
-Chasing more income than that during the program can distract from the sessions
-and your learning focus. Once training is complete, you're free to take on as
-many projects as you'd like.
+Our goal is to help you finish sessions and gain real experience, so during training we only support you in earning your first Linux freelancing income. Chasing more income than that during the program can distract from the sessions and your learning focus. Once training is complete, you're free to take on as many projects as you'd like.
 
 ## 9. Behavior & Security
 
@@ -89,19 +81,12 @@ many projects as you'd like.
 
 ## 12. Suspension & Disqualification
 
-Violations of these rules — including unexcused absence, inappropriate conduct,
-unauthorized VPN or dual-boot use, phishing/hacking attempts, or performing
-office work during sessions — may lead to session cancellation, temporary
-suspension, or permanent disqualification as outlined above. If your account on
-any platform is suspended due to your own actions, you are responsible for the
-consequences.
+Violations of these rules — including unexcused absence, inappropriate conduct, unauthorized VPN or dual-boot use, phishing/hacking attempts, or performing office work during sessions — may lead to session cancellation, temporary suspension, or permanent disqualification as outlined above. If your account on any platform is suspended due to your own actions, you are responsible for the consequences.
 
 ## 13. Miscellaneous
 
 ## 14. Contact Us
 
-Questions about these Training Rules can be sent to us via our [contact
-page](/contact-us/) , or reach us directly on WhatsApp at +8801748973769, or by
-email at office@schooloffreelancing.com.
+Questions about these Training Rules can be sent to us via our [contact page](/contact-us/) , or reach us directly on WhatsApp at +8801748973769, or by email at office@schooloffreelancing.com.
 
 ## Frequently Asked Questions

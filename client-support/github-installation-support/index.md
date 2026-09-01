@@ -1,62 +1,29 @@
 ---
-title: "GitHub Enterprise Server Setup | School of Freelancing"
+title: "GitHub — Installation | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Professional GitHub Enterprise Server installation, migration, and support from an experienced Linux system administrator. 24-hour support included."
+date: 2026-09-01
+description: "Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management."
 ---
 
-# GitHub Enterprise Server Setup | School of Freelancing
+# GitHub — Installation | Hire Support
 
-Want to learn this yourself instead of hiring us? [**Check out GitHub
-Training**](/freelancing-training/github-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is GitHub Enterprise Server Setup?
-
-GitHub Enterprise Server Setup is School of Freelancing's done-for-you
-installation and migration service for GitHub Enterprise Server — the
-self-hosted version of GitHub that businesses run on their own infrastructure
-for source control and collaboration. An experienced Linux system administrator
-installs and configures the platform, migrates existing repositories, issues,
-and CI/CD pipeline configuration into it, and hardens the setup, so businesses
-can self-host GitHub correctly the first time without doing the work themselves.
+Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 72 engineering hours over 3 days
-- **Price:** $350 USD flat rate
-- **Covers:** GitHub Enterprise Server installation & configuration, repository/issue/CI-CD migration, initial hardening, 24-hour post-installation support
-- **Best for:** Businesses that want to self-host GitHub Enterprise Server but need an experienced Linux administrator to handle installation, migration, and configuration correctly the first time
-
-## GitHub Enterprise Server Setup at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $350 USD flat rate |
-| Turnaround | 72 engineering hours / 3 days |
-| Delivery | Remote, worldwide |
-| What you provide | Access to your infrastructure for installation; existing repositories, issues, and CI/CD configuration to migrate |
-| Support window | 24-hour post-installation support included |
-
-## What's Included
-
-- Fast issue resolution from an experienced Linux system administrator
-- Secure remote assistance over SSH or your preferred remote-access tool
-- GitHub Enterprise Server installation, configuration, and initial setup
-- Migration support for repositories, issues, and CI/CD pipeline configuration into GitHub Enterprise Server
-- 24-hour post-installation support window after delivery
-
-## Who This Is For
-
-Businesses that want to self-host GitHub Enterprise Server for source control
-and collaboration, but need an
-experienced Linux administrator to handle installation, migration, and
-configuration correctly the first time.
+| Turnaround: | 2 Business Days (Fully Tested). |
+| Price | $319 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management. |
+| Best for: | Individuals, teams, and businesses requiring secure GitHub setup or ongoing repository management support without a full-time hire. |
+| What you provide: | Team access to your GitHub account/organization, along with any existing repositories ready for configuration. |
 
 ## Frequently Asked Questions
 
-## Need GitHub Enterprise Server Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

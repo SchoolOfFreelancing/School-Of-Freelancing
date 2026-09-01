@@ -1,7 +1,7 @@
 ---
 title: "Hands-on Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Hands-on live freelancing training at School of Freelancing. Learn Linux, VoIP, AI & cloud tech, build real projects, and land top global clients today!"
 ---
 
@@ -13,8 +13,7 @@ description: "Hands-on live freelancing training at School of Freelancing. Learn
 
 ### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/)
 
-Become an in-demand Linux system administrator, build a freelance business, and
-win high-paying global clients.
+Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
 
 **Linux Training Features:**
 
@@ -28,8 +27,7 @@ win high-paying global clients.
 
 ### [Hermes Agent Freelancing Training](/freelancing-training/hermes-agent-training/)
 
-Build an in-demand freelance career as a Hermes AI Agent Engineer and attract
-premium global projects.
+Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
 
 **Hermes Agent Training Features:**
 
@@ -43,8 +41,7 @@ premium global projects.
 
 ### [Telnyx SMS API Freelancing Training](/freelancing-training/telnyx-sms-api-training/)
 
-Learn Telnyx — the most in-demand messaging skill in the freelance market — and
-attract premium global clients now!
+Learn Telnyx — the most in-demand messaging skill in the freelance market — and attract premium global clients now!
 
 **Telnyx SMS Training Features:**
 
@@ -58,8 +55,7 @@ attract premium global clients now!
 
 ### [Odysseus Freelancing Training](/freelancing-training/odysseus-ai-training/)
 
-Set up Odysseus on Linux, optimize AI synergy, and build service portfolios
-across marketplaces.
+Set up Odysseus on Linux, optimize AI synergy, and build service portfolios across marketplaces.
 
 **Odysseus Training Features:**
 
@@ -73,8 +69,7 @@ across marketplaces.
 
 ### [OpenClaw Freelancing Training](/freelancing-training/openclaw-training/)
 
-Learn to deploy OpenClaw Linux servers for AI agents, build your service
-portfolio, and get hired freelance.
+Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance.
 
 **OpenClaw Training Features:**
 
@@ -88,8 +83,7 @@ portfolio, and get hired freelance.
 
 ### [LocalAI Freelancing Training](/freelancing-training/local-ai-training/)
 
-Learn how to deploy LocalAI production to run AI models directly on your own
-device or local server instead of a remote cloud.
+Learn how to deploy LocalAI production to run AI models directly on your own device or local server instead of a remote cloud.
 
 **LocalAI Training Features:**
 
@@ -103,8 +97,7 @@ device or local server instead of a remote cloud.
 
 ### [ZeroClaw Freelancing Training](/freelancing-training/zeroclaw-training/)
 
-A hands-on training covering ZeroClaw fundamentals, production deployment, and
-building a profitable service around it.
+A hands-on training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
 
 **ZeroClaw Training Features:**
 
@@ -118,8 +111,7 @@ building a profitable service around it.
 
 ### [GitLab Freelancing Training](/freelancing-training/gitlab-training/)
 
-Learn GitLab production setup, migration, version control, CI/CD, & project
-management to secure freelance jobs.
+Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 
 **GitLab Training Features:**
 
@@ -133,8 +125,7 @@ management to secure freelance jobs.
 
 ### [GitHub Freelancing Training](/freelancing-training/github-training/)
 
-Learn GitHub Enterprise Server deployment, Actions CI/CD, migration, and
-building a profitable freelance service.
+Learn GitHub Enterprise Server deployment, Actions CI/CD, migration, and building a profitable freelance service.
 
 **GitHub Training Features:**
 
@@ -148,8 +139,7 @@ building a profitable freelance service.
 
 ### [Docker Freelancing Training](/freelancing-training/docker-training/)
 
-Hands-on Docker training covering three production deployments, building a
-freelance service, and client acquisition.
+Hands-on Docker training covering three production deployments, building a freelance service, and client acquisition.
 
 **Docker Training Features:**
 
@@ -163,8 +153,7 @@ freelance service, and client acquisition.
 
 ### [FusionPBX Freelancing Training](/freelancing-training/fusionpbx-training/)
 
-Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then
-build a profitable freelance service.
+Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service.
 
 **FusionPBX Training Features:**
 
@@ -178,8 +167,7 @@ build a profitable freelance service.
 
 ### [GOautodial Freelancing Training](/freelancing-training/goautodial-training/)
 
-Learn GOautodial Freelancing Training for VoIP setup, call testing, freelance
-portfolio creation, and landing clients.
+Learn GOautodial Freelancing Training for VoIP setup, call testing, freelance portfolio creation, and landing clients.
 
 **Goautodial Training Features:**
 
@@ -193,8 +181,7 @@ portfolio creation, and landing clients.
 
 ### [Call Center Freelancing Training](/freelancing-training/call-center-setup-training/)
 
-Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers,
-and CRM integration, to work as a freelancer.
+Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers, and CRM integration, to work as a freelancer.
 
 **Call Center Training Features:**
 
@@ -208,8 +195,7 @@ and CRM integration, to work as a freelancer.
 
 ### [Ubuntu Linux Freelancing Training](/freelancing-training/ubuntu-linux-training/)
 
-Learn Ubuntu Linux: setup web servers, CRMs & harden security. Build a portfolio
-for freelance clients for Ubuntu support.
+Learn Ubuntu Linux: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.
 
 **Ubuntu Linux Training Features:**
 
@@ -223,8 +209,7 @@ for freelance clients for Ubuntu support.
 
 ### [Debian Linux Freelancing Training](/freelancing-training/debian-linux-training/)
 
-Learn Debian Linux admin: Set up LEMP, deploy Vtiger/Odoo/Attendize, fix errors,
-build portfolio & land clients.
+Learn Debian Linux admin: Set up LEMP, deploy Vtiger/Odoo/Attendize, fix errors, build portfolio & land clients.
 
 **Debian Linux Training Features:**
 
@@ -238,8 +223,7 @@ build portfolio & land clients.
 
 ### [CentOS Linux Freelancing Training](/freelancing-training/centos-linux-training/)
 
-Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN,
-Next.js, troubleshoot, and land clients.
+Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN, Next.js, troubleshoot, and land clients.
 
 **CentOS Linux Training Features:**
 
@@ -253,8 +237,7 @@ Next.js, troubleshoot, and land clients.
 
 ### [OpenAI Freelancing Training](/freelancing-training/openai-training/)
 
-OpenAI Developer Training: Build real-world AI applications, then find and apply
-for freelance jobs on Upwork.
+OpenAI Developer Training: Build real-world AI applications, then find and apply for freelance jobs on Upwork.
 
 **OpenAI Training Features:**
 
@@ -268,8 +251,7 @@ for freelance jobs on Upwork.
 
 ### [Claude Freelancing Training](/freelancing-training/claude-training/)
 
-Learn Claude API & AI agent engineering — prompt engineering, tool use, RAG,
-agent orchestration. Land freelance clients.
+Learn Claude API & AI agent engineering — prompt engineering, tool use, RAG, agent orchestration. Land freelance clients.
 
 **Claude Training Features:**
 
@@ -283,8 +265,7 @@ agent orchestration. Land freelance clients.
 
 ### [Twilio SMS API Freelancing Training](/freelancing-training/twilio-sms-api-training/)
 
-Learn Twilio SMS API setup, integration, automation, troubleshooting, and
-real-world freelancing skills.
+Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-world freelancing skills.
 
 **Twilio Training Features:**
 
@@ -298,8 +279,7 @@ real-world freelancing skills.
 
 ### [Jasmin SMS Gateway Freelancing Training](/freelancing-training/jasmin-sms-gateway-training/)
 
-Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs,
-troubleshoot, land freelance clients.
+Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot, land freelance clients.
 
 **Jasmin SMS Gateway Training Features:**
 
@@ -313,8 +293,7 @@ troubleshoot, land freelance clients.
 
 ### [Bulk SMS Freelancing Training](/freelancing-training/bulk-sms-setup-training/)
 
-Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production
-workflows, land freelance clients.
+Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
 
 **Bulk SMS Freelancing Training Features:**
 

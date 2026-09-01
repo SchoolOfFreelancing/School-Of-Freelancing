@@ -1,19 +1,15 @@
 ---
 title: "Linux Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "180-hour, 6-month hands-on Linux Systems Administration training. Earn a guaranteed minimum income on Upwork, Guru, and Freelancer. $600."
 ---
 
 # Linux Freelancing Training | School of Freelancing
 
-[TOC]
 ## Overview
 
-Linux Freelancing Training is a hands-on Linux system administration training
-program built by freelancers for freelancers to level up high-demand technical
-skills to secure top-tier marketplace gigs and work directly with global remote
-clients.
+Linux Freelancing Training is a hands-on Linux system administration training program built by freelancers for freelancers to level up high-demand technical skills to secure top-tier marketplace gigs and work directly with global remote clients.
 
 ## Training Features:
 
@@ -44,11 +40,9 @@ clients.
 
 ## You'll leave with:
 
-Hands-on experience in Linux system administration and how it can be applied to
-online earning.
+Hands-on experience in Linux system administration and how it can be applied to online earning.
 
-Stronger habits for deploying, troubleshooting, and reviewing Linux server
-applications.
+Stronger habits for deploying, troubleshooting, and reviewing Linux server applications.
 
 An improved version of a real task you regularly perform.
 

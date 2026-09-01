@@ -1,7 +1,7 @@
 ---
 title: "GitLab: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
@@ -9,8 +9,7 @@ description: "Learn GitLab production setup, migration, version control, CI/CD, 
 
 ## Overview
 
-Learn GitLab production setup, migration, version control, CI/CD, & project
-management to secure freelance jobs.
+Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 
 ## Training Features:
 
@@ -43,8 +42,7 @@ management to secure freelance jobs.
 
 Hands-on experience in live, self-hosted GitLab server deploy & manage.
 
-Marketplace portfolio proving real GitLab migration, security, & CI/CD pipeline
-skills.
+Marketplace portfolio proving real GitLab migration, security, & CI/CD pipeline skills.
 
 Stronger habits for deploying, troubleshooting, and managing enterprise GitLab.
 

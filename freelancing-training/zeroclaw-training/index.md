@@ -1,7 +1,7 @@
 ---
 title: "ZeroClaw: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it."
 ---
 
@@ -9,8 +9,7 @@ description: "A hands-on Freelancing training covering ZeroClaw fundamentals, pr
 
 ## Overview
 
-A hands-on Freelancing training covering ZeroClaw fundamentals, production
-deployment, and building a profitable service around it.
+A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
 
 ## Training Features:
 
@@ -42,8 +41,7 @@ deployment, and building a profitable service around it.
 
 Hands-on experience in live, self-hosted ZeroClaw production deployment
 
-Marketplace portfolio proving real support and Freelance-ready ZeroClaw
-integration skills
+Marketplace portfolio proving real support and Freelance-ready ZeroClaw integration skills
 
 Stronger habits for deploying, troubleshooting, and managing ZeroClaw projects
 

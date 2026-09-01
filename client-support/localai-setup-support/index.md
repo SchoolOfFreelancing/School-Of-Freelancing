@@ -1,61 +1,29 @@
 ---
-title: "LocalAI Support | School of Freelancing"
+title: "LocalAI — Self-Hosted LLM Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Expert LocalAI Support: setup, configuration & troubleshooting for the open-source engine that runs LLM, vision, voice, image & video models — no GPU required."
+date: 2026-09-01
+description: "Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware."
 ---
 
-# LocalAI Support | School of Freelancing
+# LocalAI — Self-Hosted LLM Setup | Hire Support
 
-Want to learn this yourself instead of hiring us? [**Check out LocalAI
-Training**](/freelancing-training/local-ai-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is LocalAI Support?
-
-LocalAI Support is School of Freelancing's done-for-you service for LocalAI, the
-open-source AI engine that runs LLM, vision, voice, image, and video models on
-any hardware without requiring a GPU. An experienced specialist installs,
-configures, and hardware-tunes LocalAI on your own server so you can run AI
-models locally without hiring a full-time AI engineer.
+Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 72 engineering hours over 3 days
-- **Price:** $350 USD flat rate
-- **Covers:** LocalAI installation, LLM/vision/voice/image/video model configuration, hardware-aware tuning, troubleshooting
-- **Best for:** Businesses and individuals who want to run AI models locally on their own hardware without hiring a full-time AI engineer
-
-## LocalAI Support at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $350 USD flat rate |
-| Turnaround | 72 engineering hours / 3 days |
-| Delivery | Remote, worldwide |
-| What you provide | SSH or your preferred remote-access tool to the hardware where LocalAI will run |
-| Support window | 24-hour post-installation support included |
-
-## What's Included
-
-- Fast issue resolution from an experienced LocalAI specialist
-- Secure remote assistance over SSH or your preferred remote-access tool
-- Installation and configuration of LocalAI to run LLMs, vision, voice, image, or video models
-- Hardware-aware tuning so models run efficiently even without a GPU
-- Cost-effective, scoped engagements — no long-term contract required
-- 24-hour post-installation support window after delivery
-
-## Who This Is For
-
-Businesses and individuals who want to run AI models locally with LocalAI on
-their own hardware and need help with
-installation, model configuration, or troubleshooting, without hiring a
-full-time AI engineer.
+| Turnaround: | 2 Business Days (Fully Tested). |
+| Price | $169 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | LocalAI production setup for LLM deployment, vision, voice, and video engine setup on your existing hardware. |
+| Best for: | Individuals, teams, and businesses requiring production LocalAI setup or ongoing self-hosted LLM support without a full-time hire. |
+| What you provide: | Team access to your existing hardware/server, along with any model or configuration files ready for production deployment. |
 
 ## Frequently Asked Questions
 
-## Need LocalAI Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

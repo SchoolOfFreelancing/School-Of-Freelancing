@@ -1,15 +1,13 @@
 ---
 title: "How to Containerize a Legacy Web Application | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."
 ---
 
 ## Overview
 
-This guide teaches containerizing existing web applications with Docker. You'll
-create a Dockerfile, build optimized images, and deploy with Docker Compose —
-enabling reliable, scalable deployments.
+This guide teaches containerizing existing web applications with Docker. You'll create a Dockerfile, build optimized images, and deploy with Docker Compose — enabling reliable, scalable deployments.
 
 ## Prerequisites
 
@@ -24,8 +22,6 @@ Create a `Dockerfile` in your application's root directory:
 ```
 # How to Containerize a Legacy Web Application | School of Freelancing
 FROM node:20-alpine
-
-[TOC]
 
 ## Set working directory
 WORKDIR /app
@@ -134,5 +130,4 @@ sudo certbot certonly --standalone -d yourdomain.com
 - Deploy to production servers with Compose
 - Implement container logging and monitoring
 
-Learn more in our [Docker Training](/freelancing-training/docker-training/)
-program.
+Learn more in our [Docker Training](/freelancing-training/docker-training/) program.

@@ -5,7 +5,7 @@
         <meta content="ie=edge" http-equiv="x-ua-compatible">
         <meta content="width=device-width,initial-scale=1,maximum-scale=5" name="viewport">
         <title>#1 Linux &amp; AI Freelancing Training | 5.0★ Rated</title>
-        <link rel="canonical" href="https://schooloffreelancing.com/">
+        <link rel="canonical" href="https://schooloffreelancing.com/" />
         <meta name="description" content="School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.">
         <meta content="Karim (Masum), School of Freelancing" name="author">
         <meta content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1" name="googlebot">
@@ -224,7 +224,7 @@
                         "name": "Linux & AI Training with Tech Support | School of Freelancing",
                         "description": "School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.",
                         "datePublished": "2015-02-02",
-                        "dateModified": "2026-08-10",
+                        "dateModified": "2026-08-31",
                         "isPartOf": {
                             "@id": "https://schooloffreelancing.com/#website"
                         },
@@ -292,7 +292,7 @@
                         ],
                         "uploadDate": "2022-06-13T11:19:11+06:00",
                         "duration": "PT52S",
-                        "contentUrl": "https://youtu.be/bbJCBn_vUzs",
+                        "contentUrl": "https://schooloffreelancing.com/assets/videos/intro.mp4",
                         "embedUrl": "https://www.youtube.com/embed/bbJCBn_vUzs",
                         "interactionStatistic": {
                             "@type": "InteractionCounter",
@@ -497,51 +497,14 @@
                 padding-top: 56px;
                 border-top: none !important;
             }
-            .video-facade {
-                position: relative;
-                display: block;
+            .crawlable-video {
                 width: 100%;
-                padding: 0;
+                max-width: 480px;
+                height: auto;
                 border: 1px solid rgba(255, 255, 255, 0.18);
                 border-radius: 12px;
-                overflow: hidden;
-                cursor: pointer;
                 background: #000;
-            }
-            .video-facade img {
                 display: block;
-                width: 100%;
-                height: auto;
-                opacity: 0.85;
-                transition: opacity 0.25s ease;
-            }
-            .video-facade:focus-visible img,
-            .video-facade:hover img {
-                opacity: 1;
-            }
-            .video-facade:focus-visible {
-                outline: 3px solid #00ffe1;
-                outline-offset: 2px;
-            }
-            .video-facade .play-icon {
-                position: absolute;
-                top: 50%;
-                left: 50%;
-                transform: translate(-50%, -50%);
-                width: 64px;
-                height: 64px;
-                border-radius: 50%;
-                background: rgba(0, 36, 237, 0.85);
-                display: flex;
-                align-items: center;
-                justify-content: center;
-                color: #fff;
-                font-size: 1.3rem;
-                box-shadow: 0 0 30px rgba(0, 255, 225, 0.35);
-                transition: transform 0.25s ease;
-            }
-            .video-facade:hover .play-icon {
-                transform: translate(-50%, -50%) scale(1.08);
             }
             .rating-strip {
                 display: flex;
@@ -643,11 +606,6 @@
                 margin: 0;
                 line-height: 1.6;
             }
-            .video-embed {
-                border: 0;
-                width: 100%;
-                height: 270px;
-            }
             .service-features-list li {
                 color: rgba(255, 255, 255, 0.82);
             }
@@ -705,9 +663,7 @@
             @media (prefers-reduced-motion: reduce) {
                 #services .training-card,
                 #trainings .training-card,
-                .training-banner img,
-                .video-facade .play-icon,
-                .video-facade img {
+                .training-banner img {
                     transition: none !important;
                 }
                 #services .training-card:hover,
@@ -807,36 +763,19 @@
                             <a href="/client-support/" class="btn btn-lg btn-outline">Hire Support</a>
                         </div>
                     </div>
-                   <div class="hero-video">
-                        <button
-                            aria-label="Play video: School of Freelancing introduction"
-                            class="video-facade"
-                            id="video-facade"
-                            type="button"
+                    <div class="hero-video">
+                        <video
+                            controls
+                            poster="https://i.ytimg.com/vi_webp/bbJCBn_vUzs/hqdefault.webp"
+                            preload="metadata"
+                            width="480"
+                            height="270"
+                            class="crawlable-video"
+                            aria-label="School of Freelancing introduction video"
                         >
-                            <img
-                                alt="School of Freelancing introduction video"
-                                title="School of Freelancing introduction video"
-                                src="https://i.ytimg.com/vi_webp/bbJCBn_vUzs/hqdefault.webp"
-                                decoding="async"
-                                height="270"
-                                loading="eager"
-                                width="480"
-                                fetchpriority="high">
-                            <span class="play-icon" aria-hidden="true"><i class="fa-solid fa-play"></i></span>
-                        </button>
-                        <noscript>
-                            <iframe
-                                height="250"
-                                src="https://www.youtube.com/embed/bbJCBn_vUzs"
-                                width="460"
-                                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
-                                allowfullscreen
-                                class="video-embed"
-                                referrerpolicy="strict-origin-when-cross-origin"
-                                title="School of Freelancing introduction"
-                            ></iframe>
-                        </noscript>
+                            <source src="/assets/videos/intro.mp4" type="video/mp4" />
+                            Your browser does not support the video tag. Watch on <a href="https://youtu.be/bbJCBn_vUzs">YouTube</a>.
+                        </video>
                     </div>
                 </div>
             </header>
@@ -1571,28 +1510,6 @@
             </div>
         </footer>
         <script src="/assets/js/main.js?v=20260718" defer></script>
-        
-        <!-- Corrected YouTube Embed Script -->
-        <script>
-            !(function () {
-                var t = document.getElementById("video-facade");
-                if (t) {
-                    t.addEventListener("click", function () {
-                        var e = document.createElement("iframe");
-                        e.src = "https://www.youtube.com/embed/bbJCBn_vUzs?autoplay=1&rel=0";
-                        e.title = "School of Freelancing introduction";
-                        e.className = "video-embed";
-                        e.setAttribute("allow", "accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share");
-                        e.setAttribute("referrerpolicy", "strict-origin-when-cross-origin");
-                        e.setAttribute("frameborder", "0");
-                        e.setAttribute("allowfullscreen", "true");
-                        e.width = "480";
-                        e.height = "270";
-                        t.replaceWith(e);
-                    });
-                }
-            })();
-        </script>
         
         <script>
             !(function () {

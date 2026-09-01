@@ -1,7 +1,7 @@
 ---
 title: "Docker Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer."
 ---
 
@@ -9,9 +9,7 @@ description: "Comprehensive Docker Freelancing Training designed to take you fro
 
 ## Overview
 
-Comprehensive Docker Freelancing Training designed to take you from a Docker
-practitioner to a high-earning freelancer, then land freelance and direct
-clients with job-ready skills.
+Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer, then land freelance and direct clients with job-ready skills.
 
 ## Training Features:
 
@@ -44,11 +42,9 @@ clients with job-ready skills.
 
 Hands-on experience in live, Docker application deployment & administration
 
-Marketplace portfolio proving Docker app deploy, migration, security, & CI/CD
-pipeline skills
+Marketplace portfolio proving Docker app deploy, migration, security, & CI/CD pipeline skills
 
-Stronger habits for deploying, troubleshooting, and managing enterprise GitHub
-infrastructure
+Stronger habits for deploying, troubleshooting, and managing enterprise GitHub infrastructure
 
 ### Training Modules
 

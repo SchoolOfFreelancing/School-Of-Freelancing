@@ -1,58 +1,29 @@
 ---
-title: "Vapi Platform Support | School of Freelancing"
+title: "Voice AI Agent — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Expert Vapi setup, configuration, and troubleshooting for voice AI agents that make and receive phone calls. Fast, remote support worldwide."
+date: 2026-09-01
+description: "Hire Vapi Voice AI Agent setup support for configuration, integrations, deployment, troubleshooting, and optimization."
 ---
 
-# Vapi Platform Support | School of Freelancing
+# Voice AI Agent — Setup | Hire Support
 
-Want to build these skills yourself? [**See our Hermes Agent
-Training**](/freelancing-training/hermes-agent-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is Vapi Platform Support?
-
-Vapi Platform Support is School of Freelancing's done-for-you service for Vapi,
-a platform for building voice AI agents that can make and receive phone calls.
-We handle the agent setup, natural-conversation configuration, and integration
-with your existing systems and APIs, so you get a working voice AI agent for
-support lines, scheduling, or outbound calling without building and debugging
-the integration yourself.
+Hire Vapi voice AI setup support for assistant config, webhooks, SIP trunking, custom LLM functions & troubleshooting—minus full-time hire overhead.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 30 engineering hours over 5 days
-- **Price:** $600 USD flat rate
-- **Covers:** Vapi voice AI agent setup, natural-conversation configuration, integration with existing systems/APIs, appointment scheduling and support call flow setup
-- **Best for:** Businesses that want a working voice AI agent on the Vapi platform for support lines, scheduling, or outbound calling without building the integration themselves
-
-## Vapi Platform Support at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $600 USD flat rate |
-| Turnaround | 30 engineering hours / 5 days |
-| Delivery | Remote, worldwide |
-| What you provide | Your use case/call-flow requirements and access to any existing systems or APIs to integrate with |
-
-## What's Included
-
-- Vapi voice AI agent setup so it can make and receive phone calls
-- Natural-conversation configuration tuned to your use case
-- Integration with your existing systems and APIs
-- Appointment scheduling and customer-support call flow setup
-
-## Who This Is For
-
-Businesses that want a working voice AI agent on the Vapi platform — for support
-lines, scheduling, or outbound calling — without building and debugging the
-integration themselves.
+| Turnaround: | 3-5 Business Days (Fully Tested). |
+| Price | $569 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | Comprehensive Vapi AI voice agent setup, webhook routing, custom function calling, telephony/SIP integrations, and system troubleshooting. |
+| Best for: | Businesses, agencies, and developers seeking production-ready Vapi voice bots, seamless CRM integrations, or expert infrastructure troubleshooting. |
+| What you provide: | Vapi dashboard access, telephony provider credentials (e.g. Twilio/Telnyx SIP), and API specifications for required tool calls or webhooks. |
 
 ## Frequently Asked Questions
 
-## Need Vapi Platform Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

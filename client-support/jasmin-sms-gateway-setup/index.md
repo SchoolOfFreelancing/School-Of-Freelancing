@@ -1,63 +1,29 @@
 ---
-title: "Jasmin SMS Gateway Support | School of Freelancing"
+title: "Jasmin SMS Gateway — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Jasmin SMS Gateway support for building a production-ready bulk SMS system with Jasmin and playSMS for legitimate business SMS delivery."
+date: 2026-09-01
+description: "Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration."
 ---
 
-# Jasmin SMS Gateway Support | School of Freelancing
+# Jasmin SMS Gateway — Setup | Hire Support
 
-Want to learn this yourself instead of hiring us? [**Check out Jasmin SMS
-Gateway Training**](/freelancing-training/jasmin-sms-gateway-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is Jasmin SMS Gateway Support?
-
-Jasmin SMS Gateway Support is School of Freelancing's done-for-you service for
-deploying Jasmin — an open-source
-SMS gateway that sends and receives SMS traffic over SMPP — together with
-playSMS, the web-based interface built
-on top of it for managing and sending bulk SMS campaigns. An experienced
-engineer installs and configures both,
-sets up the SMPP connector, and tests message routing and delivery, so you get a
-production-ready bulk SMS
-system for legitimate business SMS delivery without building it yourself.
+Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 20 engineering hours over 1 week
-- **Price:** $1,100 USD flat rate
-- **Covers:** Jasmin installation & configuration, playSMS setup, SMPP connector configuration, message routing/delivery testing, remote assistance & post-delivery support window
-- **Best for:** Businesses and developers who need a production-ready bulk SMS system for legitimate business SMS delivery
-
-## Jasmin SMS Gateway Support at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $1,100 USD flat rate |
-| Turnaround | 20 engineering hours / 1 week |
-| Delivery | Remote, worldwide |
-| What you provide | SMPP credentials/route details for legitimate business SMS delivery |
-| Support window | Post-delivery support window included; one-time fixes and monthly maintenance plans available |
-
-## What's Included
-
-- Jasmin SMS Gateway installation and configuration
-- playSMS setup for bulk SMS management and sending
-- SMPP connector configuration for legitimate business SMS delivery
-- Testing of message routing and delivery for production readiness
-- Secure remote assistance and a post-delivery support window
-
-## Who This Is For
-
-Businesses and developers who need a production-ready bulk SMS system built on
-Jasmin SMS Gateway and playSMS
-for legitimate business SMS delivery.
+| Turnaround: | 3 Business Days (Fully Tested). |
+| Price | $599 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | Jasmin SMS Gateway setup covering SMPP connections, routing rules, API configuration, and delivery report handling. |
+| Best for: | Individuals, teams, and businesses requiring production Jasmin SMS Gateway setup or ongoing enterprise SMS infrastructure support without a full-time hire. |
+| What you provide: | Team access to your server/VPS and SMPP connector credentials, along with any existing routing configuration ready for production deployment. |
 
 ## Frequently Asked Questions
 
-## Need Jasmin SMS Gateway Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

@@ -1,7 +1,7 @@
 ---
 title: "OpenAI - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
@@ -9,9 +9,7 @@ description: "Learn OpenAI API development — build GPT-powered apps, automate 
 
 ## Overview
 
-Learn OpenAI API development — build GPT-powered apps, API integration, automate
-workflows, integrate AI tools. Build a portfolio to land direct and marketplace
-freelance clients.
+Learn OpenAI API development — build GPT-powered apps, API integration, automate workflows, integrate AI tools. Build a portfolio to land direct and marketplace freelance clients.
 
 ## Training Features:
 
@@ -42,14 +40,11 @@ freelance clients.
 
 ### You'll leave with:
 
-In-depth technical expertise to build end-to-end OpenAI API applications,
-autonomous agents, RAG pipelines, and fine-tuned domain models.
+In-depth technical expertise to build end-to-end OpenAI API applications, autonomous agents, RAG pipelines, and fine-tuned domain models.
 
-Live service offerings on Upwork, Freelancer.com, and Guru.com verified by
-public YouTube Proof of Work (PoW) video demonstrations.
+Live service offerings on Upwork, Freelancer.com, and Guru.com verified by public YouTube Proof of Work (PoW) video demonstrations.
 
-Battle-tested client outreach frameworks to win high-ticket AI engineering
-contracts and ongoing enterprise monthly retainers.
+Battle-tested client outreach frameworks to win high-ticket AI engineering contracts and ongoing enterprise monthly retainers.
 
 ### 20-Session Training Syllabus (1 Month)
 

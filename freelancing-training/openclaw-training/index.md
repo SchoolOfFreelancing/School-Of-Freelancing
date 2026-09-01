@@ -1,19 +1,15 @@
 ---
 title: "OpenClaw: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance."
 ---
 
 # OpenClaw: Freelancing Training
 
-[TOC]
 ## Overview
 
-You'll become a production-ready OpenClaw specialist with a live, working
-deployment of a 24/7 autonomous AI agent proving real hands-on skills. Earn via
-freelance gigs, direct client contracts, or supporting businesses that want an
-always-on digital assistant of their own.
+You'll become a production-ready OpenClaw specialist with a live, working deployment of a 24/7 autonomous AI agent proving real hands-on skills. Earn via freelance gigs, direct client contracts, or supporting businesses that want an always-on digital assistant of their own.
 
 ## Training Features:
 
@@ -44,14 +40,11 @@ always-on digital assistant of their own.
 
 ### You'll leave with:
 
-Hands-on experience deploying and configuring a live, production-grade OpenClaw
-agent
+Hands-on experience deploying and configuring a live, production-grade OpenClaw agent
 
-Marketplace portfolio proving real deployment, troubleshooting, and
-client-support skills
+Marketplace portfolio proving real deployment, troubleshooting, and client-support skills
 
-Stronger habits for configuring, maintaining, and troubleshooting autonomous AI
-agents under real workloads
+Stronger habits for configuring, maintaining, and troubleshooting autonomous AI agents under real workloads
 
 ## Training Modules
 

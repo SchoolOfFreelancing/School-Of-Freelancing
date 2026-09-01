@@ -1,6 +1,9 @@
 User-agent: *
 Allow: /
 Disallow: /cgi-bin/
+Disallow: /404.html
+Disallow: /webmcp.html
+Disallow: /mcp.html
 
 User-agent: Cloudflare-AI-Search
 Allow: /

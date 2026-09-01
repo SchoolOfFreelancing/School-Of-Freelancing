@@ -1,7 +1,7 @@
 ---
 title: "GitHub Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
@@ -9,8 +9,7 @@ description: "Learn GitHub production setup, migration, version control, CI/CD, 
 
 ## Overview
 
-Learn GitHub production setup, migration, version control, CI/CD, & project
-management to secure freelance jobs.
+Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 
 ## Training Features:
 
@@ -41,14 +40,11 @@ management to secure freelance jobs.
 
 ### You'll leave with:
 
-Hands-on experience in live, self-hosted GitHub server deployment &
-administration
+Hands-on experience in live, self-hosted GitHub server deployment & administration
 
-Marketplace portfolio proving real GitHub migration, security, & CI/CD pipeline
-skills
+Marketplace portfolio proving real GitHub migration, security, & CI/CD pipeline skills
 
-Stronger habits for deploying, troubleshooting, and managing enterprise GitHub
-infrastructure
+Stronger habits for deploying, troubleshooting, and managing enterprise GitHub infrastructure
 
 ### Training Modules
 

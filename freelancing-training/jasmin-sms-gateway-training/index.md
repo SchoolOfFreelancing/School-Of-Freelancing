@@ -1,17 +1,15 @@
 ---
 title: "Jasmin SMS Gateway - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients."
 ---
 
 # Jasmin SMS Gateway - Freelancing Training
 
-[TOC]
 ## Overview
 
-Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs,
-troubleshoot delivery, land freelance clients.
+Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients.
 
 ## Training Features:
 
@@ -42,14 +40,11 @@ troubleshoot delivery, land freelance clients.
 
 ### What You'll Learn:
 
-Deploy, configure, and secure Jasmin SMS Gateway with RabbitMQ, Redis, and
-PostgreSQL backends on Ubuntu Linux.
+Deploy, configure, and secure Jasmin SMS Gateway with RabbitMQ, Redis, and PostgreSQL backends on Ubuntu Linux.
 
-Configure SMPP connectors, HTTP API endpoints, advanced MT/MO routing rules, and
-Python interceptors based on Jasmin docs.
+Configure SMPP connectors, HTTP API endpoints, advanced MT/MO routing rules, and Python interceptors based on Jasmin docs.
 
-Deliver end-to-end bulk SMS integrations for enterprise clients and monetize
-your expertise on top freelance platforms.
+Deliver end-to-end bulk SMS integrations for enterprise clients and monetize your expertise on top freelance platforms.
 
 ## 20 Training Modules (2 Weeks Duration)
 

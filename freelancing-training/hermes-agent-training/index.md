@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!"
 ---
 
@@ -9,10 +9,7 @@ description: "Get hands-on Hermes Agent Freelancing training to acquire direct c
 
 ## Overview
 
-Master production deployment of Hermes Agent and package your technical setup
-into high-demand freelance services. Learn proven client acquisition strategies
-across Upwork, Freelancer, Guru, LinkedIn, and YouTube to land global remote
-contracts.
+Master production deployment of Hermes Agent and package your technical setup into high-demand freelance services. Learn proven client acquisition strategies across Upwork, Freelancer, Guru, LinkedIn, and YouTube to land global remote contracts.
 
 ## Training Features:
 
@@ -47,8 +44,7 @@ Hands-on experience in live, self-hosted Hermes Agent deployment
 
 Marketplace portfolio proving real support and Freelance-ready AI agent skills
 
-Stronger habits for deploying, troubleshooting, and reviewing Hermes Agent
-projects
+Stronger habits for deploying, troubleshooting, and reviewing Hermes Agent projects
 
 ### Training Modules
 

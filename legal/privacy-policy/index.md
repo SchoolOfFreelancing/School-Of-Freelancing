@@ -1,18 +1,15 @@
 ---
 title: "Privacy Policy — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services."
 ---
 
 # Privacy Policy — School of Freelancing
 
-[TOC]
 ## 1. Introduction
 
-School of Freelancing ("we," "us," "our") respects your privacy. This Privacy
-Policy explains how we collect, use, disclose, and protect information when you
-use our website, enroll in our trainings, or engage our tech support services.
+School of Freelancing ("we," "us," "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and protect information when you use our website, enroll in our trainings, or engage our tech support services.
 
 ## 2. Information We Collect
 
@@ -30,10 +27,7 @@ use our website, enroll in our trainings, or engage our tech support services.
 
 ## 4. Legal Basis for Processing
 
-Where applicable law requires it, we process your information based on your
-consent, the necessity to perform a contract with you (e.g. training enrollment
-or a support engagement), compliance with a legal obligation, or our legitimate
-interest in operating and improving the Platform.
+Where applicable law requires it, we process your information based on your consent, the necessity to perform a contract with you (e.g. training enrollment or a support engagement), compliance with a legal obligation, or our legitimate interest in operating and improving the Platform.
 
 ## 5. Sharing & Disclosure
 
@@ -45,55 +39,38 @@ We do not sell your personal information. We may share information with:
 
 ## 6. Third-Party Services
 
-Our Platform may link to or integrate with third-party services (e.g. GitHub,
-DigitalOcean, Twilio, Telnyx, Google Analytics). These third parties have their
-own privacy practices, and we encourage you to review their policies.
+Our Platform may link to or integrate with third-party services (e.g. GitHub, DigitalOcean, Twilio, Telnyx, Google Analytics). These third parties have their own privacy practices, and we encourage you to review their policies.
 
 ## 7. Cookies & Tracking
 
-We use cookies and similar technologies to remember preferences, understand site
-usage, and support analytics. You can control cookies through your browser
-settings; disabling them may affect some site functionality.
+We use cookies and similar technologies to remember preferences, understand site usage, and support analytics. You can control cookies through your browser settings; disabling them may affect some site functionality.
 
 ## 8. Data Security
 
-We use reasonable technical and organizational measures to protect your
-information. However, no method of transmission or storage is completely secure,
-and we cannot guarantee absolute security.
+We use reasonable technical and organizational measures to protect your information. However, no method of transmission or storage is completely secure, and we cannot guarantee absolute security.
 
 ## 9. Data Retention
 
-We retain personal information for as long as necessary to provide our services,
-comply with legal obligations, resolve disputes, and enforce our agreements,
-after which it is deleted or anonymized.
+We retain personal information for as long as necessary to provide our services, comply with legal obligations, resolve disputes, and enforce our agreements, after which it is deleted or anonymized.
 
 ## 10. Your Rights
 
-Depending on your location, you may have the right to access, correct, delete,
-or restrict the use of your personal information, and to object to certain
-processing or request data portability. To exercise these rights, contact us
-using the details below.
+Depending on your location, you may have the right to access, correct, delete, or restrict the use of your personal information, and to object to certain processing or request data portability. To exercise these rights, contact us using the details below.
 
 ## 11. Children's Privacy
 
-Our services are not directed at individuals under 18. We do not knowingly
-collect personal information from minors. If you believe a minor has provided us
-information, please contact us so we can remove it.
+Our services are not directed at individuals under 18. We do not knowingly collect personal information from minors. If you believe a minor has provided us information, please contact us so we can remove it.
 
 ## 12. International Transfers
 
-As we serve clients and students globally, your information may be processed or
-stored in countries other than your own. We take steps to ensure appropriate
-safeguards are in place for such transfers.
+As we serve clients and students globally, your information may be processed or stored in countries other than your own. We take steps to ensure appropriate safeguards are in place for such transfers.
 
 ## 13. Changes to This Policy
 
-We may update this Privacy Policy from time to time. Continued use of the
-Platform after changes are posted constitutes acceptance of the revised policy.
+We may update this Privacy Policy from time to time. Continued use of the Platform after changes are posted constitutes acceptance of the revised policy.
 
 ## 14. Contact Us
 
-Questions about this Privacy Policy can be sent to us via our [contact
-page](/contact-us/) .
+Questions about this Privacy Policy can be sent to us via our [contact page](/contact-us/) .
 
 ## Frequently Asked Questions

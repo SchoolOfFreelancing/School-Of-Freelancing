@@ -1,152 +1,94 @@
-# ============================================================
-# School Of Freelancing - Apache .htaccess
-# ============================================================
-
-RewriteEngine On
 Options -Indexes
+DirectoryIndex index.html index.php
 
-# ============================================================
-# 1. ROOT & LEGACY SPECIFIC REDIRECTS (EXACT MATCHES FIRST)
-# ============================================================
-
-# Root index.html -> /
-RewriteRule ^index\.html$ https://schooloffreelancing.com/ [R=301,L]
-
-# Flat HTML mappings
-RewriteRule ^(tech-support|support|get-support|get_support)\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
-RewriteRule ^training\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
-RewriteRule ^enrollment\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^contact\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^testimonials\.html$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
-RewriteRule ^about\.html$ https://schooloffreelancing.com/about-us/ [R=301,L]
-RewriteRule ^faq\.html$ https://schooloffreelancing.com/resource-center/faqs/ [R=301,L]
-RewriteRule ^privacy-policy\.html$ https://schooloffreelancing.com/legal/privacy-policy/ [R=301,L]
-RewriteRule ^terms\.html$ https://schooloffreelancing.com/legal/terms-and-conditions/ [R=301,L]
-RewriteRule ^sitemap\.html$ https://schooloffreelancing.com/sitemap/ [R=301,L]
-
-# Legacy folder index.html targets
-RewriteRule ^training/index\.html$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
-RewriteRule ^about/index\.html$ https://schooloffreelancing.com/about-us/ [R=301,L]
-RewriteRule ^contact/index\.html$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^testimonials/index\.html$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
-RewriteRule ^tech-support/index\.html$ https://schooloffreelancing.com/client-support/ [R=301,L]
-
-# Legacy / deleted sections
-RewriteRule ^training/(enroll|oldenroll|enroll1|files)(?:/.*)?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^training/?$ https://schooloffreelancing.com/freelancing-training/ [R=301,L]
-
-RewriteRule ^tech-support/get-support/?$ https://schooloffreelancing.com/client-support/ [R=301,L]
-RewriteRule ^tech-support/?$ https://schooloffreelancing.com/client-support/ [R=301,L]
-
-RewriteRule ^get-started/?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^about/?$ https://schooloffreelancing.com/about-us/ [R=301,L]
-RewriteRule ^contact/?$ https://schooloffreelancing.com/contact-us/ [R=301,L]
-RewriteRule ^testimonials/?$ https://schooloffreelancing.com/resource-center/testimonials/ [R=301,L]
-
-# Generic folder index.html -> folder/
-RewriteRule ^(.+)/index\.html$ https://schooloffreelancing.com/$1/ [R=301,L]
-
-# ============================================================
-# 2. FLAT .HTML SAFETY NET (Extensionless URLs)
-# MUST RUN BEFORE QUERY PARAMETER STRIPPING
-# ============================================================
-
-# Redirect browser directly requesting .html to extensionless URL
-RewriteCond %{THE_REQUEST} \s/+([^?\s]+)\.html[\s?] [NC]
-RewriteCond %1 !^404$
-RewriteRule ^ /%1 [R=301,L]
-
-# Internal rewrite: map extensionless request to existing .html file
-RewriteCond %{REQUEST_URI} !^/404$
-RewriteCond %{REQUEST_FILENAME} !-d
-RewriteCond %{DOCUMENT_ROOT}%{REQUEST_URI}\.html -f
-RewriteRule ^(.*)$ $1.html [L]
-
-# ============================================================
-# 3. CANONICALIZE QUERY PARAMETER URLs
-# ============================================================
-
-# Strip query parameters from non-excluded external requests
-RewriteCond %{THE_REQUEST} \s/+[^\s?]*\? [NC]
-RewriteCond %{REQUEST_URI} !^/api/ [NC]
-RewriteCond %{REQUEST_URI} !^/.well-known/ [NC]
-RewriteRule ^(.*)$ https://schooloffreelancing.com/$1? [R=301,L]
-
-# ============================================================
-# 4. STATIC ASSET CACHING
-# ============================================================
-
-<IfModule mod_expires.c>
-    ExpiresActive On
-
-    # Images
-    ExpiresByType image/jpeg "access plus 1 year"
-    ExpiresByType image/png "access plus 1 year"
-    ExpiresByType image/gif "access plus 1 year"
-    ExpiresByType image/webp "access plus 1 year"
-    ExpiresByType image/svg+xml "access plus 1 year"
-
-    # CSS / JavaScript
-    ExpiresByType text/css "access plus 1 month"
-    ExpiresByType text/javascript "access plus 1 month"
-    ExpiresByType application/javascript "access plus 1 month"
-    ExpiresByType application/x-javascript "access plus 1 month"
-
-    # Fonts
-    ExpiresByType application/font-woff2 "access plus 1 year"
-    ExpiresByType application/font-woff "access plus 1 year"
-    ExpiresByType application/vnd.ms-fontobject "access plus 1 year"
-    ExpiresByType font/ttf "access plus 1 year"
-    ExpiresByType font/otf "access plus 1 year"
-</IfModule>
-
-# ============================================================
-# 5. HTTP RESPONSE HEADERS
-# ============================================================
+# ==============================================================================
+# ENCODING & MIME-TYPES (Forces UTF-8 for plain text, llms.txt, HTML, and CSS)
+# ==============================================================================
+AddDefaultCharset UTF-8
+AddCharset UTF-8 .txt .html .css .js .json .xml
 
 <IfModule mod_headers.c>
-
-    # AI / Agent Discovery
-    Header always add Link "</llms.txt>; rel=\"service-doc\""
-    Header always add Link "</.well-known/api-catalog>; rel=\"api-catalog\""
-
-    # Static Assets (1 year)
-    <FilesMatch "\.(js|css|png|jpg|jpeg|gif|webp|svg|ico)$">
-        Header set Cache-Control "public, max-age=31536000, immutable"
+    # Explicitly enforce UTF-8 header on plain text files (e.g., llms.txt, llms-full.txt)
+    <FilesMatch "\.txt$">
+        Header set Content-Type "text/plain; charset=utf-8"
     </FilesMatch>
-
-    # HTML Pages (5 minutes)
-    <FilesMatch "\.(html|htm)$">
-        Header set Cache-Control "public, max-age=300"
-    </FilesMatch>
-
-    # Sitemap / Robots / Data Files
-    <FilesMatch "\.(xml|txt|json)$">
-        Header set Cache-Control "public, max-age=300"
-    </FilesMatch>
-
-    # Robots.txt indexing directive
-    <Files "robots.txt">
-        Header set X-Robots-Tag "noindex, nofollow"
-    </Files>
-
 </IfModule>
 
-# ============================================================
-# 6. SYSTEM CONFIGURATION & COMPRESSION
-# ============================================================
+<IfModule mod_rewrite.c>
+    RewriteEngine On
+    RewriteBase /
 
+    # ==============================================================================
+    # 1. FIX CANONICAL & DUPLICATE URL ISSUES (Resolves 301 Redirects & Duplicates)
+    # ==============================================================================
+
+    # Force HTTPS on Live Server (Cloudflare/CWP) while EXCLUDING localhost
+    RewriteCond %{HTTP_HOST} !^localhost [NC]
+    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1 [NC]
+    RewriteCond %{HTTP:X-Forwarded-Proto} !https
+    RewriteCond %{HTTPS} off
+    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
+
+    # Remove www (or force non-www) to prevent "Duplicate without user-selected canonical"
+    RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
+    RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
+
+    # Remove trailing slashes from non-directory requests to prevent duplicate paths
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteCond %{REQUEST_URI} (.+)/$
+    RewriteRule ^ %1 [R=301,L]
+
+    # Redirect direct requests from /index.html to / (prevents duplicate homepage)
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/
+    RewriteRule ^index\.html$ https://%{HTTP_HOST}/ [R=301,L]
+
+    # Direct 301 redirect if someone explicitly requests .html extensions
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+)\.html\ HTTP/
+    RewriteRule ^([^/]+)\.html$ /%1 [R=301,L]
+
+    # ==============================================================================
+    # 2. ROUTING & SLUG HANDLING
+    # ==============================================================================
+
+    # Serve existing files & directories directly
+    RewriteCond %{REQUEST_FILENAME} -f [OR]
+    RewriteCond %{REQUEST_FILENAME} -d
+    RewriteRule ^ - [L]
+
+    # Extensionless HTML slug routing (e.g. /about maps to about.html behind scenes)
+    RewriteCond %{REQUEST_FILENAME}.html -f
+    RewriteRule ^([^/]+)/?$ $1.html [L]
+
+    # ==============================================================================
+    # 3. PREVENT REDIRECT ERRORS & LOOP PREVENTION
+    # ==============================================================================
+    RewriteCond %{ENV:REDIRECT_STATUS} ^$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.html [L]
+</IfModule>
+
+# ==============================================================================
+# 4. CUSTOM ERROR PAGES (Fixes 404, 403, 5xx GSC Statuses)
+# ==============================================================================
 ErrorDocument 404 /404.html
+ErrorDocument 403 /404.html
+ErrorDocument 500 /500.html
 
-AddDefaultCharset UTF-8
-AddType text/plain txt
-AddType text/xml xml
-AddType application/json json
+# ==============================================================================
+# 5. ROBOTS & CRAWLER HEADERS (Fixes Indexing & Canonical Discovery)
+# ==============================================================================
+<IfModule mod_headers.c>
+    # Ensure crawlers are allowed to discover assets
+    Header set X-Robots-Tag "index, follow"
 
+    # Security header to prevent unwanted 403/blocking glitches
+    Header set X-Content-Type-Options "nosniff"
+</IfModule>
+
+# ==============================================================================
+# 6. GZIP COMPRESSION
+# ==============================================================================
 <IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/xml application/xhtml+xml application/rss+xml application/javascript application/x-javascript image/svg+xml image/x-icon
-
-    BrowserMatch ^Mozilla/4 gzip-only-text/html
-    BrowserMatch ^Mozilla/4\.0 no-gzip
-    BrowserMatch \bMSIE !no-gzip !gzip-only-text/html
+    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
 </IfModule>

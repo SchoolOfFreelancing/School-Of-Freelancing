@@ -1,7 +1,7 @@
 ---
 title: "Debian Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients."
 ---
 
@@ -9,8 +9,7 @@ description: "Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM
 
 ## Overview
 
-Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP &
-Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
+Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 
 ## Training Features:
 
@@ -42,14 +41,11 @@ Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 
 ### You'll leave with:
 
-Proven expertise to set up LEMP stacks with custom domains, and deploy &
-troubleshoot Vtiger CRM, Odoo ERP, and Attendize on Debian Linux.
+Proven expertise to set up LEMP stacks with custom domains, and deploy & troubleshoot Vtiger CRM, Odoo ERP, and Attendize on Debian Linux.
 
-Published service portfolios on Upwork, Freelancer.com, and Guru.com backed by
-Proof of Work (PoW) demonstration videos on YouTube.
+Published service portfolios on Upwork, Freelancer.com, and Guru.com backed by Proof of Work (PoW) demonstration videos on YouTube.
 
-Actionable client acquisition strategies to win marketplace projects and land
-direct high-paying corporate retainers.
+Actionable client acquisition strategies to win marketplace projects and land direct high-paying corporate retainers.
 
 ### Training Modules
 

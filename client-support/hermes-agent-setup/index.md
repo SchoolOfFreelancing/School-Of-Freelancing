@@ -1,64 +1,29 @@
 ---
-title: "Hermes Agent Support | School of Freelancing"
+title: "Hermes Agent — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Expert Hermes Agent Support: setup, persistent memory configuration, self-improving skills, and multi-platform messaging integration. 24-hour support included."
+date: 2026-09-01
+description: "Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control."
 ---
 
-# Hermes Agent Support | School of Freelancing
+# Hermes Agent — Setup | Hire Support
 
-Want to learn this yourself instead of hiring us? [**Check out Hermes Agent
-Training**](/freelancing-training/hermes-agent-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is Hermes Agent Support?
-
-Hermes Agent Support is School of Freelancing's done-for-you service for a
-Hermes Agent — an AI agent deployment built around persistent memory,
-self-improving skills, and multi-platform messaging integration. An experienced
-specialist handles deployment, persistent memory configuration, self-improving
-skills tuning, and multi-platform messaging connections remotely, so businesses
-and individuals running a Hermes Agent don't need to hire a full-time AI
-engineer.
+Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 72 engineering hours over 3 days
-- **Price:** $350 USD flat rate
-- **Covers:** Persistent memory setup, self-improving skills tuning, multi-platform messaging integration, remote troubleshooting
-- **Best for:** Businesses and individuals running Hermes Agent who need deployment, persistent memory, self-improving skills, or messaging integration help without hiring a full-time AI engineer
-
-## Hermes Agent Support at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $350 USD flat rate |
-| Turnaround | 72 engineering hours / 3 days |
-| Delivery | Remote, worldwide |
-| What you provide | Remote access to your Hermes Agent deployment (SSH or your preferred remote-access tool) |
-| Support window | 24-hour post-installation support included |
-
-## What's Included
-
-- Fast issue resolution from an experienced Hermes Agent specialist
-- Secure remote assistance over SSH or your preferred remote-access tool
-- Setup and configuration of persistent memory so the agent retains context across sessions
-- Tuning of self-improving skills so the agent adapts and gets better over time
-- Multi-platform messaging integration so the agent can operate across your chosen channels
-- Cost-effective, scoped engagements — no long-term contract required
-- 24-hour post-installation support window after delivery
-
-## Who This Is For
-
-Businesses and individuals running Hermes Agent who need help with deployment,
-persistent memory configuration, self-improving
-skills tuning, or multi-platform messaging connections, without hiring a
-full-time AI engineer.
+| Turnaround: | 2 Business Days (Fully Tested). |
+| Price | $199 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | Comprehensive Hermes Agent engineering covering task automation, chat workflows, code control, and remote messaging control. |
+| Best for: | Individuals, teams, and businesses requiring production Hermes Agent setup or ongoing automation support without a full-time hire. |
+| What you provide: | Team access to your server/VPS and messaging platform credentials, along with any existing automation workflows ready for production deployment. |
 
 ## Frequently Asked Questions
 
-## Need Hermes Agent Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

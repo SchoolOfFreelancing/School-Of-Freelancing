@@ -1,17 +1,15 @@
 ---
 title: "Bulk SMS - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients."
 ---
 
 # Bulk SMS - Freelancing Training
 
-[TOC]
 ## Overview
 
-Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging,
-deploy production workflows, land freelance clients.
+Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
 
 ## Training Features:
 
@@ -44,11 +42,9 @@ deploy production workflows, land freelance clients.
 
 Learn how to build bulk SMS systems with SMS APIs and land freelance clients.
 
-Automate custom CSV batch messaging, rate-limiting, queuing, and real-time
-webhook delivery tracking.
+Automate custom CSV batch messaging, rate-limiting, queuing, and real-time webhook delivery tracking.
 
-Package bulk messaging solutions into high-paying freelance offers on Upwork,
-Freelancer, and direct client outreach.
+Package bulk messaging solutions into high-paying freelance offers on Upwork, Freelancer, and direct client outreach.
 
 ## Training Modules
 

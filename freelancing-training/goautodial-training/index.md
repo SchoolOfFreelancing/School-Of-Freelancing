@@ -1,7 +1,7 @@
 ---
 title: "GOautodial: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICIdial integration, and carrier trunking, then build a profitable freelance service."
 ---
 
@@ -9,9 +9,7 @@ description: "Learn GOautodial call center deployment, predictive dialer setup, 
 
 ## Overview
 
-Learn GOautodial call center deployment, predictive dialer setup,
-Asterisk/VICIdial integration, and carrier trunking, then turn that skill into a
-profitable freelance service with real client acquisition.
+Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICIdial integration, and carrier trunking, then turn that skill into a profitable freelance service with real client acquisition.
 
 ## Training Features:
 
@@ -43,14 +41,11 @@ profitable freelance service with real client acquisition.
 
 ### You'll leave with:
 
-Hands-on experience in live GOautodial call center & predictive dialer
-deployment
+Hands-on experience in live GOautodial call center & predictive dialer deployment
 
-Marketplace portfolio proving GOautodial setup, campaign config, carrier
-routing, and security.
+Marketplace portfolio proving GOautodial setup, campaign config, carrier routing, and security.
 
-Stronger habits for deploying, troubleshooting, and managing GOautodial contact
-center infrastructure
+Stronger habits for deploying, troubleshooting, and managing GOautodial contact center infrastructure
 
 ### Training Modules
 

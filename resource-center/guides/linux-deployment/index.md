@@ -1,19 +1,15 @@
 ---
 title: "How to Deploy a Linux Server from Zero to Production | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."
 ---
 
 # How to Deploy a Linux Server from Zero to Production | School of Freelancing
 
-[TOC]
 ## Overview
 
-This guide walks you through deploying a production-ready Ubuntu Linux server
-from scratch. You'll learn server initialization, security hardening, networking
-configuration, package management, systemd service setup, backup strategies, and
-monitoring — everything needed to run reliable production infrastructure.
+This guide walks you through deploying a production-ready Ubuntu Linux server from scratch. You'll learn server initialization, security hardening, networking configuration, package management, systemd service setup, backup strategies, and monitoring — everything needed to run reliable production infrastructure.
 
 ## Prerequisites
 
@@ -128,8 +124,7 @@ Add your hostname to the hosts file.
 
 ### 3.2 Point Domain to Server
 
-In your domain registrar's DNS settings, create an A record pointing your domain
-to your server's IP address. Allow 15-30 minutes for DNS propagation.
+In your domain registrar's DNS settings, create an A record pointing your domain to your server's IP address. Allow 15-30 minutes for DNS propagation.
 
 ## Step 4: Web Server & SSL Configuration
 
@@ -148,8 +143,7 @@ sudo apt install certbot python3-certbot-nginx -y
 sudo certbot certonly --nginx -d yourdomain.com
 ```
 
-Certbot automatically configures Nginx for HTTPS. Verify at
-https://yourdomain.com
+Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com
 
 ## Step 5: Package Management & Services
 
@@ -249,13 +243,11 @@ sudo tail -f /var/log/syslog # System messages
 
 ### SSH Connection Refused
 
-Verify SSH is running and port 22 is open in your firewall. Check with: `sudo
-ufw status`
+Verify SSH is running and port 22 is open in your firewall. Check with: `sudo ufw status`
 
 ### Certificate Errors
 
-Verify DNS is pointing to your server: `nslookup yourdomain.com`. Test with:
-`sudo certbot renew --dry-run`
+Verify DNS is pointing to your server: `nslookup yourdomain.com`. Test with: `sudo certbot renew --dry-run`
 
 ### Out of Disk Space
 
@@ -273,6 +265,4 @@ You now have a production-ready Linux server. Next, you can:
 
 ## Learn More
 
-For hands-on training and expert guidance, check out our [Linux Freelancing
-Training](/freelancing-training/linux-freelancing-training/) program that covers
-everything from server setup through production operations.
+For hands-on training and expert guidance, check out our [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/) program that covers everything from server setup through production operations.

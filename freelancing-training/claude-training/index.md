@@ -1,7 +1,7 @@
 ---
 title: "Claude AI - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
@@ -9,9 +9,7 @@ description: "Learn Claude AI development — build AI agents, automate workflow
 
 ## Overview
 
-Learn Anthropic Claude API & AI agent engineering — prompt engineering, tool
-use, RAG, multi-agent orchestration. Build a portfolio to land direct and
-marketplace freelance clients.
+Learn Anthropic Claude API & AI agent engineering — prompt engineering, tool use, RAG, multi-agent orchestration. Build a portfolio to land direct and marketplace freelance clients.
 
 ## Training Features:
 
@@ -42,14 +40,11 @@ marketplace freelance clients.
 
 ### You'll leave with:
 
-Complete engineering capability in building Claude API integrations, Computer
-Use automations, tool-calling bots, and multi-agent orchestrations.
+Complete engineering capability in building Claude API integrations, Computer Use automations, tool-calling bots, and multi-agent orchestrations.
 
-Published service listings on Upwork, Freelancer.com, and Guru.com verified by
-public YouTube Proof of Work (PoW) video demonstrations.
+Published service listings on Upwork, Freelancer.com, and Guru.com verified by public YouTube Proof of Work (PoW) video demonstrations.
 
-Proven proposal strategies and direct outreach tactics to secure high-paying AI
-agency contracts and enterprise retainer clients.
+Proven proposal strategies and direct outreach tactics to secure high-paying AI agency contracts and enterprise retainer clients.
 
 ### Training Modules
 

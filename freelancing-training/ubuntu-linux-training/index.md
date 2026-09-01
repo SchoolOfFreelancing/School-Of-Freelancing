@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support."
 ---
 
@@ -9,8 +9,7 @@ description: "Learn Ubuntu Linux admin: setup web servers, CRMs & harden securit
 
 ## Overview
 
-Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a
-portfolio for freelance clients for Ubuntu support.
+Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.
 
 ## Training Features:
 
@@ -42,14 +41,11 @@ portfolio for freelance clients for Ubuntu support.
 
 ### You'll leave with:
 
-Proven expertise to set up, secure, and troubleshoot production LAMP, WordPress,
-Drupal, and Laravel environments on Ubuntu Linux.
+Proven expertise to set up, secure, and troubleshoot production LAMP, WordPress, Drupal, and Laravel environments on Ubuntu Linux.
 
-Active service offerings published on Upwork, Freelancer.com, and Guru.com
-backed by video case studies on YouTube.
+Active service offerings published on Upwork, Freelancer.com, and Guru.com backed by video case studies on YouTube.
 
-Actionable client acquisition strategies to win marketplace projects and land
-direct high-paying retainers.
+Actionable client acquisition strategies to win marketplace projects and land direct high-paying retainers.
 
 ### Training Modules
 

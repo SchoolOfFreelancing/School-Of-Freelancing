@@ -1,15 +1,13 @@
 ---
 title: "How to Automate Your First Repetitive Task | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron."
 ---
 
 ## Overview
 
-This guide teaches automating common business tasks: processing files, sending
-emails, managing data, and scheduling recurring jobs. You'll write a Python
-script and schedule it to run automatically on your Linux server.
+This guide teaches automating common business tasks: processing files, sending emails, managing data, and scheduling recurring jobs. You'll write a Python script and schedule it to run automatically on your Linux server.
 
 ## Prerequisites
 
@@ -34,8 +32,6 @@ from email.mime.multipart import MIMEMultipart
 # How to Automate Your First Repetitive Task | School of Freelancing
 df = pd.read_csv('/data/sales.csv')
 yesterday = df[df['date'] == (datetime.now().date() - timedelta(days=1))]
-
-[TOC]
 
 ## Calculate metrics
 total_sales = yesterday['amount'].sum()
@@ -107,5 +103,4 @@ Add this line:
 - Monitor cron logs: `grep CRON /var/log/syslog`
 - Set proper error handling and email alerts on failure
 
-Learn advanced automation techniques in our [OpenClaw Automation
-Training](/freelancing-training/openclaw-training/) program.
+Learn advanced automation techniques in our [OpenClaw Automation Training](/freelancing-training/openclaw-training/) program.

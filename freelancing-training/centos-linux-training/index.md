@@ -1,7 +1,7 @@
 ---
 title: "CentOS Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients."
 ---
 
@@ -9,8 +9,7 @@ description: "Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Ha
 
 ## Overview
 
-Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN &
-Next.js, troubleshoot errors, build portfolios, land clients.
+Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients.
 
 ## Training Features:
 
@@ -42,15 +41,11 @@ Next.js, troubleshoot errors, build portfolios, land clients.
 
 ### You'll leave with:
 
-Proven expertise to set up LEMP/LAMP stacks with custom domains, and deploy &
-troubleshoot Python Django, Apache Hadoop, MEAN stack, and Next.js on CentOS
-Linux.
+Proven expertise to set up LEMP/LAMP stacks with custom domains, and deploy & troubleshoot Python Django, Apache Hadoop, MEAN stack, and Next.js on CentOS Linux.
 
-Published service offerings on Upwork, Freelancer.com, and Guru.com backed by
-Proof of Work (PoW) demonstration videos on YouTube.
+Published service offerings on Upwork, Freelancer.com, and Guru.com backed by Proof of Work (PoW) demonstration videos on YouTube.
 
-Actionable marketing and client acquisition strategies to land marketplace
-projects and direct enterprise SysAdmin retainers.
+Actionable marketing and client acquisition strategies to land marketplace projects and direct enterprise SysAdmin retainers.
 
 ### Training Modules
 

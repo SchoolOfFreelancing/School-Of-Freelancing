@@ -1,46 +1,29 @@
 ---
-title: "Telnyx SMS API Setup & Support | School of Freelancing"
+title: "Telnyx SMS — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Telnyx SMS REST API setup and support: A2P 10DLC registration, two-way messaging, and bulk SMS integration and testing."
+date: 2026-09-01
+description: "Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration."
 ---
 
-# Telnyx SMS API Setup & Support | School of Freelancing
+# Telnyx SMS — Setup | Hire Support
 
-[TOC]
-## What Is Telnyx SMS API Setup & Support?
+## Support Overview
 
-Telnyx SMS API Setup & Support (by School of Freelancing) gets your two-way bulk
-SMS up and running — fast, compliant, and hassle-free. We manage everything:
-account setup, A2P 10DLC brand/campaign registration guidance, inbound webhook
-configuration, and full integration into your app. You get a tested, working SMS
-system without touching the compliance paperwork or backend engineering.
+Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
 
 ## Key Takeaways
 
-- **Format:** Remote support, worldwide delivery
-- **Turnaround:** ~40 hours, delivered in 1–4 weeks — pace depends on your responsiveness with Telnyx.
-- **Price:** $1,100 USD flat rate
-- **Covers:** Telnyx Messaging API full setup, A2P 10DLC registration, two-way webhooks, and send bulk SMS from CSV.
-- **Best for:** Businesses and developers launching bulk/two-way SMS on Telnyx who need A2P 10DLC registration and a tested integration.
-
-## Setup Requirements:
-
 | Aspect | Detail |
 | --- | --- |
-| DigitalOcean | Ubuntu Linux Server |
-| Subdomain | sms.domain.com & api.domain.com |
-| Messaging API | SMPP or REST HTTP API |
-| SMS API | A2P and P2P |
-
-## Who This Is For
-
-Businesses and developers who need to launch bulk or two-way SMS messaging on
-Telnyx and need A2P 10DLC
-registration handled alongside a working, tested REST API integration.
+| Turnaround: | 1-2 Weeks (Fully Tested). |
+| Price | $985 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | Telnyx SMS setup covering messaging API configuration, webhooks, phone number provisioning, and business SMS integration. |
+| Best for: | Individuals, teams, and businesses requiring production Telnyx SMS setup or ongoing business messaging support without a full-time hire. |
+| What you provide: | Team access to your Telnyx account and server/VPS, along with any existing messaging or webhook configuration ready for production deployment. |
 
 ## Frequently Asked Questions
 
-## Need Telnyx SMS API Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

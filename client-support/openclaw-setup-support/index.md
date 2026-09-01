@@ -1,63 +1,29 @@
 ---
-title: "OpenClaw AI Agent Support | School of Freelancing"
+title: "OpenClaw — Self-Hosted AI Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Expert OpenClaw AI Agent Support: setup, configuration & troubleshooting for your open-source autonomous AI agent platform running as a 24/7 assistant."
+date: 2026-09-01
+description: "Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps."
 ---
 
-# OpenClaw AI Agent Support | School of Freelancing
+# OpenClaw — Self-Hosted AI Setup | Hire Support
 
-Want to learn this yourself instead of hiring us? [**Check out OpenClaw
-Training**](/freelancing-training/openclaw-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is OpenClaw AI Agent Support?
-
-OpenClaw AI Agent Support is School of Freelancing's done-for-you setup and
-troubleshooting service for OpenClaw, an open-source autonomous AI agent
-platform that runs as a 24/7 personal digital assistant. An experienced
-specialist installs, configures, and troubleshoots your OpenClaw deployment —
-including agent autonomy, scheduling, and task-handling behavior — over secure
-remote access, so it runs reliably without you having to figure out the platform
-yourself.
+Deploy an OpenClaw self-hosted AI assistant in a production setup to run autonomous workflows and execute real computer tasks through the chat apps you already use.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 72 engineering hours over 3 days
-- **Price:** $350 USD flat rate
-- **Covers:** OpenClaw installation & configuration, agent autonomy/scheduling/task-handling troubleshooting, secure remote assistance
-- **Best for:** Businesses and individuals who want to run OpenClaw as an always-on personal digital assistant without hiring a full-time AI engineer
-
-## OpenClaw AI Agent Support at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $350 USD flat rate |
-| Turnaround | 72 engineering hours / 3 days |
-| Delivery | Remote, worldwide |
-| What you provide | Secure remote access (SSH or your preferred remote-access tool) to the machine running OpenClaw |
-| Support window | 24-hour post-installation support included |
-
-## What's Included
-
-- Fast issue resolution from an experienced autonomous AI agent specialist
-- Secure remote assistance over SSH or your preferred remote-access tool
-- Installation and configuration of OpenClaw as your 24/7 personal digital assistant
-- Troubleshooting of agent autonomy, scheduling, and task-handling behavior
-- Cost-effective, scoped engagements — no long-term contract required
-- 24-hour post-installation support window after delivery
-
-## Who This Is For
-
-Businesses and individuals who want to run OpenClaw as an always-on personal
-digital assistant and need help with
-setup, configuration, or troubleshooting, without hiring a full-time AI
-engineer.
+| Turnaround: | 2 Business Days (Fully Tested). |
+| Price | $189 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | OpenClaw self-hosted AI full deployment, autonomous workflow configuration, and real computer task automation via chat apps. |
+| Best for: | Individuals, teams, and businesses requiring production OpenClaw setup or ongoing self-hosted AI automation support without a full-time hire. |
+| What you provide: | Team access to your hardware/server and chat app credentials, along with any existing workflow files ready for production deployment. |
 
 ## Frequently Asked Questions
 
-## Need OpenClaw AI Agent Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.

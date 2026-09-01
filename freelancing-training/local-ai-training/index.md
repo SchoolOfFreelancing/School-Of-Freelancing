@@ -1,7 +1,7 @@
 ---
 title: "LocalAI: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn how to deploy LocalAI production to run AI models directly on your own device or local server instead of a remote cloud."
 ---
 
@@ -9,9 +9,7 @@ description: "Learn how to deploy LocalAI production to run AI models directly o
 
 ## Overview
 
-LocalAI Freelancing Training teaches you to run LLMs and AI agents locally for
-free. You will learn to build private RAG systems for clients and sell these
-high-paying setup services on platforms like Upwork and Fiverr.
+LocalAI Freelancing Training teaches you to run LLMs and AI agents locally for free. You will learn to build private RAG systems for clients and sell these high-paying setup services on platforms like Upwork and Fiverr.
 
 ## Training Features:
 
@@ -43,8 +41,7 @@ high-paying setup services on platforms like Upwork and Fiverr.
 
 Hands-on experience in live, self-hosted LocalAI deployment
 
-Marketplace portfolio proving real support and Freelance-ready LocalAI agent
-skills
+Marketplace portfolio proving real support and Freelance-ready LocalAI agent skills
 
 Stronger habits for deploying, troubleshooting, and reviewing LocalAI projects
 

@@ -1,18 +1,15 @@
 ---
 title: "Odysseus AI: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
 # Odysseus AI: Freelancing Training
 
-[TOC]
 ## Overview
 
-Odysseus AI Freelancing Training is an online training program for deploying AI
-workflows, LLM integrations, and custom agents. Learn high-demand tech skills to
-land clients on marketplace and boost your earnings.
+Odysseus AI Freelancing Training is an online training program for deploying AI workflows, LLM integrations, and custom agents. Learn high-demand tech skills to land clients on marketplace and boost your earnings.
 
 ## Training Features:
 
@@ -43,14 +40,11 @@ land clients on marketplace and boost your earnings.
 
 ## You'll leave with:
 
-Hands-on experience deploying a live, self-hosted, privacy-focused Odysseus AI
-Workspace
+Hands-on experience deploying a live, self-hosted, privacy-focused Odysseus AI Workspace
 
-Marketplace portfolio proving real deployment and data-privacy engineering
-skills
+Marketplace portfolio proving real deployment and data-privacy engineering skills
 
-Stronger habits for hardening, maintaining, and troubleshooting production AI
-workspaces
+Stronger habits for hardening, maintaining, and troubleshooting production AI workspaces
 
 ## Training Modules
 

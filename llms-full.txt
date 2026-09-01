@@ -4,7 +4,7 @@
 
 ## Main Pages
 
-### Linux & AI Training with Tech Support | School of Freelancing
+### #1 Linux & AI Freelancing Training | 5.0★ Rated
 URL: https://schooloffreelancing.com/
 
 School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.
@@ -17,6 +17,16 @@ URL: https://schooloffreelancing.com/404.html
 
 The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources on School of Freelancing.
 
+### School Of Freelancing — WebMCP Enabled
+URL: https://schooloffreelancing.com/mcp.html
+
+Learn freelancing skills. This site exposes WebMCP tools for AI agents.
+
+### School Of Freelancing — WebMCP Enabled
+URL: https://schooloffreelancing.com/webmcp.html
+
+Learn freelancing skills. This site exposes WebMCP tools for AI agents.
+
 ## About Us
 
 ### About Us | School Of Freelancing
@@ -26,125 +36,125 @@ Founded in 2015 by Karim (Masum), School of Freelancing trains beginners into pr
 
 ## Client Support
 
-### CentOS Linux Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/centos-linux-services/
-
-Expert CentOS Linux Support: server security, networking, automation, and troubleshooting for CentOS systems. 24-hour support included.
-
-### Claude Platform Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/claude-ai-platform-services/
-
-Claude API & developer support for building AI applications on the Claude Platform API: integration, authentication, streaming, tool use, and troubleshooting.
-
-### Client Support Services | School of Freelancing
+### #1 Remote Tech Support | School Of Freelancing
 URL: https://schooloffreelancing.com/client-support/
 
-Expert Linux, DevOps, AI, VoIP & SMS support services at School of Freelancing. Fast, remote, worldwide assistance.
+Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
 
-### DigitalOcean Cloud Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/digitalocean-cloud-services/
+### CentOS Linux — Support | Hire Support
+URL: https://schooloffreelancing.com/client-support/centos-linux-support/
 
-Professional DigitalOcean cloud support: server deployment, troubleshooting, security, networking, backups & production infrastructure.
+Hire CentOS Linux Support for server setup, troubleshooting, security, optimization, and system administration.
 
-### Docker Engineer Services | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/docker-engineer-services/
+### Claude Platform — Support | Hire Support
+URL: https://schooloffreelancing.com/client-support/claude-platform-support/
 
-Professional Docker containerization & production deployment — Dockerfile & Compose setup, domain/SSL configuration, and security hardening.
+Hire Claude Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
 
-### FusionPBX VoIP Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/fusionpbx-voip-services/
+### DigitalOcean — AI-Native Cloud | Hire Support
+URL: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
 
-FusionPBX support catering to a wide range of individual skill levels, from basic setup up to advanced features and configuration. 24-hour support included.
+Hire DigitalOcean cloud support for Linux, security, deployment, troubleshooting, and optimization.
 
-### GitHub Enterprise Server Setup | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/github-services/
+### Docker — Job Support | Hire Support
+URL: https://schooloffreelancing.com/client-support/docker-job-support/
 
-Professional GitHub Enterprise Server installation, migration, and support from an experienced Linux system administrator. 24-hour support included.
+Hire Docker Job Support for deployment, troubleshooting, Docker Compose, containers, networking, and CI/CD.
 
-### GitLab Community Edition Setup | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/gitlab-services/
+### FusionPBX VoIP — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/fusionpbx-voip-setup/
 
-Expert GitLab Community Edition (CE) installation, migration, and support from an experienced Linux system administrator. 24-hour support included.
+Hire FusionPBX VoIP Setup support for SIP, call routing, extensions, IVR, and call center integration.
 
-### Goautodial VoIP Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/goautodial-voip-services/
+### GOAutoDial — VoIP Full Setup & Test | Hire Support
+URL: https://schooloffreelancing.com/client-support/goautodial-voip-setup/
 
-Expert Goautodial VoIP Support: setup, configuration, troubleshooting & optimization for the open-source omnichannel contact center suite.
+Hire GOAutoDial VoIP Setup support for SIP, dialers, call routing, IVR, and call center integration.
 
-### Hermes Agent Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/hermes-agent-services/
+### GitHub — Installation | Hire Support
+URL: https://schooloffreelancing.com/client-support/github-installation-support/
 
-Expert Hermes Agent Support: setup, persistent memory configuration, self-improving skills, and multi-platform messaging integration. 24-hour support included.
+Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management.
 
-### Hummingbot Installation Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/hummingbot-installation-services/
+### GitLab Installation — Self-Managed Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/gitlab-installation-support/
 
-Professional Hummingbot setup, configuration & deployment for automated crypto trading — plus Exchange API integration and MCP & Skills setup.
+GitLab Self-Managed setup support for teams to plan, code, secure, test, deploy & monitor apps from one UI.
 
-### Jasmin SMS Gateway Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-services/
+### Hermes Agent — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/hermes-agent-setup/
 
-Jasmin SMS Gateway support for building a production-ready bulk SMS system with Jasmin and playSMS for legitimate business SMS delivery.
+Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control.
 
-### Linux Server Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/linux-server-services/
+### Hummingbot — Installation | Hire Support
+URL: https://schooloffreelancing.com/client-support/hummingbot-installation-support/
 
-Expert Linux Server Support: setup, security hardening, troubleshooting, and performance optimization. 24-hour support included.
+Hire Hummingbot Installation Support for Linux server configuration, API exchange integrations, strategy deployment, troubleshooting, and optimization.
 
-### LocalAI Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/local-ai-services/
+### Jasmin SMS Gateway — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
 
-Expert LocalAI Support: setup, configuration & troubleshooting for the open-source engine that runs LLM, vision, voice, image & video models — no GPU required.
+Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration.
 
-### Odysseus AI Workspace Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/odysseus-ai-services/
+### Linux Server — Support | Hire Expert
+URL: https://schooloffreelancing.com/client-support/linux-server-support/
 
-Expert Odysseus AI Workspace Support: self-hosted setup, configuration & troubleshooting for your own AI workspace on your own hardware.
+Hire Linux Server Support experts for setup, security, troubleshooting, optimization, and deployment.
 
-### OpenAI Platform Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/openai-platform-services/
+### LocalAI — Self-Hosted LLM Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/localai-setup-support/
 
-Expert OpenAI Platform Support: API & developer support for building AI applications using the OpenAI Platform API. 24-hour support included.
+Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware.
 
-### OpenClaw AI Agent Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/openclaw-ai-services/
+### Odysseus — Self-hosted AI workspace setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
 
-Expert OpenClaw AI Agent Support: setup, configuration & troubleshooting for your open-source autonomous AI agent platform running as a 24/7 assistant.
+Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
 
-### Telnyx SMS API Setup & Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/telnyx-sms-api-services/
+### OpenAI Platform — Support | Hire Support
+URL: https://schooloffreelancing.com/client-support/openai-platform-support/
 
-Telnyx SMS REST API setup and support: A2P 10DLC registration, two-way messaging, and bulk SMS integration and testing.
+Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
 
-### Telnyx VoIP SIP Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/telnyx-sip-trunking-services/
+### OpenClaw — Self-Hosted AI Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 
-Telnyx VoIP SIP Support powers global VoIP connectivity with a private IP network, SIP trunking, and call center integrations. 24-hour support included.
+Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps.
 
-### Twilio SMS API Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/twilio-sms-api-services/
+### Telnyx SMS — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
 
-Twilio SMS API support for sending bulk SMS: A2P 10DLC campaign registration, API authentication, and production-ready SMS integration.
+Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
 
-### Twilio VoIP SIP Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/twilio-sip-trunking-services/
+### Telnyx — VoIP Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
 
-Twilio VoIP SIP setup powering global VoIP connectivity with a private IP network, SIP, and call center integrations. 24-hour support included.
+Telnyx VoIP installation support for SIP trunking, private IP routing, and global call center integrations.
 
-### Ubuntu Linux Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/ubuntu-linux-services/
+### Twilio SMS — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/twilio-sms-setup/
 
-Expert Ubuntu Linux Support: step-by-step help for development and dev-ops activities on Ubuntu machines, servers, and devices. 24-hour support included.
+Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
 
-### Vapi Platform Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/vapi-platform-services/
+### Twilio VoIP — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/twilio-voip-setup/
 
-Expert Vapi setup, configuration, and troubleshooting for voice AI agents that make and receive phone calls. Fast, remote support worldwide.
+Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 
-### ZeroClaw Support | School of Freelancing
-URL: https://schooloffreelancing.com/client-support/zeroclaw-ai-services/
+### Ubuntu Linux — Support | Hire Support
+URL: https://schooloffreelancing.com/client-support/ubuntu-linux-support/
 
-Expert ZeroClaw Support: setup, configuration & troubleshooting for your AI agent runtime, connecting to Anthropic, OpenAI, Ollama & 20+ LLM providers.
+Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration.
+
+### Voice AI Agent — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/voice-ai-agent-setup/
+
+Hire Vapi Voice AI Agent setup support for configuration, integrations, deployment, troubleshooting, and optimization.
+
+### ZeroClaw — Self-hosted AI agent Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/zeroclaw-setup-support/
+
+Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration.
 
 ## Contact Us
 

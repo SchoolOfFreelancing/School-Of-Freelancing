@@ -1,7 +1,7 @@
 ---
 title: "FusionPBX: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service."
 ---
 
@@ -9,9 +9,7 @@ description: "Learn FusionPBX VoIP deployment, advanced configuration, and call 
 
 ## Overview
 
-Learn FusionPBX VoIP deployment, advanced configuration, and call-routing setup,
-then turn that skill into a profitable freelance service with real client
-acquisition.
+Learn FusionPBX VoIP deployment, advanced configuration, and call-routing setup, then turn that skill into a profitable freelance service with real client acquisition.
 
 ## Training Features:
 
@@ -45,11 +43,9 @@ acquisition.
 
 Hands-on experience in live, FusionPBX VoIP deployment & administration
 
-Marketplace portfolio proving FusionPBX VoIP setup, call test, migration and
-security.
+Marketplace portfolio proving FusionPBX VoIP setup, call test, migration and security.
 
-Stronger habits for deploying, troubleshooting, and managing FusionPBX VoIP
-infrastructure
+Stronger habits for deploying, troubleshooting, and managing FusionPBX VoIP infrastructure
 
 ### Training Modules
 

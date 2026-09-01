@@ -1,15 +1,13 @@
 ---
 title: "How to Create Your First AI Chatbot | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production."
 ---
 
 ## Overview
 
-This guide shows how to build an AI chatbot using Claude API. You'll
-authenticate, design prompts, and deploy a working chatbot that answers customer
-questions intelligently.
+This guide shows how to build an AI chatbot using Claude API. You'll authenticate, design prompts, and deploy a working chatbot that answers customer questions intelligently.
 
 ## Prerequisites
 
@@ -47,8 +45,6 @@ def chat(user_message):
 response = chat("What's your return policy?")
 print(response)
 ```
-
-[TOC]
 
 ## Step 3: Build a Web Interface
 
@@ -127,5 +123,4 @@ Use Docker to containerize and deploy on your Ubuntu server.
 - **Implement rate limiting** to control costs
 - **Monitor token usage** to optimize expenses
 
-Learn advanced AI integration in our [Claude AI
-Training](/freelancing-training/claude-training/) program.
+Learn advanced AI integration in our [Claude AI Training](/freelancing-training/claude-training/) program.

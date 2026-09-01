@@ -1,19 +1,15 @@
 ---
 title: "Terms and Conditions — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-08-28
+date: 2026-09-01
 description: "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."
 ---
 
 # Terms and Conditions — School of Freelancing
 
-[TOC]
 ## 1. Acceptance of Terms
 
-By accessing or using School of Freelancing ("we," "us," "our," the "Platform"),
-including our website, trainings, and technical support services, you ("you,"
-"user," "client") agree to be bound by these Terms and Conditions ("Terms"). If
-you do not agree, please do not use the Platform.
+By accessing or using School of Freelancing ("we," "us," "our," the "Platform"), including our website, trainings, and technical support services, you ("you," "user," "client") agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, please do not use the Platform.
 
 ## 2. Services We Offer
 
@@ -24,15 +20,11 @@ School of Freelancing provides two categories of service:
 
 ## 3. Eligibility
 
-You must be at least 18 years old, or the age of majority in your jurisdiction,
-to enroll in a training or purchase a service. By using the Platform you confirm
-you meet this requirement.
+You must be at least 18 years old, or the age of majority in your jurisdiction, to enroll in a training or purchase a service. By using the Platform you confirm you meet this requirement.
 
 ## 4. Accounts
 
-You are responsible for maintaining the confidentiality of any account
-credentials and for all activity under your account. Notify us immediately of
-any unauthorized use.
+You are responsible for maintaining the confidentiality of any account credentials and for all activity under your account. Notify us immediately of any unauthorized use.
 
 ## 5. Training Enrollment & Access
 
@@ -65,65 +57,42 @@ You agree not to:
 
 ## 9. Intellectual Property
 
-All training content, curriculum, branding, and website materials are the
-property of School of Freelancing unless otherwise stated. Custom code,
-configurations, or deliverables produced specifically for a client under a paid
-support engagement are owned by the client upon full payment, unless a separate
-agreement states otherwise.
+All training content, curriculum, branding, and website materials are the property of School of Freelancing unless otherwise stated. Custom code, configurations, or deliverables produced specifically for a client under a paid support engagement are owned by the client upon full payment, unless a separate agreement states otherwise.
 
 ## 10. Third-Party Platforms
 
-Our services may involve or reference third-party platforms (e.g. Upwork,
-Contra, GitHub, DigitalOcean, Twilio, Telnyx). We are not responsible for the
-availability, policies, or actions of these third parties.
+Our services may involve or reference third-party platforms (e.g. Upwork, Contra, GitHub, DigitalOcean, Twilio, Telnyx). We are not responsible for the availability, policies, or actions of these third parties.
 
 ## 11. Disclaimer of Warranties
 
-The Platform and services are provided "as is" and "as available," without
-warranties of any kind, express or implied, including fitness for a particular
-purpose, non-infringement, or uninterrupted availability.
+The Platform and services are provided "as is" and "as available," without warranties of any kind, express or implied, including fitness for a particular purpose, non-infringement, or uninterrupted availability.
 
 ## 12. Limitation of Liability
 
-To the maximum extent permitted by law, School of Freelancing shall not be
-liable for any indirect, incidental, special, or consequential damages,
-including data loss, lost profits, or business interruption, arising from your
-use of our trainings or support services. Our total liability for any claim
-shall not exceed the amount you paid for the specific service giving rise to the
-claim.
+To the maximum extent permitted by law, School of Freelancing shall not be liable for any indirect, incidental, special, or consequential damages, including data loss, lost profits, or business interruption, arising from your use of our trainings or support services. Our total liability for any claim shall not exceed the amount you paid for the specific service giving rise to the claim.
 
 ## 13. Indemnification
 
-You agree to indemnify and hold School of Freelancing harmless from any claims,
-damages, or expenses arising from your misuse of the Platform, violation of
-these Terms, or violation of any third-party rights.
+You agree to indemnify and hold School of Freelancing harmless from any claims, damages, or expenses arising from your misuse of the Platform, violation of these Terms, or violation of any third-party rights.
 
 ## 14. Termination
 
-We may suspend or terminate your access to trainings or support services at our
-discretion if you violate these Terms. You may discontinue use of the Platform
-at any time.
+We may suspend or terminate your access to trainings or support services at our discretion if you violate these Terms. You may discontinue use of the Platform at any time.
 
 ## 15. Privacy
 
-Our collection and use of personal information is described in our Privacy
-Policy. By using the Platform, you consent to that collection and use.
+Our collection and use of personal information is described in our Privacy Policy. By using the Platform, you consent to that collection and use.
 
 ## 16. Changes to These Terms
 
-We may update these Terms from time to time. Continued use of the Platform after
-changes are posted constitutes acceptance of the revised Terms.
+We may update these Terms from time to time. Continued use of the Platform after changes are posted constitutes acceptance of the revised Terms.
 
 ## 17. Governing Law
 
-These Terms are governed by the laws of Bangladesh, without regard to
-conflict-of-law principles. Any disputes shall be subject to the exclusive
-jurisdiction of the courts of Bangladesh, unless otherwise required by
-applicable consumer protection law in your jurisdiction.
+These Terms are governed by the laws of Bangladesh, without regard to conflict-of-law principles. Any disputes shall be subject to the exclusive jurisdiction of the courts of Bangladesh, unless otherwise required by applicable consumer protection law in your jurisdiction.
 
 ## 18. Contact Us
 
-Questions about these Terms can be sent to us via
-[schooloffreelancing.com](https://schooloffreelancing.com) .
+Questions about these Terms can be sent to us via [schooloffreelancing.com](https://schooloffreelancing.com) .
 
 ## Frequently Asked Questions

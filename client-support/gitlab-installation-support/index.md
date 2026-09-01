@@ -1,62 +1,29 @@
 ---
-title: "GitLab Community Edition Setup | School of Freelancing"
+title: "GitLab Installation — Self-Managed Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-08-28
-description: "Expert GitLab Community Edition (CE) installation, migration, and support from an experienced Linux system administrator. 24-hour support included."
+date: 2026-09-01
+description: "GitLab Self-Managed setup support for teams to plan, code, secure, test, deploy & monitor apps from one UI."
 ---
 
-# GitLab Community Edition Setup | School of Freelancing
+# GitLab Installation — Self-Managed Setup | Hire Support
 
-Want to learn this yourself instead of hiring us? [**Check out GitLab
-Training**](/freelancing-training/gitlab-training/) .
+## Support Overview
 
-[TOC]
-
-## What Is GitLab Community Edition Setup?
-
-GitLab Community Edition Setup is School of Freelancing's done-for-you
-installation and migration service for GitLab CE — a free, self-hosted Git
-repository management and CI/CD platform that teams run on their own Linux
-servers for source control, issue tracking, and CI/CD pipelines. An experienced
-Linux system administrator installs, configures, and SSL-secures your GitLab CE
-instance, and migrates existing repositories, issues, and CI/CD pipeline
-configuration from other Git platforms if needed.
+GitLab Self-Managed setup support for teams to plan, code, secure, test, deploy & monitor apps from one UI.
 
 ## Key Takeaways
 
-- **Format:** Remote, worldwide delivery
-- **Turnaround:** 72 engineering hours over 3 days
-- **Price:** $350 USD flat rate
-- **Covers:** GitLab CE installation, configuration & SSL setup, repository/issue/CI-CD migration, 24-hour post-installation support
-- **Best for:** Teams and individuals who want to self-host GitLab Community Edition without handling installation and migration themselves
-
-## GitLab Community Edition Setup at a Glance
-
 | Aspect | Detail |
 | --- | --- |
-| Price | $350 USD flat rate |
-| Turnaround | 72 engineering hours / 3 days |
-| Delivery | Remote, worldwide |
-| What you provide | SSH access to your Linux server; existing repositories, issues, and CI/CD configuration if migrating from another Git platform |
-| Support window | 24-hour post-installation support included |
-
-## What's Included
-
-- Fast issue resolution from an experienced Linux system administrator
-- Secure remote assistance over SSH or your preferred remote-access tool
-- GitLab Community Edition (CE) installation, configuration, and SSL setup
-- Migration support for repositories, issues, and CI/CD pipeline configuration into GitLab CE
-- 24-hour post-installation support window after delivery
-
-## Who This Is For
-
-Teams and individuals who want to self-host GitLab Community Edition for source
-control and CI/CD, but need an
-experienced Linux administrator to handle installation, migration, and
-configuration without the trial and error.
+| Turnaround: | 2 Business Days (Fully Tested). |
+| Price | $199 (One-Time Fixed Investment). |
+| Format: | Live Remote Support, Worldwide. |
+| Covers: | Comprehensive GitLab Self-Managed engineering covering installation, CI/CD pipeline setup, security scanning, and deployment/monitoring configuration. |
+| Best for: | Teams and businesses requiring production GitLab Self-Managed installation or ongoing DevOps infrastructure support without a full-time hire. |
+| What you provide: | Team access to your server/VPS and domain, along with any existing repositories or CI/CD configuration ready for production deployment. |
 
 ## Frequently Asked Questions
 
-## Need GitLab Community Edition Support?
+## Hire Your Support Now
 
-Book a free 15-minute consultation to scope your project.
+Book a free 10-minute consultation to scope your project.
