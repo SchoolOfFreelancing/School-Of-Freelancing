@@ -77,11 +77,39 @@ ErrorDocument 403 /404.html
 ErrorDocument 500 /500.html
 
 # ==============================================================================
-# 4. ROBOTS & CRAWLER HEADERS
+# 4. ROBOTS, CRAWLER & VARNISH CACHE CONTROL HEADERS
 # ==============================================================================
+# Turn off mod_expires for HTML/XML so it stops appending max-age=300
+<IfModule mod_expires.c>
+    ExpiresActive On
+    ExpiresByType text/html "access plus 0 seconds"
+    ExpiresByType application/xml "access plus 0 seconds"
+    ExpiresByType text/xml "access plus 0 seconds"
+</IfModule>
+
 <IfModule mod_headers.c>
     Header set X-Robots-Tag "index, follow"
     Header set X-Content-Type-Options "nosniff"
+
+    # Forcefully purge and overwrite any upstream Cache-Control headers
+    <FilesMatch "\.(html|xml)$">
+        Header unset Cache-Control
+        Header unset Expires
+        Header unset Pragma
+        Header always unset Cache-Control
+        Header always unset Expires
+        Header always unset Pragma
+        
+        Header always set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
+        Header always set Pragma "no-cache"
+        Header always set Expires "0"
+        Header always set X-CWP-Cache "Bypass"
+    </FilesMatch>
+
+    # Leverage aggressive caching for static media/assets
+    <FilesMatch "\.(css|js|webp|png|jpg|jpeg|svg|ico|woff2)$">
+        Header set Cache-Control "public, max-age=2592000, immutable"
+    </FilesMatch>
 </IfModule>
 
 # ==============================================================================
