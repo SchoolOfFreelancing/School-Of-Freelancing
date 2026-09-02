@@ -1,7 +1,7 @@
 ---
 title: "Claude AI - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
@@ -72,3 +72,17 @@ Proven proposal strategies and direct outreach tactics to secure high-paying AI 
 | 20 | Direct Outbound Client Outreach & Monthly Retainers | Executing direct outreach (LinkedIn/Email) to founders and closing ongoing $1,000–$3,000/month Claude AI development retainers |  |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in Claude AI - Freelancing Training?
+
+Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients.
+
+### Who is Claude AI - Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with Claude AI - Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

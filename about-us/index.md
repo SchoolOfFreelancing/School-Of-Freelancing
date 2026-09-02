@@ -1,11 +1,11 @@
 ---
-title: "About Us | School Of Freelancing"
+title: "About Us — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-01
-description: "Founded in 2015 by Karim (Masum), School of Freelancing trains beginners into professional Linux freelancers and offers Linux support to businesses."
+date: 2026-09-03
+description: "School of Freelancing turns beginners into freelancers and solves businesses' technical challenges."
 ---
 
-# About Us | School Of Freelancing
+# About Us — School Of Freelancing
 
 ## Why We're Obsessed With Linux
 

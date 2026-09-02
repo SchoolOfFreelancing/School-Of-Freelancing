@@ -1,7 +1,7 @@
 ---
 title: "Credential Verification Support — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us."
 ---
 
@@ -56,3 +56,13 @@ We may update this Credential Verification Support policy from time to time. Con
 To request Credential Verification Support, or if you have questions about this policy, reach us via our [contact page](/contact-us/) , on WhatsApp at +8801748973769, or by email at office@schooloffreelancing.com.
 
 ## Frequently Asked Questions
+
+## Frequently Asked Questions
+
+### What is the Credential Verification Support page about?
+
+Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us.
+
+### Where can I find the applicable policy information?
+
+Read the complete policy on this page and contact School of Freelancing if clarification is required.

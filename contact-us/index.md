@@ -1,14 +1,36 @@
 ---
-title: "Contact Us | School of Freelancing"
+title: "Contact Us — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-01
-description: "Get in touch with School of Freelancing via Telegram, WhatsApp, phone, or email. We reply to enrollment, training, and Linux support inquiries within 24 hours."
+date: 2026-09-03
+description: "Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible."
 ---
 
-# Contact Us | School of Freelancing
+# Contact Us — School of Freelancing
 
 ## Get in Touch
 
 ## Send a message
 
 ## Find Us on the Map
+
+## Frequently Asked Questions
+
+### How can I contact School of Freelancing?
+
+Use the contact methods published on this page to send your project or training requirements.
+
+### What information should I include in a support request?
+
+Include the technology, project scope, current problem, and relevant error messages or configuration details.
+
+## How can I get technical support?
+
+Contact School of Freelancing for live Linux and AI freelancing training and
+remote technical support for businesses, developers, and freelancers. Support
+can cover Linux server administration, cloud deployment, Docker, VoIP, SMS
+gateways, AI platforms, automation, troubleshooting, security, and production
+configuration.
+
+Send your project requirements, the technology involved, the current
+problem, and any relevant error message. This helps us understand the scope
+and provide the most appropriate technical assistance.

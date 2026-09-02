@@ -1,11 +1,11 @@
 ---
-title: "GitHub Freelancing Training"
+title: "GitHub Freelancing Training | Setup, CI/CD & Jobs"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
-# GitHub Freelancing Training
+# GitHub Freelancing Training | Setup, CI/CD & Jobs
 
 ## Overview
 
@@ -72,3 +72,17 @@ Stronger habits for deploying, troubleshooting, and managing enterprise GitHub i
 | 20 | Capstone Review & Live Q&A | Simulated enterprise troubleshooting scenario, testimonial collection, wrap-up |  |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in GitHub Freelancing Training?
+
+Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
+
+### Who is GitHub Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with GitHub Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!"
 ---
 
@@ -72,3 +72,17 @@ Stronger habits for deploying, troubleshooting, and reviewing Hermes Agent proje
 | 20 | Capstone Review & Live Q&A | Real client troubleshooting scenario, collect testimonials, program wrap-up |  |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in Hermes Agent: Freelancing Training?
+
+Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!
+
+### Who is Hermes Agent: Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with Hermes Agent: Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance."
 ---
 
@@ -57,3 +57,17 @@ Stronger habits for configuring, maintaining, and troubleshooting autonomous AI 
 | 5 | Freelance Launch: Marketplace & Delivery | Upwork/Guru/Freelancer profiles, 5 service videos, LinkedIn marketing, job search & bidding, client communication, delivery, capstone review |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in OpenClaw: Freelancing Training?
+
+Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance.
+
+### Who is OpenClaw: Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with OpenClaw: Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

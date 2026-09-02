@@ -1,7 +1,7 @@
 ---
 title: "Odysseus AI: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
@@ -9,42 +9,42 @@ description: "Master Odysseus AI integration, custom LLM workflows, and AI agent
 
 ## Overview
 
-Odysseus AI Freelancing Training is an online training program for deploying AI workflows, LLM integrations, and custom agents. Learn high-demand tech skills to land clients on marketplace and boost your earnings.
+Learn Odysseus AI for real-world freelancing, including AI agent setup, automation, Linux deployment, troubleshooting, and client-ready solutions, so you can confidently deliver projects and win paid AI freelancing work.
 
 ## Training Features:
 
 | Aspect | Detail |
 | --- | --- |
-| Duration: | 20 Hands-on training sessions over two weeks training. |
-| Price: | $121 (One-Time Investment). |
-| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
-| Covers: | Deploy Odysseus AI - Self-Hosted AI Workspace into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
-| Best for: | Freelancers and IT professionals who want to specialize in privacy-focused, self-hosted AI deployments and launch a freelance career around them. |
+| Price: | $121 (One-Time Investment / Lifetime Value). |
+| Duration: | 20 Hands-on intensive sessions across 2 weeks. |
+| Format: | 100% Live, Instructor-Led Training — No Pre-Recorded Videos. |
+| Covers: | Production deployment of a Self-Hosted AI Workspace; strategies to secure premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
+| Best for: | Aspiring freelancers and IT pros looking to master privacy-first, self-hosted AI infrastructure and build a high-income freelance business. |
 |  |  |
 
 ## Participation Requirements:
 
 ### Training Prerequisites
 
-- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Any Domain/Subdomain, & Verified Marketplace Profiles.
-- **Rigorous:** Need to have patience and concentration during all training sessions.
+- **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** a domain or subdomain, and verified freelance marketplace profiles.
+- **Rigorous format:** Requires absolute patience and deep focus during live sessions.
 
 ### Connectivity
 
-- Portable messaging devices for 24/7 client communication.
-- Reliable fiber-optic internet access for uninterruptible training sessions.
+- Mobile messaging device for continuous, client-ready communication.
+- Stable fiber-optic internet connection to prevent live session interruptions.
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Rules](/legal/training-rules/)** aapply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.
 
 ## You'll leave with:
 
-Hands-on experience deploying a live, self-hosted, privacy-focused Odysseus AI Workspace
+Deep hands-on experience deploying a live, privacy-first, self-hosted Odysseus AI Workspace.
 
-Marketplace portfolio proving real deployment and data-privacy engineering skills
+A robust client portfolio proving real production deployment and data-privacy engineering expertise.
 
-Stronger habits for hardening, maintaining, and troubleshooting production AI workspaces
+Production-grade habits for server hardening, routine maintenance, and workspace troubleshooting.
 
 ## Training Modules
 
@@ -72,3 +72,17 @@ Stronger habits for hardening, maintaining, and troubleshooting production AI wo
 | 20 | Onboarding, Invoicing & Capstone | Client onboarding workflows, invoicing/withdrawals, testimonial capture & capstone Q&A |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in Odysseus AI: Freelancing Training?
+
+Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer.
+
+### Who is Odysseus AI: Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with Odysseus AI: Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

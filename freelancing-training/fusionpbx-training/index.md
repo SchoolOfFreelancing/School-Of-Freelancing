@@ -1,7 +1,7 @@
 ---
 title: "FusionPBX: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service."
 ---
 
@@ -73,3 +73,17 @@ Stronger habits for deploying, troubleshooting, and managing FusionPBX VoIP infr
 | 20 | Client Onboarding, Handover & Support | Managing client onboarding, secure SIP credential handoff, maintenance contracts, requesting 5-star reviews, and final Q&A |  |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in FusionPBX: Freelancing Training?
+
+Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service.
+
+### Who is FusionPBX: Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with FusionPBX: Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

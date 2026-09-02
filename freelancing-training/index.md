@@ -1,11 +1,11 @@
 ---
-title: "Hands-on Freelancing Training | School Of Freelancing"
+title: "Freelancing Training — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-01
-description: "Hands-on live freelancing training at School of Freelancing. Learn Linux, VoIP, AI & cloud tech, build real projects, and land top global clients today!"
+date: 2026-09-03
+description: "Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!"
 ---
 
-# Hands-on Freelancing Training | School Of Freelancing
+# Freelancing Training — School Of Freelancing
 
 ## All Training Programs
 
@@ -53,7 +53,7 @@ Learn Telnyx — the most in-demand messaging skill in the freelance market — 
 
 ![Odysseus: Hands-on Training](/assets/images/odysseus.webp)
 
-### [Odysseus Freelancing Training](/freelancing-training/odysseus-ai-training/)
+### [Odysseus AI Freelancing Training](/freelancing-training/odysseus-ai-training/)
 
 Set up Odysseus on Linux, optimize AI synergy, and build service portfolios across marketplaces.
 
@@ -304,3 +304,17 @@ Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy producti
 - Credential Verification Support
 
 ## Frequently Asked Questions
+
+## Frequently Asked Questions
+
+### What will I learn in Freelancing Training?
+
+Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
+
+### Who is Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

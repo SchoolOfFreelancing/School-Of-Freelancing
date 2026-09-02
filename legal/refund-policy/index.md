@@ -1,7 +1,7 @@
 ---
 title: "Refund Policy — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services."
 ---
 
@@ -60,3 +60,13 @@ We may update this Refund Policy from time to time as our services evolve. Conti
 Questions about this Refund Policy can be sent to us via our [contact page](/contact-us/) , on WhatsApp at +8801748973769, or by email at office@schooloffreelancing.com.
 
 ## Frequently Asked Questions
+
+## Frequently Asked Questions
+
+### What is the Refund Policy page about?
+
+Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
+
+### Where can I find the applicable policy information?
+
+Read the complete policy on this page and contact School of Freelancing if clarification is required.

@@ -1,7 +1,7 @@
 ---
 title: "Debian Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients."
 ---
 
@@ -73,3 +73,17 @@ Actionable client acquisition strategies to win marketplace projects and land di
 | 20 | Client Offboarding, Maintenance & Retainers | Establishing client handover protocols, secure credentials transfer, securing 5-star marketplace reviews, and converting one-off setups into monthly retainers |  |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in Debian Linux - Freelancing Training?
+
+Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
+
+### Who is Debian Linux - Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with Debian Linux - Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

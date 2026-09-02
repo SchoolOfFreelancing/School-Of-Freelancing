@@ -1,11 +1,11 @@
 ---
-title: "Docker Freelancing Training"
+title: "Docker Freelancing Training | Learn & Get Support"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer."
 ---
 
-# Docker Freelancing Training
+# Docker Freelancing Training | Learn & Get Support
 
 ## Overview
 
@@ -72,3 +72,17 @@ Stronger habits for deploying, troubleshooting, and managing enterprise GitHub i
 | 20 | Client Onboarding & Capstone | Managing secure credential handoffs, project delivery, invoicing, client reviews, and final live Q&A |  |
 
 ## Secure Your Seat Now
+
+## Frequently Asked Questions
+
+### What will I learn in Docker Freelancing Training?
+
+Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.
+
+### Who is Docker Freelancing Training training for?
+
+It is intended for learners and freelancers who want practical, client-ready technical skills.
+
+### How can I get started with Docker Freelancing Training?
+
+Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

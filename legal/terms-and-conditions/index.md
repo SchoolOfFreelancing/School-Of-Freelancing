@@ -1,7 +1,7 @@
 ---
 title: "Terms and Conditions — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-01
+date: 2026-09-03
 description: "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."
 ---
 
@@ -96,3 +96,13 @@ These Terms are governed by the laws of Bangladesh, without regard to conflict-o
 Questions about these Terms can be sent to us via [schooloffreelancing.com](https://schooloffreelancing.com) .
 
 ## Frequently Asked Questions
+
+## Frequently Asked Questions
+
+### What is the Terms and Conditions page about?
+
+Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
+
+### Where can I find the applicable policy information?
+
+Read the complete policy on this page and contact School of Freelancing if clarification is required.
