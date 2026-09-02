@@ -1,0 +1,1074 @@
+{
+  "generated_at": "2026-09-02T19:25:53.719297+06:00",
+  "site": "https://schooloffreelancing.com",
+  "root": "/var/www/html",
+  "dry_run": false,
+  "same_as_used": [
+    "https://github.com/SchoolOfFreelancing",
+    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
+    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
+    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
+    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
+    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
+    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
+    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
+    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
+    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
+    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
+    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
+    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
+    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
+    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
+    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
+    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
+    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
+    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
+    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
+    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
+    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
+    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
+    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
+    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
+    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
+    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
+    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
+    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
+    "https://github.com/SchoolOfFreelancing/github-installation-support",
+    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
+    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
+    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
+    "https://instagram.com/schooloffreelancing",
+    "https://www.facebook.com/SchoolOfFreelancing",
+    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+    "https://www.linkedin.com/company/schooloffreelancing",
+    "https://www.linkedin.com/in/anythinglinux",
+    "https://www.youtube.com/@SchoolOfFreelancing",
+    "https://x.com/SchoolOfFreelan"
+  ],
+  "source_reports": {
+    "audit": "/home/allah/gsc-diagnostic/reports/gsc-audit-20260902-060044.json",
+    "diagnostic": "/home/allah/gsc-diagnostic/reports/gsc-diagnostic-20260902-053028.json"
+  },
+  "source_summary": {
+    "audit": {
+      "urls": 86,
+      "http_ok": 86,
+      "http_failed": 0,
+      "gsc_pass": 1,
+      "gsc_not_pass": 85,
+      "high_priority": 55,
+      "average_seo": 84,
+      "average_aeo": 64,
+      "average_technical": 100,
+      "runtime_seconds": 628.43
+    },
+    "diagnostic": {
+      "urls_checked": 87,
+      "http_ok": 87,
+      "http_failed": 0,
+      "gsc_indexed": 56,
+      "gsc_not_indexed": 31,
+      "gsc_errors": 0,
+      "robots_ok": true,
+      "sitemap_ok": true,
+      "sitemap_url_count": 87
+    }
+  },
+  "repairs": [
+    {
+      "url": "https://schooloffreelancing.com",
+      "path": "/",
+      "file": "/var/www/html/index.html",
+      "changed": false,
+      "actions": [],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/about-us/",
+      "path": "/about-us",
+      "file": "/var/www/html/about-us/index.html",
+      "changed": false,
+      "actions": [],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/",
+      "path": "/client-support",
+      "file": "/var/www/html/client-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/centos-linux-support/",
+      "path": "/client-support/centos-linux-support",
+      "file": "/var/www/html/client-support/centos-linux-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/claude-platform-support/",
+      "path": "/client-support/claude-platform-support",
+      "file": "/var/www/html/client-support/claude-platform-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/digitalocean-cloud-support/",
+      "path": "/client-support/digitalocean-cloud-support",
+      "file": "/var/www/html/client-support/digitalocean-cloud-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/docker-job-support/",
+      "path": "/client-support/docker-job-support",
+      "file": "/var/www/html/client-support/docker-job-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/fusionpbx-voip-setup/",
+      "path": "/client-support/fusionpbx-voip-setup",
+      "file": "/var/www/html/client-support/fusionpbx-voip-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/github-installation-support/",
+      "path": "/client-support/github-installation-support",
+      "file": "/var/www/html/client-support/github-installation-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/gitlab-installation-support/",
+      "path": "/client-support/gitlab-installation-support",
+      "file": "/var/www/html/client-support/gitlab-installation-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/goautodial-voip-setup/",
+      "path": "/client-support/goautodial-voip-setup",
+      "file": "/var/www/html/client-support/goautodial-voip-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/hermes-agent-setup/",
+      "path": "/client-support/hermes-agent-setup",
+      "file": "/var/www/html/client-support/hermes-agent-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/hummingbot-installation-support/",
+      "path": "/client-support/hummingbot-installation-support",
+      "file": "/var/www/html/client-support/hummingbot-installation-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/",
+      "path": "/client-support/jasmin-sms-gateway-setup",
+      "file": "/var/www/html/client-support/jasmin-sms-gateway-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/linux-server-support/",
+      "path": "/client-support/linux-server-support",
+      "file": "/var/www/html/client-support/linux-server-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/localai-setup-support/",
+      "path": "/client-support/localai-setup-support",
+      "file": "/var/www/html/client-support/localai-setup-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/odysseus-ai-setup/",
+      "path": "/client-support/odysseus-ai-setup",
+      "file": "/var/www/html/client-support/odysseus-ai-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/openai-platform-support/",
+      "path": "/client-support/openai-platform-support",
+      "file": "/var/www/html/client-support/openai-platform-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/openclaw-setup-support/",
+      "path": "/client-support/openclaw-setup-support",
+      "file": "/var/www/html/client-support/openclaw-setup-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/telnyx-sms-setup/",
+      "path": "/client-support/telnyx-sms-setup",
+      "file": "/var/www/html/client-support/telnyx-sms-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/telnyx-voip-setup/",
+      "path": "/client-support/telnyx-voip-setup",
+      "file": "/var/www/html/client-support/telnyx-voip-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/twilio-sms-setup/",
+      "path": "/client-support/twilio-sms-setup",
+      "file": "/var/www/html/client-support/twilio-sms-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/twilio-voip-setup/",
+      "path": "/client-support/twilio-voip-setup",
+      "file": "/var/www/html/client-support/twilio-voip-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/ubuntu-linux-support/",
+      "path": "/client-support/ubuntu-linux-support",
+      "file": "/var/www/html/client-support/ubuntu-linux-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/voice-ai-agent-setup/",
+      "path": "/client-support/voice-ai-agent-setup",
+      "file": "/var/www/html/client-support/voice-ai-agent-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/client-support/zeroclaw-setup-support/",
+      "path": "/client-support/zeroclaw-setup-support",
+      "file": "/var/www/html/client-support/zeroclaw-setup-support/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/contact-us/",
+      "path": "/contact-us",
+      "file": "/var/www/html/contact-us/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section",
+        "added useful visible content"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/",
+      "path": "/freelancing-training",
+      "file": "/var/www/html/freelancing-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/",
+      "path": "/freelancing-training/bulk-sms-setup-training",
+      "file": "/var/www/html/freelancing-training/bulk-sms-setup-training/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/call-center-setup-training/",
+      "path": "/freelancing-training/call-center-setup-training",
+      "file": "/var/www/html/freelancing-training/call-center-setup-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/centos-linux-training/",
+      "path": "/freelancing-training/centos-linux-training",
+      "file": "/var/www/html/freelancing-training/centos-linux-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/claude-training/",
+      "path": "/freelancing-training/claude-training",
+      "file": "/var/www/html/freelancing-training/claude-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/debian-linux-training/",
+      "path": "/freelancing-training/debian-linux-training",
+      "file": "/var/www/html/freelancing-training/debian-linux-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/docker-training/",
+      "path": "/freelancing-training/docker-training",
+      "file": "/var/www/html/freelancing-training/docker-training/index.html",
+      "changed": true,
+      "actions": [
+        "title -> Docker Freelancing Training | Learn & Get Support",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/fusionpbx-training/",
+      "path": "/freelancing-training/fusionpbx-training",
+      "file": "/var/www/html/freelancing-training/fusionpbx-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/github-training/",
+      "path": "/freelancing-training/github-training",
+      "file": "/var/www/html/freelancing-training/github-training/index.html",
+      "changed": true,
+      "actions": [
+        "title -> GitHub Freelancing Training | Setup, CI/CD & Jobs",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/gitlab-training/",
+      "path": "/freelancing-training/gitlab-training",
+      "file": "/var/www/html/freelancing-training/gitlab-training/index.html",
+      "changed": true,
+      "actions": [
+        "title -> GitLab Freelancing Training | Setup, CI/CD & Jobs",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/goautodial-training/",
+      "path": "/freelancing-training/goautodial-training",
+      "file": "/var/www/html/freelancing-training/goautodial-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training/",
+      "path": "/freelancing-training/hermes-agent-training",
+      "file": "/var/www/html/freelancing-training/hermes-agent-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization sameAs links",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/",
+      "path": "/freelancing-training/jasmin-sms-gateway-training",
+      "file": "/var/www/html/freelancing-training/jasmin-sms-gateway-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/",
+      "path": "/freelancing-training/linux-freelancing-training",
+      "file": "/var/www/html/freelancing-training/linux-freelancing-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization sameAs links",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/local-ai-training/",
+      "path": "/freelancing-training/local-ai-training",
+      "file": "/var/www/html/freelancing-training/local-ai-training/index.html",
+      "changed": true,
+      "actions": [
+        "title -> LocalAI Freelancing Training | Deployment & AI Jobs",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/",
+      "path": "/freelancing-training/odysseus-ai-training",
+      "file": "/var/www/html/freelancing-training/odysseus-ai-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization sameAs links",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/openai-training/",
+      "path": "/freelancing-training/openai-training",
+      "file": "/var/www/html/freelancing-training/openai-training/index.html",
+      "changed": true,
+      "actions": [
+        "title -> OpenAI Freelancing Training | API & AI Projects",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/openclaw-training/",
+      "path": "/freelancing-training/openclaw-training",
+      "file": "/var/www/html/freelancing-training/openclaw-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization sameAs links",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/",
+      "path": "/freelancing-training/telnyx-sms-api-training",
+      "file": "/var/www/html/freelancing-training/telnyx-sms-api-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/",
+      "path": "/freelancing-training/twilio-sms-api-training",
+      "file": "/var/www/html/freelancing-training/twilio-sms-api-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/",
+      "path": "/freelancing-training/ubuntu-linux-training",
+      "file": "/var/www/html/freelancing-training/ubuntu-linux-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/freelancing-training/zeroclaw-training/",
+      "path": "/freelancing-training/zeroclaw-training",
+      "file": "/var/www/html/freelancing-training/zeroclaw-training/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/legal/credential-verification/",
+      "path": "/legal/credential-verification",
+      "file": "/var/www/html/legal/credential-verification/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/legal/privacy-policy/",
+      "path": "/legal/privacy-policy",
+      "file": "/var/www/html/legal/privacy-policy/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/legal/refund-policy/",
+      "path": "/legal/refund-policy",
+      "file": "/var/www/html/legal/refund-policy/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/legal/terms-and-conditions/",
+      "path": "/legal/terms-and-conditions",
+      "file": "/var/www/html/legal/terms-and-conditions/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/legal/training-rules/",
+      "path": "/legal/training-rules",
+      "file": "/var/www/html/legal/training-rules/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/",
+      "path": "/locations",
+      "file": "/var/www/html/locations/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section",
+        "added useful visible content"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-at/",
+      "path": "/locations/en-at",
+      "file": "/var/www/html/locations/en-at/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-au/",
+      "path": "/locations/en-au",
+      "file": "/var/www/html/locations/en-au/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-bd/",
+      "path": "/locations/en-bd",
+      "file": "/var/www/html/locations/en-bd/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-be/",
+      "path": "/locations/en-be",
+      "file": "/var/www/html/locations/en-be/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-ca/",
+      "path": "/locations/en-ca",
+      "file": "/var/www/html/locations/en-ca/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-ch/",
+      "path": "/locations/en-ch",
+      "file": "/var/www/html/locations/en-ch/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-de/",
+      "path": "/locations/en-de",
+      "file": "/var/www/html/locations/en-de/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-dk/",
+      "path": "/locations/en-dk",
+      "file": "/var/www/html/locations/en-dk/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-fi/",
+      "path": "/locations/en-fi",
+      "file": "/var/www/html/locations/en-fi/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-gb/",
+      "path": "/locations/en-gb",
+      "file": "/var/www/html/locations/en-gb/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-ie/",
+      "path": "/locations/en-ie",
+      "file": "/var/www/html/locations/en-ie/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-il/",
+      "path": "/locations/en-il",
+      "file": "/var/www/html/locations/en-il/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-is/",
+      "path": "/locations/en-is",
+      "file": "/var/www/html/locations/en-is/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-li/",
+      "path": "/locations/en-li",
+      "file": "/var/www/html/locations/en-li/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-lu/",
+      "path": "/locations/en-lu",
+      "file": "/var/www/html/locations/en-lu/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-nl/",
+      "path": "/locations/en-nl",
+      "file": "/var/www/html/locations/en-nl/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-no/",
+      "path": "/locations/en-no",
+      "file": "/var/www/html/locations/en-no/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-se/",
+      "path": "/locations/en-se",
+      "file": "/var/www/html/locations/en-se/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-sg/",
+      "path": "/locations/en-sg",
+      "file": "/var/www/html/locations/en-sg/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/locations/en-us/",
+      "path": "/locations/en-us",
+      "file": "/var/www/html/locations/en-us/index.html",
+      "changed": true,
+      "actions": [
+        "canonical aligned with Google-selected canonical",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/register/",
+      "path": "/register",
+      "file": "/var/www/html/register/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/",
+      "path": "/resource-center",
+      "file": "/var/www/html/resource-center/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/case-studies/",
+      "path": "/resource-center/case-studies",
+      "file": "/var/www/html/resource-center/case-studies/index.html",
+      "changed": true,
+      "actions": [
+        "title -> Linux & AI Freelancing Case Studies | School of Freelancing",
+        "added resource JSON-LD",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/faqs/",
+      "path": "/resource-center/faqs",
+      "file": "/var/www/html/resource-center/faqs/index.html",
+      "changed": true,
+      "actions": [
+        "title -> FAQs | Training & Linux/IT Support | School of Freelancing",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/guides/ai-chatbot/",
+      "path": "/resource-center/guides/ai-chatbot",
+      "file": "/var/www/html/resource-center/guides/ai-chatbot/index.html",
+      "changed": true,
+      "actions": [
+        "added resource JSON-LD",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/guides/automation/",
+      "path": "/resource-center/guides/automation",
+      "file": "/var/www/html/resource-center/guides/automation/index.html",
+      "changed": true,
+      "actions": [
+        "title -> How to Automate Tasks with Python & Cron",
+        "added resource JSON-LD",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/",
+      "path": "/resource-center/guides/docker-containerize",
+      "file": "/var/www/html/resource-center/guides/docker-containerize/index.html",
+      "changed": true,
+      "actions": [
+        "title -> How to Containerize a Legacy App with Docker",
+        "added resource JSON-LD",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/",
+      "path": "/resource-center/guides/linux-deployment",
+      "file": "/var/www/html/resource-center/guides/linux-deployment/index.html",
+      "changed": true,
+      "actions": [
+        "title -> How to Deploy a Linux Server to Production",
+        "added resource JSON-LD",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/guides/voip-setup/",
+      "path": "/resource-center/guides/voip-setup",
+      "file": "/var/www/html/resource-center/guides/voip-setup/index.html",
+      "changed": true,
+      "actions": [
+        "added/updated og:title",
+        "added resource JSON-LD",
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/intro-video/",
+      "path": "/resource-center/intro-video",
+      "file": "/var/www/html/resource-center/intro-video/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization sameAs links",
+        "added AEO question/answer section",
+        "added useful visible content"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/resource-center/testimonials/",
+      "path": "/resource-center/testimonials",
+      "file": "/var/www/html/resource-center/testimonials/index.html",
+      "changed": true,
+      "actions": [
+        "added Organization JSON-LD",
+        "added AEO question/answer section"
+      ],
+      "errors": []
+    },
+    {
+      "url": "https://schooloffreelancing.com/sitemap/",
+      "path": "/sitemap",
+      "file": "/var/www/html/sitemap/index.html",
+      "changed": false,
+      "actions": [],
+      "errors": []
+    }
+  ],
+  "summary": {
+    "files_considered": 87,
+    "files_changed": 84,
+    "files_skipped_or_error": 0,
+    "manual_gsc_queue": 31,
+    "canonical_conflicts_seen": 20
+  },
+  "gsc_limitation": "General arbitrary-page Request Indexing is not exposed as a general Search Console API operation. Use the generated manual queue after the site repairs are deployed.",
+  "backup_directory": "/var/www/html/.gsc-backup-20260902-192553",
+  "queue_csv": "/var/www/html/gsc-repair-reports/gsc-manual-indexing-queue.csv",
+  "queue_txt": "/var/www/html/gsc-repair-reports/gsc-manual-indexing-queue.txt"
+}

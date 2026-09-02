@@ -1,0 +1,143 @@
+School of Freelancing - Manual GSC Indexing Queue
+==========================================================
+
+Google does not expose a general API to force indexing of arbitrary web pages. After site repairs, inspect these URLs in Search Console and use Request Indexing where appropriate.
+
+01. [CRITICAL] https://schooloffreelancing.com/locations/en-ca/
+    Coverage: Blocked due to access forbidden (403)
+    Referring: https://schooloffreelancing.com/locations/
+    Action: Fix 403/access control, then inspect URL in GSC
+
+02. [HIGH] https://schooloffreelancing.com/client-support/centos-linux-support/
+    Coverage: URL is unknown to Google
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+03. [HIGH] https://schooloffreelancing.com/client-support/claude-platform-support/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+04. [HIGH] https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+05. [HIGH] https://schooloffreelancing.com/client-support/docker-job-support/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+06. [HIGH] https://schooloffreelancing.com/client-support/fusionpbx-voip-setup/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+07. [HIGH] https://schooloffreelancing.com/client-support/github-installation-support/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+08. [HIGH] https://schooloffreelancing.com/client-support/gitlab-installation-support/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+09. [HIGH] https://schooloffreelancing.com/client-support/goautodial-voip-setup/
+    Coverage: URL is unknown to Google
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+10. [HIGH] https://schooloffreelancing.com/client-support/hermes-agent-setup/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+11. [HIGH] https://schooloffreelancing.com/client-support/hummingbot-installation-support/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+12. [HIGH] https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+13. [HIGH] https://schooloffreelancing.com/client-support/linux-server-support/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+14. [HIGH] https://schooloffreelancing.com/client-support/localai-setup-support/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+15. [HIGH] https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+16. [HIGH] https://schooloffreelancing.com/client-support/openai-platform-support/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+17. [HIGH] https://schooloffreelancing.com/client-support/openclaw-setup-support/
+    Coverage: URL is unknown to Google
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+18. [HIGH] https://schooloffreelancing.com/client-support/telnyx-sms-setup/
+    Coverage: URL is unknown to Google
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+19. [HIGH] https://schooloffreelancing.com/client-support/telnyx-voip-setup/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+20. [HIGH] https://schooloffreelancing.com/client-support/twilio-sms-setup/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+21. [HIGH] https://schooloffreelancing.com/client-support/twilio-voip-setup/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+22. [HIGH] https://schooloffreelancing.com/client-support/ubuntu-linux-support/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+23. [HIGH] https://schooloffreelancing.com/client-support/voice-ai-agent-setup/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+24. [HIGH] https://schooloffreelancing.com/client-support/zeroclaw-setup-support/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+25. [HIGH] https://schooloffreelancing.com/freelancing-training/github-training/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+26. [HIGH] https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+27. [HIGH] https://schooloffreelancing.com/legal/refund-policy/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+28. [HIGH] https://schooloffreelancing.com/locations/en-be/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+29. [HIGH] https://schooloffreelancing.com/locations/en-dk/
+    Coverage: Discovered - currently not indexed
+    Referring: https://schooloffreelancing.com/sitemap.xml;https://schooloffreelancing.com/locations/
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+30. [HIGH] https://schooloffreelancing.com/register/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
+31. [HIGH] https://schooloffreelancing.com/resource-center/
+    Coverage: Discovered - currently not indexed
+    Action: Inspect URL in GSC and use Request Indexing if appropriate
+
