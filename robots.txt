@@ -115,3 +115,5 @@ Allow: /
 
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 
+# Block spam/junk cdn-cgi content URLs from being crawled (see audit)
+Disallow: /cdn-cgi/content

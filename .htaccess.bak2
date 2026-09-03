@@ -74,9 +74,6 @@ ErrorDocument 500 /500.html
 # ==============================================================================
 # 4. ROBOTS, CRAWLER & VARNISH CACHE CONTROL HEADERS
 # ==============================================================================
-# Flag error pages so they get noindex instead of the site-wide index,follow
-SetEnvIf Request_URI "^/(404|500)\.html$" NOINDEX_PAGE=1
-
 # Turn off mod_expires for HTML/XML so it stops appending max-age=300
 <IfModule mod_expires.c>
     ExpiresActive On
@@ -84,6 +81,9 @@ SetEnvIf Request_URI "^/(404|500)\.html$" NOINDEX_PAGE=1
     ExpiresByType application/xml "access plus 0 seconds"
     ExpiresByType text/xml "access plus 0 seconds"
 </IfModule>
+
+# Flag error pages so they get noindex instead of the site-wide index,follow
+SetEnvIf Request_URI "^/(404|500)\.html$" NOINDEX_PAGE=1
 
 <IfModule mod_headers.c>
     Header set X-Robots-Tag "index, follow" env=!NOINDEX_PAGE
