@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training & Client Support for Swedes | SOF"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Boost your freelancing career with comprehensive training and client support specifically for Swedes. Start your journey to success today!"
 ---
 

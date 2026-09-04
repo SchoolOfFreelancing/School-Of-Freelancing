@@ -1,7 +1,7 @@
 ---
 title: "Odysseus — Self-hosted AI workspace setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware."
 ---
 

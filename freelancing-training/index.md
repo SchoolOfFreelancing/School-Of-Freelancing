@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!"
 ---
 

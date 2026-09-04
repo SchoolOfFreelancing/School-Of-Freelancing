@@ -1,7 +1,7 @@
 ---
 title: "Linux Freelancing Training — Watch Page"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Start Your Career as a Linux Freelancer! Watch the official promotional video for the School Of Freelancing Linux Freelancing Training."
 ---
 

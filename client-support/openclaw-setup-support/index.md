@@ -1,15 +1,15 @@
 ---
-title: "OpenClaw — Self-Hosted AI Setup | Hire Support"
+title: "OpenClaw Setup Support | Self-Hosted AI Infrastructure"
 author: "Karim (Masum)"
-date: 2026-09-04
-description: "Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps."
+date: 2026-09-05
+description: "Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support."
 ---
 
-# OpenClaw — Self-Hosted AI Setup | Hire Support
+# OpenClaw Setup Support | Self-Hosted AI Infrastructure
 
 ## Support Overview
 
-Deploy an OpenClaw self-hosted AI assistant in a production setup to run autonomous workflows and execute real computer tasks through the chat apps you already use.
+Deploy an OpenClaw self-hosted AI assistant in a production environment to execute real computer tasks and run autonomous workflows across messaging platforms like Telegram, Discord, and WhatsApp. Want to manage and build autonomous agents on your own? Check out our hands-on [OpenClaw Hands-on Training](/freelancing-training/openclaw-hands-on-training/) or explore our [ZeroClaw Setup Support](/client-support/zeroclaw-setup-support/) .
 
 ## Key Takeaways
 
@@ -21,6 +21,13 @@ Deploy an OpenClaw self-hosted AI assistant in a production setup to run autonom
 | Covers: | OpenClaw self-hosted AI full deployment, autonomous workflow configuration, and real computer task automation via chat apps. |
 | Best for: | Individuals, teams, and businesses requiring production OpenClaw setup or ongoing self-hosted AI automation support without a full-time hire. |
 | What you provide: | Team access to your hardware/server and chat app credentials, along with any existing workflow files ready for production deployment. |
+
+## Scope of Deliverables
+
+- **OpenClaw Installation & Runtime Config:** Full setup of OpenClaw agent environment on bare-metal servers, VPS, or local Linux workstations.
+- **Chat Application Integrations:** Secure connections to Telegram, WhatsApp, Discord, or custom webhooks for remote command execution.
+- **Task Automation & Tools Setup:** Configuring computer interaction drivers, local file systems access, bash tool bindings, and web browsing automation.
+- **Security & Privilege Hardening:** Implementing strict command permission boundaries, sandboxing execution environments, and SSL/TLS API encryption.
 
 ## Frequently Asked Questions
 

@@ -1,7 +1,7 @@
 ---
 title: "Claude Platform — Support | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Hire Claude Platform Support for API setup, integrations, agents, troubleshooting, and production deployment."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "Call Center: Setup Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Learn enterprise call center infrastructure deployment, predictive dialers, IVR routing, SIP trunking, and CRM integration, then build a profitable freelance business."
 ---
 

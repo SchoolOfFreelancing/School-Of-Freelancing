@@ -1,8 +1,8 @@
 ---
 title: "Voice AI Agent — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-04
-description: "Hire Vapi Voice AI Agent setup support for configuration, integrations, deployment, troubleshooting, and optimization."
+date: 2026-09-05
+description: "Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration, and deployment."
 ---
 
 # Voice AI Agent — Setup | Hire Support

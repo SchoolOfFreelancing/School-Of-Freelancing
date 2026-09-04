@@ -1,7 +1,7 @@
 ---
 title: "Sitemap | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Browse the full sitemap of School of Freelancing — training pages, client support services, and resources."
 ---
 

@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Tasks with Python & Cron"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron."
 ---
 

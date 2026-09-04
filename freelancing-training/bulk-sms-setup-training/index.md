@@ -1,11 +1,11 @@
 ---
-title: "Bulk SMS - Freelancing Training"
+title: "Bulk SMS - Setup Training"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients."
 ---
 
-# Bulk SMS - Freelancing Training
+# Bulk SMS - Setup Training
 
 ## Overview
 

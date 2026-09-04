@@ -3,8 +3,8 @@
 > Bangladesh-based Linux and AI freelancing training platform teaching production-ready, hands-on skills for real freelance clients.
 
 ## Main Pages
-- [Freelancing Training — Tech Support | 5.0★ Rated](https://schooloffreelancing.com/): School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
-- [Linux, AI Freelancing Training & Client Services | SOF Site Map Page 1 - created with PRO Sitemap Service - pro-sitemaps.com](https://schooloffreelancing.com/sitemap.html): No description available.
+- [Freelancing Training — Tech Support | 5.0★ Rated](https://schooloffreelancing.com/): School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
+- [Linux, AI Freelancing Training & Client Services | SOF Site Map Page 1 - created with PRO Sitemap Service - pro-sitemaps.com](https://schooloffreelancing.com/sitemap.html): Learn about Sitemap from School Of Freelancing. Explore training, technical support, and freelancing resources.
 - [Page Not Found | School of Freelancing](https://schooloffreelancing.com/404.html): The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources…
 
 ## About Us
@@ -14,33 +14,33 @@
 - [#1 Remote Tech Support | School Of Freelancing](https://schooloffreelancing.com/client-support/): Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
 - [CentOS Linux — Support | Hire Support](https://schooloffreelancing.com/client-support/centos-linux-support/): Hire CentOS Linux Support for server setup, troubleshooting, security, optimization, and system administration.
 - [Claude Platform — Support | Hire Support](https://schooloffreelancing.com/client-support/claude-platform-support/): Hire Claude Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
-- [DigitalOcean — AI-Native Cloud | Hire Support](https://schooloffreelancing.com/client-support/digitalocean-cloud-support/): Hire DigitalOcean cloud support for Linux, security, deployment, troubleshooting, and optimization.
+- [DigitalOcean — AI-Native Cloud | Hire Support](https://schooloffreelancing.com/client-support/digitalocean-cloud-support/): Hire DigitalOcean cloud experts for Linux, security, deployment, troubleshooting, and optimization—on demand.
 - [Docker — Job Support | Hire Support](https://schooloffreelancing.com/client-support/docker-job-support/): Hire Docker Job Support for deployment, troubleshooting, Docker Compose, containers, networking, and CI/CD.
 - [FusionPBX VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/fusionpbx-voip-setup/): Hire FusionPBX VoIP Setup support for SIP, call routing, extensions, IVR, and call center integration.
-- [GOAutoDial — VoIP Full Setup & Test | Hire Support](https://schooloffreelancing.com/client-support/goautodial-voip-setup/): Hire GOAutoDial VoIP Setup support for SIP, dialers, call routing, IVR, and call center integration.
+- [GOAutoDial VoIP Setup & Configuration | Hire Support](https://schooloffreelancing.com/client-support/goautodial-voip-setup/): Hire GOAutoDial VoIP Setup support for SIP trunks, predictive dialers, call routing, IVRs, and call center integrations.
 - [GitHub — Installation | Hire Support](https://schooloffreelancing.com/client-support/github-installation-support/): Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management.
-- [GitLab Installation — Self-Managed Setup | Hire Support](https://schooloffreelancing.com/client-support/gitlab-installation-support/): GitLab Self-Managed setup support for teams to plan, code, secure, test, deploy & monitor apps from one UI.
+- [GitLab — Installation | Hire Support](https://schooloffreelancing.com/client-support/gitlab-installation-support/): Hire GitLab Installation Support for secure setup, configuration, troubleshooting, and repository management.
 - [Hermes Agent — Setup | Hire Support](https://schooloffreelancing.com/client-support/hermes-agent-setup/): Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control.
 - [Hummingbot — Installation | Hire Support](https://schooloffreelancing.com/client-support/hummingbot-installation-support/): Hire Hummingbot Installation Support for Linux server configuration, API exchange integrations, strategy deployment, troubleshooting, and op…
 - [Jasmin SMS Gateway — Setup | Hire Support](https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/): Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration.
-- [Linux Server — Support | Hire Expert](https://schooloffreelancing.com/client-support/linux-server-support/): Hire Linux Server Support experts for setup, security, troubleshooting, optimization, and deployment.
+- [Linux Server Support | Hire Expert SysAdmin](https://schooloffreelancing.com/client-support/linux-server-support/): Hire expert Linux server support for setup, security hardening, migration, deployment, troubleshooting, and optimization.
 - [LocalAI — Self-Hosted LLM Setup | Hire Support](https://schooloffreelancing.com/client-support/localai-setup-support/): Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware.
 - [Odysseus — Self-hosted AI workspace setup | Hire Support](https://schooloffreelancing.com/client-support/odysseus-ai-setup/): Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
 - [OpenAI Platform — Support | Hire Support](https://schooloffreelancing.com/client-support/openai-platform-support/): Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
-- [OpenClaw — Self-Hosted AI Setup | Hire Support](https://schooloffreelancing.com/client-support/openclaw-setup-support/): Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps.
-- [Telnyx SMS — Setup | Hire Support](https://schooloffreelancing.com/client-support/telnyx-sms-setup/): Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
+- [OpenClaw Setup Support | Self-Hosted AI Infrastructure](https://schooloffreelancing.com/client-support/openclaw-setup-support/): Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical sup…
+- [Telnyx SMS Setup Support | Business Messaging Integration](https://schooloffreelancing.com/client-support/telnyx-sms-setup/): Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical…
 - [Telnyx — VoIP Setup | Hire Support](https://schooloffreelancing.com/client-support/telnyx-voip-setup/): Telnyx VoIP installation support for SIP trunking, private IP routing, and global call center integrations.
 - [Twilio SMS — Setup | Hire Support](https://schooloffreelancing.com/client-support/twilio-sms-setup/): Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
 - [Twilio VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/twilio-voip-setup/): Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 - [Ubuntu Linux — Support | Hire Support](https://schooloffreelancing.com/client-support/ubuntu-linux-support/): Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration.
-- [Voice AI Agent — Setup | Hire Support](https://schooloffreelancing.com/client-support/voice-ai-agent-setup/): Hire Vapi Voice AI Agent setup support for configuration, integrations, deployment, troubleshooting, and optimization.
-- [ZeroClaw — Self-hosted AI agent Setup | Hire Support](https://schooloffreelancing.com/client-support/zeroclaw-setup-support/): Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration.
+- [Voice AI Agent — Setup | Hire Support](https://schooloffreelancing.com/client-support/voice-ai-agent-setup/): Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration, and deployment.
+- [ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup](https://schooloffreelancing.com/client-support/zeroclaw-setup-support/): Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration.
 
 ## Contact Us
 - [Contact Us — School of Freelancing](https://schooloffreelancing.com/contact-us/): Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
 
 ## Freelancing Training
-- [Bulk SMS - Freelancing Training](https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/): Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
+- [Bulk SMS - Setup Training](https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/): Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
 - [Call Center: Setup Freelancing Training](https://schooloffreelancing.com/freelancing-training/call-center-setup-training/): Learn enterprise call center infrastructure deployment, predictive dialers, IVR routing, SIP trunking, and CRM integration, then build a pro…
 - [CentOS Linux - Freelancing Training](https://schooloffreelancing.com/freelancing-training/centos-linux-training/): Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients.
 - [Claude AI - Freelancing Training](https://schooloffreelancing.com/freelancing-training/claude-training/): Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace fr…
@@ -53,7 +53,7 @@
 - [GitLab Freelancing Training | Setup, CI/CD & Jobs](https://schooloffreelancing.com/freelancing-training/gitlab-training/): Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 - [Hermes Agent: Freelancing Training](https://schooloffreelancing.com/freelancing-training/hermes-agent-training/): Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators…
 - [Jasmin SMS Gateway - Freelancing Training](https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/): Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients.
-- [Linux Freelancing Training | School of Freelancing](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/): 180-hour, 6-month hands-on Linux Systems Administration training. Earn a guaranteed minimum income on Upwork, Guru, and Freelancer. $600.
+- [Linux Freelancing Training | School of Freelancing](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/): Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
 - [LocalAI Freelancing Training | Deployment & AI Jobs](https://schooloffreelancing.com/freelancing-training/local-ai-training/): Learn how to deploy LocalAI production to run AI models directly on your own device or local server instead of a remote cloud.
 - [Odysseus AI: Freelancing Training](https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/): Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelan…
 - [OpenAI Freelancing Training | API & AI Projects](https://schooloffreelancing.com/freelancing-training/openai-training/): Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance client…
@@ -75,9 +75,8 @@
 - [Freelancing Training & Client Support for Australian | SOF](https://schooloffreelancing.com/locations/en-au/): Boost your freelancing career with comprehensive training and client support specifically for Australians. Start your journey to success tod…
 - [Freelancing Training & Client Support for Austrians | SOF](https://schooloffreelancing.com/locations/en-at/): Boost your freelancing career with comprehensive training and client support specifically for Austrians. Start your journey to success today…
 - [Freelancing Training & Client Support for Bangladeshi | SOF](https://schooloffreelancing.com/locations/en-bd/): Freelancing training & client support for Bangladeshi freelancers by School of Freelancing. Learn in-demand skills and land global clients.
-- [Freelancing Training & Client Support for Belgian | SOF](https://schooloffreelancing.com/locations/en-be/): Boost your freelancing career with comprehensive training and client support specifically for Belgians. Start your journey to success today!
 - [Freelancing Training & Client Support for Canadian | SOF](https://schooloffreelancing.com/locations/en-ca/): Boost your freelancing career with comprehensive training and client support specifically for Canadians. Start your journey to success today…
-- [Freelancing Training & Client Support for Danes | SOF](https://schooloffreelancing.com/locations/en-dk/): Boost your freelancing career with comprehensive training and client support specifically for Danes. Start your journey to success today!
+- [Freelancing Training & Client Support for Danes | SOF](https://schooloffreelancing.com/locations/en-dk/): Boost your freelancing career with comprehensive Linux, DevOps, VoIP, and AI training and remote client support specifically tailored for pr…
 - [Freelancing Training & Client Support for Finns | SOF](https://schooloffreelancing.com/locations/en-fi/): Boost your freelancing career with comprehensive training and client support specifically for Finns. Start your journey to success today!
 - [Freelancing Training & Client Support for Germans | SOF](https://schooloffreelancing.com/locations/en-de/): Boost your freelancing career with comprehensive training and client support specifically for Germans. Start your journey to success today!
 - [Freelancing Training & Client Support for Icelanders | SOF](https://schooloffreelancing.com/locations/en-is/): Boost your freelancing career with comprehensive training and client support specifically for Icelanders. Start your journey to success toda…
@@ -91,6 +90,7 @@
 - [Freelancing Training & Client Support for the Dutch | SOF](https://schooloffreelancing.com/locations/en-nl/): Boost your freelancing career with comprehensive training and client support specifically for the Dutch. Start your journey to success today…
 - [Freelancing Training & Client Support for the Irish | SOF](https://schooloffreelancing.com/locations/en-ie/): Boost your freelancing career with comprehensive training and client support specifically for the Irish. Start your journey to success today…
 - [Freelancing Training & Client Support for the Swiss | SOF](https://schooloffreelancing.com/locations/en-ch/): Boost your freelancing career with comprehensive training and client support specifically for the Swiss. Start your journey to success today…
+- [Freelancing Training & Client Support in Belgium | SOF](https://schooloffreelancing.com/locations/en-be/): Boost your freelancing career with live Linux, VoIP, DevOps, and AI training or request remote enterprise IT support tailored for profession…
 - [Global Linux & AI Training & Support | Locations](https://schooloffreelancing.com/locations/): Global Linux and AI training & support for freelancers, businesses, and professionals worldwide.
 
 ## Resource Center

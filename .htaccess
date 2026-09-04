@@ -20,26 +20,33 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     # ==============================================================================
     # 1. FIX CANONICAL & DUPLICATE URL ISSUES
     # ==============================================================================
-    # NOTE: HTTPS forcing and www removal are handled at the Cloudflare edge.
-    #       - Always Use HTTPS (SSL/TLS → Edge Certificates) handles HTTP → HTTPS
-    #       - A Redirect Rule (Rules → Redirect Rules) handles www → non-www
-    #       This keeps the origin clean and avoids redirect loops.
+    # HTTPS forcing and www removal are handled at the Cloudflare edge.
+    #
+    # Cloudflare:
+    #   - Always Use HTTPS handles HTTP → HTTPS
+    #   - Redirect Rule handles www → non-www
+    #
+    # This keeps the Apache origin free from conflicting canonical redirects.
 
-    # Redirect external requests for /index.html directly to directory root
-    # Relative substitution (no leading /) so it works in subdirectories too
+    # ------------------------------------------------------------------------------
+    # Redirect explicit /index.html requests to the directory root
+    # ------------------------------------------------------------------------------
     RewriteCond %{ENV:REDIRECT_STATUS} ^$
-    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.html\ HTTP/ [NC]
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.html(?:[?\s]) [NC]
     RewriteRule ^(.*)index\.html$ $1 [R=301,L]
 
-    # Remove trailing slashes from non-directory requests
-    # Relative substitution for subdirectory compatibility
+    # ------------------------------------------------------------------------------
+    # Remove trailing slash from non-directory requests
+    # ------------------------------------------------------------------------------
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [R=301,L]
 
-    # Direct 301 redirect if someone explicitly requests .html extensions (excluding index.html)
-    # Relative substitution (no leading /) for subdirectory compatibility
-    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*([^/]+)\.html\ HTTP/ [NC]
+    # ------------------------------------------------------------------------------
+    # Remove explicit .html extension
+    # Excludes index.html because it is handled separately above.
+    # ------------------------------------------------------------------------------
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*([^/]+)\.html(?:[?\s]) [NC]
     RewriteCond %2 !^index$ [NC]
     RewriteRule ^(.*)\.html$ $1 [R=301,L]
 
@@ -47,20 +54,29 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     # 2. ROUTING & SLUG HANDLING
     # ==============================================================================
 
-    # Serve existing files & directories directly
+    # ------------------------------------------------------------------------------
+    # Serve existing files and directories directly
+    # ------------------------------------------------------------------------------
     RewriteCond %{REQUEST_FILENAME} -f [OR]
     RewriteCond %{REQUEST_FILENAME} -d
     RewriteRule ^ - [L]
 
-    # Extensionless HTML slug routing (e.g. /about maps to about.html)
+    # ------------------------------------------------------------------------------
+    # Extensionless HTML slug routing
+    # Example:
+    #   /about → /about.html
+    # ------------------------------------------------------------------------------
     RewriteCond %{REQUEST_FILENAME}.html -f
     RewriteRule ^([^/]+)/?$ $1.html [L]
 
-    # Fallback to index.html for Single Page Applications / Unmapped paths
+    # ------------------------------------------------------------------------------
+    # Fallback to index.html for unmapped paths / SPA routes
+    # ------------------------------------------------------------------------------
     RewriteCond %{ENV:REDIRECT_STATUS} ^$
     RewriteCond %{REQUEST_FILENAME} !-f
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteRule ^ index.html [L]
+
 </IfModule>
 
 # ==============================================================================
@@ -71,19 +87,31 @@ ErrorDocument 403 /404.html
 ErrorDocument 500 /500.html
 
 # ==============================================================================
-# 4. ROBOTS & CRAWLER HEADERS
+# 4. ROBOTS & SECURITY HEADERS
 # ==============================================================================
 <IfModule mod_headers.c>
+
+    # Tell search engines that normal HTML pages are indexable.
     <FilesMatch "\.(html|htm)$">
         Header set X-Robots-Tag "index, follow"
     </FilesMatch>
+
+    # Prevent MIME-type sniffing.
     Header set X-Content-Type-Options "nosniff"
+
 </IfModule>
 
 # ==============================================================================
 # 5. GZIP COMPRESSION
 # ==============================================================================
 <IfModule mod_deflate.c>
-    AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
-</IfModule>
 
+    AddOutputFilterByType DEFLATE text/html
+    AddOutputFilterByType DEFLATE text/plain
+    AddOutputFilterByType DEFLATE text/xml
+    AddOutputFilterByType DEFLATE text/css
+    AddOutputFilterByType DEFLATE application/javascript
+    AddOutputFilterByType DEFLATE application/json
+    AddOutputFilterByType DEFLATE image/svg+xml
+
+</IfModule>

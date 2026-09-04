@@ -1,7 +1,7 @@
 ---
 title: "OpenAI Freelancing Training | API & AI Projects"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients."
 ---
 

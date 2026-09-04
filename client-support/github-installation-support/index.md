@@ -1,7 +1,7 @@
 ---
 title: "GitHub — Installation | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management."
 ---
 
@@ -9,7 +9,7 @@ description: "Hire GitHub Installation Support for secure setup, configuration, 
 
 ## Support Overview
 
-Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management.
+Hire GitHub Installation Support for end-to-end setup, GitHub Enterprise Server configuration, self-hosted GitHub Actions runner deployment, repository security rules, and team access troubleshooting. Part of our broader [Linux & DevOps Client Support](/client-support/) suite.
 
 ## Key Takeaways
 
@@ -18,9 +18,16 @@ Hire GitHub Installation Support for secure setup, configuration, troubleshootin
 | Turnaround: | 2 Business Days (Fully Tested). |
 | Price | $319 (One-Time Fixed Investment). |
 | Format: | Live Remote Support, Worldwide. |
-| Covers: | GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management. |
-| Best for: | Individuals, teams, and businesses requiring secure GitHub setup or ongoing repository management support without a full-time hire. |
-| What you provide: | Team access to your GitHub account/organization, along with any existing repositories ready for configuration. |
+| Covers: | GitHub Enterprise installation, self-hosted Actions runners, SSH/GPG keys, branch protection policies, and SSO/SAML integration. |
+| Best for: | Teams, startups, and engineering managers needing production-grade GitHub infrastructure setup without full-time admin overhead. |
+| What you provide: | Organization admin rights or server access (for self-hosted runners/Enterprise installations). |
+
+## Scope of Deliverables
+
+- **GitHub Enterprise Server Setup:** Deployment on AWS, GCP, Azure, or bare-metal Linux servers.
+- **Self-Hosted Actions Runners:** Secure installation and automated runner scaling for CI/CD pipelines.
+- **Security & Governance:** Branch protection rules, secret scanning, code owners setup, and 2FA policies.
+- **Migration Services:** Seamless migration from local Git, Bitbucket, or [GitLab instances](/client-support/gitlab-installation-support/) .
 
 ## Frequently Asked Questions
 

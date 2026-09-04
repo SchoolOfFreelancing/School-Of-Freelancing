@@ -1,8 +1,8 @@
 ---
 title: "Freelancing Training — Tech Support | 5.0★ Rated"
 author: "Karim (Masum)"
-date: 2026-09-04
-description: "School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses."
+date: 2026-09-05
+description: "School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses."
 ---
 
 # Freelancing Training — Tech Support | 5.0★ Rated
@@ -66,7 +66,7 @@ One of the best institutes for freelancers in Bangladesh, even the world. The in
 was very knowledgeable and helpful, explaining complicated ideas in a way that was
 simple to understand.
 
-School of Freelancing is the best place for Linux freelancing. I learned and earned my
+School Of Freelancing is the best place for Linux freelancing. I learned and earned my
 first income working with this school. Highly recommended.
 
 ## What Support Do We Provide?
@@ -115,12 +115,12 @@ webhooks, function call configs.
 
 ## Frequently Asked Questions
 
-### What is School of Freelancing and what do you do?
+### What is School Of Freelancing and what do you do?
 
-School of Freelancing provides Linux and AI-related instructor-led training for
+School Of Freelancing provides Linux and AI-related instructor-led training for
 freelancers, and reliable technical client support for businesses.
 
-### What technologies does School of Freelancing teach and support?
+### What technologies does School Of Freelancing teach and support?
 
 We teach and support Linux system administration, cloud infrastructure, AI agent
 deployment, VoIP, and bulk SMS API integration, all using free and open-source software
@@ -131,3 +131,5 @@ deployment, VoIP, and bulk SMS API integration, all using free and open-source s
 Our Guaranteed Minimum Income (GMI)* applies under two conditions: maintain zero-leave
 attendance throughout the training, and purchase sufficient bids/connects on freelance
 marketplaces to search, apply, and get hired for jobs.
+
+Related page: [Sitemap](https://schooloffreelancing.com/sitemap/) .

@@ -1,7 +1,7 @@
 ---
 title: "Terms and Conditions — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."
 ---
 

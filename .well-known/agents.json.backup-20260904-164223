@@ -59,6 +59,22 @@
           "description": "Web-based MCP configuration",
           "contentType": "application/json"
         },
+        "oauth": {
+          "uri": "https://schooloffreelancing.com/.well-known/openid-configuration.json",
+          "methods": [
+            "GET"
+          ],
+          "description": "OAuth 2.0 / OpenID Connect discovery endpoint",
+          "contentType": "application/json"
+        },
+        "oauth-server": {
+          "uri": "https://schooloffreelancing.com/.well-known/oauth-authorization-server.json",
+          "methods": [
+            "GET"
+          ],
+          "description": "OAuth 2.0 authorization server metadata",
+          "contentType": "application/json"
+        },
         "llms": {
           "uri": "https://schooloffreelancing.com/llms.txt",
           "methods": [

@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance."
 ---
 

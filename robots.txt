@@ -1,10 +1,18 @@
-User-agent: *
-Content-Signal: ai-train=yes, search=yes, ai-input=yes
+User-Agent: googlebot
+Content-Signal: ai-train=no, search=yes, ai-input=no
 Allow: /
+
+User-Agent: bingbot
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+
+User-Agent: OAI-Searchbot
+Content-Signal: ai-train=no, search=yes, ai-input=no
+Allow: /
+
 Disallow: /cgi-bin/
 Disallow: /scripts/
 Disallow: /tmp/
 Disallow: /404.html
 
 Sitemap: https://schooloffreelancing.com/sitemap.xml
-

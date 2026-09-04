@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training & Client Support for Bangladeshi | SOF"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Freelancing training & client support for Bangladeshi freelancers by School of Freelancing. Learn in-demand skills and land global clients."
 ---
 

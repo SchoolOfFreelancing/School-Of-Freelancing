@@ -1,7 +1,7 @@
 ---
 title: "Telnyx — VoIP Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-04
+date: 2026-09-05
 description: "Telnyx VoIP installation support for SIP trunking, private IP routing, and global call center integrations."
 ---
 
