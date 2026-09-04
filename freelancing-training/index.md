@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!"
 ---
 
@@ -304,17 +304,3 @@ Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy producti
 - Credential Verification Support
 
 ## Frequently Asked Questions
-
-## Frequently Asked Questions
-
-### What will I learn in Freelancing Training?
-
-Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
-
-### Who is Freelancing Training training for?
-
-It is intended for learners and freelancers who want practical, client-ready technical skills.
-
-### How can I get started with Freelancing Training?
-
-Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

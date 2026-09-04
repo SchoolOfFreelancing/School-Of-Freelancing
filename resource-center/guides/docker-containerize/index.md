@@ -1,7 +1,7 @@
 ---
 title: "How to Containerize a Legacy App with Docker"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."
 ---
 
@@ -131,17 +131,3 @@ sudo certbot certonly --standalone -d yourdomain.com
 - Implement container logging and monitoring
 
 Learn more in our [Docker Training](/freelancing-training/docker-training/) program.
-
-## Frequently Asked Questions
-
-### What is How to Containerize a Legacy Web Application about?
-
-Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
-
-### Who is this How to Containerize a Legacy Web Application resource for?
-
-It is intended for readers who want practical, understandable guidance related to the topic.
-
-### What should I do after reading this How to Containerize a Legacy Web Application resource?
-
-Use the related service, training, or support pages to continue with a practical project or get technical assistance.

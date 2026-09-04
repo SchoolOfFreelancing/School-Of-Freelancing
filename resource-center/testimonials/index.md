@@ -1,7 +1,7 @@
 ---
 title: "What our customers say | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses"
 ---
 
@@ -30,17 +30,3 @@ A place run by my old schoolmate, who is technically sound and has genuinely inn
 ## Learning and earning through freelancing
 
 In this era, freelancing plays a vital role in earning foreign currency. "School Of Freelancing" is one of the best places to learn and to earn.
-
-## Frequently Asked Questions
-
-### What is What our customers say about?
-
-School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
-
-### Who is this What our customers say resource for?
-
-It is intended for readers who want practical, understandable guidance related to the topic.
-
-### What should I do after reading this What our customers say resource?
-
-Use the related service, training, or support pages to continue with a practical project or get technical assistance.

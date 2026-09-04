@@ -1,7 +1,7 @@
 ---
 title: "OpenClaw — Self-Hosted AI Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps."
 ---
 
@@ -27,17 +27,3 @@ Deploy an OpenClaw self-hosted AI assistant in a production setup to run autonom
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.
-
-## Frequently Asked Questions
-
-### What does OpenClaw — Self-Hosted AI Setup support include?
-
-Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps.
-
-### Who should hire OpenClaw — Self-Hosted AI Setup support?
-
-Businesses, developers, freelancers, startups, and teams that need practical technical assistance can use remote support.
-
-### How can I get OpenClaw — Self-Hosted AI Setup support?
-
-Contact School of Freelancing with your project requirements, current configuration, and the problem you need solved.

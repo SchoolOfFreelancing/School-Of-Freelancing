@@ -16,38 +16,32 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
 
 <IfModule mod_rewrite.c>
     RewriteEngine On
-    RewriteBase /
 
     # ==============================================================================
     # 1. FIX CANONICAL & DUPLICATE URL ISSUES
     # ==============================================================================
+    # NOTE: HTTPS forcing and www removal are handled at the Cloudflare edge.
+    #       - Always Use HTTPS (SSL/TLS → Edge Certificates) handles HTTP → HTTPS
+    #       - A Redirect Rule (Rules → Redirect Rules) handles www → non-www
+    #       This keeps the origin clean and avoids redirect loops.
 
-    # Force HTTPS on Live Server (Cloudflare/CWP) while EXCLUDING localhost
-    RewriteCond %{HTTP_HOST} !^localhost [NC]
-    RewriteCond %{HTTP_HOST} !^127\.0\.0\.1 [NC]
-    RewriteCond %{HTTP:X-Forwarded-Proto} !https
-    RewriteCond %{HTTPS} off
-    RewriteRule ^(.*)$ https://%{HTTP_HOST}/$1 [R=301,L]
-
-    # Remove www (force non-www)
-    RewriteCond %{HTTP_HOST} ^www\.(.+) [NC]
-    RewriteRule ^(.*)$ https://%1/$1 [R=301,L]
-
-    # Redirect external requests for /index.html directly to root /
-    # Uses %{ENV:REDIRECT_STATUS} ^$ to ensure INTERNAL rewrites are ignored (Prevents 503 Loop)
+    # Redirect external requests for /index.html directly to directory root
+    # Relative substitution (no leading /) so it works in subdirectories too
     RewriteCond %{ENV:REDIRECT_STATUS} ^$
-    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /index\.html\ HTTP/ [NC]
-    RewriteRule ^index\.html$ https://%{HTTP_HOST}/ [R=301,L]
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*index\.html\ HTTP/ [NC]
+    RewriteRule ^(.*)index\.html$ $1 [R=301,L]
 
     # Remove trailing slashes from non-directory requests
+    # Relative substitution for subdirectory compatibility
     RewriteCond %{REQUEST_FILENAME} !-d
     RewriteCond %{REQUEST_URI} (.+)/$
     RewriteRule ^ %1 [R=301,L]
 
     # Direct 301 redirect if someone explicitly requests .html extensions (excluding index.html)
-    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+)\.html\ HTTP/ [NC]
-    RewriteCond %1 !^index$ [NC]
-    RewriteRule ^([^/]+)\.html$ /%1 [R=301,L]
+    # Relative substitution (no leading /) for subdirectory compatibility
+    RewriteCond %{THE_REQUEST} ^[A-Z]{3,9}\ /([^/]+/)*([^/]+)\.html\ HTTP/ [NC]
+    RewriteCond %2 !^index$ [NC]
+    RewriteRule ^(.*)\.html$ $1 [R=301,L]
 
     # ==============================================================================
     # 2. ROUTING & SLUG HANDLING
@@ -62,6 +56,11 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     RewriteCond %{REQUEST_FILENAME}.html -f
     RewriteRule ^([^/]+)/?$ $1.html [L]
 
+    # Fallback to index.html for Single Page Applications / Unmapped paths
+    RewriteCond %{ENV:REDIRECT_STATUS} ^$
+    RewriteCond %{REQUEST_FILENAME} !-f
+    RewriteCond %{REQUEST_FILENAME} !-d
+    RewriteRule ^ index.html [L]
 </IfModule>
 
 # ==============================================================================
@@ -72,43 +71,13 @@ ErrorDocument 403 /404.html
 ErrorDocument 500 /500.html
 
 # ==============================================================================
-# 4. ROBOTS, CRAWLER & VARNISH CACHE CONTROL HEADERS
+# 4. ROBOTS & CRAWLER HEADERS
 # ==============================================================================
-# Flag error pages so they get noindex instead of the site-wide index,follow
-SetEnvIf Request_URI "^/(404|500)\.html$" NOINDEX_PAGE=1
-
-# Turn off mod_expires for HTML/XML so it stops appending max-age=300
-<IfModule mod_expires.c>
-    ExpiresActive On
-    ExpiresByType text/html "access plus 0 seconds"
-    ExpiresByType application/xml "access plus 0 seconds"
-    ExpiresByType text/xml "access plus 0 seconds"
-</IfModule>
-
 <IfModule mod_headers.c>
-    Header set X-Robots-Tag "index, follow" env=!NOINDEX_PAGE
-    Header set X-Robots-Tag "noindex, follow" env=NOINDEX_PAGE
+    <FilesMatch "\.(html|htm)$">
+        Header set X-Robots-Tag "index, follow"
+    </FilesMatch>
     Header set X-Content-Type-Options "nosniff"
-
-    # Forcefully purge and overwrite any upstream Cache-Control headers
-    <FilesMatch "\.(html|xml)$">
-        Header unset Cache-Control
-        Header unset Expires
-        Header unset Pragma
-        Header always unset Cache-Control
-        Header always unset Expires
-        Header always unset Pragma
-        
-        Header always set Cache-Control "no-cache, no-store, must-revalidate, max-age=0"
-        Header always set Pragma "no-cache"
-        Header always set Expires "0"
-        Header always set X-CWP-Cache "Bypass"
-    </FilesMatch>
-
-    # Leverage aggressive caching for static media/assets
-    <FilesMatch "\.(css|js|webp|png|jpg|jpeg|svg|ico|woff2)$">
-        Header set Cache-Control "public, max-age=2592000, immutable"
-    </FilesMatch>
 </IfModule>
 
 # ==============================================================================
@@ -117,3 +86,4 @@ SetEnvIf Request_URI "^/(404|500)\.html$" NOINDEX_PAGE=1
 <IfModule mod_deflate.c>
     AddOutputFilterByType DEFLATE text/html text/plain text/xml text/css application/javascript application/json image/svg+xml
 </IfModule>
+

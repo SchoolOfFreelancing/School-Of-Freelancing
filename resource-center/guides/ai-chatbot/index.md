@@ -1,7 +1,7 @@
 ---
 title: "How to Create Your First AI Chatbot | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production."
 ---
 
@@ -124,17 +124,3 @@ Use Docker to containerize and deploy on your Ubuntu server.
 - **Monitor token usage** to optimize expenses
 
 Learn advanced AI integration in our [Claude AI Training](/freelancing-training/claude-training/) program.
-
-## Frequently Asked Questions
-
-### What is How to Create Your First AI Chatbot about?
-
-Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
-
-### Who is this How to Create Your First AI Chatbot resource for?
-
-It is intended for readers who want practical, understandable guidance related to the topic.
-
-### What should I do after reading this How to Create Your First AI Chatbot resource?
-
-Use the related service, training, or support pages to continue with a practical project or get technical assistance.

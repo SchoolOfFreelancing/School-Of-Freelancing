@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support."
 ---
 
@@ -73,17 +73,3 @@ Actionable client acquisition strategies to win marketplace projects and land di
 | 20 | Client Offboarding, Maintenance & Retainers | Establishing client handover procedures, secure credential sharing, securing 5-star feedback, and closing monthly retainers |  |
 
 ## Secure Your Seat Now
-
-## Frequently Asked Questions
-
-### What will I learn in Ubuntu Linux - Freelancing Training?
-
-Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.
-
-### Who is Ubuntu Linux - Freelancing Training training for?
-
-It is intended for learners and freelancers who want practical, client-ready technical skills.
-
-### How can I get started with Ubuntu Linux - Freelancing Training?
-
-Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

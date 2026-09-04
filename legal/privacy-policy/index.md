@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services."
 ---
 
@@ -71,16 +71,4 @@ We may update this Privacy Policy from time to time. Continued use of the Platfo
 
 ## 14. Contact Us
 
-Questions about this Privacy Policy can be sent to us via our [contact page](/contact-us/) .
-
-## Frequently Asked Questions
-
-## Frequently Asked Questions
-
-### What is the Privacy Policy page about?
-
-Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services.
-
-### Where can I find the applicable policy information?
-
-Read the complete policy on this page and contact School of Freelancing if clarification is required.
+Ask any questions about this privacy policy to our email [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .

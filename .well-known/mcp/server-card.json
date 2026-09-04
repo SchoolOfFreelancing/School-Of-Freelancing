@@ -19,14 +19,6 @@
     "resources": true,
     "prompts": true
   },
-  "authentication": {
-    "required": false,
-    "methods": ["bearer_token", "oauth2"],
-    "oauth": {
-      "authorization_server": "https://schooloffreelancing.com/.well-known/oauth-authorization-server.json",
-      "protected_resource": "https://schooloffreelancing.com/.well-known/oauth-protected-resource"
-    }
-  },
-  "documentation": "https://schooloffreelancing.com/Auth.md",
+  "documentation": "https://schooloffreelancing.com/auth.md",
   "homepage": "https://schooloffreelancing.com/"
 }

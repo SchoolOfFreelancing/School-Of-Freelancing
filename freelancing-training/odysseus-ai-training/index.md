@@ -1,7 +1,7 @@
 ---
 title: "Odysseus AI: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
@@ -72,17 +72,3 @@ Production-grade habits for server hardening, routine maintenance, and workspace
 | 20 | Onboarding, Invoicing & Capstone | Client onboarding workflows, invoicing/withdrawals, testimonial capture & capstone Q&A |
 
 ## Secure Your Seat Now
-
-## Frequently Asked Questions
-
-### What will I learn in Odysseus AI: Freelancing Training?
-
-Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer.
-
-### Who is Odysseus AI: Freelancing Training training for?
-
-It is intended for learners and freelancers who want practical, client-ready technical skills.
-
-### How can I get started with Odysseus AI: Freelancing Training?
-
-Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

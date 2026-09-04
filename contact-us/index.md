@@ -1,7 +1,7 @@
 ---
 title: "Contact Us — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible."
 ---
 
@@ -12,16 +12,6 @@ description: "Contact School of Freelancing via Telegram, WhatsApp, phone & emai
 ## Send a message
 
 ## Find Us on the Map
-
-## Frequently Asked Questions
-
-### How can I contact School of Freelancing?
-
-Use the contact methods published on this page to send your project or training requirements.
-
-### What information should I include in a support request?
-
-Include the technology, project scope, current problem, and relevant error messages or configuration details.
 
 ## How can I get technical support?
 

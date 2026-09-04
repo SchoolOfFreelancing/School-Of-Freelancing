@@ -1,7 +1,7 @@
 ---
 title: "Linux Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "180-hour, 6-month hands-on Linux Systems Administration training. Earn a guaranteed minimum income on Upwork, Guru, and Freelancer. $600."
 ---
 

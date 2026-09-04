@@ -1,7 +1,7 @@
 ---
 title: "ZeroClaw: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it."
 ---
 
@@ -71,17 +71,3 @@ Stronger habits for deploying, troubleshooting, and managing ZeroClaw projects
 | 20 | Onboarding & Capstone | Client onboarding process, invoicing workflows, testimonial capture, capstone Q&A |  |
 
 ## Secure Your Seat Now
-
-## Frequently Asked Questions
-
-### What will I learn in ZeroClaw: Freelancing Training?
-
-A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
-
-### Who is ZeroClaw: Freelancing Training training for?
-
-It is intended for learners and freelancers who want practical, client-ready technical skills.
-
-### How can I get started with ZeroClaw: Freelancing Training?
-
-Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

@@ -1,7 +1,7 @@
 ---
 title: "Training Rules — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training."
 ---
 
@@ -87,16 +87,4 @@ Violations of these rules — including unexcused absence, inappropriate conduct
 
 ## 14. Contact Us
 
-Questions about these Training Rules can be sent to us via our [contact page](/contact-us/) , or reach us directly on WhatsApp at +8801748973769, or by email at office@schooloffreelancing.com.
-
-## Frequently Asked Questions
-
-## Frequently Asked Questions
-
-### What is the Training Rules page about?
-
-Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
-
-### Where can I find the applicable policy information?
-
-Read the complete policy on this page and contact School of Freelancing if clarification is required.
+Ask any questions about training rules, to our email [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .

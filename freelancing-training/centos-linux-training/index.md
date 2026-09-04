@@ -1,7 +1,7 @@
 ---
 title: "CentOS Linux - Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients."
 ---
 
@@ -73,17 +73,3 @@ Actionable marketing and client acquisition strategies to land marketplace proje
 | 20 | Direct Client Outreach Marketing & Retainers | Executing direct B2B outreach (LinkedIn/Cold Email) to tech founders and closing ongoing monthly SysAdmin maintenance retainers |  |
 
 ## Secure Your Seat Now
-
-## Frequently Asked Questions
-
-### What will I learn in CentOS Linux - Freelancing Training?
-
-Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients.
-
-### Who is CentOS Linux - Freelancing Training training for?
-
-It is intended for learners and freelancers who want practical, client-ready technical skills.
-
-### How can I get started with CentOS Linux - Freelancing Training?
-
-Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

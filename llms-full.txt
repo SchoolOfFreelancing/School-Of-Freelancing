@@ -4,10 +4,10 @@
 
 ## Main Pages
 
-### #1 Linux & AI Freelancing Training | 5.0★ Rated
+### Freelancing Training — Tech Support | 5.0★ Rated
 URL: https://schooloffreelancing.com/
 
-School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.
+School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
 
 ### Linux, AI Freelancing Training & Client Services | SOF Site Map Page 1 - created with PRO Sitemap Service - pro-sitemaps.com
 URL: https://schooloffreelancing.com/sitemap.html
@@ -17,22 +17,12 @@ URL: https://schooloffreelancing.com/404.html
 
 The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources on School of Freelancing.
 
-### School Of Freelancing — WebMCP Enabled
-URL: https://schooloffreelancing.com/mcp.html
-
-Learn freelancing skills. This site exposes WebMCP tools for AI agents.
-
-### School Of Freelancing — WebMCP Enabled
-URL: https://schooloffreelancing.com/webmcp.html
-
-Learn freelancing skills. This site exposes WebMCP tools for AI agents.
-
 ## About Us
 
-### About Us | School Of Freelancing
+### About Us — School Of Freelancing
 URL: https://schooloffreelancing.com/about-us/
 
-Founded in 2015 by Karim (Masum), School of Freelancing trains beginners into professional Linux freelancers and offers Linux support to businesses.
+School of Freelancing turns beginners into freelancers and solves businesses' technical challenges.
 
 ## Client Support
 
@@ -158,10 +148,10 @@ Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow a
 
 ## Contact Us
 
-### Contact Us | School of Freelancing
+### Contact Us — School of Freelancing
 URL: https://schooloffreelancing.com/contact-us/
 
-Get in touch with School of Freelancing via Telegram, WhatsApp, phone, or email. We reply to enrollment, training, and Linux support inquiries within 24 hours.
+Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
 
 ## Freelancing Training
 
@@ -190,10 +180,15 @@ URL: https://schooloffreelancing.com/freelancing-training/debian-linux-training/
 
 Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 
-### Docker Freelancing Training
+### Docker Freelancing Training | Learn & Get Support
 URL: https://schooloffreelancing.com/freelancing-training/docker-training/
 
 Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.
+
+### Freelancing Training — School Of Freelancing
+URL: https://schooloffreelancing.com/freelancing-training/
+
+Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
 
 ### FusionPBX: Freelancing Training
 URL: https://schooloffreelancing.com/freelancing-training/fusionpbx-training/
@@ -205,20 +200,15 @@ URL: https://schooloffreelancing.com/freelancing-training/goautodial-training/
 
 Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICIdial integration, and carrier trunking, then build a profitable freelance service.
 
-### GitHub Freelancing Training
+### GitHub Freelancing Training | Setup, CI/CD & Jobs
 URL: https://schooloffreelancing.com/freelancing-training/github-training/
 
 Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 
-### GitLab: Freelancing Training
+### GitLab Freelancing Training | Setup, CI/CD & Jobs
 URL: https://schooloffreelancing.com/freelancing-training/gitlab-training/
 
 Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
-
-### Hands-on Freelancing Training | School Of Freelancing
-URL: https://schooloffreelancing.com/freelancing-training/
-
-Hands-on live freelancing training at School of Freelancing. Learn Linux, VoIP, AI & cloud tech, build real projects, and land top global clients today!
 
 ### Hermes Agent: Freelancing Training
 URL: https://schooloffreelancing.com/freelancing-training/hermes-agent-training/
@@ -235,7 +225,7 @@ URL: https://schooloffreelancing.com/freelancing-training/linux-freelancing-trai
 
 180-hour, 6-month hands-on Linux Systems Administration training. Earn a guaranteed minimum income on Upwork, Guru, and Freelancer. $600.
 
-### LocalAI: Freelancing Training
+### LocalAI Freelancing Training | Deployment & AI Jobs
 URL: https://schooloffreelancing.com/freelancing-training/local-ai-training/
 
 Learn how to deploy LocalAI production to run AI models directly on your own device or local server instead of a remote cloud.
@@ -245,7 +235,7 @@ URL: https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/
 
 Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer.
 
-### OpenAI - Freelancing Training
+### OpenAI Freelancing Training | API & AI Projects
 URL: https://schooloffreelancing.com/freelancing-training/openai-training/
 
 Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients.
@@ -277,7 +267,7 @@ A hands-on Freelancing training covering ZeroClaw fundamentals, production deplo
 
 ## Legal
 
-### Credential Verification Support — School of Freelancing
+### Credential Verification Support — School Of Freelancing
 URL: https://schooloffreelancing.com/legal/credential-verification/
 
 Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us.
@@ -292,7 +282,7 @@ URL: https://schooloffreelancing.com/legal/refund-policy/
 
 Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
 
-### Terms and Conditions — School of Freelancing
+### Terms and Conditions — School Of Freelancing
 URL: https://schooloffreelancing.com/legal/terms-and-conditions/
 
 Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
@@ -404,36 +394,24 @@ URL: https://schooloffreelancing.com/locations/en-ch/
 
 Boost your freelancing career with comprehensive training and client support specifically for the Swiss. Start your journey to success today!
 
-### Locations We Serve | School of Freelancing
+### Global Linux & AI Training & Support | Locations
 URL: https://schooloffreelancing.com/locations/
 
-School of Freelancing delivers online Linux freelancing training and remote Linux/IT support worldwide — Australia, Canada, the UK, the US, and across Europe.
-
-## Register
-
-### Register for Training or Support | School of Freelancing
-URL: https://schooloffreelancing.com/register/
-
-Ready to register for Linux freelancing training or IT support? Pick a program, message us on Telegram or WhatsApp, and confirm payment below.
+Global Linux and AI training & support for freelancers, businesses, and professionals worldwide.
 
 ## Resource Center
 
-### Case Studies - Linux & AI Freelancing Services | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/case-studies/
-
-Real case studies from School of Freelancing clients: Docker deployments, AI integrations, VoIP systems, and trading infrastructure that transformed their business operations.
-
-### FAQs — School of Freelancing
+### Frequently Asked Questions and Answers — SOF
 URL: https://schooloffreelancing.com/resource-center/faqs/
 
-Answers to common questions about School of Freelancing's training programs and Linux/IT support services — pricing, GMI, payment, and remote support.
+Answers to common questions about School of Freelancing's training programs and client support services.
 
-### How to Automate Your First Repetitive Task | School of Freelancing
+### How to Automate Tasks with Python & Cron
 URL: https://schooloffreelancing.com/resource-center/guides/automation/
 
 Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
 
-### How to Containerize a Legacy Web Application | School of Freelancing
+### How to Containerize a Legacy App with Docker
 URL: https://schooloffreelancing.com/resource-center/guides/docker-containerize/
 
 Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
@@ -443,7 +421,7 @@ URL: https://schooloffreelancing.com/resource-center/guides/ai-chatbot/
 
 Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
-### How to Deploy a Linux Server from Zero to Production | School of Freelancing
+### How to Deploy a Linux Server to Production
 URL: https://schooloffreelancing.com/resource-center/guides/linux-deployment/
 
 Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.
@@ -453,10 +431,15 @@ URL: https://schooloffreelancing.com/resource-center/guides/voip-setup/
 
 Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
 
-### Intro Video | School of Freelancing
+### Linux & AI Freelancing Case Studies | School of Freelancing
+URL: https://schooloffreelancing.com/resource-center/case-studies/
+
+Real case studies from School of Freelancing clients: Docker deployments, AI integrations, VoIP systems, and trading infrastructure that transformed their business operations.
+
+### Linux Freelancing Training — Watch Page
 URL: https://schooloffreelancing.com/resource-center/intro-video/
 
-Watch the School of Freelancing introduction: hands-on Linux & AI freelancing training and reliable Linux/IT support services, built on real production systems.
+Start Your Career as a Linux Freelancer! Watch the official promotional video for the School Of Freelancing Linux Freelancing Training.
 
 ### Resource Center | School of Freelancing
 URL: https://schooloffreelancing.com/resource-center/
@@ -473,4 +456,4 @@ School of Freelancing offers Linux freelancing training and professional Linux c
 ### Sitemap | School of Freelancing
 URL: https://schooloffreelancing.com/sitemap/
 
-A complete, human-readable list of every page on School of Freelancing — training programs, support services, locations, and legal pages.
+Browse the full sitemap of School of Freelancing — training pages, client support services, and resources.

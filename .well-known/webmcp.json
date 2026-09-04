@@ -9,15 +9,8 @@
       "websocket": "wss://schooloffreelancing.com/api/mcp/ws",
       "http": "https://schooloffreelancing.com/api/mcp/http"
     },
-    "oauth": {
-      "authorize": "https://schooloffreelancing.com/api/oauth/authorize",
-      "token": "https://schooloffreelancing.com/api/oauth/token",
-      "userinfo": "https://schooloffreelancing.com/api/oauth/userinfo",
-      "jwks": "https://schooloffreelancing.com/api/oauth/jwks"
-    },
     "discovery": {
       "mcp": "https://schooloffreelancing.com/.well-known/mcp.json",
-      "openid": "https://schooloffreelancing.com/.well-known/openid-configuration.json",
       "skills": "https://schooloffreelancing.com/.well-known/skills.json"
     }
   },
@@ -37,28 +30,13 @@
       "subscriptions"
     ]
   },
-  "authentication": {
-    "type": "oauth2",
-    "flows": [
-      "authorization_code",
-      "implicit",
-      "client_credentials"
-    ],
-    "scopes": [
-      "openid",
-      "profile",
-      "email",
-      "training:read",
-      "services:read",
-      "resources:read",
-      "agent:access"
-    ]
-  },
   "security": {
     "tls": "required",
     "cors": {
       "enabled": true,
-      "origins": ["https://*"]
+      "origins": [
+        "https://*"
+      ]
     },
     "rateLimiting": {
       "enabled": true,
@@ -81,14 +59,23 @@
             },
             "category": {
               "type": "string",
-              "enum": ["linux", "ai", "crypto", "voip", "cloud", "cicd"]
+              "enum": [
+                "linux",
+                "ai",
+                "crypto",
+                "voip",
+                "cloud",
+                "cicd"
+              ]
             },
             "limit": {
               "type": "integer",
               "default": 10
             }
           },
-          "required": ["query"]
+          "required": [
+            "query"
+          ]
         }
       },
       "getDetails": {
@@ -103,7 +90,9 @@
               "description": "Training program ID"
             }
           },
-          "required": ["programId"]
+          "required": [
+            "programId"
+          ]
         }
       }
     },
@@ -123,7 +112,9 @@
               "default": 10
             }
           },
-          "required": ["query"]
+          "required": [
+            "query"
+          ]
         }
       }
     }

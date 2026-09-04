@@ -92,22 +92,6 @@
       "scopes": []
     },
     {
-      "id": "agent-registration",
-      "name": "Agent Registration",
-      "description": "Register custom agents and integrate with the platform",
-      "category": "integration",
-      "subcategories": [
-        "oauth",
-        "mcp-integration"
-      ],
-      "endpoint": "https://schooloffreelancing.com/api/oauth/register",
-      "authentication": true,
-      "scopes": [
-        "agent:access"
-      ],
-      "documentation": "https://schooloffreelancing.com/Auth.md"
-    },
-    {
       "id": "mcp-integration",
       "name": "Model Context Protocol",
       "description": "Integrate via Model Context Protocol for extended capabilities",

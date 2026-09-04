@@ -1,7 +1,7 @@
 ---
 title: "Odysseus — Self-hosted AI workspace setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware."
 ---
 
@@ -27,17 +27,3 @@ Hire School of Freelancing for expert Odysseus AI Setup, deployment, configurati
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.
-
-## Frequently Asked Questions
-
-### What does Odysseus — Self-hosted AI workspace setup support include?
-
-Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
-
-### Who should hire Odysseus — Self-hosted AI workspace setup support?
-
-Businesses, developers, freelancers, startups, and teams that need practical technical assistance can use remote support.
-
-### How can I get Odysseus — Self-hosted AI workspace setup support?
-
-Contact School of Freelancing with your project requirements, current configuration, and the problem you need solved.

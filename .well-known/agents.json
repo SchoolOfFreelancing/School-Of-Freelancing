@@ -6,7 +6,7 @@
       "name": "School of Freelancing Agent",
       "description": "AI agent for discovering and accessing School of Freelancing training programs, support services, and resources",
       "homepage": "https://schooloffreelancing.com/",
-      "documentation": "https://schooloffreelancing.com/Auth.md",
+      "documentation": "https://schooloffreelancing.com/auth.md",
       "capabilities": [
         "training-discovery",
         "service-discovery",
@@ -21,55 +21,73 @@
         },
         "a2a": {
           "uri": "https://schooloffreelancing.com/api/agents/a2a",
-          "methods": ["POST"],
+          "methods": [
+            "POST"
+          ],
           "description": "Agent-to-agent protocol endpoint",
           "contentType": "application/json"
         },
         "mcp": {
           "uri": "https://schooloffreelancing.com/api/agents/mcp",
-          "methods": ["POST"],
+          "methods": [
+            "POST"
+          ],
           "description": "Model Context Protocol endpoint",
           "contentType": "application/json"
         },
         "skills": {
           "uri": "https://schooloffreelancing.com/.well-known/skills.json",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "Agent skills discovery index",
           "contentType": "application/json"
         },
         "mcp-config": {
           "uri": "https://schooloffreelancing.com/.well-known/mcp.json",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "MCP server configuration and capabilities",
           "contentType": "application/json"
         },
         "webmcp": {
           "uri": "https://schooloffreelancing.com/.well-known/webmcp.json",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "Web-based MCP configuration",
           "contentType": "application/json"
         },
         "oauth": {
           "uri": "https://schooloffreelancing.com/.well-known/openid-configuration.json",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "OAuth 2.0 / OpenID Connect discovery endpoint",
           "contentType": "application/json"
         },
         "oauth-server": {
           "uri": "https://schooloffreelancing.com/.well-known/oauth-authorization-server.json",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "OAuth 2.0 authorization server metadata",
           "contentType": "application/json"
         },
         "llms": {
           "uri": "https://schooloffreelancing.com/llms.txt",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "LLM-friendly site overview",
           "contentType": "text/plain"
         },
         "llms-full": {
           "uri": "https://schooloffreelancing.com/llms-full.txt",
-          "methods": ["GET"],
+          "methods": [
+            "GET"
+          ],
           "description": "Complete LLM site content index",
           "contentType": "text/plain"
         }

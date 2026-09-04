@@ -182,9 +182,10 @@
     text-align: center;
   }
   .payment-methods { display: flex; gap: 15px; flex-wrap: wrap; justify-content: center; margin-top: 25px; }
-  .pay-btn-unified {
-    background-color: white !important;
-    color: #0024ED !important;
+
+  .pay-btn-paypal {
+    background-color: #0070BA !important;
+    color: #FFFFFF !important;
     padding: 14px 28px;
     border-radius: 50px;
     font-weight: bold;
@@ -193,11 +194,30 @@
     align-items: center;
     gap: 10px;
     transition: all 0.2s ease;
-    border: 2px solid white;
+    border: 2px solid #0070BA;
   }
-  .pay-btn-unified:hover {
-    background-color: transparent !important;
-    color: white !important;
+  .pay-btn-paypal:hover {
+    background-color: #005EA6 !important;
+    border-color: #005EA6;
+    transform: translateY(-2px);
+  }
+
+  .pay-btn-usdt {
+    background-color: #26A17B !important;
+    color: #FFFFFF !important;
+    padding: 14px 28px;
+    border-radius: 50px;
+    font-weight: bold;
+    text-decoration: none;
+    display: inline-flex;
+    align-items: center;
+    gap: 10px;
+    transition: all 0.2s ease;
+    border: 2px solid #26A17B;
+  }
+  .pay-btn-usdt:hover {
+    background-color: #1E8363 !important;
+    border-color: #1E8363;
     transform: translateY(-2px);
   }
 
@@ -209,43 +229,6 @@
   .features-grid-3 { grid-template-columns: repeat(3, 1fr) !important; align-items: stretch; }
   .features-grid-3 .feature-card { height: 100%; display: flex; flex-direction: column; }
   @media (max-width: 800px) { .features-grid-3 { grid-template-columns: 1fr !important; } .features-grid-3 .feature-card { height: auto; } }
-
-  .btc-payment-btn {
-    display: inline-flex;
-    align-items: center;
-    justify-content: center;
-    gap: 12px;
-    background-color: #F7931A;
-    color: #FFFFFF !important;
-    font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-    font-weight: bold;
-    font-size: 16px;
-    padding: 12px 32px;
-    border-radius: 25px;
-    text-decoration: none !important;
-    text-align: center;
-    box-shadow: 0 2px 4px rgba(0,0,0,0.08);
-    transition: background-color 0.2s ease, transform 0.1s ease;
-    border: none;
-    cursor: pointer;
-  }
-
-  .btc-payment-btn:hover {
-    background-color: #E28310;
-    transform: translateY(-1px);
-    box-shadow: 0 4px 8px rgba(0,0,0,0.12);
-  }
-
-  .btc-payment-btn:active {
-    background-color: #C9730C;
-    transform: translateY(1px);
-  }
-
-  .btc-icon {
-    width: 20px;
-    height: 20px;
-    flex-shrink: 0;
-  }
 </style>
 <!-- Microsoft Clarity -->
 <script>
@@ -460,10 +443,19 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </table>
       </article>
 
-      <article class="card" style="text-align:center; margin-top:24px;">
+      <!-- UNIFIED PAYMENT BOX -->
+      <article class="payment-box">
         <h2>Secure Your Seat Now</h2>
+        <p style="color: var(--text-secondary); margin-top: 10px;">Select your preferred payment method below to complete enrollment ($111 USD):</p>
+        <div class="payment-methods">
+          <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" class="pay-btn-paypal">
+            <i class="fa-brands fa-paypal" aria-hidden="true"></i> Pay with PayPal
+          </a>
+          <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" class="pay-btn-usdt">
+            <i class="fa-solid fa-coins" aria-hidden="true"></i> Pay with USDT (TRC20/ERC20)
+          </a>
+        </div>
         <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-          <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" class="btn btn-primary btn-lg">Ask your mentor</a>
           <a href="https://github.com/SchoolOfFreelancing/LocalAI-Training.git/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
         </div>
       </article>

@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up Your Own VoIP Phone System | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking."
 ---
 
@@ -161,17 +161,3 @@ In FreeSWITCH console: `freeswitch> sofia status` to see registration status. Ch
 ## Learn More
 
 For comprehensive hands-on training, enroll in our [FusionPBX VoIP Training](/freelancing-training/fusionpbx-training/) program.
-
-## Frequently Asked Questions
-
-### What is How to Set Up Your Own VoIP Phone System about?
-
-Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
-
-### Who is this How to Set Up Your Own VoIP Phone System resource for?
-
-It is intended for readers who want practical, understandable guidance related to the topic.
-
-### What should I do after reading this How to Set Up Your Own VoIP Phone System resource?
-
-Use the related service, training, or support pages to continue with a practical project or get technical assistance.

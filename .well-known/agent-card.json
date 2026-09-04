@@ -1,0 +1,47 @@
+{
+  "name": "School Of Freelancing",
+  "version": "1.3.5",
+  "description": "School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.",
+  "supportedInterfaces": [
+    {
+      "url": "https://schooloffreelancing.com/",
+      "protocolBinding": "HTTP+JSON",
+      "protocolVersion": "1.0"
+    }
+  ],
+  "capabilities": {
+    "streaming": false,
+    "pushNotifications": false,
+    "stateTransitionHistory": false
+  },
+  "defaultInputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "defaultOutputModes": [
+    "text/plain",
+    "application/json"
+  ],
+  "skills": [
+    {
+      "id": "linux-freelancing-training",
+      "name": "Linux Freelancing Training",
+      "description": "Provides information about Linux system administration freelancing training, curriculum, scheduling, and enrollment."
+    },
+    {
+      "id": "hummingbot-installation-support",
+      "name": "Hummingbot Installation Support",
+      "description": "Provides technical information and support for Hummingbot installation and configuration."
+    },
+    {
+      "id": "telnyx-sms-setup",
+      "name": "Telnyx SMS Setup",
+      "description": "Provides technical information and support for legitimate business SMS and Telnyx configuration."
+    },
+    {
+      "id": "hermes-agent-setup",
+      "name": "Hermes Agent Setup",
+      "description": "Provides technical information and support for Hermes Agent installation and configuration."
+    }
+  ]
+}

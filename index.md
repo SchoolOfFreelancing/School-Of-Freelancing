@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training — Tech Support | 5.0★ Rated"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses."
 ---
 

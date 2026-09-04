@@ -1,7 +1,7 @@
 ---
 title: "About Us — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "School of Freelancing turns beginners into freelancers and solves businesses' technical challenges."
 ---
 

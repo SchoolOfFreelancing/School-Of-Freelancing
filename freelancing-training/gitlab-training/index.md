@@ -1,7 +1,7 @@
 ---
 title: "GitLab Freelancing Training | Setup, CI/CD & Jobs"
 author: "Karim (Masum)"
-date: 2026-09-03
+date: 2026-09-04
 description: "Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
@@ -72,17 +72,3 @@ Stronger habits for deploying, troubleshooting, and managing enterprise GitLab.
 | 20 | Capstone Review & Live Q&A | Simulated enterprise troubleshooting scenario, testimonial collection, wrap-up |  |
 
 ## Secure Your Seat Now
-
-## Frequently Asked Questions
-
-### What will I learn in GitLab: Freelancing Training?
-
-Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
-
-### Who is GitLab: Freelancing Training training for?
-
-It is intended for learners and freelancers who want practical, client-ready technical skills.
-
-### How can I get started with GitLab: Freelancing Training?
-
-Review the training details and contact School of Freelancing to discuss enrollment and the learning requirements.

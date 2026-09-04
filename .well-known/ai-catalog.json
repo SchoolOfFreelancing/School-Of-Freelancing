@@ -1,0 +1,42 @@
+{
+  "specVersion": "0.1",
+  "host": {
+    "domain": "schooloffreelancing.com",
+    "displayName": "School Of Freelancing",
+    "description": "Freelancing education and resources platform."
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:schooloffreelancing.com:api:freelance-courses",
+      "displayName": "Freelance Courses API",
+      "type": "application/json",
+      "url": "https://schooloffreelancing.com/api/courses",
+      "representativeQueries": [
+        "List available freelance courses",
+        "Get course details by ID",
+        "Search courses by topic"
+      ]
+    },
+    {
+      "identifier": "urn:air:schooloffreelancing.com:mcp:agent-server",
+      "displayName": "School Of Freelancing MCP Server",
+      "type": "application/vnd.mcp+json",
+      "url": "https://agents.schooloffreelancing.com/mcp",
+      "representativeQueries": [
+        "Find freelancing tutorials",
+        "Get skill assessment questions",
+        "Recommend learning paths"
+      ]
+    },
+    {
+      "identifier": "urn:air:schooloffreelancing.com:openapi:site-api",
+      "displayName": "Site OpenAPI Schema",
+      "type": "application/vnd.oai.openapi+json;version=3.0",
+      "url": "https://schooloffreelancing.com/openapi.json",
+      "representativeQueries": [
+        "Get API endpoint documentation",
+        "List available API operations"
+      ]
+    }
+  ]
+}
