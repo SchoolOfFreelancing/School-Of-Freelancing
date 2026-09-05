@@ -1,11 +1,11 @@
 ---
-title: "How to Deploy a Linux Server to Production"
+title: "How to Deploy a Linux Server from Zero to Production | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."
 ---
 
-# How to Deploy a Linux Server to Production
+# How to Deploy a Linux Server from Zero to Production | School of Freelancing
 
 ## Overview
 
@@ -247,11 +247,11 @@ Verify SSH is running and port 22 is open in your firewall. Check with: `sudo uf
 
 ### Certificate Errors
 
-Verify DNS is pointing to your server: `nslookup yourdomain.com`. Test with: `sudo certbot renew --dry-run`
+Verify DNS is pointing to your server: `nslookup yourdomain.com` . Test with: `sudo certbot renew --dry-run`
 
 ### Out of Disk Space
 
-Check disk usage: `df -h`. Delete old logs or backups as needed.
+Check disk usage: `df -h` . Delete old logs or backups as needed.
 
 ## Next Steps
 

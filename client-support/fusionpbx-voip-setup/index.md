@@ -1,11 +1,11 @@
 ---
-title: "FusionPBX VoIP — Setup | Hire Support"
+title: "FusionPBX — VoIP Setup | Hire Support"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Hire FusionPBX VoIP Setup support for SIP, call routing, extensions, IVR, and call center integration."
 ---
 
-# FusionPBX VoIP — Setup | Hire Support
+# FusionPBX — VoIP Setup | Hire Support
 
 ## Support Overview
 

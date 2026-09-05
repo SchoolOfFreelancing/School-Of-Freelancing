@@ -1,5 +1,5 @@
 ---
-title: "How to Automate Tasks with Python & Cron"
+title: "How to Automate Your First Repetitive Task | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron."
@@ -25,11 +25,11 @@ Let's automate sending a daily sales report via email:
 #!/usr/bin/env python3
 import smtplib
 import pandas as pd
-from datetime import datetime, timedelta, timedelta
+from datetime import datetime, timedelta
 from email.mime.text import MIMEText
 from email.mime.multipart import MIMEMultipart
 
-# How to Automate Tasks with Python & Cron
+# How to Automate Your First Repetitive Task | School of Freelancing
 df = pd.read_csv('/data/sales.csv')
 yesterday = df[df['date'] == (datetime.now().date() - timedelta(days=1))]
 

@@ -1,11 +1,11 @@
 ---
-title: "Telnyx: SMS API Freelancing Training"
+title: "Telnyx — SMS API Freelancing Training"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn to integrate Telnyx SMS APIs for automated texting and OTPs. Boost your freelance developer portfolio and land high-paying gigs. Enroll today!"
 ---
 
-# Telnyx: SMS API Freelancing Training
+# Telnyx — SMS API Freelancing Training
 
 ## Overview
 

@@ -1,11 +1,11 @@
 ---
-title: "Ubuntu Linux - Freelancing Training"
+title: "Ubuntu Linux — Freelancing Training"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support."
 ---
 
-# Ubuntu Linux - Freelancing Training
+# Ubuntu Linux — Freelancing Training
 
 ## Overview
 
@@ -21,7 +21,6 @@ Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a por
 | Covers: | Ubuntu server setup, LAMP stack deployment & troubleshooting, WordPress, Drupal, & Laravel error diagnosis, hardening Ubuntu, marketplace portfolios (Upwork, Freelancer.com, Guru.com), YouTube video marketing, and direct B2B outreach. |
 | Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, & System Integrators. |
 | (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
-|  |  |
 
 ### Participation Requirements:
 

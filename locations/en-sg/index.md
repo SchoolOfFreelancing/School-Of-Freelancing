@@ -1,24 +1,34 @@
 ---
-title: "Freelancing Training & Client Support for Singaporeans | SOF"
+title: "Singapore Freelance Training & IT Services | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
-description: "Boost your freelancing career with comprehensive training and client support specifically for Singaporeans. Start your journey to success today!"
+description: "Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!"
 ---
 
-# Freelancing Training & Client Support for Singaporeans | SOF
+# Singapore Freelance Training & IT Services | School of Freelancing
 
-## Singapore Training & Support Overview
+## Dedicated to Singapore
 
 ### Freelancing Training
 
-Singapore-Timezone [Freelancing Training.](/freelancing-training/) Hands-on Linux, DevOps, VoIP, and AI-platform skills live instructor-led, then apply in the freelance marketplace.
+Top-rated remote freelance training for Singapore citizens. Master Linux, DevOps, VoIP, and AI agent building through live, timezone-aligned classes.
 
-### Client Support
+[Explore Freelancing Programs →](/freelancing-training/)
 
-Remote [Client Support](/client-support/) for Singaporean Businesses. Fast, secure Linux, cloud, VoIP, and AI-platform support.
+### Business IT Services
 
-## FAQs
+Enterprise-grade remote IT support for local businesses. We proactively manage your Linux, Cloud, VoIP, and AI infrastructure under strict SLA terms.
 
-## Ready to Get Started?
+[View Business Services →](/client-support/)
 
-Message us now, we'll confirm scheduling.
+## Why Singapore Citizens & Businesses Choose Us
+
+- **Citizenship-Focused Training:** A tailored curriculum designed to help Singapore citizens secure premium, high-paying remote contracts across global and regional markets.
+- **Commercial Business Support:** Specialized IT infrastructure troubleshooting, server hardening, and maintenance for corporate clients across Singapore's thriving tech ecosystems.
+- **100% Timezone Aligned:** Every live class, technical audit, and critical support window operates natively within your local business hours (SGT).
+
+## Frequently Asked Questions
+
+### Ready for a freelance career or secure tech support?
+
+Book a free 10-minute consultation to scope your training or tech support.

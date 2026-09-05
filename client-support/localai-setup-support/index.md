@@ -29,8 +29,6 @@ Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and vi
 - **Model Gallery & REST API Setup:** Configuration of OpenAI-compatible API endpoints for text generation, embeddings, audio (Whisper), and image generation.
 - **Security & Access Management:** Secure reverse proxy setup (Nginx/Traefik) with SSL and API key authentication.
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

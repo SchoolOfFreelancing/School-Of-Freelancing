@@ -1,11 +1,11 @@
 ---
-title: "Bulk SMS - Setup Training"
+title: "Bulk SMS - Setup Training | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients."
 ---
 
-# Bulk SMS - Setup Training
+# Bulk SMS - Setup Training | School of Freelancing
 
 ## Overview
 
@@ -61,7 +61,7 @@ Package bulk messaging solutions into high-paying freelance offers on Upwork, Fr
 | 9 | Automated Retry & Failover Logic | Designing intelligent retry engines for transient errors, carrier fallback routing, and dead-letter queue (DLQ) processing. |  |
 | 10 | Google Sheets & Webhook Integration | Connecting bulk SMS engines with Google Sheets API and Zapier/Make for non-technical client campaign management. |  |
 | **Week 3** | 11 | Jasmin SMS Gateway Overview & Deployment | Installing Jasmin SMS Gateway on Ubuntu, configuring RabbitMQ message broker, and managing `jcli` configuration. |
-| 12 | SMPP Client Connectors (`smppcc`) | Connecting Jasmin to upstream wholesale SMS aggregators using SMPP v3.4 binds (Transmitter/Receiver/Transceiver). |  |
+| 12 | SMPP Client Connectors ( `smppcc` ) | Connecting Jasmin to upstream wholesale SMS aggregators using SMPP v3.4 binds (Transmitter/Receiver/Transceiver). |  |
 | 13 | HTTP API & User Quotas in Jasmin | Configuring Jasmin HTTP API endpoints, setting up customer accounts, rate limits, and prepaid credit management. |  |
 | 14 | Database Logging & Analytics Dashboards | Persisting message logs into PostgreSQL/MySQL, creating real-time delivery reports, and building client-facing dashboards. |  |
 | 15 | Production Hardening, SSL & Systemd | Securing webhooks with HTTPS (Certbot/Nginx), setting up Systemd service daemons, log rotation, and system monitoring. |  |

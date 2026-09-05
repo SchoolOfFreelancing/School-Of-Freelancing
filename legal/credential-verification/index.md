@@ -53,4 +53,4 @@ We may update this Credential Verification Support policy from time to time. Con
 
 ## 10. Contact Us
 
-Ask any questions about credential verification support, to our email [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .
+Ask any questions about credential verification support to our email [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .

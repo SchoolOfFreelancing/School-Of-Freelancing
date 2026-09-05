@@ -23,7 +23,7 @@ pip install anthropic flask
 
 ## Step 2: Create Your Chatbot
 
-Create `chatbot.py`:
+Create `chatbot.py` :
 
 ```
 import anthropic
@@ -48,7 +48,7 @@ print(response)
 
 ## Step 3: Build a Web Interface
 
-Create `app.py`:
+Create `app.py` :
 
 ```
 from flask import Flask, request, jsonify
@@ -69,12 +69,13 @@ if __name__ == '__main__':
 
 ## Step 4: Create Frontend
 
-Create `index.html`:
+Create `index.html` :
 
 ```
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
+ <meta charset="UTF-8">
  <title>AI Chatbot</title>
  <style>
  body { font-family: Arial; max-width: 600px; margin: 50px auto; }

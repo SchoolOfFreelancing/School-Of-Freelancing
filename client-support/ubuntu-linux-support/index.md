@@ -22,8 +22,6 @@ Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimizat
 | Best for: | Individuals, teams, and businesses requiring production Ubuntu Linux server setup or ongoing system administration support without a full-time hire. |
 | What you provide: | Team access to your Ubuntu server/VPS, along with any existing configuration files ready for production deployment. |
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

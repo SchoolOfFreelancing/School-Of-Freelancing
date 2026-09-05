@@ -13,9 +13,12 @@
 <meta content="default" name="apple-mobile-web-app-status-bar-style">
 
 <!-- SEO -->
-<title>ZeroClaw: Freelancing Training</title>
-<!-- Canonical URL - Page Specific -->
+<title>ZeroClaw — Freelancing Training</title>
+<!-- Canonical & Hreflang URLs -->
 <link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/zeroclaw-training/" />
+<link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/zeroclaw-training/" />
+<link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/zeroclaw-training/" />
+
 <meta name="description" content="A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.">
 
 <meta name="author" content="School of Freelancing">
@@ -71,12 +74,6 @@
       "name": "School of Freelancing"
     },
     {
-      "@type": "ProfessionalService",
-      "@id": "https://schooloffreelancing.com/#ProfessionalService",
-      "name": "School of Freelancing",
-      "url": "https://schooloffreelancing.com/"
-    },
-    {
       "@type": "WebPage",
       "@id": "https://schooloffreelancing.com/freelancing-training/zeroclaw-training/",
       "name": "ZeroClaw Freelancing Training",
@@ -94,11 +91,15 @@
     },
     {
       "@type": "Course",
-      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" },
+      "@id": "https://schooloffreelancing.com/freelancing-training/zeroclaw-training/#course",
       "name": "ZeroClaw Freelancing Training",
       "description": "A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.",
-      "provider": { "@id": "https://schooloffreelancing.com/#ProfessionalService" },
+      "provider": { "@id": "https://schooloffreelancing.com/#organization" },
       "learningResourceType": "Training",
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online"
+      },
       "offers": {
         "@type": "Offer",
         "price": "115",
@@ -108,23 +109,51 @@
       }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need prior experience with ZeroClaw to join?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. The training starts from ZeroClaw fundamentals and builds up to full production deployment, so motivated beginners can join." }
-        },
-        {
-          "@type": "Question",
-          "name": "What will I be able to offer clients after this training?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You'll be able to install, deploy, and maintain ZeroClaw in production for clients, and structure that work as a recurring freelance service." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I pay in installments?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No, we don't offer installment payments to join this training." }
-        }
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
+        "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
+        "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
+        "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
+        "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
+        "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
+        "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
+        "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
+        "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
+        "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
+        "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
+        "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
+        "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
+        "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
+        "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
+        "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
+        "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
+        "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
+        "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
+        "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
+        "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
+        "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
+        "https://github.com/SchoolOfFreelancing/github-installation-support",
+        "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
+        "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
+        "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
       ]
     }
   ]
@@ -140,9 +169,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional"></noscript>
 <link rel="stylesheet" href="/assets/css/style.css?v=20260720b">
 <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
@@ -233,57 +262,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
-  ]
-}
-</script>
 </head>
 
 <body>
@@ -298,7 +276,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
       <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
@@ -359,7 +337,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <div class="feature-card">
         <h3 class="feature-title">Training Prerequisites</h3>
         <ul class="detail-list">
-          <li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_blank" rel="noopener">DigitalOcean account,</a></strong> Any Domain, &amp; Verified Marketplace Profiles.</li>
+          <li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_blank" rel="noopener noreferrer">DigitalOcean account,</a></strong> Any Domain, &amp; Verified Marketplace Profiles.</li>
           <li><strong>Rigorous:</strong> Need to have patience and concentration during all training sessions.</li>
         </ul>
       </div>
@@ -440,8 +418,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <article class="card" style="text-align:center; margin-top:24px;">
         <h2>Secure Your Seat Now</h2>
         <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-          <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener" class="btn btn-primary">Ask your mentor</a>
-          <a href="https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training/" target="_blank" rel="noopener" class="btn btn-outline">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" class="btn btn-primary">Ask your mentor</a>
+          <a href="https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training/" target="_blank" rel="noopener noreferrer" class="btn btn-outline">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
         </div>
       </article>
     
@@ -504,7 +482,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
         </ul>
       </nav>
-      <nav aria-label="Footer: Legal & Resources" class="footer-col">
+      <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
         <h2><span>Legal</span></h2>
         <ul class="footer-links">
           <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>

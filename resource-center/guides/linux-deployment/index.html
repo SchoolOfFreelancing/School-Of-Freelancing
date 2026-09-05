@@ -1,6 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Deploy a Linux Server from Zero to Production | School of Freelancing</title>
+    <meta name="description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical & Alternate Links -->
+    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment/">
+    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment/">
+    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment/">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/linux-deployment/">
+    <meta property="og:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
+    <meta property="og:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
+    <meta name="twitter:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
+
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
 <script>
@@ -15,102 +38,60 @@
   src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
 ></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Deploy a Linux Server to Production</title>
-    <meta name="description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
-    <meta name="og:type" content="article">
-    <meta name="og:title" content="How to Deploy a Linux Server from Zero to Production">
-    <meta name="og:description" content="Complete guide to deploying Ubuntu servers: hardening, networking, services, backups, and monitoring for production.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
-    <meta name="twitter:description" content="Complete guide to deploying Ubuntu servers: hardening, networking, services, backups, and monitoring for production.">
-    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment/" />
-
-    <!-- Google Tag Manager -->
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
-    new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
-    j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
-    'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
-    })(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
-    <!-- End Google Tag Manager -->
-
-    <!-- Google Analytics -->
-    
-    
-
     <link rel="stylesheet" href="/assets/css/style.css">
     <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
+
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
+
+<!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#content",
-  "url": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/",
-  "headline": "How to Deploy a Linux Server from Zero to Production | School of Freelancing",
-  "description": "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://schooloffreelancing.com/#organization",
-    "name": "School of Freelancing",
-    "url": "https://schooloffreelancing.com/"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#content",
+      "url": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/",
+      "headline": "How to Deploy a Linux Server from Zero to Production | School of Freelancing",
+      "description": "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.",
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" },
+        { "@type": "ListItem", "position": 3, "name": "Guides", "item": "https://schooloffreelancing.com/resource-center/guides/" },
+        { "@type": "ListItem", "position": 4, "name": "Linux Deployment Guide", "item": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
+      ]
+    }
   ]
 }
 </script>
-  <meta name="robots" content="index, follow">
 </head>
 <body>
 
@@ -124,7 +105,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
       <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
@@ -166,13 +147,13 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
       <li>Basic Linux command-line familiarity</li>
     </ul>
 
-    <h2>Step 1: Initial Server Setup & SSH Access</h2>
+    <h2>Step 1: Initial Server Setup &amp; SSH Access</h2>
 
     <h3>1.1 Get Root Access</h3>
     <p>Upon first login, establish a secure connection:</p>
     <pre><code>ssh root@your_server_ip</code></pre>
     <p>Update your system packages immediately:</p>
-    <pre><code>apt update && apt upgrade -y</code></pre>
+    <pre><code>apt update &amp;&amp; apt upgrade -y</code></pre>
 
     <h3>1.2 Create a Non-Root User</h3>
     <p>Never run production services as root. Create a dedicated user:</p>
@@ -216,7 +197,7 @@ sudo systemctl start fail2ban</code></pre>
     <pre><code>sudo apt install unattended-upgrades -y
 sudo systemctl enable unattended-upgrades</code></pre>
 
-    <h2>Step 3: Networking & Domain Configuration</h2>
+    <h2>Step 3: Networking &amp; Domain Configuration</h2>
 
     <h3>3.1 Set Hostname</h3>
     <pre><code>sudo hostnamectl set-hostname myserver.com
@@ -226,7 +207,7 @@ sudo nano /etc/hosts</code></pre>
     <h3>3.2 Point Domain to Server</h3>
     <p>In your domain registrar's DNS settings, create an A record pointing your domain to your server's IP address. Allow 15-30 minutes for DNS propagation.</p>
 
-    <h2>Step 4: Web Server & SSL Configuration</h2>
+    <h2>Step 4: Web Server &amp; SSL Configuration</h2>
 
     <h3>4.1 Install Nginx</h3>
     <pre><code>sudo apt install nginx -y
@@ -238,7 +219,7 @@ sudo systemctl start nginx</code></pre>
 sudo certbot certonly --nginx -d yourdomain.com</code></pre>
     <p>Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com</p>
 
-    <h2>Step 5: Package Management & Services</h2>
+    <h2>Step 5: Package Management &amp; Services</h2>
 
     <h3>5.1 Install Essential Tools</h3>
     <pre><code>sudo apt install curl wget git htop net-tools apt-transport-https -y</code></pre>
@@ -266,7 +247,7 @@ WantedBy=multi-user.target</code></pre>
 sudo systemctl enable myapp
 sudo systemctl start myapp</code></pre>
 
-    <h2>Step 6: Backup & Disaster Recovery</h2>
+    <h2>Step 6: Backup &amp; Disaster Recovery</h2>
 
     <h3>6.1 Create a Backup Script</h3>
     <pre><code>sudo nano /home/admin/backup.sh</code></pre>
@@ -282,7 +263,7 @@ find /backups -name "server_backup_*.tar.gz" -mtime +30 -delete</code></pre>
     <p>Add a daily backup at 2 AM:</p>
     <pre><code>0 2 * * * /home/admin/backup.sh</code></pre>
 
-    <h2>Step 7: Monitoring & Logging</h2>
+    <h2>Step 7: Monitoring &amp; Logging</h2>
 
     <h3>7.1 Monitor System Resources</h3>
     <pre><code>top     # Real-time resource usage
@@ -296,13 +277,13 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
     <h2>Common Troubleshooting</h2>
 
     <h3>SSH Connection Refused</h3>
-    <p>Verify SSH is running and port 22 is open in your firewall. Check with: `sudo ufw status`</p>
+    <p>Verify SSH is running and port 22 is open in your firewall. Check with: <code>sudo ufw status</code></p>
 
     <h3>Certificate Errors</h3>
-    <p>Verify DNS is pointing to your server: `nslookup yourdomain.com`. Test with: `sudo certbot renew --dry-run`</p>
+    <p>Verify DNS is pointing to your server: <code>nslookup yourdomain.com</code>. Test with: <code>sudo certbot renew --dry-run</code></p>
 
     <h3>Out of Disk Space</h3>
-    <p>Check disk usage: `df -h`. Delete old logs or backups as needed.</p>
+    <p>Check disk usage: <code>df -h</code>. Delete old logs or backups as needed.</p>
 
     <h2>Next Steps</h2>
     <p>You now have a production-ready Linux server. Next, you can:</p>
@@ -433,7 +414,7 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                             </li>
                         </ul>
                     </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
+                    <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
                         <h2><span>Legal</span></h2>
                         <ul class="footer-links">
                             <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
@@ -441,7 +422,7 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                             <li><a href="/legal/refund-policy/">Refund Policy</a></li>
                             <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
                             <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
+                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
                             <li><a href="/legal/credential-verification/">Credential Verification</a></li>
                         </ul>
                     </nav>

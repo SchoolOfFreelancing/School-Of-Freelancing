@@ -29,8 +29,6 @@ Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow a
 - **Tooling & Action Execution:** Secure sandboxing for autonomous system command execution, filesystem hooks, and channel integrations.
 - **Security & Access Control:** Token authentication setup, process isolation, environment variable protection, and system monitoring.
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

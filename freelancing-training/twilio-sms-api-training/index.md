@@ -1,11 +1,11 @@
 ---
-title: "Twilio SMS API - Freelancing Training"
+title: "Twilio — SMS Freelancing Training"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-world freelancing skills through hands-on project-based training."
 ---
 
-# Twilio SMS API - Freelancing Training
+# Twilio — SMS Freelancing Training
 
 ## Overview
 
@@ -55,7 +55,7 @@ A client-ready freelancing portfolio and Upwork acquisition strategy designed to
 | 3 | Outbound Programmable SMS API | Constructing HTTP POST requests to the Messages resource, setting body payloads, senders, and parsing API responses. |  |
 | 4 | Status Callbacks & Delivery Tracking | Configuring message status callbacks (`sent`, `delivered`, `failed`, `undelivered`) and logging delivery status lifecycle. |  |
 | 5 | Inbound SMS & Webhook Fundamentals | Building server HTTP endpoints (Node.js/Python), processing incoming SMS payloads, and mapping URL parameters. |  |
-| 6 | TwiML Messaging Responses | Drafting valid TwiML XML schemas using ` ` and ` ` tags to return automated, dynamic replies. |  |
+| 6 | TwiML Messaging Responses | Drafting valid TwiML XML schemas using `<Response>` and `<Message>` tags to return automated, dynamic replies. |  |
 | 7 | A2P 10DLC & Carrier Compliance Setup | Registering Brands and Campaigns with TCR via Twilio Console/API, managing opt-in requirements, and avoiding carrier spam blocks. |  |
 | **Week 2** | 8 | Twilio Messaging Services & Copilot | Creating Messaging Services, sender pool aggregation, sticky sender configuration, and geomatching logic. |
 | 9 | Two-Way SMS Auto-Responders | Architecting stateful two-way conversational bots using backend databases and keyword parsing algorithms. |  |

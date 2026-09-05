@@ -302,5 +302,3 @@ Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy producti
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
-
-## Frequently Asked Questions

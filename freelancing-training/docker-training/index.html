@@ -13,8 +13,10 @@
 
 <!-- SEO -->
 <title>Docker Freelancing Training | Learn &amp; Get Support</title>
-<!-- Canonical URL - Page Specific -->
+<!-- Canonical URL & Hreflang Tags -->
 <link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/docker-training/" />
+<link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/docker-training/" />
+<link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/docker-training/" />
 
 <meta name="description" content="Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.">
 <meta content="default" name="apple-mobile-web-app-status-bar-style">
@@ -65,12 +67,26 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
+      ]
+    },
+    {
       "@type": "WebPage",
       "@id": "https://schooloffreelancing.com/freelancing-training/docker-training/",
       "name": "Docker Freelancing Training",
       "description": "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.",
       "url": "https://schooloffreelancing.com/freelancing-training/docker-training/",
-      "isPartOf": { "@id": "https://schooloffreelancing.com/#website" }
+      "isPartOf": { "@id": "https://schooloffreelancing.com/#organization" }
     },
     {
       "@type": "BreadcrumbList",
@@ -82,11 +98,14 @@
     },
     {
       "@type": "Course",
-      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" },
+      "@id": "https://schooloffreelancing.com/freelancing-training/docker-training/#course",
       "name": "Docker Freelancing Training",
       "description": "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.",
-      "provider": { "@type": "ProfessionalService", "@id": "https://schooloffreelancing.com/#ProfessionalService", "name": "School of Freelancing" },
-      "learningResourceType": "Training",
+      "provider": { "@id": "https://schooloffreelancing.com/#organization" },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online"
+      },
       "offers": {
         "@type": "Offer",
         "price": "159",
@@ -94,26 +113,6 @@
         "availability": "https://schema.org/InStock",
         "url": "https://schooloffreelancing.com/freelancing-training/docker-training/"
       }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need prior Docker experience to join?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No. The training is designed for beginners to intermediate Linux users and walks through Docker step by step, from container fundamentals to production deployment." }
-        },
-        {
-          "@type": "Question",
-          "name": "What will I be able to offer clients after this training?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You'll be able to deploy and maintain production Docker environments — custom images, Compose stacks, reverse proxy with SSL, containerized databases, security hardening, and monitoring — and win Docker/DevOps gigs on Upwork, Freelancer.com, Guru.com, and via direct LinkedIn outreach." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I pay in installments?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No, we don't offer installment payments to join this training." }
-        }
-      ]
     }
   ]
 }
@@ -122,7 +121,9 @@
 <!-- Verification Tags -->
 <meta name="google-site-verification" content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw">
 <meta name="msvalidate.01" content="C18D42C136729AADD540EB2FE7763E57">
-<meta name="facebook-domain-verification" content="2304476026236470"><!-- Preconnect to external domains -->
+<meta name="facebook-domain-verification" content="2304476026236470">
+
+<!-- Preconnect to external domains -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
@@ -188,6 +189,7 @@
   .module-card li { margin-bottom: 6px; font-size: 0.95rem; }
   .module-card .lab { display: block; margin-top: 10px; font-size: 0.9rem; background: rgba(255,255,255,0.12); border-radius: 6px; padding: 6px 12px; }
 </style>
+
 <!-- Microsoft Clarity -->
 <script>
     (function(c,l,a,r,i,t,y){
@@ -205,59 +207,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
 <!-- End Google Tag Manager -->
+
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
-  ]
-}
-</script>
 </head>
 
 <body>
@@ -295,7 +247,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="page-hero" aria-label="Docker Training hero" style="padding: 80px 0 40px 0;">
   <div class="container detail-wrap">
     <p class="breadcrumb-nav"><a href="/">Home</a> / <a href="/freelancing-training/">All Training</a> / Docker Freelancing Training</p>
-        <h1 data-reveal style="font-size: 2.6rem; margin-bottom: 16px;"><span style="color:var(--text-primary)">Docker Freelancing Training</span></h1>
+    <h1 data-reveal style="font-size: 2.6rem; margin-bottom: 16px;"><span style="color:var(--text-primary)">Docker Freelancing Training</span></h1>
   </div>
 </header>
 
@@ -306,9 +258,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <div class="card" style="margin-bottom:32px;">
       <h2 style="margin-bottom:12px; font-size: 1.5rem;">Overview</h2>
       <p style="color:var(--text-secondary); line-height:1.7; margin:0;">
-     Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer, then land freelance and direct clients with job-ready skills.
-    </p>
-  </div>
+        Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer, then land freelance and direct clients with job-ready skills.
+      </p>
+    </div>
   
     <h2>Training Features:</h2>
     <table class="spec-table" style="width:100%;">
@@ -374,7 +326,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         </div>
       </article>
 
-  <article class="card" style="margin-top:24px;">
+      <article class="card" style="margin-top:24px;">
         <h3 style="text-align: center;">Training Modules</h3>
         <table class="spec-table" style="width:100%;">
           <thead>
@@ -429,140 +381,131 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </section>
 </main>  
+
 <!-- ===== FOOTER ===== -->
 <footer class="footer footer-glass">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-brand">
-                        <p>
-                            AI-driven Linux training for freelancers and elite professional support for businesses.
-                            Founded in 2015 by
-                            <strong
-                                ><cite
-                                    ><a
-                                        href="https://www.linkedin.com/in/anythinglinux/"
-                                        target="_blank"
-                                        rel="author noopener noreferrer"
-                                        >Karim (Masum)</a
-                                    ></cite
-                                ></strong
-                            >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
-                        </p>
-                        <aside aria-label="Follow us">
-                            <p>Community:</p>
-                            <address class="footer-social">
-                                <a
-                                    href="https://github.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on GitHub"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-github" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.youtube.com/@SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on YouTube"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.linkedin.com/company/schooloffreelancing"
-                                    aria-label="School of Freelancing on LinkedIn"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-linkedin" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.facebook.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Facebook"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://instagram.com/schooloffreelancing"
-                                    aria-label="School of Freelancing on Instagram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.threads.com/schooloffreelancing"
-                                    aria-label="School of Freelancing on Threads"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-threads" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://wa.me/8801748973769"
-                                    aria-label="Message School of Freelancing on WhatsApp"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://t.me/SchoolOfFreelancingTraining"
-                                    aria-label="Message School of Freelancing on Telegram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-telegram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://x.com/SchoolOfFreelan"
-                                    aria-label="School of Freelancing on X (Twitter)"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
-                                ></a>
-                            </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
-                        </aside>
-                    </div>
-                    <nav aria-label="Footer: Freelancing Training" class="footer-col">
-                        <h2><span>Freelancing Training</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
-                            <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-                            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/">View All Training</a></li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Client Support" class="footer-col">
-                        <h2><span>Client Support</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
-                            <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
-                            <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-                            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-                            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
-                            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
-                            <li>
-                                <a href="/client-support/" aria-label="View all client support services in footer"
-                                    >View All Support</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
-                        <h2><span>Legal</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
-                            <li><a href="/locations/">Locations</a></li>
-                            <li><a href="/legal/refund-policy/">Refund Policy</a></li>
-                            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
-                            <li><a href="/legal/credential-verification/">Credential Verification</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
-            </div>
-        </footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p>
+          AI-driven Linux training for freelancers and elite professional support for businesses.
+          Founded in 2015 by
+          <strong>
+            <cite>
+              <a
+                href="https://www.linkedin.com/in/anythinglinux/"
+                target="_blank"
+                rel="author noopener noreferrer"
+                >Karim (Masum)</a
+              >
+            </cite>
+          </strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+        </p>
+        <aside aria-label="Follow us">
+          <p>Community:</p>
+          <address class="footer-social">
+            <a
+              href="https://github.com/SchoolOfFreelancing"
+              aria-label="School of Freelancing on GitHub"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-github" aria-hidden="true"></i> </a
+            ><a
+              href="https://www.youtube.com/@SchoolOfFreelancing"
+              aria-label="School of Freelancing on YouTube"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
+            ><a
+              href="https://www.linkedin.com/company/schooloffreelancing"
+              aria-label="School of Freelancing on LinkedIn"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-linkedin" aria-hidden="true"></i> </a
+            ><a
+              href="https://www.facebook.com/SchoolOfFreelancing"
+              aria-label="School of Freelancing on Facebook"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
+            ><a
+              href="https://instagram.com/schooloffreelancing"
+              aria-label="School of Freelancing on Instagram"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
+            ><a
+              href="https://www.threads.com/schooloffreelancing"
+              aria-label="School of Freelancing on Threads"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-threads" aria-hidden="true"></i> </a
+            ><a
+              href="https://wa.me/8801748973769"
+              aria-label="Message School of Freelancing on WhatsApp"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> </a
+            ><a
+              href="https://t.me/SchoolOfFreelancingTraining"
+              aria-label="Message School of Freelancing on Telegram"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-telegram" aria-hidden="true"></i> </a
+            ><a
+              href="https://x.com/SchoolOfFreelan"
+              aria-label="School of Freelancing on X (Twitter)"
+              rel="noopener noreferrer"
+              target="_blank"
+              ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+            ></a>
+          </address>
+          <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
+        </aside>
+      </div>
+      <nav aria-label="Footer: Freelancing Training" class="footer-col">
+        <h2><span>Freelancing Training</span></h2>
+        <ul class="footer-links">
+          <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
+          <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
+          <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
+          <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
+          <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
+          <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
+          <li><a href="/freelancing-training/">View All Training</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer: Client Support" class="footer-col">
+        <h2><span>Client Support</span></h2>
+        <ul class="footer-links">
+          <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
+          <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
+          <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
+          <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
+          <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
+          <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
+          <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer: Legal & Resources" class="footer-col">
+        <h2><span>Legal</span></h2>
+        <ul class="footer-links">
+          <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
+          <li><a href="/locations/">Locations</a></li>
+          <li><a href="/legal/refund-policy/">Refund Policy</a></li>
+          <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/resource-center/">Resource Center</a></li>
+          <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
+          <li><a href="/legal/credential-verification/">Credential Verification</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
+  </div>
+</footer>
 
 <script src="/assets/js/main.js?v=20260718" defer></script>
-<chat-bubble-snippet
-  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
-></chat-bubble-snippet>
+<chat-bubble-snippet api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"></chat-bubble-snippet>
 
 </body>
 </html>

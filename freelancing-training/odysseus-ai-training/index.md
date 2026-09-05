@@ -1,11 +1,11 @@
 ---
-title: "Odysseus AI: Freelancing Training"
+title: "Odysseus AI — Freelancing Training"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
-# Odysseus AI: Freelancing Training
+# Odysseus AI — Freelancing Training
 
 ## Overview
 
@@ -20,7 +20,6 @@ Learn Odysseus AI for real-world freelancing, including AI agent setup, automati
 | Format: | 100% Live, Instructor-Led Training — No Pre-Recorded Videos. |
 | Covers: | Production deployment of a Self-Hosted AI Workspace; strategies to secure premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
 | Best for: | Aspiring freelancers and IT pros looking to master privacy-first, self-hosted AI infrastructure and build a high-income freelance business. |
-|  |  |
 
 ## Participation Requirements:
 
@@ -36,7 +35,7 @@ Learn Odysseus AI for real-world freelancing, including AI agent setup, automati
 
 ### Training Rules
 
-- These **[Rules](/legal/training-rules/)** aapply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.
+- These **[Rules](/legal/training-rules/)** apply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.
 
 ## You'll leave with:
 

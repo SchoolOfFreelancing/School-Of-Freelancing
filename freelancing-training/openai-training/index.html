@@ -12,23 +12,25 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <!-- SEO -->
-<title>OpenAI Freelancing Training | API &amp; AI Projects</title>
-<!-- Canonical URL - Page Specific -->
-<link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/openai-training/" />
+<title>OpenAI — Freelancing Training | API &amp; AI Projects</title>
 <meta name="description" content="Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients.">
-<meta content="default" name="apple-mobile-web-app-status-bar-style">
-
 <meta name="author" content="School of Freelancing">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
+
+<!-- Canonical URL & Hreflang Tags -->
+<link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/openai-training/">
+<link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/openai-training/">
+<link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/openai-training/">
 
 <!-- Mobile & Accessibility -->
 <meta name="theme-color" content="#0024ED">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta content="default" name="apple-mobile-web-app-status-bar-style">
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="School Of Freelancing">
-<meta property="og:url" content="https://schooloffreelancing.com/freelancing-training/openai-freelancing-training/">
+<meta property="og:url" content="https://schooloffreelancing.com/freelancing-training/openai-training/">
 <meta property="og:title" content="OpenAI Freelancing Training">
 <meta property="og:description" content="Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients.">
 <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
@@ -65,55 +67,51 @@
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://schooloffreelancing.com/#website",
+      "url": "https://schooloffreelancing.com/",
+      "name": "School of Freelancing"
+    },
+    {
       "@type": "WebPage",
-      "@id": "https://schooloffreelancing.com/freelancing-training/openai-freelancing-training/",
+      "@id": "https://schooloffreelancing.com/freelancing-training/openai-training/",
       "name": "OpenAI Freelancing Training",
       "description": "Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients.",
-      "url": "https://schooloffreelancing.com/freelancing-training/openai-freelancing-training/",
+      "url": "https://schooloffreelancing.com/freelancing-training/openai-training/",
       "isPartOf": { "@id": "https://schooloffreelancing.com/#website" }
     },
     {
       "@type": "BreadcrumbList",
+      "@id": "https://schooloffreelancing.com/freelancing-training/openai-training/#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
         { "@type": "ListItem", "position": 2, "name": "All Training", "item": "https://schooloffreelancing.com/freelancing-training/" },
-        { "@type": "ListItem", "position": 3, "name": "OpenAI Freelancing Training", "item": "https://schooloffreelancing.com/freelancing-training/openai-freelancing-training/" }
+        { "@type": "ListItem", "position": 3, "name": "OpenAI Freelancing Training", "item": "https://schooloffreelancing.com/freelancing-training/openai-training/" }
       ]
     },
     {
-      "@type": "Course",
+      "@type": ["Course", "LearningResource"],
+      "@id": "https://schooloffreelancing.com/freelancing-training/openai-training/#course",
       "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" },
       "name": "OpenAI Freelancing Training",
       "description": "Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients.",
-      "provider": { "@type": "ProfessionalService", "@id": "https://schooloffreelancing.com/#ProfessionalService", "name": "School of Freelancing" },
+      "provider": {
+        "@type": "Organization",
+        "@id": "https://schooloffreelancing.com/#organization",
+        "name": "School of Freelancing",
+        "url": "https://schooloffreelancing.com/"
+      },
+      "educationalLevel": "Intermediate to Advanced",
+      "courseCode": "OPENAI-DEV-01",
       "learningResourceType": "Training",
+      "timeRequired": "P1M",
       "offers": {
         "@type": "Offer",
         "price": "179",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
-        "url": "https://schooloffreelancing.com/freelancing-training/openai-freelancing-training/"
+        "url": "https://schooloffreelancing.com/freelancing-training/openai-training/"
       }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How is the 20-session training structured?",
-          "acceptedAnswer": { "@type": "Answer", "text": "The training is split into 20 live, instructor-led sessions over 4 weeks (5 sessions per week), taking trainees from basic API concepts to advanced multi-agent development, marketplace portfolio integration, and direct client acquisition." }
-        },
-        {
-          "@type": "Question",
-          "name": "What OpenAI platform capabilities will I learn to implement?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You will learn to build solutions using Chat Completions, Assistants API, Structured Outputs, Embeddings, RAG, Custom Fine-Tuning, Vision, Realtime WebSockets API, and Autonomous Agent Workflows based on OpenAI Developer documentation." }
-        },
-        {
-          "@type": "Question",
-          "name": "Do I need prior AI development experience?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Basic programming understanding (Python/Node.js) is helpful, but the program builds core concepts step-by-step using OpenAI Developer docs and OpenAI Academy methodologies." }
-        }
-      ]
     }
   ]
 }
@@ -187,7 +185,7 @@
 </style>
 
 <!-- Microsoft Clarity -->
-<script type="text/javascript">
+<script>
     (function(c,l,a,r,i,t,y){
         c[a]=c[a]||function(){(c[a].q=c[a].q||[]).push(arguments)};
         t=l.createElement(r);t.async=1;t.src="https://www.clarity.ms/tag/"+i;
@@ -203,8 +201,10 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
 <!-- End Google Tag Manager -->
+
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
+
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -214,43 +214,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "url": "https://schooloffreelancing.com/",
   "sameAs": [
     "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
     "https://instagram.com/schooloffreelancing",
     "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
     "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
     "https://www.youtube.com/@SchoolOfFreelancing",
     "https://x.com/SchoolOfFreelan"
   ]
@@ -271,7 +237,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
     <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
+      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
       <li><a href="/freelancing-training/">Freelancing Training</a></li>
@@ -293,7 +259,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <header class="page-hero" aria-label="OpenAI Freelancing Training hero" style="padding: 80px 0 40px 0;">
   <div class="container detail-wrap">
     <p class="breadcrumb-nav"><a href="/">Home</a> / <a href="/freelancing-training/">All Training</a> / OpenAI Freelancing Training</p>
-    <h1 data-reveal style="font-size: 2.6rem; margin-bottom: 16px;"><span style="color:var(--text-primary)">OpenAI Freelancing Training</span></h1>
+    <h1 style="font-size: 2.6rem; margin-bottom: 16px;"><span style="color:var(--text-primary)">OpenAI Freelancing Training</span></h1>
   </div>
 </header>
 
@@ -316,7 +282,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <tr><td class="spec-cell">Price:</td><td>$179 (One-Time Investment).</td></tr>
         <tr><td class="spec-cell">Format:</td><td>Live Online, Instructor-Led Interactive Training with Zero Pre-Recorded Videos.</td></tr>
         <tr><td class="spec-cell">Covers:</td><td>OpenAI API setup, Integration, System Prompt Engineering, Structured Outputs (JSON Schema), Assistants API, Function Calling, Vector Embeddings (RAG), Fine-Tuning, Realtime API, Autonomous Agents, Upwork/Freelancer/Guru profile services, YouTube PoW videos, and Client Outreach.</td></tr>
-        <tr><td class="spec-cell">Best for:</td><td>AI Engineers, Software Developers, Technical Freelancers, Product Builders, & IT Consultants.</td></tr>
+        <tr><td class="spec-cell">Best for:</td><td>AI Engineers, Software Developers, Technical Freelancers, Product Builders, &amp; IT Consultants.</td></tr>
         <tr><td class="spec-cell">(GMI)*:</td><td>Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to submit client proposals.</td></tr>
       </tbody>
     </table>
@@ -385,32 +351,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </thead>
           <tbody>
             <!-- Week 1 -->
-            <tr><td style="text-align: center;" rowspan="5"><strong>One</strong></td><td style="text-align: center;">1</td><td>OpenAI Developer Ecosystem & API Setup</td><td>Setting up OpenAI API keys, workspace billing, rate limits, model parameters (GPT-4o, mini), and python/node SDK initialization</td></tr>
-            <tr><td style="text-align: center;">2</td><td>Prompt Engineering & System Instructions</td><td>Mastering zero-shot/few-shot prompts, context window management, system roles, and OpenAI Academy prompt evaluation frameworks</td></tr>
-            <tr><td style="text-align: center;">3</td><td>Structured Outputs & JSON Schema Validation</td><td>Implementing guaranteed Pydantic/JSON Schema responses using OpenAI Structured Outputs for robust API integration</td></tr>
-            <tr><td style="text-align: center;">4</td><td>OpenAI Function Calling & Tool Use</td><td>Connecting OpenAI models to external REST APIs, databases, and custom functions via structured tool definitions</td></tr>
-            <tr><td style="text-align: center;">5</td><td>Troubleshooting API Rates, Tokens & Errors</td><td>Handling 429 Rate Limit errors, exponential backoff strategies, token counting optimization (tiktoken), and API error handling</td></tr>
+            <tr><td style="text-align: center;" rowspan="5"><strong>One</strong></td><td style="text-align: center;">1</td><td>OpenAI Developer Ecosystem &amp; API Setup</td><td>Setting up OpenAI API keys, workspace billing, rate limits, model parameters (GPT-4o, mini), and python/node SDK initialization</td></tr>
+            <tr><td style="text-align: center;">2</td><td>Prompt Engineering &amp; System Instructions</td><td>Mastering zero-shot/few-shot prompts, context window management, system roles, and OpenAI Academy prompt evaluation frameworks</td></tr>
+            <tr><td style="text-align: center;">3</td><td>Structured Outputs &amp; JSON Schema Validation</td><td>Implementing guaranteed Pydantic/JSON Schema responses using OpenAI Structured Outputs for robust API integration</td></tr>
+            <tr><td style="text-align: center;">4</td><td>OpenAI Function Calling &amp; Tool Use</td><td>Connecting OpenAI models to external REST APIs, databases, and custom functions via structured tool definitions</td></tr>
+            <tr><td style="text-align: center;">5</td><td>Troubleshooting API Rates, Tokens &amp; Errors</td><td>Handling 429 Rate Limit errors, exponential backoff strategies, token counting optimization (tiktoken), and API error handling</td></tr>
             
             <!-- Week 2 -->
             <tr><td style="text-align: center;" rowspan="5"><strong>Two</strong></td><td style="text-align: center;">6</td><td>OpenAI Assistants API Architecture</td><td>Building stateful Assistants using Threads, Runs, Code Interpreter, and File Search vector stores for enterprise workflows</td></tr>
-            <tr><td style="text-align: center;">7</td><td>Troubleshooting Assistants API & Run States</td><td>Debugging run status stalls (`requires_action`, `failed`), handling tool outputs, and managing persistent thread storage</td></tr>
-            <tr><td style="text-align: center;">8</td><td>Vector Embeddings & RAG Knowledge Bases</td><td>Generating embeddings (`text-embedding-3`), building vector database pipelines (Pinecone/Chroma), and implementing Semantic Search</td></tr>
-            <tr><td style="text-align: center;">9</td><td>Troubleshooting RAG & Context Retrieval Errors</td><td>Fixing vector chunking flaws, hallucination errors, similarity score thresholds, and context window overflow in RAG pipelines</td></tr>
+            <tr><td style="text-align: center;">7</td><td>Troubleshooting Assistants API &amp; Run States</td><td>Debugging run status stalls (`requires_action`, `failed`), handling tool outputs, and managing persistent thread storage</td></tr>
+            <tr><td style="text-align: center;">8</td><td>Vector Embeddings &amp; RAG Knowledge Bases</td><td>Generating embeddings (`text-embedding-3`), building vector database pipelines (Pinecone/Chroma), and implementing Semantic Search</td></tr>
+            <tr><td style="text-align: center;">9</td><td>Troubleshooting RAG &amp; Context Retrieval Errors</td><td>Fixing vector chunking flaws, hallucination errors, similarity score thresholds, and context window overflow in RAG pipelines</td></tr>
             <tr><td style="text-align: center;">10</td><td>Custom Model Fine-Tuning Pipeline</td><td>Preparing jsonl datasets, running fine-tuning jobs on GPT-4o-mini, hyperparameter tuning, and evaluating custom model performance</td></tr>
             
             <!-- Week 3 -->
-            <tr><td style="text-align: center;" rowspan="5"><strong>Three</strong></td><td style="text-align: center;">11</td><td>Troubleshooting Fine-Tuning & Data Quality Errors</td><td>Debugging dataset validation errors, format mismatches, overfitting issues, and model deployment endpoint errors</td></tr>
-            <tr><td style="text-align: center;">12</td><td>OpenAI Realtime API & Speech WebSockets</td><td>Building low-latency speech-to-speech voice agents using the Realtime API, WebSockets, and Whisper integration</td></tr>
-            <tr><td style="text-align: center;">13</td><td>Troubleshooting Realtime Voice & WebSocket Errors</td><td>Resolving audio buffer latencies, WebSocket disconnects, echo feedback loops, and function calling interrupts in voice sessions</td></tr>
+            <tr><td style="text-align: center;" rowspan="5"><strong>Three</strong></td><td style="text-align: center;">11</td><td>Troubleshooting Fine-Tuning &amp; Data Quality Errors</td><td>Debugging dataset validation errors, format mismatches, overfitting issues, and model deployment endpoint errors</td></tr>
+            <tr><td style="text-align: center;">12</td><td>OpenAI Realtime API &amp; Speech WebSockets</td><td>Building low-latency speech-to-speech voice agents using the Realtime API, WebSockets, and Whisper integration</td></tr>
+            <tr><td style="text-align: center;">13</td><td>Troubleshooting Realtime Voice &amp; WebSocket Errors</td><td>Resolving audio buffer latencies, WebSocket disconnects, echo feedback loops, and function calling interrupts in voice sessions</td></tr>
             <tr><td style="text-align: center;">14</td><td>Upwork AI Service Portfolio Publishing</td><td>Setting up specialized Upwork profiles and Project Catalogs offering custom GPT development, RAG buildout, and API integration</td></tr>
-            <tr><td style="text-align: center;">15</td><td>Freelancer.com AI Service Package Setup</td><td>Structuring service offerings on Freelancer.com, attaching architecture diagrams, and setting diagnostic diagnostic pricing</td></tr>
+            <tr><td style="text-align: center;">15</td><td>Freelancer.com AI Service Package Setup</td><td>Structuring service offerings on Freelancer.com, attaching architecture diagrams, and setting diagnostic pricing</td></tr>
             
             <!-- Week 4 -->
-            <tr><td style="text-align: center;" rowspan="5"><strong>Four</strong></td><td style="text-align: center;">16</td><td>Guru.com AI Service Setup & Milestones</td><td>Publishing specialized OpenAI services on Guru.com, establishing fixed milestone deliverables, and structuring contracts</td></tr>
+            <tr><td style="text-align: center;" rowspan="5"><strong>Four</strong></td><td style="text-align: center;">16</td><td>Guru.com AI Service Setup &amp; Milestones</td><td>Publishing specialized OpenAI services on Guru.com, establishing fixed milestone deliverables, and structuring contracts</td></tr>
             <tr><td style="text-align: center;">17</td><td>YouTube Proof of Work (PoW) Recording</td><td>Recording step-by-step video tutorials demonstrating live OpenAI API integrations, RAG pipelines, and custom agent builds as Proof of Work</td></tr>
-            <tr><td style="text-align: center;">18</td><td>YouTube SEO & Client Lead Generation</td><td>Optimizing PoW videos for client search intent (e.g., "Build Custom RAG for Enterprise Documents"), with direct booking call-to-actions</td></tr>
+            <tr><td style="text-align: center;">18</td><td>YouTube SEO &amp; Client Lead Generation</td><td>Optimizing PoW videos for client search intent (e.g., "Build Custom RAG for Enterprise Documents"), with direct booking call-to-actions</td></tr>
             <tr><td style="text-align: center;">19</td><td>Marketplace Proposal Bidding Strategies</td><td>Writing high-converting technical proposals on Upwork, Freelancer, and Guru incorporating PoW demo links to close deals quickly</td></tr>
-            <tr><td style="text-align: center;">20</td><td>Direct Client Outreach & Enterprise Retainers</td><td>Executing outbound marketing to AI startups and business owners to land monthly $1,000–$3,000 AI development & maintenance retainers</td></tr>
+            <tr><td style="text-align: center;">20</td><td>Direct Client Outreach &amp; Enterprise Retainers</td><td>Executing outbound marketing to AI startups and business owners to land monthly $1,000–$3,000 AI development &amp; maintenance retainers</td></tr>
           </tbody>
         </table>
       </article>
@@ -419,7 +385,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2>Enroll in the OpenAI Freelancing Training</h2>
         <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
           <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Ask your mentor</a>
-          <a href="https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
         </div>
       </article>
     </div>
@@ -430,133 +396,70 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer footer-glass">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-brand">
-                        <p>
-                            AI-driven Linux training for freelancers and elite professional support for businesses.
-                            Founded in 2015 by
-                            <strong
-                                ><cite
-                                    ><a
-                                        href="https://www.linkedin.com/in/anythinglinux/"
-                                        target="_blank"
-                                        rel="author noopener noreferrer"
-                                        >Karim (Masum)</a
-                                    ></cite
-                                ></strong
-                            >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
-                        </p>
-                        <aside aria-label="Follow us">
-                            <p>Community:</p>
-                            <address class="footer-social">
-                                <a
-                                    href="https://github.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on GitHub"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-github" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.youtube.com/@SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on YouTube"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.linkedin.com/company/schooloffreelancing"
-                                    aria-label="School of Freelancing on LinkedIn"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-linkedin" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.facebook.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Facebook"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://instagram.com/schooloffreelancing"
-                                    aria-label="School of Freelancing on Instagram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.threads.com/schooloffreelancing"
-                                    aria-label="School of Freelancing on Threads"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-threads" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://wa.me/8801748973769"
-                                    aria-label="Message School of Freelancing on WhatsApp"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://t.me/SchoolOfFreelancingTraining"
-                                    aria-label="Message School of Freelancing on Telegram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-telegram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://x.com/SchoolOfFreelan"
-                                    aria-label="School of Freelancing on X (Twitter)"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
-                                ></a>
-                            </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
-                        </aside>
-                    </div>
-                    <nav aria-label="Footer: Freelancing Training" class="footer-col">
-                        <h2><span>Freelancing Training</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
-                            <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-                            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/">View All Training</a></li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Client Support" class="footer-col">
-                        <h2><span>Client Support</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
-                            <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
-                            <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-                            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-                            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
-                            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
-                            <li>
-                                <a href="/client-support/" aria-label="View all client support services in footer"
-                                    >View All Support</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
-                        <h2><span>Legal</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
-                            <li><a href="/locations/">Locations</a></li>
-                            <li><a href="/legal/refund-policy/">Refund Policy</a></li>
-                            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
-                            <li><a href="/legal/credential-verification/">Credential Verification</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
-            </div>
-        </footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p>
+          AI-driven Linux training for freelancers and elite professional support for businesses.
+          Founded in 2015 by
+          <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+        </p>
+        <aside aria-label="Follow us">
+          <p>Community:</p>
+          <address class="footer-social">
+            <a href="https://github.com/SchoolOfFreelancing" aria-label="School of Freelancing on GitHub" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/@SchoolOfFreelancing" aria-label="School of Freelancing on YouTube" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/schooloffreelancing" aria-label="School of Freelancing on LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/SchoolOfFreelancing" aria-label="School of Freelancing on Facebook" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/schooloffreelancing" aria-label="School of Freelancing on Instagram" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.threads.com/schooloffreelancing" aria-label="School of Freelancing on Threads" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-threads" aria-hidden="true"></i></a>
+            <a href="https://wa.me/8801748973769" aria-label="Message School of Freelancing on WhatsApp" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://t.me/SchoolOfFreelancingTraining" aria-label="Message School of Freelancing on Telegram" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
+            <a href="https://x.com/SchoolOfFreelan" aria-label="School of Freelancing on X (Twitter)" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          </address>
+          <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
+        </aside>
+      </div>
+      <nav aria-label="Footer: Freelancing Training" class="footer-col">
+        <h2><span>Freelancing Training</span></h2>
+        <ul class="footer-links">
+          <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
+          <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
+          <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
+          <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
+          <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
+          <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
+          <li><a href="/freelancing-training/">View All Training</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer: Client Support" class="footer-col">
+        <h2><span>Client Support</span></h2>
+        <ul class="footer-links">
+          <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
+          <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
+          <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
+          <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
+          <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
+          <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
+          <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
+        <h2><span>Legal</span></h2>
+        <ul class="footer-links">
+          <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
+          <li><a href="/locations/">Locations</a></li>
+          <li><a href="/legal/refund-policy/">Refund Policy</a></li>
+          <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/resource-center/">Resource Center</a></li>
+          <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
+          <li><a href="/legal/credential-verification/">Credential Verification</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
+  </div>
+</footer>
 
 <script src="/assets/js/main.js?v=20260828" defer></script>
 <chat-bubble-snippet

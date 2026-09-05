@@ -1,6 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Containerize a Legacy Web Application | School of Freelancing</title>
+    <meta name="description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical & Alternate Links -->
+    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize/">
+    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize/">
+    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize/">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/docker-containerize/">
+    <meta property="og:title" content="How to Containerize a Legacy Web Application | School of Freelancing">
+    <meta property="og:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Containerize a Legacy Web Application | School of Freelancing">
+    <meta name="twitter:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+
+    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
+
+<!-- FontAwesome -->
+<script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
+
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
 <script>
@@ -15,96 +44,61 @@
   src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
 ></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Containerize a Legacy App with Docker</title>
-    <meta name="description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
-    <meta name="og:type" content="website">
-    <meta name="og:title" content="How to Containerize a Legacy Web Application | School of Freelancing">
-    <meta name="og:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="How to Containerize a Legacy Web Application | School of Freelancing">
-    <meta name="twitter:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
-    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize/" />
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script><link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
-<!-- FontAwesome -->
-<script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
+<!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/#content",
-  "url": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/",
-  "headline": "How to Containerize a Legacy Web Application | School of Freelancing",
-  "description": "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://schooloffreelancing.com/#organization",
-    "name": "School of Freelancing",
-    "url": "https://schooloffreelancing.com/"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/#content",
+      "url": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/",
+      "headline": "How to Containerize a Legacy Web Application | School of Freelancing",
+      "description": "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.",
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" },
+        { "@type": "ListItem", "position": 3, "name": "Guides", "item": "https://schooloffreelancing.com/resource-center/guides/" },
+        { "@type": "ListItem", "position": 4, "name": "Docker Containerize Guide", "item": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
+      ]
+    }
   ]
 }
 </script>
-  <meta name="robots" content="index, follow">
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <a class="skip-link" href="#main">Skip to main content</a>
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
       <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
@@ -141,7 +135,7 @@
     </ul>
 
     <h2>Step 1: Create a Dockerfile</h2>
-    <p>Create a `Dockerfile` in your application's root directory:</p>
+    <p>Create a <code>Dockerfile</code> in your application's root directory:</p>
     <pre><code># Use official base image
 FROM node:20-alpine
 
@@ -172,7 +166,7 @@ CMD ["npm", "start"]</code></pre>
     <pre><code>docker run -p 3000:3000 myapp:1.0</code></pre>
 
     <h2>Step 3: Create Docker Compose</h2>
-    <p>Create `docker-compose.yml` for multi-container orchestration:</p>
+    <p>Create <code>docker-compose.yml</code> for multi-container orchestration:</p>
     <pre><code>version: '3.8'
 services:
   web:
@@ -348,7 +342,7 @@ volumes:
                             </li>
                         </ul>
                     </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
+                    <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
                         <h2><span>Legal</span></h2>
                         <ul class="footer-links">
                             <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
@@ -356,7 +350,7 @@ volumes:
                             <li><a href="/legal/refund-policy/">Refund Policy</a></li>
                             <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
                             <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
+                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
                             <li><a href="/legal/credential-verification/">Credential Verification</a></li>
                         </ul>
                     </nav>

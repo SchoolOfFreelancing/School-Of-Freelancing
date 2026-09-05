@@ -22,8 +22,6 @@ Hire Vapi voice AI setup support for assistant config, webhooks, SIP trunking, c
 | Best for: | Businesses, agencies, and developers seeking production-ready Vapi voice bots, seamless CRM integrations, or expert infrastructure troubleshooting. |
 | What you provide: | Vapi dashboard access, telephony provider credentials (e.g. Twilio/Telnyx SIP), and API specifications for required tool calls or webhooks. |
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

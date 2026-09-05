@@ -1,11 +1,11 @@
 ---
-title: "Claude AI - Freelancing Training"
+title: "Claude AI - Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
-# Claude AI - Freelancing Training
+# Claude AI - Freelancing Training | School of Freelancing
 
 ## Overview
 
@@ -51,7 +51,7 @@ Proven proposal strategies and direct outreach tactics to secure high-paying AI 
 | Week | Session | Topic | Content |
 | --- | --- | --- | --- |
 | **One** | 1 | Anthropic Platform & Messages API Setup | Setting up Anthropic Console, managing API keys, rate limits, model selection (Claude 3.5 Sonnet, Haiku), and SDK initialization |
-| 2 | Anthropic Prompt Engineering & XML Structuring | Mastering XML tag formatting (` `, ` `), system prompts, role definition, and Anthropic prompt evaluation techniques |  |
+| 2 | Anthropic Prompt Engineering & XML Structuring | Mastering XML tag formatting (`<instructions>`, `<context>`), system prompts, role definition, and Anthropic prompt evaluation techniques |  |
 | 3 | Claude Tool Use (Function Calling) Foundations | Defining strict JSON schema tool specifications, parsing `tool_use` blocks, and wiring external APIs to Claude responses |  |
 | 4 | Advanced Multi-Tool Execution Workflows | Handling parallel tool calls, custom error outputs back to Claude, loop control, and token-efficient tool response formatting |  |
 | 5 | Troubleshooting Tool Execution & Rate Limit Errors | Fixing tool-call loop bugs, handling 429 rate limits, context budget exhaustion, and strict schema validation errors |  |

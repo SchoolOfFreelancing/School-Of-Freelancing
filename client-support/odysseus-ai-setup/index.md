@@ -22,8 +22,6 @@ Hire School of Freelancing for expert Odysseus AI Setup, deployment, configurati
 | Best for: | Individuals, teams, and businesses requiring production Odysseus AI setup or ongoing private AI infrastructure support without a full-time hire. |
 | What you provide: | Team access to your hardware/server and any existing model or workflow files, ready for production deployment. |
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

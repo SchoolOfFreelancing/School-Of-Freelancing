@@ -29,8 +29,6 @@ Hire OpenAI Platform Support for API setup, custom agent integrations, vector st
 - **Function Calling & Structured Outputs:** Configuring JSON schema validation, multi-step tool calls, and model response structuring.
 - **Reliability & Scalability:** Exponential backoff retry strategies, rate-limit quota handling, and serverless background execution.
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

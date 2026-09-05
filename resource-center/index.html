@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
   <meta charset="UTF-8" />
   <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
@@ -9,12 +9,20 @@
   <meta name="keywords" content="school of freelancing resource center, freelancing training faqs, school of freelancing testimonials" />
   <meta name="robots" content="index, follow"/>
   <link rel="canonical" href="https://schooloffreelancing.com/resource-center/">
+  <link rel="alternate" hreflang="en-US" href="https://schooloffreelancing.com/resource-center/">
+  <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/">
 
   <meta property="og:type" content="website" />
   <meta property="og:url" content="https://schooloffreelancing.com/resource-center/">
   <meta property="og:title" content="Resource Center | School of Freelancing" />
   <meta property="og:description" content="FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI." />
   <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta property="og:image:type" content="image/jpeg" />
+  <meta property="og:image:alt" content="Resource Center | School Of Freelancing" />
+  <meta property="og:locale" content="en_US" />
+  <meta property="og:site_name" content="School Of Freelancing" />
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Resource Center | School of Freelancing">
 <meta name="twitter:description" content="FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.">
@@ -38,24 +46,28 @@
   <script type="application/ld+json">
   {
     "@context": "https://schema.org",
-    "@type": "CollectionPage",
-    "@id": "https://schooloffreelancing.com/resource-center/",
-    "name": "Resource Center",
-    "url": "https://schooloffreelancing.com/resource-center/",
-    "description": "Resource Center hub for School of Freelancing: FAQs, testimonials, intro video, case studies, and how-to guides.",
-    "isPartOf": { "@id": "https://schooloffreelancing.com/#website" }
+    "@graph": [
+      {
+        "@type": "CollectionPage",
+        "@id": "https://schooloffreelancing.com/resource-center/#webpage",
+        "name": "Resource Center",
+        "url": "https://schooloffreelancing.com/resource-center/",
+        "description": "Resource Center hub for School of Freelancing: FAQs, testimonials, intro video, case studies, and how-to guides.",
+        "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
+        "breadcrumb": { "@id": "https://schooloffreelancing.com/resource-center/#breadcrumb" },
+        "inLanguage": "en-US"
+      },
+      {
+        "@type": "BreadcrumbList",
+        "@id": "https://schooloffreelancing.com/resource-center/#breadcrumb",
+        "itemListElement": [
+          { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
+          { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" }
+        ]
+      }
+    ]
   }
   </script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-    { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" }
-  ]
-}
-</script>
 
 <!-- Verification Tags -->
 <meta name="google-site-verification" content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw">
@@ -255,8 +267,6 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     <p style="color: var(--text-secondary); line-height: 1.8; font-size: 0.95rem; margin-bottom: 24px;">
       School of Freelancing maintains comprehensive resources to support both training participants and professional service clients. Whether you're preparing to enroll in hands-on Linux freelancing training, considering our professional Linux infrastructure and AI services, or exploring your freelancing career options, our resources provide transparent information about program structure, expectations, and real student and client outcomes.
     </p>
-    <p style="color: var(--text-secondary); line-height: 1.8; font-size: 0.95rem; margin-bottom: 28px;">
-         </p>
   </div>
 </section>
 

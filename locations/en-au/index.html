@@ -32,7 +32,7 @@
 <meta property="og:type" content="website">
 <meta property="og:site_name" content="School Of Freelancing">
 <meta property="og:url" content="https://schooloffreelancing.com/locations/en-au/">
-<meta property="og:title" content="Freelancing Training for Australian Citizens & Tech Support for AU Businesses">
+<meta property="og:title" content="Freelancing Training for Australian Citizens &amp; Tech Support for AU Businesses">
 <meta property="og:description" content="Live online technical freelancing courses for Australian citizens and enterprise-grade IT infrastructure support for Australian businesses.">
 <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
@@ -43,7 +43,7 @@
 
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
-<meta name="twitter:title" content="Freelancing Training Australia | Citizens & Business IT Support">
+<meta name="twitter:title" content="Freelancing Training Australia | Citizens &amp; Business IT Support">
 <meta name="twitter:description" content="Live online IT freelancing training tailored for Australian citizens and remote tech services for Australian companies.">
 <meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta name="twitter:creator" content="@SchoolOfFreelan">
@@ -67,6 +67,12 @@
 {
   "@context": "https://schema.org",
   "@graph": [
+    {
+      "@type": "WebSite",
+      "@id": "https://schooloffreelancing.com/#website",
+      "url": "https://schooloffreelancing.com/",
+      "name": "School of Freelancing"
+    },
     {
       "@type": "WebPage",
       "@id": "https://schooloffreelancing.com/locations/en-au/#webpage",
@@ -92,8 +98,7 @@
       "description": "Live online training in Linux, DevOps, VoIP, and AI engineering specifically tailored for Australian citizens seeking high-paying global freelance careers.",
       "provider": {
         "@type": "Organization",
-        "name": "School of Freelancing",
-        "sameAs": "https://schooloffreelancing.com/"
+        "@id": "https://schooloffreelancing.com/#organization"
       },
       "educationalCredentialAwarded": "Certified Freelance Technical Specialist",
       "hasCourseInstance": {
@@ -110,35 +115,22 @@
       "areaServed": { "@type": "Country", "name": "Australia" },
       "eligibleCustomerType": "Business",
       "provider": { 
-        "@type": "ProfessionalService", 
-        "@id": "https://schooloffreelancing.com/#organization", 
-        "name": "School of Freelancing" 
+        "@type": "Organization", 
+        "@id": "https://schooloffreelancing.com/#organization" 
       }
     },
     {
-      "@type": "FAQPage",
-      "@id": "https://schooloffreelancing.com/locations/en-au/#faq",
-      "mainEntity": [
-        { 
-          "@type": "Question", 
-          "name": "Who is eligible to join the freelancing training in Australia?", 
-          "acceptedAnswer": { "@type": "Answer", "text": "Our freelancing training programs in Australia are exclusively structured for Australian citizens and permanent residents looking to build high-income technical careers." } 
-        },
-        { 
-          "@type": "Question", 
-          "name": "What tech support services are offered to Australian businesses?", 
-          "acceptedAnswer": { "@type": "Answer", "text": "We provide remote Linux administration, VoIP architecture, DevOps pipeline automation, and AI agent deployment exclusively for corporate and commercial business clients in Australia." } 
-        },
-        { 
-          "@type": "Question", 
-          "name": "Are classes aligned with Australian working hours?", 
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes, all live training modules and 1-on-1 mentorship sessions are scheduled according to Australian time zones (AEST, ACST, AWST)." } 
-        },
-        { 
-          "@type": "Question", 
-          "name": "How can Australian citizens or businesses enroll or hire support?", 
-          "acceptedAnswer": { "@type": "Answer", "text": "Message us directly on Telegram or WhatsApp to verify citizenship for training or discuss business scope requirements for IT support." } 
-        }
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
       ]
     }
   ]
@@ -154,9 +146,9 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional"></noscript>
 <link rel="stylesheet" href="/assets/css/style.css?v=20260720b">
 <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
@@ -216,24 +208,6 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
-  ]
-}
-</script>
 </head>
 
 <body>
@@ -247,8 +221,8 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
+      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
       <li><a href="/freelancing-training/">Freelancing Training</a></li>
@@ -296,7 +270,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
     </div>
 
     <div style="margin: 36px 0;">
-      <h2 style="font-size: 1.6rem; margin-bottom: 14px;" align="center"><span style="color:var(--text-primary)">Why Australian Citizens & Businesses Choose Us</span></h2>
+      <h2 style="font-size: 1.6rem; margin-bottom: 14px;" align="center"><span style="color:var(--text-primary)">Why Australian Citizens &amp; Businesses Choose Us</span></h2>
       <ul class="detail-list" style="color: var(--text-secondary);">
         <li><strong>Citizenship-Focused Training:</strong> A tailored curriculum designed to help Australian citizens secure premium, high-paying remote contracts across global and domestic markets.</li>
         <li><strong>Commercial Business Support:</strong> Specialized IT infrastructure troubleshooting, server hardening, and maintenance for corporate clients in all major Australian metro hubs.</li>
@@ -382,7 +356,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                     <li><a href="/client-support/">View All Support</a></li>
                 </ul>
             </nav>
-            <nav aria-label="Footer: Legal & Resources" class="footer-col">
+            <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
                 <h2><span>Legal</span></h2>
                 <ul class="footer-links">
                     <li><a href="/resource-center/faqs/">FAQs</a></li>

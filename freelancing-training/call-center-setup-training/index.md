@@ -1,11 +1,11 @@
 ---
-title: "Call Center: Setup Freelancing Training"
+title: "Call Center Setup Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn enterprise call center infrastructure deployment, predictive dialers, IVR routing, SIP trunking, and CRM integration, then build a profitable freelance business."
 ---
 
-# Call Center: Setup Freelancing Training
+# Call Center Setup Freelancing Training | School of Freelancing
 
 ## Overview
 
@@ -21,7 +21,6 @@ Learn enterprise call center infrastructure deployment, predictive dialer setup,
 | Covers: | Learn end-to-end call center architecture, auto-dialer engines, WebRTC agent portals, SIP trunking, call recording compliance, and client acquisition on freelance marketplaces. |
 | Best for: | Call Center Managers & BPO Owners, Telephony Engineers, Linux Administrators, DevOps Professionals, IT Consultants & MSPs. |
 | (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
-|  |  |
 
 ### Participation Requirements:
 

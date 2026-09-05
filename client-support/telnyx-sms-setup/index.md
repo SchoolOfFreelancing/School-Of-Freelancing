@@ -29,8 +29,6 @@ Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and b
 - **Number Provisioning & 10DLC Alignment:** Purchasing local or toll-free numbers, attaching them to Messaging Profiles, and assisting with 10DLC brand/campaign registration.
 - **End-to-End Delivery Testing:** Comprehensive inbound and outbound SMS/MMS testing, latency validation, and webhook signature verification.
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

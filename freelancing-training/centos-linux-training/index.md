@@ -1,11 +1,11 @@
 ---
-title: "CentOS Linux - Freelancing Training"
+title: "CentOS Linux - Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients."
 ---
 
-# CentOS Linux - Freelancing Training
+# CentOS Linux - Freelancing Training | School of Freelancing
 
 ## Overview
 
@@ -21,7 +21,6 @@ Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & N
 | Covers: | CentOS server setup, LEMP/LAMP stack deployment with custom domains, Python Django SSL integration, Apache Hadoop cluster setup, MEAN stack, Next.js deployments, error troubleshooting, portfolio publishing (Upwork, Freelancer.com, Guru.com), YouTube Proof of Work (PoW) video marketing, and client outreach. |
 | Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, Data Engineers, & IT Support Technicians. |
 | (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
-|  |  |
 
 ### Participation Requirements:
 

@@ -13,9 +13,12 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <!-- SEO & Generative AI Optimization -->
-<title>Linux Freelancing Training | School of Freelancing</title>
-<!-- Canonical URL -->
+<title>Linux — Freelancing Training | School Of Freelancing</title>
+<!-- Canonical URL & Hreflang Tags -->
 <link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/" />
+<link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/" />
+<link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/" />
+
 <meta name="description" content="Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.">
 <meta name="author" content="School of Freelancing">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
@@ -47,61 +50,112 @@
   src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
 ></script>
 
-<!-- Structured Data (Optimized for AI Search & Rich Snippets) -->
+<!-- Structured Data -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
   "@graph": [
     {
+      "@type": "WebSite",
+      "@id": "https://schooloffreelancing.com/#website",
+      "url": "https://schooloffreelancing.com/",
+      "name": "School of Freelancing"
+    },
+    {
+      "@type": "WebPage",
+      "@id": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/",
+      "name": "Linux Freelancing Training",
+      "description": "Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.",
+      "url": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/",
+      "inLanguage": "en",
+      "isPartOf": { "@id": "https://schooloffreelancing.com/#website" }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
+        { "@type": "ListItem", "position": 2, "name": "All Training", "item": "https://schooloffreelancing.com/freelancing-training/" },
+        { "@type": "ListItem", "position": 3, "name": "Linux Freelancing Training", "item": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/" }
+      ]
+    },
+    {
       "@type": "Course",
-      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" },
-      "@id": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/#training",
+      "@id": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/#course",
       "name": "Linux Freelancing Training",
       "description": "A professional 180-hour hands-on training program focused on Linux Systems Administration and Freelancing on Guru, Upwork, and Freelancer.",
+      "courseCode": "LINUX-FREE-01",
       "provider": {
         "@type": "Organization",
-        "name": "School of Freelancing",
-        "url": "https://schooloffreelancing.com"
+        "@id": "https://schooloffreelancing.com/#organization",
+        "name": "School of Freelancing"
       },
-      "courseCode": "LINUX-FREE-01",
       "educationalLevel": "Advanced / Professional",
-      "offers": {
-        "@type": "Offer",
-        "price": "600",
-        "priceCurrency": "USD",
-        "category": "Paid Training"
-      },
-      "syllabusSections": [
-        { "@type": "Syllabus", "name": "90 Practical Sessions on Linux Server Management" }
-      ],
       "coursePrerequisites": [
         "PC with Ubuntu Desktop (24.04/26.04 LTS)",
         "64-bit dual-core processor (4 GHz)",
         "Minimum 8 GB RAM (16 GB Recommended)",
         "200 GB Disk Space",
         "Fiber-optic internet with Real IP or Server Access"
-      ]
+      ],
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online"
+      },
+      "offers": {
+        "@type": "Offer",
+        "price": "600",
+        "priceCurrency": "USD",
+        "availability": "https://schema.org/InStock",
+        "url": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/"
+      }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What is the Guaranteed Income Policy?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "The Guaranteed Minimum Income is based on two conditions: 1) Regular attendance in all 90 sessions without dropouts. 2) Active marketplace participation by purchasing necessary bids/connects to apply for jobs."
-          }
-        }
-      ]
-    }
-,
-    {
-      "@type": "BreadcrumbList",
-      "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-        { "@type": "ListItem", "position": 2, "name": "All Training", "item": "https://schooloffreelancing.com/freelancing-training/" },
-        { "@type": "ListItem", "position": 3, "name": "Linux Freelancing Training", "item": "https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/" }
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
+        "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
+        "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
+        "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
+        "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
+        "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
+        "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
+        "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
+        "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
+        "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
+        "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
+        "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
+        "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
+        "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
+        "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
+        "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
+        "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
+        "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
+        "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
+        "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
+        "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
+        "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
+        "https://github.com/SchoolOfFreelancing/github-installation-support",
+        "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
+        "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
+        "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
       ]
     }
   ]
@@ -111,7 +165,9 @@
 <!-- Verification Tags -->
 <meta name="google-site-verification" content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw">
 <meta name="msvalidate.01" content="C18D42C136729AADD540EB2FE7763E57">
-<meta name="facebook-domain-verification" content="2304476026236470"><!-- Preconnect to external domains -->
+<meta name="facebook-domain-verification" content="2304476026236470">
+
+<!-- Preconnect to external domains -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
@@ -185,12 +241,16 @@
   .spec-table td.col-label { width: 15%; text-align: center; }
   .spec-table td.col-num { text-align: center; }
 
-  /* 90-session quick-link grid (kept from the original Linux page) */
+  /* 90-session quick-link grid */
   .pipeline-grid { display: grid; grid-template-columns: repeat(auto-fill, minmax(110px, 1fr)); gap: 8px; margin-top: 24px; }
   .pipeline-item { background: rgba(255, 255, 255, 0.08); border: 1px solid rgba(255,255,255,0.15); border-radius: 8px; text-align: center; transition: all 0.2s ease; }
   .pipeline-item a { display: block; padding: 10px; font-size: 0.82rem; text-decoration: none; }
   .pipeline-item:hover { background: rgba(255, 255, 255, 0.2); border-color: rgba(255,255,255,0.4); transform: translateY(-2px); }
+
+  .breadcrumb-nav { font-size: 0.85rem; margin-bottom: 18px; opacity: 0.85; }
+  .breadcrumb-nav a { text-decoration: underline; }
 </style>
+
 <!-- Microsoft Clarity -->
 <script>
     (function(c,l,a,r,i,t,y){
@@ -199,7 +259,6 @@
         y=l.getElementsByTagName(r)[0];y.parentNode.insertBefore(t,y);
     })(window, document, "clarity", "script", "xpbr03hkw6");
 </script>
-<!-- End Microsoft Clarity -->
 
 <!-- Google Tag Manager -->
 <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':
@@ -207,60 +266,9 @@ new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],
 j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
-<!-- End Google Tag Manager -->
+
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
-  ]
-}
-</script>
 </head>
 
 <body>
@@ -268,15 +276,14 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 <!-- Google Tag Manager (noscript) -->
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
 
 <a class="skip-link" href="#main">Skip to main content</a>
 
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
+      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
       <li><a href="/freelancing-training/">Freelancing Training</a></li>
@@ -297,10 +304,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- PAGE HERO -->
 <header class="page-hero">
   <div class="container detail-wrap">
-    <p><a href="/">Home</a> / <a href="/freelancing-training/">All Training</a> / Linux Freelancing Training</p>
+    <p class="breadcrumb-nav"><a href="/">Home</a> / <a href="/freelancing-training/">All Training</a> / Linux Freelancing Training</p>
     <h1>Linux Freelancing Training</h1>
-       </div>
+  </div>
 </header>
+
 <!-- AI-CITABLE OVERVIEW -->
 <section class="section" style="padding-bottom:0;" aria-label="Linux Freelancing Training overview">
   <div class="container detail-wrap">
@@ -335,15 +343,13 @@ Learn Linux system administration for real-world freelancing, including server d
     </article>
       <div class="features-grid features-grid-3">
         <div class="feature-card">
-
           <h3 class="feature-title">Training Prerequisites</h3>
           <ul class="detail-list">
-            <li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_blank">DigitalOcean account,</a></strong> a domain or subdomain, and verified freelance marketplace profiles.</li>
+            <li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_blank" rel="noopener noreferrer">DigitalOcean account,</a></strong> a domain or subdomain, and verified freelance marketplace profiles.</li>
             <li><strong>Rigorous format:</strong> Requires absolute patience and deep focus during live sessions.</li>
           </ul>
         </div>
         <div class="feature-card">
-
           <h3 class="feature-title">Connectivity</h3>
           <ul class="detail-list">
             <li>Mobile messaging device for continuous, client-ready communication.</li>
@@ -351,7 +357,6 @@ Learn Linux system administration for real-world freelancing, including server d
           </ul>
         </div>
         <div class="feature-card">
-
           <h3 class="feature-title">Training Rules</h3>
           <ul class="detail-list">
             <li>These <strong><a href="/legal/training-rules/" target="_self">Rules</a></strong> apply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.</li>
@@ -362,7 +367,7 @@ Learn Linux system administration for real-world freelancing, including server d
   <div class="detail-wrap">
 
     <article class="card" style="margin-top:10px;">
-            <h2 style="margin-bottom:20px;">You'll leave with:</h2>
+      <h2 style="margin-bottom:20px;">You'll leave with:</h2>
       <div class="features-grid features-grid-3">
         <div class="feature-card">
           <div class="feature-icon"><span class="feature-icon-num">1</span></div>
@@ -379,109 +384,108 @@ Learn Linux system administration for real-world freelancing, including server d
       </div>
     </article>
 
-<article class="card" style="margin-top:10px; margin-bottom:0px;">
+    <article class="card" style="margin-top:10px; margin-bottom:0;">
       <h2>Training Modules:</h2>
 
-
       <div class="pipeline-grid">
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/17XTxh_9XgJ4--37dLbIe8ZNkr416ThnypsMwPjbb_nU/edit?usp=sharing" target="_blank">Session 01</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/13iPvZZvilKKCK0To08sWtHG2O1IZgIOpVZP-erq8UR0/edit?usp=sharing" target="_blank">Session 02</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Kk92VyZVxz9zrBzhluFVAceUDpKaYLnVV40WmMZvh7M/edit?usp=sharing" target="_blank">Session 03</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1PVCZK948WGCmmNzrNNn_xdFUgvMRF-ZP2JBksvbrPRA/edit?usp=sharing" target="_blank">Session 04</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Jrb2prwEBlkotss_Xv09hI83W_Z9XP0tIrAoLYNmKnw/edit?usp=sharing" target="_blank">Session 05</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kUpBhSco_fw-lS-yKOLJNwU4DH5UZBfSPo4prfX3bQE/edit?usp=sharing" target="_blank">Session 06</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1O7OMhgAMd88gTBgWKj4m6Hn6HdhyBkoPB-6upS7G_Iw/edit?usp=sharing" target="_blank">Session 07</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1pfzpxxqv8_bfmn5YZ7evcLxmjR2_9WQzUsaxrYImg-Y/edit?usp=sharing" target="_blank">Session 08</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1a7YUcV_b3kxSz7_egMOh6e2VcM9cE0X4q8Rw7CRwNsQ/edit?usp=sharing" target="_blank">Session 09</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1RxQ2RRDnRac60MnZEFUkenbNvyHG9sMv2IrVajtRIm4/edit?usp=sharing" target="_blank">Session 10</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1A9YpgJVa1AuSIRCjOW6QvdEBZzmB9HQKgPrANSsz1H8/edit?usp=sharing" target="_blank">Session 11</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15wrZuqa7j2YOOT6YRqwCj33IcIvYrCHktiOIP0SI_P8/edit?usp=sharing" target="_blank">Session 12</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1yvnSm3bSsmBMBqimPHdh-9qBadA5Pj5zZ1qvKjU2epU/edit?usp=sharing" target="_blank">Session 13</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1iCH40SqEKg4MsadrEjlK2QdkZjYGSsP_EFTxDi7CPEc/edit?usp=sharing" target="_blank">Session 14</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1uuHGpmp01bla2fUSlblfqA9AQUJJeBAp3BL2-yESkMY/edit?usp=sharing" target="_blank">Session 15</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1nZn95BbcOTpgJlQNGCMWICGLdXojm3DEdG2aZOrYCxk/edit?usp=sharing" target="_blank">Session 16</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1qhr9CE262__1SWRIE6l3kIbiOSIU2QyGjCYjU85rLiQ/edit?usp=sharing" target="_blank">Session 17</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1TOfdEsGbqxzrzRc9gchotJZE0ejshFNR41QmR3iSETY/edit?usp=sharing" target="_blank">Session 18</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1M0-EQnZDd7fVZIWDfzL_BGkTr5lrHIHcTOzTZ458bf8/edit?usp=sharing" target="_blank">Session 19</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1IPgWvP10jpPyLa06olLULmmI7A0NOMnNnsODDETpx7k/edit?usp=sharing" target="_blank">Session 20</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1zKDerKzduabg4_zI88HcMxsWd_qwmiHkmFjHsmitEXo/edit?usp=sharing" target="_blank">Session 21</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1hTaQSo6MWSDQDwTLitAXc3z9TpZvC_EVnCqMeCh5w8M/edit?usp=sharing" target="_blank">Session 22</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1BerFJvhUNjZTWZ1SkeicG28U34u-cDQKEr-uab7qJGc/edit?usp=sharing" target="_blank">Session 23</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1E8MozrUWp6YzHvsozv7foVX2SjK-0q6janYdmyActdM/edit?usp=sharing" target="_blank">Session 24</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1rraVirPpjjj1hPzygWf9hBv9-0d1Dm-zBc8XQ5J80nc/edit?usp=sharing" target="_blank">Session 25</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1_l-CnyePn6zHd08xoyEi2jGsaAPDXptCzj3jJn9-BE0/edit?usp=sharing" target="_blank">Session 26</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/19J49vklobxM3ITNyiag-vWpkzNcpVZQ--RgG6V4lLHk/edit?usp=sharing" target="_blank">Session 27</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kJC9AHz8h3U-4q7Z3ezFFmDMhbtVr9f-DK0INrgU0Nw/edit?usp=sharing" target="_blank">Session 28</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1YkK40WR5AGZkhyLpvrUKh-K6zwEz7cU8AjAiMmVoGho/edit?usp=sharing" target="_blank">Session 29</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1RLgm0bXpuYGctXw6ceC4fvgr7mBhRVj0AquwhWNhxLE/edit?usp=sharing" target="_blank">Session 30</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1frq_8LVLuJqwT4O5MzeMpuaPKx2NDTAT65sJrvje6iI/edit?usp=sharing" target="_blank">Session 31</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/13Beb2WhCJkCB7JHi37830dWvuTT1-aSaiMGz5nvwctM/edit?usp=sharing" target="_blank">Session 32</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/19OzGrJbEFiRyZ-ULDRc343vjZv3T6qovLMUDPWg1WyQ/edit?usp=sharing" target="_blank">Session 33</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1p6g5F7-S2W2jI6WEvH_wxj1vYkA8jbl0v9cuYpYUfTQ/edit?usp=sharing" target="_blank">Session 34</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Xd6Op7Ru604vOr2fwtS154xivJ6bVH3UNUKPQgW8y60/edit?usp=sharing" target="_blank">Session 35</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1IFki_c0atrgsDmw4_oQe8z-hP9pDsyYZrvjvlKD9q_I/edit?usp=sharing" target="_blank">Session 36</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15bednCwtjWudLk2V9ePlJeINnFIXiYOzfrJHdrxvskE/edit?usp=sharing" target="_blank">Session 37</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1ef2Tg4pFVAsGdbm2QRpTAqvVYL4jZFPAVkyl5m_EBfo/edit?usp=sharing" target="_blank">Session 38</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1qZklM7C8_ZTAN5l347FI63ctT_NZo2pP_yVZCOQykoc/edit?usp=sharing" target="_blank">Session 39</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1DRZxQD0Ovq9PhdbyIPZjD7HVoMpKproldPmbbRF8B74/edit?usp=sharing" target="_blank">Session 40</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1V0OkBO9XWV4-hN9Q-XtsYSxKjC__SNkpPcFXgKnBdMM/edit?usp=sharing" target="_blank">Session 41</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1dJGjdk3p1eVF7KXe6oiWzeNJDD64gKCK0RfnJ4gI3Qs/edit?usp=sharing" target="_blank">Session 42</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/18sQR2-JsWdxo5XreFbAkoxrmKuflq8VmmutNhe-ewAo/edit?usp=sharing" target="_blank">Session 43</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1lQbPCB9GXFLqoQTSOURuHV_bV76QWmxBxUJMEg6zHW0/edit?usp=sharing" target="_blank">Session 44</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1YW67fmdooqWk1YhMCiSMUosaPVcCcxKYnFwqf3lF1ac/edit?usp=sharing" target="_blank">Session 45</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1ndLTPm922fQIrbylqdQGwHeZPbCwDZ_pmMbL3qzBIaY/edit?usp=sharing" target="_blank">Session 46</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/12f4jPqZuwxZ_Ka2G06bE0EhKyQssKKenuWp-upeGRbA/edit?usp=sharing" target="_blank">Session 47</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1R8ZspSfmLFrGkQqyFzIsQ3RJ5FeLntwWrtIYxO_fdUI/edit?usp=sharing" target="_blank">Session 48</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1KtPAw7T32gH3O2G-joRxhzWtZhtHauLpX8WVfrPFk1g/edit?usp=sharing" target="_blank">Session 49</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1V-F6J_VGxj_TIHuxCCVFuiow7rY5hGRMxHGMiVI24sE/edit?usp=sharing" target="_blank">Session 50</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1RR776TIxnEvK2G7f_H68mGxOsuLrxxWsIfuePKHjd30/edit?usp=sharing" target="_blank">Session 51</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1dzIeC3d05buSzMB_HIjS8J6cYx7EQz3Nd5aJnSAskSU/edit?usp=sharing" target="_blank">Session 52</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1WMXYVJ7S6b131GYYKFwZlS6mXDpFM0ln_wpCrJcHkr8/edit?usp=sharing" target="_blank">Session 53</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1v8KUnAoE_dLSDGhm4cqNrZgvxMZcz2224Bmpqckl3Gc/edit?usp=sharing" target="_blank">Session 54</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1APLXATdBfQUjDg3c0JUPP86DQ1xxhn6U-mcYX8v9o1w/edit?usp=sharing" target="_blank">Session 55</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1hbSu7iRs6y8B7_fax8U4pm856XWMzQLn_x0kUEGE_NY/edit?usp=sharing" target="_blank">Session 56</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/12L8WLMEt-ouXaXmqW37aIhK9fm5oWyWlJv37WXSK5wU/edit?usp=sharing" target="_blank">Session 57</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1sCGktjwKLVI10NcYk13qxSwA0HxFPoGeS-i3y5u_EQg/edit?usp=sharing" target="_blank">Session 58</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1AH36RV-E2aLUq2zJKRTFYjM0s4a8CV3cddD49u3a20E/edit?usp=sharing" target="_blank">Session 59</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1EFjYI6URniN20EM3sszQZmOCrDG8aiS8TRggqAnvFHY/edit?usp=sharing" target="_blank">Session 60</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/18azs1XQ6u9CwJDm_Cw-1acIrjgT57LwHtTpVA-9_puM/edit?usp=sharing" target="_blank">Session 61</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kV6H972MmdH78H7mmmnevBIn7DxOvRIPuNRU1yiA_Ck/edit?usp=sharing" target="_blank">Session 62</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1tjp2txX6lLwJka9Cp7ieRhUwv9PAKJm4Bx9vWVbNXq4/edit?usp=sharing" target="_blank">Session 63</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1e4mbrTOD2GqceGGrR_bHmZ2DNCLF2MgVnsjbZeywi8k/edit?usp=sharing" target="_blank">Session 64</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/18HdeVZO-Yj0LTWhL_xcDoQWtw7p5aubdUsx1hqbQugg/edit?usp=sharing" target="_blank">Session 65</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/125HohqUjeJwf0oQtGmeWNER4ABr1Xv-yjqqHvqKq5GY/edit?usp=sharing" target="_blank">Session 66</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Od4Kdxmc-mNIS-itvF5fGuxKDiy3BEXxnbkxMuH5Neo/edit?usp=sharing" target="_blank">Session 67</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Squz9N45zwkH5feWUPPGBU7gB8xOmOOyZRQcZAQG3AY/edit?usp=sharing" target="_blank">Session 68</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1oR1nsZqwaFQ3jjQ5Tp48VWnUZ-VQAneiLKsZ0DGKj3E/edit?usp=sharing" target="_blank">Session 69</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1T8bK7xKfd7ytKLmyFZ5_kGCFpD-Egh6R8wM6eFitaQU/edit?usp=sharing" target="_blank">Session 70</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1YY3GEPwyj8a7ymjrZemLg-d2y2hjPbsD4Ns7Z4i8YLs/edit?usp=sharing" target="_blank">Session 71</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Y_jOdJ-IN2BFGLaNcnSgUCHjEAK7l_4HJK0PgehSdwA/edit?usp=sharing" target="_blank">Session 72</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1cWM73B3klwjLVzURPV7a5tufCsb3QkgA3RCMyrMOids/edit?usp=sharing" target="_blank">Session 73</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1eu1RSQNK6xTtUecHROorExgoPFb0KyYsVQBBcSB8aYI/edit?usp=sharing" target="_blank">Session 74</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kXCmFfBfS3tpf_j77KCXWTMUkAXDKU0fnk62HMGyfIs/edit?usp=sharing" target="_blank">Session 75</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1cNuvN4iDoMoN7XMzDGQXqnzfqx0XlatUYyVgP-UBBt0/edit?usp=sharing" target="_blank">Session 76</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1sGfybGBh8a9G1cBIPIMbdFlKmebnDVvUXA37B-d5KAo/edit?usp=sharing" target="_blank">Session 77</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1GoehAJp-KHohj0Izx85hc_7Nuwy6ICyD7EF9Qq9GKTk/edit?usp=sharing" target="_blank">Session 78</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1jXujRKcXV7z53shUcEooAHC15JnE_GK1xDKW6HdUWAw/edit?usp=sharing" target="_blank">Session 79</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15XKuF6bBkrVPlEz0T106zYgo_q1FLKcyweVO25DlhyQ/edit?usp=sharing" target="_blank">Session 80</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1D2NNVxQY15ZAm9bqRCCcG7lCsloNQIh4sqCnTCqQqp4/edit?usp=sharing" target="_blank">Session 81</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1LLr0dIceY9jXM9TsLwsEabFEY3pDXHPqxgOFAu_J0u8/edit?usp=sharing" target="_blank">Session 82</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/10aC7qNwXqL7dr_UwDdUftee-y7kJ40m5rXJAidf1S5c/edit?usp=sharing" target="_blank">Session 83</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1GhA6hZbIojORlcLw8bnREzKdCHY-3fTgcIZiK-3Cw5Y/edit?usp=sharing" target="_blank">Session 84</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1p8wjNs2_5LPyK0da3g-41B4_qCw3n8apirtNYGH9QoY/edit?usp=sharing" target="_blank">Session 85</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kSMYwm86SYfre_yjUwjEU9bg8QR-cRdV2MIb7AkYDTg/edit?usp=sharing" target="_blank">Session 86</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15OqgWmAY6X7eM9brkKxul9v9es27gxxsTIVhhzQUUZo/edit?usp=sharing" target="_blank">Session 87</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1ZdEwBOcLgHhbj4c793m9ZesQ0G7tOKn7yjNqr6C2eDs/edit?usp=sharing" target="_blank">Session 88</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Odd0vGlzsbvofGBQAuPaWqYHAQ93_uBx1jtWGfgeTbI/edit?usp=sharing" target="_blank">Session 89</a></div>
-        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1-s46iGGrjwTVECCoF-6sgV8sobj_Ql1Aj5_h2VziSl0/edit?usp=sharing" target="_blank">Session 90</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/17XTxh_9XgJ4--37dLbIe8ZNkr416ThnypsMwPjbb_nU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 01</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/13iPvZZvilKKCK0To08sWtHG2O1IZgIOpVZP-erq8UR0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 02</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Kk92VyZVxz9zrBzhluFVAceUDpKaYLnVV40WmMZvh7M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 03</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1PVCZK948WGCmmNzrNNn_xdFUgvMRF-ZP2JBksvbrPRA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 04</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Jrb2prwEBlkotss_Xv09hI83W_Z9XP0tIrAoLYNmKnw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 05</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kUpBhSco_fw-lS-yKOLJNwU4DH5UZBfSPo4prfX3bQE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 06</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1O7OMhgAMd88gTBgWKj4m6Hn6HdhyBkoPB-6upS7G_Iw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 07</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1pfzpxxqv8_bfmn5YZ7evcLxmjR2_9WQzUsaxrYImg-Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 08</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1a7YUcV_b3kxSz7_egMOh6e2VcM9cE0X4q8Rw7CRwNsQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 09</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1RxQ2RRDnRac60MnZEFUkenbNvyHG9sMv2IrVajtRIm4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 10</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1A9YpgJVa1AuSIRCjOW6QvdEBZzmB9HQKgPrANSsz1H8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 11</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15wrZuqa7j2YOOT6YRqwCj33IcIvYrCHktiOIP0SI_P8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 12</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1yvnSm3bSsmBMBqimPHdh-9qBadA5Pj5zZ1qvKjU2epU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 13</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1iCH40SqEKg4MsadrEjlK2QdkZjYGSsP_EFTxDi7CPEc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 14</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1uuHGpmp01bla2fUSlblfqA9AQUJJeBAp3BL2-yESkMY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 15</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1nZn95BbcOTpgJlQNGCMWICGLdXojm3DEdG2aZOrYCxk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 16</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1qhr9CE262__1SWRIE6l3kIbiOSIU2QyGjCYjU85rLiQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 17</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1TOfdEsGbqxzrzRc9gchotJZE0ejshFNR41QmR3iSETY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 18</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1M0-EQnZDd7fVZIWDfzL_BGkTr5lrHIHcTOzTZ458bf8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 19</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1IPgWvP10jpPyLa06olLULmmI7A0NOMnNnsODDETpx7k/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 20</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1zKDerKzduabg4_zI88HcMxsWd_qwmiHkmFjHsmitEXo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 21</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1hTaQSo6MWSDQDwTLitAXc3z9TpZvC_EVnCqMeCh5w8M/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 22</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1BerFJvhUNjZTWZ1SkeicG28U34u-cDQKEr-uab7qJGc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 23</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1E8MozrUWp6YzHvsozv7foVX2SjK-0q6janYdmyActdM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 24</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1rraVirPpjjj1hPzygWf9hBv9-0d1Dm-zBc8XQ5J80nc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 25</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1_l-CnyePn6zHd08xoyEi2jGsaAPDXptCzj3jJn9-BE0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 26</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/19J49vklobxM3ITNyiag-vWpkzNcpVZQ--RgG6V4lLHk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 27</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kJC9AHz8h3U-4q7Z3ezFFmDMhbtVr9f-DK0INrgU0Nw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 28</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1YkK40WR5AGZkhyLpvrUKh-K6zwEz7cU8AjAiMmVoGho/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 29</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1RLgm0bXpuYGctXw6ceC4fvgr7mBhRVj0AquwhWNhxLE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 30</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1frq_8LVLuJqwT4O5MzeMpuaPKx2NDTAT65sJrvje6iI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 31</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/13Beb2WhCJkCB7JHi37830dWvuTT1-aSaiMGz5nvwctM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 32</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/19OzGrJbEFiRyZ-ULDRc343vjZv3T6qovLMUDPWg1WyQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 33</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1p6g5F7-S2W2jI6WEvH_wxj1vYkA8jbl0v9cuYpYUfTQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 34</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Xd6Op7Ru604vOr2fwtS154xivJ6bVH3UNUKPQgW8y60/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 35</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1IFki_c0atrgsDmw4_oQe8z-hP9pDsyYZrvjvlKD9q_I/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 36</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15bednCwtjWudLk2V9ePlJeINnFIXiYOzfrJHdrxvskE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 37</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1ef2Tg4pFVAsGdbm2QRpTAqvVYL4jZFPAVkyl5m_EBfo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 38</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1qZklM7C8_ZTAN5l347FI63ctT_NZo2pP_yVZCOQykoc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 39</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1DRZxQD0Ovq9PhdbyIPZjD7HVoMpKproldPmbbRF8B74/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 40</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1V0OkBO9XWV4-hN9Q-XtsYSxKjC__SNkpPcFXgKnBdMM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 41</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1dJGjdk3p1eVF7KXe6oiWzeNJDD64gKCK0RfnJ4gI3Qs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 42</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/18sQR2-JsWdxo5XreFbAkoxrmKuflq8VmmutNhe-ewAo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 43</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1lQbPCB9GXFLqoQTSOURuHV_bV76QWmxBxUJMEg6zHW0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 44</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1YW67fmdooqWk1YhMCiSMUosaPVcCcxKYnFwqf3lF1ac/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 45</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1ndLTPm922fQIrbylqdQGwHeZPbCwDZ_pmMbL3qzBIaY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 46</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/12f4jPqZuwxZ_Ka2G06bE0EhKyQssKKenuWp-upeGRbA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 47</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1R8ZspSfmLFrGkQqyFzIsQ3RJ5FeLntwWrtIYxO_fdUI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 48</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1KtPAw7T32gH3O2G-joRxhzWtZhtHauLpX8WVfrPFk1g/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 49</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1V-F6J_VGxj_TIHuxCCVFuiow7rY5hGRMxHGMiVI24sE/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 50</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1RR776TIxnEvK2G7f_H68mGxOsuLrxxWsIfuePKHjd30/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 51</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1dzIeC3d05buSzMB_HIjS8J6cYx7EQz3Nd5aJnSAskSU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 52</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1WMXYVJ7S6b131GYYKFwZlS6mXDpFM0ln_wpCrJcHkr8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 53</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1v8KUnAoE_dLSDGhm4cqNrZgvxMZcz2224Bmpqckl3Gc/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 54</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1APLXATdBfQUjDg3c0JUPP86DQ1xxhn6U-mcYX8v9o1w/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 55</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1hbSu7iRs6y8B7_fax8U4pm856XWMzQLn_x0kUEGE_NY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 56</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/12L8WLMEt-ouXaXmqW37aIhK9fm5oWyWlJv37WXSK5wU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 57</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1sCGktjwKLVI10NcYk13qxSwA0HxFPoGeS-i3y5u_EQg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 58</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1AH36RV-E2aLUq2zJKRTFYjM0s4a8CV3cddD49u3a20E/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 59</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1EFjYI6URniN20EM3sszQZmOCrDG8aiS8TRggqAnvFHY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 60</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/18azs1XQ6u9CwJDm_Cw-1acIrjgT57LwHtTpVA-9_puM/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 61</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kV6H972MmdH78H7mmmnevBIn7DxOvRIPuNRU1yiA_Ck/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 62</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1tjp2txX6lLwJka9Cp7ieRhUwv9PAKJm4Bx9vWVbNXq4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 63</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1e4mbrTOD2GqceGGrR_bHmZ2DNCLF2MgVnsjbZeywi8k/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 64</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/18HdeVZO-Yj0LTWhL_xcDoQWtw7p5aubdUsx1hqbQugg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 65</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/125HohqUjeJwf0oQtGmeWNER4ABr1Xv-yjqqHvqKq5GY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 66</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Od4Kdxmc-mNIS-itvF5fGuxKDiy3BEXxnbkxMuH5Neo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 67</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Squz9N45zwkH5feWUPPGBU7gB8xOmOOyZRQcZAQG3AY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 68</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1oR1nsZqwaFQ3jjQ5Tp48VWnUZ-VQAneiLKsZ0DGKj3E/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 69</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1T8bK7xKfd7ytKLmyFZ5_kGCFpD-Egh6R8wM6eFitaQU/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 70</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1YY3GEPwyj8a7ymjrZemLg-d2y2hjPbsD4Ns7Z4i8YLs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 71</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Y_jOdJ-IN2BFGLaNcnSgUCHjEAK7l_4HJK0PgehSdwA/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 72</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1cWM73B3klwjLVzURPV7a5tufCsb3QkgA3RCMyrMOids/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 73</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1eu1RSQNK6xTtUecHROorExgoPFb0KyYsVQBBcSB8aYI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 74</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kXCmFfBfS3tpf_j77KCXWTMUkAXDKU0fnk62HMGyfIs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 75</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1cNuvN4iDoMoN7XMzDGQXqnzfqx0XlatUYyVgP-UBBt0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 76</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1sGfybGBh8a9G1cBIPIMbdFlKmebnDVvUXA37B-d5KAo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 77</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1GoehAJp-KHohj0Izx85hc_7Nuwy6ICyD7EF9Qq9GKTk/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 78</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1jXujRKcXV7z53shUcEooAHC15JnE_GK1xDKW6HdUWAw/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 79</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15XKuF6bBkrVPlEz0T106zYgo_q1FLKcyweVO25DlhyQ/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 80</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1D2NNVxQY15ZAm9bqRCCcG7lCsloNQIh4sqCnTCqQqp4/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 81</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1LLr0dIceY9jXM9TsLwsEabFEY3pDXHPqxgOFAu_J0u8/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 82</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/10aC7qNwXqL7dr_UwDdUftee-y7kJ40m5rXJAidf1S5c/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 83</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1GhA6hZbIojORlcLw8bnREzKdCHY-3fTgcIZiK-3Cw5Y/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 84</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1p8wjNs2_5LPyK0da3g-41B4_qCw3n8apirtNYGH9QoY/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 85</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1kSMYwm86SYfre_yjUwjEU9bg8QR-cRdV2MIb7AkYDTg/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 86</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/15OqgWmAY6X7eM9brkKxul9v9es27gxxsTIVhhzQUUZo/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 87</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1ZdEwBOcLgHhbj4c793m9ZesQ0G7tOKn7yjNqr6C2eDs/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 88</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1Odd0vGlzsbvofGBQAuPaWqYHAQ93_uBx1jtWGfgeTbI/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 89</a></div>
+        <div class="pipeline-item"><a href="https://docs.google.com/document/d/1-s46iGGrjwTVECCoF-6sgV8sobj_Ql1Aj5_h2VziSl0/edit?usp=sharing" target="_blank" rel="noopener noreferrer">Session 90</a></div>
       </div>
     </article>
 
-      <article class="card" style="text-align: center; margin-top:30px;">
-<h2>Secure Your Seat Now</h2>
-<div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
-<a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" class="btn btn-primary btn-lg">Ask your mentor</a>
-      <a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
+    <article class="card" style="text-align: center; margin-top:30px;">
+      <h2>Secure Your Seat Now</h2>
+      <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
+        <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Ask your mentor</a>
+        <a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
       </div>
     </article>
   </div>
@@ -493,138 +497,77 @@ Learn Linux system administration for real-world freelancing, including server d
 
 <!-- ===== FOOTER ===== -->
 <footer class="footer footer-glass">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-brand">
-                        <p>
-                            AI-driven Linux training for freelancers and elite professional support for businesses.
-                            Founded in 2015 by
-                            <strong
-                                ><cite
-                                    ><a
-                                        href="https://www.linkedin.com/in/anythinglinux/"
-                                        target="_blank"
-                                        rel="author noopener noreferrer"
-                                        >Karim (Masum)</a
-                                    ></cite
-                                ></strong
-                            >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
-                        </p>
-                        <aside aria-label="Follow us">
-                            <p>Community:</p>
-                            <address class="footer-social">
-                                <a
-                                    href="https://github.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on GitHub"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-github" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.youtube.com/@SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on YouTube"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.linkedin.com/company/schooloffreelancing"
-                                    aria-label="School of Freelancing on LinkedIn"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-linkedin" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.facebook.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Facebook"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://instagram.com/schooloffreelancing"
-                                    aria-label="School of Freelancing on Instagram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.threads.com/schooloffreelancing"
-                                    aria-label="School of Freelancing on Threads"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-threads" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://wa.me/8801748973769"
-                                    aria-label="Message School of Freelancing on WhatsApp"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://t.me/SchoolOfFreelancingTraining"
-                                    aria-label="Message School of Freelancing on Telegram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-telegram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://x.com/SchoolOfFreelan"
-                                    aria-label="School of Freelancing on X (Twitter)"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
-                                ></a>
-                            </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
-                        </aside>
-                    </div>
-                    <nav aria-label="Footer: Freelancing Training" class="footer-col">
-                        <h2><span>Freelancing Training</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
-                            <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-                            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/">View All Training</a></li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Client Support" class="footer-col">
-                        <h2><span>Client Support</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
-                            <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
-                            <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-                            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-                            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
-                            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
-                            <li>
-                                <a href="/client-support/" aria-label="View all client support services in footer"
-                                    >View All Support</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
-                        <h2><span>Legal</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
-                            <li><a href="/locations/">Locations</a></li>
-                            <li><a href="/legal/refund-policy/">Refund Policy</a></li>
-                            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
-                            <li><a href="/legal/credential-verification/">Credential Verification</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
-            </div>
-        </footer>
+  <div class="container">
+    <div class="footer-grid">
+      <div class="footer-brand">
+        <p>
+          AI-driven Linux training for freelancers and elite professional support for businesses.
+          Founded in 2015 by
+          <strong>
+            <cite>
+              <a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a>
+            </cite>
+          </strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+        </p>
+        <aside aria-label="Follow us">
+          <p>Community:</p>
+          <address class="footer-social">
+            <a href="https://github.com/SchoolOfFreelancing" aria-label="School of Freelancing on GitHub" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i></a>
+            <a href="https://www.youtube.com/@SchoolOfFreelancing" aria-label="School of Freelancing on YouTube" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a>
+            <a href="https://www.linkedin.com/company/schooloffreelancing" aria-label="School of Freelancing on LinkedIn" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a>
+            <a href="https://www.facebook.com/SchoolOfFreelancing" aria-label="School of Freelancing on Facebook" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a>
+            <a href="https://instagram.com/schooloffreelancing" aria-label="School of Freelancing on Instagram" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-instagram" aria-hidden="true"></i></a>
+            <a href="https://www.threads.com/schooloffreelancing" aria-label="School of Freelancing on Threads" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-threads" aria-hidden="true"></i></a>
+            <a href="https://wa.me/8801748973769" aria-label="Message School of Freelancing on WhatsApp" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a>
+            <a href="https://t.me/SchoolOfFreelancingTraining" aria-label="Message School of Freelancing on Telegram" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a>
+            <a href="https://x.com/SchoolOfFreelan" aria-label="School of Freelancing on X (Twitter)" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
+          </address>
+          <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
+        </aside>
+      </div>
+      <nav aria-label="Footer: Freelancing Training" class="footer-col">
+        <h2><span>Freelancing Training</span></h2>
+        <ul class="footer-links">
+          <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
+          <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
+          <li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a></li>
+          <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
+          <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
+          <li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li>
+          <li><a href="/freelancing-training/">View All Training</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer: Client Support" class="footer-col">
+        <h2><span>Client Support</span></h2>
+        <ul class="footer-links">
+          <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
+          <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
+          <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
+          <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
+          <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
+          <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
+          <li><a href="/client-support/" aria-label="View all client support services in footer">View All Support</a></li>
+        </ul>
+      </nav>
+      <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
+        <h2><span>Legal</span></h2>
+        <ul class="footer-links">
+          <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
+          <li><a href="/locations/">Locations</a></li>
+          <li><a href="/legal/refund-policy/">Refund Policy</a></li>
+          <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
+          <li><a href="/resource-center/">Resource Center</a></li>
+          <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
+          <li><a href="/legal/credential-verification/">Credential Verification</a></li>
+        </ul>
+      </nav>
+    </div>
+    <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
+  </div>
+</footer>
 
 <script src="/assets/js/main.js?v=20260718" defer></script>
-<chat-bubble-snippet
-  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
-></chat-bubble-snippet>
+<chat-bubble-snippet api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"></chat-bubble-snippet>
 
 </body>
 </html>

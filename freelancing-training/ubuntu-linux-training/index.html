@@ -12,9 +12,12 @@
 <link rel="manifest" href="/site.webmanifest">
 
 <!-- SEO -->
-<title>Ubuntu Linux - Freelancing Training</title>
-<!-- Canonical URL - Page Specific -->
+<title>Ubuntu Linux — Freelancing Training</title>
+<!-- Canonical & Hreflang URLs -->
 <link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/" />
+<link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/" />
+<link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/" />
+
 <meta name="description" content="Learn Ubuntu Linux admin: setup web servers, CRMs &amp; harden security. Build a portfolio for freelance clients for Ubuntu support.">
 <meta content="default" name="apple-mobile-web-app-status-bar-style">
 
@@ -30,7 +33,7 @@
 <meta property="og:site_name" content="School Of Freelancing">
 <meta property="og:url" content="https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/">
 <meta property="og:title" content="Ubuntu Linux Freelancing Training">
-<meta property="og:description" content="Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.">
+<meta property="og:description" content="Learn Ubuntu Linux admin: setup web servers, CRMs &amp; harden security. Build a portfolio for freelance clients for Ubuntu support.">
 <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -41,7 +44,7 @@
 <!-- Twitter Card -->
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="Ubuntu Linux Freelancing Training">
-<meta name="twitter:description" content="Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.">
+<meta name="twitter:description" content="Learn Ubuntu Linux admin: setup web servers, CRMs &amp; harden security. Build a portfolio for freelance clients for Ubuntu support.">
 <meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta name="twitter:creator" content="@SchoolOfFreelan">
 
@@ -82,11 +85,14 @@
     },
     {
       "@type": "Course",
-      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" },
+      "@id": "https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/#course",
       "name": "Ubuntu Linux Freelancing Training",
       "description": "Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.",
-      "provider": { "@type": "ProfessionalService", "@id": "https://schooloffreelancing.com/#ProfessionalService", "name": "School of Freelancing" },
-      "learningResourceType": "Training",
+      "provider": { "@id": "https://schooloffreelancing.com/#organization" },
+      "hasCourseInstance": {
+        "@type": "CourseInstance",
+        "courseMode": "online"
+      },
       "offers": {
         "@type": "Offer",
         "price": "165",
@@ -96,23 +102,51 @@
       }
     },
     {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "Do I need prior Linux experience to join?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No prior experience is required. The training starts from basic Linux terminal commands and server setup, then advances to production web stack setup, troubleshooting, and marketplace client acquisition." }
-        },
-        {
-          "@type": "Question",
-          "name": "What web applications will I learn to deploy and troubleshoot?",
-          "acceptedAnswer": { "@type": "Answer", "text": "You will gain hands-on expertise in installing, configuring, and troubleshooting LAMP stacks, WordPress CMS, Drupal CMS, and Laravel applications on Ubuntu Linux servers." }
-        },
-        {
-          "@type": "Question",
-          "name": "Can I pay in installments?",
-          "acceptedAnswer": { "@type": "Answer", "text": "No, we don't offer installment payments to join this training." }
-        }
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
+        "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
+        "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
+        "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
+        "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
+        "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
+        "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
+        "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
+        "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
+        "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
+        "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
+        "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
+        "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
+        "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
+        "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
+        "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
+        "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
+        "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
+        "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
+        "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
+        "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
+        "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
+        "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
+        "https://github.com/SchoolOfFreelancing/github-installation-support",
+        "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
+        "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
+        "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
       ]
     }
   ]
@@ -122,13 +156,15 @@
 <!-- Verification Tags -->
 <meta name="google-site-verification" content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw">
 <meta name="msvalidate.01" content="C18D42C136729AADD540EB2FE7763E57">
-<meta name="facebook-domain-verification" content="2304476026236470"><!-- Preconnect to external domains -->
+<meta name="facebook-domain-verification" content="2304476026236470">
+
+<!-- Preconnect to external domains -->
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link rel="dns-prefetch" href="https://www.google-analytics.com">
-<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
-<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional" media="print" onload="this.media='all'">
-<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"></noscript>
+<link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional">
+<link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional" media="print" onload="this.media='all'">
+<noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=optional"></noscript>
 <link rel="stylesheet" href="/assets/css/style.css?v=20260828a">
 <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
@@ -183,6 +219,7 @@
   .breadcrumb-nav { font-size: 0.85rem; margin-bottom: 18px; opacity: 0.85; }
   .breadcrumb-nav a { text-decoration: underline; }
 </style>
+
 <!-- Microsoft Clarity -->
 <script type="text/javascript">
     (function(c,l,a,r,i,t,y){
@@ -200,59 +237,9 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
 'https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);
 })(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
 <!-- End Google Tag Manager -->
+
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
-  ]
-}
-</script>
 </head>
 
 <body>
@@ -267,7 +254,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School of Freelancing">
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
       <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
@@ -294,14 +281,14 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </div>
 </header>
 
-<!-- AI-CITABLE OVERVIEW -->
+<!-- OVERVIEW -->
 <section class="section training-features-section" style="padding-bottom:0; padding-top:16px;" aria-label="Ubuntu Linux Freelancing Training overview">
   <div class="container detail-wrap">
 
     <div class="card" style="margin-bottom:32px;">
       <h2 style="margin-bottom:12px; font-size: 1.5rem;">Overview</h2>
       <p style="color:var(--text-secondary); line-height:1.7; margin:0;">
-       Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.
+       Learn Ubuntu Linux admin: setup web servers, CRMs &amp; harden security. Build a portfolio for freelance clients for Ubuntu support.
       </p>
     </div>
   
@@ -312,10 +299,9 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <tr><td class="spec-cell">Duration:</td><td>20 Hands-on training sessions over one month training.</td></tr>
         <tr><td class="spec-cell">Price:</td><td>$165 (One-Time Investment).</td></tr>
         <tr><td class="spec-cell">Format:</td><td>Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos.</td></tr>
-        <tr><td class="spec-cell">Covers:</td><td>Ubuntu server setup, LAMP stack deployment & troubleshooting, WordPress, Drupal, & Laravel error diagnosis, hardening Ubuntu, marketplace portfolios (Upwork, Freelancer.com, Guru.com), YouTube video marketing, and direct B2B outreach.</td></tr>
-        <tr><td class="spec-cell">Best for:</td><td>Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, & System Integrators.</td></tr>
+        <tr><td class="spec-cell">Covers:</td><td>Ubuntu server setup, LAMP stack deployment &amp; troubleshooting, WordPress, Drupal, &amp; Laravel error diagnosis, hardening Ubuntu, marketplace portfolios (Upwork, Freelancer.com, Guru.com), YouTube video marketing, and direct B2B outreach.</td></tr>
+        <tr><td class="spec-cell">Best for:</td><td>Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, &amp; System Integrators.</td></tr>
         <tr><td class="spec-cell">(GMI)*:</td><td>Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs.</td></tr>
-        <tr><td class="spec-cell"></td><td></td></tr>
       </tbody>
     </table>
 
@@ -383,32 +369,32 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
           </thead>
           <tbody>
             <!-- Week 1 -->
-            <tr><td style="text-align: center;" rowspan="5"><strong>One</strong></td><td style="text-align: center;">1</td><td>Ubuntu Linux Server Hardening & SSH</td><td>Deploying DigitalOcean Ubuntu droplets, user creation, SSH key setup, UFW firewall rules, and basic terminal management</td></tr>
+            <tr><td style="text-align: center;" rowspan="5"><strong>One</strong></td><td style="text-align: center;">1</td><td>Ubuntu Linux Server Hardening &amp; SSH</td><td>Deploying DigitalOcean Ubuntu droplets, user creation, SSH key setup, UFW firewall rules, and basic terminal management</td></tr>
             <tr><td style="text-align: center;">2</td><td>LAMP Stack Installation on Ubuntu</td><td>Installing Apache web server, MySQL database server, and PHP extensions; configuring virtual hosts and SSL certificates</td></tr>
-            <tr><td style="text-align: center;">3</td><td>LAMP Stack Advanced Troubleshooting</td><td>Resolving Apache 500/502/503 errors, MySQL access denied & crash recovery, PHP memory limit errors, and permissions issues</td></tr>
+            <tr><td style="text-align: center;">3</td><td>LAMP Stack Advanced Troubleshooting</td><td>Resolving Apache 500/502/503 errors, MySQL access denied &amp; crash recovery, PHP memory limit errors, and permissions issues</td></tr>
             <tr><td style="text-align: center;">4</td><td>WordPress CMS Setup on LAMP</td><td>Configuring MySQL databases, downloading WordPress core, setting file permissions (`www-data`), and Apache `.htaccess` rules</td></tr>
-            <tr><td style="text-align: center;">5</td><td>WordPress Troubleshooting & Recovery</td><td>Fixing White Screen of Death (WSOD), `Error Establishing a Database Connection`, plugin conflicts, and uploading limits</td></tr>
+            <tr><td style="text-align: center;">5</td><td>WordPress Troubleshooting &amp; Recovery</td><td>Fixing White Screen of Death (WSOD), `Error Establishing a Database Connection`, plugin conflicts, and uploading limits</td></tr>
             
             <!-- Week 2 -->
             <tr><td style="text-align: center;" rowspan="5"><strong>Two</strong></td><td style="text-align: center;">6</td><td>Drupal CMS Setup on LAMP Stack</td><td>Installing Drupal core dependencies, configuring Apache `mod_rewrite`, setting up trusted host patterns, and database connections</td></tr>
-            <tr><td style="text-align: center;">7</td><td>Drupal Error Diagnosis & Optimization</td><td>Resolving Drupal WSOD, Clean URLs issues, module dependency deadlocks, memory limit exhaustion, and OPCache tuning</td></tr>
+            <tr><td style="text-align: center;">7</td><td>Drupal Error Diagnosis &amp; Optimization</td><td>Resolving Drupal WSOD, Clean URLs issues, module dependency deadlocks, memory limit exhaustion, and OPCache tuning</td></tr>
             <tr><td style="text-align: center;">8</td><td>Laravel Framework Setup on LAMP</td><td>Installing Composer, configuring NGINX/Apache document root to `/public`, `.env` configuration, and Artisan migration setup</td></tr>
             <tr><td style="text-align: center;">9</td><td>Laravel Application Troubleshooting</td><td>Debugging 500 server errors, storage folder permission issues (`chmod`/`chown`), migration failures, and route caching bugs</td></tr>
-            <tr><td style="text-align: center;">10</td><td>Server Monitoring, Log Analysis & Security</td><td>Analyzing `/var/log/apache2/`, `/var/log/syslog`, configuring Fail2ban, automating MySQL backups, and system health checks</td></tr>
+            <tr><td style="text-align: center;">10</td><td>Server Monitoring, Log Analysis &amp; Security</td><td>Analyzing `/var/log/apache2/`, `/var/log/syslog`, configuring Fail2ban, automating MySQL backups, and system health checks</td></tr>
             
             <!-- Week 3 -->
             <tr><td style="text-align: center;" rowspan="5"><strong>Three</strong></td><td style="text-align: center;">11</td><td>Hardening Ubuntu</td><td>Harden your Ubuntu systems according to Internet Security (CIS) standards automatically using Canonical's native Ubuntu Security Guide (USG)</td></tr>
-            <tr><td style="text-align: center;">12</td><td>Upwork Service Portfolio & Catalog</td><td>Building a specialized Upwork SysAdmin profile, publishing Project Catalogs for WordPress, Drupal, & Laravel server setups</td></tr>
-            <tr><td style="text-align: center;">13</td><td>Freelancer.com Service Profile Setup</td><td>Optimizing a Freelancer.com profile, listing core Linux & web stack troubleshooting services, and creating portfolio items</td></tr>
-            <tr><td style="text-align: center;">14</td><td>Guru.com Profile & Milestone Setup</td><td>Setting up a professional Guru.com profile, defining service scope agreements, diagnostic fees, and maintenance rates</td></tr>
+            <tr><td style="text-align: center;">12</td><td>Upwork Service Portfolio &amp; Catalog</td><td>Building a specialized Upwork SysAdmin profile, publishing Project Catalogs for WordPress, Drupal, &amp; Laravel server setups</td></tr>
+            <tr><td style="text-align: center;">13</td><td>Freelancer.com Service Profile Setup</td><td>Optimizing a Freelancer.com profile, listing core Linux &amp; web stack troubleshooting services, and creating portfolio items</td></tr>
+            <tr><td style="text-align: center;">14</td><td>Guru.com Profile &amp; Milestone Setup</td><td>Setting up a professional Guru.com profile, defining service scope agreements, diagnostic fees, and maintenance rates</td></tr>
             <tr><td style="text-align: center;">15</td><td>Cross-Platform Portfolio Synchronization</td><td>Integrating verified architecture diagrams, before/after server logs, and live application links across all marketplace profiles</td></tr>
             
             <!-- Week 4 -->
             <tr><td style="text-align: center;" rowspan="5"><strong>Four</strong></td><td style="text-align: center;">16</td><td>YouTube Demonstration Video Production</td><td>Recording step-by-step video tutorials demonstrating LAMP installation, WordPress recovery, and Laravel deployment tricks</td></tr>
-            <tr><td style="text-align: center;">17</td><td>YouTube SEO & Lead Generation</td><td>Publishing YouTube videos optimized for high-intent search terms (e.g., "Fix WordPress Database Error Ubuntu"), with CTA links</td></tr>
-            <tr><td style="text-align: center;">18</td><td>Marketplace Bidding & Winning Proposals</td><td>Writing customized proposals for Upwork/Freelancer/Guru job posts, offering quick server diagnostics to win contracts fast</td></tr>
+            <tr><td style="text-align: center;">17</td><td>YouTube SEO &amp; Lead Generation</td><td>Publishing YouTube videos optimized for high-intent search terms (e.g., "Fix WordPress Database Error Ubuntu"), with CTA links</td></tr>
+            <tr><td style="text-align: center;">18</td><td>Marketplace Bidding &amp; Winning Proposals</td><td>Writing customized proposals for Upwork/Freelancer/Guru job posts, offering quick server diagnostics to win contracts fast</td></tr>
             <tr><td style="text-align: center;">19</td><td>Direct Client Outreach Marketing</td><td>Finding agency owners, SaaS founders, and e-commerce stores on LinkedIn/Cold Email for direct monthly SysAdmin retainers</td></tr>
-            <tr><td style="text-align: center;">20</td><td>Client Offboarding, Maintenance & Retainers</td><td>Establishing client handover procedures, secure credential sharing, securing 5-star feedback, and closing monthly retainers</td></tr>
+            <tr><td style="text-align: center;">20</td><td>Client Offboarding, Maintenance &amp; Retainers</td><td>Establishing client handover procedures, secure credential sharing, securing 5-star feedback, and closing monthly retainers</td></tr>
           </tbody>
         </table>
       </article>
@@ -417,7 +403,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
         <h2>Secure Your Seat Now</h2>
         <div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;">
           <a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Ask your mentor</a>
-          <a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git/" target="_blank" rel="noopener" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
+          <a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a>
         </div>
       </article>
     </div>
@@ -434,16 +420,11 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                         <p>
                             AI-driven Linux training for freelancers and elite professional support for businesses.
                             Founded in 2015 by
-                            <strong
-                                ><cite
-                                    ><a
+                            <strong><cite><a
                                         href="https://www.linkedin.com/in/anythinglinux/"
                                         target="_blank"
                                         rel="author noopener noreferrer"
-                                        >Karim (Masum)</a
-                                    ></cite
-                                ></strong
-                            >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+                                        >Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
                         </p>
                         <aside aria-label="Follow us">
                             <p>Community:</p>
@@ -539,7 +520,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             </li>
                         </ul>
                     </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
+                    <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
                         <h2><span>Legal</span></h2>
                         <ul class="footer-links">
                             <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
@@ -547,7 +528,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <li><a href="/legal/refund-policy/">Refund Policy</a></li>
                             <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
                             <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
+                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
                             <li><a href="/legal/credential-verification/">Credential Verification</a></li>
                         </ul>
                     </nav>

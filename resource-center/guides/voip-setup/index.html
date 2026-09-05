@@ -1,7 +1,29 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-<!-- Google tag (gtag.js) -->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>How to Set Up Your Own VoIP Phone System | School of Freelancing</title>
+    <meta name="description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
+    <meta name="robots" content="index, follow">
+
+    <!-- Canonical & Alternate Links -->
+    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/voip-setup/">
+    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/guides/voip-setup/">
+    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/guides/voip-setup/">
+
+    <!-- Open Graph Metadata -->
+    <meta property="og:type" content="article">
+    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/voip-setup/">
+    <meta property="og:title" content="How to Set Up Your Own VoIP Phone System | School of Freelancing">
+    <meta property="og:description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
+
+    <!-- Twitter Card Metadata -->
+    <meta name="twitter:card" content="summary_large_image">
+    <meta name="twitter:title" content="How to Set Up Your Own VoIP Phone System | School of Freelancing">
+    <meta name="twitter:description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
+    
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -15,13 +37,7 @@
   src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
 ></script>
 
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Set Up Your Own VoIP Phone System | School of Freelancing</title>
-    <meta name="description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
-    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/voip-setup/" />
-
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script><link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/style.css">
     <!-- Font Awesome 6 Free: footer brand icons -->
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
@@ -32,8 +48,6 @@
   font-weight: 400 !important;
   font-style: normal !important;
 }
-</style>
-<style>
   .footer {
     background: rgba(0, 9, 60, 0.55);
     backdrop-filter: blur(10px);
@@ -42,75 +56,55 @@
 </style>
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-<meta property="og:title" content="How to Set Up Your Own VoIP Phone System | School of Freelancing">
+
+<!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
-  "@type": "Article",
-  "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/#content",
-  "url": "https://schooloffreelancing.com/resource-center/guides/voip-setup/",
-  "headline": "How to Set Up Your Own VoIP Phone System | School of Freelancing",
-  "description": "Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.",
-  "publisher": {
-    "@type": "Organization",
-    "@id": "https://schooloffreelancing.com/#organization",
-    "name": "School of Freelancing",
-    "url": "https://schooloffreelancing.com/"
-  }
-}
-</script>
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Organization",
-  "@id": "https://schooloffreelancing.com/#organization",
-  "name": "School of Freelancing",
-  "url": "https://schooloffreelancing.com/",
-  "sameAs": [
-    "https://github.com/SchoolOfFreelancing",
-    "https://github.com/SchoolOfFreelancing/CentOS-Linux-Support.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/Claude-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/DigitalOcean-Cloud-Support.git",
-    "https://github.com/SchoolOfFreelancing/Docker-Job-Support.git",
-    "https://github.com/SchoolOfFreelancing/FusionPBX-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/GOAutoDial-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/GitLab-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Hermes-Agent-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Hummingbot-Installation-Support",
-    "https://github.com/SchoolOfFreelancing/Jasmin-SMS-Gateway-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Linux-Server-Support.git",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Setup-Support",
-    "https://github.com/SchoolOfFreelancing/LocalAI-Training.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Odysseus-AI-Workspace-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Developer-Training.git",
-    "https://github.com/SchoolOfFreelancing/OpenAI-Platform-Support.git",
-    "https://github.com/SchoolOfFreelancing/OpenClaw-Hands-on-Training.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-API-Training",
-    "https://github.com/SchoolOfFreelancing/Telnyx-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Telnyx-VoIP-Setup",
-    "https://github.com/SchoolOfFreelancing/Twilio-Freelancing-Training.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-SMS-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Twilio-VoIP-Setup.git",
-    "https://github.com/SchoolOfFreelancing/Ubuntu-Linux-Support",
-    "https://github.com/SchoolOfFreelancing/ZeroClaw-Hands-on-Training",
-    "https://github.com/SchoolOfFreelancing/github-installation-support",
-    "https://github.com/SchoolOfFreelancing/openclaw-setup-support",
-    "https://github.com/SchoolOfFreelancing/voice-ai-agent-setup",
-    "https://github.com/SchoolOfFreelancing/zeroclaw-setup-support",
-    "https://instagram.com/schooloffreelancing",
-    "https://www.facebook.com/SchoolOfFreelancing",
-    "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-    "https://www.linkedin.com/company/schooloffreelancing",
-    "https://www.linkedin.com/in/anythinglinux",
-    "https://www.youtube.com/@SchoolOfFreelancing",
-    "https://x.com/SchoolOfFreelan"
+  "@graph": [
+    {
+      "@type": "Article",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/#content",
+      "url": "https://schooloffreelancing.com/resource-center/guides/voip-setup/",
+      "headline": "How to Set Up Your Own VoIP Phone System | School of Freelancing",
+      "description": "Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.",
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" },
+        { "@type": "ListItem", "position": 3, "name": "How-To Guides", "item": "https://schooloffreelancing.com/resource-center/guides/" },
+        { "@type": "ListItem", "position": 4, "name": "VoIP Setup Guide", "item": "https://schooloffreelancing.com/resource-center/guides/voip-setup/" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
+      ]
+    }
   ]
 }
 </script>
-  <meta name="robots" content="index, follow">
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
@@ -159,7 +153,7 @@
 
     <h3>1.1 Install FreeSWITCH Dependencies</h3>
     <p>FusionPBX is built on FreeSWITCH. Install required packages:</p>
-    <pre><code>sudo apt update && sudo apt install -y curl wget gnupg2
+    <pre><code>sudo apt update &amp;&amp; sudo apt install -y curl wget gnupg2
 sudo apt install -y postgresql postgresql-contrib</code></pre>
 
     <h3>1.2 Install FusionPBX</h3>
@@ -173,12 +167,12 @@ sudo ./install/install.sh</code></pre>
 
     <h3>1.3 Secure the Web Interface</h3>
     <p>Access FusionPBX at https://your-domain.com (username: admin, password: provided during install).</p>
-    <p>Immediately change the default password in Settings → Accounts.</p>
+    <p>Immediately change the default password in Settings &rarr; Accounts.</p>
 
     <h2>Step 2: Configure Extensions</h2>
 
     <h3>2.1 Create Your First Extension</h3>
-    <p>In FusionPBX web interface: Dialplan → Extensions → Add</p>
+    <p>In FusionPBX web interface: Dialplan &rarr; Extensions &rarr; Add</p>
     <ul class="detail-list">
       <li><strong>Extension:</strong> 1000</li>
       <li><strong>Enabled:</strong> Yes</li>
@@ -203,15 +197,15 @@ sudo ./install/install.sh</code></pre>
     <h2>Step 3: Build an IVR (Interactive Voice Response)</h2>
 
     <h3>3.1 Create an IVR Menu</h3>
-    <p>In FusionPBX: Dialplan → IVR → Add</p>
+    <p>In FusionPBX: Dialplan &rarr; IVR &rarr; Add</p>
     <ul class="detail-list">
       <li><strong>Name:</strong> Main Menu</li>
       <li><strong>Greet Long:</strong> "Welcome to [Company Name]. Press 1 for sales, 2 for support, 0 for operator."</li>
       <li><strong>Menu Options:</strong>
         <ul>
-          <li>Press 1 → Route to extension 1001 (Sales)</li>
-          <li>Press 2 → Route to extension 1002 (Support)</li>
-          <li>Press 0 → Route to extension 1000 (Operator)</li>
+          <li>Press 1 &rarr; Route to extension 1001 (Sales)</li>
+          <li>Press 2 &rarr; Route to extension 1002 (Support)</li>
+          <li>Press 0 &rarr; Route to extension 1000 (Operator)</li>
         </ul>
       </li>
     </ul>
@@ -219,7 +213,7 @@ sudo ./install/install.sh</code></pre>
     <h2>Step 4: Set Up SIP Trunking</h2>
 
     <h3>4.1 Configure Telnyx SIP Trunk (Example)</h3>
-    <p>Register with Telnyx, get your SIP credentials, then in FusionPBX: Advanced → SIP Profiles → External Profile</p>
+    <p>Register with Telnyx, get your SIP credentials, then in FusionPBX: Advanced &rarr; SIP Profiles &rarr; External Profile</p>
     <p>Add gateway settings (Gateways tab):</p>
     <ul class="detail-list">
       <li><strong>Name:</strong> telnyx-trunk</li>
@@ -230,29 +224,29 @@ sudo ./install/install.sh</code></pre>
     </ul>
 
     <h3>4.2 Create Dialplan for Outbound Calls</h3>
-    <p>In FusionPBX: Dialplan → Dialplan → Add outbound route</p>
+    <p>In FusionPBX: Dialplan &rarr; Dialplan &rarr; Add outbound route</p>
     <ul class="detail-list">
       <li><strong>Expression:</strong> ^(\d{10})$ (for 10-digit US numbers)</li>
       <li><strong>Gateway:</strong> telnyx-trunk</li>
       <li><strong>Action:</strong> bridge {sip_from_user=$1@sip.telnyx.com}</li>
     </ul>
 
-    <h2>Step 5: Call Recording & Voicemail</h2>
+    <h2>Step 5: Call Recording &amp; Voicemail</h2>
 
     <h3>5.1 Enable Call Recording</h3>
     <p>In Extensions settings, enable "Record Calls" for quality assurance and compliance.</p>
 
     <h3>5.2 Voicemail to Email</h3>
-    <p>Configure voicemail-to-email in Settings → Email to notify users of voicemails automatically.</p>
+    <p>Configure voicemail-to-email in Settings &rarr; Email to notify users of voicemails automatically.</p>
 
-    <h2>Step 6: Backup & Monitoring</h2>
+    <h2>Step 6: Backup &amp; Monitoring</h2>
 
     <h3>6.1 Backup FusionPBX Configuration</h3>
-    <pre><code>sudo pg_dump -U postgres fusionpbx > /backups/fusionpbx_$(date +%Y%m%d).sql</code></pre>
+    <pre><code>sudo pg_dump -U postgres fusionpbx &gt; /backups/fusionpbx_$(date +%Y%m%d).sql</code></pre>
     <p>Schedule this daily via cron.</p>
 
     <h3>6.2 Monitor System Health</h3>
-    <p>In FusionPBX: System → System Status</p>
+    <p>In FusionPBX: System &rarr; System Status</p>
     <p>Monitor active calls, registered extensions, and SIP trunk status.</p>
 
     <h2>Common Troubleshooting</h2>
@@ -264,7 +258,7 @@ sudo ./install/install.sh</code></pre>
     <p>Verify: 1) Domain DNS resolves? 2) Port 5060/5061 open? 3) Username/password correct?</p>
 
     <h3>Extensions Don't Register</h3>
-    <p>In FreeSWITCH console: `freeswitch> sofia status` to see registration status. Check logs: `tail -f /var/log/freeswitch/freeswitch.log`</p>
+    <p>In FreeSWITCH console: <code>freeswitch&gt; sofia status</code> to see registration status. Check logs: <code>tail -f /var/log/freeswitch/freeswitch.log</code></p>
 
     <h2>Next Steps</h2>
     <ul class="detail-list">
@@ -394,7 +388,7 @@ sudo ./install/install.sh</code></pre>
                             </li>
                         </ul>
                     </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
+                    <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
                         <h2><span>Legal</span></h2>
                         <ul class="footer-links">
                             <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
@@ -402,7 +396,7 @@ sudo ./install/install.sh</code></pre>
                             <li><a href="/legal/refund-policy/">Refund Policy</a></li>
                             <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
                             <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms & Conditions</a></li>
+                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
                             <li><a href="/legal/credential-verification/">Credential Verification</a></li>
                         </ul>
                     </nav>

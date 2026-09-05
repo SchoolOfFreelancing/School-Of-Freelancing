@@ -1,11 +1,11 @@
 ---
-title: "OpenAI Freelancing Training | API & AI Projects"
+title: "OpenAI — Freelancing Training | API & AI Projects"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
-# OpenAI Freelancing Training | API & AI Projects
+# OpenAI — Freelancing Training | API & AI Projects
 
 ## Overview
 
@@ -64,7 +64,7 @@ Battle-tested client outreach frameworks to win high-ticket AI engineering contr
 | 12 | OpenAI Realtime API & Speech WebSockets | Building low-latency speech-to-speech voice agents using the Realtime API, WebSockets, and Whisper integration |  |
 | 13 | Troubleshooting Realtime Voice & WebSocket Errors | Resolving audio buffer latencies, WebSocket disconnects, echo feedback loops, and function calling interrupts in voice sessions |  |
 | 14 | Upwork AI Service Portfolio Publishing | Setting up specialized Upwork profiles and Project Catalogs offering custom GPT development, RAG buildout, and API integration |  |
-| 15 | Freelancer.com AI Service Package Setup | Structuring service offerings on Freelancer.com, attaching architecture diagrams, and setting diagnostic diagnostic pricing |  |
+| 15 | Freelancer.com AI Service Package Setup | Structuring service offerings on Freelancer.com, attaching architecture diagrams, and setting diagnostic pricing |  |
 | **Four** | 16 | Guru.com AI Service Setup & Milestones | Publishing specialized OpenAI services on Guru.com, establishing fixed milestone deliverables, and structuring contracts |
 | 17 | YouTube Proof of Work (PoW) Recording | Recording step-by-step video tutorials demonstrating live OpenAI API integrations, RAG pipelines, and custom agent builds as Proof of Work |  |
 | 18 | YouTube SEO & Client Lead Generation | Optimizing PoW videos for client search intent (e.g., "Build Custom RAG for Enterprise Documents"), with direct booking call-to-actions |  |

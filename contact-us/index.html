@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en-US">
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -10,7 +10,7 @@
 <link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png">
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-chrome-192x192.png">
 <link rel="manifest" href="/site.webmanifest">
-<title>Contact Us — School of Freelancing</title>
+<title>Contact Us | School Of Freelancing</title>
 
 <meta name="description" content="Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.">
 
@@ -18,6 +18,8 @@
 <meta name="author" content="School of Freelancing">
 <meta name="robots" content="index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1">
 <link rel="canonical" href="https://schooloffreelancing.com/contact-us/" />
+<link rel="alternate" hreflang="en-US" href="https://schooloffreelancing.com/contact-us/" />
+<link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/contact-us/" />
 
 <!-- Open Graph -->
 <meta property="og:type" content="website">
@@ -59,84 +61,18 @@
   "@graph": [
     {
       "@type": "WebSite",
-      "@id": "https://schooloffreelancing.com/#WebSite",
+      "@id": "https://schooloffreelancing.com/#website",
       "url": "https://schooloffreelancing.com/",
       "name": "School of Freelancing",
-      "publisher": { "@id": "https://schooloffreelancing.com/#ProfessionalService" }
-    },
-    {
-      "@type": "ProfessionalService",
-      "@id": "https://schooloffreelancing.com/#ProfessionalService",
-      "name": "School of Freelancing",
-      "url": "https://schooloffreelancing.com",
-      "logo": "https://schooloffreelancing.com/assets/images/logo.jpg",
-      "description": "School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses.",
-      "sameAs": [
-        "https://www.linkedin.com/company/schooloffreelancing",
-        "https://www.facebook.com/SchoolOfFreelancing",
-        "https://www.youtube.com/@SchoolOfFreelancing",
-        "https://x.com/SchoolOfFreelan",
-        "https://www.instagram.com/schooloffreelancing",
-        "https://www.threads.com/@schooloffreelancing"
-      ],
-      "contactPoint": {
-        "@type": "ContactPoint",
-        "email": "office@schooloffreelancing.com",
-        "telephone": "+8801748973769",
-        "contactType": "customer service"
-      }
+      "publisher": { "@id": "https://schooloffreelancing.com/#organization" }
     },
     {
       "@type": "WebPage",
-      "@id": "https://schooloffreelancing.com/contact-us/#WebPage",
+      "@id": "https://schooloffreelancing.com/contact-us/#webpage",
       "url": "https://schooloffreelancing.com/contact-us/",
       "name": "Contact Us | School Of Freelancing",
-      "isPartOf": { "@id": "https://schooloffreelancing.com/#WebSite" },
-      "about": { "@id": "https://schooloffreelancing.com/#ProfessionalService" }
-    },
-    {
-      "@type": "FAQPage",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "How can I contact School of Freelancing?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "You can reach School of Freelancing by Telegram, WhatsApp, phone, email at office@schooloffreelancing.com, or Facebook Messenger. All contact options are listed on the Contact Us page."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How quickly does School of Freelancing respond to inquiries?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "School of Freelancing replies to messages submitted through the contact form within 24 hours."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Where is School of Freelancing located?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "School of Freelancing operates from Bangladesh and can be located on Google Maps using Plus Code F55Q+63."
-          }
-        }
-      ]
-    },
-    {
-      "@type": "Course",
-      "hasCourseInstance": { "@type": "CourseInstance", "courseMode": "online" },
-      "name": "Linux Freelancing Training",
-      "description": "Hands-on training for beginners to become professional Linux freelancers, covering server administration, DevOps, and client-ready freelance skills.",
-      "provider": { "@type": "ProfessionalService", "@id": "https://schooloffreelancing.com/#ProfessionalService", "name": "School of Freelancing" }
-    },
-    {
-      "@type": "Service",
-      "name": "Linux Cloud Support",
-      "serviceType": "Linux Cloud Support",
-      "description": "Professional Linux cloud support for businesses, including server administration, DevOps, VPS management, and cloud migration.",
-      "provider": { "@type": "ProfessionalService", "@id": "https://schooloffreelancing.com/#ProfessionalService", "name": "School of Freelancing" },
-      "areaServed": "Worldwide"
+      "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
+      "about": { "@id": "https://schooloffreelancing.com/#organization" }
     },
     {
       "@type": "BreadcrumbList",

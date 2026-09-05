@@ -1,11 +1,11 @@
 ---
-title: "Jasmin SMS Gateway - Freelancing Training"
+title: "Jasmin SMS Gateway — Freelancing Training"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients."
 ---
 
-# Jasmin SMS Gateway - Freelancing Training
+# Jasmin SMS Gateway — Freelancing Training
 
 ## Overview
 

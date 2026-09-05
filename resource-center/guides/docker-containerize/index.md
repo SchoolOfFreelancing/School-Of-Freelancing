@@ -1,5 +1,5 @@
 ---
-title: "How to Containerize a Legacy App with Docker"
+title: "How to Containerize a Legacy Web Application | School of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."
@@ -20,7 +20,7 @@ This guide teaches containerizing existing web applications with Docker. You'll 
 Create a `Dockerfile` in your application's root directory:
 
 ```
-# How to Containerize a Legacy App with Docker
+# How to Containerize a Legacy Web Application | School of Freelancing
 FROM node:20-alpine
 
 ## Set working directory

@@ -22,8 +22,6 @@ Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and b
 | Best for: | Individuals, teams, and businesses requiring production Twilio SMS setup or ongoing business messaging support without a full-time hire. |
 | What you provide: | Team access to your Twilio account and server/VPS, along with any existing messaging or webhook configuration ready for production deployment. |
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
 Book a free 10-minute consultation to scope your project.

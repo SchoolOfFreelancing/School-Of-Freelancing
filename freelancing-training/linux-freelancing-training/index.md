@@ -1,11 +1,11 @@
 ---
-title: "Linux Freelancing Training | School of Freelancing"
+title: "Linux — Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-09-05
 description: "Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients."
 ---
 
-# Linux Freelancing Training | School of Freelancing
+# Linux — Freelancing Training | School Of Freelancing
 
 ## Overview
 
