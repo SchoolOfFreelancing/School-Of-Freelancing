@@ -121,8 +121,7 @@
   "authentication": {
     "required": false,
     "methods": [
-      "bearer_token",
-      "oauth2"
+    
     ],
     "endpoints": {
       "oauth": "https://schooloffreelancing.com/.well-known/openid-configuration.json"
@@ -131,6 +130,6 @@
   "transport": {
     "supported": ["sse", "websocket", "stdio"]
   },
-  "documentation": "https://schooloffreelancing.com/Auth.md",
+  "documentation": "https://schooloffreelancing.com/auth.md",
   "homepage": "https://schooloffreelancing.com/"
 }

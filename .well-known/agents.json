@@ -11,9 +11,8 @@
         "training-discovery",
         "service-discovery",
         "resource-lookup",
-        "mcp-integration",
-        "oauth-authentication"
-      ],
+        "mcp-integration"
+     ],
       "endpoints": {
         "index": {
           "uri": "https://schooloffreelancing.com/.well-known/agents.json",
@@ -76,10 +75,7 @@
           "contentType": "text/plain"
         }
       },
-      "authentication": {
-        "type": "oauth2",
-        "discoveryEndpoint": "https://schooloffreelancing.com/.well-known/openid-configuration.json"
-      }
+
     }
   ]
 }
