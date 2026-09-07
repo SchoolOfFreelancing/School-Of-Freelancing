@@ -1,7 +1,7 @@
 ---
 title: "Docker Freelancing Training | Learn & Get Support"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer."
 ---
 

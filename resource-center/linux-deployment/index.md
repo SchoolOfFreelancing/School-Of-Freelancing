@@ -1,7 +1,7 @@
 ---
 title: "How to Deploy a Linux Server from Zero to Production | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."
 ---
 

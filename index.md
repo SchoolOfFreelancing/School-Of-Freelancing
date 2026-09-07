@@ -1,11 +1,11 @@
 ---
-title: "Freelancing Training — Tech Support | 5.0★ Rated"
+title: "Freelancing Training — Linux Tech Support | 5.0★ Rated"
 author: "Karim (Masum)"
-date: 2026-09-05
-description: "School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses."
+date: 2026-09-08
+description: "School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015."
 ---
 
-# Freelancing Training — Tech Support | 5.0★ Rated
+# Freelancing Training — Linux Tech Support | 5.0★ Rated
 
 ## What Freelancing Training Do We Offer?
 
@@ -66,7 +66,7 @@ One of the best institutes for freelancers in Bangladesh, even the world. The in
 was very knowledgeable and helpful, explaining complicated ideas in a way that was
 simple to understand.
 
-School Of Freelancing is the best place for Linux freelancing. I learned and earned my
+School of Freelancing is the best place for Linux freelancing. I learned and earned my
 first income working with this school. Highly recommended.
 
 ## What Support Do We Provide?

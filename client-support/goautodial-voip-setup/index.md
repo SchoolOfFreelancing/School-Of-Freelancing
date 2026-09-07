@@ -1,7 +1,7 @@
 ---
 title: "GOAutoDial VoIP Setup & Configuration | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Hire GOAutoDial VoIP Setup support for SIP trunks, predictive dialers, call routing, IVRs, and call center integrations."
 ---
 

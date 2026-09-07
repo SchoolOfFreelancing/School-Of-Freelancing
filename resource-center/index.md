@@ -1,15 +1,11 @@
 ---
 title: "Resource Center | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "The School of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI."
 ---
 
 # Resource Center | School of Freelancing
-
-School of Freelancing maintains comprehensive resources to support both training participants and professional service clients. Whether you're preparing to enroll in hands-on Linux freelancing training, considering our professional Linux infrastructure and AI services, or exploring your freelancing career options, our resources provide transparent information about program structure, expectations, and real student and client outcomes.
-
-## Where Would You Like to Start?
 
 ## FAQs
 

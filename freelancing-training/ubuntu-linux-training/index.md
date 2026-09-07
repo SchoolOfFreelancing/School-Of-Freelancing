@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Linux — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Learn Ubuntu Linux admin: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support."
 ---
 

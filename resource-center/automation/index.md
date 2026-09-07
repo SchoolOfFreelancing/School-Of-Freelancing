@@ -1,7 +1,7 @@
 ---
 title: "How to Automate Your First Repetitive Task | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron."
 ---
 

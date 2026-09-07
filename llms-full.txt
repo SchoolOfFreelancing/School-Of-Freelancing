@@ -4,17 +4,12 @@
 
 ## Main Pages
 
-### Freelancing Training — Tech Support | 5.0★ Rated
+### Freelancing Training — Linux Tech Support | 5.0★ Rated
 URL: https://schooloffreelancing.com/
 
-School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
+School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.
 
-### Linux, AI Freelancing Training & Client Services | SOF Site Map Page 1 - created with PRO Sitemap Service - pro-sitemaps.com
-URL: https://schooloffreelancing.com/sitemap.html
-
-Learn about Sitemap from School Of Freelancing. Explore training, technical support, and freelancing resources.
-
-### Page Not Found | School of Freelancing
+### Page Not Found | School Of Freelancing
 URL: https://schooloffreelancing.com/404.html
 
 The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources on School of Freelancing.
@@ -27,11 +22,6 @@ URL: https://schooloffreelancing.com/about-us/
 Founded in 2015 by Karim (Masum), School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
 
 ## Client Support
-
-### #1 Remote Tech Support | School Of Freelancing
-URL: https://schooloffreelancing.com/client-support/
-
-Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
 
 ### CentOS Linux — Support | Hire Support
 URL: https://schooloffreelancing.com/client-support/centos-linux-support/
@@ -112,6 +102,11 @@ Hire OpenAI Platform Support for API setup, integrations, agents, troubleshootin
 URL: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 
 Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support.
+
+### Tech Support — School Of Freelancing
+URL: https://schooloffreelancing.com/client-support/
+
+Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
 
 ### Telnyx SMS Setup Support | Business Messaging Integration
 URL: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
@@ -252,7 +247,7 @@ URL: https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-trainin
 
 Learn to integrate Telnyx SMS APIs for automated texting and OTPs. Boost your freelance developer portfolio and land high-paying gigs. Enroll today!
 
-### Twilio — SMS Freelancing Training
+### Twilio SMS — Freelancing Training
 URL: https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/
 
 Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-world freelancing skills through hands-on project-based training.
@@ -274,6 +269,11 @@ URL: https://schooloffreelancing.com/legal/credential-verification/
 
 Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us.
 
+### Legal | School Of Freelancing
+URL: https://schooloffreelancing.com/legal/
+
+School Of Freelancing legal: Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support.
+
 ### Privacy Policy — School of Freelancing
 URL: https://schooloffreelancing.com/legal/privacy-policy/
 
@@ -289,7 +289,7 @@ URL: https://schooloffreelancing.com/legal/terms-and-conditions/
 
 Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
 
-### Training Rules — School of Freelancing
+### Training Rules — School Of Freelancing
 URL: https://schooloffreelancing.com/legal/training-rules/
 
 Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
@@ -409,27 +409,27 @@ URL: https://schooloffreelancing.com/resource-center/faqs/
 Answers to common questions about School of Freelancing's training programs and client support services.
 
 ### How to Automate Your First Repetitive Task | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/guides/automation/
+URL: https://schooloffreelancing.com/resource-center/automation/
 
 Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
 
 ### How to Containerize a Legacy Web Application | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/guides/docker-containerize/
+URL: https://schooloffreelancing.com/resource-center/docker-containerize/
 
 Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
 
 ### How to Create Your First AI Chatbot | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/guides/ai-chatbot/
+URL: https://schooloffreelancing.com/resource-center/ai-chatbot/
 
 Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
 ### How to Deploy a Linux Server from Zero to Production | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/guides/linux-deployment/
+URL: https://schooloffreelancing.com/resource-center/linux-deployment/
 
 Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.
 
 ### How to Set Up Your Own VoIP Phone System | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/guides/voip-setup/
+URL: https://schooloffreelancing.com/resource-center/voip-setup/
 
 Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
 
@@ -452,10 +452,3 @@ The School of Freelancing Resource Center: FAQs, testimonials, case studies, an 
 URL: https://schooloffreelancing.com/resource-center/testimonials/
 
 School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
-
-## Sitemap
-
-### Sitemap | School of Freelancing
-URL: https://schooloffreelancing.com/sitemap/
-
-Browse the full sitemap of School of Freelancing — training pages, client support services, and resources.

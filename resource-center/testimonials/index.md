@@ -1,7 +1,7 @@
 ---
 title: "What our customers say | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses"
 ---
 

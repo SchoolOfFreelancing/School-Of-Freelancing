@@ -1,11 +1,11 @@
 ---
-title: "Training Rules — School of Freelancing"
+title: "Training Rules — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training."
 ---
 
-# Training Rules — School of Freelancing
+# Training Rules — School Of Freelancing
 
 ## 1. Introduction
 

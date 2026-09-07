@@ -1,11 +1,11 @@
 ---
-title: "Twilio — SMS Freelancing Training"
+title: "Twilio SMS — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-world freelancing skills through hands-on project-based training."
 ---
 
-# Twilio — SMS Freelancing Training
+# Twilio SMS — Freelancing Training
 
 ## Overview
 

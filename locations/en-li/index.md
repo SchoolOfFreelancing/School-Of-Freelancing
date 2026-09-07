@@ -1,7 +1,7 @@
 ---
 title: "Liechtenstein Freelance Training and IT Services"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Top Liechtenstein freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!"
 ---
 

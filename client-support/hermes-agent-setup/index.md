@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control."
 ---
 

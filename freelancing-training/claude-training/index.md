@@ -1,7 +1,7 @@
 ---
 title: "Claude AI - Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-05
+date: 2026-09-08
 description: "Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
