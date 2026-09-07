@@ -49,7 +49,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/client-support/github-installation-support/</loc>
+    <loc>https://schooloffreelancing.com/client-support/github-installation-support</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
@@ -157,7 +157,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/contact-us/</loc>
+    <loc>https://schooloffreelancing.com/contact-us</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
@@ -277,7 +277,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/</loc>
+    <loc>https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
@@ -307,7 +307,7 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/legal/refund-policy/</loc>
+    <loc>https://schooloffreelancing.com/legal/refund-policy</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
@@ -505,15 +505,9 @@
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/resource-center/testimonials/</loc>
+    <loc>https://schooloffreelancing.com/resource-center/testimonials</loc>
     <lastmod>2026-09-06</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
-  </url>
-  <url>
-    <loc>https://schooloffreelancing.com/sitemap/</loc>
-    <lastmod>2026-09-06</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.8</priority>
   </url>
 </urlset>
