@@ -115,3 +115,12 @@ ErrorDocument 500 /500.html
     AddOutputFilterByType DEFLATE image/svg+xml
 
 </IfModule>
+
+# ==============================================================================
+# 6. GZIP COMPRESSION
+# ==============================================================================
+
+<Files "http-message-signatures-directory">
+    ForceType application/json
+</Files>
+
