@@ -1,0 +1,20 @@
+{
+  "issuer": "https://schooloffreelancing.com",
+  "authorization_endpoint": "https://schooloffreelancing.com/api/oauth/authorize",
+  "token_endpoint": "https://schooloffreelancing.com/api/oauth/token",
+  "revocation_endpoint": "https://schooloffreelancing.com/api/oauth/revoke",
+  "userinfo_endpoint": "https://schooloffreelancing.com/api/oauth/userinfo",
+  "response_types_supported": ["code"],
+  "grant_types_supported": ["authorization_code"],
+  "agent_auth": {
+    "skill": "https://schooloffreelancing.com/auth.md",
+    "register_uri": "https://schooloffreelancing.com/api/oauth/authorize",
+    "identity_types_supported": ["identity_assertion"],
+    "identity_assertion": {
+      "assertion_types_supported": ["verified_email"],
+      "claim_uri": "https://schooloffreelancing.com/api/oauth/token"
+    },
+    "revocation_uri": "https://schooloffreelancing.com/api/oauth/revoke",
+    "events_supported": ["revocation"]
+  }
+}
