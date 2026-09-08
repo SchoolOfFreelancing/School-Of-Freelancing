@@ -21,12 +21,6 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     # 1. FIX CANONICAL & DUPLICATE URL ISSUES
     # ==============================================================================
     # HTTPS forcing and www removal are handled at the Cloudflare edge.
-    #
-    # Cloudflare:
-    #   - Always Use HTTPS handles HTTP → HTTPS
-    #   - Redirect Rule handles www → non-www
-    #
-    # This keeps the Apache origin free from conflicting canonical redirects.
 
     # ------------------------------------------------------------------------------
     # Redirect explicit /index.html requests to the directory root
@@ -62,12 +56,10 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     RewriteRule ^ - [L]
 
     # ------------------------------------------------------------------------------
-    # Extensionless HTML slug routing
-    # Example:
-    #   /about → /about.html
+    # Extensionless HTML slug routing (Supports nested paths e.g., /legal/terms)
     # ------------------------------------------------------------------------------
     RewriteCond %{REQUEST_FILENAME}.html -f
-    RewriteRule ^([^/]+)/?$ $1.html [L]
+    RewriteRule ^(.+)/?$ $1.html [L]
 
     # ------------------------------------------------------------------------------
     # Fallback to index.html for unmapped paths / SPA routes
@@ -117,10 +109,9 @@ ErrorDocument 500 /500.html
 </IfModule>
 
 # ==============================================================================
-# 6. GZIP COMPRESSION
+# 6. SPECIAL FILE TYPES
 # ==============================================================================
 
 <Files "http-message-signatures-directory">
     ForceType application/json
 </Files>
-
