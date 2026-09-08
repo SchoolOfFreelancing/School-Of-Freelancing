@@ -62,12 +62,11 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     RewriteRule ^(.+)/?$ $1.html [L]
 
     # ------------------------------------------------------------------------------
-    # Fallback to index.html for unmapped paths / SPA routes
+    # NOTE: No SPA/index.html fallback here on purpose.
+    # This site uses server-side slug -> .html mapping (rule above), not a
+    # client-side JS router. Removing the old catch-all fallback lets Apache
+    # return a genuine 404 for unmapped paths, so ErrorDocument 404 below works.
     # ------------------------------------------------------------------------------
-    RewriteCond %{ENV:REDIRECT_STATUS} ^$
-    RewriteCond %{REQUEST_FILENAME} !-f
-    RewriteCond %{REQUEST_FILENAME} !-d
-    RewriteRule ^ index.html [L]
 
 </IfModule>
 
