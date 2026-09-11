@@ -1,0 +1,158 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:04+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/freelancing-training/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/freelancing-training/
+Title: Freelancing Training — School Of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training
+Description: Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
+
+Page: https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/
+Title: Bulk SMS - Setup Training | School of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training
+Description: Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/call-center-setup-training/
+Title: Call Center Setup Freelancing Training | School of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/call-center-setup-training
+Description: Learn enterprise call center infrastructure deployment, predictive dialers, IVR routing, SIP trunking, and CRM integration, then build a profitable freelance business.
+
+Page: https://schooloffreelancing.com/freelancing-training/centos-linux-training/
+Title: CentOS Linux - Freelancing Training | School of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/centos-linux-training
+Description: Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN &amp; Next.js, troubleshoot errors, build portfolios, land clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/claude-training/
+Title: Claude AI - Freelancing Training | School of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/claude-training
+Description: Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/debian-linux-training/
+Title: Debian Linux - Freelancing Training | School of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/debian-linux-training
+Description: Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP &amp; Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/docker-training/
+Title: Docker Freelancing Training | Learn &amp; Get Support
+Canonical: https://schooloffreelancing.com/freelancing-training/docker-training
+Description: Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.
+
+Page: https://schooloffreelancing.com/freelancing-training/fusionpbx-training/
+Title: FusionPBX: Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/fusionpbx-training
+Description: Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service.
+
+Page: https://schooloffreelancing.com/freelancing-training/github-training/
+Title: GitHub Freelancing Training | Setup, CI/CD &amp; Jobs
+Canonical: https://schooloffreelancing.com/freelancing-training/github-training
+Description: Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs.
+
+Page: https://schooloffreelancing.com/freelancing-training/gitlab-training/
+Title: GitLab — Freelancing Training | Setup, CI/CD &amp; Jobs
+Canonical: https://schooloffreelancing.com/freelancing-training/gitlab-training
+Description: Learn GitLab production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs.
+
+Page: https://schooloffreelancing.com/freelancing-training/goautodial-training/
+Title: GOautodial — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/goautodial-training
+Description: Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICIdial integration, and carrier trunking, then build a profitable freelance service.
+
+Page: https://schooloffreelancing.com/freelancing-training/hermes-agent-training/
+Title: Hermes Agent — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/hermes-agent-training
+Description: Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!
+
+Page: https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/
+Title: Jasmin SMS Gateway — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training
+Description: Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/
+Title: Linux — Freelancing Training | School Of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training
+Description: Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/local-ai-training/
+Title: LocalAI — Freelancing Training | Deployment &amp; AI Jobs
+Canonical: https://schooloffreelancing.com/freelancing-training/local-ai-training
+Description: Learn how to deploy LocalAI in production to run AI models directly on standard hardware, then monetize it via freelancing.
+
+Page: https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/
+Title: Odysseus AI — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/odysseus-ai-training
+Description: Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer.
+
+Page: https://schooloffreelancing.com/freelancing-training/openai-training/
+Title: OpenAI — Freelancing Training | API &amp; AI Projects
+Canonical: https://schooloffreelancing.com/freelancing-training/openai-training
+Description: Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance clients.
+
+Page: https://schooloffreelancing.com/freelancing-training/openclaw-training/
+Title: OpenClaw — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/openclaw-training
+Description: Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance.
+
+Page: https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/
+Title: Telnyx — SMS API Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training
+Description: Learn to integrate Telnyx SMS APIs for automated texting and OTPs. Boost your freelance developer portfolio and land high-paying gigs. Enroll today!
+
+Page: https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/
+Title: Twilio SMS — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training
+Description: Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-world freelancing skills through hands-on project-based training.
+
+Page: https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/
+Title: Ubuntu Linux — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training
+Description: Learn Ubuntu Linux admin: setup web servers, CRMs &amp; harden security. Build a portfolio for freelance clients for Ubuntu support.
+
+Page: https://schooloffreelancing.com/freelancing-training/zeroclaw-training/
+Title: ZeroClaw — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/zeroclaw-training
+Description: A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/
+Current: https://schooloffreelancing.com/freelancing-training/
+
+# CHILD SECTIONS
+Section: https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training/
+Section: https://schooloffreelancing.com/freelancing-training/call-center-setup-training/
+Section: https://schooloffreelancing.com/freelancing-training/centos-linux-training/
+Section: https://schooloffreelancing.com/freelancing-training/claude-training/
+Section: https://schooloffreelancing.com/freelancing-training/debian-linux-training/
+Section: https://schooloffreelancing.com/freelancing-training/docker-training/
+Section: https://schooloffreelancing.com/freelancing-training/fusionpbx-training/
+Section: https://schooloffreelancing.com/freelancing-training/github-training/
+Section: https://schooloffreelancing.com/freelancing-training/gitlab-training/
+Section: https://schooloffreelancing.com/freelancing-training/goautodial-training/
+Section: https://schooloffreelancing.com/freelancing-training/hermes-agent-training/
+Section: https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/
+Section: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/
+Section: https://schooloffreelancing.com/freelancing-training/local-ai-training/
+Section: https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/
+Section: https://schooloffreelancing.com/freelancing-training/openai-training/
+Section: https://schooloffreelancing.com/freelancing-training/openclaw-training/
+Section: https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training/
+Section: https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training/
+Section: https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training/
+Section: https://schooloffreelancing.com/freelancing-training/zeroclaw-training/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

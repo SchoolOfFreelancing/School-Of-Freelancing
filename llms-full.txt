@@ -4,15 +4,13 @@
 
 ## Main Pages
 
-### Freelancing Training — Linux Tech Support | 5.0★ Rated
-URL: https://schooloffreelancing.com/
-
-School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.
-
 ### Page Not Found | School Of Freelancing
 URL: https://schooloffreelancing.com/404.html
 
 The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources on School of Freelancing.
+
+### School Of Freelancing
+URL: https://schooloffreelancing.com/
 
 ## About Us
 
@@ -113,15 +111,15 @@ URL: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
 
 Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support.
 
+### Telnyx VoIP — Setup | Hire Support
+URL: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
+
+Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+
 ### Twilio SMS — Setup | Hire Support
 URL: https://schooloffreelancing.com/client-support/twilio-sms-setup/
 
 Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
-
-### Twilio VoIP — Setup | Hire Support
-URL: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
-
-Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 
 ### Twilio VoIP — Setup | Hire Support
 URL: https://schooloffreelancing.com/client-support/twilio-voip-setup/

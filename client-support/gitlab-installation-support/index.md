@@ -1,7 +1,7 @@
 ---
 title: "GitLab — Installation | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire GitLab Installation Support for secure setup, configuration, troubleshooting, and repository management."
 ---
 

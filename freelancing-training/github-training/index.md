@@ -1,7 +1,7 @@
 ---
 title: "GitHub Freelancing Training | Setup, CI/CD & Jobs"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
@@ -16,7 +16,7 @@ Learn GitHub production setup, migration, version control, CI/CD, & project mana
 | Aspect | Detail |
 | --- | --- |
 | Duration: | 20 Hands-on training sessions over one month training. |
-| Price: | $239 (One-Time Investment). |
+| Price: | $249 (One-Time Investment). |
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Set up a production GitHub server to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | Freelancers, sysadmins, and DevOps engineers looking to master self-hosted GitHub infrastructure and offer high-demand server management services. |

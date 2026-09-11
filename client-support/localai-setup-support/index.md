@@ -1,7 +1,7 @@
 ---
 title: "LocalAI — Self-Hosted LLM Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware."
 ---
 

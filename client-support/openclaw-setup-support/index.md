@@ -1,15 +1,15 @@
 ---
 title: "OpenClaw Setup Support | Self-Hosted AI Infrastructure"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support."
 ---
 
 # OpenClaw Setup Support | Self-Hosted AI Infrastructure
 
-## Support Overview
+## Overview
 
-Deploy an OpenClaw self-hosted AI assistant in a production environment to execute real computer tasks and run autonomous workflows across messaging platforms like Telegram, Discord, and WhatsApp. Want to manage and build autonomous agents on your own? Check out our hands-on [OpenClaw Hands-on Training](/freelancing-training/openclaw-hands-on-training/) or explore our [ZeroClaw Setup Support](/client-support/zeroclaw-setup-support/) .
+Deploy an OpenClaw self-hosted AI assistant in a production environment to execute real computer tasks and run autonomous workflows across messaging platforms like Telegram, Discord, and WhatsApp.
 
 ## Key Takeaways
 

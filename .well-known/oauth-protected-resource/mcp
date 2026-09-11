@@ -3,6 +3,12 @@
   "authorization_servers": [
     "https://schooloffreelancing.com"
   ],
-  "bearer_methods_supported": ["header"],
+  "scopes_supported": [
+    "openid",
+    "email"
+  ],
+  "bearer_methods_supported": [
+    "header"
+  ],
   "resource_documentation": "https://schooloffreelancing.com/auth.md"
 }

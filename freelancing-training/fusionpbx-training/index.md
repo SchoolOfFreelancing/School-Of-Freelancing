@@ -1,7 +1,7 @@
 ---
 title: "FusionPBX: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service."
 ---
 

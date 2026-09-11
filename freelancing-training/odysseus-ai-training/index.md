@@ -1,7 +1,7 @@
 ---
 title: "Odysseus AI — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 

@@ -9,9 +9,34 @@ AddDefaultCharset UTF-8
 AddCharset UTF-8 .txt .html .css .js .json .xml
 
 <IfModule mod_headers.c>
+
+    # Plain-text files
     <FilesMatch "\.txt$">
-        Header set Content-Type "text/plain; charset=utf-8"
+        Header always set Content-Type "text/plain; charset=utf-8"
     </FilesMatch>
+
+    # --------------------------------------------------------------------------
+    # Agent authentication document
+    # --------------------------------------------------------------------------
+    <Files "auth.md">
+        Header always set Content-Type "text/markdown; charset=utf-8"
+    </Files>
+
+    # --------------------------------------------------------------------------
+    # Extensionless OAuth metadata endpoints
+    # --------------------------------------------------------------------------
+    <Files "oauth-authorization-server">
+        Header always set Content-Type "application/json; charset=utf-8"
+    </Files>
+
+    <Files "oauth-protected-resource">
+        Header always set Content-Type "application/json; charset=utf-8"
+    </Files>
+
+    <Files "mcp">
+        Header always set Content-Type "application/json; charset=utf-8"
+    </Files>
+
 </IfModule>
 
 <IfModule mod_rewrite.c>
@@ -56,16 +81,18 @@ AddCharset UTF-8 .txt .html .css .js .json .xml
     RewriteRule ^ - [L]
 
     # ------------------------------------------------------------------------------
-    # Extensionless HTML slug routing (Supports nested paths e.g., /legal/terms)
+    # Extensionless HTML slug routing
+    # Supports nested paths such as /legal/terms
     # ------------------------------------------------------------------------------
     RewriteCond %{REQUEST_FILENAME}.html -f
     RewriteRule ^(.+)/?$ $1.html [L]
 
     # ------------------------------------------------------------------------------
-    # NOTE: No SPA/index.html fallback here on purpose.
-    # This site uses server-side slug -> .html mapping (rule above), not a
-    # client-side JS router. Removing the old catch-all fallback lets Apache
-    # return a genuine 404 for unmapped paths, so ErrorDocument 404 below works.
+    # NOTE:
+    # No SPA/index.html fallback.
+    #
+    # This site uses server-side slug -> .html mapping.
+    # Unmapped paths therefore return a genuine 404.
     # ------------------------------------------------------------------------------
 
 </IfModule>
@@ -78,17 +105,22 @@ ErrorDocument 403 /404.html
 ErrorDocument 500 /500.html
 
 # ==============================================================================
-# 4. ROBOTS & SECURITY HEADERS
+# 4. ROBOTS, SECURITY & AGENT DISCOVERY HEADERS
 # ==============================================================================
 <IfModule mod_headers.c>
 
     # Tell search engines that normal HTML pages are indexable.
     <FilesMatch "\.(html|htm)$">
-        Header set X-Robots-Tag "index, follow"
+        Header always set X-Robots-Tag "index, follow"
     </FilesMatch>
 
     # Prevent MIME-type sniffing.
-    Header set X-Content-Type-Options "nosniff"
+    Header always set X-Content-Type-Options "nosniff"
+
+    # --------------------------------------------------------------------------
+    # Agent discovery — RFC 8288
+    # --------------------------------------------------------------------------
+    Header always set Link "<https://schooloffreelancing.com/.well-known/api-catalog>; rel=\"api-catalog\", <https://schooloffreelancing.com/service-desc>; rel=\"service-doc\", <https://schooloffreelancing.com/.well-known/oauth-protected-resource/mcp>; rel=\"oauth-protected-resource\", <https://schooloffreelancing.com/.well-known/oauth-authorization-server>; rel=\"oauth-authorization-server\""
 
 </IfModule>
 

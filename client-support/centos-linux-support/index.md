@@ -1,7 +1,7 @@
 ---
 title: "CentOS Linux — Support | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire CentOS Linux Support for server setup, troubleshooting, security, optimization, and system administration."
 ---
 
@@ -9,7 +9,7 @@ description: "Hire CentOS Linux Support for server setup, troubleshooting, secur
 
 ## Support Overview
 
-Hire CentOS Linux Support for enterprise server setup, system administration, troubleshooting, performance optimization, and migration strategies. Explore our broader [Linux Server Support](/client-support/linux-server-services/) offerings or review specialized [Ubuntu Linux Support](/client-support/ubuntu-linux-services/) solutions.
+Hire CentOS Linux Support for enterprise server setup, system administration, production app deploy, troubleshooting, performance optimization, and migration strategies.
 
 ## Key Takeaways
 

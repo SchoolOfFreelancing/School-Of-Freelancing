@@ -1,7 +1,7 @@
 ---
 title: "How to Set Up Your Own VoIP Phone System | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking."
 ---
 

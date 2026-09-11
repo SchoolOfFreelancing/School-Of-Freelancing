@@ -1,0 +1,30 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:05+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
+Title: Jasmin SMS Gateway — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup
+Description: Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/client-support/
+Current: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

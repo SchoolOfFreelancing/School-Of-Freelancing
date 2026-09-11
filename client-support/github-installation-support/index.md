@@ -1,7 +1,7 @@
 ---
 title: "GitHub — Installation | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management."
 ---
 
@@ -9,7 +9,7 @@ description: "Hire GitHub Installation Support for secure setup, configuration, 
 
 ## Support Overview
 
-Hire GitHub Installation Support for end-to-end setup, GitHub Enterprise Server configuration, self-hosted GitHub Actions runner deployment, repository security rules, and team access troubleshooting. Part of our broader [Linux & DevOps Client Support](/client-support/) suite.
+Hire GitHub Installation Support for end-to-end setup, GitHub Enterprise Server configuration, self-hosted GitHub Actions runner deployment, repository security rules, and team access troubleshooting.
 
 ## Key Takeaways
 

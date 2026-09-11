@@ -1,15 +1,15 @@
 ---
 title: "OpenAI Platform — Support | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment."
 ---
 
 # OpenAI Platform — Support | Hire Support
 
-## Support Overview
+## Overview
 
-Hire OpenAI Platform Support for API setup, custom agent integrations, vector store configuration, rate-limit troubleshooting, and production deployment. Looking to learn how to build OpenAI applications yourself? Explore our [OpenAI Developer Training](/freelancing-training/openai-training/) program or check out [Odysseus AI Support](/client-support/odysseus-ai-services/) .
+Hire OpenAI Platform Support for API setup, custom agent integrations, vector store configuration, rate-limit troubleshooting, and production deployment.
 
 ## Key Takeaways
 

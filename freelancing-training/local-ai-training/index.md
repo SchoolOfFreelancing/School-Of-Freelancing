@@ -1,7 +1,7 @@
 ---
 title: "LocalAI — Freelancing Training | Deployment & AI Jobs"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Learn how to deploy LocalAI in production to run AI models directly on standard hardware, then monetize it via freelancing."
 ---
 
@@ -61,5 +61,3 @@ Stronger habits for deploying, troubleshooting, and reviewing LocalAI projects
 | 10 | Marketplace Launch & Outreach | Upwork/Freelancer/Guru profiles & portfolios, pricing, LinkedIn outreach — Final Assessment: submit 1 proposal + 1 outreach message (reviewed live) |  |
 
 ## Secure Your Seat Now
-
-Select your preferred payment method below to complete enrollment ($111 USD):

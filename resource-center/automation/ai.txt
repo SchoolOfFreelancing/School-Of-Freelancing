@@ -1,0 +1,30 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:05+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/resource-center/automation/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/resource-center/automation/
+Title: How to Automate Your First Repetitive Task | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/guides/automation
+Description: Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/resource-center/
+Current: https://schooloffreelancing.com/resource-center/automation/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

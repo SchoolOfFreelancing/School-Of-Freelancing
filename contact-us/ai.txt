@@ -1,0 +1,30 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:04+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/contact-us/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/contact-us/
+Title: Contact Us | School Of Freelancing
+Canonical: https://schooloffreelancing.com/contact-us
+Description: Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/
+Current: https://schooloffreelancing.com/contact-us/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

@@ -1,7 +1,7 @@
 ---
 title: "ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration."
 ---
 
@@ -9,7 +9,7 @@ description: "Hire ZeroClaw self-hosted AI agent setup for autonomous server tas
 
 ## Support Overview
 
-Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration. Looking to master self-hosted AI architecture yourself? Explore our [ZeroClaw Hands-on Training](/freelancing-training/zeroclaw-hands-on-training/) or learn about dedicated [Hermes Agent Support](/client-support/hermes-agent-setup/) .
+Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration.
 
 ## Key Takeaways
 

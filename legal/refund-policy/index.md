@@ -1,7 +1,7 @@
 ---
 title: "Refund Policy — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services."
 ---
 

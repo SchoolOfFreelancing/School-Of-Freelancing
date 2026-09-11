@@ -1,15 +1,15 @@
 ---
 title: "GOAutoDial VoIP Setup & Configuration | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire GOAutoDial VoIP Setup support for SIP trunks, predictive dialers, call routing, IVRs, and call center integrations."
 ---
 
 # GOAutoDial VoIP Setup & Configuration | Hire Support
 
-## Support Overview
+## Overview
 
-Hire GOAutoDial VoIP Setup support for SIP trunks, outbound dialers, call routing, IVR, and call center integrations. Looking to master open-source VoIP administration? Learn more about our [FusionPBX VoIP Training](/freelancing-training/fusionpbx-training/) or explore our [Telnyx SIP Trunking Support](/client-support/telnyx-sip-trunking-services/) .
+Hire GOAutoDial VoIP Setup support for SIP trunks, outbound dialers, call routing, IVR, and call center integrations.
 
 ## Key Takeaways
 

@@ -1,0 +1,62 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:04+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/legal/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/legal/
+Title: Legal | School Of Freelancing
+Canonical: https://schooloffreelancing.com/legal/
+Description: School Of Freelancing legal: Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support.
+
+Page: https://schooloffreelancing.com/legal/credential-verification/
+Title: Credential Verification Support — School Of Freelancing
+Canonical: https://schooloffreelancing.com/legal/credential-verification
+Description: Credential Verification Support for School of Freelancing — how organizations can verify a student
+
+Page: https://schooloffreelancing.com/legal/privacy-policy/
+Title: Privacy Policy — School of Freelancing
+Canonical: https://schooloffreelancing.com/legal/privacy-policy
+Description: Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services.
+
+Page: https://schooloffreelancing.com/legal/refund-policy/
+Title: Refund Policy — School of Freelancing
+Canonical: https://schooloffreelancing.com/legal/refund-policy
+Description: Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
+
+Page: https://schooloffreelancing.com/legal/terms-and-conditions/
+Title: Terms and Conditions — School Of Freelancing
+Canonical: https://schooloffreelancing.com/legal/terms-and-conditions
+Description: Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
+
+Page: https://schooloffreelancing.com/legal/training-rules/
+Title: Training Rules — School Of Freelancing
+Canonical: https://schooloffreelancing.com/legal/training-rules
+Description: Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/
+Current: https://schooloffreelancing.com/legal/
+
+# CHILD SECTIONS
+Section: https://schooloffreelancing.com/legal/credential-verification/
+Section: https://schooloffreelancing.com/legal/privacy-policy/
+Section: https://schooloffreelancing.com/legal/refund-policy/
+Section: https://schooloffreelancing.com/legal/terms-and-conditions/
+Section: https://schooloffreelancing.com/legal/training-rules/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

@@ -1,0 +1,170 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:04+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/client-support/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/client-support/
+Title: Tech Support — School Of Freelancing
+Canonical: https://schooloffreelancing.com/client-support
+Description: Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
+
+Page: https://schooloffreelancing.com/client-support/centos-linux-support/
+Title: CentOS Linux — Support | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/centos-linux-support
+Description: Hire CentOS Linux Support for server setup, troubleshooting, security, optimization, and system administration.
+
+Page: https://schooloffreelancing.com/client-support/claude-platform-support/
+Title: Claude Platform — Support | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/claude-platform-support
+Description: Hire Claude Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
+
+Page: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
+Title: DigitalOcean — AI-Native Cloud | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
+Description: Hire DigitalOcean cloud experts for Linux, security, deployment, troubleshooting, and optimization—on demand.
+
+Page: https://schooloffreelancing.com/client-support/docker-job-support/
+Title: Docker — Job Support | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/docker-job-support
+Description: Hire Docker Job Support for deployment, troubleshooting, Docker Compose, containers, networking, and CI/CD.
+
+Page: https://schooloffreelancing.com/client-support/fusionpbx-voip-setup/
+Title: FusionPBX — VoIP Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/fusionpbx-voip-setup
+Description: Hire FusionPBX VoIP Setup support for SIP, call routing, extensions, IVR, and call center integration.
+
+Page: https://schooloffreelancing.com/client-support/github-installation-support/
+Title: GitHub — Installation | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/github-installation-support
+Description: Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management.
+
+Page: https://schooloffreelancing.com/client-support/gitlab-installation-support/
+Title: GitLab — Installation | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/gitlab-installation-support
+Description: Hire GitLab Installation Support for secure setup, configuration, troubleshooting, and repository management.
+
+Page: https://schooloffreelancing.com/client-support/goautodial-voip-setup/
+Title: GOAutoDial VoIP Setup &amp; Configuration | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/goautodial-voip-setup
+Description: Hire GOAutoDial VoIP Setup support for SIP trunks, predictive dialers, call routing, IVRs, and call center integrations.
+
+Page: https://schooloffreelancing.com/client-support/hermes-agent-setup/
+Title: Hermes Agent — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/hermes-agent-setup
+Description: Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control.
+
+Page: https://schooloffreelancing.com/client-support/hummingbot-installation-support/
+Title: Hummingbot — Installation | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/hummingbot-installation-support
+Description: Hire Hummingbot Installation Support for Linux server configuration, API exchange integrations, strategy deployment, troubleshooting, and optimization.
+
+Page: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
+Title: Jasmin SMS Gateway — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup
+Description: Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration.
+
+Page: https://schooloffreelancing.com/client-support/linux-server-support/
+Title: Linux Server Support | Hire Expert SysAdmin
+Canonical: https://schooloffreelancing.com/client-support/linux-server-support
+Description: Hire expert Linux server support for setup, security hardening, migration, deployment, troubleshooting, and optimization.
+
+Page: https://schooloffreelancing.com/client-support/localai-setup-support/
+Title: LocalAI — Self-Hosted LLM Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/localai-setup-support
+Description: Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware.
+
+Page: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+Title: Odysseus — Self-hosted AI workspace setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/odysseus-ai-setup
+Description: Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
+
+Page: https://schooloffreelancing.com/client-support/openai-platform-support/
+Title: OpenAI Platform — Support | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/openai-platform-support
+Description: Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
+
+Page: https://schooloffreelancing.com/client-support/openclaw-setup-support/
+Title: OpenClaw Setup Support | Self-Hosted AI Infrastructure
+Canonical: https://schooloffreelancing.com/client-support/openclaw-setup-support
+Description: Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support.
+
+Page: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
+Title: Telnyx SMS Setup Support | Business Messaging Integration
+Canonical: https://schooloffreelancing.com/client-support/telnyx-sms-setup
+Description: Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment &amp; technical support.
+
+Page: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
+Title: Telnyx VoIP — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/Telnyx-voip-setup
+Description: Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+
+Page: https://schooloffreelancing.com/client-support/twilio-sms-setup/
+Title: Twilio SMS — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/twilio-sms-setup
+Description: Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
+
+Page: https://schooloffreelancing.com/client-support/twilio-voip-setup/
+Title: Twilio VoIP — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/twilio-voip-setup
+Description: Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+
+Page: https://schooloffreelancing.com/client-support/ubuntu-linux-support/
+Title: Ubuntu Linux — Support | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/ubuntu-linux-support
+Description: Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration.
+
+Page: https://schooloffreelancing.com/client-support/voice-ai-agent-setup/
+Title: Voice AI Agent — Setup | Hire Support
+Canonical: https://schooloffreelancing.com/client-support/voice-ai-agent-setup
+Description: Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration, and deployment.
+
+Page: https://schooloffreelancing.com/client-support/zeroclaw-setup-support/
+Title: ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup
+Canonical: https://schooloffreelancing.com/client-support/zeroclaw-setup-support
+Description: Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, &amp; local LLM integration.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/
+Current: https://schooloffreelancing.com/client-support/
+
+# CHILD SECTIONS
+Section: https://schooloffreelancing.com/client-support/centos-linux-support/
+Section: https://schooloffreelancing.com/client-support/claude-platform-support/
+Section: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
+Section: https://schooloffreelancing.com/client-support/docker-job-support/
+Section: https://schooloffreelancing.com/client-support/fusionpbx-voip-setup/
+Section: https://schooloffreelancing.com/client-support/github-installation-support/
+Section: https://schooloffreelancing.com/client-support/gitlab-installation-support/
+Section: https://schooloffreelancing.com/client-support/goautodial-voip-setup/
+Section: https://schooloffreelancing.com/client-support/hermes-agent-setup/
+Section: https://schooloffreelancing.com/client-support/hummingbot-installation-support/
+Section: https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup/
+Section: https://schooloffreelancing.com/client-support/linux-server-support/
+Section: https://schooloffreelancing.com/client-support/localai-setup-support/
+Section: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+Section: https://schooloffreelancing.com/client-support/openai-platform-support/
+Section: https://schooloffreelancing.com/client-support/openclaw-setup-support/
+Section: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
+Section: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
+Section: https://schooloffreelancing.com/client-support/twilio-sms-setup/
+Section: https://schooloffreelancing.com/client-support/twilio-voip-setup/
+Section: https://schooloffreelancing.com/client-support/ubuntu-linux-support/
+Section: https://schooloffreelancing.com/client-support/voice-ai-agent-setup/
+Section: https://schooloffreelancing.com/client-support/zeroclaw-setup-support/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

@@ -1,0 +1,152 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:04+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/locations/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/locations/
+Title: Global Linux &amp; AI Training & Support | Locations
+Canonical: https://schooloffreelancing.com/locations
+Description: Global Linux and AI training & support for freelancers, businesses, and professionals worldwide.
+
+Page: https://schooloffreelancing.com/locations/en-at/
+Title: Austria &mdash; Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-at
+Description: Top Austria freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-au/
+Title: AU Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-au
+Description: Top AU freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-bd/
+Title: Freelance Training and IT Services | Bangladesh
+Canonical: https://schooloffreelancing.com/locations/en-bd
+Description: Top Bangladesh freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-be/
+Title: Freelance Training and IT Services | Belgium
+Canonical: https://schooloffreelancing.com/locations/en-be
+Description: Boost your freelancing career with live Linux, VoIP, DevOps, and AI training or request remote enterprise IT support tailored for professionals and businesses in Belgium.
+
+Page: https://schooloffreelancing.com/locations/en-ca/
+Title: Freelance Training and IT Services | Canada
+Canonical: https://schooloffreelancing.com/locations/en-ca
+Description: Top Canada freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-ch/
+Title: Freelance Training and IT Services | Switzerland
+Canonical: https://schooloffreelancing.com/locations/en-ch
+Description: Top Switzerland freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-de/
+Title: Germany Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-de
+Description: Top Germany freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-dk/
+Title: Denmark Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-dk
+Description: Boost your freelancing career with comprehensive Linux, DevOps, VoIP, and AI training and remote client support specifically tailored for professionals and businesses in Denmark.
+
+Page: https://schooloffreelancing.com/locations/en-fi/
+Title: Finland Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-fi
+Description: Top Finland freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-gb/
+Title: United Kingdom Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-gb
+Description: Top United Kingdom freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-ie/
+Title: Ireland Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-ie
+Description: Top Ireland freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-il/
+Title: Israel Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-il
+Description: Top Israel freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-is/
+Title: Iceland Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-is
+Description: Top Iceland freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-li/
+Title: Liechtenstein Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-li
+Description: Top Liechtenstein freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-lu/
+Title: Luxembourg Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-lu
+Description: Top Luxembourg freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-nl/
+Title: Netherlands Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-nl
+Description: Top Netherlands freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-no/
+Title: Norway Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-no
+Description: Top Norway freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-se/
+Title: Sweden Freelance Training and IT Services
+Canonical: https://schooloffreelancing.com/locations/en-se
+Description: Top Sweden freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-sg/
+Title: Singapore Freelance Training &amp; IT Services | School of Freelancing
+Canonical: https://schooloffreelancing.com/locations/en-sg
+Description: Top Singapore freelance training &amp; trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!
+
+Page: https://schooloffreelancing.com/locations/en-us/
+Title: United States Freelance Training &amp; IT Support | School of Freelancing
+Canonical: https://schooloffreelancing.com/locations/en-us
+Description: Top US freelance training &amp; trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/
+Current: https://schooloffreelancing.com/locations/
+
+# CHILD SECTIONS
+Section: https://schooloffreelancing.com/locations/en-at/
+Section: https://schooloffreelancing.com/locations/en-au/
+Section: https://schooloffreelancing.com/locations/en-bd/
+Section: https://schooloffreelancing.com/locations/en-be/
+Section: https://schooloffreelancing.com/locations/en-ca/
+Section: https://schooloffreelancing.com/locations/en-ch/
+Section: https://schooloffreelancing.com/locations/en-de/
+Section: https://schooloffreelancing.com/locations/en-dk/
+Section: https://schooloffreelancing.com/locations/en-fi/
+Section: https://schooloffreelancing.com/locations/en-gb/
+Section: https://schooloffreelancing.com/locations/en-ie/
+Section: https://schooloffreelancing.com/locations/en-il/
+Section: https://schooloffreelancing.com/locations/en-is/
+Section: https://schooloffreelancing.com/locations/en-li/
+Section: https://schooloffreelancing.com/locations/en-lu/
+Section: https://schooloffreelancing.com/locations/en-nl/
+Section: https://schooloffreelancing.com/locations/en-no/
+Section: https://schooloffreelancing.com/locations/en-se/
+Section: https://schooloffreelancing.com/locations/en-sg/
+Section: https://schooloffreelancing.com/locations/en-us/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

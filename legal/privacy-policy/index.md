@@ -1,7 +1,7 @@
 ---
 title: "Privacy Policy — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services."
 ---
 

@@ -1,15 +1,15 @@
 ---
 title: "Jasmin SMS Gateway — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration."
 ---
 
 # Jasmin SMS Gateway — Setup | Hire Support
 
-## Support Overview
+## Overview
 
-Hire Jasmin SMS Gateway Setup support for SMPP connections, message routing, REST APIs, delivery reports, and enterprise SMS integration. Want to learn custom SMS gateway development? Explore our [Telnyx Developer Training](/freelancing-training/telnyx-sms-api-training/) program or check out [Telnyx SIP Trunking Support](/client-support/telnyx-sip-trunking-services/) .
+Hire Jasmin SMS Gateway Setup support for SMPP connections, message routing, REST APIs, delivery reports, and enterprise bulk SMS integration.
 
 ## Key Takeaways
 

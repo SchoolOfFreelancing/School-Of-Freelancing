@@ -1,7 +1,7 @@
 ---
 title: "United States Freelance Training & IT Support | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!"
 ---
 

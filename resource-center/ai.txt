@@ -1,0 +1,86 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:04+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/resource-center/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/resource-center/
+Title: Resource Center | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/
+Description: The School of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
+
+Page: https://schooloffreelancing.com/resource-center/ai-chatbot/
+Title: How to Create Your First AI Chatbot | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Description: Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
+
+Page: https://schooloffreelancing.com/resource-center/automation/
+Title: How to Automate Your First Repetitive Task | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/guides/automation
+Description: Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
+
+Page: https://schooloffreelancing.com/resource-center/case-studies/
+Title: Linux &amp; AI Freelancing Case Studies | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/case-studies
+Description: Real case studies from School of Freelancing clients: Docker deployments, AI integrations, VoIP systems, and trading infrastructure that transformed their business operations.
+
+Page: https://schooloffreelancing.com/resource-center/docker-containerize/
+Title: How to Containerize a Legacy Web Application | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Description: Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
+
+Page: https://schooloffreelancing.com/resource-center/faqs/
+Title: Frequently Asked Questions and Answers — SOF
+Canonical: https://schooloffreelancing.com/resource-center/faqs
+Description: Answers to common questions about School of Freelancing
+
+Page: https://schooloffreelancing.com/resource-center/intro-video/
+Title: Linux Freelancing Training — Watch Page
+Canonical: https://schooloffreelancing.com/resource-center/intro-video
+Description: Start Your Career as a Linux Freelancer! Watch the official promotional video for the School Of Freelancing Linux Freelancing Training.
+
+Page: https://schooloffreelancing.com/resource-center/linux-deployment/
+Title: How to Deploy a Linux Server from Zero to Production | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Description: Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.
+
+Page: https://schooloffreelancing.com/resource-center/testimonials/
+Title: What our customers say | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/testimonials
+Description: School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
+
+Page: https://schooloffreelancing.com/resource-center/voip-setup/
+Title: How to Set Up Your Own VoIP Phone System | School of Freelancing
+Canonical: https://schooloffreelancing.com/resource-center/guides/voip-setup
+Description: Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/
+Current: https://schooloffreelancing.com/resource-center/
+
+# CHILD SECTIONS
+Section: https://schooloffreelancing.com/resource-center/ai-chatbot/
+Section: https://schooloffreelancing.com/resource-center/automation/
+Section: https://schooloffreelancing.com/resource-center/case-studies/
+Section: https://schooloffreelancing.com/resource-center/docker-containerize/
+Section: https://schooloffreelancing.com/resource-center/faqs/
+Section: https://schooloffreelancing.com/resource-center/intro-video/
+Section: https://schooloffreelancing.com/resource-center/linux-deployment/
+Section: https://schooloffreelancing.com/resource-center/testimonials/
+Section: https://schooloffreelancing.com/resource-center/voip-setup/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

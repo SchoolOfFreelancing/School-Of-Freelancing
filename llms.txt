@@ -3,8 +3,8 @@
 > Bangladesh-based Linux and AI freelancing training platform teaching production-ready, hands-on skills for real freelance clients.
 
 ## Main Pages
-- [Freelancing Training — Linux Tech Support | 5.0★ Rated](https://schooloffreelancing.com/): School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses, powered by FOSS since 2015.
 - [Page Not Found | School Of Freelancing](https://schooloffreelancing.com/404.html): The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources…
+- [School Of Freelancing](https://schooloffreelancing.com/): No description available.
 
 ## About Us
 - [About Us | School Of Freelancing](https://schooloffreelancing.com/about-us/): Founded in 2015 by Karim (Masum), School Of Freelancing offers live Linux and AI training with global tech support for freelancers and busin…
@@ -28,8 +28,8 @@
 - [OpenClaw Setup Support | Self-Hosted AI Infrastructure](https://schooloffreelancing.com/client-support/openclaw-setup-support/): Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical sup…
 - [Tech Support — School Of Freelancing](https://schooloffreelancing.com/client-support/): Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
 - [Telnyx SMS Setup Support | Business Messaging Integration](https://schooloffreelancing.com/client-support/telnyx-sms-setup/): Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical…
+- [Telnyx VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/telnyx-voip-setup/): Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 - [Twilio SMS — Setup | Hire Support](https://schooloffreelancing.com/client-support/twilio-sms-setup/): Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
-- [Twilio VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/telnyx-voip-setup/): Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 - [Twilio VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/twilio-voip-setup/): Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 - [Ubuntu Linux — Support | Hire Support](https://schooloffreelancing.com/client-support/ubuntu-linux-support/): Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration.
 - [Voice AI Agent — Setup | Hire Support](https://schooloffreelancing.com/client-support/voice-ai-agent-setup/): Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration, and deployment.

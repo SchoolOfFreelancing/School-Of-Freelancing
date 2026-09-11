@@ -1,7 +1,7 @@
 ---
 title: "Sweden Freelance Training and IT Services"
 author: "Karim (Masum)"
-date: 2026-09-08
+date: 2026-09-10
 description: "Top Sweden freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!"
 ---
 

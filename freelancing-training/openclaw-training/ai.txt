@@ -1,0 +1,30 @@
+# AI.TXT
+# School Of Freelancing
+# AI-readable website discovery document
+#
+# Generated from the website directory structure
+# and the existing sitemap.xml.
+# Generated UTC: 2026-09-09T19:10:05+00:00
+
+Site: https://schooloffreelancing.com/
+Sitemap: https://schooloffreelancing.com/sitemap.xml
+Root-AI: https://schooloffreelancing.com/ai.txt
+Section: https://schooloffreelancing.com/freelancing-training/openclaw-training/
+
+# PURPOSE
+# This document provides lightweight page discovery
+# information for AI agents, automated clients,
+# browsers and other crawlers.
+
+# PAGES
+Page: https://schooloffreelancing.com/freelancing-training/openclaw-training/
+Title: OpenClaw — Freelancing Training
+Canonical: https://schooloffreelancing.com/freelancing-training/openclaw-training
+Description: Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance.
+
+# RELATIONSHIP
+Parent: https://schooloffreelancing.com/freelancing-training/
+Current: https://schooloffreelancing.com/freelancing-training/openclaw-training/
+
+# HTML DISCOVERY
+HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">
