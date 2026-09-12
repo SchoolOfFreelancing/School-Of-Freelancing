@@ -4,12 +4,12 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-09T19:10:05+00:00
+# Generated UTC: 2026-09-12T06:31:33+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/ai-chatbot/
+Section: https://schooloffreelancing.com/resource-center/guides/ai-chatbot/
 
 # PURPOSE
 # This document provides lightweight page discovery
@@ -17,14 +17,14 @@ Section: https://schooloffreelancing.com/resource-center/ai-chatbot/
 # browsers and other crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/resource-center/ai-chatbot/
+Page: https://schooloffreelancing.com/resource-center/guides/ai-chatbot/
 Title: How to Create Your First AI Chatbot | School of Freelancing
-Canonical: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Canonical: https://schooloffreelancing.com/resource-center/ai-chatbot
 Description: Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center/
-Current: https://schooloffreelancing.com/resource-center/ai-chatbot/
+Parent: https://schooloffreelancing.com/resource-center/guides/
+Current: https://schooloffreelancing.com/resource-center/guides/ai-chatbot/
 
 # HTML DISCOVERY
 HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

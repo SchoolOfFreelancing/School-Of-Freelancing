@@ -3,32 +3,26 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Containerize a Legacy Web Application | School of Freelancing</title>
-    <meta name="description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+    <title>How to Deploy a Linux Server from Zero to Production | School of Freelancing</title>
+    <meta name="description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
     <meta name="robots" content="index, follow">
 
     <!-- Canonical & Alternate Links -->
-    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize"/>
-    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize"/>
-    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/guides/docker-containerize"/>
+    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/linux-deployment"/>
+    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/linux-deployment"/>
+    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/linux-deployment"/>
 
     <!-- Open Graph Metadata -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/docker-containerize/">
-    <meta property="og:title" content="How to Containerize a Legacy Web Application | School of Freelancing">
-    <meta property="og:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/linux-deployment"/>
+    <meta property="og:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
+    <meta property="og:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
 
     <!-- Twitter Card Metadata -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="How to Containerize a Legacy Web Application | School of Freelancing">
-    <meta name="twitter:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.">
+    <meta name="twitter:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
+    <meta name="twitter:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
 
-    <script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script>
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
-
-<!-- FontAwesome -->
-<script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
 
 <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
@@ -44,6 +38,12 @@
   src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
 ></script>
 
+    <link rel="stylesheet" href="/assets/css/style.css">
+    <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
+
+<!-- FontAwesome -->
+<script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
+
 <!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
@@ -51,26 +51,26 @@
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/#content",
-      "url": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/",
-      "headline": "How to Containerize a Legacy Web Application | School of Freelancing",
-      "description": "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#content",
+      "url": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/",
+      "headline": "How to Deploy a Linux Server from Zero to Production | School of Freelancing",
+      "description": "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.",
       "publisher": {
         "@id": "https://schooloffreelancing.com/#organization"
       },
       "isPartOf": {
         "@type": "WebPage",
-        "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/"
+        "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/"
       }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/#breadcrumb",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
         { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" },
         { "@type": "ListItem", "position": 3, "name": "Guides", "item": "https://schooloffreelancing.com/resource-center/guides/" },
-        { "@type": "ListItem", "position": 4, "name": "Docker Containerize Guide", "item": "https://schooloffreelancing.com/resource-center/guides/docker-containerize/" }
+        { "@type": "ListItem", "position": 4, "name": "Linux Deployment Guide", "item": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/" }
       ]
     },
     {
@@ -93,13 +93,24 @@
 }
 </script>
 
+    
+
+    
+
     <!-- AI.TXT PREFETCH DISCOVERY -->
-    <link rel="prefetch" href="../../ai.txt">
+    <link rel="prefetch" href="../../../ai.txt">
     <!-- /AI.TXT PREFETCH DISCOVERY -->
 </head>
 <body>
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+
+<!-- Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
+<!-- End Google Tag Manager (noscript) -->
+
 <a class="skip-link" href="#main">Skip to main content</a>
+
+<!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
     <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
@@ -118,118 +129,182 @@
   </div>
 </nav>
 <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
+
 <main id="main">
+
+<!-- PAGE HERO -->
 <header class="page-hero">
   <div class="container detail-wrap">
-      <p><a href="/">Home</a> / <a href="/resource-center/">Resource Center</a> / Docker Containerize</p>
-    <h1>How to Containerize a Legacy Web Application with Docker</h1>
-    <p>Transform any web application into a containerized, production-ready deployment.</p>
+    <p><a href="/">Home</a> / <a href="/resource-center/">Resource Center</a> / Linux Server Deployment</p>
+    <h1>How to Deploy a Production-Ready Linux Server From Zero</h1>
+    <p style="font-size: 1.1rem; opacity: 0.9; margin-top: 15px;">Complete step-by-step guide: from bare server to hardened production infrastructure.</p>
   </div>
 </header>
+
 <article class="section">
   <div class="container detail-wrap">
 
     <h2>Overview</h2>
-    <p>This guide teaches containerizing existing web applications with Docker. You'll create a Dockerfile, build optimized images, and deploy with Docker Compose — enabling reliable, scalable deployments.</p>
+    <p>This guide walks you through deploying a production-ready Ubuntu Linux server from scratch. You'll learn server initialization, security hardening, networking configuration, package management, systemd service setup, backup strategies, and monitoring — everything needed to run reliable production infrastructure.</p>
 
     <h2>Prerequisites</h2>
     <ul class="detail-list">
-      <li>Docker installed on your development machine</li>
-      <li>Your web application source code (Node.js, Python, PHP, etc.)</li>
-      <li>Basic familiarity with your application's dependencies</li>
+      <li>A Linux server instance (VPS or dedicated): Ubuntu 24.04 LTS or 26.04 LTS recommended</li>
+      <li>SSH client on your local machine</li>
+      <li>A domain name (optional but recommended)</li>
+      <li>Basic Linux command-line familiarity</li>
     </ul>
 
-    <h2>Step 1: Create a Dockerfile</h2>
-    <p>Create a <code>Dockerfile</code> in your application's root directory:</p>
-    <pre><code># Use official base image
-FROM node:20-alpine
+    <h2>Step 1: Initial Server Setup &amp; SSH Access</h2>
 
-# Set working directory
-WORKDIR /app
+    <h3>1.1 Get Root Access</h3>
+    <p>Upon first login, establish a secure connection:</p>
+    <pre><code>ssh root@your_server_ip</code></pre>
+    <p>Update your system packages immediately:</p>
+    <pre><code>apt update &amp;&amp; apt upgrade -y</code></pre>
 
-# Copy package files
-COPY package*.json ./
+    <h3>1.2 Create a Non-Root User</h3>
+    <p>Never run production services as root. Create a dedicated user:</p>
+    <pre><code>useradd -m -s /bin/bash admin
+usermod -aG sudo admin</code></pre>
 
-# Install dependencies
-RUN npm install --only=production
+    <h3>1.3 Configure SSH Key-Based Authentication</h3>
+    <p>On your local machine, generate an SSH key if you don't have one:</p>
+    <pre><code>ssh-keygen -t ed25519 -C "admin@yourserver"</code></pre>
+    <p>Copy the public key to your server:</p>
+    <pre><code>ssh-copy-id -i ~/.ssh/id_ed25519.pub admin@your_server_ip</code></pre>
 
-# Copy application code
-COPY . .
+    <h3>1.4 Disable Password Authentication</h3>
+    <p>Edit SSH configuration to use only keys:</p>
+    <pre><code>sudo nano /etc/ssh/sshd_config</code></pre>
+    <p>Set these options:</p>
+    <pre><code>PermitRootLogin no
+PasswordAuthentication no
+PubkeyAuthentication yes</code></pre>
+    <p>Restart SSH:</p>
+    <pre><code>sudo systemctl restart ssh</code></pre>
 
-# Expose port
-EXPOSE 3000
+    <h2>Step 2: Security Hardening</h2>
 
-# Health check
-HEALTHCHECK --interval=30s CMD curl -f http://localhost:3000/health || exit 1
+    <h3>2.1 Configure UFW Firewall</h3>
+    <p>Enable the firewall and allow only necessary ports:</p>
+    <pre><code>sudo ufw default deny incoming
+sudo ufw default allow outgoing
+sudo ufw allow 22/tcp
+sudo ufw allow 80/tcp
+sudo ufw allow 443/tcp
+sudo ufw enable</code></pre>
 
-# Start application
-CMD ["npm", "start"]</code></pre>
+    <h3>2.2 Fail2Ban for Brute-Force Protection</h3>
+    <p>Protect against repeated login attempts:</p>
+    <pre><code>sudo apt install fail2ban -y
+sudo systemctl enable fail2ban
+sudo systemctl start fail2ban</code></pre>
 
-    <h2>Step 2: Build the Docker Image</h2>
-    <pre><code>docker build -t myapp:1.0 .</code></pre>
-    <p>Test locally:</p>
-    <pre><code>docker run -p 3000:3000 myapp:1.0</code></pre>
+    <h3>2.3 Automatic Security Updates</h3>
+    <pre><code>sudo apt install unattended-upgrades -y
+sudo systemctl enable unattended-upgrades</code></pre>
 
-    <h2>Step 3: Create Docker Compose</h2>
-    <p>Create <code>docker-compose.yml</code> for multi-container orchestration:</p>
-    <pre><code>version: '3.8'
-services:
-  web:
-    build: .
-    ports:
-      - "3000:3000"
-    environment:
-      - NODE_ENV=production
-      - DATABASE_URL=postgresql://user:password@db:5432/app
-    depends_on:
-      - db
-    restart: always
-    volumes:
-      - ./logs:/app/logs
+    <h2>Step 3: Networking &amp; Domain Configuration</h2>
 
-  db:
-    image: postgres:15-alpine
-    environment:
-      - POSTGRES_USER=user
-      - POSTGRES_PASSWORD=password
-      - POSTGRES_DB=app
-    volumes:
-      - db_data:/var/lib/postgresql/data
-    restart: always
+    <h3>3.1 Set Hostname</h3>
+    <pre><code>sudo hostnamectl set-hostname myserver.com
+sudo nano /etc/hosts</code></pre>
+    <p>Add your hostname to the hosts file.</p>
 
-  nginx:
-    image: nginx:alpine
-    ports:
-      - "80:80"
-      - "443:443"
-    volumes:
-      - ./nginx.conf:/etc/nginx/nginx.conf
-      - /etc/letsencrypt:/etc/letsencrypt
-    depends_on:
-      - web
-    restart: always
+    <h3>3.2 Point Domain to Server</h3>
+    <p>In your domain registrar's DNS settings, create an A record pointing your domain to your server's IP address. Allow 15-30 minutes for DNS propagation.</p>
 
-volumes:
-  db_data:</code></pre>
+    <h2>Step 4: Web Server &amp; SSL Configuration</h2>
 
-    <h2>Step 4: Deploy to Production</h2>
-    <pre><code>docker-compose up -d</code></pre>
-    <p>Verify all services running:</p>
-    <pre><code>docker-compose ps</code></pre>
+    <h3>4.1 Install Nginx</h3>
+    <pre><code>sudo apt install nginx -y
+sudo systemctl enable nginx
+sudo systemctl start nginx</code></pre>
 
-    <h2>Step 5: SSL/HTTPS Configuration</h2>
-    <p>Install Certbot on the host and mount certificates into the nginx container:</p>
-    <pre><code>sudo certbot certonly --standalone -d yourdomain.com</code></pre>
+    <h3>4.2 Obtain SSL Certificate with Certbot</h3>
+    <pre><code>sudo apt install certbot python3-certbot-nginx -y
+sudo certbot certonly --nginx -d yourdomain.com</code></pre>
+    <p>Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com</p>
+
+    <h2>Step 5: Package Management &amp; Services</h2>
+
+    <h3>5.1 Install Essential Tools</h3>
+    <pre><code>sudo apt install curl wget git htop net-tools apt-transport-https -y</code></pre>
+
+    <h3>5.2 Create a Systemd Service (Example)</h3>
+    <p>For custom applications, create a systemd service file:</p>
+    <pre><code>sudo nano /etc/systemd/system/myapp.service</code></pre>
+    <p>Add:</p>
+    <pre><code>[Unit]
+Description=My Application
+After=network.target
+
+[Service]
+Type=simple
+User=admin
+WorkingDirectory=/home/admin/myapp
+ExecStart=/usr/bin/python3 /home/admin/myapp/main.py
+Restart=always
+RestartSec=10
+
+[Install]
+WantedBy=multi-user.target</code></pre>
+    <p>Enable and start:</p>
+    <pre><code>sudo systemctl daemon-reload
+sudo systemctl enable myapp
+sudo systemctl start myapp</code></pre>
+
+    <h2>Step 6: Backup &amp; Disaster Recovery</h2>
+
+    <h3>6.1 Create a Backup Script</h3>
+    <pre><code>sudo nano /home/admin/backup.sh</code></pre>
+    <p>Add:</p>
+    <pre><code>#!/bin/bash
+tar -czf /backups/server_backup_$(date +%Y%m%d).tar.gz /home /etc /var/www
+find /backups -name "server_backup_*.tar.gz" -mtime +30 -delete</code></pre>
+    <p>Make it executable:</p>
+    <pre><code>chmod +x /home/admin/backup.sh</code></pre>
+
+    <h3>6.2 Schedule Automated Backups</h3>
+    <pre><code>sudo crontab -e</code></pre>
+    <p>Add a daily backup at 2 AM:</p>
+    <pre><code>0 2 * * * /home/admin/backup.sh</code></pre>
+
+    <h2>Step 7: Monitoring &amp; Logging</h2>
+
+    <h3>7.1 Monitor System Resources</h3>
+    <pre><code>top     # Real-time resource usage
+df -h   # Disk space
+free -h # Memory usage</code></pre>
+
+    <h3>7.2 Check System Logs</h3>
+    <pre><code>sudo journalctl -xe         # System logs
+sudo tail -f /var/log/syslog  # System messages</code></pre>
+
+    <h2>Common Troubleshooting</h2>
+
+    <h3>SSH Connection Refused</h3>
+    <p>Verify SSH is running and port 22 is open in your firewall. Check with: <code>sudo ufw status</code></p>
+
+    <h3>Certificate Errors</h3>
+    <p>Verify DNS is pointing to your server: <code>nslookup yourdomain.com</code>. Test with: <code>sudo certbot renew --dry-run</code></p>
+
+    <h3>Out of Disk Space</h3>
+    <p>Check disk usage: <code>df -h</code>. Delete old logs or backups as needed.</p>
 
     <h2>Next Steps</h2>
+    <p>You now have a production-ready Linux server. Next, you can:</p>
     <ul class="detail-list">
-      <li>Implement health checks and monitoring</li>
-      <li>Set up automated backups for database containers</li>
-      <li>Deploy to production servers with Compose</li>
-      <li>Implement container logging and monitoring</li>
+      <li>Deploy applications (Docker, Node.js, Python, etc.)</li>
+      <li>Set up a database (PostgreSQL, MySQL)</li>
+      <li>Configure a reverse proxy for multiple sites</li>
+      <li>Implement load balancing for high-traffic applications</li>
+      <li>Set up monitoring and alerting for production uptime</li>
     </ul>
 
-    <p>Learn more in our <a href="/freelancing-training/docker-training/">Docker Training</a> program.</p>
+    <h2>Learn More</h2>
+    <p>For hands-on training and expert guidance, check out our <a href="/freelancing-training/linux-freelancing-training/">Linux Freelancing Training</a> program that covers everything from server setup through production operations.</p>
   </div>
 </article>
 </main>
@@ -269,7 +344,7 @@ volumes:
                                     target="_blank"
                                     ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
                                 ><a
-                                    href="https://www.linkedin.com/company/schooloffreelancing"
+                                    href="https://www.linkedin.com/company/SchoolOfFreelancing"
                                     aria-label="School of Freelancing on LinkedIn"
                                     rel="noopener noreferrer"
                                     target="_blank"
@@ -281,13 +356,13 @@ volumes:
                                     target="_blank"
                                     ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
                                 ><a
-                                    href="https://instagram.com/schooloffreelancing"
+                                    href="https://instagram.com/SchoolOfFreelancing"
                                     aria-label="School of Freelancing on Instagram"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
                                 ><a
-                                    href="https://www.threads.com/schooloffreelancing"
+                                    href="https://www.threads.com/SchoolOfFreelancing"
                                     aria-label="School of Freelancing on Threads"
                                     rel="noopener noreferrer"
                                     target="_blank"
@@ -312,16 +387,16 @@ volumes:
                                     ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
                                 ></a>
                             </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
+                            <p style="margin-top: 2rem">© 2015-2026 by School of Freelancing.</p>
                         </aside>
                     </div>
                     <nav aria-label="Footer: Freelancing Training" class="footer-col">
-                        <h2><span>Freelancing Training</span></h2>
+                        <h2><span>FREELANCING TRAINING</span></h2>
                         <ul class="footer-links">
                             <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
                             <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
                             <li>
-                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a>
+                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx SMS API Training</a>
                             </li>
                             <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
                             <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
@@ -332,13 +407,13 @@ volumes:
                         </ul>
                     </nav>
                     <nav aria-label="Footer: Client Support" class="footer-col">
-                        <h2><span>Client Support</span></h2>
+                        <h2><span>CLIENT SUPPORT</span></h2>
                         <ul class="footer-links">
                             <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
                             <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
                             <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
                             <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-                            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
+                            <li><a href="/client-support/voice-ai-agent-setup/">Voice AI Agent Setup</a></li>
                             <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
                             <li>
                                 <a href="/client-support/" aria-label="View all client support services in footer"
@@ -347,8 +422,8 @@ volumes:
                             </li>
                         </ul>
                     </nav>
-                    <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
-                        <h2><span>Legal</span></h2>
+                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
+                        <h2><span>LEGAL</span></h2>
                         <ul class="footer-links">
                             <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
                             <li><a href="/locations/">Locations</a></li>

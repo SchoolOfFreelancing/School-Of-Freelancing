@@ -13,13 +13,13 @@ description: "Live hands-on freelancing training in Linux, VoIP, AI & cloud tech
 
 ### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/)
 
-Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
+Become an in-demand Linux System Administrator, build a freelance business, and win high-paying global clients.
 
-**Linux Training Features:**
+**Features:**
 
 - 90 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
-- Live Online, Instructor-Led Training
+- Live Online, Instructor-led Training
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
@@ -29,11 +29,11 @@ Become an in-demand Linux system administrator, build a freelance business, and 
 
 Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
 
-**Hermes Agent Training Features:**
+**Features:**
 
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
-- Live Online, Instructor-Led Training
+- Live Online, Instructor-led Training
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
@@ -41,9 +41,9 @@ Build an in-demand freelance career as a Hermes AI Agent Engineer and attract pr
 
 ### [Telnyx SMS API Freelancing Training](/freelancing-training/telnyx-sms-api-training/)
 
-Learn Telnyx — the most in-demand messaging skill in the freelance market — and attract premium global clients now!
+Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium global clients now!
 
-**Telnyx SMS Training Features:**
+**Features:**
 
 - 30 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
@@ -57,7 +57,7 @@ Learn Telnyx — the most in-demand messaging skill in the freelance market — 
 
 Set up Odysseus on Linux, optimize AI synergy, and build service portfolios across marketplaces.
 
-**Odysseus Training Features:**
+**Features:**
 
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
@@ -71,7 +71,7 @@ Set up Odysseus on Linux, optimize AI synergy, and build service portfolios acro
 
 Learn to deploy OpenClaw Linux servers for AI agents, build your service portfolio, and get hired freelance.
 
-**OpenClaw Training Features:**
+**Features:**
 
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
@@ -85,9 +85,9 @@ Learn to deploy OpenClaw Linux servers for AI agents, build your service portfol
 
 Learn how to deploy LocalAI production to run AI models directly on your own device or local server instead of a remote cloud.
 
-**LocalAI Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Service Portfolio Development
@@ -99,9 +99,9 @@ Learn how to deploy LocalAI production to run AI models directly on your own dev
 
 A hands-on training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
 
-**ZeroClaw Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Service Portfolio Development
@@ -113,9 +113,9 @@ A hands-on training covering ZeroClaw fundamentals, production deployment, and b
 
 Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 
-**GitLab Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -127,9 +127,9 @@ Learn GitLab production setup, migration, version control, CI/CD, & project mana
 
 Learn GitHub Enterprise Server deployment, Actions CI/CD, migration, and building a profitable freelance service.
 
-**GitHub Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -141,9 +141,9 @@ Learn GitHub Enterprise Server deployment, Actions CI/CD, migration, and buildin
 
 Hands-on Docker training covering three production deployments, building a freelance service, and client acquisition.
 
-**Docker Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -155,9 +155,9 @@ Hands-on Docker training covering three production deployments, building a freel
 
 Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service.
 
-**FusionPBX Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -169,9 +169,9 @@ Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then 
 
 Learn GOautodial Freelancing Training for VoIP setup, call testing, freelance portfolio creation, and landing clients.
 
-**Goautodial Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -183,9 +183,9 @@ Learn GOautodial Freelancing Training for VoIP setup, call testing, freelance po
 
 Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers, and CRM integration, to work as a freelancer.
 
-**Call Center Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -197,9 +197,9 @@ Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers, a
 
 Learn Ubuntu Linux: setup web servers, CRMs & harden security. Build a portfolio for freelance clients for Ubuntu support.
 
-**Ubuntu Linux Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -211,9 +211,9 @@ Learn Ubuntu Linux: setup web servers, CRMs & harden security. Build a portfolio
 
 Learn Debian Linux admin: Set up LEMP, deploy Vtiger/Odoo/Attendize, fix errors, build portfolio & land clients.
 
-**Debian Linux Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -225,9 +225,9 @@ Learn Debian Linux admin: Set up LEMP, deploy Vtiger/Odoo/Attendize, fix errors,
 
 Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN, Next.js, troubleshoot, and land clients.
 
-**CentOS Linux Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -239,9 +239,9 @@ Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN, Ne
 
 OpenAI Developer Training: Build real-world AI applications, then find and apply for freelance jobs on Upwork.
 
-**OpenAI Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -253,9 +253,9 @@ OpenAI Developer Training: Build real-world AI applications, then find and apply
 
 Learn Claude API & AI agent engineering — prompt engineering, tool use, RAG, agent orchestration. Land freelance clients.
 
-**Claude Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -267,9 +267,9 @@ Learn Claude API & AI agent engineering — prompt engineering, tool use, RAG, a
 
 Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-world freelancing skills.
 
-**Twilio Training Features:**
+**Features:**
 
-- 30 Comprehensive Modules
+- 30 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -281,9 +281,9 @@ Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-w
 
 Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot, land freelance clients.
 
-**Jasmin SMS Gateway Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
@@ -295,9 +295,9 @@ Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs
 
 Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
 
-**Bulk SMS Freelancing Training Features:**
+**Features:**
 
-- 20 Comprehensive Modules
+- 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*

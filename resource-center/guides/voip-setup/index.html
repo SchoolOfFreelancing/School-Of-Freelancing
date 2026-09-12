@@ -3,28 +3,27 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Deploy a Linux Server from Zero to Production | School of Freelancing</title>
-    <meta name="description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
+    <title>How to Set Up Your Own VoIP Phone System | School of Freelancing</title>
+    <meta name="description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
     <meta name="robots" content="index, follow">
 
     <!-- Canonical & Alternate Links -->
-    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment"/>
-    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment"/>
-    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/guides/linux-deployment"/>
+    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/voip-setup"/>
+    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/voip-setup"/>
+    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/voip-setup"/>
 
     <!-- Open Graph Metadata -->
     <meta property="og:type" content="article">
-    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/linux-deployment/">
-    <meta property="og:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
-    <meta property="og:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
+    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/voip-setup"/>
+    <meta property="og:title" content="How to Set Up Your Own VoIP Phone System | School of Freelancing">
+    <meta property="og:description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
 
     <!-- Twitter Card Metadata -->
     <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
-    <meta name="twitter:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
-
-
-<!-- Google tag (gtag.js) -->
+    <meta name="twitter:title" content="How to Set Up Your Own VoIP Phone System | School of Freelancing">
+    <meta name="twitter:description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
+    
+    <!-- Google tag (gtag.js) -->
 <script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
@@ -39,8 +38,22 @@
 ></script>
 
     <link rel="stylesheet" href="/assets/css/style.css">
+    <!-- Font Awesome 6 Free: footer brand icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css" crossorigin="anonymous" referrerpolicy="no-referrer">
     <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
+<style>
+.footer-social a i.fa-brands, .footer-social a i.fa-brands::before {
+  font-family: "Font Awesome 6 Brands" !important;
+  font-weight: 400 !important;
+  font-style: normal !important;
+}
+  .footer {
+    background: rgba(0, 9, 60, 0.55);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+  }
+</style>
 <!-- FontAwesome -->
 <script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
 
@@ -51,26 +64,26 @@
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#content",
-      "url": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/",
-      "headline": "How to Deploy a Linux Server from Zero to Production | School of Freelancing",
-      "description": "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/#content",
+      "url": "https://schooloffreelancing.com/resource-center/guides/voip-setup/",
+      "headline": "How to Set Up Your Own VoIP Phone System | School of Freelancing",
+      "description": "Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.",
       "publisher": {
         "@id": "https://schooloffreelancing.com/#organization"
       },
       "isPartOf": {
         "@type": "WebPage",
-        "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/"
+        "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/"
       }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/#breadcrumb",
+      "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup/#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
         { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center/" },
-        { "@type": "ListItem", "position": 3, "name": "Guides", "item": "https://schooloffreelancing.com/resource-center/guides/" },
-        { "@type": "ListItem", "position": 4, "name": "Linux Deployment Guide", "item": "https://schooloffreelancing.com/resource-center/guides/linux-deployment/" }
+        { "@type": "ListItem", "position": 3, "name": "How-To Guides", "item": "https://schooloffreelancing.com/resource-center/guides/" },
+        { "@type": "ListItem", "position": 4, "name": "VoIP Setup Guide", "item": "https://schooloffreelancing.com/resource-center/guides/voip-setup/" }
       ]
     },
     {
@@ -93,47 +106,40 @@
 }
 </script>
 
+    
+
+    
+
     <!-- AI.TXT PREFETCH DISCOVERY -->
-    <link rel="prefetch" href="../../ai.txt">
+    <link rel="prefetch" href="../../../ai.txt">
     <!-- /AI.TXT PREFETCH DISCOVERY -->
 </head>
 <body>
-
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
+<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 <a class="skip-link" href="#main">Skip to main content</a>
 
-<!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
-    </a>
+    <a href="/" class="nav-logo" aria-label="School of Freelancing"><span>SCHOOL OF FREELANCING</span></a>
     <ul class="nav-links" id="nav-links">
       <li><a href="/freelancing-training/">Freelancing Training</a></li>
       <li><a href="/client-support/">Client Support</a></li>
-      <li><a href="/resource-center/testimonials/">Testimonials</a></li>
       <li><a href="/about-us/">About Us</a></li>
       <li><a href="/contact-us/">Contact Us</a></li>
     </ul>
-    <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
-      <span></span><span></span><span></span>
-    </button>
+    <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button>
   </div>
 </nav>
 <div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
 
 <main id="main">
 
-<!-- PAGE HERO -->
 <header class="page-hero">
   <div class="container detail-wrap">
-    <p><a href="/">Home</a> / <a href="/resource-center/">Resource Center</a> / Linux Server Deployment</p>
-    <h1>How to Deploy a Production-Ready Linux Server From Zero</h1>
-    <p style="font-size: 1.1rem; opacity: 0.9; margin-top: 15px;">Complete step-by-step guide: from bare server to hardened production infrastructure.</p>
+    <p><a href="/">Home</a> / <a href="/resource-center/">Resource Center</a> / Setup VoIP</p>
+    <h1>How to Set Up Your Own VoIP Phone System</h1>
+    <p style="font-size: 1.1rem; opacity: 0.9; margin-top: 15px;">Deploy FusionPBX for professional business phone infrastructure without expensive carrier lock-in.</p>
   </div>
 </header>
 
@@ -141,166 +147,138 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <div class="container detail-wrap">
 
     <h2>Overview</h2>
-    <p>This guide walks you through deploying a production-ready Ubuntu Linux server from scratch. You'll learn server initialization, security hardening, networking configuration, package management, systemd service setup, backup strategies, and monitoring — everything needed to run reliable production infrastructure.</p>
+    <p>This guide teaches you how to deploy FusionPBX, an open-source VoIP PBX system, on your Ubuntu server. You'll handle extensions, IVR menus, call routing, and SIP trunking — giving your business complete control over phone infrastructure and eliminating expensive carrier fees.</p>
 
     <h2>Prerequisites</h2>
     <ul class="detail-list">
-      <li>A Linux server instance (VPS or dedicated): Ubuntu 24.04 LTS or 26.04 LTS recommended</li>
-      <li>SSH client on your local machine</li>
-      <li>A domain name (optional but recommended)</li>
+      <li>A production-ready Ubuntu 24.04 LTS server (minimum 2GB RAM, 20GB disk)</li>
+      <li>A domain name for SIP registration</li>
+      <li>An external SIP trunk provider (Twilio, Telnyx, or similar)</li>
       <li>Basic Linux command-line familiarity</li>
     </ul>
 
-    <h2>Step 1: Initial Server Setup &amp; SSH Access</h2>
+    <h2>Step 1: Install FusionPBX</h2>
 
-    <h3>1.1 Get Root Access</h3>
-    <p>Upon first login, establish a secure connection:</p>
-    <pre><code>ssh root@your_server_ip</code></pre>
-    <p>Update your system packages immediately:</p>
-    <pre><code>apt update &amp;&amp; apt upgrade -y</code></pre>
+    <h3>1.1 Install FreeSWITCH Dependencies</h3>
+    <p>FusionPBX is built on FreeSWITCH. Install required packages:</p>
+    <pre><code>sudo apt update &amp;&amp; sudo apt install -y curl wget gnupg2
+sudo apt install -y postgresql postgresql-contrib</code></pre>
 
-    <h3>1.2 Create a Non-Root User</h3>
-    <p>Never run production services as root. Create a dedicated user:</p>
-    <pre><code>useradd -m -s /bin/bash admin
-usermod -aG sudo admin</code></pre>
+    <h3>1.2 Install FusionPBX</h3>
+    <p>Clone the FusionPBX repository and run the installer:</p>
+    <pre><code>cd /opt
+sudo git clone https://github.com/fusionpbx/fusionpbx.git
+cd fusionpbx
+sudo chmod +x -R install
+sudo ./install/install.sh</code></pre>
+    <p>The installer will prompt for PostgreSQL password and domain configuration.</p>
 
-    <h3>1.3 Configure SSH Key-Based Authentication</h3>
-    <p>On your local machine, generate an SSH key if you don't have one:</p>
-    <pre><code>ssh-keygen -t ed25519 -C "admin@yourserver"</code></pre>
-    <p>Copy the public key to your server:</p>
-    <pre><code>ssh-copy-id -i ~/.ssh/id_ed25519.pub admin@your_server_ip</code></pre>
+    <h3>1.3 Secure the Web Interface</h3>
+    <p>Access FusionPBX at https://your-domain.com (username: admin, password: provided during install).</p>
+    <p>Immediately change the default password in Settings &rarr; Accounts.</p>
 
-    <h3>1.4 Disable Password Authentication</h3>
-    <p>Edit SSH configuration to use only keys:</p>
-    <pre><code>sudo nano /etc/ssh/sshd_config</code></pre>
-    <p>Set these options:</p>
-    <pre><code>PermitRootLogin no
-PasswordAuthentication no
-PubkeyAuthentication yes</code></pre>
-    <p>Restart SSH:</p>
-    <pre><code>sudo systemctl restart ssh</code></pre>
+    <h2>Step 2: Configure Extensions</h2>
 
-    <h2>Step 2: Security Hardening</h2>
+    <h3>2.1 Create Your First Extension</h3>
+    <p>In FusionPBX web interface: Dialplan &rarr; Extensions &rarr; Add</p>
+    <ul class="detail-list">
+      <li><strong>Extension:</strong> 1000</li>
+      <li><strong>Enabled:</strong> Yes</li>
+      <li><strong>Description:</strong> Main Office</li>
+      <li><strong>Voicemail:</strong> Enable</li>
+      <li><strong>Voicemail Password:</strong> Strong password</li>
+      <li><strong>Caller ID Name:</strong> Your Business Name</li>
+      <li><strong>Caller ID Number:</strong> Main phone number</li>
+    </ul>
+    <p>Save and note the SIP credentials (username/password) for connecting a phone or softphone.</p>
 
-    <h3>2.1 Configure UFW Firewall</h3>
-    <p>Enable the firewall and allow only necessary ports:</p>
-    <pre><code>sudo ufw default deny incoming
-sudo ufw default allow outgoing
-sudo ufw allow 22/tcp
-sudo ufw allow 80/tcp
-sudo ufw allow 443/tcp
-sudo ufw enable</code></pre>
+    <h3>2.2 Configure SIP Phones or Softphones</h3>
+    <p>Use these credentials to register:</p>
+    <ul class="detail-list">
+      <li><strong>Proxy/SIP Server:</strong> your-domain.com</li>
+      <li><strong>Port:</strong> 5060 (or 5061 for TLS)</li>
+      <li><strong>Username:</strong> Extension (e.g., 1000)</li>
+      <li><strong>Password:</strong> As configured above</li>
+      <li><strong>Display Name:</strong> Your name</li>
+    </ul>
 
-    <h3>2.2 Fail2Ban for Brute-Force Protection</h3>
-    <p>Protect against repeated login attempts:</p>
-    <pre><code>sudo apt install fail2ban -y
-sudo systemctl enable fail2ban
-sudo systemctl start fail2ban</code></pre>
+    <h2>Step 3: Build an IVR (Interactive Voice Response)</h2>
 
-    <h3>2.3 Automatic Security Updates</h3>
-    <pre><code>sudo apt install unattended-upgrades -y
-sudo systemctl enable unattended-upgrades</code></pre>
+    <h3>3.1 Create an IVR Menu</h3>
+    <p>In FusionPBX: Dialplan &rarr; IVR &rarr; Add</p>
+    <ul class="detail-list">
+      <li><strong>Name:</strong> Main Menu</li>
+      <li><strong>Greet Long:</strong> "Welcome to [Company Name]. Press 1 for sales, 2 for support, 0 for operator."</li>
+      <li><strong>Menu Options:</strong>
+        <ul>
+          <li>Press 1 &rarr; Route to extension 1001 (Sales)</li>
+          <li>Press 2 &rarr; Route to extension 1002 (Support)</li>
+          <li>Press 0 &rarr; Route to extension 1000 (Operator)</li>
+        </ul>
+      </li>
+    </ul>
 
-    <h2>Step 3: Networking &amp; Domain Configuration</h2>
+    <h2>Step 4: Set Up SIP Trunking</h2>
 
-    <h3>3.1 Set Hostname</h3>
-    <pre><code>sudo hostnamectl set-hostname myserver.com
-sudo nano /etc/hosts</code></pre>
-    <p>Add your hostname to the hosts file.</p>
+    <h3>4.1 Configure Telnyx SIP Trunk (Example)</h3>
+    <p>Register with Telnyx, get your SIP credentials, then in FusionPBX: Advanced &rarr; SIP Profiles &rarr; External Profile</p>
+    <p>Add gateway settings (Gateways tab):</p>
+    <ul class="detail-list">
+      <li><strong>Name:</strong> telnyx-trunk</li>
+      <li><strong>Proxy:</strong> sip.telnyx.com</li>
+      <li><strong>Username:</strong> Your Telnyx username</li>
+      <li><strong>Password:</strong> Your Telnyx password</li>
+      <li><strong>Realm:</strong> sip.telnyx.com</li>
+    </ul>
 
-    <h3>3.2 Point Domain to Server</h3>
-    <p>In your domain registrar's DNS settings, create an A record pointing your domain to your server's IP address. Allow 15-30 minutes for DNS propagation.</p>
+    <h3>4.2 Create Dialplan for Outbound Calls</h3>
+    <p>In FusionPBX: Dialplan &rarr; Dialplan &rarr; Add outbound route</p>
+    <ul class="detail-list">
+      <li><strong>Expression:</strong> ^(\d{10})$ (for 10-digit US numbers)</li>
+      <li><strong>Gateway:</strong> telnyx-trunk</li>
+      <li><strong>Action:</strong> bridge {sip_from_user=$1@sip.telnyx.com}</li>
+    </ul>
 
-    <h2>Step 4: Web Server &amp; SSL Configuration</h2>
+    <h2>Step 5: Call Recording &amp; Voicemail</h2>
 
-    <h3>4.1 Install Nginx</h3>
-    <pre><code>sudo apt install nginx -y
-sudo systemctl enable nginx
-sudo systemctl start nginx</code></pre>
+    <h3>5.1 Enable Call Recording</h3>
+    <p>In Extensions settings, enable "Record Calls" for quality assurance and compliance.</p>
 
-    <h3>4.2 Obtain SSL Certificate with Certbot</h3>
-    <pre><code>sudo apt install certbot python3-certbot-nginx -y
-sudo certbot certonly --nginx -d yourdomain.com</code></pre>
-    <p>Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com</p>
+    <h3>5.2 Voicemail to Email</h3>
+    <p>Configure voicemail-to-email in Settings &rarr; Email to notify users of voicemails automatically.</p>
 
-    <h2>Step 5: Package Management &amp; Services</h2>
+    <h2>Step 6: Backup &amp; Monitoring</h2>
 
-    <h3>5.1 Install Essential Tools</h3>
-    <pre><code>sudo apt install curl wget git htop net-tools apt-transport-https -y</code></pre>
+    <h3>6.1 Backup FusionPBX Configuration</h3>
+    <pre><code>sudo pg_dump -U postgres fusionpbx &gt; /backups/fusionpbx_$(date +%Y%m%d).sql</code></pre>
+    <p>Schedule this daily via cron.</p>
 
-    <h3>5.2 Create a Systemd Service (Example)</h3>
-    <p>For custom applications, create a systemd service file:</p>
-    <pre><code>sudo nano /etc/systemd/system/myapp.service</code></pre>
-    <p>Add:</p>
-    <pre><code>[Unit]
-Description=My Application
-After=network.target
-
-[Service]
-Type=simple
-User=admin
-WorkingDirectory=/home/admin/myapp
-ExecStart=/usr/bin/python3 /home/admin/myapp/main.py
-Restart=always
-RestartSec=10
-
-[Install]
-WantedBy=multi-user.target</code></pre>
-    <p>Enable and start:</p>
-    <pre><code>sudo systemctl daemon-reload
-sudo systemctl enable myapp
-sudo systemctl start myapp</code></pre>
-
-    <h2>Step 6: Backup &amp; Disaster Recovery</h2>
-
-    <h3>6.1 Create a Backup Script</h3>
-    <pre><code>sudo nano /home/admin/backup.sh</code></pre>
-    <p>Add:</p>
-    <pre><code>#!/bin/bash
-tar -czf /backups/server_backup_$(date +%Y%m%d).tar.gz /home /etc /var/www
-find /backups -name "server_backup_*.tar.gz" -mtime +30 -delete</code></pre>
-    <p>Make it executable:</p>
-    <pre><code>chmod +x /home/admin/backup.sh</code></pre>
-
-    <h3>6.2 Schedule Automated Backups</h3>
-    <pre><code>sudo crontab -e</code></pre>
-    <p>Add a daily backup at 2 AM:</p>
-    <pre><code>0 2 * * * /home/admin/backup.sh</code></pre>
-
-    <h2>Step 7: Monitoring &amp; Logging</h2>
-
-    <h3>7.1 Monitor System Resources</h3>
-    <pre><code>top     # Real-time resource usage
-df -h   # Disk space
-free -h # Memory usage</code></pre>
-
-    <h3>7.2 Check System Logs</h3>
-    <pre><code>sudo journalctl -xe         # System logs
-sudo tail -f /var/log/syslog  # System messages</code></pre>
+    <h3>6.2 Monitor System Health</h3>
+    <p>In FusionPBX: System &rarr; System Status</p>
+    <p>Monitor active calls, registered extensions, and SIP trunk status.</p>
 
     <h2>Common Troubleshooting</h2>
 
-    <h3>SSH Connection Refused</h3>
-    <p>Verify SSH is running and port 22 is open in your firewall. Check with: <code>sudo ufw status</code></p>
+    <h3>No Inbound/Outbound Audio (One-Way Audio)</h3>
+    <p>Check: 1) SIP trunk credentials correct? 2) Firewall allows RTP ports (16384-32767)? 3) NAT settings correct?</p>
 
-    <h3>Certificate Errors</h3>
-    <p>Verify DNS is pointing to your server: <code>nslookup yourdomain.com</code>. Test with: <code>sudo certbot renew --dry-run</code></p>
+    <h3>SIP Registration Fails</h3>
+    <p>Verify: 1) Domain DNS resolves? 2) Port 5060/5061 open? 3) Username/password correct?</p>
 
-    <h3>Out of Disk Space</h3>
-    <p>Check disk usage: <code>df -h</code>. Delete old logs or backups as needed.</p>
+    <h3>Extensions Don't Register</h3>
+    <p>In FreeSWITCH console: <code>freeswitch&gt; sofia status</code> to see registration status. Check logs: <code>tail -f /var/log/freeswitch/freeswitch.log</code></p>
 
     <h2>Next Steps</h2>
-    <p>You now have a production-ready Linux server. Next, you can:</p>
     <ul class="detail-list">
-      <li>Deploy applications (Docker, Node.js, Python, etc.)</li>
-      <li>Set up a database (PostgreSQL, MySQL)</li>
-      <li>Configure a reverse proxy for multiple sites</li>
-      <li>Implement load balancing for high-traffic applications</li>
-      <li>Set up monitoring and alerting for production uptime</li>
+      <li>Add additional extensions for team members</li>
+      <li>Create department-specific IVR menus</li>
+      <li>Integrate with CRM (Salesforce, etc.)</li>
+      <li>Set up call center features (agents, queues)</li>
+      <li>Implement call center dialer functionality</li>
     </ul>
 
     <h2>Learn More</h2>
-    <p>For hands-on training and expert guidance, check out our <a href="/freelancing-training/linux-freelancing-training/">Linux Freelancing Training</a> program that covers everything from server setup through production operations.</p>
+    <p>For comprehensive hands-on training, enroll in our <a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a> program.</p>
   </div>
 </article>
 </main>
@@ -340,7 +318,7 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                                     target="_blank"
                                     ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
                                 ><a
-                                    href="https://www.linkedin.com/company/schooloffreelancing"
+                                    href="https://www.linkedin.com/company/SchoolOfFreelancing"
                                     aria-label="School of Freelancing on LinkedIn"
                                     rel="noopener noreferrer"
                                     target="_blank"
@@ -352,13 +330,13 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                                     target="_blank"
                                     ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
                                 ><a
-                                    href="https://instagram.com/schooloffreelancing"
+                                    href="https://instagram.com/SchoolOfFreelancing"
                                     aria-label="School of Freelancing on Instagram"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
                                 ><a
-                                    href="https://www.threads.com/schooloffreelancing"
+                                    href="https://www.threads.com/SchoolOfFreelancing"
                                     aria-label="School of Freelancing on Threads"
                                     rel="noopener noreferrer"
                                     target="_blank"
@@ -383,16 +361,16 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                                     ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
                                 ></a>
                             </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
+                            <p style="margin-top: 2rem">© 2015-2026 by School of Freelancing.</p>
                         </aside>
                     </div>
                     <nav aria-label="Footer: Freelancing Training" class="footer-col">
-                        <h2><span>Freelancing Training</span></h2>
+                        <h2><span>FREELANCING TRAINING</span></h2>
                         <ul class="footer-links">
                             <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
                             <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
                             <li>
-                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx Developer Training</a>
+                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx SMS API Training</a>
                             </li>
                             <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
                             <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
@@ -403,13 +381,13 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                         </ul>
                     </nav>
                     <nav aria-label="Footer: Client Support" class="footer-col">
-                        <h2><span>Client Support</span></h2>
+                        <h2><span>CLIENT SUPPORT</span></h2>
                         <ul class="footer-links">
                             <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
                             <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
                             <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
                             <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-                            <li><a href="/client-support/vapi-platform-services/">Vapi Platform Support</a></li>
+                            <li><a href="/client-support/voice-ai-agent-setup/">Voice AI Agent Setup</a></li>
                             <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
                             <li>
                                 <a href="/client-support/" aria-label="View all client support services in footer"
@@ -418,8 +396,8 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
                             </li>
                         </ul>
                     </nav>
-                    <nav aria-label="Footer: Legal &amp; Resources" class="footer-col">
-                        <h2><span>Legal</span></h2>
+                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
+                        <h2><span>LEGAL</span></h2>
                         <ul class="footer-links">
                             <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
                             <li><a href="/locations/">Locations</a></li>
@@ -435,7 +413,7 @@ sudo tail -f /var/log/syslog  # System messages</code></pre>
             </div>
         </footer>
 
-<script src="/assets/js/main.js?v=20260718" defer></script>
+<script defer src="/assets/js/main.js"></script>
 <chat-bubble-snippet
   api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
 ></chat-bubble-snippet>

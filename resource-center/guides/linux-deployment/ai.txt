@@ -4,12 +4,12 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-09T19:10:05+00:00
+# Generated UTC: 2026-09-12T06:31:33+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/linux-deployment/
+Section: https://schooloffreelancing.com/resource-center/guides/linux-deployment/
 
 # PURPOSE
 # This document provides lightweight page discovery
@@ -17,14 +17,14 @@ Section: https://schooloffreelancing.com/resource-center/linux-deployment/
 # browsers and other crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/resource-center/linux-deployment/
+Page: https://schooloffreelancing.com/resource-center/guides/linux-deployment/
 Title: How to Deploy a Linux Server from Zero to Production | School of Freelancing
-Canonical: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Canonical: https://schooloffreelancing.com/resource-center/linux-deployment
 Description: Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center/
-Current: https://schooloffreelancing.com/resource-center/linux-deployment/
+Parent: https://schooloffreelancing.com/resource-center/guides/
+Current: https://schooloffreelancing.com/resource-center/guides/linux-deployment/
 
 # HTML DISCOVERY
 HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">

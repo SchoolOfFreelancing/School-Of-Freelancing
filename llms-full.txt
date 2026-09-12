@@ -12,12 +12,14 @@ The page you were looking for may have moved, been renamed, or never existed. Fi
 ### School Of Freelancing
 URL: https://schooloffreelancing.com/
 
+From freelancing training and Linux tech support, get the full expertise to become top-rated, plus hire support.
+
 ## About Us
 
 ### About Us | School Of Freelancing
 URL: https://schooloffreelancing.com/about-us/
 
-Founded in 2015 by Karim (Masum), School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
+School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
 
 ## Client Support
 
@@ -30,6 +32,11 @@ Hire CentOS Linux Support for server setup, troubleshooting, security, optimizat
 URL: https://schooloffreelancing.com/client-support/claude-platform-support/
 
 Hire Claude Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
+
+### Client Support — School Of Freelancing
+URL: https://schooloffreelancing.com/client-support/
+
+Get reliable, expert remote Client Support 24/7. Trusted solutions for all your technical needs.
 
 ### DigitalOcean — AI-Native Cloud | Hire Support
 URL: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
@@ -100,11 +107,6 @@ Hire OpenAI Platform Support for API setup, integrations, agents, troubleshootin
 URL: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 
 Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support.
-
-### Tech Support — School Of Freelancing
-URL: https://schooloffreelancing.com/client-support/
-
-Get reliable, expert remote tech support 24/7. Trusted solutions for all your technical needs.
 
 ### Telnyx SMS Setup Support | Business Messaging Integration
 URL: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
@@ -407,27 +409,27 @@ URL: https://schooloffreelancing.com/resource-center/faqs/
 Answers to common questions about School of Freelancing's training programs and client support services.
 
 ### How to Automate Your First Repetitive Task | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/automation/
+URL: https://schooloffreelancing.com/resource-center/guides/automation/
 
 Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
 
 ### How to Containerize a Legacy Web Application | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/docker-containerize/
+URL: https://schooloffreelancing.com/resource-center/guides/docker-containerize/
 
 Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
 
 ### How to Create Your First AI Chatbot | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/ai-chatbot/
+URL: https://schooloffreelancing.com/resource-center/guides/ai-chatbot/
 
 Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
 ### How to Deploy a Linux Server from Zero to Production | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/linux-deployment/
+URL: https://schooloffreelancing.com/resource-center/guides/linux-deployment/
 
 Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.
 
 ### How to Set Up Your Own VoIP Phone System | School of Freelancing
-URL: https://schooloffreelancing.com/resource-center/voip-setup/
+URL: https://schooloffreelancing.com/resource-center/guides/voip-setup/
 
 Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
 

@@ -146,3 +146,11 @@ ErrorDocument 500 /500.html
 <Files "http-message-signatures-directory">
     ForceType application/json
 </Files>
+
+# BEGIN GSC-FIX CANONICAL REDIRECTS
+Redirect 301 /resource-center/ai-chatbot /resource-center/guides/ai-chatbot
+Redirect 301 /resource-center/automation /resource-center/guides/automation
+Redirect 301 /resource-center/docker-containerize /resource-center/guides/docker-containerize
+Redirect 301 /resource-center/linux-deployment /resource-center/guides/linux-deployment
+Redirect 301 /resource-center/voip-setup /resource-center/guides/voip-setup
+# END GSC-FIX CANONICAL REDIRECTS
