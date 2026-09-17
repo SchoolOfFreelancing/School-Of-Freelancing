@@ -2,6 +2,20 @@ const SITE_HOST = "schooloffreelancing.com";
 
 /*
  * ==========================================================================
+ * Legacy canonical redirects (moved from .htaccess)
+ * ==========================================================================
+ */
+
+const LEGACY_REDIRECTS = {
+  "/resource-center/ai-chatbot": "/resource-center/guides/ai-chatbot",
+  "/resource-center/automation": "/resource-center/guides/automation",
+  "/resource-center/docker-containerize": "/resource-center/guides/docker-containerize",
+  "/resource-center/linux-deployment": "/resource-center/guides/linux-deployment",
+  "/resource-center/voip-setup": "/resource-center/guides/voip-setup",
+};
+
+/*
+ * ==========================================================================
  * Agent discovery
  * ==========================================================================
  */
@@ -611,13 +625,13 @@ function updateHeaders(originHeaders) {
 
 /*
  * ==========================================================================
- * Origin resilience: cache + stale fallback
+ * Asset resilience: cache + stale fallback
  * ==========================================================================
  *
- * The origin host has had availability problems. When the origin is
- * unreachable or returns a 5xx, this Worker serves the last successfully
- * cached response instead of failing. This keeps content reachable for
- * Google, browsers, and AI agents even during origin outages.
+ * Static Assets are served from Cloudflare's edge and are normally always
+ * available. This fallback layer is kept defensively: if env.ASSETS.fetch()
+ * ever throws or returns a 5xx, we serve the last successfully cached
+ * response instead of failing outright.
  */
 
 const CACHE_TTL_SECONDS = 300;
@@ -650,11 +664,6 @@ async function cachePut(url, response) {
   try {
     const key = new Request(url, { method: "GET" });
 
-    /*
-     * Set a Cache-Control header so the edge cache honours our TTL.
-     * The original response headers are preserved on the clone
-     * returned to the client; this modified copy goes to cache only.
-     */
     const cached = new Response(response.body, {
       status: response.status,
       statusText: response.statusText,
@@ -700,17 +709,17 @@ function staleFromCache(cached, forHead) {
 }
 
 /*
- * Fetch with origin-failure resilience:
+ * Fetch with resilience:
  * - Successful responses are cached (GET only, 5-minute TTL).
- * - If the origin is unreachable or returns 5xx, serve the cached copy.
+ * - If ASSETS.fetch throws or returns 5xx, serve the cached copy.
  * - If there is no cache, return a graceful 503 instead of an error.
  */
-async function fetchWithFallback(request, ctx) {
+async function fetchWithFallback(request, ctx, env) {
   const isGet = request.method === "GET";
   let response;
 
   try {
-    response = await fetch(request);
+    response = await env.ASSETS.fetch(request);
   } catch (err) {
     response = null;
   }
@@ -725,7 +734,7 @@ async function fetchWithFallback(request, ctx) {
   }
 
   /*
-   * Origin returned 5xx or is unreachable — fall back to cache.
+   * Assets fetch failed or returned 5xx — fall back to cache.
    */
   const cached = await cacheGet(request.url);
 
@@ -734,7 +743,7 @@ async function fetchWithFallback(request, ctx) {
   }
 
   return new Response(
-    "Origin temporarily unavailable. Please retry shortly.",
+    "Site temporarily unavailable. Please retry shortly.",
     {
       status: 503,
       headers: {
@@ -757,13 +766,21 @@ export default {
     const url = new URL(request.url);
 
     /*
+     * Legacy canonical redirects (was: .htaccess "GSC-FIX" block).
+     */
+    if (LEGACY_REDIRECTS[url.pathname]) {
+      const target = new URL(LEGACY_REDIRECTS[url.pathname], url);
+      return Response.redirect(target.toString(), 301);
+    }
+
+    /*
      * Only GET and HEAD are handled specially.
      */
     if (
       request.method !== "GET" &&
       request.method !== "HEAD"
     ) {
-      const response = await fetchWithFallback(request, ctx);
+      const response = await fetchWithFallback(request, ctx, env);
       return addAgentDiscoveryHeaders(response);
     }
 
@@ -774,41 +791,40 @@ export default {
       !wantsMarkdown(request) ||
       !shouldConvert(url)
     ) {
-      const response = await fetchWithFallback(request, ctx);
+      const response = await fetchWithFallback(request, ctx, env);
       return addAgentDiscoveryHeaders(response);
     }
 
     /*
-     * Request HTML from the origin even though the client requested
-     * Markdown.
+     * Request HTML from assets even though the client requested Markdown.
      */
-    const originHeaders = new Headers(request.headers);
-    originHeaders.set("Accept", "text/html,application/xhtml+xml");
+    const assetHeaders = new Headers(request.headers);
+    assetHeaders.set("Accept", "text/html,application/xhtml+xml");
 
-    const originRequest = new Request(request, {
-      headers: originHeaders,
+    const assetRequest = new Request(request, {
+      headers: assetHeaders,
     });
 
-    const originResponse = await fetchWithFallback(originRequest, ctx);
+    const assetResponse = await fetchWithFallback(assetRequest, ctx, env);
 
     const contentType =
-      originResponse.headers.get("Content-Type") || "";
+      assetResponse.headers.get("Content-Type") || "";
 
     /*
      * Do not convert non-HTML responses.
      */
     if (!contentType.toLowerCase().includes("text/html")) {
-      return addAgentDiscoveryHeaders(originResponse);
+      return addAgentDiscoveryHeaders(assetResponse);
     }
 
     /*
      * HEAD has no body to transform.
      */
     if (request.method === "HEAD") {
-      const headers = updateHeaders(originResponse.headers);
+      const headers = updateHeaders(assetResponse.headers);
       return new Response(null, {
-        status: originResponse.status,
-        statusText: originResponse.statusText,
+        status: assetResponse.status,
+        statusText: assetResponse.statusText,
         headers,
       });
     }
@@ -825,7 +841,7 @@ export default {
         },
       })
       .on("*", converter)
-      .transform(originResponse);
+      .transform(assetResponse);
 
     /*
      * Read the transformed stream completely.
