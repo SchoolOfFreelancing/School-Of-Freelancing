@@ -2,9 +2,16 @@ name = "school-of-freelancing"
 main = "src/index.js"
 compatibility_date = "2024-09-23"
 
-[assets]
-directory = "."
-binding = "ASSETS"
-run_worker_first = true
-html_handling = "none"
-not_found_handling = "404-page"
+# Static assets binding — the Worker serves the site's static files via env.ASSETS.
+# The assets directory is managed via direct upload / dashboard; this config
+# preserves the binding on redeploy. Do NOT remove the binding.
+# When deploying via wrangler, point `directory` at your built site output:
+#   [assets]
+#   directory = "./public"
+#   binding = "ASSETS"
+
+# Routes — this Worker serves the main website
+routes = [
+  { pattern = "schooloffreelancing.com/*", zone_name = "schooloffreelancing.com" },
+  { pattern = "*.schooloffreelancing.com/*", zone_name = "schooloffreelancing.com" },
+]
