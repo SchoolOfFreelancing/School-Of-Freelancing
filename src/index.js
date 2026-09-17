@@ -720,6 +720,40 @@ async function fetchWithFallback(request, ctx, env) {
 
   try {
     response = await env.ASSETS.fetch(request);
+
+    /*
+     * html_handling is set to "none" so Static Assets does no
+     * directory-index resolution. If the literal path 404s and does
+     * not look like a static file (no extension), retry against the
+     * directory's index.html before giving up.
+     */
+    if (
+      response &&
+      response.status === 404 &&
+      (request.method === "GET" || request.method === "HEAD")
+    ) {
+      const reqUrl = new URL(request.url);
+
+      if (!/\.[a-z0-9]+$/i.test(reqUrl.pathname)) {
+        const indexUrl = new URL(request.url);
+        indexUrl.pathname =
+          indexUrl.pathname.replace(/\/?$/, "/") + "index.html";
+
+        const indexRequest = new Request(indexUrl, request);
+
+        try {
+          const indexResponse = await env.ASSETS.fetch(indexRequest);
+
+          if (indexResponse && indexResponse.status !== 404) {
+            response = indexResponse;
+          }
+        } catch (err) {
+          /*
+           * Fall through with the original 404 response.
+           */
+        }
+      }
+    }
   } catch (err) {
     response = null;
   }
@@ -770,6 +804,18 @@ export default {
      */
     if (LEGACY_REDIRECTS[url.pathname]) {
       const target = new URL(LEGACY_REDIRECTS[url.pathname], url);
+      return Response.redirect(target.toString(), 301);
+    }
+
+    /*
+     * Canonical URLs are non-trailing-slash. html_handling is set to
+     * "none" so Static Assets performs no redirect logic itself; do it
+     * explicitly here instead, so behaviour is consistent across every
+     * page regardless of directory/file layout on disk.
+     */
+    if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
+      const target = new URL(url);
+      target.pathname = url.pathname.slice(0, -1);
       return Response.redirect(target.toString(), 301);
     }
 
