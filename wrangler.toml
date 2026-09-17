@@ -1,0 +1,9 @@
+name = "school-of-freelancing"
+main = "src/index.js"
+compatibility_date = "2024-09-23"
+
+[assets]
+directory = "/var/www/html"        # keep your existing directory
+html_handling = "drop-trailing-slash"
+not_found_handling = "404-page"   # or "single-page-application" if you run an SPA
+

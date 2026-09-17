@@ -11,12 +11,12 @@
   <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/legal/terms-and-conditions"/>
   <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/legal/terms-and-conditions"/>
 
-  <meta name="description" content="Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.">
-  <meta name="keywords" content="school of freelancing terms, freelancing school terms and conditions, online training terms">
-  <meta name="robots" content="index, follow" />
+  <meta name="description" content="Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."/>
+  <meta name="keywords" content="school of freelancing terms, freelancing school terms and conditions, online training terms"/>
+  <meta name="robots" content="index, follow"/>
 
   <!-- Open Graph -->
-  <meta property="og:type" content="website" />
+  <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://schooloffreelancing.com/legal/terms-and-conditions"/>
   <meta property="og:title" content="Terms and Conditions — School of Freelancing"/>
   <meta property="og:description" content="Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."/>
@@ -60,7 +60,7 @@
         "@type": "WebPage",
         "@id": "https://schooloffreelancing.com/legal/terms-and-conditions/#webpage",
         "name": "Terms and Conditions",
-        "url": "https://schooloffreelancing.com/legal/terms-and-conditions/",
+        "url": "https://schooloffreelancing.com/legal/terms-and-conditions",
         "description": "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.",
         "isPartOf": { "@id": "https://schooloffreelancing.com/#website" }
       },
@@ -69,7 +69,7 @@
         "@id": "https://schooloffreelancing.com/legal/terms-and-conditions/#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-          { "@type": "ListItem", "position": 2, "name": "Terms and Conditions", "item": "https://schooloffreelancing.com/legal/terms-and-conditions/" }
+          { "@type": "ListItem", "position": 2, "name": "Terms and Conditions", "item": "https://schooloffreelancing.com/legal/terms-and-conditions" }
         ]
       },
       {
@@ -509,3 +509,4 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 
 </body>
 </html>
+
