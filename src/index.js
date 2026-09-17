@@ -8,12 +8,22 @@
  *  - Markdown content negotiation (Accept: text/markdown)
  *  - Agent discovery headers (Link)
  *  - Stale-cache fallback for availability
+ *  - Security headers (CSP, Permissions-Policy, X-Frame-Options, etc.)
  *
  * Redirect audit: 2026-09-17
  * Based on: direct-fetch verification + Cloudflare analytics 404 report (2-day window)
  */
 
 const SITE_HOST = "schooloffreelancing.com";
+
+// ─── Security Headers ──────────────────────────────────────────────────────
+const SECURITY_HEADERS = {
+  "Content-Security-Policy": "default-src 'self'; script-src 'self'; style-src 'self' 'unsafe-inline'; img-src 'self' data: https:; font-src 'self'; connect-src 'self'; frame-ancestors 'none'; base-uri 'self'; form-action 'self';",
+  "Permissions-Policy": "camera=(), microphone=(), geolocation=(), payment=(), usb=(), magnetometer=(), gyroscope=(), speaker=(), vibrate=(), fullscreen=(), accelerometer=(), ambient-light-sensor=(), autoplay=(), encrypted-media=(), picture-in-picture=(), sync-xhr=()",
+  "X-Content-Type-Options": "nosniff",
+  "X-Frame-Options": "DENY",
+  "Referrer-Policy": "strict-origin-when-cross-origin",
+};
 
 // ─── 301 Redirect Map (broken/legacy URL → canonical working URL) ───────────
 // All targets use no-trailing-slash form to avoid redirect chains with the
@@ -82,8 +92,23 @@ const STOPGAP_FALLBACKS = {
   "/client-support/odysseus-ai-services": "/client-support",
 };
 
-// ─── Agent discovery Link header ───────────────────────────────────────────
+// ─── Agent discovery Link header ──────────────────────────────────────────
 const AGENT_LINK_HEADER = '<https://schooloffreelancing.com/.well-known/api-catalog>; rel="api-catalog", <https://schooloffreelancing.com/service-desc>; rel="service-desc", <https://schooloffreelancing.com/.well-known/oauth-protected-resource/mcp>; rel="oauth-protected-resource", <https://schooloffreelancing.com/.well-known/oauth-authorization-server>; rel="oauth-authorization-server"';
+
+// ─── Apply security headers to a response ──────────────────────────────────
+function applySecurityHeaders(response) {
+  const headers = new Headers(response.headers);
+  for (const [name, value] of Object.entries(SECURITY_HEADERS)) {
+    if (!headers.has(name)) {
+      headers.set(name, value);
+    }
+  }
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
+}
 
 // ─── Markdown content negotiation ──────────────────────────────────────────
 
@@ -309,6 +334,11 @@ class MarkdownConverter {
 function addAgentDiscoveryHeaders(response) {
   const headers = new Headers(response.headers);
   headers.set("Link", AGENT_LINK_HEADER);
+  for (const [name, value] of Object.entries(SECURITY_HEADERS)) {
+    if (!headers.has(name)) {
+      headers.set(name, value);
+    }
+  }
   return new Response(response.body, {
     status: response.status,
     statusText: response.statusText,
@@ -334,6 +364,11 @@ function updateHeaders(originHeaders) {
   headers.set("Link", AGENT_LINK_HEADER);
   headers.set("X-Markdown-Content-Negotiation", "text/markdown");
   headers.set("X-Markdown-Source", "Cloudflare-Worker");
+  for (const [name, value] of Object.entries(SECURITY_HEADERS)) {
+    if (!headers.has(name)) {
+      headers.set(name, value);
+    }
+  }
   return headers;
 }
 
