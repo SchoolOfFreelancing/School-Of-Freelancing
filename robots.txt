@@ -6,6 +6,7 @@ Disallow: /scripts/
 Disallow: /tmp/
 Disallow: /404.html
 Disallow: /cdn-cgi/
+Disallow: /home/
 
 User-agent: Cloudflare-AI-Search
 Allow: /
