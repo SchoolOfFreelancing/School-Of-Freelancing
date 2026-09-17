@@ -1,2 +1,14 @@
 .git
 .git/**
+.github
+.github/**
+.gitignore
+.gitlab-ci.yml
+wrangler.toml
+package.json
+package-lock.json
+README.md
+src
+src/**
+node_modules
+node_modules/**
