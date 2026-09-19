@@ -1,7 +1,7 @@
 ---
 title: "Client Support — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Get reliable, expert remote Client Support 24/7. Trusted solutions for all your technical needs."
 ---
 

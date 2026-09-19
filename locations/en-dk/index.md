@@ -1,7 +1,7 @@
 ---
 title: "Denmark Freelance Training and IT Services"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Boost your freelancing career with comprehensive Linux, DevOps, VoIP, and AI training and remote client support specifically tailored for professionals and businesses in Denmark."
 ---
 

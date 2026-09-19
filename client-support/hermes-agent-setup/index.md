@@ -1,7 +1,7 @@
 ---
 title: "Hermes Agent — Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Hire Hermes Agent production setup support for task automation, chat workflows, code and remote messaging control."
 ---
 
@@ -22,8 +22,6 @@ Hire Hermes Agent production setup support for task automation, chat workflows, 
 | Best for: | Individuals, teams, and businesses requiring production Hermes Agent setup or ongoing automation support without a full-time hire. |
 | What you provide: | Team access to your server/VPS and messaging platform credentials, along with any existing automation workflows ready for production deployment. |
 
-## Frequently Asked Questions
-
 ## Hire Your Support Now
 
-Book a free 10-minute consultation to scope your project.
+Book a consultation or reach out directly to scope your project.

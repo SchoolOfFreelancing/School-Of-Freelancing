@@ -4,7 +4,7 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-12T06:31:33+00:00
+# Generated UTC: 2026-09-19T00:27:11+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -18,9 +18,9 @@ Section: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
 
 # PAGES
 Page: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
-Title: Telnyx VoIP — Setup | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/Telnyx-voip-setup
-Description: Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+Title: Telnyx VoIP Setup Support | Call Routing &amp; SIP Trunking
+Canonical: https://schooloffreelancing.com/client-support/telnyx-voip-setup
+Description: Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment &amp; technical support.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/client-support/

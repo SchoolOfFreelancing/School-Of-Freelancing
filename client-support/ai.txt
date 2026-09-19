@@ -4,7 +4,7 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-12T06:31:32+00:00
+# Generated UTC: 2026-09-19T00:27:11+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -34,7 +34,7 @@ Description: Hire Claude Platform Support for API setup, integrations, agents, t
 
 Page: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
 Title: DigitalOcean — AI-Native Cloud | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
+Canonical: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/
 Description: Hire DigitalOcean cloud experts for Linux, security, deployment, troubleshooting, and optimization—on demand.
 
 Page: https://schooloffreelancing.com/client-support/docker-job-support/
@@ -89,17 +89,17 @@ Description: Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, 
 
 Page: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
 Title: Odysseus — Self-hosted AI workspace setup | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/odysseus-ai-setup
+Canonical: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
 Description: Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
 
 Page: https://schooloffreelancing.com/client-support/openai-platform-support/
 Title: OpenAI Platform — Support | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/openai-platform-support
+Canonical: https://schooloffreelancing.com/client-support/openai-platform-support/
 Description: Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
 
 Page: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 Title: OpenClaw Setup Support | Self-Hosted AI Infrastructure
-Canonical: https://schooloffreelancing.com/client-support/openclaw-setup-support
+Canonical: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 Description: Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support.
 
 Page: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
@@ -108,19 +108,19 @@ Canonical: https://schooloffreelancing.com/client-support/telnyx-sms-setup
 Description: Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment &amp; technical support.
 
 Page: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
-Title: Telnyx VoIP — Setup | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/Telnyx-voip-setup
-Description: Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+Title: Telnyx VoIP Setup Support | Call Routing &amp; SIP Trunking
+Canonical: https://schooloffreelancing.com/client-support/telnyx-voip-setup
+Description: Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment &amp; technical support.
 
 Page: https://schooloffreelancing.com/client-support/twilio-sms-setup/
-Title: Twilio SMS — Setup | Hire Support
+Title: Twilio SMS Setup Support | Messaging APIs &amp; Webhooks
 Canonical: https://schooloffreelancing.com/client-support/twilio-sms-setup
-Description: Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
+Description: Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment &amp; technical support.
 
 Page: https://schooloffreelancing.com/client-support/twilio-voip-setup/
-Title: Twilio VoIP — Setup | Hire Support
+Title: Twilio VoIP Setup Support | SIP Trunking &amp; Call Routing
 Canonical: https://schooloffreelancing.com/client-support/twilio-voip-setup
-Description: Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+Description: Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment &amp; technical support.
 
 Page: https://schooloffreelancing.com/client-support/ubuntu-linux-support/
 Title: Ubuntu Linux — Support | Hire Support
@@ -136,9 +136,6 @@ Page: https://schooloffreelancing.com/client-support/zeroclaw-setup-support/
 Title: ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup
 Canonical: https://schooloffreelancing.com/client-support/zeroclaw-setup-support
 Description: Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, &amp; local LLM integration.
-
-# ADDITIONAL SITEMAP DISCOVERY
-Sitemap-Page: https://schooloffreelancing.com/client-support/Telnyx-voip-setup
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/

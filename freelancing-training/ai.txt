@@ -4,7 +4,7 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-12T06:31:32+00:00
+# Generated UTC: 2026-09-19T00:27:11+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -74,7 +74,7 @@ Description: Learn GOautodial call center deployment, predictive dialer setup, A
 
 Page: https://schooloffreelancing.com/freelancing-training/hermes-agent-training/
 Title: Hermes Agent — Freelancing Training
-Canonical: https://schooloffreelancing.com/freelancing-training/hermes-agent-training
+Canonical: https://schooloffreelancing.com/freelancing-training/hermes-agent-training/
 Description: Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators. Join now!
 
 Page: https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/
@@ -83,8 +83,8 @@ Canonical: https://schooloffreelancing.com/freelancing-training/jasmin-sms-gatew
 Description: Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients.
 
 Page: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/
-Title: Linux — Freelancing Training | School Of Freelancing
-Canonical: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training
+Title: Linux Freelancing Training | School Of Freelancing
+Canonical: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/
 Description: Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
 
 Page: https://schooloffreelancing.com/freelancing-training/local-ai-training/

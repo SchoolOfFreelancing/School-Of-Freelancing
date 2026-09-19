@@ -4,15 +4,15 @@
 
 ## Main Pages
 
+### Freelancing Training — Global Client Support
+URL: https://schooloffreelancing.com/
+
+Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide.
+
 ### Page Not Found | School Of Freelancing
 URL: https://schooloffreelancing.com/404.html
 
 The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources on School of Freelancing.
-
-### School Of Freelancing
-URL: https://schooloffreelancing.com/
-
-From freelancing training and Linux tech support, get the full expertise to become top-rated, plus hire support.
 
 ## About Us
 
@@ -113,20 +113,20 @@ URL: https://schooloffreelancing.com/client-support/telnyx-sms-setup/
 
 Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support.
 
-### Telnyx VoIP — Setup | Hire Support
+### Telnyx VoIP Setup Support | Call Routing & SIP Trunking
 URL: https://schooloffreelancing.com/client-support/telnyx-voip-setup/
 
-Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment & technical support.
 
-### Twilio SMS — Setup | Hire Support
+### Twilio SMS Setup Support | Messaging APIs & Webhooks
 URL: https://schooloffreelancing.com/client-support/twilio-sms-setup/
 
-Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
+Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support.
 
-### Twilio VoIP — Setup | Hire Support
+### Twilio VoIP Setup Support | SIP Trunking & Call Routing
 URL: https://schooloffreelancing.com/client-support/twilio-voip-setup/
 
-Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment & technical support.
 
 ### Ubuntu Linux — Support | Hire Support
 URL: https://schooloffreelancing.com/client-support/ubuntu-linux-support/
@@ -217,7 +217,7 @@ URL: https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-tra
 
 Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients.
 
-### Linux — Freelancing Training | School Of Freelancing
+### Linux Freelancing Training | School Of Freelancing
 URL: https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/
 
 Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
@@ -336,6 +336,16 @@ URL: https://schooloffreelancing.com/locations/en-ch/
 
 Top Switzerland freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 
+### Freelancing Training & IT Support Services in USA
+URL: https://schooloffreelancing.com/locations/en-us/
+
+Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
+
+### Freelancing Training & IT Support in Singapore
+URL: https://schooloffreelancing.com/locations/en-sg/
+
+Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!
+
 ### Germany Freelance Training and IT Services
 URL: https://schooloffreelancing.com/locations/en-de/
 
@@ -381,11 +391,6 @@ URL: https://schooloffreelancing.com/locations/en-no/
 
 Top Norway freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 
-### Singapore Freelance Training & IT Services | School of Freelancing
-URL: https://schooloffreelancing.com/locations/en-sg/
-
-Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!
-
 ### Sweden Freelance Training and IT Services
 URL: https://schooloffreelancing.com/locations/en-se/
 
@@ -395,11 +400,6 @@ Top Sweden freelance training & trusted business IT services. Level up your care
 URL: https://schooloffreelancing.com/locations/en-gb/
 
 Top United Kingdom freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
-
-### United States Freelance Training & IT Support | School of Freelancing
-URL: https://schooloffreelancing.com/locations/en-us/
-
-Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
 
 ## Resource Center
 

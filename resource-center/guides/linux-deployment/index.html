@@ -1,55 +1,14 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>How to Deploy a Linux Server from Zero to Production | School of Freelancing</title>
-    <meta name="description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
-    <meta name="robots" content="index, follow">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>How to Deploy a Linux Server from Zero to Production | School of Freelancing</title><meta name="description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."><meta name="robots" content="index, follow"><link rel="canonical" href="https://schooloffreelancing.com/resource-center/linux-deployment"/><link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/linux-deployment"/><link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/linux-deployment"/><meta property="og:type" content="article"><meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/linux-deployment"/><meta property="og:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing"><meta property="og:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing"><meta name="twitter:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."><link href="/favicon.ico" rel="icon" sizes="any"><link href="/assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"><link href="/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"><link href="/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"><link href="/assets/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png"><script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script><script>
+ window.dataLayer = window.dataLayer || [];
+ function gtag(){dataLayer.push(arguments);}
+ gtag('js', new Date());
+ gtag('config', 'G-1LNS69YXG5');
+</script><script defer
+ type="module"
+ src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
+></script><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/fa-subset.min.css"><script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
 
-    <!-- Canonical & Alternate Links -->
-    <link rel="canonical" href="https://schooloffreelancing.com/resource-center/linux-deployment"/>
-    <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/linux-deployment"/>
-    <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/linux-deployment"/>
 
-    <!-- Open Graph Metadata -->
-    <meta property="og:type" content="article">
-    <meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/linux-deployment"/>
-    <meta property="og:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
-    <meta property="og:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
-
-    <!-- Twitter Card Metadata -->
-    <meta name="twitter:card" content="summary_large_image">
-    <meta name="twitter:title" content="How to Deploy a Linux Server from Zero to Production | School of Freelancing">
-    <meta name="twitter:description" content="Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring.">
-
-        <link href="/favicon.ico" rel="icon" sizes="any">
-        <link href="/assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
-        <link href="/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
-        <link href="/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
-        <link href="/assets/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
-
-<!-- Google tag (gtag.js) -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=G-1LNS69YXG5"></script>
-<script>
-  window.dataLayer = window.dataLayer || [];
-  function gtag(){dataLayer.push(arguments);}
-  gtag('js', new Date());
-  gtag('config', 'G-1LNS69YXG5');
-</script>
-
-<script defer
-  type="module"
-  src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
-></script>
-
-    <link rel="stylesheet" href="/assets/css/style.css">
-    <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
-
-<!-- FontAwesome -->
-<script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
-
-<!-- Structured Data (JSON-LD) -->
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -98,6 +57,12 @@
 }
 </script>
 
+ 
+
+ 
+
+ 
+ 
     
 
     
@@ -105,143 +70,65 @@
     <!-- AI.TXT PREFETCH DISCOVERY -->
     <link rel="prefetch" href="../../../ai.txt">
     <!-- /AI.TXT PREFETCH DISCOVERY -->
-</head>
-<body>
+</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
+height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><a class="skip-link" href="#main">Skip to main content</a><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing"><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training/">Freelancing Training</a></li><li><a href="/client-support/">Client Support</a></li><li><a href="/resource-center/testimonials/">Testimonials</a></li><li><a href="/about-us/">About Us</a></li><li><a href="/contact-us/">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero"><div class="container detail-wrap"><p><a href="/">Home</a> / <a href="/resource-center/">Resource Center</a> / Linux Server Deployment</p><h1>How to Deploy a Production-Ready Linux Server From Zero</h1><p style="font-size: 1.1rem; opacity: 0.9; margin-top: 15px;">Complete step-by-step guide: from bare server to hardened production infrastructure.</p></div></header><article class="section"><div class="container detail-wrap"><h2>Overview</h2><p>This guide walks you through deploying a production-ready Ubuntu Linux server from scratch. You'll learn server initialization, security hardening, networking configuration, package management, systemd service setup, backup strategies, and monitoring — everything needed to run reliable production infrastructure.</p><h2>Prerequisites</h2><ul class="detail-list"><li>A Linux server instance (VPS or dedicated): Ubuntu 24.04 LTS or 26.04 LTS recommended</li><li>SSH client on your local machine</li><li>A domain name (optional but recommended)</li><li>Basic Linux command-line familiarity</li></ul><h2>Step 1: Initial Server Setup &amp; SSH Access</h2><h3>1.1 Get Root Access</h3><p>Upon first login, establish a secure connection:</p>
+ <pre><code>ssh root@your_server_ip</code></pre>
+ <p>Update your system packages immediately:</p>
+ <pre><code>apt update &amp;&amp; apt upgrade -y</code></pre>
 
-<!-- Google Tag Manager (noscript) -->
-<noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
-height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
-<!-- End Google Tag Manager (noscript) -->
-
-<a class="skip-link" href="#main">Skip to main content</a>
-
-<!-- ===== NAVBAR ===== -->
-<nav class="navbar" aria-label="Main navigation">
-  <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
-      <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span>
-    </a>
-    <ul class="nav-links" id="nav-links">
-      <li><a href="/freelancing-training/">Freelancing Training</a></li>
-      <li><a href="/client-support/">Client Support</a></li>
-      <li><a href="/resource-center/testimonials/">Testimonials</a></li>
-      <li><a href="/about-us/">About Us</a></li>
-      <li><a href="/contact-us/">Contact Us</a></li>
-    </ul>
-    <button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links">
-      <span></span><span></span><span></span>
-    </button>
-  </div>
-</nav>
-<div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div>
-
-<main id="main">
-
-<!-- PAGE HERO -->
-<header class="page-hero">
-  <div class="container detail-wrap">
-    <p><a href="/">Home</a> / <a href="/resource-center/">Resource Center</a> / Linux Server Deployment</p>
-    <h1>How to Deploy a Production-Ready Linux Server From Zero</h1>
-    <p style="font-size: 1.1rem; opacity: 0.9; margin-top: 15px;">Complete step-by-step guide: from bare server to hardened production infrastructure.</p>
-  </div>
-</header>
-
-<article class="section">
-  <div class="container detail-wrap">
-
-    <h2>Overview</h2>
-    <p>This guide walks you through deploying a production-ready Ubuntu Linux server from scratch. You'll learn server initialization, security hardening, networking configuration, package management, systemd service setup, backup strategies, and monitoring — everything needed to run reliable production infrastructure.</p>
-
-    <h2>Prerequisites</h2>
-    <ul class="detail-list">
-      <li>A Linux server instance (VPS or dedicated): Ubuntu 24.04 LTS or 26.04 LTS recommended</li>
-      <li>SSH client on your local machine</li>
-      <li>A domain name (optional but recommended)</li>
-      <li>Basic Linux command-line familiarity</li>
-    </ul>
-
-    <h2>Step 1: Initial Server Setup &amp; SSH Access</h2>
-
-    <h3>1.1 Get Root Access</h3>
-    <p>Upon first login, establish a secure connection:</p>
-    <pre><code>ssh root@your_server_ip</code></pre>
-    <p>Update your system packages immediately:</p>
-    <pre><code>apt update &amp;&amp; apt upgrade -y</code></pre>
-
-    <h3>1.2 Create a Non-Root User</h3>
-    <p>Never run production services as root. Create a dedicated user:</p>
-    <pre><code>useradd -m -s /bin/bash admin
+ <h3>1.2 Create a Non-Root User</h3><p>Never run production services as root. Create a dedicated user:</p>
+ <pre><code>useradd -m -s /bin/bash admin
 usermod -aG sudo admin</code></pre>
 
-    <h3>1.3 Configure SSH Key-Based Authentication</h3>
-    <p>On your local machine, generate an SSH key if you don't have one:</p>
-    <pre><code>ssh-keygen -t ed25519 -C "admin@yourserver"</code></pre>
-    <p>Copy the public key to your server:</p>
-    <pre><code>ssh-copy-id -i ~/.ssh/id_ed25519.pub admin@your_server_ip</code></pre>
+ <h3>1.3 Configure SSH Key-Based Authentication</h3><p>On your local machine, generate an SSH key if you don't have one:</p>
+ <pre><code>ssh-keygen -t ed25519 -C "admin@yourserver"</code></pre>
+ <p>Copy the public key to your server:</p>
+ <pre><code>ssh-copy-id -i ~/.ssh/id_ed25519.pub admin@your_server_ip</code></pre>
 
-    <h3>1.4 Disable Password Authentication</h3>
-    <p>Edit SSH configuration to use only keys:</p>
-    <pre><code>sudo nano /etc/ssh/sshd_config</code></pre>
-    <p>Set these options:</p>
-    <pre><code>PermitRootLogin no
+ <h3>1.4 Disable Password Authentication</h3><p>Edit SSH configuration to use only keys:</p>
+ <pre><code>sudo nano /etc/ssh/sshd_config</code></pre>
+ <p>Set these options:</p>
+ <pre><code>PermitRootLogin no
 PasswordAuthentication no
 PubkeyAuthentication yes</code></pre>
-    <p>Restart SSH:</p>
-    <pre><code>sudo systemctl restart ssh</code></pre>
+ <p>Restart SSH:</p>
+ <pre><code>sudo systemctl restart ssh</code></pre>
 
-    <h2>Step 2: Security Hardening</h2>
-
-    <h3>2.1 Configure UFW Firewall</h3>
-    <p>Enable the firewall and allow only necessary ports:</p>
-    <pre><code>sudo ufw default deny incoming
+ <h2>Step 2: Security Hardening</h2><h3>2.1 Configure UFW Firewall</h3><p>Enable the firewall and allow only necessary ports:</p>
+ <pre><code>sudo ufw default deny incoming
 sudo ufw default allow outgoing
 sudo ufw allow 22/tcp
 sudo ufw allow 80/tcp
 sudo ufw allow 443/tcp
 sudo ufw enable</code></pre>
 
-    <h3>2.2 Fail2Ban for Brute-Force Protection</h3>
-    <p>Protect against repeated login attempts:</p>
-    <pre><code>sudo apt install fail2ban -y
+ <h3>2.2 Fail2Ban for Brute-Force Protection</h3><p>Protect against repeated login attempts:</p>
+ <pre><code>sudo apt install fail2ban -y
 sudo systemctl enable fail2ban
 sudo systemctl start fail2ban</code></pre>
 
-    <h3>2.3 Automatic Security Updates</h3>
-    <pre><code>sudo apt install unattended-upgrades -y
+ <h3>2.3 Automatic Security Updates</h3>
+ <pre><code>sudo apt install unattended-upgrades -y
 sudo systemctl enable unattended-upgrades</code></pre>
 
-    <h2>Step 3: Networking &amp; Domain Configuration</h2>
-
-    <h3>3.1 Set Hostname</h3>
-    <pre><code>sudo hostnamectl set-hostname myserver.com
+ <h2>Step 3: Networking &amp; Domain Configuration</h2><h3>3.1 Set Hostname</h3>
+ <pre><code>sudo hostnamectl set-hostname myserver.com
 sudo nano /etc/hosts</code></pre>
-    <p>Add your hostname to the hosts file.</p>
-
-    <h3>3.2 Point Domain to Server</h3>
-    <p>In your domain registrar's DNS settings, create an A record pointing your domain to your server's IP address. Allow 15-30 minutes for DNS propagation.</p>
-
-    <h2>Step 4: Web Server &amp; SSL Configuration</h2>
-
-    <h3>4.1 Install Nginx</h3>
-    <pre><code>sudo apt install nginx -y
+ <p>Add your hostname to the hosts file.</p><h3>3.2 Point Domain to Server</h3><p>In your domain registrar's DNS settings, create an A record pointing your domain to your server's IP address. Allow 15-30 minutes for DNS propagation.</p><h2>Step 4: Web Server &amp; SSL Configuration</h2><h3>4.1 Install Nginx</h3>
+ <pre><code>sudo apt install nginx -y
 sudo systemctl enable nginx
 sudo systemctl start nginx</code></pre>
 
-    <h3>4.2 Obtain SSL Certificate with Certbot</h3>
-    <pre><code>sudo apt install certbot python3-certbot-nginx -y
+ <h3>4.2 Obtain SSL Certificate with Certbot</h3>
+ <pre><code>sudo apt install certbot python3-certbot-nginx -y
 sudo certbot certonly --nginx -d yourdomain.com</code></pre>
-    <p>Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com</p>
+ <p>Certbot automatically configures Nginx for HTTPS. Verify at https://yourdomain.com</p><h2>Step 5: Package Management &amp; Services</h2><h3>5.1 Install Essential Tools</h3>
+ <pre><code>sudo apt install curl wget git htop net-tools apt-transport-https -y</code></pre>
 
-    <h2>Step 5: Package Management &amp; Services</h2>
-
-    <h3>5.1 Install Essential Tools</h3>
-    <pre><code>sudo apt install curl wget git htop net-tools apt-transport-https -y</code></pre>
-
-    <h3>5.2 Create a Systemd Service (Example)</h3>
-    <p>For custom applications, create a systemd service file:</p>
-    <pre><code>sudo nano /etc/systemd/system/myapp.service</code></pre>
-    <p>Add:</p>
-    <pre><code>[Unit]
+ <h3>5.2 Create a Systemd Service (Example)</h3><p>For custom applications, create a systemd service file:</p>
+ <pre><code>sudo nano /etc/systemd/system/myapp.service</code></pre>
+ <p>Add:</p>
+ <pre><code>[Unit]
 Description=My Application
 After=network.target
 
@@ -255,199 +142,103 @@ RestartSec=10
 
 [Install]
 WantedBy=multi-user.target</code></pre>
-    <p>Enable and start:</p>
-    <pre><code>sudo systemctl daemon-reload
+ <p>Enable and start:</p>
+ <pre><code>sudo systemctl daemon-reload
 sudo systemctl enable myapp
 sudo systemctl start myapp</code></pre>
 
-    <h2>Step 6: Backup &amp; Disaster Recovery</h2>
-
-    <h3>6.1 Create a Backup Script</h3>
-    <pre><code>sudo nano /home/admin/backup.sh</code></pre>
-    <p>Add:</p>
-    <pre><code>#!/bin/bash
+ <h2>Step 6: Backup &amp; Disaster Recovery</h2><h3>6.1 Create a Backup Script</h3>
+ <pre><code>sudo nano /home/admin/backup.sh</code></pre>
+ <p>Add:</p>
+ <pre><code>#!/bin/bash
 tar -czf /backups/server_backup_$(date +%Y%m%d).tar.gz /home /etc /var/www
 find /backups -name "server_backup_*.tar.gz" -mtime +30 -delete</code></pre>
-    <p>Make it executable:</p>
-    <pre><code>chmod +x /home/admin/backup.sh</code></pre>
+ <p>Make it executable:</p>
+ <pre><code>chmod +x /home/admin/backup.sh</code></pre>
 
-    <h3>6.2 Schedule Automated Backups</h3>
-    <pre><code>sudo crontab -e</code></pre>
-    <p>Add a daily backup at 2 AM:</p>
-    <pre><code>0 2 * * * /home/admin/backup.sh</code></pre>
+ <h3>6.2 Schedule Automated Backups</h3>
+ <pre><code>sudo crontab -e</code></pre>
+ <p>Add a daily backup at 2 AM:</p>
+ <pre><code>0 2 * * * /home/admin/backup.sh</code></pre>
 
-    <h2>Step 7: Monitoring &amp; Logging</h2>
-
-    <h3>7.1 Monitor System Resources</h3>
-    <pre><code>top     # Real-time resource usage
+ <h2>Step 7: Monitoring &amp; Logging</h2><h3>7.1 Monitor System Resources</h3>
+ <pre><code>top     # Real-time resource usage
 df -h   # Disk space
 free -h # Memory usage</code></pre>
 
-    <h3>7.2 Check System Logs</h3>
-    <pre><code>sudo journalctl -xe         # System logs
+ <h3>7.2 Check System Logs</h3>
+ <pre><code>sudo journalctl -xe         # System logs
 sudo tail -f /var/log/syslog  # System messages</code></pre>
 
-    <h2>Common Troubleshooting</h2>
-
-    <h3>SSH Connection Refused</h3>
-    <p>Verify SSH is running and port 22 is open in your firewall. Check with: <code>sudo ufw status</code></p>
-
-    <h3>Certificate Errors</h3>
-    <p>Verify DNS is pointing to your server: <code>nslookup yourdomain.com</code>. Test with: <code>sudo certbot renew --dry-run</code></p>
-
-    <h3>Out of Disk Space</h3>
-    <p>Check disk usage: <code>df -h</code>. Delete old logs or backups as needed.</p>
-
-    <h2>Next Steps</h2>
-    <p>You now have a production-ready Linux server. Next, you can:</p>
-    <ul class="detail-list">
-      <li>Deploy applications (Docker, Node.js, Python, etc.)</li>
-      <li>Set up a database (PostgreSQL, MySQL)</li>
-      <li>Configure a reverse proxy for multiple sites</li>
-      <li>Implement load balancing for high-traffic applications</li>
-      <li>Set up monitoring and alerting for production uptime</li>
-    </ul>
-
-    <h2>Learn More</h2>
-    <p>For hands-on training and expert guidance, check out our <a href="/freelancing-training/linux-freelancing-training/">Linux Freelancing Training</a> program that covers everything from server setup through production operations.</p>
-  </div>
-</article>
-</main>
-
-<!-- ===== FOOTER ===== -->
-<footer class="footer footer-glass">
-            <div class="container">
-                <div class="footer-grid">
-                    <div class="footer-brand">
-                        <p>
-                            AI-driven Linux training for freelancers and elite professional support for businesses.
-                            Founded in 2015 by
-                            <strong
-                                ><cite
-                                    ><a
-                                        href="https://www.linkedin.com/in/anythinglinux/"
-                                        target="_blank"
-                                        rel="author noopener noreferrer"
-                                        >Karim (Masum)</a
-                                    ></cite
-                                ></strong
-                            >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
-                        </p>
-                        <aside aria-label="Follow us">
-                            <p>Community:</p>
-                            <address class="footer-social">
-                                <a
-                                    href="https://github.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on GitHub"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-github" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.youtube.com/@SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on YouTube"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.linkedin.com/company/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on LinkedIn"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-linkedin" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.facebook.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Facebook"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://instagram.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Instagram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://www.threads.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Threads"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-threads" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://wa.me/8801748973769"
-                                    aria-label="Message School of Freelancing on WhatsApp"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://t.me/SchoolOfFreelancingTraining"
-                                    aria-label="Message School of Freelancing on Telegram"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-telegram" aria-hidden="true"></i> </a
-                                ><a
-                                    href="https://x.com/SchoolOfFreelan"
-                                    aria-label="School of Freelancing on X (Twitter)"
-                                    rel="noopener noreferrer"
-                                    target="_blank"
-                                    ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
-                                ></a>
-                            </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School of Freelancing.</p>
-                        </aside>
-                    </div>
-                    <nav aria-label="Footer: Freelancing Training" class="footer-col">
-                        <h2><span>FREELANCING TRAINING</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li>
-                            <li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/telnyx-sms-api-training/">Telnyx SMS API Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li>
-                            <li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li>
-                            <li>
-                                <a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a>
-                            </li>
-                            <li><a href="/freelancing-training/">View All Training</a></li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Client Support" class="footer-col">
-                        <h2><span>CLIENT SUPPORT</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li>
-                            <li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li>
-                            <li><a href="/client-support/linux-server-services/">Linux Server Support</a></li>
-                            <li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li>
-                            <li><a href="/client-support/voice-ai-agent-setup/">Voice AI Agent Setup</a></li>
-                            <li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li>
-                            <li>
-                                <a href="/client-support/" aria-label="View all client support services in footer"
-                                    >View All Support</a
-                                >
-                            </li>
-                        </ul>
-                    </nav>
-                    <nav aria-label="Footer: Legal & Resources" class="footer-col">
-                        <h2><span>LEGAL</span></h2>
-                        <ul class="footer-links">
-                            <li><a href="/resource-center/faqs/" target="_self">FAQs</a></li>
-                            <li><a href="/locations/">Locations</a></li>
-                            <li><a href="/legal/refund-policy/">Refund Policy</a></li>
-                            <li><a href="/legal/privacy-policy/">Privacy Policy</a></li>
-                            <li><a href="/resource-center/">Resource Center</a></li>
-                            <li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li>
-                            <li><a href="/legal/credential-verification/">Credential Verification</a></li>
-                        </ul>
-                    </nav>
-                </div>
-                <div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div>
-            </div>
-        </footer>
-
-<script src="/assets/js/main.js?v=20260718" defer></script>
-<chat-bubble-snippet
-  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
-></chat-bubble-snippet>
-
-</body>
-</html>
+ <h2>Common Troubleshooting</h2><h3>SSH Connection Refused</h3><p>Verify SSH is running and port 22 is open in your firewall. Check with: <code>sudo ufw status</code></p><h3>Certificate Errors</h3><p>Verify DNS is pointing to your server: <code>nslookup yourdomain.com</code>. Test with: <code>sudo certbot renew --dry-run</code></p><h3>Out of Disk Space</h3><p>Check disk usage: <code>df -h</code>. Delete old logs or backups as needed.</p><h2>Next Steps</h2><p>You now have a production-ready Linux server. Next, you can:</p><ul class="detail-list"><li>Deploy applications (Docker, Node.js, Python, etc.)</li><li>Set up a database (PostgreSQL, MySQL)</li><li>Configure a reverse proxy for multiple sites</li><li>Implement load balancing for high-traffic applications</li><li>Set up monitoring and alerting for production uptime</li></ul><h2>Learn More</h2><p>For hands-on training and expert guidance, check out our <a href="/freelancing-training/linux-freelancing-training/">Linux Freelancing Training</a> program that covers everything from server setup through production operations.</p></div></article></main><footer class="footer footer-glass"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
+ AI-driven Linux training for freelancers and elite professional support for businesses.
+ Founded in 2015 by
+ <strong
+ ><cite
+ ><a
+ href="https://www.linkedin.com/in/anythinglinux/"
+ target="_blank"
+ rel="author noopener noreferrer"
+ >Karim (Masum)</a
+ ></cite
+ ></strong
+ >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+ </p><aside aria-label="Follow us"><p>Community:</p><address class="footer-social"><a
+ href="https://github.com/SchoolOfFreelancing"
+ aria-label="School of Freelancing on GitHub"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-github" aria-hidden="true"></i></a
+ ><a
+ href="https://www.youtube.com/@SchoolOfFreelancing"
+ aria-label="School of Freelancing on YouTube"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-youtube" aria-hidden="true"></i></a
+ ><a
+ href="https://www.linkedin.com/company/SchoolOfFreelancing"
+ aria-label="School of Freelancing on LinkedIn"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a
+ ><a
+ href="https://www.facebook.com/SchoolOfFreelancing"
+ aria-label="School of Freelancing on Facebook"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a
+ ><a
+ href="https://instagram.com/SchoolOfFreelancing"
+ aria-label="School of Freelancing on Instagram"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-instagram" aria-hidden="true"></i></a
+ ><a
+ href="https://www.threads.com/SchoolOfFreelancing"
+ aria-label="School of Freelancing on Threads"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-threads" aria-hidden="true"></i></a
+ ><a
+ href="https://wa.me/8801748973769"
+ aria-label="Message School of Freelancing on WhatsApp"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a
+ ><a
+ href="https://t.me/SchoolOfFreelancingTraining"
+ aria-label="Message School of Freelancing on Telegram"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-telegram" aria-hidden="true"></i></a
+ ><a
+ href="https://x.com/SchoolOfFreelan"
+ aria-label="School of Freelancing on X (Twitter)"
+ rel="noopener noreferrer"
+ target="_blank"
+ ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
+ ></a></address><p style="margin-top: 2rem">© 2015-2026 by School of Freelancing.</p></aside></div><nav aria-label="Footer: Freelancing Training" class="footer-col"><h2><span>FREELANCING TRAINING</span></h2><ul class="footer-links"><li><a href="/freelancing-training/hermes-agent-training/">Hermes Agent Training</a></li><li><a href="/freelancing-training/fusionpbx-training/">FusionPBX VoIP Training</a></li><li><a href="/freelancing-training/telnyx-sms-api-training/">Telnyx SMS API Training</a></li><li><a href="/freelancing-training/openai-training/">OpenAI Developer Training</a></li><li><a href="/freelancing-training/claude-training/">Claude Developer Training</a></li><li><a href="/freelancing-training/twilio-sms-api-training/">Twilio Developer Training</a></li><li><a href="/freelancing-training/">View All Training</a></li></ul></nav><nav aria-label="Footer: Client Support" class="footer-col"><h2><span>CLIENT SUPPORT</span></h2><ul class="footer-links"><li><a href="/client-support/telnyx-sip-trunking-services/">Telnyx SIP Trunking</a></li><li><a href="/client-support/odysseus-ai-services/">Odysseus AI Support</a></li><li><a href="/client-support/linux-server-services/">Linux Server Support</a></li><li><a href="/client-support/ubuntu-linux-services/">Ubuntu Linux Support</a></li><li><a href="/client-support/voice-ai-agent-setup/">Voice AI Agent Setup</a></li><li><a href="/client-support/goautodial-voip-services/">GOautodial VoIP Support</a></li><li><a href="/client-support/" aria-label="View all client support services in footer"
+ >View All Support</a
+ ></li></ul></nav><nav aria-label="Footer: Legal & Resources" class="footer-col"><h2><span>LEGAL</span></h2><ul class="footer-links"><li><a href="/resource-center/faqs/" target="_self">FAQs</a></li><li><a href="/locations/">Locations</a></li><li><a href="/legal/refund-policy/">Refund Policy</a></li><li><a href="/legal/privacy-policy/">Privacy Policy</a></li><li><a href="/resource-center/">Resource Center</a></li><li><a href="/legal/terms-and-conditions/" target="_self">Terms &amp; Conditions</a></li><li><a href="/legal/credential-verification/">Credential Verification</a></li></ul></nav></div><div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div></div></footer><script defer defer defer defer defer src="/assets/js/main.js?v=20260718" defer></script><chat-bubble-snippet
+ api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/"
+></chat-bubble-snippet></body></html>

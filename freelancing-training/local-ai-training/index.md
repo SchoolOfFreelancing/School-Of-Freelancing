@@ -1,7 +1,7 @@
 ---
 title: "LocalAI — Freelancing Training | Deployment & AI Jobs"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Learn how to deploy LocalAI in production to run AI models directly on standard hardware, then monetize it via freelancing."
 ---
 

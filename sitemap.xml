@@ -2,517 +2,517 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   <url>
     <loc>https://schooloffreelancing.com/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>1.0</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/about-us</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/client-support/telnyx-voip-setup</loc>
-    <lastmod>2026-09-12</lastmod>
-    <changefreq>always</changefreq>
-    <priority>0.6</priority>
-  </url>
-  <url>
     <loc>https://schooloffreelancing.com/client-support/centos-linux-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/claude-platform-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/client-support/digitalocean-cloud-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://schooloffreelancing.com/client-support/digitalocean-cloud-support/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/docker-job-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/fusionpbx-voip-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/github-installation-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/gitlab-installation-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/goautodial-voip-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/hermes-agent-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/hummingbot-installation-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/jasmin-sms-gateway-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/linux-server-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/localai-setup-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/client-support/odysseus-ai-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://schooloffreelancing.com/client-support/odysseus-ai-setup/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/client-support/openai-platform-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://schooloffreelancing.com/client-support/openai-platform-support/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/client-support/openclaw-setup-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://schooloffreelancing.com/client-support/openclaw-setup-support/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/telnyx-sms-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
+    <changefreq>always</changefreq>
+    <priority>0.6</priority>
+  </url>
+  <url>
+    <loc>https://schooloffreelancing.com/client-support/telnyx-voip-setup</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/twilio-sms-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/twilio-voip-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/ubuntu-linux-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/voice-ai-agent-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/client-support/zeroclaw-setup-support</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/contact-us</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/call-center-setup-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/centos-linux-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/claude-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/debian-linux-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/docker-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/fusionpbx-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/github-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/gitlab-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/goautodial-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/freelancing-training/hermes-agent-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://schooloffreelancing.com/freelancing-training/hermes-agent-training/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
-    <loc>https://schooloffreelancing.com/freelancing-training/linux-freelancing-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <loc>https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/</loc>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/local-ai-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/odysseus-ai-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/openai-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/openclaw-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/freelancing-training/zeroclaw-training</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/legal/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/legal/credential-verification</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/legal/privacy-policy</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/legal/refund-policy</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/legal/terms-and-conditions</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/legal/training-rules</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-at</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-au</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-bd</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-be</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-ca</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-ch</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-de</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-dk</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-fi</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-gb</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-ie</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-il</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-is</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-li</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-lu</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-nl</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-no</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-se</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-sg</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/locations/en-us</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.8</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/ai-chatbot</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/automation</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/case-studies</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/docker-containerize</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/faqs</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/intro-video</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/linux-deployment</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/testimonials</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
   <url>
     <loc>https://schooloffreelancing.com/resource-center/voip-setup</loc>
-    <lastmod>2026-09-12</lastmod>
+    <lastmod>2026-09-19</lastmod>
     <changefreq>always</changefreq>
     <priority>0.6</priority>
   </url>
