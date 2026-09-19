@@ -4,7 +4,6 @@
 .github/**
 .gitignore
 .gitlab-ci.yml
-.htaccess
 wrangler.toml
 package.json
 package-lock.json
