@@ -17,18 +17,15 @@ function initContactForm(){const form=document.getElementById('contact-form');if
     }, 1800);
   });
 }
-
 /* ---------- Enrollment Form ---------- */
 function initEnrollmentForm() {
   const form = document.getElementById('enrollment-form');
   if (!form) return;
-
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const btn = form.querySelector('[type="submit"]');
     btn.textContent = '⏳ Processing...';
     btn.disabled = true;
-
     setTimeout(() => {
       document.getElementById('enrollment-form-wrap').style.display = 'none';
       const success = document.getElementById('enrollment-success');
@@ -36,22 +33,18 @@ function initEnrollmentForm() {
     }, 2200);
   });
 }
-
 /* ---------- Payment Confirmation Form ---------- */
 function initPaymentForm() {
   const form = document.getElementById('payment-form');
   if (!form) return;
-
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     if (!form.reportValidity()) return;
-
     const name = form.name.value.trim();
     const email = form.email.value.trim();
     const program = form.program.value;
     const method = form.method.value;
     const txn = form.txn.value.trim();
-
     const message =
       `New Payment Confirmation\n` +
       `Name: ${name}\n` +
@@ -59,22 +52,17 @@ function initPaymentForm() {
       `Paid For: ${program}\n` +
       `Payment Method: ${method}\n` +
       `Transaction ID/Reference: ${txn}`;
-
     const url = `https://wa.me/8801748973769?text=${encodeURIComponent(message)}`;
-
     const btn = form.querySelector('[type="submit"]');
     btn.textContent = 'Opening WhatsApp...';
     btn.disabled = true;
-
     window.open(url, '_blank', 'noopener');
-
     setTimeout(() => {
       btn.textContent = '✅ Confirm Payment via WhatsApp';
       btn.disabled = false;
     }, 2000);
   });
 }
-
 /* ---------- Smooth Scroll ---------- */
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(a => {
@@ -92,12 +80,10 @@ function initSmoothScroll() {
     });
   });
 }
-
 /* ---------- Blog Search ---------- */
 function initBlogSearch() {
   const input = document.getElementById('blog-search');
   if (!input) return;
-
   input.addEventListener('input', () => {
     const q = input.value.toLowerCase();
     document.querySelectorAll('.blog-card').forEach(card => {
@@ -106,30 +92,24 @@ function initBlogSearch() {
     });
   });
 }
-
 /* ---------- Category Filter (training/services hub pages) ---------- */
 function initCategoryFilter() {
   const buttons = document.querySelectorAll('.filter-btn[data-filter]');
   if (!buttons.length) return;
-
   const cards = document.querySelectorAll('.training-card[data-category]');
-
   buttons.forEach(btn => {
     btn.addEventListener('click', () => {
       const filter = btn.getAttribute('data-filter');
-
       buttons.forEach(b => {
         const active = b === btn;
         b.classList.toggle('btn-primary', active);
         b.classList.toggle('btn-secondary', !active);
         b.setAttribute('aria-pressed', String(active));
       });
-
       cards.forEach(card => {
         const show = filter === 'all' || card.getAttribute('data-category') === filter;
         card.style.display = show ? '' : 'none';
         if (show) {
-          // cards hidden before their reveal animation fired stay invisible — force them visible
           card.style.opacity = '1';
           card.style.transform = 'translateY(0)';
         }
@@ -137,11 +117,7 @@ function initCategoryFilter() {
     });
   });
 }
-
 /* ---------- Init All ---------- */
 document.addEventListener('DOMContentLoaded', () => {
-  // Purely decorative canvas animation: start once the browser is idle
-  // (or after a short fallback delay) so it doesn't compete with the
 if('requestIdleCallback'in window){requestIdleCallback(initMatrix,{timeout:2000});}else{setTimeout(initMatrix,200);}
 initNavbar();initMobileMenu();initTypewriter();initScrollReveal();initCounters();initSkillBars();initFAQ();initTrainingOptions();initContactForm();initEnrollmentForm();initPaymentForm();initSmoothScroll();initBlogSearch();initCategoryFilter();});
-//# sourceMappingURL=main.js.map

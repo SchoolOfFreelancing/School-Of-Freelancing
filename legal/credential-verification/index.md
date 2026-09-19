@@ -1,7 +1,7 @@
 ---
 title: "Credential Verification Support — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us."
 ---
 

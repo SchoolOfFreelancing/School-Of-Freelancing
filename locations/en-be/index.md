@@ -1,7 +1,7 @@
 ---
 title: "Freelance Training and IT Services | Belgium"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Boost your freelancing career with live Linux, VoIP, DevOps, and AI training or request remote enterprise IT support tailored for professionals and businesses in Belgium."
 ---
 

@@ -1,11 +1,11 @@
 ---
-title: "Singapore Freelance Training & IT Services | School of Freelancing"
+title: "Freelancing Training & IT Support in Singapore"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!"
 ---
 
-# Singapore Freelance Training & IT Services | School of Freelancing
+# Freelancing Training & IT Support in Singapore
 
 ## Dedicated to Singapore
 

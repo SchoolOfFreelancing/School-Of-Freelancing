@@ -3,8 +3,8 @@
 > Bangladesh-based Linux and AI freelancing training platform teaching production-ready, hands-on skills for real freelance clients.
 
 ## Main Pages
+- [Freelancing Training — Global Client Support](https://schooloffreelancing.com/): Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide.
 - [Page Not Found | School Of Freelancing](https://schooloffreelancing.com/404.html): The page you were looking for may have moved, been renamed, or never existed. Find freelancing training, client support, and other resources…
-- [School Of Freelancing](https://schooloffreelancing.com/): From freelancing training and Linux tech support, get the full expertise to become top-rated, plus hire support.
 
 ## About Us
 - [About Us | School Of Freelancing](https://schooloffreelancing.com/about-us/): School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
@@ -28,9 +28,9 @@
 - [OpenAI Platform — Support | Hire Support](https://schooloffreelancing.com/client-support/openai-platform-support/): Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
 - [OpenClaw Setup Support | Self-Hosted AI Infrastructure](https://schooloffreelancing.com/client-support/openclaw-setup-support/): Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical sup…
 - [Telnyx SMS Setup Support | Business Messaging Integration](https://schooloffreelancing.com/client-support/telnyx-sms-setup/): Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical…
-- [Telnyx VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/telnyx-voip-setup/): Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
-- [Twilio SMS — Setup | Hire Support](https://schooloffreelancing.com/client-support/twilio-sms-setup/): Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
-- [Twilio VoIP — Setup | Hire Support](https://schooloffreelancing.com/client-support/twilio-voip-setup/): Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
+- [Telnyx VoIP Setup Support | Call Routing & SIP Trunking](https://schooloffreelancing.com/client-support/telnyx-voip-setup/): Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment & technic…
+- [Twilio SMS Setup Support | Messaging APIs & Webhooks](https://schooloffreelancing.com/client-support/twilio-sms-setup/): Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical…
+- [Twilio VoIP Setup Support | SIP Trunking & Call Routing](https://schooloffreelancing.com/client-support/twilio-voip-setup/): Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment & technic…
 - [Ubuntu Linux — Support | Hire Support](https://schooloffreelancing.com/client-support/ubuntu-linux-support/): Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration.
 - [Voice AI Agent — Setup | Hire Support](https://schooloffreelancing.com/client-support/voice-ai-agent-setup/): Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration, and deployment.
 - [ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup](https://schooloffreelancing.com/client-support/zeroclaw-setup-support/): Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration.
@@ -52,7 +52,7 @@
 - [GitLab — Freelancing Training | Setup, CI/CD & Jobs](https://schooloffreelancing.com/freelancing-training/gitlab-training/): Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 - [Hermes Agent — Freelancing Training](https://schooloffreelancing.com/freelancing-training/hermes-agent-training/): Get hands-on Hermes Agent Freelancing training to acquire direct clients via LinkedIn, YouTube, freelancer marketplaces, and job aggregators…
 - [Jasmin SMS Gateway — Freelancing Training](https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training/): Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients.
-- [Linux — Freelancing Training | School Of Freelancing](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/): Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
+- [Linux Freelancing Training | School Of Freelancing](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training/): Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients.
 - [LocalAI — Freelancing Training | Deployment & AI Jobs](https://schooloffreelancing.com/freelancing-training/local-ai-training/): Learn how to deploy LocalAI in production to run AI models directly on standard hardware, then monetize it via freelancing.
 - [Odysseus AI — Freelancing Training](https://schooloffreelancing.com/freelancing-training/odysseus-ai-training/): Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelan…
 - [OpenAI — Freelancing Training | API & AI Projects](https://schooloffreelancing.com/freelancing-training/openai-training/): Learn OpenAI API development — build GPT-powered apps, automate workflows. Build a portfolio to land direct and marketplace freelance client…
@@ -79,6 +79,8 @@
 - [Freelance Training and IT Services | Belgium](https://schooloffreelancing.com/locations/en-be/): Boost your freelancing career with live Linux, VoIP, DevOps, and AI training or request remote enterprise IT support tailored for profession…
 - [Freelance Training and IT Services | Canada](https://schooloffreelancing.com/locations/en-ca/): Top Canada freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 - [Freelance Training and IT Services | Switzerland](https://schooloffreelancing.com/locations/en-ch/): Top Switzerland freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
+- [Freelancing Training & IT Support Services in USA](https://schooloffreelancing.com/locations/en-us/): Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
+- [Freelancing Training & IT Support in Singapore](https://schooloffreelancing.com/locations/en-sg/): Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!
 - [Germany Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-de/): Top Germany freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 - [Global Linux & AI Training & Support | Locations](https://schooloffreelancing.com/locations/): Global Linux and AI training & support for freelancers, businesses, and professionals worldwide.
 - [Iceland Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-is/): Top Iceland freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
@@ -88,10 +90,8 @@
 - [Luxembourg Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-lu/): Top Luxembourg freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 - [Netherlands Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-nl/): Top Netherlands freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 - [Norway Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-no/): Top Norway freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
-- [Singapore Freelance Training & IT Services | School of Freelancing](https://schooloffreelancing.com/locations/en-sg/): Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!
 - [Sweden Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-se/): Top Sweden freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
 - [United Kingdom Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-gb/): Top United Kingdom freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
-- [United States Freelance Training & IT Support | School of Freelancing](https://schooloffreelancing.com/locations/en-us/): Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
 
 ## Resource Center
 - [Frequently Asked Questions and Answers — SOF](https://schooloffreelancing.com/resource-center/faqs/): Answers to common questions about School of Freelancing's training programs and client support services.

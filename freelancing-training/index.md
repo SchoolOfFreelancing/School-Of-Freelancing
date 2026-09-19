@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!"
 ---
 
@@ -23,7 +23,7 @@ Become an in-demand Linux System Administrator, build a freelance business, and 
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Hermes Agent Training](/assets/images/hermesagent.webp)
+![Hermes Agent Freelancing Training](/assets/images/hermesagent.webp)
 
 ### [Hermes Agent Freelancing Training](/freelancing-training/hermes-agent-training/)
 
@@ -51,7 +51,7 @@ Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium 
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Odysseus: Hands-on Training](/assets/images/odysseus.webp)
+![Odysseus AI Freelancing Training](/assets/images/odysseus.webp)
 
 ### [Odysseus AI Freelancing Training](/freelancing-training/odysseus-ai-training/)
 
@@ -93,7 +93,7 @@ Learn how to deploy LocalAI production to run AI models directly on your own dev
 - Service Portfolio Development
 - Credential Verification Support
 
-![ZeroClaw Hands-on Training](/assets/images/zeroc.svg)
+![ZeroClaw Freelancing Training](/assets/images/zeroc.svg)
 
 ### [ZeroClaw Freelancing Training](/freelancing-training/zeroclaw-training/)
 
@@ -121,7 +121,7 @@ Learn GitLab production setup, migration, version control, CI/CD, & project mana
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![GitHub Hands-on Training](/assets/images/github.webp)
+![GitHub Freelancing Training](/assets/images/github.webp)
 
 ### [GitHub Freelancing Training](/freelancing-training/github-training/)
 
@@ -149,7 +149,7 @@ Hands-on Docker training covering three production deployments, building a freel
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![FusionPBX VoIP Training](/assets/images/fusionpbx.webp)
+![FusionPBX Freelancing Training](/assets/images/fusionpbx.webp)
 
 ### [FusionPBX Freelancing Training](/freelancing-training/fusionpbx-training/)
 
@@ -163,7 +163,7 @@ Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then 
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Goautodial VoIP Training](/assets/images/goautodial.webp)
+![GOautodial Freelancing Training](/assets/images/goautodial.webp)
 
 ### [GOautodial Freelancing Training](/freelancing-training/goautodial-training/)
 
@@ -191,7 +191,7 @@ Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers, a
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Ubuntu Linux Training](/assets/images/ubuntu.svg)
+![Ubuntu Linux Freelancing Training](/assets/images/ubuntu.svg)
 
 ### [Ubuntu Linux Freelancing Training](/freelancing-training/ubuntu-linux-training/)
 
@@ -247,7 +247,7 @@ OpenAI Developer Training: Build real-world AI applications, then find and apply
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Claude Developer Training](/assets/images/claudelogo.webp)
+![Claude Freelancing Training](/assets/images/claudelogo.webp)
 
 ### [Claude Freelancing Training](/freelancing-training/claude-training/)
 
@@ -289,7 +289,7 @@ Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-![Bulk SMS Developer Training](/assets/images/bulksms.svg)
+![Bulk SMS Freelancing Training](/assets/images/bulksms.svg)
 
 ### [Bulk SMS Freelancing Training](/freelancing-training/bulk-sms-setup-training/)
 

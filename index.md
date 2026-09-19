@@ -1,15 +1,13 @@
 ---
-title: "School Of Freelancing"
+title: "Freelancing Training — Global Client Support"
 author: "Karim (Masum)"
-date: 2026-09-10
-description: "From freelancing training and Linux tech support, get the full expertise to become top-rated, plus hire support."
+date: 2026-09-19
+description: "Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide."
 ---
 
-# School Of Freelancing
+# Freelancing Training — Global Client Support
 
 ## Freelancing Training
-
-Live, hands-on, instructor-led Linux & AI training
 
 ![Linux Freelancing Training](/assets/images/linux.webp)
 
@@ -62,8 +60,6 @@ Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium 
 "School Of Freelancing is the best place for Linux Freelancing. I learned and earned my first income working with this school. Highly recommended."
 
 ## Client Support
-
-Fast global tech support—always on
 
 ![DigitalOcean 24/7 Tech Support](/assets/images/digitalocean.webp)
 

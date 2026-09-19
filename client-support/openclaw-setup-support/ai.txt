@@ -4,7 +4,7 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-12T06:31:33+00:00
+# Generated UTC: 2026-09-19T00:27:11+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -19,7 +19,7 @@ Section: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 # PAGES
 Page: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 Title: OpenClaw Setup Support | Self-Hosted AI Infrastructure
-Canonical: https://schooloffreelancing.com/client-support/openclaw-setup-support
+Canonical: https://schooloffreelancing.com/client-support/openclaw-setup-support/
 Description: Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support.
 
 # RELATIONSHIP

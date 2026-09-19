@@ -1,7 +1,7 @@
 ---
 title: "GOautodial — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICIdial integration, and carrier trunking, then build a profitable freelance service."
 ---
 

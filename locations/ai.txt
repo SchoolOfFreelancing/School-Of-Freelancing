@@ -4,7 +4,7 @@
 #
 # Generated from the website directory structure
 # and the existing sitemap.xml.
-# Generated UTC: 2026-09-12T06:31:32+00:00
+# Generated UTC: 2026-09-19T00:27:11+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -113,12 +113,12 @@ Canonical: https://schooloffreelancing.com/locations/en-se
 Description: Top Sweden freelance training &amp; trusted business IT services. Level up your career and tech. Enrol now for success!
 
 Page: https://schooloffreelancing.com/locations/en-sg/
-Title: Singapore Freelance Training &amp; IT Services | School of Freelancing
+Title: Freelancing Training &amp; IT Support in Singapore
 Canonical: https://schooloffreelancing.com/locations/en-sg
 Description: Top Singapore freelance training &amp; trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!
 
 Page: https://schooloffreelancing.com/locations/en-us/
-Title: United States Freelance Training &amp; IT Support | School of Freelancing
+Title: Freelancing Training &amp; IT Support Services in USA
 Canonical: https://schooloffreelancing.com/locations/en-us
 Description: Top US freelance training &amp; trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
 

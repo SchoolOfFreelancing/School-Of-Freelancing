@@ -1,7 +1,7 @@
 ---
 title: "GitLab — Freelancing Training | Setup, CI/CD & Jobs"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 

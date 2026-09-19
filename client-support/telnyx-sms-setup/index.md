@@ -1,7 +1,7 @@
 ---
 title: "Telnyx SMS Setup Support | Business Messaging Integration"
 author: "Karim (Masum)"
-date: 2026-09-10
+date: 2026-09-19
 description: "Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support."
 ---
 
@@ -21,13 +21,6 @@ Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and b
 | Covers: | Telnyx SMS setup covering messaging API configuration, webhooks, phone number provisioning, and business SMS integration. |
 | Best for: | Individuals, teams, and businesses requiring production Telnyx SMS setup or ongoing business messaging support without a full-time hire. |
 | What you provide: | Team access to your Telnyx account and server/VPS, along with any existing messaging or webhook configuration ready for production deployment. |
-
-## Scope of Deliverables
-
-- **Account & API Configuration:** Creation and secure management of Telnyx API keys, Messaging Profiles, and portal organization settings.
-- **Webhook & Application Handlers:** End-to-end setup of inbound SMS webhook URLs, delivery status callbacks, and retry logic on your server infrastructure.
-- **Number Provisioning & 10DLC Alignment:** Purchasing local or toll-free numbers, attaching them to Messaging Profiles, and assisting with 10DLC brand/campaign registration.
-- **End-to-End Delivery Testing:** Comprehensive inbound and outbound SMS/MMS testing, latency validation, and webhook signature verification.
 
 ## Hire Your Support Now
 
