@@ -52,6 +52,15 @@ function shouldConvert(url) {
   if (url.hostname !== SITE_HOST) {
     return false;
   }
+  /*
+   * AMP pages must never be served as markdown — AMP validators and
+   * crawlers rely on the exact AMP HTML markup, and the trailing-slash
+   * redirect earlier in the Worker means the path here is always "/amp"
+   * (no trailing slash) by the time it reaches this check.
+   */
+  if (url.pathname === "/amp" || url.pathname.startsWith("/amp/")) {
+    return false;
+  }
   const excludedPaths = [
     "/.well-known/",
     "/api/",
