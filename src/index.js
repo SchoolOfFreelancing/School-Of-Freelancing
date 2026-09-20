@@ -698,6 +698,21 @@ export default {
       return Response.redirect(target.toString(), 301);
     }
     /*
+     * Explicit fast path for /amp: avoids the 404-then-retry fallback
+     * pattern in fetchWithFallback() by resolving straight to
+     * amp/index.html in a single ASSETS.fetch() call.
+     */
+    if (url.pathname === "/amp") {
+      const assetUrl = new URL(request.url);
+      assetUrl.pathname = "/amp/index.html";
+      const response = await fetchWithFallback(
+        new Request(assetUrl, request),
+        ctx,
+        env
+      );
+      return addAgentDiscoveryHeaders(response);
+    }
+    /*
      * Only GET and HEAD are handled specially.
      */
     if (
