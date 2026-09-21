@@ -5,6 +5,7 @@
 <script async src="https://cdn.ampproject.org/v0.js"></script>
 <script async custom-element="amp-youtube" src="https://cdn.ampproject.org/v0/amp-youtube-0.1.js"></script>
 <script async custom-element="amp-analytics" src="https://cdn.ampproject.org/v0/amp-analytics-0.1.js"></script>
+<script async custom-element="amp-sidebar" src="https://cdn.ampproject.org/v0/amp-sidebar-0.1.js"></script>
 <title>Freelancing Training — Global Client Support</title>
 <link rel="canonical" href="https://schooloffreelancing.com/">
 <link rel="alternate" hreflang="en-US" href="https://schooloffreelancing.com"/>
@@ -27,7 +28,7 @@
 <link href="/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 <link href="/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
 <link href="/assets/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
-<link href="/site.webmanifest" rel="manifest">
+<link href="https://schooloffreelancing.com/site.webmanifest" rel="manifest">
 <meta content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw" name="google-site-verification">
 <meta content="C18D42C136729AADD540EB2FE7763E57" name="msvalidate.01">
 <meta content="2304476026236470" name="facebook-domain-verification">
@@ -45,7 +46,7 @@
 <meta content="summary_large_image" name="twitter:card">
 <meta content="https://schooloffreelancing.com/" name="twitter:url">
 <meta content="Freelancing Training — Global Client Support" name="twitter:title">
-<meta property="og:description" content="Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide.">
+<meta name="twitter:description" content="Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide.">
 <meta content="https://schooloffreelancing.com/assets/images/og-home.jpg" name="twitter:image">
 <meta content="@SchoolOfFreelan" name="twitter:creator">
 <script type="application/ld+json">
@@ -176,6 +177,17 @@
 <link href="https://www.googletagmanager.com" rel="dns-prefetch">
 <link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&amp;family=Orbitron:wght@400;700;900&amp;family=Source+Code+Pro:wght@300;400;600&amp;display=swap" rel="stylesheet">
 <style amp-custom>
+:root {
+  --bg-card: rgba(255, 255, 255, 0.07);
+  --border-color: rgba(255, 255, 255, 0.18);
+  --radius-lg: 16px;
+  --shadow-card: 0 12px 40px rgba(0, 0, 0, 0.35);
+  --accent-amber: #ffc857;
+  --font-display: "Orbitron", "Segoe UI", sans-serif;
+  --text-primary: #ffffff;
+  --text-secondary: rgba(255, 255, 255, 0.85);
+  --text-muted: rgba(255, 255, 255, 0.65);
+}
 body {
  background:
  radial-gradient(ellipse 70% 55% at 12% -8%, rgba(94, 130, 255, 0.45) 0, transparent 60%),
@@ -278,17 +290,15 @@ body {
  }
  #services .training-card,
  #trainings .training-card {
- background: rgba(255, 255, 255, 0.07);
+ background: rgba(8, 28, 170, 0.55);
  border: 1px solid rgba(255, 255, 255, 0.18);
- backdrop-filter: blur(12px);
- -webkit-backdrop-filter: blur(12px);
- transition: all 0.35s cubic-bezier(0.4, 0, 0.2, 1);
+ transition: transform 0.35s cubic-bezier(0.4, 0, 0.2, 1), opacity 0.35s cubic-bezier(0.4, 0, 0.2, 1);
  }
  #services .training-card:hover,
  #trainings .training-card:hover {
  transform: translateY(-8px);
  border-color: rgba(0, 255, 225, 0.45);
- background: rgba(255, 255, 255, 0.11);
+ background: rgba(20, 50, 200, 0.7);
  box-shadow:
  0 18px 50px rgba(0, 0, 0, 0.4),
  0 0 30px rgba(0, 255, 225, 0.12);
@@ -328,16 +338,12 @@ body {
  box-shadow: 0 0 15px rgba(255, 255, 255, 0.25);
  }
  .cta-banner {
- background: linear-gradient(160deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0.03));
+ background: linear-gradient(160deg, rgba(20, 50, 200, 0.6), rgba(0, 20, 120, 0.6));
  border: 1px solid rgba(255, 255, 255, 0.22);
- backdrop-filter: blur(12px);
- -webkit-backdrop-filter: blur(12px);
  box-shadow: 0 20px 60px rgba(0, 0, 0, 0.35);
  }
  .footer {
- background: rgba(0, 9, 60, 0.55);
- backdrop-filter: blur(10px);
- -webkit-backdrop-filter: blur(10px);
+ background: rgba(0, 9, 60, 0.85);
  padding-top: 56px;
  border-top: none;
  }
@@ -563,6 +569,50 @@ body {
 .svg-defs {
  position: absolute;
 }
+.nav-toggle {
+ display: none;
+ flex-direction: column;
+ justify-content: center;
+ gap: 5px;
+ width: 44px;
+ height: 44px;
+ padding: 10px;
+ border: 1px solid rgba(255, 255, 255, 0.3);
+ border-radius: 8px;
+ background: rgba(255, 255, 255, 0.08);
+ cursor: pointer;
+}
+.nav-toggle span {
+ display: block;
+ height: 2px;
+ background: #fff;
+ border-radius: 2px;
+}
+@media (max-width: 768px) {
+ .nav-toggle {
+  display: flex;
+ }
+}
+amp-sidebar {
+ background: #001bb0;
+ padding: 24px 20px;
+ min-width: 240px;
+}
+.sidebar-links {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+.sidebar-links li {
+ margin: 0;
+}
+.sidebar-links a {
+ display: block;
+ padding: 14px 6px;
+ color: #fff;
+ text-decoration: none;
+ border-bottom: 1px solid rgba(255, 255, 255, 0.15);
+}
 .training-banner-gradient {
  background: linear-gradient(135deg, #0d2b0d, #1a4a1a);
 }
@@ -584,7 +634,7 @@ body {
 <style amp-boilerplate>body{-webkit-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-moz-animation:-amp-start 8s steps(1,end) 0s 1 normal both;-ms-animation:-amp-start 8s steps(1,end) 0s 1 normal both;animation:-amp-start 8s steps(1,end) 0s 1 normal both}@-webkit-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-moz-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-ms-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@-o-keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}@keyframes -amp-start{from{visibility:hidden}to{visibility:visible}}</style><noscript><style amp-boilerplate>body{-webkit-animation:none;-moz-animation:none;-ms-animation:none;animation:none}</style></noscript>
 </head>
 <body>
-<amp-analytics type="gtag" data-tag-id="G-1LNS69YXG5">
+<amp-analytics type="gtag" data-credentials="include">
 <script type="application/json">
 {
   "vars": {
@@ -613,13 +663,7 @@ body {
  aria-label="School of Freelancing Home"
  class="nav-logo"
  ><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>School of Freelancing</span></a
- ><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training/">Freelancing Training</a></li><li><a href="/client-support/">Client Support</a></li><li><a href="/resource-center/testimonials/">Testimonials</a></li><li><a href="/about-us/">About Us</a></li><li><a href="/contact-us/">Contact Us</a></li></ul><button
- type="button"
- aria-label="Toggle mobile menu"
- class="nav-toggle"
- aria-controls="nav-links"
- aria-expanded="false"
- ><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" aria-hidden="true" id="nav-overlay"></div><main id="main"><header aria-label="Hero section" class="hero"><div class="hero-container"><div class="hero-content"><h1 class="hero-title" >
+ ><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training/">Freelancing Training</a></li><li><a href="/client-support/">Client Support</a></li><li><a href="/resource-center/testimonials/">Testimonials</a></li><li><a href="/about-us/">About Us</a></li><li><a href="/contact-us/">Contact Us</a></li></ul><button type="button" aria-label="Toggle mobile menu" class="nav-toggle" on="tap:mobile-menu.toggle" aria-controls="mobile-menu"><span></span><span></span><span></span></button></div></nav><amp-sidebar id="mobile-menu" layout="nodisplay" side="right"><ul class="sidebar-links"><li><a href="/freelancing-training/">Freelancing Training</a></li><li><a href="/client-support/">Client Support</a></li><li><a href="/resource-center/testimonials/">Testimonials</a></li><li><a href="/about-us/">About Us</a></li><li><a href="/contact-us/">Contact Us</a></li></ul></amp-sidebar><main id="main"><header aria-label="Hero section" class="hero"><div class="hero-container"><div class="hero-content"><h1 class="hero-title" >
  Advanced Freelancing Training &amp; Global Client Support
  </h1><p class="hero-subtitle" id="direct-answer">Learn in-demand Linux &amp; AI skills through live, practical projects. Build your freelance business with our dedicated global support network.</p><aside aria-label="Quick facts" class="hero-stats"><div class="stat-item"><span class="stat-number">5.0★</span><span class="stat-label">Top Rated</span></div><div class="stat-item"><span class="stat-number">2015</span><span class="stat-label">Est.</span></div><div class="stat-item"><span class="stat-number">Worldwide</span><span class="stat-label">Training &amp; Support</span></div></aside><div class="hero-actions"><a href="/freelancing-training/" class="btn btn-primary btn-lg">Start Learning</a><a href="/client-support/" class="btn btn-lg btn-outline">Get Support Now</a></div></div><div class="hero-video"><amp-youtube data-videoid="bbJCBn_vUzs" layout="responsive" width="500" height="300" title="YouTube video player" class="crawlable-video"></amp-youtube></div></div></header><section aria-labelledby="trainings-heading" class="section no-terminal-prompt" id="trainings"><div class="container"><div class="section-header"><h2 id="trainings-heading" class="section-title"><span>Freelancing Training</span></h2></div><div class="trainings-grid"><article
  class="training-card"
