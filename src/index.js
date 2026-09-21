@@ -13,16 +13,6 @@ const LEGACY_REDIRECTS = {
 };
 /*
  * ==========================================================================
- * Agent discovery
- * ==========================================================================
- */
-const AGENT_LINK_HEADER =
-  '<https://schooloffreelancing.com/.well-known/api-catalog>; rel="api-catalog", ' +
-  '<https://schooloffreelancing.com/service-desc>; rel="service-desc", ' +
-  '<https://schooloffreelancing.com/.well-known/oauth-protected-resource/mcp>; rel="oauth-protected-resource", ' +
-  '<https://schooloffreelancing.com/.well-known/oauth-authorization-server>; rel="oauth-authorization-server"';
-/*
- * ==========================================================================
  * Markdown content negotiation
  * ==========================================================================
  */
@@ -50,6 +40,15 @@ function wantsMarkdown(request) {
 }
 function shouldConvert(url) {
   if (url.hostname !== SITE_HOST) {
+    return false;
+  }
+  /*
+   * AMP pages must never be served as markdown — AMP validators and
+   * crawlers rely on the exact AMP HTML markup, and the trailing-slash
+   * redirect earlier in the Worker means the path here is always "/amp"
+   * (no trailing slash) by the time it reaches this check.
+   */
+  if (url.pathname === "/amp" || url.pathname.startsWith("/amp/")) {
     return false;
   }
   const excludedPaths = [
@@ -140,26 +139,6 @@ function normalizeText(value) {
       .replace(/\r/g, "\n")
       .replace(/\u00a0/g, " ")
       .replace(/[ \t]+/g, " ")
-  );
-}
-/*
- * ==========================================================================
- * Agent discovery response headers
- * ==========================================================================
- */
-function addAgentDiscoveryHeaders(response) {
-  const headers = new Headers(response.headers);
-  headers.set(
-    "Link",
-    AGENT_LINK_HEADER
-  );
-  return new Response(
-    response.body,
-    {
-      status: response.status,
-      statusText: response.statusText,
-      headers,
-    }
   );
 }
 /*
@@ -511,10 +490,6 @@ function updateHeaders(originHeaders) {
   headers.delete("ETag");
   headers.delete("Last-Modified");
   headers.set(
-    "Link",
-    AGENT_LINK_HEADER
-  );
-  headers.set(
     "X-Markdown-Content-Negotiation",
     "text/markdown"
   );
@@ -689,6 +664,21 @@ export default {
       return Response.redirect(target.toString(), 301);
     }
     /*
+     * Explicit fast path for /amp: avoids the 404-then-retry fallback
+     * pattern in fetchWithFallback() by resolving straight to
+     * amp/index.html in a single ASSETS.fetch() call.
+     */
+    if (url.pathname === "/amp") {
+      const assetUrl = new URL(request.url);
+      assetUrl.pathname = "/amp/index.html";
+      const response = await fetchWithFallback(
+        new Request(assetUrl, request),
+        ctx,
+        env
+      );
+      return response;
+    }
+    /*
      * Only GET and HEAD are handled specially.
      */
     if (
@@ -696,7 +686,7 @@ export default {
       request.method !== "HEAD"
     ) {
       const response = await fetchWithFallback(request, ctx, env);
-      return addAgentDiscoveryHeaders(response);
+      return response;
     }
     /*
      * Normal HTML request or excluded resource.
@@ -706,7 +696,7 @@ export default {
       !shouldConvert(url)
     ) {
       const response = await fetchWithFallback(request, ctx, env);
-      return addAgentDiscoveryHeaders(response);
+      return response;
     }
     /*
      * Request HTML from assets even though the client requested Markdown.
@@ -723,7 +713,7 @@ export default {
      * Do not convert non-HTML responses.
      */
     if (!contentType.toLowerCase().includes("text/html")) {
-      return addAgentDiscoveryHeaders(assetResponse);
+      return assetResponse;
     }
     /*
      * HEAD has no body to transform.
