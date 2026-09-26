@@ -9,7 +9,7 @@ function initScrollReveal(){const els=document.querySelectorAll('[data-reveal]')
 function initCounters(){const counters=document.querySelectorAll('[data-count]');if(!counters.length)return;const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){const el=entry.target;const target=parseFloat(el.getAttribute('data-count'));const suffix=el.getAttribute('data-suffix')||'';const prefix=el.getAttribute('data-prefix')||'';const duration=2000;const step=target/(duration/16);let current=0;const timer=setInterval(()=>{current+=step;if(current>=target){current=target;clearInterval(timer);}
 el.textContent=prefix+(Number.isInteger(target)?Math.floor(current):current.toFixed(1))+suffix;},16);observer.unobserve(el);}});},{threshold:0.5});counters.forEach(c=>observer.observe(c));}
 function initSkillBars(){const bars=document.querySelectorAll('.skill-fill');if(!bars.length)return;const observer=new IntersectionObserver((entries)=>{entries.forEach(entry=>{if(entry.isIntersecting){const el=entry.target;el.style.width=el.getAttribute('data-width')||'0%';observer.unobserve(el);}});},{threshold:0.3});bars.forEach(b=>{b.style.width='0%';observer.observe(b);});}
-function initFAQ(){const items=document.querySelectorAll('.faq-item');if(!items.length)return;items.forEach(item=>{const btn=item.querySelector('.faq-question');btn.addEventListener('click',()=>{const isOpen=item.classList.contains('open');items.forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');});});}
+function initFAQ(){const items=document.querySelectorAll('.faq-item');if(!items.length)return;items.forEach(item=>{const btn=item.querySelector('.faq-question');if(!btn)return;btn.addEventListener('click',()=>{const isOpen=item.classList.contains('open');items.forEach(i=>i.classList.remove('open'));if(!isOpen)item.classList.add('open');});});}
 function initTrainingOptions(){const options=document.querySelectorAll('.training-option');if(!options.length)return;options.forEach(opt=>{opt.addEventListener('click',()=>{options.forEach(o=>o.classList.remove('selected'));opt.classList.add('selected');const radio=opt.querySelector('input[type="radio"]');if(radio)radio.checked=true;});});}
 function initContactForm(){const form=document.getElementById('contact-form');if(!form)return;form.addEventListener('submit',(e)=>{e.preventDefault();const btn=form.querySelector('[type="submit"]');btn.textContent='Sending...';btn.disabled=true;setTimeout(()=>{form.innerHTML=`<div class="success-screen"style="display:block"><span class="success-icon">✅</span><h2>Message Sent!</h2><p>Thanks for reaching out.We'll get back to you within 24 hours.</p>
           <a href="index.html" class="btn btn-outline mt-4" style="margin-top:24px;display:inline-flex">← Back to Home</a>
@@ -17,14 +17,13 @@ function initContactForm(){const form=document.getElementById('contact-form');if
     }, 1800);
   });
 }
-/* ---------- Enrollment Form ---------- */
 function initEnrollmentForm() {
   const form = document.getElementById('enrollment-form');
   if (!form) return;
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     const btn = form.querySelector('[type="submit"]');
-    btn.textContent = '⏳ Processing...';
+    btn.textContent = 'Processing...';
     btn.disabled = true;
     setTimeout(() => {
       document.getElementById('enrollment-form-wrap').style.display = 'none';
@@ -33,18 +32,17 @@ function initEnrollmentForm() {
     }, 2200);
   });
 }
-/* ---------- Payment Confirmation Form ---------- */
 function initPaymentForm() {
   const form = document.getElementById('payment-form');
   if (!form) return;
   form.addEventListener('submit', (e) => {
     e.preventDefault();
     if (!form.reportValidity()) return;
-    const name = form.name.value.trim();
-    const email = form.email.value.trim();
-    const program = form.program.value;
-    const method = form.method.value;
-    const txn = form.txn.value.trim();
+    const name = (form.name && form.name.value.trim()) || '';
+    const email = (form.email && form.email.value.trim()) || '';
+    const program = (form.program && form.program.value) || '';
+    const method = (form.method && form.method.value) || '';
+    const txn = (form.txn && form.txn.value.trim()) || '';
     const message =
       `New Payment Confirmation\n` +
       `Name: ${name}\n` +
@@ -58,12 +56,11 @@ function initPaymentForm() {
     btn.disabled = true;
     window.open(url, '_blank', 'noopener');
     setTimeout(() => {
-      btn.textContent = '✅ Confirm Payment via WhatsApp';
+      btn.textContent = 'Confirm Payment via WhatsApp';
       btn.disabled = false;
     }, 2000);
   });
 }
-/* ---------- Smooth Scroll ---------- */
 function initSmoothScroll() {
   document.querySelectorAll('a[href^="#"]').forEach(a => {
     a.addEventListener('click', (e) => {
@@ -80,7 +77,6 @@ function initSmoothScroll() {
     });
   });
 }
-/* ---------- Blog Search ---------- */
 function initBlogSearch() {
   const input = document.getElementById('blog-search');
   if (!input) return;
@@ -92,7 +88,6 @@ function initBlogSearch() {
     });
   });
 }
-/* ---------- Category Filter (training/services hub pages) ---------- */
 function initCategoryFilter() {
   const buttons = document.querySelectorAll('.filter-btn[data-filter]');
   if (!buttons.length) return;
@@ -117,7 +112,6 @@ function initCategoryFilter() {
     });
   });
 }
-/* ---------- Init All ---------- */
 document.addEventListener('DOMContentLoaded', () => {
 if('requestIdleCallback'in window){requestIdleCallback(initMatrix,{timeout:2000});}else{setTimeout(initMatrix,200);}
 initNavbar();initMobileMenu();initTypewriter();initScrollReveal();initCounters();initSkillBars();initFAQ();initTrainingOptions();initContactForm();initEnrollmentForm();initPaymentForm();initSmoothScroll();initBlogSearch();initCategoryFilter();});
