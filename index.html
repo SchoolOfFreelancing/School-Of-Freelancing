@@ -130,9 +130,29 @@
                 ]
             }
         </script>
- <link href="https://fonts.googleapis.com" rel="preconnect"><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"><link href="https://www.googletagmanager.com" rel="dns-prefetch"><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet" media="print" onload="this.media = 'all'"><noscript><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet"></noscript> <link rel="preload" href="/assets/css/style.home.min.css?v=20260802" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/css/style.home.min.css?v=20260802"></noscript>
+ <link href="https://fonts.googleapis.com" rel="preconnect"><link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous"><link href="https://www.googletagmanager.com" rel="dns-prefetch"><link rel="preload" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=swap" rel="stylesheet"></noscript> <link rel="preload" href="/assets/css/style.home.min.css?v=20260802" as="style" onload="this.onload=null;this.rel='stylesheet'"><noscript><link rel="stylesheet" href="/assets/css/style.home.min.css?v=20260802"></noscript>
  
 <style>
+ @font-face {
+ font-family: "Orbitron Fallback";
+ src: local("Arial");
+ size-adjust: 92%;
+ ascent-override: 90%;
+ descent-override: 22%;
+ line-gap-override: 0%;
+ }
+ @font-face {
+ font-family: "Share Tech Mono Fallback";
+ src: local("Courier New");
+ size-adjust: 104%;
+ ascent-override: 90%;
+ descent-override: 22%;
+ line-gap-override: 0%;
+ }
+ :root {
+ --font-mono: "Share Tech Mono", "Share Tech Mono Fallback", "Courier New", monospace;
+ --font-display: "Orbitron", "Orbitron Fallback", monospace;
+ }
  body {
  background:
  radial-gradient(ellipse 70% 55% at 12% -8%, rgba(94, 130, 255, 0.45) 0, transparent 60%),
