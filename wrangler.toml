@@ -5,8 +5,17 @@ compatibility_date = "2026-09-20"
 [assets]
 directory = "."
 binding = "ASSETS"
-run_worker_first = true
-html_handling = "none"
+run_worker_first = [
+  "/freelancing-training/*",
+  "/client-support/*",
+  "/resource-center/*",
+  "/legal/*",
+  "/locations/*",
+  "/contact-us",
+  "/about-us",
+  "/amp",
+]
+html_handling = "drop-trailing-slash"
 not_found_handling = "404-page"
 
 [observability.logs]
