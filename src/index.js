@@ -42,12 +42,6 @@ function shouldConvert(url) {
   if (url.hostname !== SITE_HOST) {
     return false;
   }
-  /*
-   * AMP pages must never be served as markdown — AMP validators and
-   * crawlers rely on the exact AMP HTML markup, and the trailing-slash
-   * redirect earlier in the Worker means the path here is always "/amp"
-   * (no trailing slash) by the time it reaches this check.
-   */
   if (url.pathname === "/amp" || url.pathname.startsWith("/amp/")) {
     return false;
   }
@@ -503,13 +497,9 @@ function updateHeaders(originHeaders) {
  * ==========================================================================
  * Asset resilience: cache + stale fallback
  * ==========================================================================
- *
- * Static Assets are served from Cloudflare's edge and are normally always
- * available. This fallback layer is kept defensively: if env.ASSETS.fetch()
- * ever throws or returns a 5xx, we serve the last successfully cached
- * response instead of failing outright.
  */
 const CACHE_TTL_SECONDS = 300;
+const STATIC_ASSET_PATTERN = /\.(css|js|woff2?|ttf|eot|otf|svg|png|jpe?g|gif|ico|webmanifest|webp|avif)$/i;
 function isCacheableResponse(response) {
   if (!response || !response.ok) {
     return false;
@@ -579,40 +569,11 @@ async function fetchWithFallback(request, ctx, env) {
   let response;
   try {
     response = await env.ASSETS.fetch(request);
-    /*
-     * html_handling is set to "none" so Static Assets does no
-     * directory-index resolution. If the literal path 404s and does
-     * not look like a static file (no extension), retry against the
-     * directory's index.html before giving up.
-     */
-    if (
-      response &&
-      response.status === 404 &&
-      (request.method === "GET" || request.method === "HEAD")
-    ) {
-      const reqUrl = new URL(request.url);
-      if (!/\.[a-z0-9]+$/i.test(reqUrl.pathname)) {
-        const indexUrl = new URL(request.url);
-        indexUrl.pathname =
-          indexUrl.pathname.replace(/\/?$/, "/") + "index.html";
-        const indexRequest = new Request(indexUrl, request);
-        try {
-          const indexResponse = await env.ASSETS.fetch(indexRequest);
-          if (indexResponse && indexResponse.status !== 404) {
-            response = indexResponse;
-          }
-        } catch (err) {
-          /*
-           * Fall through with the original 404 response.
-           */
-        }
-      }
-    }
   } catch (err) {
     response = null;
   }
   if (response && response.status < 500) {
-    if (isGet && isCacheableResponse(response)) {
+    if (isGet) {
       const clone = response.clone();
       ctx.waitUntil(cachePut(request.url, clone));
     }
@@ -653,20 +614,13 @@ export default {
       return Response.redirect(target.toString(), 301);
     }
     /*
-     * Canonical URLs are non-trailing-slash. html_handling is set to
-     * "none" so Static Assets performs no redirect logic itself; do it
-     * explicitly here instead, so behaviour is consistent across every
-     * page regardless of directory/file layout on disk.
+     * Trailing-slash redirects are handled by the assets system
+     * (html_handling = "drop-trailing-slash" in wrangler.toml).
+     * The Worker no longer needs to do this manually.
      */
-    if (url.pathname.length > 1 && url.pathname.endsWith("/")) {
-      const target = new URL(url);
-      target.pathname = url.pathname.slice(0, -1);
-      return Response.redirect(target.toString(), 301);
-    }
     /*
-     * Explicit fast path for /amp: avoids the 404-then-retry fallback
-     * pattern in fetchWithFallback() by resolving straight to
-     * amp/index.html in a single ASSETS.fetch() call.
+     * Explicit fast path for /amp: resolve straight to amp/index.html
+     * in a single ASSETS.fetch() call.
      */
     if (url.pathname === "/amp") {
       const assetUrl = new URL(request.url);
