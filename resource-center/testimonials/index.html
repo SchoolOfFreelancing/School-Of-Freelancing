@@ -366,10 +366,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  events.forEach(function (evt) {
  window.addEventListener(evt, loadSearch, { passive: true, once: true });
  });
- if ('requestIdleCallback' in window) {
- requestIdleCallback(loadSearch, { timeout: 4000 });
- } else {
- setTimeout(loadSearch, 3000);
- }
  })();
 </script></body></html>

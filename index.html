@@ -894,9 +894,6 @@ document.getElementById('yt-play').addEventListener('click',function(){
  document.head.appendChild(e));
  }
  }
- (c.forEach(function (e) {
- window.addEventListener(e, n, { passive: !0, once: !0 });
- }),
- "requestIdleCallback" in window ? requestIdleCallback(n, { timeout: 4e3 }) : setTimeout(n, 3e3));
+ c.forEach(function (e) { window.addEventListener(e, n, { passive: !0, once: !0 }); });
  })();
  </script></body></html>
