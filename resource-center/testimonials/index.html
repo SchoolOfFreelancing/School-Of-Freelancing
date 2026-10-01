@@ -349,22 +349,5 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  window.addEventListener('load', ensureAndRegister);
 })();
 </script>
- (function () {
- var loaded = false;
- var events = ['scroll', 'mousemove', 'keydown', 'touchstart', 'click'];
- function loadSearch() {
- if (loaded) return;
- loaded = true;
- events.forEach(function (evt) {
- window.removeEventListener(evt, loadSearch, { passive: true });
- });
- var s = document.createElement('script');
- s.type = 'module';
- s.src = 'https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js';
- document.head.appendChild(s);
- }
- events.forEach(function (evt) {
- window.addEventListener(evt, loadSearch, { passive: true, once: true });
- });
- })();
-</script></body></html>
+
+</body></html>
