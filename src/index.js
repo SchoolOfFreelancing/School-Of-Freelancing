@@ -455,6 +455,14 @@ function updateHeaders(originHeaders) {
     "Content-Type",
     "text/markdown; charset=utf-8"
   );
+  /*
+   * Static site — markdown content only changes on deployment.
+   * Browser revalidates after 5 min, edge caches for 24 hours.
+   */
+  headers.set(
+    "Cache-Control",
+    "public, max-age=300, s-maxage=86400"
+  );
   const vary = headers.get("Vary");
   if (vary) {
     const values = vary
@@ -498,25 +506,72 @@ function updateHeaders(originHeaders) {
  * Asset resilience: cache + stale fallback
  * ==========================================================================
  */
-const CACHE_TTL_SECONDS = 300;
-const STATIC_ASSET_PATTERN = /\.(css|js|woff2?|ttf|eot|otf|svg|png|jpe?g|gif|ico|webmanifest|webp|avif)$/i;
-function isCacheableResponse(response) {
-  if (!response || !response.ok) {
-    return false;
-  }
-  const cacheControl =
-    response.headers.get("Cache-Control") || "";
-  if (/no-store|no-cache|private/i.test(cacheControl)) {
-    return false;
+/*
+ * Edge cache TTL for successful responses (24 hours).
+ * Static site content only changes on deployment.
+ */
+const CACHE_TTL_SECONDS = 86400;
+/*
+ * Shorter TTL for 404 responses (5 minutes).
+ * Prevents repeated ASSETS.fetch calls for scanner probes
+ * while still allowing new pages to be discovered quickly.
+ */
+const CACHE_404_TTL_SECONDS = 300;
+/*
+ * Static asset file extensions that benefit from long browser caching.
+ * Filenames should include a hash/version for cache busting.
+ */
+const STATIC_ASSET_PATTERN = /\.(css|js|mjs|woff2?|ttf|eot|otf|svg|png|jpe?g|gif|ico|webmanifest|webp|avif|map)$/i;
+/*
+ * Set client-facing Cache-Control headers so browsers and shared caches
+ * can cache responses.  The original static files may carry
+ * "no-cache, no-store, must-revalidate" which prevents all browser caching
+ * and causes every page load to round-trip through the Worker.
+ */
+function setClientCacheHeaders(response, url) {
+  const status = response.status;
+  /*
+   * Don't touch responses with Set-Cookie (security) or 5xx (errors).
+   */
+  if (status >= 500) {
+    return response;
   }
   if (response.headers.get("Set-Cookie")) {
-    return false;
+    return response;
   }
-  const contentType =
-    response.headers.get("Content-Type") || "";
-  return /text\/html|text\/markdown|text\/plain|application\/json/i.test(
-    contentType
-  );
+  const headers = new Headers(response.headers);
+  if (status === 404) {
+    /*
+     * 404s: cache for 1 minute so scanner bursts don't hammer the ASSETS binding.
+     */
+    headers.set(
+      "Cache-Control",
+      "public, max-age=60"
+    );
+  } else if (STATIC_ASSET_PATTERN.test(url.pathname)) {
+    /*
+     * Static assets (CSS, JS, fonts, images): 30 days, immutable.
+     * Requires filename hashing/versioning for cache busting on deploy.
+     */
+    headers.set(
+      "Cache-Control",
+      "public, max-age=2592000, immutable"
+    );
+  } else if (status >= 200 && status < 400) {
+    /*
+     * HTML pages: browser revalidates after 5 min, edge caches for 24 hours.
+     * This is safe because the site is static — content only changes on deploy.
+     */
+    headers.set(
+      "Cache-Control",
+      "public, max-age=300, s-maxage=86400"
+    );
+  }
+  return new Response(response.body, {
+    status: response.status,
+    statusText: response.statusText,
+    headers,
+  });
 }
 async function cachePut(url, response) {
   try {
@@ -526,9 +581,17 @@ async function cachePut(url, response) {
       statusText: response.statusText,
       headers: response.headers,
     });
+    /*
+     * Use a shorter TTL for 404 cached entries to avoid
+     * serving stale "page not found" after a new deploy.
+     */
+    const ttl =
+      response.status === 404
+        ? CACHE_404_TTL_SECONDS
+        : CACHE_TTL_SECONDS;
     cached.headers.set(
       "Cache-Control",
-      `public, max-age=${CACHE_TTL_SECONDS}`
+      `public, max-age=${ttl}`
     );
     await caches.default.put(key, cached);
   } catch (err) {
@@ -560,7 +623,8 @@ function staleFromCache(cached, forHead) {
 }
 /*
  * Fetch with resilience:
- * - Successful responses are cached (GET only, 5-minute TTL).
+ * - Successful responses get proper Cache-Control headers for browser caching.
+ * - Successful responses are cached (GET only, 24-hour TTL for 200s, 5-min for 404s).
  * - If ASSETS.fetch throws or returns 5xx, serve the cached copy.
  * - If there is no cache, return a graceful 503 instead of an error.
  */
@@ -574,6 +638,12 @@ async function fetchWithFallback(request, ctx, env) {
   }
   if (response && response.status < 500) {
     if (isGet) {
+      /*
+       * Override the client-facing Cache-Control header so browsers
+       * and shared caches can cache the response.  The original static
+       * files may carry "no-cache, no-store" which prevents all caching.
+       */
+      response = setClientCacheHeaders(response, new URL(request.url));
       const clone = response.clone();
       ctx.waitUntil(cachePut(request.url, clone));
     }
@@ -608,10 +678,17 @@ export default {
     const url = new URL(request.url);
     /*
      * Legacy canonical redirects (was: .htaccess "GSC-FIX" block).
+     * Use explicit Cache-Control so browsers cache the redirect.
      */
     if (LEGACY_REDIRECTS[url.pathname]) {
       const target = new URL(LEGACY_REDIRECTS[url.pathname], url);
-      return Response.redirect(target.toString(), 301);
+      return new Response(null, {
+        status: 301,
+        headers: {
+          Location: target.toString(),
+          "Cache-Control": "public, max-age=86400",
+        },
+      });
     }
     /*
      * Trailing-slash redirects are handled by the assets system
@@ -705,3 +782,4 @@ export default {
     });
   },
 };
+
