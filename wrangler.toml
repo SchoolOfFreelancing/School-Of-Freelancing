@@ -9,6 +9,11 @@ html_handling = "drop-trailing-slash"
 not_found_handling = "404-page"
 run_worker_first = true
 
+[observability]
+enabled = false
+head_sampling_rate = 1
+redact_query_string = false
+
 [observability.logs]
 enabled = true
 head_sampling_rate = 1
@@ -19,4 +24,7 @@ persist = true
 enabled = true
 head_sampling_rate = 1
 persist = true
+
+[observability.issues]
+enabled = true
 
