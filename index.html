@@ -81,7 +81,7 @@
                         ]
                     },
                     {
-                        "@type": "VideoObject", "name": "School of Freelancing Introduction", "description": "Live Linux and AI freelancing training and technical support by School of Freelancing.", "thumbnailUrl": "https://schooloffreelancing.com/assets/images/video-thumb.webp", "uploadDate": "2022-06-13T00:00:00+06:00", "embedUrl": "https://www.youtube-nocookie.com/embed/bbJCBn_vUzs", "contentUrl": "https://www.youtube.com/watch?v=bbJCBn_vUzs" }, { "@type": "WebSite",
+                        "@type": "WebSite",
                         "@id": "https://schooloffreelancing.com/#website",
                         "url": "https://schooloffreelancing.com/",
                         "name": "School of Freelancing",
@@ -97,7 +97,7 @@
                         "name": "Linux & AI Freelancing Training | Global Technical Support | School of Freelancing",
                         "description": "Live Linux and AI freelancing training with hands-on projects, plus professional cloud and server technical support for freelancers and businesses worldwide.",
                         "datePublished": "2015-02-02",
-                        "dateModified": "2026-09-28",
+                        "dateModified": "2026-10-03",
                         "isPartOf": {
                             "@id": "https://schooloffreelancing.com/#website"
                         },
@@ -325,6 +325,7 @@
  border: none;
  background: none;
  cursor: pointer;
+ text-decoration: none;
  }
  .video-thumb-link .play-button {
  position: absolute;
@@ -552,21 +553,10 @@
  aria-controls="nav-links"
  aria-expanded="false"
  ><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" aria-hidden="true" id="nav-overlay"></div><main id="main"><header aria-label="Hero section" class="hero"><div class="hero-container"><div class="hero-content"><h1 class="hero-title">Linux and AI Freelancing Training Plus Technical Support</h1><p class="hero-subtitle" id="direct-answer">Learn Linux and AI freelancing with practical training, plus professional technical support for freelancers, startups, and businesses worldwide.</p><aside aria-label="Quick facts" class="hero-stats"><div class="stat-item"><span class="stat-number">5.0★</span><span class="stat-label">Top Rated</span></div><div class="stat-item"><span class="stat-number">2015</span><span class="stat-label">Est.</span></div><div class="stat-item"><span class="stat-number">Worldwide</span><span class="stat-label">Training &amp; Support</span></div></aside><div class="hero-actions"><a href="/freelancing-training/" class="btn btn-primary btn-lg">Start Learning</a><a href="/client-support/" class="btn btn-lg btn-outline">Get Support Now</a></div></div><div class="hero-video">
- 
- <button type="button" class="video-thumb-link" id="yt-play" data-id="bbJCBn_vUzs" aria-label="Play video">
+ <a href="/resource-center/intro-video" class="video-thumb-link" aria-label="Watch the School of Freelancing intro video">
   <img src="/assets/images/video-thumb.webp" alt="School of Freelancing intro video" width="480" height="288" decoding="async" class="crawlable-video" style="object-fit:cover">
   <span class="play-button" aria-hidden="true">▶</span>
-</button>
-<script>
-document.getElementById('yt-play').addEventListener('click',function(){
-  var f=document.createElement('iframe');
-  f.src='https://www.youtube-nocookie.com/embed/'+this.dataset.id+'?autoplay=1';
-  f.className='crawlable-video';f.title='YouTube video player';f.style.border='0';
-  f.allow='autoplay; encrypted-media; picture-in-picture';f.allowFullscreen=true;
-  this.replaceWith(f);
-});
-</script>
- 
+ </a>
  </div></div></header><section aria-labelledby="trainings-heading" class="section no-terminal-prompt" id="trainings"><div class="container"><div class="section-header" data-reveal="data-reveal"><h2 id="trainings-heading" data-reveal class="section-title"><span>Freelancing Training</span></h2></div><div class="trainings-grid"><article
  class="training-card"
  data-delay="0"
