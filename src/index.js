@@ -1,8 +1,69 @@
 const SITE_HOST = "schooloffreelancing.com";
+
 /*
  * ==========================================================================
- * Legacy canonical redirects (moved from .htaccess)
+ * Legacy redirects (old URL -> current URL, all 301)
  * ==========================================================================
+ * Targets use the no-trailing-slash form, which is how the site is served.
+ * Before redirecting, the Worker checks that the target exists. If a target
+ * is missing, the redirect is skipped and the normal 404 is served instead,
+ * so a wrong slug can never send visitors to a broken page.
+ */
+const SERVICE_MAP = {
+  // confirmed from site footers and homepage
+  "linux-server-services": "linux-server-support",
+  "ubuntu-linux-services": "ubuntu-linux-support",
+  "odysseus-ai-services": "odysseus-ai-setup",
+  "goautodial-voip-services": "goautodial-voip-setup",
+  "telnyx-sip-trunking-services": "telnyx-voip-setup",
+  "hummingbot-installation-services": "hummingbot-installation-support",
+  "digitalocean-cloud-services": "digitalocean-cloud-support",
+  // inferred from GitHub repo names (skipped automatically if target is missing)
+  "centos-linux-services": "centos-linux-support",
+  "claude-ai-platform-services": "claude-platform-support",
+  "fusionpbx-voip-services": "fusionpbx-voip-setup",
+  "github-services": "github-installation-support",
+  "gitlab-services": "gitlab-installation-support",
+  "jasmin-sms-gateway-services": "jasmin-sms-gateway-setup",
+  "local-ai-services": "localai-setup-support",
+  "openai-platform-services": "openai-platform-support",
+  "openclaw-ai-services": "openclaw-setup-support",
+  "telnyx-sms-api-services": "telnyx-sms-setup",
+  "twilio-sip-trunking-services": "twilio-voip-setup",
+  "twilio-sms-api-services": "twilio-sms-setup",
+  "vapi-platform-services": "voice-ai-agent-setup",
+  "zeroclaw-ai-services": "zeroclaw-setup-support",
+};
+
+const LOCATION_MAP = {
+  australia: "en-au",
+  austria: "en-at",
+  bangladesh: "en-bd",
+  belgium: "en-be",
+  denmark: "en-dk",
+  germany: "en-de",
+  iceland: "en-is",
+  israel: "en-il",
+  liechtenstein: "en-li",
+  norway: "en-no",
+  singapore: "en-sg",
+  sweden: "en-se",
+  us: "en-us",
+};
+
+const OLD_PAGES = {
+  "/training.html": "/freelancing-training",
+  "/linux.html": "/freelancing-training/linux-freelancing-training",
+  "/contact.html": "/contact-us",
+  "/support.html": "/client-support",
+  "/testimonials.html": "/resource-center/testimonials",
+  "/mentor.html": "/about-us",
+  "/sitemap.html": "/",
+  "/linux-ai-services": "/client-support",
+};
+
+/*
+ * Moved from .htaccess ("GSC-FIX" block).
  */
 const LEGACY_REDIRECTS = {
   "/resource-center/ai-chatbot": "/resource-center/guides/ai-chatbot",
@@ -11,6 +72,53 @@ const LEGACY_REDIRECTS = {
   "/resource-center/linux-deployment": "/resource-center/guides/linux-deployment",
   "/resource-center/voip-setup": "/resource-center/guides/voip-setup",
 };
+
+function legacyTarget(url) {
+  const path = url.pathname.replace(/\/+$/, "") || "/";
+  let target = OLD_PAGES[path];
+  if (!target) {
+    let m = path.match(/^\/(?:client-support|linux-ai-services)\/([^/]+)$/);
+    if (m && Object.prototype.hasOwnProperty.call(SERVICE_MAP, m[1])) {
+      target = "/client-support/" + SERVICE_MAP[m[1]];
+    }
+    if (!target) {
+      m = path.match(/^\/locations\/([^/]+)$/);
+      if (m && Object.prototype.hasOwnProperty.call(LOCATION_MAP, m[1])) {
+        target = "/locations/" + LOCATION_MAP[m[1]];
+      }
+    }
+  }
+  return target || null;
+}
+
+async function targetExists(url, target, env) {
+  try {
+    const res = await env.ASSETS.fetch(
+      new Request(new URL(target, url.origin).href, { method: "GET" })
+    );
+    return res.status >= 200 && res.status < 400;
+  } catch (err) {
+    return false;
+  }
+}
+
+async function legacyRedirect(url, env) {
+  const target = legacyTarget(url);
+  if (!target) {
+    return null;
+  }
+  if (!(await targetExists(url, target, env))) {
+    return null;
+  }
+  return new Response(null, {
+    status: 301,
+    headers: {
+      Location: url.origin + target + url.search,
+      "Cache-Control": "public, max-age=3600",
+    },
+  });
+}
+
 /*
  * ==========================================================================
  * Markdown content negotiation
@@ -31,13 +139,12 @@ function wantsMarkdown(request) {
       return true;
     }
     const q = Number(
-      qParameter.substring(
-        qParameter.indexOf("=") + 1
-      ).trim()
+      qParameter.substring(qParameter.indexOf("=") + 1).trim()
     );
     return Number.isFinite(q) && q > 0;
   });
 }
+
 function shouldConvert(url) {
   if (url.hostname !== SITE_HOST) {
     return false;
@@ -45,61 +152,25 @@ function shouldConvert(url) {
   if (url.pathname === "/amp" || url.pathname.startsWith("/amp/")) {
     return false;
   }
-  const excludedPaths = [
-    "/.well-known/",
-    "/api/",
-    "/assets/",
-    "/cdn-cgi/",
-  ];
-  if (
-    excludedPaths.some((path) =>
-      url.pathname.startsWith(path)
-    )
-  ) {
+  const excludedPaths = ["/.well-known/", "/api/", "/assets/", "/cdn-cgi/"];
+  if (excludedPaths.some((path) => url.pathname.startsWith(path))) {
     return false;
   }
-  const extensionMatch = url.pathname.match(
-    /\.([a-z0-9]+)$/i
-  );
+  const extensionMatch = url.pathname.match(/\.([a-z0-9]+)$/i);
   if (!extensionMatch) {
     return true;
   }
   const extension = extensionMatch[1].toLowerCase();
   const excludedExtensions = new Set([
-    "css",
-    "js",
-    "json",
-    "xml",
-    "txt",
-    "md",
-    "jpg",
-    "jpeg",
-    "png",
-    "gif",
-    "webp",
-    "svg",
-    "ico",
-    "bmp",
-    "avif",
-    "pdf",
-    "zip",
-    "gz",
-    "tar",
-    "mp3",
-    "wav",
-    "mp4",
-    "webm",
-    "mov",
-    "avi",
-    "m4v",
-    "woff",
-    "woff2",
-    "ttf",
-    "otf",
-    "eot",
+    "css", "js", "json", "xml", "txt", "md",
+    "jpg", "jpeg", "png", "gif", "webp", "svg", "ico", "bmp", "avif",
+    "pdf", "zip", "gz", "tar",
+    "mp3", "wav", "mp4", "webm", "mov", "avi", "m4v",
+    "woff", "woff2", "ttf", "otf", "eot",
   ]);
   return !excludedExtensions.has(extension);
 }
+
 /*
  * ==========================================================================
  * Helpers
@@ -115,6 +186,7 @@ function absoluteURL(value, baseURL) {
     return value;
   }
 }
+
 function decodeHTMLEntities(value) {
   return value
     .replace(/&nbsp;/gi, " ")
@@ -126,6 +198,7 @@ function decodeHTMLEntities(value) {
     .replace(/&#x27;/gi, "'")
     .replace(/&#x2F;/gi, "/");
 }
+
 function normalizeText(value) {
   return decodeHTMLEntities(
     value
@@ -135,39 +208,31 @@ function normalizeText(value) {
       .replace(/[ \t]+/g, " ")
   );
 }
+
 /*
  * ==========================================================================
  * Markdown body cleanup
  * ==========================================================================
  */
 function normalizeMarkdown(value) {
-  return value
-    .replace(/&nbsp;/gi, " ")
-    .replace(/&amp;/gi, "&")
-    .replace(/&lt;/gi, "<")
-    .replace(/&gt;/gi, ">")
-    .replace(/&quot;/gi, '"')
-    .replace(/&#39;/gi, "'")
-    .replace(/&#x27;/gi, "'")
-    .replace(/&#x2F;/gi, "/")
-    .replace(
-      /^\s*<!doctype\s+html>\s*/i,
-      ""
-    )
-    .replace(
-      /^[ \t]*#{1,6}[ \t]*$/gm,
-      ""
-    )
-    .replace(
-      /^[ \t]+$/gm,
-      ""
-    )
-    .replace(
-      /\n[ \t]*\n[ \t]*\n[ \t]*\n+/g,
-      "\n\n"
-    )
-    .trim() + "\n";
+  return (
+    value
+      .replace(/&nbsp;/gi, " ")
+      .replace(/&amp;/gi, "&")
+      .replace(/&lt;/gi, "<")
+      .replace(/&gt;/gi, ">")
+      .replace(/&quot;/gi, '"')
+      .replace(/&#39;/gi, "'")
+      .replace(/&#x27;/gi, "'")
+      .replace(/&#x2F;/gi, "/")
+      .replace(/^\s*<!doctype\s+html>\s*/i, "")
+      .replace(/^[ \t]*#{1,6}[ \t]*$/gm, "")
+      .replace(/^[ \t]+$/gm, "")
+      .replace(/\n[ \t]*\n[ \t]*\n[ \t]*\n+/g, "\n\n")
+      .trim() + "\n"
+  );
 }
+
 /*
  * ==========================================================================
  * Markdown converter
@@ -177,218 +242,136 @@ class MarkdownConverter {
   constructor(baseURL) {
     this.baseURL = baseURL;
   }
+
   element(element) {
     const tag = element.tagName.toLowerCase();
+
     if (
       [
-        "head",
-        "script",
-        "style",
-        "noscript",
-        "template",
-        "svg",
-        "canvas",
-        "iframe",
-        "form",
-        "header",
-        "footer",
-        "aside",
+        "head", "script", "style", "noscript", "template", "svg",
+        "canvas", "iframe", "form", "header", "footer", "aside",
       ].includes(tag)
     ) {
       element.remove();
       return;
     }
+
     if (
       [
-        "html",
-        "body",
-        "main",
-        "article",
-        "section",
-        "div",
-        "figure",
-        "figcaption",
-        "span",
-        "nav",
+        "html", "body", "main", "article", "section", "div",
+        "figure", "figcaption", "span", "nav",
       ].includes(tag)
     ) {
       element.removeAndKeepContent();
       return;
     }
+
     if (/^h[1-6]$/.test(tag)) {
       const level = Number(tag.substring(1));
-      element.prepend(
-        `${"#".repeat(level)} `,
-        { html: false }
-      );
+      element.prepend(`${"#".repeat(level)} `, { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "\n\n",
-          { html: false }
-        );
+        endTag.before("\n\n", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "p") {
       element.onEndTag((endTag) => {
-        endTag.before(
-          "\n\n",
-          { html: false }
-        );
+        endTag.before("\n\n", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "br") {
-      element.replace(
-        "\n",
-        { html: false }
-      );
+      element.replace("\n", { html: false });
       return;
     }
+
     if (tag === "hr") {
-      element.replace(
-        "\n\n---\n\n",
-        { html: false }
-      );
+      element.replace("\n\n---\n\n", { html: false });
       return;
     }
+
     if (tag === "strong" || tag === "b") {
-      element.prepend(
-        "**",
-        { html: false }
-      );
+      element.prepend("**", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "**",
-          { html: false }
-        );
+        endTag.before("**", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "em" || tag === "i") {
-      element.prepend(
-        "*",
-        { html: false }
-      );
+      element.prepend("*", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "*",
-          { html: false }
-        );
+        endTag.before("*", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "code") {
-      element.prepend(
-        "`",
-        { html: false }
-      );
+      element.prepend("`", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "`",
-          { html: false }
-        );
+        endTag.before("`", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "pre") {
-      element.prepend(
-        "\n\n```\n",
-        { html: false }
-      );
+      element.prepend("\n\n```\n", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "\n```\n\n",
-          { html: false }
-        );
+        endTag.before("\n```\n\n", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "blockquote") {
-      element.prepend(
-        "\n\n> ",
-        { html: false }
-      );
+      element.prepend("\n\n> ", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "\n\n",
-          { html: false }
-        );
+        endTag.before("\n\n", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
-    if (tag === "ul") {
-      element.prepend(
-        "\n",
-        { html: false }
-      );
+
+    if (tag === "ul" || tag === "ol") {
+      element.prepend("\n", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "\n",
-          { html: false }
-        );
+        endTag.before("\n", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
-    if (tag === "ol") {
-      element.prepend(
-        "\n",
-        { html: false }
-      );
-      element.onEndTag((endTag) => {
-        endTag.before(
-          "\n",
-          { html: false }
-        );
-      });
-      element.removeAndKeepContent();
-      return;
-    }
+
     if (tag === "li") {
-      element.prepend(
-        "- ",
-        { html: false }
-      );
+      element.prepend("- ", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          "\n",
-          { html: false }
-        );
+        endTag.before("\n", { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "a") {
       const href = element.getAttribute("href");
       if (!href) {
         element.removeAndKeepContent();
         return;
       }
-      const absolute = absoluteURL(
-        href,
-        this.baseURL
-      );
-      element.prepend(
-        "[",
-        { html: false }
-      );
+      const absolute = absoluteURL(href, this.baseURL);
+      element.prepend("[", { html: false });
       element.onEndTag((endTag) => {
-        endTag.before(
-          `](${absolute})`,
-          { html: false }
-        );
+        endTag.before(`](${absolute})`, { html: false });
       });
       element.removeAndKeepContent();
       return;
     }
+
     if (tag === "img") {
       const src = element.getAttribute("src");
       const alt = element.getAttribute("alt") || "";
@@ -396,40 +379,28 @@ class MarkdownConverter {
         element.remove();
         return;
       }
-      const absolute = absoluteURL(
-        src,
-        this.baseURL
-      );
-      element.replace(
-        `![${decodeHTMLEntities(alt)}](${absolute})`,
-        { html: false }
-      );
+      const absolute = absoluteURL(src, this.baseURL);
+      element.replace(`![${decodeHTMLEntities(alt)}](${absolute})`, {
+        html: false,
+      });
       return;
     }
+
     if (
-      [
-        "table",
-        "thead",
-        "tbody",
-        "tfoot",
-        "tr",
-        "th",
-        "td",
-      ].includes(tag)
+      ["table", "thead", "tbody", "tfoot", "tr", "th", "td"].includes(tag)
     ) {
       if (tag === "tr") {
         element.onEndTag((endTag) => {
-          endTag.before(
-            "\n",
-            { html: false }
-          );
+          endTag.before("\n", { html: false });
         });
       }
       element.removeAndKeepContent();
       return;
     }
+
     element.removeAndKeepContent();
   }
+
   text(text) {
     if (text.removed) {
       return;
@@ -438,12 +409,10 @@ class MarkdownConverter {
     if (!value) {
       return;
     }
-    text.replace(
-      value,
-      { html: false }
-    );
+    text.replace(value, { html: false });
   }
 }
+
 /*
  * ==========================================================================
  * Markdown response headers
@@ -451,128 +420,90 @@ class MarkdownConverter {
  */
 function updateHeaders(originHeaders) {
   const headers = new Headers(originHeaders);
-  headers.set(
-    "Content-Type",
-    "text/markdown; charset=utf-8"
-  );
+  headers.set("Content-Type", "text/markdown; charset=utf-8");
   /*
-   * Static site — markdown content only changes on deployment.
+   * Static site: markdown content only changes on deployment.
    * Browser revalidates after 5 min, edge caches for 24 hours.
    */
-  headers.set(
-    "Cache-Control",
-    "public, max-age=300, s-maxage=86400"
-  );
+  headers.set("Cache-Control", "public, max-age=300, s-maxage=86400");
   const vary = headers.get("Vary");
   if (vary) {
     const values = vary
       .split(",")
       .map((value) => value.trim())
       .filter(Boolean);
-    if (
-      !values.some(
-        (value) =>
-          value.toLowerCase() === "accept"
-      )
-    ) {
+    if (!values.some((value) => value.toLowerCase() === "accept")) {
       values.push("Accept");
     }
-    headers.set(
-      "Vary",
-      values.join(", ")
-    );
+    headers.set("Vary", values.join(", "));
   } else {
-    headers.set(
-      "Vary",
-      "Accept"
-    );
+    headers.set("Vary", "Accept");
   }
   headers.delete("Content-Length");
   headers.delete("Content-Encoding");
   headers.delete("ETag");
   headers.delete("Last-Modified");
-  headers.set(
-    "X-Markdown-Content-Negotiation",
-    "text/markdown"
-  );
-  headers.set(
-    "X-Markdown-Source",
-    "Cloudflare-Worker"
-  );
+  headers.set("X-Markdown-Content-Negotiation", "text/markdown");
+  headers.set("X-Markdown-Source", "Cloudflare-Worker");
   return headers;
 }
+
 /*
  * ==========================================================================
  * Asset resilience: cache + stale fallback
  * ==========================================================================
  */
-/*
- * Edge cache TTL for successful responses (24 hours).
- * Static site content only changes on deployment.
- */
+
+/* Edge cache TTL for successful responses (24 hours). */
 const CACHE_TTL_SECONDS = 86400;
+
 /*
- * Shorter TTL for 404 responses (5 minutes).
- * Prevents repeated ASSETS.fetch calls for scanner probes
- * while still allowing new pages to be discovered quickly.
+ * Shorter TTL for 404 responses (5 minutes). Prevents repeated ASSETS.fetch
+ * calls for scanner probes while still allowing new pages to be discovered.
  */
 const CACHE_404_TTL_SECONDS = 300;
+
+/* Static asset extensions that benefit from long browser caching. */
+const STATIC_ASSET_PATTERN =
+  /\.(css|js|mjs|woff2?|ttf|eot|otf|svg|png|jpe?g|gif|ico|webmanifest|webp|avif|map)$/i;
+
 /*
- * Static asset file extensions that benefit from long browser caching.
- * Filenames should include a hash/version for cache busting.
- */
-const STATIC_ASSET_PATTERN = /\.(css|js|mjs|woff2?|ttf|eot|otf|svg|png|jpe?g|gif|ico|webmanifest|webp|avif|map)$/i;
-/*
- * Set client-facing Cache-Control headers so browsers and shared caches
- * can cache responses.  The original static files may carry
- * "no-cache, no-store, must-revalidate" which prevents all browser caching
- * and causes every page load to round-trip through the Worker.
+ * Set client-facing Cache-Control headers so browsers and shared caches can
+ * cache responses. The original static files may carry
+ * "no-cache, no-store, must-revalidate", which would force every page load
+ * through the Worker.
  */
 function setClientCacheHeaders(response, url) {
   const status = response.status;
-  /*
-   * Don't touch responses with Set-Cookie (security) or 5xx (errors).
-   */
+
+  /* Don't touch 5xx errors or responses with Set-Cookie. */
   if (status >= 500) {
     return response;
   }
   if (response.headers.get("Set-Cookie")) {
     return response;
   }
+
   const headers = new Headers(response.headers);
+
   if (status === 404) {
-    /*
-     * 404s: cache for 1 minute so scanner bursts don't hammer the ASSETS binding.
-     */
-    headers.set(
-      "Cache-Control",
-      "public, max-age=60"
-    );
+    /* 404s: cache for 1 minute so scanner bursts don't hammer ASSETS. */
+    headers.set("Cache-Control", "public, max-age=60");
   } else if (STATIC_ASSET_PATTERN.test(url.pathname)) {
-    /*
-     * Static assets (CSS, JS, fonts, images): 30 days, immutable.
-     * Requires filename hashing/versioning for cache busting on deploy.
-     */
-    headers.set(
-      "Cache-Control",
-      "public, max-age=2592000, immutable"
-    );
+    /* Static assets: 30 days, immutable (needs versioned filenames). */
+    headers.set("Cache-Control", "public, max-age=2592000, immutable");
   } else if (status >= 200 && status < 400) {
-    /*
-     * HTML pages: browser revalidates after 5 min, edge caches for 24 hours.
-     * This is safe because the site is static — content only changes on deploy.
-     */
-    headers.set(
-      "Cache-Control",
-      "public, max-age=300, s-maxage=86400"
-    );
+    /* HTML pages: browser revalidates after 5 min, edge caches 24 hours. */
+    headers.set("Cache-Control", "public, max-age=300, s-maxage=86400");
   }
+
   return new Response(response.body, {
     status: response.status,
     statusText: response.statusText,
     headers,
   });
 }
+
 async function cachePut(url, response) {
   try {
     const key = new Request(url, { method: "GET" });
@@ -581,25 +512,16 @@ async function cachePut(url, response) {
       statusText: response.statusText,
       headers: response.headers,
     });
-    /*
-     * Use a shorter TTL for 404 cached entries to avoid
-     * serving stale "page not found" after a new deploy.
-     */
+    /* Shorter TTL for cached 404s so a new deploy is picked up quickly. */
     const ttl =
-      response.status === 404
-        ? CACHE_404_TTL_SECONDS
-        : CACHE_TTL_SECONDS;
-    cached.headers.set(
-      "Cache-Control",
-      `public, max-age=${ttl}`
-    );
+      response.status === 404 ? CACHE_404_TTL_SECONDS : CACHE_TTL_SECONDS;
+    cached.headers.set("Cache-Control", `public, max-age=${ttl}`);
     await caches.default.put(key, cached);
   } catch (err) {
-    /*
-     * Cache write failures must never break the request.
-     */
+    /* Cache write failures must never break the request. */
   }
 }
+
 async function cacheGet(url) {
   try {
     const key = new Request(url, { method: "GET" });
@@ -608,25 +530,24 @@ async function cacheGet(url) {
     return null;
   }
 }
+
 function staleFromCache(cached, forHead) {
   const headers = new Headers(cached.headers);
   headers.set("Warning", '110 - "Response is stale"');
   headers.set("X-Origin-Fallback", "stale-cache");
-  return new Response(
-    forHead ? null : cached.body,
-    {
-      status: cached.status,
-      statusText: cached.statusText,
-      headers,
-    }
-  );
+  return new Response(forHead ? null : cached.body, {
+    status: cached.status,
+    statusText: cached.statusText,
+    headers,
+  });
 }
+
 /*
  * Fetch with resilience:
- * - Successful responses get proper Cache-Control headers for browser caching.
- * - Successful responses are cached (GET only, 24-hour TTL for 200s, 5-min for 404s).
+ * - Successful responses get proper Cache-Control headers.
+ * - GET responses are cached (24h for 200s, 5 min for 404s).
  * - If ASSETS.fetch throws or returns 5xx, serve the cached copy.
- * - If there is no cache, return a graceful 503 instead of an error.
+ * - If there is no cache, return a graceful 503.
  */
 async function fetchWithFallback(request, ctx, env) {
   const isGet = request.method === "GET";
@@ -636,38 +557,32 @@ async function fetchWithFallback(request, ctx, env) {
   } catch (err) {
     response = null;
   }
+
   if (response && response.status < 500) {
     if (isGet) {
-      /*
-       * Override the client-facing Cache-Control header so browsers
-       * and shared caches can cache the response.  The original static
-       * files may carry "no-cache, no-store" which prevents all caching.
-       */
       response = setClientCacheHeaders(response, new URL(request.url));
       const clone = response.clone();
       ctx.waitUntil(cachePut(request.url, clone));
     }
     return response;
   }
-  /*
-   * Assets fetch failed or returned 5xx — fall back to cache.
-   */
+
+  /* Assets fetch failed or returned 5xx: fall back to cache. */
   const cached = await cacheGet(request.url);
   if (cached) {
     return staleFromCache(cached, request.method === "HEAD");
   }
-  return new Response(
-    "Site temporarily unavailable. Please retry shortly.",
-    {
-      status: 503,
-      headers: {
-        "Retry-After": "60",
-        "Cache-Control": "no-store",
-        "Content-Type": "text/plain; charset=utf-8",
-      },
-    }
-  );
+
+  return new Response("Site temporarily unavailable. Please retry shortly.", {
+    status: 503,
+    headers: {
+      "Retry-After": "60",
+      "Cache-Control": "no-store",
+      "Content-Type": "text/plain; charset=utf-8",
+    },
+  });
 }
+
 /*
  * ==========================================================================
  * Worker
@@ -676,9 +591,9 @@ async function fetchWithFallback(request, ctx, env) {
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
     /*
      * Legacy canonical redirects (was: .htaccess "GSC-FIX" block).
-     * Use explicit Cache-Control so browsers cache the redirect.
      */
     if (LEGACY_REDIRECTS[url.pathname]) {
       const target = new URL(LEGACY_REDIRECTS[url.pathname], url);
@@ -690,11 +605,23 @@ export default {
         },
       });
     }
+
+    /*
+     * Old URLs that were renamed or removed (GET/HEAD only).
+     * Skipped automatically if the target page does not exist.
+     */
+    if (request.method === "GET" || request.method === "HEAD") {
+      const legacy = await legacyRedirect(url, env);
+      if (legacy) {
+        return legacy;
+      }
+    }
+
     /*
      * Trailing-slash redirects are handled by the assets system
      * (html_handling = "drop-trailing-slash" in wrangler.toml).
-     * The Worker no longer needs to do this manually.
      */
+
     /*
      * Explicit fast path for /amp: resolve straight to amp/index.html
      * in a single ASSETS.fetch() call.
@@ -702,53 +629,35 @@ export default {
     if (url.pathname === "/amp") {
       const assetUrl = new URL(request.url);
       assetUrl.pathname = "/amp/index.html";
-      const response = await fetchWithFallback(
-        new Request(assetUrl, request),
-        ctx,
-        env
-      );
-      return response;
+      return fetchWithFallback(new Request(assetUrl, request), ctx, env);
     }
-    /*
-     * Only GET and HEAD are handled specially.
-     */
-    if (
-      request.method !== "GET" &&
-      request.method !== "HEAD"
-    ) {
-      const response = await fetchWithFallback(request, ctx, env);
-      return response;
+
+    /* Only GET and HEAD are handled specially. */
+    if (request.method !== "GET" && request.method !== "HEAD") {
+      return fetchWithFallback(request, ctx, env);
     }
-    /*
-     * Normal HTML request or excluded resource.
-     */
-    if (
-      !wantsMarkdown(request) ||
-      !shouldConvert(url)
-    ) {
-      const response = await fetchWithFallback(request, ctx, env);
-      return response;
+
+    /* Normal HTML request or excluded resource. */
+    if (!wantsMarkdown(request) || !shouldConvert(url)) {
+      return fetchWithFallback(request, ctx, env);
     }
+
     /*
      * Request HTML from assets even though the client requested Markdown.
      */
     const assetHeaders = new Headers(request.headers);
     assetHeaders.set("Accept", "text/html,application/xhtml+xml");
-    const assetRequest = new Request(request, {
-      headers: assetHeaders,
-    });
+    const assetRequest = new Request(request, { headers: assetHeaders });
     const assetResponse = await fetchWithFallback(assetRequest, ctx, env);
-    const contentType =
-      assetResponse.headers.get("Content-Type") || "";
-    /*
-     * Do not convert non-HTML responses.
-     */
+
+    const contentType = assetResponse.headers.get("Content-Type") || "";
+
+    /* Do not convert non-HTML responses. */
     if (!contentType.toLowerCase().includes("text/html")) {
       return assetResponse;
     }
-    /*
-     * HEAD has no body to transform.
-     */
+
+    /* HEAD has no body to transform. */
     if (request.method === "HEAD") {
       const headers = updateHeaders(assetResponse.headers);
       return new Response(null, {
@@ -757,9 +666,8 @@ export default {
         headers,
       });
     }
-    /*
-     * HTML -> Markdown transformation.
-     */
+
+    /* HTML -> Markdown transformation. */
     const converter = new MarkdownConverter(url.href);
     const transformed = new HTMLRewriter()
       .onDocument({
@@ -769,12 +677,12 @@ export default {
       })
       .on("*", converter)
       .transform(assetResponse);
-    /*
-     * Read the transformed stream completely.
-     */
+
+    /* Read the transformed stream completely. */
     const transformedText = await new Response(transformed.body).text();
     const markdown = normalizeMarkdown(transformedText);
     const headers = updateHeaders(transformed.headers);
+
     return new Response(markdown, {
       status: transformed.status,
       statusText: transformed.statusText,
@@ -782,4 +690,3 @@ export default {
     });
   },
 };
-
