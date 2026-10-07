@@ -75,7 +75,9 @@ const LEGACY_REDIRECTS = {
 
 function legacyTarget(url) {
   const path = url.pathname.replace(/\/+$/, "") || "/";
-  let target = OLD_PAGES[path];
+  let target = Object.prototype.hasOwnProperty.call(OLD_PAGES, path)
+    ? OLD_PAGES[path]
+    : null;
   if (!target) {
     let m = path.match(/^\/(?:client-support|linux-ai-services)\/([^/]+)$/);
     if (m && Object.prototype.hasOwnProperty.call(SERVICE_MAP, m[1])) {
@@ -489,12 +491,17 @@ function setClientCacheHeaders(response, url) {
   if (status === 404) {
     /* 404s: cache for 1 minute so scanner bursts don't hammer ASSETS. */
     headers.set("Cache-Control", "public, max-age=60");
-  } else if (STATIC_ASSET_PATTERN.test(url.pathname)) {
-    /* Static assets: 30 days, immutable (needs versioned filenames). */
-    headers.set("Cache-Control", "public, max-age=2592000, immutable");
-  } else if (status >= 200 && status < 400) {
-    /* HTML pages: browser revalidates after 5 min, edge caches 24 hours. */
-    headers.set("Cache-Control", "public, max-age=300, s-maxage=86400");
+  } else if (status >= 200 && status < 300) {
+    if (STATIC_ASSET_PATTERN.test(url.pathname)) {
+      /* Static assets: 30 days, immutable (needs versioned filenames). */
+      headers.set("Cache-Control", "public, max-age=2592000, immutable");
+    } else {
+      /* HTML pages: browser revalidates after 5 min, edge caches 24 hours. */
+      headers.set("Cache-Control", "public, max-age=300, s-maxage=86400");
+    }
+  } else {
+    /* 3xx and other statuses: leave the origin headers untouched. */
+    return response;
   }
 
   return new Response(response.body, {
@@ -506,6 +513,10 @@ function setClientCacheHeaders(response, url) {
 
 async function cachePut(url, response) {
   try {
+    /* Only cache 200 and 404. Never cache redirects or other statuses. */
+    if (response.status !== 200 && response.status !== 404) {
+      return;
+    }
     const key = new Request(url, { method: "GET" });
     const cached = new Response(response.body, {
       status: response.status,
@@ -587,40 +598,58 @@ async function fetchWithFallback(request, ctx, env) {
  * ==========================================================================
  * Worker
  * ==========================================================================
+ * Requires run_worker_first = true in wrangler.toml [assets], otherwise
+ * requests matching a static asset never reach this code.
  */
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+    const isRead = request.method === "GET" || request.method === "HEAD";
+
+    /* Path without trailing slashes ("/" stays "/"). */
+    const cleanPath = url.pathname.replace(/\/+$/, "") || "/";
 
     /*
      * Legacy canonical redirects (was: .htaccess "GSC-FIX" block).
+     * Matches with or without a trailing slash so it is always ONE hop.
      */
-    if (LEGACY_REDIRECTS[url.pathname]) {
-      const target = new URL(LEGACY_REDIRECTS[url.pathname], url);
+    if (
+      Object.prototype.hasOwnProperty.call(LEGACY_REDIRECTS, cleanPath)
+    ) {
       return new Response(null, {
         status: 301,
         headers: {
-          Location: target.toString(),
+          Location: url.origin + LEGACY_REDIRECTS[cleanPath] + url.search,
           "Cache-Control": "public, max-age=86400",
         },
       });
     }
 
-    /*
-     * Old URLs that were renamed or removed (GET/HEAD only).
-     * Skipped automatically if the target page does not exist.
-     */
-    if (request.method === "GET" || request.method === "HEAD") {
+    if (isRead) {
+      /*
+       * Old URLs that were renamed or removed (GET/HEAD only).
+       * Skipped automatically if the target page does not exist.
+       * Also matches with a trailing slash, so it is ONE hop.
+       */
       const legacy = await legacyRedirect(url, env);
       if (legacy) {
         return legacy;
       }
-    }
 
-    /*
-     * Trailing-slash redirects are handled by the assets system
-     * (html_handling = "drop-trailing-slash" in wrangler.toml).
-     */
+      /*
+       * Canonical slash policy: /path/ -> /path as a permanent 301.
+       * Runs in the Worker so the assets layer's 307 is never reached.
+       */
+      if (url.pathname !== "/" && url.pathname.endsWith("/")) {
+        return new Response(null, {
+          status: 301,
+          headers: {
+            Location: url.origin + cleanPath + url.search,
+            "Cache-Control": "public, max-age=3600",
+          },
+        });
+      }
+    }
 
     /*
      * Explicit fast path for /amp: resolve straight to amp/index.html
@@ -633,7 +662,7 @@ export default {
     }
 
     /* Only GET and HEAD are handled specially. */
-    if (request.method !== "GET" && request.method !== "HEAD") {
+    if (!isRead) {
       return fetchWithFallback(request, ctx, env);
     }
 
