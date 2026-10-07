@@ -4,6 +4,7 @@
 .github/**
 .gitignore
 .gitlab-ci.yml
+.assetsignore
 wrangler.toml
 package.json
 package-lock.json
