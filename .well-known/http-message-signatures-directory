@@ -1,13 +1,10 @@
 {
   "keys": [
     {
-      "kid": "dovNfXcnUcqQ5jQCfhNpiRR-YwYm1eaPbUVC4aZAKD4",
-      "jwk": {
-        "kty": "OKP",
-        "crv": "Ed25519",
-        "alg": "EdDSA",
-        "x": "tk4771iNppz8Pt4h8czhmmo2AVChVSgavwQJ5TGHKWI"
-      }
+      "kty": "OKP",
+      "crv": "Ed25519",
+      "x": "cnO08h15LorjYt5Ldj7FUe0GXNKDV6BZBmeL20kNiY8",
+      "kid": "o2kdVTHqmsNg46uEbCkXtvnYuz0-FhuR6wBKNxegdH0"
     }
   ]
 }
