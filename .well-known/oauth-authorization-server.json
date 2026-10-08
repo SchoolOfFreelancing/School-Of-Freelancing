@@ -15,9 +15,11 @@
     "identity_types_supported": ["identity_assertion"],
     "identity_assertion": {
       "assertion_types_supported": ["verified_email"],
+      "credential_types_supported": ["access_token"],
       "claim_uri": "https://schooloffreelancing.com/api/oauth/token"
     },
     "credential_types_supported": ["access_token"],
+    "claim_uri": "https://schooloffreelancing.com/api/oauth/token",
     "revocation_uri": "https://schooloffreelancing.com/api/oauth/revoke",
     "events_supported": ["revocation"]
   }

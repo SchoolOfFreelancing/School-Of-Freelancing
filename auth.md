@@ -21,9 +21,9 @@ School of Freelancing supports two independent registration methods. Use whichev
 
 This is a browser-side WebMCP tool that fills in the payment-confirmation form on the registration page. The human user must review the filled form and explicitly press Send in WhatsApp. Nothing is submitted automatically by the agent.
 
-- Tool manifest: `https://schooloffreelancing.com/.well-known/agent-skills.json`
-- Tool implementation: `https://schooloffreelancing.com/assets/js/tools.js`
-- Registration page: `https://schooloffreelancing.com/register/`
+- Tool manifest: https://schooloffreelancing.com/.well-known/agent-skills.json
+- Tool implementation: https://schooloffreelancing.com/assets/js/tools.js
+- Registration page: https://schooloffreelancing.com/register/
 
 ### Supported Tools
 
@@ -40,15 +40,15 @@ School of Freelancing provides an OAuth 2.0 authorization-code flow for agents t
 
 ### OAuth Discovery
 
-- Authorization server metadata: `https://schooloffreelancing.com/.well-known/oauth-authorization-server`
-- Protected resource metadata: `https://schooloffreelancing.com/.well-known/oauth-protected-resource/mcp`
+- Authorization server metadata: https://schooloffreelancing.com/.well-known/oauth-authorization-server
+- Protected resource metadata: https://schooloffreelancing.com/.well-known/oauth-protected-resource
 
 ### OAuth Endpoints
 
-- Authorization endpoint: `https://schooloffreelancing.com/api/oauth/authorize`
-- Token endpoint: `https://schooloffreelancing.com/api/oauth/token`
-- Revocation endpoint: `https://schooloffreelancing.com/api/oauth/revoke`
-- Userinfo endpoint: `https://schooloffreelancing.com/api/oauth/userinfo`
+- Authorization endpoint: https://schooloffreelancing.com/api/oauth/authorize
+- Token endpoint: https://schooloffreelancing.com/api/oauth/token
+- Revocation endpoint: https://schooloffreelancing.com/api/oauth/revoke
+- Userinfo endpoint: https://schooloffreelancing.com/api/oauth/userinfo
 
 ### OAuth Parameters
 
@@ -71,7 +71,7 @@ School of Freelancing provides an OAuth 2.0 authorization-code flow for agents t
 
 Example protected resource:
 
-`https://agents.schooloffreelancing.com/mcp`
+https://agents.schooloffreelancing.com/mcp
 
 Agents must not request, store, or expose user passwords or Google credentials.
 
@@ -85,18 +85,18 @@ No client secret, API key, password, or long-lived agent credential is issued th
 
 Public catalog information is available without authentication:
 
-- `https://schooloffreelancing.com/llms.txt`
-- `https://schooloffreelancing.com/llms-full.txt`
+- https://schooloffreelancing.com/llms.txt
+- https://schooloffreelancing.com/llms-full.txt
 
 ## Protected Resource
 
 The MCP protected resource is:
 
-`https://agents.schooloffreelancing.com/mcp`
+https://agents.schooloffreelancing.com/mcp
 
 Protected-resource metadata:
 
-`https://schooloffreelancing.com/.well-known/oauth-protected-resource/mcp`
+https://schooloffreelancing.com/.well-known/oauth-protected-resource
 
 Agents accessing protected resources must send:
 
@@ -106,39 +106,39 @@ Agents accessing protected resources must send:
 
 ### Agent Skills
 
-`https://schooloffreelancing.com/.well-known/agent-skills.json`
+https://schooloffreelancing.com/.well-known/agent-skills.json
 
 ### Authentication
 
-`https://schooloffreelancing.com/auth.md`
+https://schooloffreelancing.com/auth.md
 
 ### OAuth Authorization Server
 
-`https://schooloffreelancing.com/.well-known/oauth-authorization-server`
+https://schooloffreelancing.com/.well-known/oauth-authorization-server
 
 ### OAuth Protected Resource
 
-`https://schooloffreelancing.com/.well-known/oauth-protected-resource/mcp`
+https://schooloffreelancing.com/.well-known/oauth-protected-resource
 
 ### Training Catalog
 
-`https://schooloffreelancing.com/freelancing-training/`
+https://schooloffreelancing.com/freelancing-training/
 
 ### Services Catalog
 
-`https://schooloffreelancing.com/linux-ai-services/`
+https://schooloffreelancing.com/linux-ai-services/
 
 ### LLM Content
 
-`https://schooloffreelancing.com/llms.txt`
+https://schooloffreelancing.com/llms.txt
 
-`https://schooloffreelancing.com/llms-full.txt`
+https://schooloffreelancing.com/llms-full.txt
 
 ## Agent Registration
 
 For human-confirmed registration, use:
 
-`https://schooloffreelancing.com/contact-us/`
+https://schooloffreelancing.com/contact-us/
 
 The supported registration method is:
 
@@ -164,4 +164,4 @@ Agents must obtain explicit user authorization before initiating an OAuth author
 
 This document is the canonical agent authentication and registration document for School of Freelancing:
 
-`https://schooloffreelancing.com/auth.md`
+https://schooloffreelancing.com/auth.md
