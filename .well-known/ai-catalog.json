@@ -1,0 +1,49 @@
+{
+  "specVersion": "1.0",
+  "host": {
+    "displayName": "School of Freelancing",
+    "identifier": "schooloffreelancing.com",
+    "documentationUrl": "https://schooloffreelancing.com/auth.md"
+  },
+  "entries": [
+    {
+      "identifier": "urn:air:schooloffreelancing.com:mcp:main",
+      "displayName": "School of Freelancing MCP Server",
+      "description": "OAuth-protected MCP server for freelancing training and support, and Linux/AI services.",
+      "type": "application/mcp+json",
+      "url": "https://agents.schooloffreelancing.com/mcp",
+      "representativeQueries": [
+        "search freelancing training programs",
+        "get support with freelancing",
+        "request a Linux or AI service",
+        "get my student account details"
+      ]
+    },
+    {
+      "identifier": "urn:air:schooloffreelancing.com:a2a:agent",
+      "displayName": "School of Freelancing Agent",
+      "description": "A2A agent card for freelancing training, support and Linux/AI services.",
+      "type": "application/json",
+      "url": "https://schooloffreelancing.com/.well-known/agent-card.json",
+      "representativeQueries": [
+        "freelancing training agent",
+        "help me start freelancing",
+        "get support with freelance pricing and proposals",
+        "request a Linux or AI service"
+      ]
+    },
+    {
+      "identifier": "urn:air:schooloffreelancing.com:skills:webmcp",
+      "displayName": "School of Freelancing Registration Tools",
+      "description": "WebMCP tools to list training and service options and fill the human-confirmed registration payment form.",
+      "type": "application/json",
+      "url": "https://schooloffreelancing.com/.well-known/agent-skills.json",
+      "representativeQueries": [
+        "enroll in a freelancing training program",
+        "list available freelancing trainings and services",
+        "confirm my registration payment",
+        "register for an IT or AI service"
+      ]
+    }
+  ]
+}
