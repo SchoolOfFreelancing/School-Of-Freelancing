@@ -4,6 +4,13 @@
   "description": "Freelancing training and support, plus Linux and AI services. Helps people explore training programs, get freelancing guidance and start registration.",
   "url": "https://agents.schooloffreelancing.com/a2a",
   "preferredTransport": "JSONRPC",
+  "supportedInterfaces": [
+    {
+      "url": "https://agents.schooloffreelancing.com/a2a",
+      "protocolBinding": "JSONRPC",
+      "protocolVersion": "1.0"
+    }
+  ],
   "version": "1.0.0",
   "provider": {
     "organization": "School of Freelancing",

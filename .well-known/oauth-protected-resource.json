@@ -1,5 +1,5 @@
 {
-  "resource": "https://agents.schooloffreelancing.com/mcp",
+  "resource": "https://schooloffreelancing.com",
   "authorization_servers": ["https://schooloffreelancing.com"],
   "scopes_supported": ["openid", "email"],
   "bearer_methods_supported": ["header"],
