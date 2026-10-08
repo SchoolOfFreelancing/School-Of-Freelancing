@@ -1,7 +1,8 @@
 {
-  "resource": "https://schooloffreelancing.com",
-  "authorization_servers": ["https://schooloffreelancing.com"],
-  "scopes_supported": ["read", "write"],
+  "resource": "https://api.service.schooloffreelancing.com/",
+  "resource_name": "Service",
+  "resource_logo_uri": "https://service.schooloffreelancing.com/logo.jpg",
+  "authorization_servers": ["https://auth.service.example.com/"],
+  "scopes_supported": ["api.read", "api.write"],
   "bearer_methods_supported": ["header"]
 }
-
