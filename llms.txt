@@ -1,6 +1,6 @@
 # School of Freelancing
 
-> Bangladesh-based Linux and AI freelancing training platform teaching production-ready, hands-on skills for real freelance clients.
+> School Of Freelancing is a Bangladesh-based platform, founded in 2015 by Karim (Masum), that teaches Linux and AI freelancing through live, instructor-led training. It also provides professional technical support to freelancers, startups, and businesses worldwide. The site is hosted on Cloudflare and is Agent Ready.
 
 ## Main Pages
 - [Freelancing Training — Global Client Support](https://schooloffreelancing.com/): Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide.
