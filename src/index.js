@@ -251,7 +251,7 @@ class MarkdownConverter {
     if (
       [
         "head", "script", "style", "noscript", "template", "svg",
-        "canvas", "iframe", "form", "header", "footer", "aside",
+        "canvas", "iframe", "form", "footer", "aside",
       ].includes(tag)
     ) {
       element.remove();
@@ -696,7 +696,8 @@ export default {
       });
     }
 
-    /* HTML -> Markdown transformation. */
+    /* HTML -> Markdown transformation. Preserve semantic header content so the
+     * hero H1 and introductory answer remain available to Markdown clients. */
     const converter = new MarkdownConverter(url.href);
     const transformed = new HTMLRewriter()
       .onDocument({
