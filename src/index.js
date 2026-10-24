@@ -154,8 +154,13 @@ function shouldConvert(url) {
   if (url.pathname === "/amp" || url.pathname.startsWith("/amp/")) {
     return false;
   }
-  const excludedPaths = ["/.well-known/", "/api/", "/assets/", "/cdn-cgi/"];
-  if (excludedPaths.some((path) => url.pathname.startsWith(path))) {
+  // Exclude both exact base paths and all their descendants.
+  const excludedPaths = ["/.well-known", "/api", "/assets", "/cdn-cgi"];
+  if (
+    excludedPaths.some(
+      (path) => url.pathname === path || url.pathname.startsWith(path + "/")
+    )
+  ) {
     return false;
   }
   const extensionMatch = url.pathname.match(/\.([a-z0-9]+)$/i);
@@ -230,7 +235,10 @@ function normalizeMarkdown(value) {
       .replace(/^\s*<!doctype\s+html>\s*/i, "")
       .replace(/^[ \t]*#{1,6}[ \t]*$/gm, "")
       .replace(/^[ \t]+$/gm, "")
-      .replace(/\n[ \t]*\n[ \t]*\n[ \t]*\n+/g, "\n\n")
+      // Separate Markdown images from immediately following headings.
+      .replace(/(!\[[^\]]*\]\([^\)\n]*\))(?=#{1,6}[ \t])/g, "$1\n\n")
+      // Collapse runs of three or more blank lines to one blank line.
+      .replace(/\n[ \t]*\n(?:[ \t]*\n)+/g, "\n\n")
       .trim() + "\n"
   );
 }
@@ -614,15 +622,20 @@ export default {
      * Matches with or without a trailing slash so it is always ONE hop.
      */
     if (
-      Object.prototype.hasOwnProperty.call(LEGACY_REDIRECTS, cleanPath)
+      Object.prototype.hasOwnProperty.call(LEGACY_REDIRECTS, cleanPath) &&
+      isRead
     ) {
-      return new Response(null, {
-        status: 301,
-        headers: {
-          Location: url.origin + LEGACY_REDIRECTS[cleanPath] + url.search,
-          "Cache-Control": "public, max-age=86400",
-        },
-      });
+      const target = LEGACY_REDIRECTS[cleanPath];
+      // Do not create a redirect to a destination that is missing from ASSETS.
+      if (await targetExists(url, target, env)) {
+        return new Response(null, {
+          status: 301,
+          headers: {
+            Location: url.origin + target + url.search,
+            "Cache-Control": "public, max-age=86400",
+          },
+        });
+      }
     }
 
     if (isRead) {
