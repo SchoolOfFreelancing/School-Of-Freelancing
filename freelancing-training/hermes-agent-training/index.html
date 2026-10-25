@@ -11,13 +11,17 @@
 <link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-chrome-192x192.png">
 <link rel="manifest" href="/site.webmanifest">
 
-<title>Hermes Agent — Open-Source Freelancing Training</title>
-<meta name="description" content="Learn to deploy Hermes Agent through hands-on freelancing training. Build client-ready services, showcase projects, and win global contracts.">
+<title>Hermes Agent Training | School Of Freelancing</title>
+<meta name="description" content="Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.">
 <meta name="author" content="School of Freelancing">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta name="theme-color" content="#0024ED">
 <meta name="apple-mobile-web-app-status-bar-style" content="default">
 <meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="mobile-web-app-capable" content="yes">
+<meta name="application-name" content="School Of Freelancing">
+<meta name="apple-mobile-web-app-title" content="School Of Freelancing">
+<meta name="color-scheme" content="dark">
 
 <link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/hermes-agent-training">
 <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/hermes-agent-training">
@@ -27,8 +31,8 @@
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="School Of Freelancing">
 <meta property="og:url" content="https://schooloffreelancing.com/freelancing-training/hermes-agent-training">
-<meta property="og:title" content="Hermes Agent — Open-Source Freelancing Training">
-<meta property="og:description" content="Learn to deploy Hermes Agent through hands-on freelancing training. Build client-ready services, showcase projects, and win global contracts.">
+<meta property="og:title" content="Hermes Agent Training | School Of Freelancing">
+<meta property="og:description" content="Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.">
 <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
@@ -38,9 +42,10 @@
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:site" content="@SchoolOfFreelan">
 <meta name="twitter:creator" content="@SchoolOfFreelan">
-<meta name="twitter:title" content="Hermes Agent — Open-Source Freelancing Training">
-<meta name="twitter:description" content="Learn to deploy Hermes Agent through hands-on freelancing training. Build client-ready services, showcase projects, and win global contracts.">
+<meta name="twitter:title" content="Hermes Agent Training | School Of Freelancing">
+<meta name="twitter:description" content="Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.">
 <meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
+<meta name="twitter:image:alt" content="Hermes Agent Freelancing Training">
 
 <meta name="google-site-verification" content="aKspFR5JYGO3cBf59rcq2-7hxuXZvtS-TAMndI17PBw">
 <meta name="msvalidate.01" content="C18D42C136729AADD540EB2FE7763E57">
@@ -143,7 +148,20 @@ input, textarea, select, button { color: initial; }
 }
 .breadcrumb-nav a { text-decoration: underline; }
 
+/* Larger Font Awesome icons */
+.logo-icon i,
+.nav-logo .fa-solid { font-size: 1.6rem !important; }
+.btn i,
+.btn .fa-brands { font-size: 1.5rem !important; vertical-align: -0.15em; margin-left: 6px; }
+.footer-social a { font-size: 1.5rem !important; line-height: 1; }
+.footer-social a i,
+.footer-social a svg { font-size: 1.5rem !important; width: 1em; height: 1em; }
+.footer-social { gap: 10px; }
+
 @media (max-width:700px) {
+  .footer-social a,
+  .footer-social a i,
+  .footer-social a svg { font-size: 1.75rem !important; }
   .page-hero { padding-top: 55px; }
   .detail-wrap { padding: 16px; }
   .spec-table { display: block; overflow-x: auto; }
@@ -169,6 +187,8 @@ input, textarea, select, button { color: initial; }
       "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training",
       "inLanguage": "en",
       "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
+      "breadcrumb": { "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#breadcrumb" },
+      "primaryImageOfPage": { "@type": "ImageObject", "url": "https://schooloffreelancing.com/assets/images/og-home.jpg", "width": 1200, "height": 630 },
       "mainEntity": { "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#course" }
     },
     {
@@ -222,7 +242,9 @@ input, textarea, select, button { color: initial; }
         "courseWorkload": "PT20H",
         "instructor": {
           "@type": "Person",
-          "name": "Karim (Masum)"
+          "name": "Karim (Masum)",
+          "url": "https://www.linkedin.com/in/anythinglinux/",
+          "sameAs": "https://www.linkedin.com/in/anythinglinux/"
         }
       },
       "offers": {
@@ -230,20 +252,41 @@ input, textarea, select, button { color: initial; }
         "price": "149",
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
+        "category": "Paid",
         "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training"
       },
-      "timeRequired": "PT20H"
+      "timeRequired": "PT20H",
+      "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training",
+      "teaches": [
+        "Hermes Agent deployment",
+        "Linux server hardening",
+        "Nginx and SSL setup",
+        "AI engine integration with Ollama and cloud LLM APIs",
+        "Telegram and Discord bot integrations",
+        "Freelance service packaging and marketplace proposals"
+      ],
+      "syllabusSections": [
+        { "@type": "Syllabus", "name": "Week One", "description": "Server and DNS foundations, Linux security hardening, web server setup, domain SSL security, and Hermes Agent installation." },
+        { "@type": "Syllabus", "name": "Week Two", "description": "AI engine integration, core features setup, daemonization, production hardening, and bot integrations." },
+        { "@type": "Syllabus", "name": "Week Three", "description": "Advanced automations, portfolio repository build, service packaging, Upwork profile setup, and freelancer marketplace profiles." },
+        { "@type": "Syllabus", "name": "Week Four", "description": "Content strategy, social lead generation, bidding and proposal strategy, client onboarding and delivery, and capstone review." }
+      ]
     },
     {
       "@type": "Organization",
       "@id": "https://schooloffreelancing.com/#organization",
       "name": "School of Freelancing",
       "url": "https://schooloffreelancing.com/",
+      "logo": { "@type": "ImageObject", "url": "https://schooloffreelancing.com/assets/icons/android-chrome-192x192.png", "width": 192, "height": 192 },
+      "founder": { "@type": "Person", "name": "Karim (Masum)", "url": "https://www.linkedin.com/in/anythinglinux/" },
+      "foundingDate": "2015",
       "sameAs": [
         "https://github.com/SchoolOfFreelancing",
+        "https://gitlab.com/AnythingLinux/school-of-freelancing",
+        "https://www.pinterest.com/schooloffreelancing/",
         "https://instagram.com/schooloffreelancing",
         "https://www.facebook.com/SchoolOfFreelancing",
-        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/company/SchoolOfFreelancing",
         "https://www.youtube.com/@SchoolOfFreelancing",
         "https://x.com/SchoolOfFreelan"
       ]
@@ -282,9 +325,9 @@ input, textarea, select, button { color: initial; }
       <nav aria-label="Breadcrumb" class="breadcrumb-nav">
         <a href="/">Home</a> /
         <a href="/freelancing-training">All Training</a> /
-        Hermes Agent Freelancing Training
+        <span aria-current="page">Hermes Agent Freelancing Training</span>
       </nav>
-      <h1 style="font-size:2rem;margin-bottom:16px;">Hermes Agent Freelancing Training</h1>
+      <h1 style="font-size:2rem;margin-bottom:16px;">Hermes Agent Training</h1>
     </div>
   </header>
 
@@ -293,14 +336,12 @@ input, textarea, select, button { color: initial; }
       <div class="card" style="margin-bottom:32px;">
         <h2 style="margin-bottom:12px;font-size:1.5rem;">Overview</h2>
         <p style="color:var(--text-secondary);line-height:1.7;margin:0;">
-          Learn production deployment of Hermes Agent and package your technical setup into freelance services.
-          Build practical skills for Linux server deployment, AI integrations, troubleshooting, client delivery,
-          and client acquisition through Upwork, Freelancer, Guru, LinkedIn, and YouTube.
+          Learn Hermes Agent deployment, Linux, and AI automation. Build freelance services, attract clients, and win projects through Upwork, Freelancer, Guru, LinkedIn, and YouTube. Enroll today and start your AI freelancing journey!
         </p>
       </div>
 
-      <h2>About Training</h2>
-      <table class="spec-table">
+      <h2 data-reveal style="font-size: 1.5rem; margin: 20px 0 2px;">About Training</h2>
+      <table class="spec-table" aria-label="About Hermes Agent Training">
         <thead>
           <tr><th scope="col">Aspect</th><th scope="col">Detail</th></tr>
         </thead>
@@ -319,7 +360,7 @@ input, textarea, select, button { color: initial; }
   <section class="section participation-section">
     <div class="container">
       <div class="detail-wrap" style="max-width:none;margin-bottom:0;">
-        <h2 style="margin:0 0 20px;">Participation Requirements</h2>
+<h2 data-reveal style="font-size: 1.5rem; margin: 20px 0 2px;">Participation Requirements</h2>
       </div>
 
       <div class="features-grid features-grid-3">
@@ -349,7 +390,7 @@ input, textarea, select, button { color: initial; }
 
       <div class="detail-wrap">
         <article class="card" style="margin-top:24px;">
-          <h2 style="margin-bottom:20px;">You'll Leave With</h2>
+<h2 data-reveal style="font-size: 1.5rem; margin: 20px 0 2px;">You'll Leave With</h2>
           <div class="features-grid features-grid-3">
             <div class="feature-card">
               <div class="feature-icon"><span class="feature-icon-num">1</span></div>
@@ -367,8 +408,8 @@ input, textarea, select, button { color: initial; }
         </article>
 
         <article class="card" style="margin-top:24px;">
-          <h2 style="text-align:center;">Training Modules</h2>
-          <table class="spec-table">
+<h2 data-reveal style="font-size: 1.5rem; text-align:center; margin: 20px 0 2px;">Training Modules</h2>
+          <table class="spec-table" aria-label="Hermes Agent Training Modules">
             <thead>
               <tr>
                 <th scope="col" style="width:10%;">Week</th>
@@ -378,25 +419,25 @@ input, textarea, select, button { color: initial; }
               </tr>
             </thead>
             <tbody>
-              <tr><td rowspan="5" style="text-align:center;"><strong>One</strong></td><td style="text-align:center;">1</td><td>Server &amp; DNS Foundations</td><td>DigitalOcean droplet setup, SSH keys, and domain DNS configuration.</td></tr>
+              <tr><th scope="rowgroup" rowspan="5" style="text-align:center;"><strong>One</strong></th><td style="text-align:center;">1</td><td>Server &amp; DNS Foundations</td><td>DigitalOcean droplet setup, SSH keys, and domain DNS configuration.</td></tr>
               <tr><td style="text-align:center;">2</td><td>Linux Security Hardening</td><td>Ubuntu server hardening, UFW firewall configuration, and user roles.</td></tr>
               <tr><td style="text-align:center;">3</td><td>Web Server Setup</td><td>Nginx reverse proxy installation and basic server block configuration.</td></tr>
               <tr><td style="text-align:center;">4</td><td>Domain SSL Security</td><td>Certbot / Let's Encrypt SSL setup, HTTPS enforcement, and live testing.</td></tr>
               <tr><td style="text-align:center;">5</td><td>Hermes Agent Installation</td><td>Source or Docker installation, environment configuration, and API key setup.</td></tr>
 
-              <tr><td rowspan="5" style="text-align:center;"><strong>Two</strong></td><td style="text-align:center;">6</td><td>AI Engine Integration</td><td>Connecting Hermes Agent to Ollama local models and cloud LLM APIs.</td></tr>
+              <tr><th scope="rowgroup" rowspan="5" style="text-align:center;"><strong>Two</strong></th><td style="text-align:center;">6</td><td>AI Engine Integration</td><td>Connecting Hermes Agent to Ollama local models and cloud LLM APIs.</td></tr>
               <tr><td style="text-align:center;">7</td><td>Core Features Setup</td><td>Configuring skills, persistent memory, and MCP server integrations.</td></tr>
               <tr><td style="text-align:center;">8</td><td>Daemonization</td><td>systemd service setup, process management, and auto-restart policies.</td></tr>
               <tr><td style="text-align:center;">9</td><td>Production Hardening</td><td>Fail2ban installation, automated backup scripts, and log management.</td></tr>
               <tr><td style="text-align:center;">10</td><td>Bot Integrations</td><td>Telegram and Discord bot connections, webhook configuration, and cron jobs.</td></tr>
 
-              <tr><td rowspan="5" style="text-align:center;"><strong>Three</strong></td><td style="text-align:center;">11</td><td>Advanced Automations</td><td>Building custom tools, workflow pipelines, and live agent testing.</td></tr>
+              <tr><th scope="rowgroup" rowspan="5" style="text-align:center;"><strong>Three</strong></th><td style="text-align:center;">11</td><td>Advanced Automations</td><td>Building custom tools, workflow pipelines, and live agent testing.</td></tr>
               <tr><td style="text-align:center;">12</td><td>Portfolio Repository Build</td><td>Structuring a public GitHub repository to showcase production work.</td></tr>
               <tr><td style="text-align:center;">13</td><td>Service Packaging</td><td>Defining Hermes Agent freelance packages, scope, and pricing models.</td></tr>
               <tr><td style="text-align:center;">14</td><td>Upwork Profile Setup</td><td>Writing an effective Upwork profile, bio, and portfolio links.</td></tr>
               <tr><td style="text-align:center;">15</td><td>Freelancer Marketplace Profiles</td><td>Setting up Guru, Freelancer.com, and alternative platform profiles.</td></tr>
 
-              <tr><td rowspan="5" style="text-align:center;"><strong>Four</strong></td><td style="text-align:center;">16</td><td>Content Strategy</td><td>Creating Hermes Agent service showcase videos for technical marketing.</td></tr>
+              <tr><th scope="rowgroup" rowspan="5" style="text-align:center;"><strong>Four</strong></th><td style="text-align:center;">16</td><td>Content Strategy</td><td>Creating Hermes Agent service showcase videos for technical marketing.</td></tr>
               <tr><td style="text-align:center;">17</td><td>Social Lead Generation</td><td>Creating LinkedIn content, social posts, and direct outreach workflows.</td></tr>
               <tr><td style="text-align:center;">18</td><td>Bidding &amp; Proposal Strategy</td><td>Search filters, proposal writing, and practical application workflows.</td></tr>
               <tr><td style="text-align:center;">19</td><td>Client Onboarding &amp; Delivery</td><td>Scope-setting, client communication, milestone delivery, and invoicing.</td></tr>
@@ -478,7 +519,7 @@ input, textarea, select, button { color: initial; }
  rel="noopener noreferrer"
  target="_blank"
  ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
- <a href="https://gitlab.com/AnythingLinux/school-of-freelancing" aria-label="School Of Freelancing on GitLab" rel="noopener noreferrer" target="_blank"><svg class="gitlab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="vertical-align:-0.125em"><defs><mask id="gl-mask"><rect width="24" height="24" fill="#fff"/><path d="M8.4 10.2 12 22l3.6-11.8M8.4 10.2h7.2" fill="none" stroke="#000" stroke-width="1.1" stroke-linejoin="round"/></mask></defs><path mask="url(#gl-mask)" stroke="currentColor" stroke-width="1" stroke-linejoin="round" d="M12 22 2.4 14.7 5.9 3.6l2.5 6.6h7.2l2.5-6.6 3.5 11.1z"/></svg></a></address><p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p></aside></div><nav aria-label="Footer: Freelancing Training" class="footer-col"><h2><span>FREELANCING TRAINING</span></h2><ul class="footer-links"><li><a href="/freelancing-training/hermes-agent-training">Hermes Agent Training</a></li><li><a href="/freelancing-training/fusionpbx-training">FusionPBX VoIP Training</a></li><li><a href="/freelancing-training/telnyx-sms-api-training">Telnyx SMS API Training</a></li><li><a href="/freelancing-training/openai-training">OpenAI Developer Training</a></li><li><a href="/freelancing-training/claude-training">Claude Developer Training</a></li><li><a href="/freelancing-training/twilio-sms-api-training">Twilio Developer Training</a></li><li><a href="/freelancing-training">View All Training</a></li></ul></nav><nav aria-label="Footer: Client Support" class="footer-col"><h2><span>CLIENT SUPPORT</span></h2><ul class="footer-links"><li><a href="/client-support/telnyx-voip-setup">Telnyx SIP Trunking</a></li><li><a href="/client-support/odysseus-ai-setup">Odysseus AI Support</a></li><li><a href="/client-support/linux-server-support">Linux Server Support</a></li><li><a href="/client-support/ubuntu-linux-support">Ubuntu Linux Support</a></li><li><a href="/client-support/voice-ai-agent-setup">Voice AI Agent Setup</a></li><li><a href="/client-support/goautodial-voip-setup">GOautodial VoIP Support</a></li><li><a href="/client-support">View All Support</a
+ <a href="https://gitlab.com/AnythingLinux/school-of-freelancing" aria-label="School Of Freelancing on GitLab" rel="noopener noreferrer" target="_blank"><svg class="gitlab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="vertical-align:-0.125em"><defs><mask id="gl-mask"><rect width="24" height="24" fill="#fff"/><path d="M8.4 10.2 12 22l3.6-11.8M8.4 10.2h7.2" fill="none" stroke="#000" stroke-width="1.1" stroke-linejoin="round"/></mask></defs><path mask="url(#gl-mask)" stroke="currentColor" stroke-width="1" stroke-linejoin="round" d="M12 22 2.4 14.7 5.9 3.6l2.5 6.6h7.2l2.5-6.6 3.5 11.1z"/></svg></a></address><p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p></aside></div><nav aria-label="Footer: Freelancing Training" class="footer-col"><h2><span>FREELANCING TRAINING</span></h2><ul class="footer-links"><li><a href="/freelancing-training/hermes-agent-training" aria-current="page">Hermes Agent Training</a></li><li><a href="/freelancing-training/fusionpbx-training">FusionPBX VoIP Training</a></li><li><a href="/freelancing-training/telnyx-sms-api-training">Telnyx SMS API Training</a></li><li><a href="/freelancing-training/openai-training">OpenAI Developer Training</a></li><li><a href="/freelancing-training/claude-training">Claude Developer Training</a></li><li><a href="/freelancing-training/twilio-sms-api-training">Twilio Developer Training</a></li><li><a href="/freelancing-training">View All Training</a></li></ul></nav><nav aria-label="Footer: Client Support" class="footer-col"><h2><span>CLIENT SUPPORT</span></h2><ul class="footer-links"><li><a href="/client-support/telnyx-voip-setup">Telnyx SIP Trunking</a></li><li><a href="/client-support/odysseus-ai-setup">Odysseus AI Support</a></li><li><a href="/client-support/linux-server-support">Linux Server Support</a></li><li><a href="/client-support/ubuntu-linux-support">Ubuntu Linux Support</a></li><li><a href="/client-support/voice-ai-agent-setup">Voice AI Agent Setup</a></li><li><a href="/client-support/goautodial-voip-setup">GOautodial VoIP Support</a></li><li><a href="/client-support">View All Support</a
  ></li></ul></nav><nav aria-label="Footer: Legal & Resources" class="footer-col"><h2><span>LEGAL</span></h2><ul class="footer-links"><li><a href="/resource-center/faqs" target="_self">FAQs</a></li><li><a href="/locations">Locations</a></li><li><a href="/legal/refund-policy">Refund Policy</a></li><li><a href="/legal/privacy-policy">Privacy Policy</a></li><li><a href="/resource-center">Resource Center</a></li><li><a href="/legal/terms-and-conditions" target="_self">Terms &amp; Conditions</a></li><li><a href="/legal/credential-verification">Credential Verification</a></li></ul></nav></div><div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div></div></footer>
 
 <script src="/assets/js/main.js?v=20260718" defer></script>
