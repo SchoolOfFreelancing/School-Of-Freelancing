@@ -1,0 +1,6 @@
+{
+  "protocol": { "name": "acp", "version": "1.0" },
+  "api_base_url": "https://schooloffreelancing.com/acp",
+  "transports": ["https"],
+  "capabilities": { "services": ["checkout"] }
+}
