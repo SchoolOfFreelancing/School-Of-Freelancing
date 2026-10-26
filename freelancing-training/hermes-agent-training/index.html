@@ -36,6 +36,7 @@
 <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta property="og:image:width" content="1200">
 <meta property="og:image:height" content="630">
+<meta property="og:image:secure_url" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
 <meta property="og:image:type" content="image/jpeg">
 <meta property="og:image:alt" content="Hermes Agent Freelancing Training">
 
@@ -56,6 +57,7 @@
 <link rel="preload" as="style" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional">
 <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional" media="print" onload="this.media='all'">
 <noscript><link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&family=Source+Code+Pro:wght@300;400;600&display=optional"></noscript>
+<link rel="preload" as="style" href="/assets/css/style.css?v=20260930">
 <link rel="stylesheet" href="/assets/css/style.css?v=20260930">
 <link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 
@@ -180,7 +182,9 @@ input, textarea, select, button { color: initial; }
       "@type": "WebSite",
       "@id": "https://schooloffreelancing.com/#website",
       "url": "https://schooloffreelancing.com/",
-      "name": "School of Freelancing"
+      "name": "School of Freelancing",
+      "inLanguage": "en",
+      "publisher": { "@id": "https://schooloffreelancing.com/#organization" }
     },
     {
       "@type": "WebPage",
@@ -189,6 +193,8 @@ input, textarea, select, button { color: initial; }
       "description": "Learn hands-on Hermes Agent deployment, Linux server setup, AI integrations, troubleshooting, client delivery, and freelance service packaging for global clients.",
       "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training",
       "inLanguage": "en",
+      "dateModified": "2026-10-26",
+      "publisher": { "@id": "https://schooloffreelancing.com/#organization" },
       "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
       "breadcrumb": { "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#breadcrumb" },
       "primaryImageOfPage": { "@type": "ImageObject", "url": "https://schooloffreelancing.com/assets/images/og-home.jpg", "width": 1200, "height": 630 },
@@ -243,6 +249,7 @@ input, textarea, select, button { color: initial; }
         "@type": "CourseInstance",
         "courseMode": "online",
         "courseWorkload": "PT20H",
+        "courseSchedule": { "@type": "Schedule", "repeatCount": 20 },
         "instructor": {
           "@type": "Person",
           "name": "Karim (Masum)",
@@ -256,9 +263,11 @@ input, textarea, select, button { color: initial; }
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "category": "Paid",
+        "seller": { "@id": "https://schooloffreelancing.com/#organization" },
         "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training"
       },
       "timeRequired": "PT20H",
+      "isAccessibleForFree": false,
       "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training",
       "teaches": [
         "Hermes Agent deployment",
