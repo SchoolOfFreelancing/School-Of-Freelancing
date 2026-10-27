@@ -7,5 +7,6 @@ Disallow: /scripts/
 Disallow: /tmp/
 Disallow: /404.html
 Disallow: /cdn-cgi/
+Disallow: /*?q
 
 Sitemap: https://schooloffreelancing.com/sitemap.xml
