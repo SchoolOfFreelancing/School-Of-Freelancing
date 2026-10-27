@@ -9,7 +9,7 @@ license: mit
 
 School of Freelancing delivers live, instructor-led online training that turns students into in-demand freelancers, and hands-on client support services for businesses running Linux, cloud, VoIP, and AI infrastructure — all priced and billed in USD, delivered remotely with no local office required.
 
-<a href="https://www.producthunt.com/products/school-of-freelancing?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-school-of-freelancing" target="_blank" rel="noopener noreferrer"><img alt="School Of Freelancing - Linux and AI Freelancing Training Plus Technical Support | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1289520&amp;theme=light&amp;t=1793113748794"></a>
+<a href="https://www.producthunt.com/products/school-of-freelancing?embed=true&amp;utm_source=badge-featured&amp;utm_medium=badge&amp;utm_campaign=badge-school-of-freelancing" target="_blank" rel="noopener noreferrer"><img alt="School Of Freelancing - Linux and AI Freelancing Training Plus Technical Support | Product Hunt" width="250" height="54" src="https://api.producthunt.com/widgets/embed-image/v1/featured.svg?post_id=1289520&amp;theme=neutral&amp;t=1793113898463"></a>
 
 ---
 
