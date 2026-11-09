@@ -1,4 +1,9 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link rel="icon" href="/assets/icons/favicon.ico" sizes="any"><link rel="icon" type="image/png" sizes="32x32" href="/assets/icons/favicon-32x32.png"><link rel="icon" type="image/png" sizes="16x16" href="/assets/icons/favicon-16x16.png"><link rel="apple-touch-icon" sizes="180x180" href="/assets/icons/apple-touch-icon.png"><link rel="icon" type="image/png" sizes="192x192" href="/assets/icons/android-chrome-192x192.png"><link rel="manifest" href="/site.webmanifest"><meta content="default" name="apple-mobile-web-app-status-bar-style"><title>GitHub Freelancing Training | Setup, CI/CD &amp; Jobs</title><link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/github-training"/><link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/github-training"/><link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/github-training"/><meta name="description" content="Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs."><meta name="author" content="School of Freelancing"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="theme-color" content="#0024ED"><meta name="apple-mobile-web-app-capable" content="yes"><meta property="og:type" content="website"><meta property="og:site_name" content="School Of Freelancing"><meta property="og:url" content="https://schooloffreelancing.com/freelancing-training/github-training/"><meta property="og:title" content="GitHub Freelancing Training"><meta property="og:description" content="Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs."><meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="GitHub Freelancing Training"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="GitHub Freelancing Training"><meta name="twitter:description" content="Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs."><meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg"><meta name="twitter:creator" content="@SchoolOfFreelan"><script defer
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><link href="/favicon.ico" rel="icon" sizes="any">
+<link href="/assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
+<link href="/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
+<link href="/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
+<link href="/assets/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
+<link href="/site.webmanifest" rel="manifest"><meta content="default" name="apple-mobile-web-app-status-bar-style"><title>GitHub Freelancing Training | Setup, CI/CD &amp; Jobs</title><link rel="canonical" href="https://schooloffreelancing.com/freelancing-training/github-training"/><link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/freelancing-training/github-training"/><link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/freelancing-training/github-training"/><meta name="description" content="Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs."><meta name="author" content="School of Freelancing"><meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1"><meta name="theme-color" content="#0024ED"><meta name="apple-mobile-web-app-capable" content="yes"><meta property="og:type" content="website"><meta property="og:site_name" content="School Of Freelancing"><meta property="og:url" content="https://schooloffreelancing.com/freelancing-training/github-training"><meta property="og:title" content="GitHub Freelancing Training"><meta property="og:description" content="Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs."><meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg"><meta property="og:image:width" content="1200"><meta property="og:image:height" content="630"><meta property="og:image:type" content="image/jpeg"><meta property="og:image:alt" content="GitHub Freelancing Training"><meta property="og:locale" content="en_US"><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="GitHub Freelancing Training"><meta name="twitter:description" content="Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs."><meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg"><meta name="twitter:creator" content="@SchoolOfFreelan"><script defer
  type="module"
  src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
 ></script>
@@ -137,69 +142,120 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
     <!-- AI.TXT PREFETCH DISCOVERY -->
     <link rel="prefetch" href="../../ai.txt">
     <!-- /AI.TXT PREFETCH DISCOVERY -->
+
+<style>
+@font-face {
+ font-family: "Orbitron Fallback";
+ src: local("Arial");
+ size-adjust: 92%;
+ ascent-override: 90%;
+ descent-override: 22%;
+ line-gap-override: 0%;
+}
+@font-face {
+ font-family: "Share Tech Mono Fallback";
+ src: local("Courier New");
+ size-adjust: 104%;
+ ascent-override: 90%;
+ descent-override: 22%;
+ line-gap-override: 0%;
+}
+:root {
+ --font-mono: "Share Tech Mono", "Share Tech Mono Fallback", "Courier New", monospace;
+ --font-display: "Orbitron", "Orbitron Fallback", monospace;
+}
+.footer {
+ background: rgba(0, 9, 60, 0.55);
+ backdrop-filter: blur(10px);
+ -webkit-backdrop-filter: blur(10px);
+ padding-top: 56px;
+ border-top: none !important;
+ font-family: var(--font-mono);
+}
+.footer p, .footer a, .footer li, .footer address, .footer cite, .footer strong {
+ font-family: var(--font-mono);
+ font-style: normal;
+}
+.footer a:hover {
+ color: #00ffe1;
+}
+.footer::before {
+ display: none !important;
+}
+.footer-bottom,
+.footer-bottom::after,
+.footer-bottom::before {
+ border: none !important;
+ box-shadow: none !important;
+ background-image: none !important;
+}
+.footer .footer-social {
+ display: flex !important;
+ flex-wrap: wrap;
+ align-items: center;
+ gap: 15px !important;
+}
+.footer .footer-social a {
+ margin: 0 !important;
+ font-size: 1.5rem !important;
+ line-height: 1;
+}
+.footer .footer-social a i,
+.footer .footer-social a svg {
+ font-size: inherit;
+}
+.footer-col h2 {
+ font-family: var(--font-display);
+ font-size: inherit;
+ font-weight: 700;
+ margin: 0 0 1rem 0;
+}
+.float-contact {
+ position: fixed;
+ right: 18px;
+ bottom: 24px;
+ z-index: 1100;
+ display: flex;
+ flex-direction: column;
+ gap: 14px;
+}
+.float-contact a {
+ width: 50px;
+ height: 50px;
+ border-radius: 50%;
+ background: #0024ed;
+ color: #fff;
+ border: 2px solid #fff;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0 4px 14px rgba(0, 0, 0, 0.35);
+ transition: transform 0.2s ease, box-shadow 0.2s ease;
+}
+.float-contact a:hover {
+ transform: scale(1.1);
+ box-shadow: 0 6px 18px rgba(0, 0, 0, 0.45);
+}
+.float-contact svg {
+ width: 28px;
+ height: 28px;
+ fill: currentColor;
+}
+@media (prefers-reduced-motion: reduce) {
+ .float-contact a { transition: none; }
+ .float-contact a:hover { transform: none; }
+}
+</style>
 </head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><a class="skip-link" href="#main">Skip to main content</a><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing"><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/resource-center/testimonials">Testimonials</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero" style="padding-bottom:24px;"><div class="container detail-wrap"><p class="breadcrumb-nav"><a href="/">Home</a> / <a href="/freelancing-training">All Training</a> / GitHub Freelancing Training</p><h1>GitHub Freelancing Training</h1></div></header><section class="section training-features-section" style="padding-bottom:0; padding-top:16px;" aria-label="GitHub Hands-on Training overview"><div class="container detail-wrap"><div class="card" style="margin-bottom:32px;"><h2 style="margin-bottom:12px; font-size: 1.5rem;">Overview</h2><p style="color:var(--text-secondary); line-height:1.7; margin:0;">
  Learn GitHub production setup, migration, version control, CI/CD, &amp; project management to secure freelance jobs.
  </p></div><h2>Training Features:</h2><table class="spec-table" style="width:100%;"><thead><tr><th>Aspect</th><th>Detail</th></tr></thead><tbody><tr><td class="spec-cell">Duration:</td><td>20 Hands-on training sessions over one month training.</td></tr><tr><td class="spec-cell">Price:</td><td>$249 (One-Time Investment).</td></tr><tr><td class="spec-cell">Format:</td><td>Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos.</td></tr><tr><td class="spec-cell">Covers:</td><td>Set up a production GitHub server to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube.</td></tr><tr><td class="spec-cell">Best for:</td><td>Freelancers, sysadmins, and DevOps engineers looking to master self-hosted GitHub infrastructure and offer high-demand server management services.</td></tr><tr><td class="spec-cell">(GMI)*:</td><td>Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs.</td></tr></tbody></table></div></section><section class="section participation-section" style="padding-top:16px; margin-top:-24px;"><div class="container"><article class="detail-wrap" style="max-width:none; margin-bottom:0;"><h3 style="margin:0 0 20px;">Participation Requirements:</h3></article><div class="features-grid features-grid-3"><div class="feature-card"><h3 class="feature-title">Training Prerequisites</h3><ul class="detail-list"><li><strong><a href="https://try.digitalocean.com/freetrialoffer/" target="_blank" rel="noopener noreferrer">DigitalOcean account,</a></strong> Any Domain, &amp; Verified Marketplace Profiles.</li><li><strong>Rigorous:</strong> Need to have patience and concentration during all training sessions.</li></ul></div><div class="feature-card"><h3 class="feature-title">Connectivity</h3><ul class="detail-list"><li>Portable messaging devices for 24/7 client communication.</li><li>Reliable fiber-optic internet access for uninterruptible training sessions.</li></ul></div><div class="feature-card"><h3 class="feature-title">Training Rules</h3><ul class="detail-list"><li>These <strong><a href="/legal/training-rules" target="_self">Training Rules</a></strong> apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.</li></ul></div></div><div class="detail-wrap"><article class="card" style="margin-top:24px;"><h3 style="margin-bottom:20px;">You'll leave with:</h3><div class="features-grid features-grid-3" style="display:grid; grid-template-columns:repeat(3, 1fr); gap:20px;"><div class="feature-card"><div class="feature-icon"><span class="feature-icon-num">1</span></div><p style="color:var(--text-secondary); margin:0;">Hands-on experience in live, self-hosted GitHub server deployment &amp; administration</p></div><div class="feature-card"><div class="feature-icon"><span class="feature-icon-num">2</span></div><p style="color:var(--text-secondary); margin:0;">Marketplace portfolio proving real GitHub migration, security, &amp; CI/CD pipeline skills</p></div><div class="feature-card"><div class="feature-icon"><span class="feature-icon-num">3</span></div><p style="color:var(--text-secondary); margin:0;">Stronger habits for deploying, troubleshooting, and managing enterprise GitHub infrastructure</p></div></div></article><article class="card" style="margin-top:24px;"><h3 style="text-align: center;">Training Modules</h3><table class="spec-table" style="width:100%;"><thead><tr><th style="width: 10%;">Week</th><th style="width: 10%;">Session</th><th style="width: 25%;">Topic</th><th style="width: 55%;">Content</th></tr></thead><tbody><tr><td style="text-align: center;" rowspan="5"><strong>One</strong></td><td style="text-align: center;">1</td><td>Server &amp; DNS Foundations</td><td>DigitalOcean droplet setup, SSH keys, domain DNS configuration</td></tr><tr><td style="text-align: center;">2</td><td>Linux OS Hardening</td><td>Ubuntu server security, UFW firewall configuration, swap space optimization</td></tr><tr><td style="text-align: center;">3</td><td>GitHub Omnibus Installation</td><td>Official repository setup, omnibus package installation, configuration tuning</td></tr><tr><td style="text-align: center;">4</td><td>SSL &amp; Domain Security</td><td>Let's Encrypt integration, HTTPS redirection, custom domain binding</td></tr><tr><td style="text-align: center;">5</td><td>GitHub Core Configuration</td><td>Initial root setup, SMTP email configuration, security policy defaults</td></tr><tr><td style="text-align: center;" rowspan="5"><strong>Two</strong></td><td style="text-align: center;">6</td><td>GitHub Runner Architecture</td><td>Installing &amp; registering dedicated GitHub Runners on Linux droplets</td></tr><tr><td style="text-align: center;">7</td><td>CI/CD Pipeline Fundamentals</td><td>Writing custom `.GitHub-ci.yml` scripts, jobs, stages, &amp; artifacts</td></tr><tr><td style="text-align: center;">8</td><td>Docker &amp; Container Registry</td><td>Configuring built-in Container Registry, Docker-in-Docker (dind) builds</td></tr><tr><td style="text-align: center;">9</td><td>Backups &amp; Disaster Recovery</td><td>Automating daily backups to AWS S3/Object Storage, restore procedures</td></tr><tr><td style="text-align: center;">10</td><td>Server Security &amp; Monitoring</td><td>Fail2ban integration, SSH hardening, monitoring system metrics &amp; logs</td></tr><tr><td style="text-align: center;" rowspan="5"><strong>Three</strong></td><td style="text-align: center;">11</td><td>GitHub to GitHub Migration</td><td>Migrating repositories, issues, PRs, and permissions seamlessly</td></tr><tr><td style="text-align: center;">12</td><td>Third-Party Integrations</td><td>Slack/Discord webhooks, Jira integration, external auth (OAuth/LDAP)</td></tr><tr><td style="text-align: center;">13</td><td>Portfolio Repository Build</td><td>Structuring a public repository showcasing GitHub administration work</td></tr><tr><td style="text-align: center;">14</td><td>Service Packaging &amp; Pricing</td><td>Defining GitHub setup, migration, and CI/CD maintenance service packages</td></tr><tr><td style="text-align: center;">15</td><td>Upwork Profile Optimization</td><td>Writing high-converting Upwork bios &amp; setting up targeted portfolios</td></tr><tr><td style="text-align: center;" rowspan="5"><strong>Four</strong></td><td style="text-align: center;">16</td><td>Freelance Platform Profiles</td><td>Optimizing profiles on Guru, Freelancer.com, and LinkedIn services</td></tr><tr><td style="text-align: center;">17</td><td>Content Marketing Strategy</td><td>Creating short video walkthroughs demonstrating GitHub technical expertise</td></tr><tr><td style="text-align: center;">18</td><td>Proposal &amp; Fast-Apply Strategy</td><td>Targeting job posts, crafting proposals, and bidding strategy</td></tr><tr><td style="text-align: center;">19</td><td>Client Onboarding &amp; Delivery</td><td>Project scoping, secure credential exchange, milestone delivery, invoicing</td></tr><tr><td style="text-align: center;">20</td><td>Capstone Review &amp; Live Q&amp;A</td><td>Simulated enterprise troubleshooting scenario, testimonial collection, wrap-up</td></tr></tbody></table></article><article class="card" style="text-align:center; margin-top:24px;"><h2>Secure Your Seat Now</h2><div style="margin-top:25px; display: flex; gap: 15px; justify-content: center; flex-wrap: wrap;"><a href="https://t.me/SchoolOfFreelancingTraining" target="_blank" rel="noopener noreferrer" class="btn btn-primary btn-lg">Ask your mentor</a><a href="https://github.com/SchoolOfFreelancing/Linux-Freelancing-Training.git" target="_blank" rel="noopener noreferrer" class="btn btn-outline btn-lg">Technical Docs <i class="fa-brands fa-github" aria-hidden="true"></i></a></div></article></div></div></section></main><footer class="footer footer-glass"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
  AI-driven Linux training for freelancers and elite professional support for businesses.
  Founded in 2015 by
- <strong
- ><cite
- ><a
- href="https://www.linkedin.com/in/anythinglinux/"
- target="_blank"
- rel="author noopener noreferrer"
- >Karim (Masum)</a
- ></cite
- ></strong
- >, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
- </p><aside aria-label="Follow us"><p>Community:</p><address class="footer-social"><a
- href="https://github.com/SchoolOfFreelancing"
- aria-label="School Of Freelancing on GitHub"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-github" aria-hidden="true"></i></a
- ><a
- href="https://www.youtube.com/@SchoolOfFreelancing"
- aria-label="School Of Freelancing on YouTube"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-youtube" aria-hidden="true"></i></a
- ><a
- href="https://www.linkedin.com/company/SchoolOfFreelancing"
- aria-label="School Of Freelancing on LinkedIn"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a
- ><a
- href="https://www.facebook.com/SchoolOfFreelancing"
- aria-label="School Of Freelancing on Facebook"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a
- ><a
- href="https://www.pinterest.com/schooloffreelancing/"
- aria-label="School Of Freelancing on Pinterest"
- rel="noopener noreferrer"
- target="_blank"
- ><svg class="pinterest-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="vertical-align:-0.125em"><defs><mask id="pin-mask"><rect width="24" height="24" fill="#fff"/><g fill="none" stroke="#000" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10.4 19.6 12.1 12.6"/><path d="M10 13.4C8.2 10.6 9.7 6.9 13 6.9c2.8 0 3.9 2.8 2.7 4.9-.9 1.5-2.8 1.7-3.6.4"/></g></mask></defs><rect x="1.5" y="1.5" width="21" height="21" rx="4.5" mask="url(#pin-mask)"/></svg></a
- ><a
- href="https://wa.me/8801748973769"
- aria-label="Message School Of Freelancing on WhatsApp"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a
- ><a
- href="https://t.me/SchoolOfFreelancingTraining"
- aria-label="Message School Of Freelancing on Telegram"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-telegram" aria-hidden="true"></i></a
- ><a
- href="https://x.com/SchoolOfFreelan"
- aria-label="School Of Freelancing on X (Twitter)"
- rel="noopener noreferrer"
- target="_blank"
- ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a>
- <a href="https://gitlab.com/AnythingLinux/school-of-freelancing" aria-label="School Of Freelancing on GitLab" rel="noopener noreferrer" target="_blank"><svg class="gitlab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="vertical-align:-0.125em"><defs><mask id="gl-mask"><rect width="24" height="24" fill="#fff"/><path d="M8.4 10.2 12 22l3.6-11.8M8.4 10.2h7.2" fill="none" stroke="#000" stroke-width="1.1" stroke-linejoin="round"/></mask></defs><path mask="url(#gl-mask)" stroke="currentColor" stroke-width="1" stroke-linejoin="round" d="M12 22 2.4 14.7 5.9 3.6l2.5 6.6h7.2l2.5-6.6 3.5 11.1z"/></svg></a></address><p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p></aside></div><nav aria-label="Footer: Freelancing Training" class="footer-col"><h2><span>FREELANCING TRAINING</span></h2><ul class="footer-links"><li><a href="/freelancing-training/hermes-agent-training">Hermes Agent Training</a></li><li><a href="/freelancing-training/fusionpbx-training">FusionPBX VoIP Training</a></li><li><a href="/freelancing-training/telnyx-sms-api-training">Telnyx SMS API Training</a></li><li><a href="/freelancing-training/openai-training">OpenAI Developer Training</a></li><li><a href="/freelancing-training/claude-training">Claude Developer Training</a></li><li><a href="/freelancing-training/twilio-sms-api-training">Twilio Developer Training</a></li><li><a href="/freelancing-training">View All Training</a></li></ul></nav><nav aria-label="Footer: Client Support" class="footer-col"><h2><span>CLIENT SUPPORT</span></h2><ul class="footer-links"><li><a href="/client-support/telnyx-voip-setup">Telnyx SIP Trunking</a></li><li><a href="/client-support/odysseus-ai-setup">Odysseus AI Support</a></li><li><a href="/client-support/linux-server-support">Linux Server Support</a></li><li><a href="/client-support/ubuntu-linux-support">Ubuntu Linux Support</a></li><li><a href="/client-support/voice-ai-agent-setup">Voice AI Agent Setup</a></li><li><a href="/client-support/goautodial-voip-setup">GOautodial VoIP Support</a></li><li><a href="/client-support">View All Support</a
- ></li></ul></nav><nav aria-label="Footer: Legal & Resources" class="footer-col"><h2><span>LEGAL</span></h2><ul class="footer-links"><li><a href="/resource-center/faqs" target="_self">FAQs</a></li><li><a href="/locations">Locations</a></li><li><a href="/legal/refund-policy">Refund Policy</a></li><li><a href="/legal/privacy-policy">Privacy Policy</a></li><li><a href="/resource-center">Resource Center</a></li><li><a href="/legal/terms-and-conditions" target="_self">Terms &amp; Conditions</a></li><li><a href="/legal/credential-verification">Credential Verification</a></li></ul></nav></div><div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div></div></footer><script defer defer defer defer defer src="/assets/js/main.js?v=20260718" defer></script></body></html>
+ <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).
+ </p><aside aria-label="Follow us"><p>Community:</p><address class="footer-social"><a href="https://github.com/SchoolOfFreelancing" aria-label="School Of Freelancing on GitHub" rel="me noopener noreferrer" target="_blank"><i class="fa-brands fa-github" aria-hidden="true"></i></a><a href="https://www.youtube.com/@SchoolOfFreelancing" aria-label="School Of Freelancing on YouTube" rel="me noopener noreferrer" target="_blank"><i class="fa-brands fa-youtube" aria-hidden="true"></i></a><a href="https://www.linkedin.com/company/SchoolOfFreelancing" aria-label="School Of Freelancing on LinkedIn" rel="me noopener noreferrer" target="_blank"><i class="fa-brands fa-linkedin" aria-hidden="true"></i></a><a href="https://www.facebook.com/SchoolOfFreelancing" aria-label="School Of Freelancing on Facebook" rel="me noopener noreferrer" target="_blank"><i class="fa-brands fa-square-facebook" aria-hidden="true"></i></a><a href="https://www.pinterest.com/schooloffreelancing/" aria-label="School Of Freelancing on Pinterest" rel="me noopener noreferrer" target="_blank"><svg class="pinterest-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="vertical-align:-0.125em"><defs><mask id="pin-mask"><rect width="24" height="24" fill="#fff"/><g fill="none" stroke="#000" stroke-width="1.9" stroke-linecap="round" stroke-linejoin="round"><path d="M10.4 19.6 12.1 12.6"/><path d="M10 13.4C8.2 10.6 9.7 6.9 13 6.9c2.8 0 3.9 2.8 2.7 4.9-.9 1.5-2.8 1.7-3.6.4"/></g></mask></defs><rect x="1.5" y="1.5" width="21" height="21" rx="4.5" mask="url(#pin-mask)"/></svg></a><a href="https://wa.me/8801748973769" aria-label="Message School Of Freelancing on WhatsApp" rel="noopener noreferrer" target="_blank"><i class="fa-brands fa-whatsapp" aria-hidden="true"></i></a><a href="https://t.me/SchoolOfFreelancingTraining" aria-label="Message School Of Freelancing on Telegram" rel="me noopener noreferrer" target="_blank"><i class="fa-brands fa-telegram" aria-hidden="true"></i></a><a href="https://x.com/SchoolOfFreelan" aria-label="School Of Freelancing on X (Twitter)" rel="me noopener noreferrer" target="_blank"><i class="fa-brands fa-x-twitter" aria-hidden="true"></i></a><a href="https://gitlab.com/AnythingLinux/school-of-freelancing" aria-label="School Of Freelancing on GitLab" rel="me noopener noreferrer" target="_blank"><svg class="gitlab-icon" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" width="1em" height="1em" fill="currentColor" aria-hidden="true" focusable="false" style="vertical-align:-0.125em"><defs><mask id="gl-mask"><rect width="24" height="24" fill="#fff"/><path d="M8.4 10.2 12 22l3.6-11.8M8.4 10.2h7.2" fill="none" stroke="#000" stroke-width="1.1" stroke-linejoin="round"/></mask></defs><path mask="url(#gl-mask)" stroke="currentColor" stroke-width="1" stroke-linejoin="round" d="M12 22 2.4 14.7 5.9 3.6l2.5 6.6h7.2l2.5-6.6 3.5 11.1z"/></svg></a></address><p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p></aside></div>
+<nav aria-label="Footer: Freelancing Training" class="footer-col"><h2><span>FREELANCING TRAINING</span></h2><ul class="footer-links"><li><a href="/freelancing-training/hermes-agent-training">Hermes Agent Training</a></li><li><a href="/freelancing-training/fusionpbx-training">FusionPBX VoIP Training</a></li><li><a href="/freelancing-training/telnyx-sms-api-training">Telnyx SMS API Training</a></li><li><a href="/freelancing-training/openai-training">OpenAI Developer Training</a></li><li><a href="/freelancing-training/claude-training">Claude Developer Training</a></li><li><a href="/freelancing-training/twilio-sms-api-training">Twilio Developer Training</a></li><li><a href="/freelancing-training">View All Training</a></li></ul></nav>
+<nav aria-label="Footer: Client Support" class="footer-col"><h2><span>CLIENT SUPPORT</span></h2><ul class="footer-links"><li><a href="/client-support/telnyx-voip-setup">Telnyx SIP Trunking</a></li><li><a href="/client-support/odysseus-ai-setup">Odysseus AI Support</a></li><li><a href="/client-support/linux-server-support">Linux Server Support</a></li><li><a href="/client-support/ubuntu-linux-support">Ubuntu Linux Support</a></li><li><a href="/client-support/voice-ai-agent-setup">Voice AI Agent Setup</a></li><li><a href="/client-support/goautodial-voip-setup">GOautodial VoIP Support</a></li><li><a href="/client-support">View All Support</a></li></ul></nav>
+<nav aria-label="Footer: Legal & Resources" class="footer-col"><h2><span>LEGAL</span></h2><ul class="footer-links"><li><a href="/resource-center/faqs" target="_self">FAQs</a></li><li><a href="/locations">Locations</a></li><li><a href="/legal/refund-policy">Refund Policy</a></li><li><a href="/legal/privacy-policy">Privacy Policy</a></li><li><a href="/resource-center">Resource Center</a></li><li><a href="/legal/terms-and-conditions" target="_self">Terms &amp; Conditions</a></li><li><a href="/legal/credential-verification">Credential Verification</a></li></ul></nav></div><div class="footer-bottom" style="border-top: none !important; box-shadow: none !important"></div></div></footer>
+<div class="float-contact">
+<a href="https://wa.me/8801748973769" aria-label="Chat with School Of Freelancing on WhatsApp" target="_blank" rel="noopener noreferrer"><svg viewBox="0 0 24 24" aria-hidden="true" focusable="false"><path d="M12.04 2C6.58 2 2.13 6.45 2.13 11.91c0 1.75.46 3.45 1.32 4.95L2.05 22l5.25-1.38a9.9 9.9 0 0 0 4.74 1.21h.01c5.46 0 9.91-4.45 9.91-9.91 0-2.65-1.03-5.14-2.9-7.01A9.82 9.82 0 0 0 12.04 2zm0 18.15h-.01a8.2 8.2 0 0 1-4.19-1.15l-.3-.18-3.12.82.83-3.04-.2-.31a8.2 8.2 0 0 1-1.26-4.38c0-4.54 3.7-8.23 8.25-8.23 2.2 0 4.27.86 5.82 2.42a8.18 8.18 0 0 1 2.41 5.82c0 4.54-3.7 8.23-8.23 8.23zm4.52-6.16c-.25-.12-1.47-.72-1.69-.81-.23-.08-.39-.12-.56.12-.17.25-.64.81-.78.97-.14.17-.29.19-.54.06-.25-.12-1.05-.39-2-1.23-.74-.66-1.23-1.47-1.38-1.72-.14-.25-.02-.38.11-.51.11-.11.25-.29.37-.43.12-.14.17-.25.25-.41.08-.17.04-.31-.02-.43-.06-.12-.56-1.34-.76-1.84-.2-.48-.41-.42-.56-.43h-.48c-.17 0-.43.06-.66.31-.23.25-.87.85-.87 2.07 0 1.22.89 2.4 1.01 2.56.12.17 1.75 2.67 4.23 3.74.59.26 1.05.41 1.41.52.59.19 1.13.16 1.56.1.48-.07 1.47-.6 1.67-1.18.21-.58.21-1.07.14-1.18-.06-.1-.23-.16-.48-.29z"/></svg></a></div><script defer src="/assets/js/main.js?v=20260718" defer></script></body></html>

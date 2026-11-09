@@ -18,7 +18,7 @@
 #           augmented generation, grounding, or other real-time taking of content for
 #           generative AI search answers).
 # ai-train: training or fine-tuning AI models.
-# use:      how AI systems may consume the content (immediate, reference, or full).
+# use:      how AI systems may consume the content (immediate, reference, or full).\
 
 # ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF
 # RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT
@@ -33,12 +33,67 @@ Disallow: /tmp/
 Disallow: /404.html
 Disallow: /cdn-cgi/
 
-# Training crawlers
+# AI search, retrieval, and citation crawlers (explicitly allowed)
+# These bots power AI Overviews, ChatGPT Browse, Claude, Gemini, Copilot, and others.
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+User-agent: GoogleOther
+Allow: /
+
+User-agent: Google-CloudVertexBot
+Allow: /
+
 User-agent: Amazonbot
-Disallow: /
+Allow: /
 
 User-agent: Applebot-Extended
-Disallow: /
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: BingBot
+Allow: /
+
+User-agent: bingbot
+Allow: /
+
+User-agent: MicrosoftBing
+Allow: /
+
+User-agent: DuckDuckBot
+Allow: /
+
+# Pure training scrapers (blocked — no value to site, ai-train=no)
 
 User-agent: Bytespider
 Disallow: /
@@ -46,37 +101,16 @@ Disallow: /
 User-agent: CCBot
 Disallow: /
 
-User-agent: ClaudeBot
-Disallow: /
-
 User-agent: Diffbot
-Disallow: /
-
-User-agent: Google-Extended
-Disallow: /
-
-User-agent: GPTBot
 Disallow: /
 
 User-agent: omgili
 Disallow: /
 
-User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: cohere-ai
-Disallow: /
-
 User-agent: MistralAI-Training
 Disallow: /
 
-User-agent: meta-externalagent
-Disallow: /
-
-User-agent: GoogleOther
+User-agent: KimiBot
 Disallow: /
 
 User-agent: Baiduspider
@@ -87,9 +121,6 @@ Disallow: /
 
 User-agent: AwarioSmartBot
 User-agent: AwarioRssBot
-Disallow: /
-
-User-agent: Google-CloudVertexBot
 Disallow: /
 
 User-agent: QualifiedBot
@@ -122,11 +153,8 @@ Disallow: /
 User-agent: magpie-crawler
 Disallow: /
 
-User-agent: KimiBot
-Disallow: /
-
 User-agent: CitibotSiteCrawler
 Disallow: /
 
 Sitemap: https://schooloffreelancing.com/sitemap.xml
-
+Sitemap: https://schooloffreelancing.com/video-sitemap.xml
