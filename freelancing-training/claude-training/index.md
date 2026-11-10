@@ -1,7 +1,7 @@
 ---
 title: "Claude AI - Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients."
 ---
 
@@ -36,7 +36,7 @@ Learn Anthropic Claude API & AI agent engineering — prompt engineering, tool u
 
 ### Training Rules
 
-- Our standard **[Training Rules](/legal/training-rules/)** apply to maintain high accountability, rapid project execution, and skill verification.
+- Our standard **[Training Rules](/legal/training-rules)** apply to maintain high accountability, rapid project execution, and skill verification.
 
 ### You'll leave with:
 

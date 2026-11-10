@@ -1,11 +1,15 @@
 ---
 title: "Credential Verification Support — School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us."
 ---
 
 # Credential Verification Support — School Of Freelancing
+
+## AI Overview
+
+**Credential Verification Support** is School of Freelancing's service for confirming to an employer, client or partner platform that a named student completed our training. It is free within 1 year of completion and $20 USD (non-refundable) after that. We share only what the student has authorized. Request it via the [contact page](/contact-us/) or [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .
 
 ## 1. Introduction
 

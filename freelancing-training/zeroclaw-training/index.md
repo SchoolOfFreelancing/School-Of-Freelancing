@@ -1,27 +1,27 @@
 ---
-title: "ZeroClaw — Freelancing Training"
+title: "ZeroClaw Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it."
+date: 2026-11-11
+description: "Learn ZeroClaw deployment, build AI agents, and develop practical skills to win global freelance projects."
 ---
 
-# ZeroClaw — Freelancing Training
+# ZeroClaw Freelancing Training | School Of Freelancing
 
 ## Overview
 
-A hands-on Freelancing training covering ZeroClaw fundamentals, production deployment, and building a profitable service around it.
+Learn ZeroClaw deployment, configure autonomous AI agents, build real-world projects, and develop services for global clients. Enroll now, reserve your training seat, and take the first step toward your AI freelancing career.
 
-## Training Features:
+## About Training
 
 | Aspect | Detail |
 | --- | --- |
-| Duration: | 20 hours over 2 weeks. |
-| Price: | $115 (One-Time Investment). |
-| Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
+| Price: | $115 (One-Time Investment / Lifetime Value). |
+| Duration: | 20 Hands-on intensive sessions across 2 weeks. |
+| Format: | 100% Live, Instructor-Led Training — No Pre-Recorded Videos. |
 | Covers: | Deploy ZeroClaw into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | Freelancers and IT professionals who want to specialize in high-performance ZeroClaw deployments and launch a freelance career around them. |
 
-### Participation Requirements:
+## Participation Requirements
 
 ### Training Prerequisites
 
@@ -35,7 +35,7 @@ A hands-on Freelancing training covering ZeroClaw fundamentals, production deplo
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

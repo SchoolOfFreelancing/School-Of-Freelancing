@@ -1,11 +1,11 @@
 ---
-title: "How to Deploy a Linux Server from Zero to Production | School of Freelancing"
+title: "Deploy a Linux Server from Zero to Production"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Step-by-step guide to deploying a production-ready Ubuntu Linux server: installation, security hardening, networking, package management, systemd services, backups, and monitoring."
+date: 2026-11-11
+description: "Learn Ubuntu Linux server deployment for freelance projects, including security hardening, networking, systemd, backups, monitoring, and client support."
 ---
 
-# How to Deploy a Linux Server from Zero to Production | School of Freelancing
+# Deploy a Linux Server from Zero to Production
 
 ## Overview
 
@@ -265,4 +265,4 @@ You now have a production-ready Linux server. Next, you can:
 
 ## Learn More
 
-For hands-on training and expert guidance, check out our [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/) program that covers everything from server setup through production operations.
+For hands-on training and expert guidance, check out our [Linux Freelancing Training](/freelancing-training/linux-freelancing-training) program that covers everything from server setup through production operations.

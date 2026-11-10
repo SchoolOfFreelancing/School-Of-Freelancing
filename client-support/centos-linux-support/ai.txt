@@ -1,30 +1,25 @@
 # AI.TXT
 # School Of Freelancing
 # AI-readable website discovery document
-#
-# Generated from the website directory structure
-# and the existing sitemap.xml.
-# Generated UTC: 2026-09-19T00:27:11+00:00
+# Generated UTC: 2026-11-10T21:17:05+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/client-support/centos-linux-support/
+Section: https://schooloffreelancing.com/client-support/centos-linux-support
 
 # PURPOSE
-# This document provides lightweight page discovery
-# information for AI agents, automated clients,
-# browsers and other crawlers.
+# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/client-support/centos-linux-support/
-Title: CentOS Linux — Support | Hire Support
+Page: https://schooloffreelancing.com/client-support/centos-linux-support
+Title: CentOS Linux Support | School Of Freelancing
 Canonical: https://schooloffreelancing.com/client-support/centos-linux-support
-Description: Hire CentOS Linux Support for server setup, troubleshooting, security, optimization, and system administration.
+Description: Hire CentOS Linux support for server setup, troubleshooting, security hardening, optimization, and system administration.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/client-support/
-Current: https://schooloffreelancing.com/client-support/centos-linux-support/
+Parent: https://schooloffreelancing.com/client-support
+Current: https://schooloffreelancing.com/client-support/centos-linux-support
 
 # HTML DISCOVERY
-HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">
+# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">

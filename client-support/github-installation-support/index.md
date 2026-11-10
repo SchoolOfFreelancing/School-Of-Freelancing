@@ -1,7 +1,7 @@
 ---
 title: "GitHub — Installation | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repository management."
 ---
 

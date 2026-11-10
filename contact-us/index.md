@@ -1,11 +1,11 @@
 ---
-title: "Contact Us | School Of Freelancing"
+title: "Contact Us: School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible."
 ---
 
-# Contact Us | School Of Freelancing
+# Contact Us: School Of Freelancing
 
 ## Get in Touch
 

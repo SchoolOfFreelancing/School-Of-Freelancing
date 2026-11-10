@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training & IT Support in Singapore"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Top Singapore freelance training & trusted business IT services. Level up your career and tech in Singapore. Enrol now for success!"
 ---
 
@@ -13,13 +13,13 @@ description: "Top Singapore freelance training & trusted business IT services. L
 
 Top-rated remote freelance training for Singapore citizens. Master Linux, DevOps, VoIP, and AI agent building through live, timezone-aligned classes.
 
-[Explore Freelancing Programs →](/freelancing-training/)
+[Explore Freelancing Programs →](/freelancing-training)
 
 ### Business IT Services
 
 Enterprise-grade remote IT support for local businesses. We proactively manage your Linux, Cloud, VoIP, and AI infrastructure under strict SLA terms.
 
-[View Business Services →](/client-support/)
+[View Business Services →](/client-support)
 
 ## Why Singapore Citizens & Businesses Choose Us
 

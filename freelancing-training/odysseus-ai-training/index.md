@@ -1,17 +1,17 @@
 ---
-title: "Odysseus AI — Freelancing Training"
+title: "Odysseus AI Training | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
-# Odysseus AI — Freelancing Training
+# Odysseus AI Training | School Of Freelancing
 
 ## Overview
 
 Learn Odysseus AI for real-world freelancing, including AI agent setup, automation, Linux deployment, troubleshooting, and client-ready solutions, so you can confidently deliver projects and win paid AI freelancing work.
 
-## Training Features:
+## About Training
 
 | Aspect | Detail |
 | --- | --- |
@@ -21,7 +21,7 @@ Learn Odysseus AI for real-world freelancing, including AI agent setup, automati
 | Covers: | Production deployment of a Self-Hosted AI Workspace; strategies to secure premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
 | Best for: | Aspiring freelancers and IT pros looking to master privacy-first, self-hosted AI infrastructure and build a high-income freelance business. |
 
-## Participation Requirements:
+## Participation Requirements
 
 ### Training Prerequisites
 
@@ -35,7 +35,7 @@ Learn Odysseus AI for real-world freelancing, including AI agent setup, automati
 
 ### Training Rules
 
-- These **[Rules](/legal/training-rules/)** apply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.
+- These **[Rules](/legal/training-rules)** apply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.
 
 ## You'll leave with:
 
@@ -45,7 +45,7 @@ A robust client portfolio proving real production deployment and data-privacy en
 
 Production-grade habits for server hardening, routine maintenance, and workspace troubleshooting.
 
-## Training Modules
+### Training Modules
 
 | Session | Topic | Content |
 | --- | --- | --- |

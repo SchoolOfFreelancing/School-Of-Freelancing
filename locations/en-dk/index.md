@@ -1,8 +1,8 @@
 ---
 title: "Denmark Freelance Training and IT Services"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Boost your freelancing career with comprehensive Linux, DevOps, VoIP, and AI training and remote client support specifically tailored for professionals and businesses in Denmark."
+date: 2026-11-11
+description: "Denmark freelancers and businesses: get expert Linux, DevOps, VoIP, and AI training plus remote IT support tailored to your professional needs."
 ---
 
 # Denmark Freelance Training and IT Services
@@ -13,13 +13,13 @@ description: "Boost your freelancing career with comprehensive Linux, DevOps, Vo
 
 Timezone-aligned freelance training for professionals in Denmark. Master Linux, DevOps, VoIP, and AI-platform skills live instructor-led, then apply them in the freelance marketplace.
 
-[Explore Freelancing Programs →](/freelancing-training/)
+[Explore Freelancing Programs →](/freelancing-training)
 
 ### Business IT Services
 
 Enterprise-grade remote IT support for Danish businesses. Fast, secure Linux, cloud, VoIP, and AI-platform support under strict SLA terms.
 
-[View Business Services →](/client-support/)
+[View Business Services →](/client-support)
 
 ### Denmark's Freelance & IT Market
 

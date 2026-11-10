@@ -1,7 +1,7 @@
 ---
 title: "LocalAI — Self-Hosted LLM Setup | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware."
 ---
 
@@ -9,7 +9,7 @@ description: "Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision,
 
 ## Support Overview
 
-Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware. Explore related enterprise AI solutions like our [Odysseus AI Services](/client-support/odysseus-ai-services/) or train your team with [OpenAI Developer Training](/freelancing-training/openai-training/) .
+Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware. Explore related enterprise AI solutions like our [Odysseus AI Services](/client-support/odysseus-ai-services) or train your team with [OpenAI Developer Training](/freelancing-training/openai-training) .
 
 ## Key Takeaways
 

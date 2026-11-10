@@ -1,11 +1,11 @@
 ---
-title: "Global Linux & AI Training & Support | Locations"
+title: "Locations we serve"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Global Linux and AI training & support for freelancers, businesses, and professionals worldwide."
 ---
 
-# Global Linux & AI Training & Support | Locations
+# Locations we serve
 
 ## Don't See Your Country?
 

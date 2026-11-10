@@ -16,5 +16,7 @@
 /.well-known/http-message-signatures-directory
   Content-Type: application/http-message-signatures-directory+json
   Access-Control-Allow-Origin: *
-/*
-  X-Robots-Tag: llms-txt cloudflare
+# X-Robots-Tag removed — "llms-txt" and "cloudflare" are not valid X-Robots-Tag
+# directives per Google spec. This file is also ignored by Cloudflare Pages
+# (only the root _headers file is processed). Indexing is controlled via the
+# meta robots tag in each HTML page and robots.txt in the site root.

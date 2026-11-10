@@ -1,8 +1,8 @@
 ---
 title: "GOautodial — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICIdial integration, and carrier trunking, then build a profitable freelance service."
+date: 2026-11-11
+description: "Learn GOautodial, Asterisk, and VICIdial call center setup, predictive dialers, SIP trunking, and CRM integration for freelancing."
 ---
 
 # GOautodial — Freelancing Training
@@ -36,7 +36,7 @@ Learn GOautodial call center deployment, predictive dialer setup, Asterisk/VICId
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

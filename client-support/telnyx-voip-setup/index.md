@@ -1,7 +1,7 @@
 ---
 title: "Telnyx VoIP Setup Support | Call Routing & SIP Trunking"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment & technical support."
 ---
 

@@ -1,30 +1,30 @@
 ---
-title: "Telnyx — SMS API Freelancing Training"
+title: "Telnyx SMS API Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Learn to integrate Telnyx SMS APIs for automated texting and OTPs. Boost your freelance developer portfolio and land high-paying gigs. Enroll today!"
+date: 2026-11-11
+description: "Learn to build a bulk SMS system with the Telnyx SMS API and attract high-value global clients. Enroll today!"
 ---
 
-# Telnyx — SMS API Freelancing Training
+# Telnyx SMS API Freelancing Training
 
 ## Overview
 
-Learn to deploy a compliant 2-way bulk SMS system using the Telnyx Messaging API, Jasmin Gateway, playSMS, and RabbitMQ on DigitalOcean, then package that setup into high-demand freelance services for global clients.
+Learn to build and deploy a compliant two-way bulk SMS system using the Telnyx Messaging API, REST/HTTP, and SMPP. Turn your hands-on project into in-demand freelance services for global clients.
 
-## Training Features:
+## About Training
 
 | Aspect | Detail |
 | --- | --- |
-| Duration: | 30 hours of hands-on training over one month. |
-| Price: | $799 (One-Time Investment). |
-| Format: | Online, Hands-On Training delivered across one month modules with a flexible schedule. |
-| Covers: | Deploy a compliant 2-way bulk SMS system using Telnyx Messaging API, Jasmin Gateway, playSMS & RabbitMQ, and offer it as a freelance service. |
-| Best for: | The ultimate Telnyx SMS API training designed to help developers and freelancers master compliant SMS infrastructure and sign premium global clients. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| Price: | $799 (One-Time Investment / Lifetime Value). |
+| Duration: | 30 hands-on training sessions across one month. |
+| Format: | 100% Live, instructor-led training, with no pre-recorded videos. |
+| Covers: | Deploy a compliant two-way bulk SMS system using the Telnyx Messaging API, REST/HTTP, and SMPP, and offer the solution as a freelance service. |
+| Best for: | Businesses, developers, and freelancers who want hands-on Telnyx SMS API training to build compliant SMS infrastructure and win high-value global clients. |
+| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply and win jobs. |
 
 ### Participation Requirements:
 
-### Training Prerequisites
+## About Training
 
 - **[DigitalOcean account,](https://try.digitalocean.com/freetrialoffer/)** Ubuntu Linux Server, & a Telnyx account/domain for 10DLC registration.
 - **Rigorous:** Need to have patience and concentration during all training sessions.
@@ -36,17 +36,17 @@ Learn to deploy a compliant 2-way bulk SMS system using the Telnyx Messaging API
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### What You'll Learn:
 
-Telnyx API fundamentals, authentication, and 10DLC carrier compliance
+Telnyx SMS API integration, secure authentication, and 10DLC carrier compliance configuration.
 
-SMS gateway architecture, deployment, and two-way messaging with webhooks
+SMS gateway architecture, deployment, and two-way messaging integration using webhooks.
 
-Jasmin/playSMS integration, cost optimization, and post-installation support
+Jasmin SMS Gateway and playSMS integration, messaging cost optimization, and post-installation support.
 
-## Training Modules
+### Training Modules
 
 | Week | Session | Topic | Content |
 | --- | --- | --- | --- |
@@ -71,14 +71,14 @@ Jasmin/playSMS integration, cost optimization, and post-installation support
 | 19 | 2-Way Messaging Testing | Verifying real-time bidirectional SMS delivery between user and portal |  |
 | 20 | GSM-7 vs. UCS-2 Encoding | Character set optimization, encoding conversion, & unit cost reduction |  |
 | 21 | Message Concatenation | Managing UDH header parsing & multi-part long SMS message assembly |  |
-| 22 | Throughput & Rate Limiting | Dynamic throughput throttling based on 10DLC & Toll-Free number caps |  |
-| 23 | Webhook Error Handling | Handling retries, non-delivery status codes, and server response logs |  |
-| **Week 4** | 24 | Message Queue Architecture | Deploying RabbitMQ / AMQP message broker for high-volume SMS queues |
-| 25 | Carrier Opt-Out Management | Implementing native STOP / UNSUBSCRIBE auto-replies & suppression lists |  |
-| 26 | DLR Tracking Dashboards | Building real-time Delivery Receipt (DLR) tracking & status dashboards |  |
-| 27 | SHAFT Content Filtering | Activating USA Compliance Shield & filtering SHAFT-violating content |  |
-| 28 | System Stress Testing | Simulating bulk SMS message dispatches, concurrency tests, and queuing |  |
-| 29 | Production Launch Setup | Deploying production-ready 2-way SMS Gateway system with SSL & backup |  |
+| 22 | Portfolio Repository Build | Structuring a public GitHub repository to showcase production work. |  |
+| 23 | Service Packaging | Defining freelance packages, scope, and pricing models. |  |
+| **Week 4** | 24 | Upwork Profile Setup | Writing an effective Upwork profile, bio, and portfolio links. |
+| 25 | Freelancer Marketplace Profiles | Setting up Guru, Freelancer.com, and alternative platform profiles. |  |
+| 26 | Proof of work (video) | Create proof-of-work YouTube videos to promote freelance gigs. |  |
+| 27 | Social Lead Generation | Creating LinkedIn content, social posts, and direct outreach workflows. |  |
+| 28 | Bidding & Proposal Strategy | Search filters, proposal writing, and practical application workflows. |  |
+| 29 | Client Onboarding & Delivery | Scope-setting, client communication, milestone delivery, and invoicing. |  |
 | 30 | Capstone Review & Client Docs | System auditing, handoff document preparation, and final Q&A review |  |
 
 ## Secure Your Seat Now

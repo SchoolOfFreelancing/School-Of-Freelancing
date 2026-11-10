@@ -1,7 +1,7 @@
 ---
 title: "Docker — Job Support | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Hire Docker Job Support for deployment, troubleshooting, Docker Compose, containers, networking, and CI/CD."
 ---
 

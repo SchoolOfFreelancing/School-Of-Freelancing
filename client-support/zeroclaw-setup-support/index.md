@@ -1,7 +1,7 @@
 ---
 title: "ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration."
 ---
 

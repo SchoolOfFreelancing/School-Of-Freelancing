@@ -1,7 +1,7 @@
 ---
 title: "FusionPBX: Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service."
 ---
 
@@ -36,7 +36,7 @@ Learn FusionPBX VoIP deployment, advanced configuration, and call-routing setup,
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

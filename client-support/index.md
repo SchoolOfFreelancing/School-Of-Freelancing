@@ -1,15 +1,15 @@
 ---
-title: "Client Support — School Of Freelancing"
+title: "Support: School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Get reliable, expert remote Client Support 24/7. Trusted solutions for all your technical needs."
 ---
 
-# Client Support — School Of Freelancing
+# Support: School Of Freelancing
 
-![DigitalOcean Client Support](/assets/images/digitalocean.webp)
+![DigitalOcean Client Support](/assets/images/digitalocean.svg)
 
-## [DigitalOcean Cloud Support](/client-support/digitalocean-cloud-support/)
+## [DigitalOcean Cloud Support](/client-support/digitalocean-cloud-support)
 
 Hire DigitalOcean cloud experts for Linux, security, deployment, troubleshooting, and optimization—on demand.
 
@@ -23,7 +23,7 @@ Hire DigitalOcean cloud experts for Linux, security, deployment, troubleshooting
 
 ![Hummingbot Setup Support](/assets/images/blackhummingbot.svg)
 
-## [Hummingbot Installation Support](/client-support/hummingbot-installation-support/)
+## [Hummingbot Installation Support](/client-support/hummingbot-installation-support)
 
 Hire Hummingbot experts support to fix installation, dependencies, API, configuration, and deployment issues fast.
 
@@ -35,7 +35,7 @@ Hire Hummingbot experts support to fix installation, dependencies, API, configur
 - API Integration, Strategy & Bug Fixing
 - Post-installation Hummingbot Support
 
-## [Voice AI Agent Setup](/client-support/voice-ai-agent-setup/)
+## [Voice AI Agent Setup](/client-support/voice-ai-agent-setup)
 
 Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration, and deployment.
 
@@ -47,9 +47,9 @@ Hire Voice AI Agent experts for Vapi, STT, LLM, TTS, telephony, API integration,
 - Advanced Function Calling Configurations
 - Detailed Analytics & Call Analytics Setup
 
-![Linux Server Support](/assets/images/linux.webp)
+![Linux Server Support](/assets/images/linux.svg)
 
-## [Linux Server Support](/client-support/linux-server-support/)
+## [Linux Server Support](/client-support/linux-server-support)
 
 Get elite Linux server support for seamless setup, airtight security, and high-performance deployment.
 
@@ -61,9 +61,9 @@ Get elite Linux server support for seamless setup, airtight security, and high-p
 - Post-Installation Optimization
 - Comprehensive Security Auditing
 
-![Hermes Agent Setup](/assets/images/hermesagent.webp)
+![Hermes Agent Setup](/assets/images/hermesagent.svg)
 
-## [Hermes Agent Setup](/client-support/hermes-agent-setup/)
+## [Hermes Agent Setup](/client-support/hermes-agent-setup)
 
 Production-ready Hermes Agent for seamless task automation, chat workflows, custom coding, and remote messaging control.
 
@@ -75,23 +75,23 @@ Production-ready Hermes Agent for seamless task automation, chat workflows, cust
 - Dynamic Multi-Profile System
 - Secure Sandboxed Environment
 
-![Odysseus AI Setup](/assets/images/odysseus.webp)
+![Odysseus AI Setup](/assets/images/odysseus.svg)
 
-## [Odysseus AI Setup](/client-support/odysseus-ai-setup/)
+## [Odysseus AI Setup](/client-support/odysseus-ai-setup)
 
 Hire Odysseus AI production setup to run private AI chats, autonomous agents, and productivity tools on your own hardware.
 
 **Features:**
 
 - Production-Grade AI Deployment
-- EEnterprise LLM Integration
+- Enterprise LLM Integration
 - Custom Fine-Tuning Scripts
 - Collaborative Web UI Access
 - Privacy & Security Hardening
 
-![OpenClaw Setup Support](/assets/images/openclaw.webp)
+![OpenClaw Setup Support](/assets/images/openclaw.svg)
 
-## [OpenClaw Setup Support](/client-support/openclaw-setup-support/)
+## [OpenClaw Setup Support](/client-support/openclaw-setup-support)
 
 Get a production-grade, self-hosted OpenClaw setup to run autonomous workflows and real-world computer tasks via chat.
 
@@ -105,7 +105,7 @@ Get a production-grade, self-hosted OpenClaw setup to run autonomous workflows a
 
 ![LocalAI Setup Support](/assets/images/localai.svg)
 
-## [LocalAI Setup Support](/client-support/localai-setup-support/)
+## [LocalAI Setup Support](/client-support/localai-setup-support)
 
 Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and video engines locally on your existing hardware.
 
@@ -119,7 +119,7 @@ Get LocalAI Self-Hosted LLM setup to run open-source LLMs, vision, voice, and vi
 
 ![ZeroClaw Setup Support](/assets/images/zeroc.svg)
 
-## [ZeroClaw Setup Support](/client-support/zeroclaw-setup-support/)
+## [ZeroClaw Setup Support](/client-support/zeroclaw-setup-support)
 
 Deploy ZeroClaw for your personal AI runtime, secure multi-LLM API routing, and low-latency language models.
 
@@ -131,9 +131,9 @@ Deploy ZeroClaw for your personal AI runtime, secure multi-LLM API routing, and 
 - Low-Latency Architecture Optimization
 - Post-Installation Infrastructure Support
 
-![GitLab Setup Support](/assets/images/gitlab.webp)
+![GitLab Setup Support](/assets/images/gitlab.svg)
 
-## [GitLab Installation Support](/client-support/gitlab-installation-support/)
+## [GitLab Installation Support](/client-support/gitlab-installation-support)
 
 GitLab Self-Managed setup support for teams to plan, code, secure, test, deploy & monitor apps from one UI.
 
@@ -145,9 +145,9 @@ GitLab Self-Managed setup support for teams to plan, code, secure, test, deploy 
 - Optimized CI/CD Runners Configuration
 - User Access Control & Security Hardening
 
-![GitHub Installation Support](/assets/images/github.webp)
+![GitHub Installation Support](/assets/images/github.svg)
 
-## [GitHub Installation Support](/client-support/github-installation-support/)
+## [GitHub Installation Support](/client-support/github-installation-support)
 
 Hire GitHub Installation Support for secure setup, configuration, troubleshooting, and repo management.
 
@@ -159,9 +159,9 @@ Hire GitHub Installation Support for secure setup, configuration, troubleshootin
 - Optimized Actions Pipelines Configuration
 - Advanced Monitoring & Diagnostics
 
-![Docker Engineer Support](/assets/images/docker.webp)
+![Docker Engineer Support](/assets/images/docker.svg)
 
-## [Docker Job Support](/client-support/docker-job-support/)
+## [Docker Job Support](/client-support/docker-job-support)
 
 Hire Docker Job Support for deployment, troubleshooting, Docker Compose, containers, networking, and CI/CD.
 
@@ -173,9 +173,9 @@ Hire Docker Job Support for deployment, troubleshooting, Docker Compose, contain
 - Secure Secrets Management Deployment
 - Container Networking & Volume Setup
 
-![Telnyx VoIP Setup Support](/assets/images/telnyx.webp)
+![Telnyx VoIP Setup Support](/assets/images/telnyx.svg)
 
-## [Telnyx VoIP Setup](/client-support/telnyx-voip-setup/)
+## [Telnyx VoIP Setup](/client-support/telnyx-voip-setup)
 
 Telnyx VoIP installation support for SIP trunking, private IP routing, and global call center integrations.
 
@@ -189,7 +189,7 @@ Telnyx VoIP installation support for SIP trunking, private IP routing, and globa
 
 ![Twilio VoIP Setup Support](/assets/images/twilio.svg)
 
-## [Twilio VoIP Setup](/client-support/twilio-voip-setup/)
+## [Twilio VoIP Setup](/client-support/twilio-voip-setup)
 
 Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration.
 
@@ -201,9 +201,9 @@ Hire Twilio VoIP Setup support for SIP trunking, call routing, phone numbers, an
 - Phone Numbers Provisioning Management
 - Real-Time Voice Insights & Diagnostics
 
-![FusionPBX VoIP Setup](/assets/images/fusionpbx.webp)
+![FusionPBX VoIP Setup](/assets/images/fusionpbx.svg)
 
-## [FusionPBX VoIP Setup](/client-support/fusionpbx-voip-setup/)
+## [FusionPBX VoIP Setup](/client-support/fusionpbx-voip-setup)
 
 Hire FusionPBX VoIP Setup support for SIP, call routing, extensions, IVR, and call center integration.
 
@@ -215,9 +215,9 @@ Hire FusionPBX VoIP Setup support for SIP, call routing, extensions, IVR, and ca
 - High-availability FreeSWITCH tuning.
 - Custom IVR & Multi-Level Auto-Attendant
 
-![GOAutoDial VoIP Setup](/assets/images/goautodial.webp)
+![GOAutoDial VoIP Setup](/assets/images/goautodial.svg)
 
-## [GOAutoDial VoIP Setup](/client-support/goautodial-voip-setup/)
+## [GOAutoDial VoIP Setup](/client-support/goautodial-voip-setup)
 
 Hire GOAutoDial VoIP Setup support for SIP, dialers, call routing, IVR, and call center integration.
 
@@ -231,7 +231,7 @@ Hire GOAutoDial VoIP Setup support for SIP, dialers, call routing, IVR, and call
 
 ![Ubuntu Linux Support](/assets/images/ubuntu.svg)
 
-## [Ubuntu Linux Support](/client-support/ubuntu-linux-support/)
+## [Ubuntu Linux Support](/client-support/ubuntu-linux-support)
 
 Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration.
 
@@ -245,7 +245,7 @@ Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimizat
 
 ![CentOS Linux Support](/assets/images/centos.svg)
 
-## [CentOS Linux Support](/client-support/centos-linux-support/)
+## [CentOS Linux Support](/client-support/centos-linux-support)
 
 Hire CentOS Linux Support for server setup, troubleshooting, security, optimization, and system administration.
 
@@ -257,9 +257,9 @@ Hire CentOS Linux Support for server setup, troubleshooting, security, optimizat
 - Modern Enterprise Migration Strategies
 - 24-Hour Post-Installation Support
 
-![OpenAI Platform Support](/assets/images/openai.webp)
+![OpenAI Platform Support](/assets/images/openai.svg)
 
-## [OpenAI Platform Support](/client-support/openai-platform-support/)
+## [OpenAI Platform Support](/client-support/openai-platform-support)
 
 Hire OpenAI Support for API setup, integrations, agents, troubleshooting, and production deployment.
 
@@ -271,9 +271,9 @@ Hire OpenAI Support for API setup, integrations, agents, troubleshooting, and pr
 - Custom Autonomous Agent Architecture
 - 24-Hour Post-Installation Support
 
-![Claude Platform Support](/assets/images/claudelogo.webp)
+![Claude Platform Support](/assets/images/claudelogo.svg)
 
-## [Claude Platform Support](/client-support/claude-platform-support/)
+## [Claude Platform Support](/client-support/claude-platform-support)
 
 Deploy Claude apps: optimize Anthropic pipelines, track large contexts, implement tool-calling, and secure middleware.
 
@@ -285,9 +285,9 @@ Deploy Claude apps: optimize Anthropic pipelines, track large contexts, implemen
 - Secure Enterprise Middleware Deployment
 - 24-Hour Post-Installation Support
 
-![Telnyx SMS Setup](/assets/images/telnyx.webp)
+![Telnyx SMS Setup](/assets/images/telnyx.svg)
 
-## [Telnyx SMS Setup](/client-support/telnyx-sms-setup/)
+## [Telnyx SMS Setup](/client-support/telnyx-sms-setup)
 
 Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
 
@@ -301,7 +301,7 @@ Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and b
 
 ![Twilio SMS Setup](/assets/images/twilio.svg)
 
-## [Twilio SMS Setup](/client-support/twilio-sms-setup/)
+## [Twilio SMS Setup](/client-support/twilio-sms-setup)
 
 Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration.
 
@@ -315,7 +315,7 @@ Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and b
 
 ![Jasmin SMS Gateway Support](/assets/images/jasmin.svg)
 
-## [Jasmin SMS Gateway Setup](/client-support/jasmin-sms-gateway-setup/)
+## [Jasmin SMS Gateway Setup](/client-support/jasmin-sms-gateway-setup)
 
 Hire Jasmin SMS Gateway Setup support for SMPP, routing, APIs, delivery, and enterprise SMS integration.
 

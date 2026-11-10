@@ -1,17 +1,17 @@
 ---
-title: "Freelancing Training — Global Client Support"
+title: "Linux and AI Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Live freelancing, Linux and AI training with professional cloud tech support for freelancers and businesses worldwide."
+date: 2026-11-11
+description: "Live Linux and AI freelancing training for aspiring freelancers, with hands-on Linux technical support for businesses worldwide."
 ---
 
-# Freelancing Training — Global Client Support
+# Linux and AI Freelancing Training | School Of Freelancing
 
 ## Freelancing Training
 
 ![Linux Freelancing Training](/assets/images/linux.webp)
 
-### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training/)
+### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training)
 
 Become an in-demand Linux System Administrator, build a freelance business, and win high-paying global clients.
 
@@ -25,7 +25,7 @@ Become an in-demand Linux System Administrator, build a freelance business, and 
 
 ![Hermes Agent Freelancing Training](/assets/images/hermesagent.webp)
 
-### [Hermes Agent Freelancing Training](/freelancing-training/hermes-agent-training/)
+### [Hermes Agent Training](/freelancing-training/hermes-agent-training)
 
 Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
 
@@ -39,7 +39,7 @@ Build an in-demand freelance career as a Hermes AI Agent Engineer and attract pr
 
 ![Telnyx SMS API Freelancing Training](/assets/images/telnyx.webp)
 
-### [Telnyx SMS API Freelancing Training](/freelancing-training/telnyx-sms-api-training/)
+### [Telnyx SMS API Training](/freelancing-training/telnyx-sms-api-training)
 
 Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium global clients now!
 
@@ -51,21 +51,21 @@ Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium 
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
 
-## Reviews
+## Student Reviews
 
-"Definitely one of the best schools to kickstart your freelancing career. The expertise they share is of global quality, keeping students up to date with the latest technology trends."
+"I did join School Of Freelancing and completed successfully my training and complete more than 12 projects and $1000+ during training. Thanks"
 
-"One of the best institutes for freelancers in Bangladesh, even in the world. The instructor was very knowledgeable and helpful, explaining complicated ideas in a way that was simple to understand."
+"I have compleded my training here and earn my first income 860 usd doing training here. To be honest this is my best experience join training at School Of Freelancing was great. My first job landed direct client form Germany."
 
-"School Of Freelancing is the best place for Linux Freelancing. I learned and earned my first income working with this school. Highly recommended."
+"On this day, when I check my profile on Freelancing platforms, I can see more than 15 projects, all are completed with 5 star ratings, which would never be possible without the training and guidance, that I have received from School Of Freelancing."
 
 ## Client Support
 
 ![DigitalOcean 24/7 Tech Support](/assets/images/digitalocean.webp)
 
-### [DigitalOcean Cloud Support](/client-support/digitalocean-cloud-services/)
+### [DigitalOcean Cloud Support](/client-support/digitalocean-cloud-support)
 
-DigitalOcean 24/7 Tech Support for Linux Servers, AI, Kubernetes, VPS, Networking, and Production Automation.
+DigitalOcean cloud support for Linux servers, AI workloads, Kubernetes, VPS networking, and production automation.
 
 **Features:**
 
@@ -75,9 +75,9 @@ DigitalOcean 24/7 Tech Support for Linux Servers, AI, Kubernetes, VPS, Networkin
 - Automated Backup & Monitoring
 - Production Ready App Deployment
 
-![Hummingbot Setup Support](/assets/images/blackhummingbot.svg)
+![Hummingbot Setup Support](/assets/images/blackhummingbot.webp)
 
-### [Hummingbot Setup Support](/client-support/hummingbot-installation-services/)
+### [Hummingbot Setup Support](/client-support/hummingbot-installation-support)
 
 Can't get Hummingbot running? Get expert help fixing installation, dependency, API, and configuration bugs.
 
@@ -89,7 +89,7 @@ Can't get Hummingbot running? Get expert help fixing installation, dependency, A
 - API Integration, Strategy & Bug Fixing
 - Post-installation Hummingbot Support
 
-### [Voice AI Agent Setup Support](/client-support/vapi-platform-services/)
+### [Voice AI Agent Setup Support](/client-support/voice-ai-agent-setup)
 
 Total control over your voice agents. Build, deploy, and improve voice agents as fast as you ship.
 

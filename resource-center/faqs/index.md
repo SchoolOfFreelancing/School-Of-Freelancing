@@ -1,12 +1,12 @@
 ---
-title: "Frequently Asked Questions and Answers — SOF"
+title: "FAQs: School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Answers to common questions about School of Freelancing's training programs and client support services."
 ---
 
-# Frequently Asked Questions and Answers — SOF
+# FAQs: School Of Freelancing
 
-## Freelancing Training FAQs
+## Training FAQs
 
-## Client Support FAQs
+## Support FAQs

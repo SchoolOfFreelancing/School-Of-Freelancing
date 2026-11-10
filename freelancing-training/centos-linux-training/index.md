@@ -1,8 +1,8 @@
 ---
 title: "CentOS Linux - Freelancing Training | School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & Next.js, troubleshoot errors, build portfolios, land clients."
+date: 2026-11-11
+description: "Learn CentOS Linux administration, deploy LEMP, Django, Hadoop, MEAN and Next.js, troubleshoot issues, and build a client-ready portfolio."
 ---
 
 # CentOS Linux - Freelancing Training | School of Freelancing
@@ -36,7 +36,7 @@ Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN & N
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

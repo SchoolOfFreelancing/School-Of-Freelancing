@@ -1,7 +1,7 @@
 ---
 title: "Jasmin SMS Gateway — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs, troubleshoot delivery, land freelance clients."
 ---
 
@@ -36,7 +36,7 @@ Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### What You'll Learn:
 

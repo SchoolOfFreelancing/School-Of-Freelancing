@@ -1,7 +1,7 @@
 ---
 title: "GitHub Freelancing Training | Setup, CI/CD & Jobs"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
 ---
 
@@ -36,7 +36,7 @@ Learn GitHub production setup, migration, version control, CI/CD, & project mana
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

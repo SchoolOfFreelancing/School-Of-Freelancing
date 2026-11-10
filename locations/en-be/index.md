@@ -1,8 +1,8 @@
 ---
 title: "Freelance Training and IT Services | Belgium"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Boost your freelancing career with live Linux, VoIP, DevOps, and AI training or request remote enterprise IT support tailored for professionals and businesses in Belgium."
+date: 2026-11-11
+description: "Build your freelancing career with live Linux, VoIP, DevOps, and AI training, or get remote IT support for professionals and businesses in Belgium."
 ---
 
 # Freelance Training and IT Services | Belgium
@@ -13,13 +13,13 @@ description: "Boost your freelancing career with live Linux, VoIP, DevOps, and A
 
 Timezone-aligned freelance training for professionals in Belgium. Master Linux, DevOps, VoIP, and AI-platform skills live instructor-led, then apply them in the freelance marketplace.
 
-[Explore Freelancing Programs →](/freelancing-training/)
+[Explore Freelancing Programs →](/freelancing-training)
 
 ### Business IT Services
 
 Enterprise-grade remote IT support for Belgian businesses. Fast, secure Linux, cloud, VoIP, and AI-platform support under strict SLA terms.
 
-[View Business Services →](/client-support/)
+[View Business Services →](/client-support)
 
 ### Belgium's Freelance & IT Market
 

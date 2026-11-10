@@ -1,7 +1,7 @@
 ---
 title: "Freelancing Training & IT Support Services in USA"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!"
 ---
 
@@ -13,13 +13,13 @@ description: "Top US freelance training & trusted business IT support. Elevate y
 
 US Timezone-aligned freelancing training. Master Linux, DevOps, VoIP, and AI platforms with live instructor guidance, then apply your skills directly in the global freelance market.
 
-[Explore Freelancing Programs →](/freelancing-training/)
+[Explore Freelancing Programs →](/freelancing-training)
 
 ### Client Support
 
 Remote enterprise client support for US businesses. Fast, secure Linux server setup, cloud engineering, VoIP integrations, and custom AI platform management.
 
-[View Business Services →](/client-support/)
+[View Business Services →](/client-support)
 
 ## Why US Students & Businesses Choose Us
 

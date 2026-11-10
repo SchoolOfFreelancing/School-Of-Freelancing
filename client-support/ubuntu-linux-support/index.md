@@ -1,7 +1,7 @@
 ---
 title: "Ubuntu Linux — Support | Hire Support"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Hire Ubuntu Linux Support for server setup, troubleshooting, security, optimization, and system administration."
 ---
 

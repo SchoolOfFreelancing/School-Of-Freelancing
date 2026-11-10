@@ -1,11 +1,11 @@
 ---
-title: "Call Center Setup Freelancing Training | School of Freelancing"
+title: "Call Center Setup — Freelancing Training"
 author: "Karim (Masum)"
-date: 2026-09-19
-description: "Learn enterprise call center infrastructure deployment, predictive dialers, IVR routing, SIP trunking, and CRM integration, then build a profitable freelance business."
+date: 2026-11-11
+description: "Learn call center deployment, predictive dialers, IVR, SIP trunking, and CRM integration, then build a profitable freelance business."
 ---
 
-# Call Center Setup Freelancing Training | School of Freelancing
+# Call Center Setup — Freelancing Training
 
 ## Overview
 
@@ -36,7 +36,7 @@ Learn enterprise call center infrastructure deployment, predictive dialer setup,
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules/)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

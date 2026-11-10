@@ -1,30 +1,25 @@
 # AI.TXT
 # School Of Freelancing
 # AI-readable website discovery document
-#
-# Generated from the website directory structure
-# and the existing sitemap.xml.
-# Generated UTC: 2026-09-19T00:27:11+00:00
+# Generated UTC: 2026-11-10T21:17:05+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+Section: https://schooloffreelancing.com/client-support/odysseus-ai-setup
 
 # PURPOSE
-# This document provides lightweight page discovery
-# information for AI agents, automated clients,
-# browsers and other crawlers.
+# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+Page: https://schooloffreelancing.com/client-support/odysseus-ai-setup
 Title: Odysseus — Self-hosted AI workspace setup | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+Canonical: https://schooloffreelancing.com/client-support/odysseus-ai-setup
 Description: Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/client-support/
-Current: https://schooloffreelancing.com/client-support/odysseus-ai-setup/
+Parent: https://schooloffreelancing.com/client-support
+Current: https://schooloffreelancing.com/client-support/odysseus-ai-setup
 
 # HTML DISCOVERY
-HTML-Discovery: <link rel="prefetch" href="RELATIVE_TO_PAGE">
+# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">

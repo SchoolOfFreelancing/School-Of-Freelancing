@@ -1,7 +1,7 @@
 ---
 title: "Telnyx SMS Setup Support | Business Messaging Integration"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support."
 ---
 

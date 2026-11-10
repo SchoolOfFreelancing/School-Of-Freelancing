@@ -1,7 +1,7 @@
 ---
 title: "Refund Policy — School of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services."
 ---
 
@@ -41,15 +41,15 @@ As with training, approved tech support refunds are initiated after 90 days and 
 
 ## 6. Pausing Instead of Refunding (Training)
 
-If you run into a scheduling conflict rather than needing a refund, our [Training Rules](/legal/training-rules/) allow you to pause training for up to two weeks. Longer absences may lead to temporary or permanent disqualification and a re-admission fee rather than a refund — see our Training Rules for the full details on absences and re-enrollment.
+If you run into a scheduling conflict rather than needing a refund, our [Training Rules](/legal/training-rules) allow you to pause training for up to two weeks. Longer absences may lead to temporary or permanent disqualification and a re-admission fee rather than a refund — see our Training Rules for the full details on absences and re-enrollment.
 
 ## 7. Disqualification Is Not a Refund Trigger
 
-Refunds are not issued for trainees who are suspended or disqualified for violating our Training Rules — including extended unexcused absence, inappropriate conduct toward a mentor or client, unauthorized VPN or dual-boot use, or attempted phishing/hacking. These situations are governed by our [Training Rules](/legal/training-rules/) , not this Refund Policy.
+Refunds are not issued for trainees who are suspended or disqualified for violating our Training Rules — including extended unexcused absence, inappropriate conduct toward a mentor or client, unauthorized VPN or dual-boot use, or attempted phishing/hacking. These situations are governed by our [Training Rules](/legal/training-rules) , not this Refund Policy.
 
 ## 8. How to Request a Refund
 
-To request a refund under one of the eligible conditions above — for either training or tech support — contact us via our [contact page](/contact-us/) with your order or enrollment details and the reason for your request. We'll review each request individually against the conditions in this policy.
+To request a refund under one of the eligible conditions above — for either training or tech support — contact us via our [contact page](/contact-us) with your order or enrollment details and the reason for your request. We'll review each request individually against the conditions in this policy.
 
 ## 9. Changes to This Policy
 

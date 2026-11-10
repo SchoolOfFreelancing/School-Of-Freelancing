@@ -1,7 +1,7 @@
 ---
 title: "Linux Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-09-19
+date: 2026-11-11
 description: "Become an in-demand Linux system administrator, build a freelance business, and win high-paying global clients."
 ---
 
@@ -9,20 +9,20 @@ description: "Become an in-demand Linux system administrator, build a freelance 
 
 ## Overview
 
-Learn Linux system administration for real-world freelancing, including server deployment, hardening, troubleshooting, automation, and client-ready solutions, so you can confidently deliver projects and win paid Linux freelancing work.
+Join live, hands-on Ubuntu Linux freelancing training. Learn server deployment, application production setup, security, troubleshooting, automation, monitoring, backups, and migrations through real projects, then deliver client work with confidence and start earning. Enroll now.
 
-## About Training:
+## About Training
 
 | Aspect | Detail |
 | --- | --- |
 | Price: | $599 (One-Time Investment / Lifetime Value). |
 | Duration: | 90 Hands-on intensive sessions across 6 months. |
-| Format: | 100% Live, Instructor-Led Training — No Pre-Recorded Videos. |
-| Covers: | Production deployment of real-world Linux server projects; strategies to secure premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
-| Best for: | Beginner-friendly for learners comfortable with any operating system, focused on hands-on, real-world, project-based Linux system administration. |
+| Format: | 100% Live, instructor-led training, with no pre-recorded videos. |
+| Covers: | Deploy real-world Linux server projects to production, and learn how to win premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
+| Best for: | Beginners comfortable with any operating system who want hands-on, project-based Linux system administration. |
 | (GMI)*: | Guaranteed Minimum Income secured only with 100% training attendance and active marketplace engagement (purchasing bids/connects to apply for jobs). |
 
-## Participation Requirements:
+## Participation Requirements
 
 ### Training Prerequisites
 
@@ -38,7 +38,7 @@ Learn Linux system administration for real-world freelancing, including server d
 
 - These **[Rules](/legal/training-rules/)** apply to all trainees. They keep our sessions fair, focused, and highly productive. Terms may update as the program evolves.
 
-## You'll leave with:
+## You'll leave with
 
 Hands-on experience deploying, hardening, and maintaining live, production Linux server environments.
 
@@ -46,6 +46,6 @@ A robust client portfolio proving real production deployment and systems adminis
 
 Production-grade habits for server troubleshooting, routine maintenance, and client support.
 
-## Training Modules:
+### Training Modules
 
 ## Secure Your Seat Now
