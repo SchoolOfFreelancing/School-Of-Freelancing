@@ -323,5 +323,38 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
  var waText = encodeURIComponent(lines.join('\n'));
  window.open('https://wa.me/8801748973769?text=' + waText, '_blank', 'noopener,noreferrer');
  });
-</script></body></html>
+</script>
+
+<chat-bubble-snippet
+  api-url="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/chat/completions"
+  hide-branding="true">
+</chat-bubble-snippet>
+
+<script>
+/* Move the chat bubble (and its chat window) to the bottom-left corner */
+customElements.whenDefined('chat-bubble-snippet').then(function () {
+  var host = document.querySelector('chat-bubble-snippet');
+  function moveLeft() {
+    var root = host.shadowRoot;
+    if (!root) return;
+    root.querySelectorAll('*').forEach(function (el) {
+      if (getComputedStyle(el).position !== 'fixed') return;
+      var r = el.getBoundingClientRect();
+      if (r.width && r.width < innerWidth * 0.9 && r.left > innerWidth / 2) {
+        el.style.setProperty('left', (innerWidth - r.right) + 'px', 'important');
+        el.style.setProperty('right', 'auto', 'important');
+      }
+    });
+  }
+  function start() {
+    if (!host.shadowRoot) return setTimeout(start, 100);
+    new MutationObserver(moveLeft).observe(host.shadowRoot, { childList: true, subtree: true, attributes: true });
+    moveLeft();
+    addEventListener('resize', moveLeft);
+  }
+  start();
+});
+</script>
+
+</body></html>
 
