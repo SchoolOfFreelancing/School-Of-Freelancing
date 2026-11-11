@@ -93,6 +93,12 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
+User-agent: Cloudflare-AI-Search
+Allow: /
+
+User-agent: Cloudflare-AutoRAG
+Allow: /
+
 # Pure training scrapers (blocked — no value to site, ai-train=no)
 
 User-agent: Bytespider
