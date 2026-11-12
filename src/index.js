@@ -640,6 +640,24 @@ export default {
 
     if (isRead) {
       /*
+       * Directory index URLs: /index.html -> /, /legal/index.html -> /legal
+       * (GET/HEAD only). A permanent 301 in ONE hop, so the assets layer's
+       * temporary redirect is never reached. Skipped if the target is missing.
+       */
+      if (url.pathname.endsWith("/index.html")) {
+        const indexTarget = url.pathname.replace(/\/index\.html$/, "") || "/";
+        if (await targetExists(url, indexTarget, env)) {
+          return new Response(null, {
+            status: 301,
+            headers: {
+              Location: url.origin + indexTarget + url.search,
+              "Cache-Control": "public, max-age=3600",
+            },
+          });
+        }
+      }
+
+      /*
        * Old URLs that were renamed or removed (GET/HEAD only).
        * Skipped automatically if the target page does not exist.
        * Also matches with a trailing slash, so it is ONE hop.
