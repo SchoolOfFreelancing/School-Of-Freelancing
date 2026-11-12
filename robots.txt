@@ -81,6 +81,9 @@ Allow: /
 User-agent: Cloudflare-AutoRAG
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
 # AI model-training crawlers (blocked, matches ai-train=no)
 # These do not affect Google Search or Bing indexing.
 
@@ -94,9 +97,6 @@ User-agent: Claude-Web
 Disallow: /
 
 User-agent: anthropic-ai
-Disallow: /
-
-User-agent: Google-Extended
 Disallow: /
 
 User-agent: Applebot-Extended
