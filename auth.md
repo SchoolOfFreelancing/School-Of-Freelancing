@@ -23,7 +23,7 @@ This is a browser-side WebMCP tool that fills in the payment-confirmation form o
 
 - Tool manifest: https://schooloffreelancing.com/.well-known/agent-skills.json
 - Tool implementation: https://schooloffreelancing.com/assets/js/tools.js
-- Registration page: https://schooloffreelancing.com/register/
+- Registration page: https://schooloffreelancing.com/register
 
 ### Supported Tools
 
@@ -122,11 +122,11 @@ https://schooloffreelancing.com/.well-known/oauth-protected-resource
 
 ### Training Catalog
 
-https://schooloffreelancing.com/freelancing-training/
+https://schooloffreelancing.com/freelancing-training
 
 ### Services Catalog
 
-https://schooloffreelancing.com/linux-ai-services/
+https://schooloffreelancing.com/linux-ai-services
 
 ### LLM Content
 
@@ -138,7 +138,7 @@ https://schooloffreelancing.com/llms-full.txt
 
 For human-confirmed registration, use:
 
-https://schooloffreelancing.com/contact-us/
+https://schooloffreelancing.com/contact-us
 
 The supported registration method is:
 

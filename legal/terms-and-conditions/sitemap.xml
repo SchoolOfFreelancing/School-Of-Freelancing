@@ -58,7 +58,7 @@
       },
       {
         "@type": "WebPage",
-        "@id": "https://schooloffreelancing.com/legal/terms-and-conditions/#webpage",
+        "@id": "https://schooloffreelancing.com/legal/terms-and-conditions#webpage",
         "name": "Terms and Conditions",
         "url": "https://schooloffreelancing.com/legal/terms-and-conditions",
         "description": "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.",
@@ -66,7 +66,7 @@
       },
       {
         "@type": "BreadcrumbList",
-        "@id": "https://schooloffreelancing.com/legal/terms-and-conditions/#breadcrumb",
+        "@id": "https://schooloffreelancing.com/legal/terms-and-conditions#breadcrumb",
         "itemListElement": [
           { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
           { "@type": "ListItem", "position": 2, "name": "Terms and Conditions", "item": "https://schooloffreelancing.com/legal/terms-and-conditions" }
