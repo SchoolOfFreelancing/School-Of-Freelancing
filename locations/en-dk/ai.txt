@@ -1,7 +1,7 @@
 # AI.TXT
 # School Of Freelancing
 # AI-readable website discovery document
-# Generated UTC: 2026-11-10T21:17:05+00:00
+# Generated UTC: 2026-11-18T17:41:44+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml

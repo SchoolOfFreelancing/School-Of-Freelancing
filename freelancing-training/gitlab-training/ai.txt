@@ -1,7 +1,7 @@
 # AI.TXT
 # School Of Freelancing
 # AI-readable website discovery document
-# Generated UTC: 2026-11-10T21:17:05+00:00
+# Generated UTC: 2026-11-18T17:41:44+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -13,9 +13,9 @@ Section: https://schooloffreelancing.com/freelancing-training/gitlab-training
 
 # PAGES
 Page: https://schooloffreelancing.com/freelancing-training/gitlab-training
-Title: GitLab — Freelancing Training | Setup, CI/CD & Jobs
+Title: GitLab Training for Freelancers: Hands-on Course | $239
 Canonical: https://schooloffreelancing.com/freelancing-training/gitlab-training
-Description: Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
+Description: GitLab training for freelancers. Gain practical skills with self-hosted setup, code hosting, migration, CI/CD, plus DevSecOps for client work. Enroll today.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/freelancing-training
