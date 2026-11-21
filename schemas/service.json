@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schooloffreelancing.com/schemas/service.json",
   "title": "ClientSupportService",
-  "description": "School of Freelancing client support service schema",
+  "description": "School Of Freelancing client support service schema",
   "type": "object",
   "properties": {
     "id": { "type": "string" },

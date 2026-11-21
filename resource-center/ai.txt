@@ -13,22 +13,22 @@ Section: https://schooloffreelancing.com/resource-center
 
 # PAGES
 Page: https://schooloffreelancing.com/resource-center
-Title: Resource Center | School of Freelancing
+Title: Resource Center | School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center
-Description: The School of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
+Description: The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
 
 Page: https://schooloffreelancing.com/resource-center/case-studies
-Title: Linux & AI Freelancing Case Studies | School of Freelancing
+Title: Linux & AI Freelancing Case Studies | School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/case-studies
 Description: See real client case studies in Docker, AI, VoIP, and trading infrastructure, then get expert support to deploy reliable solutions for your business.
 
 Page: https://schooloffreelancing.com/resource-center/faqs
 Title: FAQs: School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/faqs
-Description: Answers to common questions about School of Freelancing's training programs and client support services.
+Description: Answers to common questions about School Of Freelancing's training programs and client support services.
 
 Page: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
-Title: How to Create Your First AI Chatbot | School of Freelancing
+Title: How to Create Your First AI Chatbot | School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
 Description: Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
@@ -60,7 +60,7 @@ Description: Start Your Career as a Linux Freelancer! Watch the official promoti
 Page: https://schooloffreelancing.com/resource-center/testimonials
 Title: Testimonials: School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/testimonials
-Description: School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
+Description: School Of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/

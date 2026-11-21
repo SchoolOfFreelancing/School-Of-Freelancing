@@ -15,7 +15,7 @@ Section: https://schooloffreelancing.com/resource-center/faqs
 Page: https://schooloffreelancing.com/resource-center/faqs
 Title: FAQs: School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/faqs
-Description: Answers to common questions about School of Freelancing's training programs and client support services.
+Description: Answers to common questions about School Of Freelancing's training programs and client support services.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/resource-center

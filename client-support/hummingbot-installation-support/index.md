@@ -9,7 +9,7 @@ description: "Hire Hummingbot Installation Support for Linux server configuratio
 
 ## Support Overview
 
-Hire expert Hummingbot Installation Support from School of Freelancing for Linux VPS setup, exchange API integration, strategy configuration, troubleshooting, security, and production optimization—without a full-time engineer.
+Hire expert Hummingbot Installation Support from School Of Freelancing for Linux VPS setup, exchange API integration, strategy configuration, troubleshooting, security, and production optimization—without a full-time engineer.
 
 ## Key Takeaways
 

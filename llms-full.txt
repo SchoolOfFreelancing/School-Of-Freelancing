@@ -1,4 +1,4 @@
-# School of Freelancing — Complete Site Documentation
+# School Of Freelancing — Complete Site Documentation
 
 > Live Linux & AI Freelancing Training and Elite Client Support Services. Founded 2015, based in Bangladesh, delivering remote, instructor-led online training and hands-on IT engineering worldwide. All billing in USD.
 
@@ -6,7 +6,7 @@
 
 ## 1. Executive Summary & Organizational Profile
 
-- **Organization**: School of Freelancing
+- **Organization**: School Of Freelancing
 - **Website**: https://schooloffreelancing.com/
 - **Founded**: February 2, 2015
 - **Founder & Lead Mentor**: Karim (Masum), Government-Verified Freelancer (Bangladesh Freelancer ID: F126196700864)
@@ -35,7 +35,7 @@
 
 ### About Us
 - **URL**: https://schooloffreelancing.com/about-us
-- **Overview**: Founded in 2015 by Karim (Masum), School of Freelancing bridges the gap between theoretical computing and production-level freelance execution. The platform teaches aspiring freelancers how to deploy, manage, and troubleshoot Linux, AI, VoIP, and cloud systems while providing fixed-scope engineering support to international businesses.
+- **Overview**: Founded in 2015 by Karim (Masum), School Of Freelancing bridges the gap between theoretical computing and production-level freelance execution. The platform teaches aspiring freelancers how to deploy, manage, and troubleshoot Linux, AI, VoIP, and cloud systems while providing fixed-scope engineering support to international businesses.
 
 ### Contact Us
 - **URL**: https://schooloffreelancing.com/contact-us
@@ -49,7 +49,7 @@
 
 ## 3. Freelancing Training Programs
 
-School of Freelancing provides live, instructor-led online training (ILT) via real-time audio and chat on Telegram. Every program utilizes Free and Open-Source Software (FOSS) to ensure students build verifiable, public GitHub portfolios with zero proprietary licensing costs.
+School Of Freelancing provides live, instructor-led online training (ILT) via real-time audio and chat on Telegram. Every program utilizes Free and Open-Source Software (FOSS) to ensure students build verifiable, public GitHub portfolios with zero proprietary licensing costs.
 
 ### Freelancing Training Directory
 - **URL**: https://schooloffreelancing.com/freelancing-training
@@ -182,7 +182,7 @@ School of Freelancing provides live, instructor-led online training (ILT) via re
 
 ## 4. Client Support Services
 
-School of Freelancing provides rapid, fixed-scope remote engineering support for companies, startups, and agencies. Work is billed on a clear milestone basis with guaranteed turnaround times.
+School Of Freelancing provides rapid, fixed-scope remote engineering support for companies, startups, and agencies. Work is billed on a clear milestone basis with guaranteed turnaround times.
 
 ### Client Support Directory
 - **URL**: https://schooloffreelancing.com/client-support
@@ -368,14 +368,14 @@ School of Freelancing provides rapid, fixed-scope remote engineering support for
 ### Frequently Asked Questions (FAQs)
 - **URL**: https://schooloffreelancing.com/resource-center/faqs
 - **Questions & Verbatim Answers**:
-  1. **What is Online Instructor-Led Training (ILT) at School of Freelancing?**
+  1. **What is Online Instructor-Led Training (ILT) at School Of Freelancing?**
      *Answer*: It's a live virtual classroom—not pre-recorded video—with real-time interaction from expert freelancers and hands-on practice, using Telegram for chat and voice calls during sessions.
   2. **What is the Guaranteed Minimum Income (GMI)* program?**
      *Answer*: A career assurance initiative guaranteeing a baseline freelance income to graduates who maintain full attendance and independently purchase required marketplace bids/connects.
   3. **What is Client Acquisition Service Development?**
      *Answer*: A practical training phase where trainees build professional portfolios and optimize profiles to land high-paying marketplace jobs or direct international clients.
   4. **What is Credential Verification Support?**
-     *Answer*: It is a service where School of Freelancing directly confirms a trainee's technical skills and training credentials to any inquiring organization or client.
+     *Answer*: It is a service where School Of Freelancing directly confirms a trainee's technical skills and training credentials to any inquiring organization or client.
   5. **How are training prices and durations determined?**
      *Answer*: Training prices and durations are not random; they are structured logically based on the complexity of the technical skill, the depth of the curriculum, and the nature of the training framework.
   6. **Can I pay in installments to join a training program?**
@@ -405,7 +405,7 @@ School of Freelancing provides rapid, fixed-scope remote engineering support for
 
 ### Promotional Video Watch Page
 - **URL**: https://schooloffreelancing.com/resource-center/intro-video
-- **Overview**: Official promotional video introducing the School of Freelancing methodology, live instructor-led virtual classes, and career path from beginner to high-income Linux freelancer.
+- **Overview**: Official promotional video introducing the School Of Freelancing methodology, live instructor-led virtual classes, and career path from beginner to high-income Linux freelancer.
 
 ### Testimonials & Reviews
 - **URL**: https://schooloffreelancing.com/resource-center/testimonials
@@ -425,7 +425,7 @@ School of Freelancing provides rapid, fixed-scope remote engineering support for
 
 ### Privacy Policy
 - **URL**: https://schooloffreelancing.com/legal/privacy-policy
-- **Overview**: Strict data protection policy governing how School of Freelancing collects, processes, and protects personal data across training and tech support services. No personal information is sold or leased to third parties.
+- **Overview**: Strict data protection policy governing how School Of Freelancing collects, processes, and protects personal data across training and tech support services. No personal information is sold or leased to third parties.
 
 ### Refund Policy
 - **URL**: https://schooloffreelancing.com/legal/refund-policy
@@ -443,7 +443,7 @@ School of Freelancing provides rapid, fixed-scope remote engineering support for
 
 ## 7. Global Location Services
 
-School of Freelancing serves students, professionals, and businesses across 20+ countries through remote delivery. All consultations, sessions, and server interventions occur securely via encrypted channels.
+School Of Freelancing serves students, professionals, and businesses across 20+ countries through remote delivery. All consultations, sessions, and server interventions occur securely via encrypted channels.
 
 ### Global Locations Hub
 - **URL**: https://schooloffreelancing.com/locations
@@ -475,7 +475,7 @@ School of Freelancing serves students, professionals, and businesses across 20+ 
 
 ## 8. Agent Readiness, Machine Protocols & AI Specifications
 
-School of Freelancing provides structured endpoints and protocol definitions for AI search engines, autonomous agents, and tool-calling models.
+School Of Freelancing provides structured endpoints and protocol definitions for AI search engines, autonomous agents, and tool-calling models.
 
 ### AI Discovery & Content Signals
 - **ai.txt Discovery Manifest**: https://schooloffreelancing.com/ai.txt

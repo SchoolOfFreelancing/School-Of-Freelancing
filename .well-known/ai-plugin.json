@@ -1,0 +1,18 @@
+{
+  "schema_version": "v1",
+  "name_for_model": "school_of_freelancing",
+  "name_for_human": "School Of Freelancing",
+  "description_for_model": "Discovery and information service for School Of Freelancing. Allows AI models to search courses, technical support services, and educational resources in Linux, DevOps, AI agent engineering, VoIP, and cloud infrastructure.",
+  "description_for_human": "Search courses, client technical support, and resources from School Of Freelancing.",
+  "auth": {
+    "type": "none"
+  },
+  "api": {
+    "type": "openapi",
+    "url": "https://schooloffreelancing.com/openapi.json",
+    "is_user_authenticated": false
+  },
+  "logo_url": "https://schooloffreelancing.com/assets/images/logo.jpg",
+  "contact_email": "office@schooloffreelancing.com",
+  "legal_info_url": "https://schooloffreelancing.com/legal"
+}

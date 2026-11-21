@@ -2,7 +2,7 @@
 title: "Contact Us: School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible."
+description: "Contact School Of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible."
 ---
 
 # Contact Us: School Of Freelancing

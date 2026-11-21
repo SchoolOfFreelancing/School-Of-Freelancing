@@ -13,7 +13,7 @@ Section: https://schooloffreelancing.com/resource-center/case-studies
 
 # PAGES
 Page: https://schooloffreelancing.com/resource-center/case-studies
-Title: Linux & AI Freelancing Case Studies | School of Freelancing
+Title: Linux & AI Freelancing Case Studies | School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/case-studies
 Description: See real client case studies in Docker, AI, VoIP, and trading infrastructure, then get expert support to deploy reliable solutions for your business.
 

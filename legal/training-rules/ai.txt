@@ -15,7 +15,7 @@ Section: https://schooloffreelancing.com/legal/training-rules
 Page: https://schooloffreelancing.com/legal/training-rules
 Title: Training Rules — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/training-rules
-Description: Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
+Description: Training Rules (Ground Rules) for School Of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/legal

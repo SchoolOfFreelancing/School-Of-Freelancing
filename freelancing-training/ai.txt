@@ -18,7 +18,7 @@ Canonical: https://schooloffreelancing.com/freelancing-training
 Description: Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
 
 Page: https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training
-Title: Bulk SMS - Setup Training | School of Freelancing
+Title: Bulk SMS - Setup Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training
 Description: Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
 
@@ -28,17 +28,17 @@ Canonical: https://schooloffreelancing.com/freelancing-training/call-center-setu
 Description: Learn call center deployment, predictive dialers, IVR, SIP trunking, and CRM integration, then build a profitable freelance business.
 
 Page: https://schooloffreelancing.com/freelancing-training/centos-linux-training
-Title: CentOS Linux - Freelancing Training | School of Freelancing
+Title: CentOS Linux - Freelancing Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training/centos-linux-training
 Description: Learn CentOS Linux administration, deploy LEMP, Django, Hadoop, MEAN and Next.js, troubleshoot issues, and build a client-ready portfolio.
 
 Page: https://schooloffreelancing.com/freelancing-training/claude-training
-Title: Claude AI - Freelancing Training | School of Freelancing
+Title: Claude AI - Freelancing Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training/claude-training
 Description: Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients.
 
 Page: https://schooloffreelancing.com/freelancing-training/debian-linux-training
-Title: Debian Linux - Freelancing Training | School of Freelancing
+Title: Debian Linux - Freelancing Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training/debian-linux-training
 Description: Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 

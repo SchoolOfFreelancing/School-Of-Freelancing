@@ -3,8 +3,8 @@
   "agents": [
     {
       "id": "sof-agent",
-      "name": "School of Freelancing Agent",
-      "description": "AI agent for discovering and accessing School of Freelancing training programs, support services, and resources",
+      "name": "School Of Freelancing Agent",
+      "description": "AI agent for discovering and accessing School Of Freelancing training programs, support services, and resources",
       "homepage": "https://schooloffreelancing.com/",
       "documentation": "https://schooloffreelancing.com/auth.md",
       "capabilities": [

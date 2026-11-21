@@ -13,9 +13,9 @@ Section: https://schooloffreelancing.com/legal/privacy-policy
 
 # PAGES
 Page: https://schooloffreelancing.com/legal/privacy-policy
-Title: Privacy Policy — School of Freelancing
+Title: Privacy Policy — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/privacy-policy
-Description: Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services.
+Description: Privacy Policy for School Of Freelancing — how we collect, use, and protect your data across our training and tech support services.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/legal

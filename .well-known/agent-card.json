@@ -1,6 +1,6 @@
 {
   "protocolVersion": "0.3.0",
-  "name": "School of Freelancing Agent",
+  "name": "School Of Freelancing Agent",
   "description": "Freelancing training and support, plus Linux and AI services. Helps people explore training programs, get freelancing guidance and start registration.",
   "url": "https://agents.schooloffreelancing.com/a2a",
   "preferredTransport": "JSONRPC",
@@ -13,7 +13,7 @@
   ],
   "version": "1.0.0",
   "provider": {
-    "organization": "School of Freelancing",
+    "organization": "School Of Freelancing",
     "url": "https://schooloffreelancing.com"
   },
   "documentationUrl": "https://schooloffreelancing.com/auth.md",
@@ -43,7 +43,7 @@
     {
       "id": "freelancing-training",
       "name": "Freelancing training information",
-      "description": "Explains School of Freelancing training programs and how to get started as a freelancer.",
+      "description": "Explains School Of Freelancing training programs and how to get started as a freelancer.",
       "tags": ["freelancing", "training", "courses"],
       "examples": [
         "What freelancing training programs do you offer?",

@@ -1,15 +1,15 @@
 ---
-title: "Refund Policy — School of Freelancing"
+title: "Refund Policy — School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services."
+description: "Refund Policy for School Of Freelancing — when refunds are available for our Linux freelancing training and tech support services."
 ---
 
-# Refund Policy — School of Freelancing
+# Refund Policy — School Of Freelancing
 
 ## 1. Introduction
 
-This Refund Policy explains when a refund is and isn't available for School of Freelancing's Linux Freelancing Training. By enrolling and paying for training, you confirm that you've read and understood this policy, that the training content is relevant to leveling up your skills, and that you intend to complete the program and work toward your first freelancing income before your training deadline. If you don't agree with this policy, please don't enroll.
+This Refund Policy explains when a refund is and isn't available for School Of Freelancing's Linux Freelancing Training. By enrolling and paying for training, you confirm that you've read and understood this policy, that the training content is relevant to leveling up your skills, and that you intend to complete the program and work toward your first freelancing income before your training deadline. If you don't agree with this policy, please don't enroll.
 
 ## 2. General Policy — All Sales Are Final
 
@@ -20,7 +20,7 @@ As our training is delivered as a digital, mentor-led service — including hand
 For our Linux Freelancing Training, we offer a refund in two specific situations:
 
 - **Duplicate payment:** if you accidentally paid twice for the same training (for example, from a double-click during checkout), the duplicate charge is refundable.
-- **Delayed start:** if School of Freelancing or your assigned mentor fails to begin your training within 3 business days of enrollment, you may request a refund.
+- **Delayed start:** if School Of Freelancing or your assigned mentor fails to begin your training within 3 business days of enrollment, you may request a refund.
 
 Outside of these two cases, payments for training are non-refundable.
 

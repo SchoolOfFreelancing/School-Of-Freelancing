@@ -2,14 +2,14 @@
 title: "Training Rules — School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training."
+description: "Training Rules (Ground Rules) for School Of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training."
 ---
 
 # Training Rules — School Of Freelancing
 
 ## 1. Introduction
 
-These Training Rules ("Ground Rules") apply to everyone enrolled in School of Freelancing's Linux Freelancing Training. They exist to keep the training environment fair, focused, and productive for both trainees and mentors, and they may be updated from time to time as our program evolves.
+These Training Rules ("Ground Rules") apply to everyone enrolled in School Of Freelancing's Linux Freelancing Training. They exist to keep the training environment fair, focused, and productive for both trainees and mentors, and they may be updated from time to time as our program evolves.
 
 ## 2. Enrollment & Eligibility
 
@@ -34,7 +34,7 @@ These Training Rules ("Ground Rules") apply to everyone enrolled in School of Fr
 - The full program consists of 90 business-day sessions, to be completed within six months of your start date.
 - You may pause training for up to two weeks total. An absence of one month results in temporary disqualification; you may restart from scratch after paying 25% of the training fee as a re-admission charge.
 - An absence of six months from enrollment results in permanent disqualification. Restarting after that requires paying 50% of the training fee within one year of your original enrollment, and re-enrollment is subject to available capacity as communicated by your mentor.
-- Trainees fully detached from training for one year are not eligible to rejoin any School of Freelancing program in the future and will be removed from Trello and Launchpad (GitHub access is retained).
+- Trainees fully detached from training for one year are not eligible to rejoin any School Of Freelancing program in the future and will be removed from Trello and Launchpad (GitHub access is retained).
 - The "guaranteed earning" outcome applies only to trainees with no absences who complete Day 1 through Day 80 without interruption. Your mentor may reschedule a session if they are unable to attend for any reason.
 
 ## 5. Communication Tools & Conduct
@@ -47,7 +47,7 @@ These Training Rules ("Ground Rules") apply to everyone enrolled in School of Fr
 
 - Your mentor supports you through communication and technical guidance to help you land and complete your first Linux freelancing job — not an unlimited stream of future jobs.
 - You may not ask your mentor to complete a project on your behalf, or to communicate directly with your client in your place; you handle client SSH access and project delivery yourself, with advice from your mentor.
-- You may not offer your mentor, or School of Freelancing, outside business arrangements.
+- You may not offer your mentor, or School Of Freelancing, outside business arrangements.
 - You may not ask your mentor for help with personal or office tasks unrelated to your training.
 - You should stay online and responsive when actively applying to jobs across marketplaces.
 
@@ -62,21 +62,21 @@ Our goal is to help you finish sessions and gain real experience, so during trai
 
 ## 9. Behavior & Security
 
-- You may not attempt phishing or hacking against School of Freelancing's accounts, intellectual property, or any mentor's PC.
+- You may not attempt phishing or hacking against School Of Freelancing's accounts, intellectual property, or any mentor's PC.
 - Violations involving inappropriate language, phishing, or hacking will result in a temporary training pause and a notice on your Trello board requiring an explanation within 72 hours. A satisfactory explanation allows training to continue; failure to provide one results in disqualification and removal from Trello and GitHub.
 - If a technical or natural issue disrupts training, your mentor may suspend sessions from either side without waiting for the issue to be resolved.
 
 ## 10. Training Topics & Changes
 
 - If something is unclear, ask your mentor directly and respectfully.
-- School of Freelancing may change training schedules or module topics at any time; trainees will be notified promptly of such changes.
+- School Of Freelancing may change training schedules or module topics at any time; trainees will be notified promptly of such changes.
 - If an OS or application update or bug affects a session and is outside the vendor's control at that time, your mentor may adjust the session topic accordingly.
 - Discussion should stay within the scope of the training curriculum, and project work should relate to the skills being taught.
 
 ## 11. Completion & Post-Training Support
 
 - After successfully completing training and earning your first freelancing income, you're asked to leave a review of your experience and mark the training complete in Trello.
-- You may reference your time with School of Freelancing when applying for jobs, and we may list you as a current or past trainee.
+- You may reference your time with School Of Freelancing when applying for jobs, and we may list you as a current or past trainee.
 - After training, extended advisory support is available for a $300/year membership fee, with communication handled via Telegram and other agreed channels.
 
 ## 12. Suspension & Disqualification

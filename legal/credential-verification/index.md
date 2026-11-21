@@ -2,22 +2,22 @@
 title: "Credential Verification Support — School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Credential Verification Support for School of Freelancing — how organizations can verify a student's completed training with us."
+description: "Credential Verification Support for School Of Freelancing — how organizations can verify a student's completed training with us."
 ---
 
 # Credential Verification Support — School Of Freelancing
 
 ## AI Overview
 
-**Credential Verification Support** is School of Freelancing's service for confirming to an employer, client or partner platform that a named student completed our training. It is free within 1 year of completion and $20 USD (non-refundable) after that. We share only what the student has authorized. Request it via the [contact page](/contact-us/) or [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .
+**Credential Verification Support** is School Of Freelancing's service for confirming to an employer, client or partner platform that a named student completed our training. It is free within 1 year of completion and $20 USD (non-refundable) after that. We share only what the student has authorized. Request it via the [contact page](/contact-us/) or [office@schooloffreelancing.com](mailto:office@schooloffreelancing.com) .
 
 ## 1. Introduction
 
-Credential Verification Support is the service through which School of Freelancing confirms directly to a requesting organization that a named student has successfully completed any of our training and possesses the necessary skills to work with that organization using a specific skill set. This may also include a formal recommendation from School of Freelancing.
+Credential Verification Support is the service through which School Of Freelancing confirms directly to a requesting organization that a named student has successfully completed any of our training and possesses the necessary skills to work with that organization using a specific skill set. This may also include a formal recommendation from School Of Freelancing.
 
 ## 2. What Credential Verification Support Covers
 
-When an organization — such as a prospective employer, client, or partner platform — wants to confirm that a specific student actually completed training with us, we verify this directly with that organization. This confirms training completion status with School of Freelancing; it is not a full transcript, performance review, or reference letter, and it does not disclose training content beyond what the student has authorized us to share.
+When an organization — such as a prospective employer, client, or partner platform — wants to confirm that a specific student actually completed training with us, we verify this directly with that organization. This confirms training completion status with School Of Freelancing; it is not a full transcript, performance review, or reference letter, and it does not disclose training content beyond what the student has authorized us to share.
 
 ## 3. Eligibility & Fees
 
@@ -41,7 +41,7 @@ Students should let us know which organization will be reaching out, and what sp
 
 ## 6. What Information We Share
 
-We share only the information the student has authorized for that specific request — typically limited to confirming enrollment and successful completion of training with School of Freelancing. We do not disclose a student's personal contact details, payment history, or unrelated training records to a requesting organization without the student's direction. See our [Privacy Policy](/legal/privacy-policy/) for how we handle personal information more broadly.
+We share only the information the student has authorized for that specific request — typically limited to confirming enrollment and successful completion of training with School Of Freelancing. We do not disclose a student's personal contact details, payment history, or unrelated training records to a requesting organization without the student's direction. See our [Privacy Policy](/legal/privacy-policy/) for how we handle personal information more broadly.
 
 ## 7. Fees Are Non-Refundable
 

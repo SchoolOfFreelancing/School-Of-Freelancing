@@ -1,11 +1,11 @@
 {
   "openapi": "3.1.0",
   "info": {
-    "title": "School of Freelancing API",
-    "description": "Public catalog and discovery API for School of Freelancing training programs, client support services, and educational resources.",
+    "title": "School Of Freelancing API",
+    "description": "Public catalog and discovery API for School Of Freelancing training programs, client support services, and educational resources.",
     "version": "1.0.0",
     "contact": {
-      "name": "School of Freelancing Support",
+      "name": "School Of Freelancing Support",
       "email": "office@schooloffreelancing.com",
       "url": "https://schooloffreelancing.com/contact-us"
     },

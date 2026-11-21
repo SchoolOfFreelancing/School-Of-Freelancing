@@ -1,4 +1,4 @@
-# auth.md — Agent Registration for School of Freelancing
+# auth.md — Agent Registration for School Of Freelancing
 
 ## Agent Authentication Metadata
 
@@ -13,9 +13,9 @@ agent_auth:
 
 ## Agent Audience
 
-This document is for browser-based AI agents and autonomous MCP-based agents assisting a human user who wants to enroll in a School of Freelancing training program or request an IT/AI service.
+This document is for browser-based AI agents and autonomous MCP-based agents assisting a human user who wants to enroll in a School Of Freelancing training program or request an IT/AI service.
 
-School of Freelancing supports two independent registration methods. Use whichever fits your integration: WebMCP form-fill for human-confirmed browser flows, or OAuth for autonomous agents that require a verified-identity access token.
+School Of Freelancing supports two independent registration methods. Use whichever fits your integration: WebMCP form-fill for human-confirmed browser flows, or OAuth for autonomous agents that require a verified-identity access token.
 
 ## Method 1: WebMCP Form-Fill (Human-Confirmed)
 
@@ -36,7 +36,7 @@ Payment confirmation always requires explicit human action. The agent cannot ind
 
 ## Method 2: OAuth 2.0
 
-School of Freelancing provides an OAuth 2.0 authorization-code flow for agents that require authenticated access to protected resources.
+School Of Freelancing provides an OAuth 2.0 authorization-code flow for agents that require authenticated access to protected resources.
 
 ### OAuth Discovery
 
@@ -162,6 +162,6 @@ Agents must obtain explicit user authorization before initiating an OAuth author
 
 ## Canonical Authentication Document
 
-This document is the canonical agent authentication and registration document for School of Freelancing:
+This document is the canonical agent authentication and registration document for School Of Freelancing:
 
 https://schooloffreelancing.com/auth.md

@@ -36,7 +36,7 @@ Learn FusionPBX VoIP deployment, advanced configuration, and call-routing setup,
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School Of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

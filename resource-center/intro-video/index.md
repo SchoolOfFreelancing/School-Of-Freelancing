@@ -7,7 +7,7 @@ description: "Start Your Career as a Linux Freelancer! Watch the official promot
 
 # Linux Freelancing Training — Watch Page
 
-## School of Freelancing introduction video
+## School Of Freelancing introduction video
 
 ## About This Training
 

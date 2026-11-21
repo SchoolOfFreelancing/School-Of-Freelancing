@@ -1,4 +1,4 @@
-# School of Freelancing
+# School Of Freelancing
 
 > Bangladesh-based Linux and AI freelancing training platform teaching production-ready, hands-on skills for real freelance clients.
 
@@ -6,7 +6,7 @@
 - [Linux and AI Freelancing Training](https://schooloffreelancing.com/): Live Linux and AI freelancing training for aspiring freelancers, with hands-on Linux technical support for businesses worldwide.
 
 ## About Us
-- [About Us: School of Freelancing](https://schooloffreelancing.com/about-us): School of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
+- [About Us: School Of Freelancing](https://schooloffreelancing.com/about-us): School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.
 
 ## Client Support
 - [CentOS Linux Support](https://schooloffreelancing.com/client-support/centos-linux-support): Hire CentOS Linux support for server setup, troubleshooting, security hardening, optimization, and system administration.
@@ -25,7 +25,7 @@
 - [Odysseus — Self-hosted AI workspace setup](https://schooloffreelancing.com/client-support/odysseus-ai-setup): Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware.
 - [OpenAI Platform — Support](https://schooloffreelancing.com/client-support/openai-platform-support): Hire OpenAI Platform Support for API setup, integrations, agents, troubleshooting, and production deployment.
 - [OpenClaw Setup Support | Self-Hosted AI Infrastructure](https://schooloffreelancing.com/client-support/openclaw-setup-support): Hire OpenClaw self-hosted AI setup to run autonomous workflows and real computer tasks via chat apps. Dedicated deployment and technical support.
-- [Support: School of Freelancing](https://schooloffreelancing.com/client-support): Get reliable, expert remote Client Support 24/7. Trusted solutions for all your technical needs.
+- [Support: School Of Freelancing](https://schooloffreelancing.com/client-support): Get reliable, expert remote Client Support 24/7. Trusted solutions for all your technical needs.
 - [Telnyx SMS Setup Support | Business Messaging Integration](https://schooloffreelancing.com/client-support/telnyx-sms-setup): Hire Telnyx SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support.
 - [Telnyx VoIP Setup Support | Call Routing & SIP Trunking](https://schooloffreelancing.com/client-support/telnyx-voip-setup): Hire Telnyx VoIP Setup support for SIP trunking, call routing, phone numbers, and call center integration. Professional deployment & technical support.
 - [Twilio SMS Setup Support | Messaging APIs & Webhooks](https://schooloffreelancing.com/client-support/twilio-sms-setup): Hire Twilio SMS Setup support for messaging APIs, webhooks, phone numbers, and business SMS integration. Professional deployment & technical support.
@@ -35,7 +35,7 @@
 - [ZeroClaw Setup Support | Hire Self-Hosted AI Agent Setup](https://schooloffreelancing.com/client-support/zeroclaw-setup-support): Hire ZeroClaw self-hosted AI agent setup for autonomous server tasks, workflow automation, chat operations, & local LLM integration.
 
 ## Contact Us
-- [Contact Us: School of Freelancing](https://schooloffreelancing.com/contact-us): Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
+- [Contact Us: School Of Freelancing](https://schooloffreelancing.com/contact-us): Contact School Of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
 
 ## Freelancing Training
 - [Bulk SMS — Setup Training](https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training): Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients.
@@ -44,7 +44,7 @@
 - [Claude AI](https://schooloffreelancing.com/freelancing-training/claude-training): Learn Claude AI development — build AI agents, automate workflows, integrate Claude API. Build a portfolio to land direct and marketplace freelance clients.
 - [Debian Linux](https://schooloffreelancing.com/freelancing-training/debian-linux-training): Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 - [Docker Freelancing Training | Learn & Get Support](https://schooloffreelancing.com/freelancing-training/docker-training): Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.
-- [Freelancing Training: School of Freelancing](https://schooloffreelancing.com/freelancing-training): Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
+- [Freelancing Training: School Of Freelancing](https://schooloffreelancing.com/freelancing-training): Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
 - [FusionPBX: Freelancing Training](https://schooloffreelancing.com/freelancing-training/fusionpbx-training): Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service.
 - [GitHub Freelancing Training | Setup, CI/CD & Jobs](https://schooloffreelancing.com/freelancing-training/github-training): Learn GitHub production setup, migration, version control, CI/CD, & project management to secure freelance jobs.
 - [GitLab Training for Freelancers: Hands-on Course | $239](https://schooloffreelancing.com/freelancing-training/gitlab-training): GitLab training for freelancers. Gain practical skills with self-hosted setup, code hosting, migration, CI/CD, plus DevSecOps for client work. Enroll today.
@@ -62,12 +62,12 @@
 - [ZeroClaw Freelancing Training](https://schooloffreelancing.com/freelancing-training/zeroclaw-training): Learn ZeroClaw deployment, build AI agents, and develop practical skills to win global freelance projects.
 
 ## Legal
-- [Credential Verification Support](https://schooloffreelancing.com/legal/credential-verification): Employers can verify a student's School of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
-- [Legal Documents & Policies](https://schooloffreelancing.com/legal): School of Freelancing legal: Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support.
-- [Privacy Policy](https://schooloffreelancing.com/legal/privacy-policy): Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services.
-- [Refund Policy](https://schooloffreelancing.com/legal/refund-policy): Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
-- [Terms and Conditions](https://schooloffreelancing.com/legal/terms-and-conditions): Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
-- [Training Rules](https://schooloffreelancing.com/legal/training-rules): Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
+- [Credential Verification Support](https://schooloffreelancing.com/legal/credential-verification): Employers can verify a student's School Of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
+- [Legal Documents & Policies](https://schooloffreelancing.com/legal): School Of Freelancing legal: Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support.
+- [Privacy Policy](https://schooloffreelancing.com/legal/privacy-policy): Privacy Policy for School Of Freelancing — how we collect, use, and protect your data across our training and tech support services.
+- [Refund Policy](https://schooloffreelancing.com/legal/refund-policy): Refund Policy for School Of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
+- [Terms and Conditions](https://schooloffreelancing.com/legal/terms-and-conditions): Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services.
+- [Training Rules](https://schooloffreelancing.com/legal/training-rules): Training Rules (Ground Rules) for School Of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
 
 ## Locations
 - [AU Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-au): Top AU freelance training & trusted business IT services. Level up your career and tech. Enroll now for success!
@@ -95,15 +95,15 @@
 ## Resource Center
 - [Automate Your First Repetitive Task](https://schooloffreelancing.com/resource-center/guides/automation): Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
 - [Deploy a Linux Server from Zero to Production](https://schooloffreelancing.com/resource-center/guides/linux-deployment): Learn Ubuntu Linux server deployment for freelance projects, including security hardening, networking, systemd, backups, monitoring, and client support.
-- [Free How-To Guides: Linux, Docker, VoIP & AI](https://schooloffreelancing.com/resource-center/guides): Free step-by-step technical guides from School of Freelancing covering Linux deployment, Docker containerization, VoIP setup, AI chatbots, and automation for freelancers and businesses.
-- [Frequently Asked Questions](https://schooloffreelancing.com/resource-center/faqs): Answers to common questions about School of Freelancing training programs, pricing, enrollment, Linux support services, and freelancing career outcomes.
+- [Free How-To Guides: Linux, Docker, VoIP & AI](https://schooloffreelancing.com/resource-center/guides): Free step-by-step technical guides from School Of Freelancing covering Linux deployment, Docker containerization, VoIP setup, AI chatbots, and automation for freelancers and businesses.
+- [Frequently Asked Questions](https://schooloffreelancing.com/resource-center/faqs): Answers to common questions about School Of Freelancing training programs, pricing, enrollment, Linux support services, and freelancing career outcomes.
 - [How to Containerize a Legacy Web Application](https://schooloffreelancing.com/resource-center/guides/docker-containerize): Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
 - [How to Create Your First AI Chatbot](https://schooloffreelancing.com/resource-center/guides/ai-chatbot): Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 - [Linux & AI Freelancing Case Studies](https://schooloffreelancing.com/resource-center/case-studies): See real client case studies in Docker, AI, VoIP, and trading infrastructure, then get expert support to deploy reliable solutions for your business.
-- [Linux Freelancing Training — Watch Page](https://schooloffreelancing.com/resource-center/intro-video): Start Your Career as a Linux Freelancer! Watch the official promotional video for the School of Freelancing Linux Freelancing Training.
-- [Resource Center](https://schooloffreelancing.com/resource-center): The School of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
+- [Linux Freelancing Training — Watch Page](https://schooloffreelancing.com/resource-center/intro-video): Start Your Career as a Linux Freelancer! Watch the official promotional video for the School Of Freelancing Linux Freelancing Training.
+- [Resource Center](https://schooloffreelancing.com/resource-center): The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
 - [Set Up Your Own VoIP Phone System](https://schooloffreelancing.com/resource-center/guides/voip-setup): Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
-- [Testimonials: School of Freelancing](https://schooloffreelancing.com/resource-center/testimonials): School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses.
+- [Testimonials: School Of Freelancing](https://schooloffreelancing.com/resource-center/testimonials): School Of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses.
 
 ## Optional
 - [Full Content Index](https://schooloffreelancing.com/llms-full.txt): Complete documentation and full curriculum details for LLM ingestion

@@ -2,7 +2,7 @@
   "$schema": "https://json-schema.org/draft/2020-12/schema",
   "$id": "https://schooloffreelancing.com/schemas/training.json",
   "title": "TrainingProgram",
-  "description": "School of Freelancing training program schema",
+  "description": "School Of Freelancing training program schema",
   "type": "object",
   "properties": {
     "id": { "type": "string" },

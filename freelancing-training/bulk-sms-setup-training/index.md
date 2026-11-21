@@ -1,11 +1,11 @@
 ---
-title: "Bulk SMS - Setup Training | School of Freelancing"
+title: "Bulk SMS - Setup Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
 description: "Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients."
 ---
 
-# Bulk SMS - Setup Training | School of Freelancing
+# Bulk SMS - Setup Training | School Of Freelancing
 
 ## Overview
 
@@ -36,7 +36,7 @@ Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, de
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School Of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### What You'll Learn:
 

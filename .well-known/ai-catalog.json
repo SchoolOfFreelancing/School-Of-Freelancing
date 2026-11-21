@@ -1,14 +1,14 @@
 {
   "specVersion": "1.0",
   "host": {
-    "displayName": "School of Freelancing",
+    "displayName": "School Of Freelancing",
     "identifier": "schooloffreelancing.com",
     "documentationUrl": "https://schooloffreelancing.com/auth.md"
   },
   "entries": [
     {
       "identifier": "urn:air:schooloffreelancing.com:mcp:main",
-      "displayName": "School of Freelancing MCP Server",
+      "displayName": "School Of Freelancing MCP Server",
       "description": "OAuth-protected MCP server for freelancing training and support, and Linux/AI services.",
       "type": "application/mcp+json",
       "url": "https://agents.schooloffreelancing.com/mcp",
@@ -21,7 +21,7 @@
     },
     {
       "identifier": "urn:air:schooloffreelancing.com:a2a:agent",
-      "displayName": "School of Freelancing Agent",
+      "displayName": "School Of Freelancing Agent",
       "description": "A2A agent card for freelancing training, support and Linux/AI services.",
       "type": "application/json",
       "url": "https://schooloffreelancing.com/.well-known/agent-card.json",
@@ -34,7 +34,7 @@
     },
     {
       "identifier": "urn:air:schooloffreelancing.com:skills:webmcp",
-      "displayName": "School of Freelancing Registration Tools",
+      "displayName": "School Of Freelancing Registration Tools",
       "description": "WebMCP tools to list training and service options and fill the human-confirmed registration payment form.",
       "type": "application/json",
       "url": "https://schooloffreelancing.com/.well-known/agent-skills.json",

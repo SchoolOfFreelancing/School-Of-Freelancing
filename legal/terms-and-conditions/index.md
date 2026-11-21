@@ -2,18 +2,18 @@
 title: "Terms and Conditions — School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."
+description: "Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services."
 ---
 
 # Terms and Conditions — School Of Freelancing
 
 ## 1. Acceptance of Terms
 
-By accessing or using School of Freelancing ("we," "us," "our," the "Platform"), including our website, trainings, and technical support services, you ("you," "user," "client") agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, please do not use the Platform.
+By accessing or using School Of Freelancing ("we," "us," "our," the "Platform"), including our website, trainings, and technical support services, you ("you," "user," "client") agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, please do not use the Platform.
 
 ## 2. Services We Offer
 
-School of Freelancing provides two categories of service:
+School Of Freelancing provides two categories of service:
 
 - **Training:** Linux and cloud freelancing trainings and bootcamps for beginners, covering system administration, VoIP platforms, DevOps tooling, and AI/agentic systems.
 - **Tech Support:** Professional Linux and cloud technical support services delivered to clients worldwide, including server administration, deployment, and third-party platform integration.
@@ -57,7 +57,7 @@ You agree not to:
 
 ## 9. Intellectual Property
 
-All training content, curriculum, branding, and website materials are the property of School of Freelancing unless otherwise stated. Custom code, configurations, or deliverables produced specifically for a client under a paid support engagement are owned by the client upon full payment, unless a separate agreement states otherwise.
+All training content, curriculum, branding, and website materials are the property of School Of Freelancing unless otherwise stated. Custom code, configurations, or deliverables produced specifically for a client under a paid support engagement are owned by the client upon full payment, unless a separate agreement states otherwise.
 
 ## 10. Third-Party Platforms
 
@@ -69,11 +69,11 @@ The Platform and services are provided "as is" and "as available," without warra
 
 ## 12. Limitation of Liability
 
-To the maximum extent permitted by law, School of Freelancing shall not be liable for any indirect, incidental, special, or consequential damages, including data loss, lost profits, or business interruption, arising from your use of our trainings or support services. Our total liability for any claim shall not exceed the amount you paid for the specific service giving rise to the claim.
+To the maximum extent permitted by law, School Of Freelancing shall not be liable for any indirect, incidental, special, or consequential damages, including data loss, lost profits, or business interruption, arising from your use of our trainings or support services. Our total liability for any claim shall not exceed the amount you paid for the specific service giving rise to the claim.
 
 ## 13. Indemnification
 
-You agree to indemnify and hold School of Freelancing harmless from any claims, damages, or expenses arising from your misuse of the Platform, violation of these Terms, or violation of any third-party rights.
+You agree to indemnify and hold School Of Freelancing harmless from any claims, damages, or expenses arising from your misuse of the Platform, violation of these Terms, or violation of any third-party rights.
 
 ## 14. Termination
 

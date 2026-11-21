@@ -1,15 +1,15 @@
 ---
-title: "Privacy Policy — School of Freelancing"
+title: "Privacy Policy — School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services."
+description: "Privacy Policy for School Of Freelancing — how we collect, use, and protect your data across our training and tech support services."
 ---
 
-# Privacy Policy — School of Freelancing
+# Privacy Policy — School Of Freelancing
 
 ## 1. Introduction
 
-School of Freelancing ("we," "us," "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and protect information when you use our website, enroll in our trainings, or engage our tech support services.
+School Of Freelancing ("we," "us," "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and protect information when you use our website, enroll in our trainings, or engage our tech support services.
 
 ## 2. Information We Collect
 

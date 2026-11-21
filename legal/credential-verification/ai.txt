@@ -15,7 +15,7 @@ Section: https://schooloffreelancing.com/legal/credential-verification
 Page: https://schooloffreelancing.com/legal/credential-verification
 Title: Credential Verification Support | School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/credential-verification
-Description: Employers can verify a student's School of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
+Description: Employers can verify a student's School Of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/legal

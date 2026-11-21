@@ -9,7 +9,7 @@ description: "Get Odysseus AI to run private chats, autonomous agents, and produ
 
 ## Support Overview
 
-Hire School of Freelancing for expert Odysseus AI Setup, deployment, configuration, troubleshooting, and optimization—get production-ready AI infrastructure without the cost of hiring a full-time engineer.
+Hire School Of Freelancing for expert Odysseus AI Setup, deployment, configuration, troubleshooting, and optimization—get production-ready AI infrastructure without the cost of hiring a full-time engineer.
 
 ## Key Takeaways
 

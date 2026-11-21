@@ -75,7 +75,9 @@
       "@id": "https://schooloffreelancing.com/#website",
       "url": "https://schooloffreelancing.com/",
       "name": "School Of Freelancing",
-      "publisher": { "@id": "https://schooloffreelancing.com/#organization" },
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
       "inLanguage": "en-US"
     },
     {
@@ -85,12 +87,21 @@
       "url": "https://schooloffreelancing.com/about-us",
       "description": "School Of Freelancing offers live Linux and AI training with global tech support for freelancers and businesses.",
       "inLanguage": "en-US",
-      "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
-      "breadcrumb": { "@id": "https://schooloffreelancing.com/about-us#breadcrumb" },
-      "about": { "@id": "https://schooloffreelancing.com/#organization" }
+      "isPartOf": {
+        "@id": "https://schooloffreelancing.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://schooloffreelancing.com/about-us#breadcrumb"
+      },
+      "about": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      }
     },
     {
-      "@type": "Organization",
+      "@type": [
+        "Organization",
+        "EducationalOrganization"
+      ],
       "@id": "https://schooloffreelancing.com/#organization",
       "name": "School Of Freelancing",
       "url": "https://schooloffreelancing.com/",
@@ -102,7 +113,9 @@
       },
       "description": "School Of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses.",
       "foundingDate": "2015-02-02",
-      "founder": { "@id": "https://schooloffreelancing.com/#person" },
+      "founder": {
+        "@id": "https://schooloffreelancing.com/#person"
+      },
       "contactPoint": {
         "@type": "ContactPoint",
         "contactType": "Customer Service",
@@ -116,6 +129,33 @@
         "https://www.instagram.com/schooloffreelancing",
         "https://www.threads.com/@schooloffreelancing",
         "https://github.com/SchoolOfFreelancing"
+      ],
+      "legalName": "School Of Freelancing",
+      "alternateName": [
+        "SOF",
+        "School of Freelancing"
+      ],
+      "address": {
+        "@type": "PostalAddress",
+        "postalCode": "3500",
+        "streetAddress": "Ward no: 12, North Chortha, Nobab Bari Rd",
+        "addressLocality": "Cumilla City Corporation",
+        "addressRegion": "Chattogram",
+        "addressCountry": "BD"
+      },
+      "geo": {
+        "@type": "GeoCoordinates",
+        "latitude": 23.1973,
+        "longitude": 91.1729
+      },
+      "knowsAbout": [
+        "Linux",
+        "DevOps",
+        "AI Agent Engineering",
+        "VoIP",
+        "Cloud Infrastructure",
+        "Freelancing",
+        "Cloud and server technical support"
       ]
     },
     {
@@ -135,8 +175,13 @@
         "addressRegion": "Chattogram",
         "addressCountry": "BD"
       },
-      "logo": { "@id": "https://schooloffreelancing.com/#logo" },
-      "areaServed": { "@type": "Place", "name": "Worldwide" },
+      "logo": {
+        "@id": "https://schooloffreelancing.com/#logo"
+      },
+      "areaServed": {
+        "@type": "Place",
+        "name": "Worldwide"
+      },
       "knowsAbout": [
         "Linux System Administration",
         "Linux Cloud Support",
@@ -152,8 +197,12 @@
       "name": "Karim (Masum)",
       "jobTitle": "Founder & Lead Instructor",
       "url": "https://schooloffreelancing.com/about-us",
-      "worksFor": { "@id": "https://schooloffreelancing.com/#organization" },
-      "affiliation": { "@id": "https://schooloffreelancing.com/#organization" },
+      "worksFor": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "affiliation": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
       "description": "Founder and Lead Instructor of School Of Freelancing since 2015. Government-Verified Freelancer (Bangladesh, ID: F126196700864) with extensive hands-on experience in Linux system administration, cloud infrastructure, DevOps, VoIP/SMS platforms, and AI agent deployment. Has trained hundreds of students into working freelancers and provides direct technical support to global business clients.",
       "hasCredential": [
         {
@@ -192,8 +241,18 @@
       "@type": "BreadcrumbList",
       "@id": "https://schooloffreelancing.com/about-us#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-        { "@type": "ListItem", "position": 2, "name": "About Us", "item": "https://schooloffreelancing.com/about-us" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://schooloffreelancing.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "About Us",
+          "item": "https://schooloffreelancing.com/about-us"
+        }
       ]
     }
   ]

@@ -36,7 +36,7 @@ Learn Hermes Agent deployment, Linux, and AI automation. Build freelance service
 
 ### Training Rules
 
-- **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees to keep training fair, focused, and productive.
+- **[Training Rules](/legal/training-rules)** apply to all School Of Freelancing trainees to keep training fair, focused, and productive.
 
 ## You'll Leave With
 

@@ -36,7 +36,7 @@ Learn to build and deploy a compliant two-way bulk SMS system using the Telnyx M
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School Of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### What You'll Learn:
 

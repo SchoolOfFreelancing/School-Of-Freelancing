@@ -1,11 +1,11 @@
 ---
-title: "Debian Linux - Freelancing Training | School of Freelancing"
+title: "Debian Linux - Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
 description: "Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients."
 ---
 
-# Debian Linux - Freelancing Training | School of Freelancing
+# Debian Linux - Freelancing Training | School Of Freelancing
 
 ## Overview
 
@@ -36,7 +36,7 @@ Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & A
 
 ### Training Rules
 
-- These **[Training Rules](/legal/training-rules)** apply to all School of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
+- These **[Training Rules](/legal/training-rules)** apply to all School Of Freelancing trainees. They keep training fair, focused, and productive and may be updated as the program evolves.
 
 ### You'll leave with:
 

@@ -13,7 +13,7 @@ Section: https://schooloffreelancing.com/freelancing-training/centos-linux-train
 
 # PAGES
 Page: https://schooloffreelancing.com/freelancing-training/centos-linux-training
-Title: CentOS Linux - Freelancing Training | School of Freelancing
+Title: CentOS Linux - Freelancing Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training/centos-linux-training
 Description: Learn CentOS Linux administration, deploy LEMP, Django, Hadoop, MEAN and Next.js, troubleshoot issues, and build a client-ready portfolio.
 

@@ -1,13 +1,13 @@
 ---
-title: School of Freelancing
+title: School Of Freelancing
 license: mit
 ---
-# School of Freelancing
+# School Of Freelancing
 
 **Linux & AI Freelancing Training and Client Services**
 🌐 [schooloffreelancing.com](https://schooloffreelancing.com/) · Founded 2015 · Based in Bangladesh · Serving clients worldwide
 
-School of Freelancing delivers live, instructor-led online training that turns students into in-demand freelancers, and hands-on client support services for businesses running Linux, cloud, VoIP, and AI infrastructure — all priced and billed in USD, delivered remotely with no local office required.
+School Of Freelancing delivers live, instructor-led online training that turns students into in-demand freelancers, and hands-on client support services for businesses running Linux, cloud, VoIP, and AI infrastructure — all priced and billed in USD, delivered remotely with no local office required.
 
 ---
 
@@ -46,7 +46,7 @@ Fast, fixed-scope remote engineering support for businesses running Linux server
 
 ---
 
-## Why School of Freelancing
+## Why School Of Freelancing
 
 - ⭐ **5.0/5** rated on Google Reviews
 - 🌍 Training and support delivered **100% online**, worldwide — no local office needed
@@ -72,5 +72,5 @@ Fast, fixed-scope remote engineering support for businesses running Linux server
 
 ---
 
-© School of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.
+© School Of Freelancing. All rights reserved. Built with ❤️ from Bangladesh.
 Fri Jul 31 01:56:45 PM +06 2026

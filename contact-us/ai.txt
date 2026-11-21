@@ -15,7 +15,7 @@ Section: https://schooloffreelancing.com/contact-us
 Page: https://schooloffreelancing.com/contact-us
 Title: Contact Us: School Of Freelancing
 Canonical: https://schooloffreelancing.com/contact-us
-Description: Contact School of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
+Description: Contact School Of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/

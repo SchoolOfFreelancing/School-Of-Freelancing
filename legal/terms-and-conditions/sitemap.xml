@@ -11,21 +11,21 @@
   <link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/legal/terms-and-conditions"/>
   <link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/legal/terms-and-conditions"/>
 
-  <meta name="description" content="Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."/>
-  <meta name="keywords" content="school of freelancing terms, freelancing school terms and conditions, online training terms"/>
+  <meta name="description" content="Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services."/>
+  <meta name="keywords" content="School Of Freelancing terms, freelancing school terms and conditions, online training terms"/>
   <meta name="robots" content="index, follow"/>
 
   <!-- Open Graph -->
   <meta property="og:type" content="website"/>
   <meta property="og:url" content="https://schooloffreelancing.com/legal/terms-and-conditions"/>
-  <meta property="og:title" content="Terms and Conditions — School of Freelancing"/>
-  <meta property="og:description" content="Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services."/>
+  <meta property="og:title" content="Terms and Conditions — School Of Freelancing"/>
+  <meta property="og:description" content="Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services."/>
   <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg"/>
 
   <!-- Twitter Card -->
   <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="Terms and Conditions — School of Freelancing">
-  <meta name="twitter:description" content="Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.">
+  <meta name="twitter:title" content="Terms and Conditions — School Of Freelancing">
+  <meta name="twitter:description" content="Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services.">
   <meta name="twitter:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
   <meta name="twitter:creator" content="@SchoolOfFreelan">
 
@@ -54,14 +54,14 @@
         "@type": "WebSite",
         "@id": "https://schooloffreelancing.com/#website",
         "url": "https://schooloffreelancing.com/",
-        "name": "School of Freelancing"
+        "name": "School Of Freelancing"
       },
       {
         "@type": "WebPage",
         "@id": "https://schooloffreelancing.com/legal/terms-and-conditions#webpage",
         "name": "Terms and Conditions",
         "url": "https://schooloffreelancing.com/legal/terms-and-conditions",
-        "description": "Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.",
+        "description": "Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services.",
         "isPartOf": { "@id": "https://schooloffreelancing.com/#website" }
       },
       {
@@ -75,7 +75,7 @@
       {
         "@type": "Organization",
         "@id": "https://schooloffreelancing.com/#organization",
-        "name": "School of Freelancing",
+        "name": "School Of Freelancing",
         "url": "https://schooloffreelancing.com/",
         "sameAs": [
           "https://github.com/SchoolOfFreelancing",
@@ -247,7 +247,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
 <!-- ===== NAVBAR ===== -->
 <nav class="navbar" aria-label="Main navigation">
   <div class="nav-container">
-    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School of Freelancing">
+    <a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School Of Freelancing">
       <div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house"></i></div><span>SCHOOL OF FREELANCING</span>
     </a>
     <ul class="nav-links" id="nav-links">
@@ -269,7 +269,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <header class="page">
     <p class="breadcrumb-nav"><a href="/">Home</a> / Terms and Conditions</p>
     <h1>Terms and Conditions</h1>
-    <div class="updated">Effective date: September 5, 2026 · School of Freelancing (schooloffreelancing.com)</div>
+    <div class="updated">Effective date: September 5, 2026 · School Of Freelancing (schooloffreelancing.com)</div>
   </header>
 
   <nav class="toc">
@@ -294,10 +294,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </nav>
 
   <h2 id="acceptance">1. Acceptance of Terms</h2>
-  <p>By accessing or using School of Freelancing ("we," "us," "our," the "Platform"), including our website, trainings, and technical support services, you ("you," "user," "client") agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, please do not use the Platform.</p>
+  <p>By accessing or using School Of Freelancing ("we," "us," "our," the "Platform"), including our website, trainings, and technical support services, you ("you," "user," "client") agree to be bound by these Terms and Conditions ("Terms"). If you do not agree, please do not use the Platform.</p>
 
   <h2 id="services">2. Services We Offer</h2>
-  <p>School of Freelancing provides two categories of service:</p>
+  <p>School Of Freelancing provides two categories of service:</p>
   <ul>
     <li><strong>Training:</strong> Linux and cloud freelancing trainings and bootcamps for beginners, covering system administration, VoIP platforms, DevOps tooling, and AI/agentic systems.</li>
     <li><strong>Tech Support:</strong> Professional Linux and cloud technical support services delivered to clients worldwide, including server administration, deployment, and third-party platform integration.</li>
@@ -342,7 +342,7 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   </ul>
 
   <h2 id="ip">9. Intellectual Property</h2>
-  <p>All training content, curriculum, branding, and website materials are the property of School of Freelancing unless otherwise stated. Custom code, configurations, or deliverables produced specifically for a client under a paid support engagement are owned by the client upon full payment, unless a separate agreement states otherwise.</p>
+  <p>All training content, curriculum, branding, and website materials are the property of School Of Freelancing unless otherwise stated. Custom code, configurations, or deliverables produced specifically for a client under a paid support engagement are owned by the client upon full payment, unless a separate agreement states otherwise.</p>
 
   <h2 id="thirdparty">10. Third-Party Platforms</h2>
   <p>Our services may involve or reference third-party platforms (e.g. Upwork, Contra, GitHub, DigitalOcean, Twilio, Telnyx). We are not responsible for the availability, policies, or actions of these third parties.</p>
@@ -351,10 +351,10 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
   <p>The Platform and services are provided "as is" and "as available," without warranties of any kind, express or implied, including fitness for a particular purpose, non-infringement, or uninterrupted availability.</p>
 
   <h2 id="liability">12. Limitation of Liability</h2>
-  <p>To the maximum extent permitted by law, School of Freelancing shall not be liable for any indirect, incidental, special, or consequential damages, including data loss, lost profits, or business interruption, arising from your use of our trainings or support services. Our total liability for any claim shall not exceed the amount you paid for the specific service giving rise to the claim.</p>
+  <p>To the maximum extent permitted by law, School Of Freelancing shall not be liable for any indirect, incidental, special, or consequential damages, including data loss, lost profits, or business interruption, arising from your use of our trainings or support services. Our total liability for any claim shall not exceed the amount you paid for the specific service giving rise to the claim.</p>
 
   <h2 id="indemnity">13. Indemnification</h2>
-  <p>You agree to indemnify and hold School of Freelancing harmless from any claims, damages, or expenses arising from your misuse of the Platform, violation of these Terms, or violation of any third-party rights.</p>
+  <p>You agree to indemnify and hold School Of Freelancing harmless from any claims, damages, or expenses arising from your misuse of the Platform, violation of these Terms, or violation of any third-party rights.</p>
 
   <h2 id="termination">14. Termination</h2>
   <p>We may suspend or terminate your access to trainings or support services at our discretion if you violate these Terms. You may discontinue use of the Platform at any time.</p>
@@ -396,61 +396,61 @@ height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript>
                             <address class="footer-social">
                                 <a
                                     href="https://github.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on GitHub"
+                                    aria-label="School Of Freelancing on GitHub"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-github" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://www.youtube.com/@SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on YouTube"
+                                    aria-label="School Of Freelancing on YouTube"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-youtube" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://www.linkedin.com/company/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on LinkedIn"
+                                    aria-label="School Of Freelancing on LinkedIn"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-linkedin" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://www.facebook.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Facebook"
+                                    aria-label="School Of Freelancing on Facebook"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-square-facebook" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://instagram.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Instagram"
+                                    aria-label="School Of Freelancing on Instagram"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-instagram" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://www.threads.com/SchoolOfFreelancing"
-                                    aria-label="School of Freelancing on Threads"
+                                    aria-label="School Of Freelancing on Threads"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-threads" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://wa.me/8801748973769"
-                                    aria-label="Message School of Freelancing on WhatsApp"
+                                    aria-label="Message School Of Freelancing on WhatsApp"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-whatsapp" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://t.me/SchoolOfFreelancingTraining"
-                                    aria-label="Message School of Freelancing on Telegram"
+                                    aria-label="Message School Of Freelancing on Telegram"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-telegram" aria-hidden="true"></i> </a
                                 ><a
                                     href="https://x.com/SchoolOfFreelan"
-                                    aria-label="School of Freelancing on X (Twitter)"
+                                    aria-label="School Of Freelancing on X (Twitter)"
                                     rel="noopener noreferrer"
                                     target="_blank"
                                     ><i class="fa-brands fa-x-twitter" aria-hidden="true"></i
                                 ></a>
                             </address>
-                            <p style="margin-top: 2rem">© 2015-2026 by School of Freelancing.</p>
+                            <p style="margin-top: 2rem">© 2015-2026 by School Of Freelancing.</p>
                         </aside>
                     </div>
                     <nav aria-label="Footer: Freelancing Training" class="footer-col">

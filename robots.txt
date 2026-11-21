@@ -48,6 +48,15 @@ Allow: /
 User-agent: Claude-SearchBot
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
 User-agent: PerplexityBot
 Allow: /
 
@@ -87,11 +96,6 @@ Allow: /
 # AI model-training crawlers (blocked, matches ai-train=no)
 # These do not affect Google Search or Bing indexing.
 
-User-agent: GPTBot
-Disallow: /
-
-User-agent: ClaudeBot
-Disallow: /
 
 User-agent: Claude-Web
 Disallow: /
@@ -99,8 +103,6 @@ Disallow: /
 User-agent: anthropic-ai
 Disallow: /
 
-User-agent: Applebot-Extended
-Disallow: /
 
 User-agent: cohere-ai
 Disallow: /

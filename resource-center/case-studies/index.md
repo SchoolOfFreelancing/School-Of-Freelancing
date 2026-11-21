@@ -1,13 +1,13 @@
 ---
-title: "Linux & AI Freelancing Case Studies | School of Freelancing"
+title: "Linux & AI Freelancing Case Studies | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
 description: "See real client case studies in Docker, AI, VoIP, and trading infrastructure, then get expert support to deploy reliable solutions for your business."
 ---
 
-# Linux & AI Freelancing Case Studies | School of Freelancing
+# Linux & AI Freelancing Case Studies | School Of Freelancing
 
-The case studies below represent real transformations from School of Freelancing clients and graduates. Each shows the specific challenge, the solution implemented, and the quantified business outcomes.
+The case studies below represent real transformations from School Of Freelancing clients and graduates. Each shows the specific challenge, the solution implemented, and the quantified business outcomes.
 
 ## Case Study 1: E-Commerce Startup – Docker Deployment & Infrastructure Optimization
 
@@ -17,7 +17,7 @@ A growing e-commerce startup was running their application on a single shared se
 
 ### The Solution
 
-School of Freelancing's Docker Engineer Services containerized their entire application stack: web application, database, cache, and background workers. We deployed a Docker Compose environment on their dedicated Ubuntu server with Nginx reverse proxy, SSL/TLS, automated health checks, and restart policies that ensured 24/7 reliability.
+School Of Freelancing's Docker Engineer Services containerized their entire application stack: web application, database, cache, and background workers. We deployed a Docker Compose environment on their dedicated Ubuntu server with Nginx reverse proxy, SSL/TLS, automated health checks, and restart policies that ensured 24/7 reliability.
 
 ### The Results
 
@@ -34,7 +34,7 @@ A B2B SaaS company with 45 developers was using cloud GitHub.com but had new com
 
 ### The Solution
 
-School of Freelancing deployed GitHub Enterprise Server (GHES) on the customer's private infrastructure. We migrated all 200+ repositories preserving Git history, configured SAML authentication linking to their directory service, and built GitHub Actions CI/CD pipelines automating testing and deployment for all codebases.
+School Of Freelancing deployed GitHub Enterprise Server (GHES) on the customer's private infrastructure. We migrated all 200+ repositories preserving Git history, configured SAML authentication linking to their directory service, and built GitHub Actions CI/CD pipelines automating testing and deployment for all codebases.
 
 ### The Results
 
@@ -51,7 +51,7 @@ A 50-agent outbound call center was paying $45/month per agent to a traditional 
 
 ### The Solution
 
-School of Freelancing deployed FusionPBX on dedicated Ubuntu servers providing a fully self-hosted PBX system. We configured 50 extensions, implemented intelligent call routing, set up IVR menus for client-specific routing, integrated with Twilio SIP trunks for inbound/outbound calls, and trained the team to manage their own system.
+School Of Freelancing deployed FusionPBX on dedicated Ubuntu servers providing a fully self-hosted PBX system. We configured 50 extensions, implemented intelligent call routing, set up IVR menus for client-specific routing, integrated with Twilio SIP trunks for inbound/outbound calls, and trained the team to manage their own system.
 
 ### The Results
 
@@ -68,7 +68,7 @@ An AI startup building customer support chatbots was spending $8,000/month on Op
 
 ### The Solution
 
-School of Freelancing deployed LocalAI on their infrastructure, running open-source LLMs (Mistral, Llama2) with quantization optimization. We set up load balancing across multiple LocalAI instances, implemented caching for frequently-asked questions, and created a fallback to OpenAI for edge cases where accuracy requirements mandated the paid API.
+School Of Freelancing deployed LocalAI on their infrastructure, running open-source LLMs (Mistral, Llama2) with quantization optimization. We set up load balancing across multiple LocalAI instances, implemented caching for frequently-asked questions, and created a fallback to OpenAI for edge cases where accuracy requirements mandated the paid API.
 
 ### The Results
 
@@ -85,7 +85,7 @@ A B2B SaaS platform needed to add AI-powered document analysis to their product 
 
 ### The Solution
 
-School of Freelancing designed and implemented Claude API integration into their backend, developing specialized prompts for their document types, implementing batching for cost efficiency, and building logging/monitoring for production reliability. We also established token usage tracking and optimization strategies to control API costs as volume scaled.
+School Of Freelancing designed and implemented Claude API integration into their backend, developing specialized prompts for their document types, implementing batching for cost efficiency, and building logging/monitoring for production reliability. We also established token usage tracking and optimization strategies to control API costs as volume scaled.
 
 ### The Results
 
@@ -96,4 +96,4 @@ School of Freelancing designed and implemented Claude API integration into their
 
 ## Ready for Your Own Transformation?
 
-Whether you need Docker deployment, AI integration, VoIP infrastructure, or Linux expertise, School of Freelancing has the proven experience to deliver results.
+Whether you need Docker deployment, AI integration, VoIP infrastructure, or Linux expertise, School Of Freelancing has the proven experience to deliver results.

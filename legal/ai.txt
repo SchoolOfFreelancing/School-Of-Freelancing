@@ -20,27 +20,27 @@ Description: School Of Freelancing legal: Privacy Policy, Terms and Conditions, 
 Page: https://schooloffreelancing.com/legal/credential-verification
 Title: Credential Verification Support | School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/credential-verification
-Description: Employers can verify a student's School of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
+Description: Employers can verify a student's School Of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
 
 Page: https://schooloffreelancing.com/legal/privacy-policy
-Title: Privacy Policy — School of Freelancing
+Title: Privacy Policy — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/privacy-policy
-Description: Privacy Policy for School of Freelancing — how we collect, use, and protect your data across our training and tech support services.
+Description: Privacy Policy for School Of Freelancing — how we collect, use, and protect your data across our training and tech support services.
 
 Page: https://schooloffreelancing.com/legal/refund-policy
-Title: Refund Policy — School of Freelancing
+Title: Refund Policy — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/refund-policy
-Description: Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
+Description: Refund Policy for School Of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
 
 Page: https://schooloffreelancing.com/legal/terms-and-conditions
 Title: Terms and Conditions — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/terms-and-conditions
-Description: Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
+Description: Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services.
 
 Page: https://schooloffreelancing.com/legal/training-rules
 Title: Training Rules — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/training-rules
-Description: Training Rules (Ground Rules) for School of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
+Description: Training Rules (Ground Rules) for School Of Freelancing — enrollment, attendance, communication, and conduct requirements for our Linux freelancing training.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/

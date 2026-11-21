@@ -15,7 +15,7 @@ Section: https://schooloffreelancing.com/legal/terms-and-conditions
 Page: https://schooloffreelancing.com/legal/terms-and-conditions
 Title: Terms and Conditions — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/terms-and-conditions
-Description: Terms and Conditions for School of Freelancing — Linux freelancing training and professional tech support services.
+Description: Terms and Conditions for School Of Freelancing — Linux freelancing training and professional tech support services.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/legal

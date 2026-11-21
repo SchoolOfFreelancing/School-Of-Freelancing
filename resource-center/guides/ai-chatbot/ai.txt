@@ -13,7 +13,7 @@ Section: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
 
 # PAGES
 Page: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
-Title: How to Create Your First AI Chatbot | School of Freelancing
+Title: How to Create Your First AI Chatbot | School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
 Description: Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 

@@ -9,7 +9,7 @@ description: "Hire DigitalOcean cloud experts for Linux, security, deployment, t
 
 ## Support Overview
 
-Hire School of Freelancing for done-for-you DigitalOcean AI-native cloud support, including Linux, security, app deployment, troubleshooting, and optimization—without the cost of a full-time cloud engineer.
+Hire School Of Freelancing for done-for-you DigitalOcean AI-native cloud support, including Linux, security, app deployment, troubleshooting, and optimization—without the cost of a full-time cloud engineer.
 
 ## Key Takeaways
 

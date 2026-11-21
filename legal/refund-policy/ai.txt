@@ -13,9 +13,9 @@ Section: https://schooloffreelancing.com/legal/refund-policy
 
 # PAGES
 Page: https://schooloffreelancing.com/legal/refund-policy
-Title: Refund Policy — School of Freelancing
+Title: Refund Policy — School Of Freelancing
 Canonical: https://schooloffreelancing.com/legal/refund-policy
-Description: Refund Policy for School of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
+Description: Refund Policy for School Of Freelancing — when refunds are available for our Linux freelancing training and tech support services.
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/legal

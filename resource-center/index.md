@@ -1,11 +1,11 @@
 ---
-title: "Resource Center | School of Freelancing"
+title: "Resource Center | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "The School of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI."
+description: "The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI."
 ---
 
-# Resource Center | School of Freelancing
+# Resource Center | School Of Freelancing
 
 ## FAQs
 
@@ -13,11 +13,11 @@ Quick answers about our training programs, payment, technical support, and how r
 
 ## Testimonials
 
-Read what past students and support clients say about training with, and getting support from, School of Freelancing.
+Read what past students and support clients say about training with, and getting support from, School Of Freelancing.
 
 ## Intro Video
 
-Watch a short video introduction to School of Freelancing's training and support offerings.
+Watch a short video introduction to School Of Freelancing's training and support offerings.
 
 ## Case Studies
 

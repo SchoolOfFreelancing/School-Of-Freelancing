@@ -1,5 +1,5 @@
 ---
-title: "How to Create Your First AI Chatbot | School of Freelancing"
+title: "How to Create Your First AI Chatbot | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
 description: "Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production."
@@ -41,7 +41,7 @@ def chat(user_message):
  )
  return response.content[0].text
 
-# How to Create Your First AI Chatbot | School of Freelancing
+# How to Create Your First AI Chatbot | School Of Freelancing
 response = chat("What's your return policy?")
 print(response)
 ```

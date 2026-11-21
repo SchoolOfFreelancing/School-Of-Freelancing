@@ -1,11 +1,11 @@
 {
   "schemaVersion": "2025-06-18",
   "protocolVersion": "2025-06-18",
-  "name": "School of Freelancing MCP Server",
+  "name": "School Of Freelancing MCP Server",
   "description": "Model Context Protocol server for discovering training programs, services, and resources",
   "version": "1.0.0",
   "serverInfo": {
-    "name": "School of Freelancing MCP Server",
+    "name": "School Of Freelancing MCP Server",
     "version": "1.0.0"
   },
   "url": "https://schooloffreelancing.com/.well-known/mcp.json",

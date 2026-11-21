@@ -84,7 +84,7 @@
   mc.registerTool(
     {
       name: "list_site_sections",
-      description: "List the main sections of School of Freelancing: training catalog, Linux and AI services, registration, contact and LLM-friendly content.",
+      description: "List the main sections of School Of Freelancing: training catalog, Linux and AI services, registration, contact and LLM-friendly content.",
       inputSchema: { type: "object", properties: {} },
       execute: async function () {
         return ok({

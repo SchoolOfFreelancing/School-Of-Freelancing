@@ -15,7 +15,7 @@ Section: https://schooloffreelancing.com/resource-center/testimonials
 Page: https://schooloffreelancing.com/resource-center/testimonials
 Title: Testimonials: School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/testimonials
-Description: School of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
+Description: School Of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses
 
 # RELATIONSHIP
 Parent: https://schooloffreelancing.com/resource-center

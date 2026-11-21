@@ -13,7 +13,7 @@ Section: https://schooloffreelancing.com/freelancing-training/debian-linux-train
 
 # PAGES
 Page: https://schooloffreelancing.com/freelancing-training/debian-linux-training
-Title: Debian Linux - Freelancing Training | School of Freelancing
+Title: Debian Linux - Freelancing Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training/debian-linux-training
 Description: Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & Attendize, troubleshoot LEMP stack errors, build portfolios, land clients.
 
