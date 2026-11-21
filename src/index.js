@@ -151,7 +151,11 @@ function shouldConvert(url) {
   if (url.hostname !== SITE_HOST) {
     return false;
   }
-  if (url.pathname === "/amp" || url.pathname.startsWith("/amp/")) {
+  if (
+    url.pathname === "/amp" ||
+    url.pathname.endsWith("/amp") ||
+    url.pathname.includes("/amp/")
+  ) {
     return false;
   }
   // Exclude both exact base paths and all their descendants.
@@ -682,15 +686,6 @@ export default {
       }
     }
 
-    /*
-     * Explicit fast path for /amp: resolve straight to amp/index.html
-     * in a single ASSETS.fetch() call.
-     */
-    if (url.pathname === "/amp") {
-      const assetUrl = new URL(request.url);
-      assetUrl.pathname = "/amp/index.html";
-      return fetchWithFallback(new Request(assetUrl, request), ctx, env);
-    }
 
     /* Only GET and HEAD are handled specially. */
     if (!isRead) {
