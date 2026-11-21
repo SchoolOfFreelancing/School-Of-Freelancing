@@ -459,6 +459,14 @@ function updateHeaders(originHeaders) {
   headers.delete("Last-Modified");
   headers.set("X-Markdown-Content-Negotiation", "text/markdown");
   headers.set("X-Markdown-Source", "Cloudflare-Worker");
+  headers.set(
+    "Link",
+    '</llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp"'
+  );
+  headers.set(
+    "Content-Signal",
+    "search=yes, ai-input=yes, ai-train=no, use=reference"
+  );
   return headers;
 }
 
@@ -499,6 +507,30 @@ function setClientCacheHeaders(response, url) {
   }
 
   const headers = new Headers(response.headers);
+
+  /* AI Visibility and Discovery headers for non-static assets */
+  if (!STATIC_ASSET_PATTERN.test(url.pathname)) {
+    headers.set(
+      "Link",
+      '</llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp"'
+    );
+    headers.set(
+      "Content-Signal",
+      "search=yes, ai-input=yes, ai-train=no, use=reference"
+    );
+  }
+
+  /* Universal CORS for discovery, schema, and API endpoints */
+  if (
+    url.pathname.startsWith("/.well-known/") ||
+    url.pathname === "/llms.txt" ||
+    url.pathname === "/llms-full.txt" ||
+    url.pathname === "/ai.txt" ||
+    url.pathname === "/openapi.json" ||
+    url.pathname.startsWith("/schemas/")
+  ) {
+    headers.set("Access-Control-Allow-Origin", "*");
+  }
 
   if (status === 404) {
     /* 404s: cache for 1 minute so scanner bursts don't hammer ASSETS. */

@@ -1,30 +1,3 @@
 {
-  "typ": "oauth-id-jag+jwt",
-  "alg": "ES256", // or RS256, etc.
-  "kid": "<provider key id>"
-}
-.
-{
-  // required
-  "iss": "https://api.agent-provider.example.com",
-  "sub": "<opaque user identifier>",
-  "aud": "https://auth.service.example.com",
-  "client_id": "<iss or CIMD URL>",
-  "jti": "<unique identifier for the token to prevent replay>",
-  "iat": <issuance epoch seconds>,
-  "exp": <iat + 5m>,
-  "auth_time": <epoch seconds the user last authenticated at your provider>,
-  "email": "user@example.com",
-  "email_verified": true,
-
-  // optional
-  "amr": ["mfa"],
-  "name": "Jane Smith",
-  "phone_number": "+15553805188",
-  "phone_number_verified": false,
-  "resource": "https://api.service.example.com",
-
-  // optional agent metadata
-  "agent_platform": "<your-agent-surface>",
-  "agent_context_id": "<chat-id>"
+  "keys": []
 }

@@ -1,0 +1,113 @@
+{
+  "openapi": "3.1.0",
+  "info": {
+    "title": "School of Freelancing API",
+    "description": "Public catalog and discovery API for School of Freelancing training programs, client support services, and educational resources.",
+    "version": "1.0.0",
+    "contact": {
+      "name": "School of Freelancing Support",
+      "email": "office@schooloffreelancing.com",
+      "url": "https://schooloffreelancing.com/contact-us"
+    },
+    "license": {
+      "name": "MIT",
+      "url": "https://opensource.org/licenses/MIT"
+    }
+  },
+  "servers": [
+    {
+      "url": "https://schooloffreelancing.com/api",
+      "description": "Production Edge Server"
+    }
+  ],
+  "paths": {
+    "/courses": {
+      "get": {
+        "summary": "List training courses",
+        "description": "Retrieve available training courses with category, duration, modules, and pricing.",
+        "operationId": "listCourses",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Filter by category (linux, ai, crypto, voip, cloud, cicd, sms)",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of training courses",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "https://schooloffreelancing.com/schemas/training.json"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/services": {
+      "get": {
+        "summary": "List client support services",
+        "description": "Retrieve available client support and IT engineering services.",
+        "operationId": "listServices",
+        "parameters": [
+          {
+            "name": "category",
+            "in": "query",
+            "description": "Filter by category (cloud, linux, voip, ai, trading, cicd, sms)",
+            "required": false,
+            "schema": {
+              "type": "string"
+            }
+          }
+        ],
+        "responses": {
+          "200": {
+            "description": "List of client support services",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "https://schooloffreelancing.com/schemas/service.json"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    },
+    "/resources": {
+      "get": {
+        "summary": "List educational resources and guides",
+        "description": "Retrieve available technical guides, FAQs, testimonials, and case studies.",
+        "operationId": "listResources",
+        "responses": {
+          "200": {
+            "description": "List of resources",
+            "content": {
+              "application/json": {
+                "schema": {
+                  "type": "array",
+                  "items": {
+                    "$ref": "https://schooloffreelancing.com/schemas/resource.json"
+                  }
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+}

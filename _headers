@@ -1,21 +1,103 @@
+/*
+  Link: </llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp"
+  Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference
+
+/llms.txt
+  Content-Type: text/markdown; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/llms-full.txt
+  Content-Type: text/markdown; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/ai.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/ai.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/openapi.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/schemas/*
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /.well-known/oauth-authorization-server
-  Content-Type: application/json
+  Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
+
+/.well-known/oauth-authorization-server.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /.well-known/oauth-protected-resource
-  Content-Type: application/json
+  Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
+
+/.well-known/oauth-protected-resource.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /.well-known/openid-configuration
-  Content-Type: application/json
+  Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
+
+/.well-known/openid-configuration.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /.well-known/ai-catalog.json
-  Content-Type: application/json
+  Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
+
 /.well-known/agent-card.json
-  Content-Type: application/json
+  Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
+
+/.well-known/agents.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/agent-skills.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/skills.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/mcp.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/webmcp.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/api-catalog.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/jwks.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/acp.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/poppy.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/security.txt
+  Content-Type: text/plain; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /.well-known/http-message-signatures-directory
   Content-Type: application/http-message-signatures-directory+json
   Access-Control-Allow-Origin: *
-# X-Robots-Tag removed — "llms-txt" and "cloudflare" are not valid X-Robots-Tag
-# directives per Google spec. Content permissions are declared in robots.txt
-# via the Content-Signal section (search=yes, ai-input=yes, ai-train=no).

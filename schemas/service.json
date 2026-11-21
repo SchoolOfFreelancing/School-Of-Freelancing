@@ -1,0 +1,21 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schooloffreelancing.com/schemas/service.json",
+  "title": "ClientSupportService",
+  "description": "School of Freelancing client support service schema",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "category": { "type": "string", "enum": ["cloud", "linux", "voip", "ai", "trading", "cicd", "sms"] },
+    "startingPriceUSD": { "type": "number", "minimum": 0 },
+    "currency": { "type": "string", "default": "USD" },
+    "etaHours": { "type": "integer", "minimum": 1 },
+    "etaDays": { "type": "integer", "minimum": 1 },
+    "billingModel": { "type": "string", "default": "Milestone-based / Fixed-scope" },
+    "deliverables": { "type": "array", "items": { "type": "string" } },
+    "canonicalUrl": { "type": "string", "format": "uri" }
+  },
+  "required": ["id", "title", "description", "category", "canonicalUrl"]
+}

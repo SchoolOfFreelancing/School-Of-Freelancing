@@ -1,0 +1,24 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schooloffreelancing.com/schemas/training.json",
+  "title": "TrainingProgram",
+  "description": "School of Freelancing training program schema",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "description": { "type": "string" },
+    "category": { "type": "string", "enum": ["linux", "ai", "crypto", "voip", "cloud", "cicd", "sms"] },
+    "level": { "type": "string", "enum": ["beginner", "intermediate", "advanced"] },
+    "modules": { "type": "integer", "minimum": 1 },
+    "durationHours": { "type": "integer", "minimum": 1 },
+    "durationWeeks": { "type": "integer", "minimum": 1 },
+    "priceUSD": { "type": "number", "minimum": 0 },
+    "currency": { "type": "string", "default": "USD" },
+    "deliveryMode": { "type": "string", "default": "Online Instructor-Led (ILT)" },
+    "prerequisites": { "type": "array", "items": { "type": "string" } },
+    "curriculumTopics": { "type": "array", "items": { "type": "string" } },
+    "canonicalUrl": { "type": "string", "format": "uri" }
+  },
+  "required": ["id", "title", "description", "category", "priceUSD", "canonicalUrl"]
+}

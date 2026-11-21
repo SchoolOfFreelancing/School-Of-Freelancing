@@ -1,0 +1,15 @@
+{
+  "$schema": "https://json-schema.org/draft/2020-12/schema",
+  "$id": "https://schooloffreelancing.com/schemas/resource.json",
+  "title": "Resource",
+  "description": "School of Freelancing resource item schema",
+  "type": "object",
+  "properties": {
+    "id": { "type": "string" },
+    "title": { "type": "string" },
+    "type": { "type": "string", "enum": ["faq", "guide", "case-study", "testimonial", "video"] },
+    "description": { "type": "string" },
+    "canonicalUrl": { "type": "string", "format": "uri" }
+  },
+  "required": ["id", "title", "type", "canonicalUrl"]
+}

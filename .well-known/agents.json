@@ -73,9 +73,16 @@
           ],
           "description": "Complete LLM site content index",
           "contentType": "text/plain"
+        },
+        "ai-txt": {
+          "uri": "https://schooloffreelancing.com/.well-known/ai.txt",
+          "methods": [
+            "GET"
+          ],
+          "description": "AI discovery manifest",
+          "contentType": "text/plain"
         }
-      },
-
+      }
     }
   ]
 }

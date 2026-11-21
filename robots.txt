@@ -173,3 +173,10 @@ Disallow: /
 
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Sitemap: https://schooloffreelancing.com/video-sitemap.xml
+
+# AI and LLM Discovery
+# llms.txt: https://schooloffreelancing.com/llms.txt
+# llms-full.txt: https://schooloffreelancing.com/llms-full.txt
+# ai.txt: https://schooloffreelancing.com/ai.txt
+# Agent Card: https://schooloffreelancing.com/.well-known/agent-card.json
+# MCP Server: https://schooloffreelancing.com/.well-known/mcp.json
