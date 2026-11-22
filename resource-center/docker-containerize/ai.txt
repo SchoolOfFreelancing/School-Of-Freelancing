@@ -6,20 +6,20 @@
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Section: https://schooloffreelancing.com/resource-center/docker-containerize
 
 # PURPOSE
 # Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Page: https://schooloffreelancing.com/resource-center/docker-containerize
 Title: How to Containerize a Legacy Web Application
-Canonical: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Canonical: https://schooloffreelancing.com/resource-center/docker-containerize
 Description: Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center/guides
-Current: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Parent: https://schooloffreelancing.com/resource-center
+Current: https://schooloffreelancing.com/resource-center/docker-containerize
 
 # HTML DISCOVERY
 # Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">

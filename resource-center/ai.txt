@@ -27,29 +27,29 @@ Title: FAQs: School Of Freelancing
 Canonical: https://schooloffreelancing.com/resource-center/faqs
 Description: Answers to common questions about School Of Freelancing's training programs and client support services.
 
-Page: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Page: https://schooloffreelancing.com/resource-center/ai-chatbot
 Title: How to Create Your First AI Chatbot | School Of Freelancing
-Canonical: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Canonical: https://schooloffreelancing.com/resource-center/ai-chatbot
 Description: Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
-Page: https://schooloffreelancing.com/resource-center/guides/automation
+Page: https://schooloffreelancing.com/resource-center/automation
 Title: Automate Your First Repetitive Task
-Canonical: https://schooloffreelancing.com/resource-center/guides/automation
+Canonical: https://schooloffreelancing.com/resource-center/automation
 Description: Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
 
-Page: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Page: https://schooloffreelancing.com/resource-center/docker-containerize
 Title: How to Containerize a Legacy Web Application
-Canonical: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+Canonical: https://schooloffreelancing.com/resource-center/docker-containerize
 Description: Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
 
-Page: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Page: https://schooloffreelancing.com/resource-center/linux-deployment
 Title: Deploy a Linux Server from Zero to Production
-Canonical: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Canonical: https://schooloffreelancing.com/resource-center/linux-deployment
 Description: Learn Ubuntu Linux server deployment for freelance projects, including security hardening, networking, systemd, backups, monitoring, and client support.
 
-Page: https://schooloffreelancing.com/resource-center/guides/voip-setup
+Page: https://schooloffreelancing.com/resource-center/voip-setup
 Title: Set Up Your Own VoIP Phone System
-Canonical: https://schooloffreelancing.com/resource-center/guides/voip-setup
+Canonical: https://schooloffreelancing.com/resource-center/voip-setup
 Description: Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
 
 Page: https://schooloffreelancing.com/resource-center/intro-video
@@ -69,7 +69,7 @@ Current: https://schooloffreelancing.com/resource-center
 # CHILD SECTIONS
 Section: https://schooloffreelancing.com/resource-center/case-studies
 Section: https://schooloffreelancing.com/resource-center/faqs
-Section: https://schooloffreelancing.com/resource-center/guides
+Section: https://schooloffreelancing.com/resource-center
 Section: https://schooloffreelancing.com/resource-center/intro-video
 Section: https://schooloffreelancing.com/resource-center/testimonials
 

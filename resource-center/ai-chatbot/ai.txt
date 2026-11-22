@@ -6,20 +6,20 @@
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Section: https://schooloffreelancing.com/resource-center/ai-chatbot
 
 # PURPOSE
 # Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Page: https://schooloffreelancing.com/resource-center/ai-chatbot
 Title: How to Create Your First AI Chatbot | School Of Freelancing
-Canonical: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Canonical: https://schooloffreelancing.com/resource-center/ai-chatbot
 Description: Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center/guides
-Current: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+Parent: https://schooloffreelancing.com/resource-center
+Current: https://schooloffreelancing.com/resource-center/ai-chatbot
 
 # HTML DISCOVERY
 # Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">

@@ -6,20 +6,20 @@
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/guides/automation
+Section: https://schooloffreelancing.com/resource-center/automation
 
 # PURPOSE
 # Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/resource-center/guides/automation
+Page: https://schooloffreelancing.com/resource-center/automation
 Title: Automate Your First Repetitive Task
-Canonical: https://schooloffreelancing.com/resource-center/guides/automation
+Canonical: https://schooloffreelancing.com/resource-center/automation
 Description: Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center/guides
-Current: https://schooloffreelancing.com/resource-center/guides/automation
+Parent: https://schooloffreelancing.com/resource-center
+Current: https://schooloffreelancing.com/resource-center/automation
 
 # HTML DISCOVERY
 # Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">

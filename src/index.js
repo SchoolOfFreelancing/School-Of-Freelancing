@@ -64,13 +64,16 @@ const OLD_PAGES = {
 
 /*
  * Moved from .htaccess ("GSC-FIX" block).
+ * The guides were moved directly under /resource-center (e.g. /resource-center/ai-chatbot).
+ * Redirect legacy /resource-center/guides/* URLs to their new canonical destinations.
  */
 const LEGACY_REDIRECTS = {
-  "/resource-center/ai-chatbot": "/resource-center/guides/ai-chatbot",
-  "/resource-center/automation": "/resource-center/guides/automation",
-  "/resource-center/docker-containerize": "/resource-center/guides/docker-containerize",
-  "/resource-center/linux-deployment": "/resource-center/guides/linux-deployment",
-  "/resource-center/voip-setup": "/resource-center/guides/voip-setup",
+  "/resource-center/guides": "/resource-center",
+  "/resource-center/guides/ai-chatbot": "/resource-center/ai-chatbot",
+  "/resource-center/guides/automation": "/resource-center/automation",
+  "/resource-center/guides/docker-containerize": "/resource-center/docker-containerize",
+  "/resource-center/guides/linux-deployment": "/resource-center/linux-deployment",
+  "/resource-center/guides/voip-setup": "/resource-center/voip-setup",
 };
 
 function legacyTarget(url) {

@@ -6,20 +6,20 @@
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
 Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Section: https://schooloffreelancing.com/resource-center/linux-deployment
 
 # PURPOSE
 # Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
 
 # PAGES
-Page: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Page: https://schooloffreelancing.com/resource-center/linux-deployment
 Title: Deploy a Linux Server from Zero to Production
-Canonical: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Canonical: https://schooloffreelancing.com/resource-center/linux-deployment
 Description: Learn Ubuntu Linux server deployment for freelance projects, including security hardening, networking, systemd, backups, monitoring, and client support.
 
 # RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center/guides
-Current: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+Parent: https://schooloffreelancing.com/resource-center
+Current: https://schooloffreelancing.com/resource-center/linux-deployment
 
 # HTML DISCOVERY
 # Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">
