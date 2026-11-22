@@ -26,20 +26,79 @@
 }
 </script>
 <link rel="stylesheet" href="/assets/css/style.css?v=20260930"><link rel="stylesheet" href="/assets/css/fa-subset.min.css"><link href="/favicon.ico" rel="icon" sizes="any"><link href="/assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png"><link href="/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png"><link href="/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180"><link href="/assets/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png"><link href="/site.webmanifest" rel="manifest"><script defer type="module" src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"></script><style>
-/* Guides page: background + layout safeguards (works even if page-hero/breadcrumb rules are missing from the loaded CSS) */
+/* Guides page: self-contained layout so it renders correctly regardless of hero/container rules in the shared stylesheet.
+   Selectors are prefixed with "main" for higher specificity than generic .hero/.page-hero/.container rules in style.css. */
 html,body{background-color:#0024ED;color:#fff;min-height:100%}
-.page-hero{padding:140px 0 60px;text-align:center;position:relative;overflow:hidden;background:#0024ED}
-.page-hero h1{margin-bottom:16px}
-.page-hero p{max-width:640px;margin-inline:auto}
-.page-hero .breadcrumb{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:8px;list-style:none;font-size:.85rem;margin:0 0 32px;padding:0}
-.page-hero .breadcrumb .sep{opacity:.6}
-.page-hero .breadcrumb .current{color:#fff}
-main .section{background:#0024ED;padding:20px 0 80px}
+
+/* Hero: stacked, centered, natural height (was a tall multi-column flex/grid row) */
+main .page-hero{
+  display:block;
+  height:auto;
+  min-height:0;
+  padding:140px 0 60px;
+  text-align:center;
+  position:relative;
+  overflow:hidden;
+  background:#0024ED;
+}
+main .page-hero .container,
+main .section .container{
+  display:block;
+  width:100%;
+  max-width:1200px;
+  margin-inline:auto;
+  padding-inline:24px;
+  grid-template-columns:none;
+  flex-direction:column;
+}
+main .page-hero .container > *{
+  position:static;
+  width:auto;
+  max-width:100%;
+  margin-inline:auto;
+  transform:none;
+}
+main .page-hero h1{margin:0 0 16px}
+main .page-hero p{max-width:640px;margin:0 auto}
+
+/* Breadcrumb */
+main .page-hero nav[aria-label="Breadcrumb"]{display:block;width:100%;margin:0 0 32px}
+main .page-hero .breadcrumb{
+  display:flex;
+  flex-wrap:wrap;
+  align-items:center;
+  justify-content:center;
+  gap:8px;
+  list-style:none;
+  font-size:.85rem;
+  margin:0;
+  padding:0;
+  position:static;
+}
+main .page-hero .breadcrumb .sep{opacity:.6}
+main .page-hero .breadcrumb .current{color:#fff}
+
+/* Cards */
+main .section{background:#0024ED;padding:20px 0 80px;min-height:0}
 .trainings-grid{display:grid;grid-template-columns:repeat(auto-fit,minmax(280px,1fr));gap:28px}
-.trainings-grid .training-card{background:rgba(255,255,255,.1);border:1px solid rgba(255,255,255,.25);border-radius:8px;display:flex;flex-direction:column}
-.trainings-grid .training-body{padding:24px;display:flex;flex-direction:column;flex:1;align-items:flex-start}
+.trainings-grid .training-card{
+  background:rgba(255,255,255,.1);
+  border:1px solid rgba(255,255,255,.25);
+  border-radius:8px;
+  display:flex;
+  flex-direction:column;
+  opacity:1;
+  transform:none;
+  visibility:visible;
+}
+.trainings-grid .training-body{padding:24px;display:flex;flex-direction:column;flex:1;align-items:flex-start;text-align:left}
 .trainings-grid .training-title,.trainings-grid .training-desc{color:#fff}
+.trainings-grid .training-title a{color:inherit;text-decoration:none}
 .trainings-grid .training-desc{flex:1}
+
+@media (max-width:640px){
+  main .page-hero{padding:110px 0 40px}
+}
 </style>
 </head>
 <body>
