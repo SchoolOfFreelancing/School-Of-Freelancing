@@ -331,6 +331,16 @@ amp-sidebar a {
 .float-contact, .nav-toggle, .nav-overlay, .skip-link { display: none; }
 .hero-video { max-width: 640px; margin-inline: auto; }
 
+
+/* Utility classes moved from inline styles */
+.u-08e2a3 { font-size:1.1rem; margin:0 0 .75rem; }
+.u-195220 { margin-top:1rem; display:inline-block; }
+.u-48d6d5 { padding:3rem 1rem 2rem; text-align:center; }
+.u-a4f3f1 { max-width:640px; margin:1rem auto 0; }
+.u-a610c8 { border:1px solid rgba(255,255,255,.15); border-radius:12px; padding:1.5rem; }
+.u-c42817 { padding:2rem 1rem 4rem; }
+.u-db5456 { display:flex; gap:.5rem; list-style:none; justify-content:center; padding:0; margin:0 0 1.5rem; font-size:.9rem; }
+.u-de3fd3 { display:grid; grid-template-columns:repeat(auto-fill,minmax(280px,1fr)); gap:1.5rem; max-width:1100px; margin:0 auto; }
 </style>
 <script type="application/ld+json">
 {
@@ -414,9 +424,9 @@ amp-sidebar a {
 <nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="School Of Freelancing — Home"><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/resource-center/testimonials">Testimonials</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav>
 
 <main>
-  <section class="hero" style="padding:3rem 1rem 2rem;text-align:center;">
+  <section class="hero u-48d6d5">
     <nav aria-label="Breadcrumb">
-      <ol class="breadcrumb" style="display:flex;gap:.5rem;list-style:none;justify-content:center;padding:0;margin:0 0 1.5rem;font-size:.9rem;">
+      <ol class="breadcrumb u-db5456">
         <li><a href="/">Home</a></li>
         <li aria-hidden="true">›</li>
         <li><a href="/resource-center">Resource Center</a></li>
@@ -425,41 +435,41 @@ amp-sidebar a {
       </ol>
     </nav>
     <h1>Free How-To Guides</h1>
-    <p class="hero-subtitle" style="max-width:640px;margin:1rem auto 0;">Step-by-step technical guides on Linux, Docker, VoIP, AI chatbots, and automation — written by our instructors for freelancers and businesses.</p>
+    <p class="hero-subtitle u-a4f3f1">Step-by-step technical guides on Linux, Docker, VoIP, AI chatbots, and automation — written by our instructors for freelancers and businesses.</p>
   </section>
 
-  <section style="padding:2rem 1rem 4rem;">
+  <section class="u-c42817">
     <div class="container">
-      <div class="training-grid" style="display:grid;grid-template-columns:repeat(auto-fill,minmax(280px,1fr));gap:1.5rem;max-width:1100px;margin:0 auto;">
+      <div class="training-grid u-de3fd3">
 
-        <article class="training-card" style="border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:1.5rem;">
-          <h2 class="training-title" style="font-size:1.1rem;margin:0 0 .75rem;"><a href="/resource-center/guides/ai-chatbot">How to Create Your First AI Chatbot</a></h2>
+        <article class="training-card u-a610c8">
+          <h2 class="training-title u-08e2a3"><a href="/resource-center/guides/ai-chatbot">How to Create Your First AI Chatbot</a></h2>
           <p class="training-desc">Build an AI chatbot using the Claude API: authentication, prompt engineering, and deployment to production.</p>
-          <a href="/resource-center/guides/ai-chatbot" class="btn btn-outline" style="margin-top:1rem;display:inline-block;">Read Guide →</a>
+          <a href="/resource-center/guides/ai-chatbot" class="btn btn-outline u-195220">Read Guide →</a>
         </article>
 
-        <article class="training-card" style="border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:1.5rem;">
-          <h2 class="training-title" style="font-size:1.1rem;margin:0 0 .75rem;"><a href="/resource-center/guides/automation">Automation for Freelancers</a></h2>
+        <article class="training-card u-a610c8">
+          <h2 class="training-title u-08e2a3"><a href="/resource-center/guides/automation">Automation for Freelancers</a></h2>
           <p class="training-desc">Learn how to automate repetitive tasks with shell scripts, cron jobs, and AI-assisted workflows to save hours every week.</p>
-          <a href="/resource-center/guides/automation" class="btn btn-outline" style="margin-top:1rem;display:inline-block;">Read Guide →</a>
+          <a href="/resource-center/guides/automation" class="btn btn-outline u-195220">Read Guide →</a>
         </article>
 
-        <article class="training-card" style="border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:1.5rem;">
-          <h2 class="training-title" style="font-size:1.1rem;margin:0 0 .75rem;"><a href="/resource-center/guides/docker-containerize">How to Dockerize Your Application</a></h2>
+        <article class="training-card u-a610c8">
+          <h2 class="training-title u-08e2a3"><a href="/resource-center/guides/docker-containerize">How to Dockerize Your Application</a></h2>
           <p class="training-desc">Containerize any app with Docker: write Dockerfiles, build images, and deploy containers on a Linux server.</p>
-          <a href="/resource-center/guides/docker-containerize" class="btn btn-outline" style="margin-top:1rem;display:inline-block;">Read Guide →</a>
+          <a href="/resource-center/guides/docker-containerize" class="btn btn-outline u-195220">Read Guide →</a>
         </article>
 
-        <article class="training-card" style="border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:1.5rem;">
-          <h2 class="training-title" style="font-size:1.1rem;margin:0 0 .75rem;"><a href="/resource-center/guides/linux-deployment">Linux Server Deployment Guide</a></h2>
+        <article class="training-card u-a610c8">
+          <h2 class="training-title u-08e2a3"><a href="/resource-center/guides/linux-deployment">Linux Server Deployment Guide</a></h2>
           <p class="training-desc">Deploy and harden a Linux server from scratch: SSH keys, firewall, Nginx, SSL, and production-ready configuration.</p>
-          <a href="/resource-center/guides/linux-deployment" class="btn btn-outline" style="margin-top:1rem;display:inline-block;">Read Guide →</a>
+          <a href="/resource-center/guides/linux-deployment" class="btn btn-outline u-195220">Read Guide →</a>
         </article>
 
-        <article class="training-card" style="border:1px solid rgba(255,255,255,.15);border-radius:12px;padding:1.5rem;">
-          <h2 class="training-title" style="font-size:1.1rem;margin:0 0 .75rem;"><a href="/resource-center/guides/voip-setup">VoIP Server Setup Guide</a></h2>
+        <article class="training-card u-a610c8">
+          <h2 class="training-title u-08e2a3"><a href="/resource-center/guides/voip-setup">VoIP Server Setup Guide</a></h2>
           <p class="training-desc">Set up a VoIP phone system using FusionPBX or Goautodial on a Linux server with SIP trunking and call routing.</p>
-          <a href="/resource-center/guides/voip-setup" class="btn btn-outline" style="margin-top:1rem;display:inline-block;">Read Guide →</a>
+          <a href="/resource-center/guides/voip-setup" class="btn btn-outline u-195220">Read Guide →</a>
         </article>
 
       </div>
