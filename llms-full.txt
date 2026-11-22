@@ -305,18 +305,14 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
 
 ---
 
-## 5. Resource Center & How-To Guides
+## 5. Resource Center 
 
 ### Resource Center Hub
 - **URL**: https://schooloffreelancing.com/resource-center
-- **Overview**: Central knowledge repository containing free how-to technical guides, FAQs, case studies, introductory video, and client testimonials.
-
-### Free How-To Guides Index
-- **URL**: https://schooloffreelancing.com/resource-center/guides
-- **Overview**: Free, step-by-step technical guides covering Linux deployment, Docker containerization, VoIP setup, AI chatbots, and Python automation.
+- **Overview**: Central knowledge repository containing free how-to technical resources, FAQs, case studies, introductory video, linux deployment guide, docker containerize guide, voip setup guide, ai chatbot guide, task automation guide and client testimonials.
 
 ### Guide: Deploy a Linux Server from Zero to Production
-- **URL**: https://schooloffreelancing.com/resource-center/guides/linux-deployment
+- **URL**: https://schooloffreelancing.com/resource-center/linux-deployment
 - **Summary**: Comprehensive walkthrough for deploying a secure, production-ready Ubuntu Linux server:
   1. Initial server provisioning, non-root sudo user creation, and SSH key pair enforcement.
   2. Disabling password authentication and root SSH access (`/etc/ssh/sshd_config`).
@@ -327,7 +323,7 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
   7. Automated daily backups with rsync and cron, systemd unit health monitoring, and logrotate.
 
 ### Guide: Containerize a Legacy Web Application with Docker
-- **URL**: https://schooloffreelancing.com/resource-center/guides/docker-containerize
+- **URL**: https://schooloffreelancing.com/resource-center/docker-containerize
 - **Summary**: Step-by-step strategy for migrating legacy monolithic applications into modern containers:
   1. Analyzing application dependencies, environment variables, and filesystem state.
   2. Authoring a multi-stage `Dockerfile` to separate build tooling from minimal production runtime.
@@ -337,7 +333,7 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
   6. Health checks, restart policies, and production deployment automation.
 
 ### Guide: Create Your First AI Chatbot with Claude API
-- **URL**: https://schooloffreelancing.com/resource-center/guides/ai-chatbot
+- **URL**: https://schooloffreelancing.com/resource-center/ai-chatbot
 - **Summary**: Practical guide to building and deploying a production-ready AI chatbot:
   1. Obtaining Anthropic API keys and securely storing credentials in environment variables.
   2. Implementing conversational memory and message history using the Messages API.
@@ -347,7 +343,7 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
   6. Deploying the bot with a Python FastAPI backend and lightweight frontend UI.
 
 ### Guide: Automate Your First Repetitive Task with Python & Cron
-- **URL**: https://schooloffreelancing.com/resource-center/guides/automation
+- **URL**: https://schooloffreelancing.com/resource-center/automation
 - **Summary**: Hands-on tutorial for identifying and automating repetitive manual business workflows:
   1. Auditing recurring operations (file processing, database backups, email notifications).
   2. Writing a robust Python script using standard libraries (`os`, `csv`, `smtplib`, `logging`).
@@ -356,7 +352,7 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
   5. Validating cron environment variables, log aggregation, and verification checks.
 
 ### Guide: Set Up Your Own VoIP Phone System with FusionPBX
-- **URL**: https://schooloffreelancing.com/resource-center/guides/voip-setup
+- **URL**: https://schooloffreelancing.com/resource-center/voip-setup
 - **Summary**: Complete architectural guide for deploying a professional multi-line VoIP system:
   1. Installing Debian Linux and deploying FreeSWITCH telephony engine with FusionPBX web GUI.
   2. Configuring SIP domain profiles, external gateways, and SIP trunk authentication.
@@ -505,7 +501,7 @@ School Of Freelancing provides structured endpoints and protocol definitions for
   - `get_training_details`: Fetch full course curriculum, duration, and price by `training_id`.
   - `search_services`: Query client support offerings.
   - `get_service_details`: Fetch fixed-scope deliverables and turnaround times by `service_id`.
-  - `list_resources`: Query FAQs, guides, and case studies.
+  - `list_resources`: Query FAQs, resources, and case studies.
 
 ### WebMCP Browser-Side Agent Integration
 - **WebMCP Manifest**: https://schooloffreelancing.com/.well-known/webmcp.json

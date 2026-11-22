@@ -93,16 +93,15 @@
 - [United Kingdom Freelance Training and IT Services](https://schooloffreelancing.com/locations/en-gb): Top United Kingdom freelance training & trusted business IT services. Level up your career and tech. Enroll now for success!
 
 ## Resource Center
-- [Automate Your First Repetitive Task](https://schooloffreelancing.com/resource-center/guides/automation): Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
-- [Deploy a Linux Server from Zero to Production](https://schooloffreelancing.com/resource-center/guides/linux-deployment): Learn Ubuntu Linux server deployment for freelance projects, including security hardening, networking, systemd, backups, monitoring, and client support.
-- [Free How-To Guides: Linux, Docker, VoIP & AI](https://schooloffreelancing.com/resource-center/guides): Free step-by-step technical guides from School Of Freelancing covering Linux deployment, Docker containerization, VoIP setup, AI chatbots, and automation for freelancers and businesses.
+- [Automate Your First Repetitive Task](https://schooloffreelancing.com/resource-center/automation): Step-by-step guide to automating business tasks: email, file processing, data entry, and scheduling with Python and cron.
+- [Deploy a Linux Server from Zero to Production](https://schooloffreelancing.com/resource-center/linux-deployment): Learn Ubuntu Linux server deployment for freelance projects, including security hardening, networking, systemd, backups, monitoring, and client support.
 - [Frequently Asked Questions](https://schooloffreelancing.com/resource-center/faqs): Answers to common questions about School Of Freelancing training programs, pricing, enrollment, Linux support services, and freelancing career outcomes.
-- [How to Containerize a Legacy Web Application](https://schooloffreelancing.com/resource-center/guides/docker-containerize): Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
-- [How to Create Your First AI Chatbot](https://schooloffreelancing.com/resource-center/guides/ai-chatbot): Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
+- [How to Containerize a Legacy Web Application](https://schooloffreelancing.com/resource-center/docker-containerize): Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.
+- [How to Create Your First AI Chatbot](https://schooloffreelancing.com/resource-center/ai-chatbot): Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.
 - [Linux & AI Freelancing Case Studies](https://schooloffreelancing.com/resource-center/case-studies): See real client case studies in Docker, AI, VoIP, and trading infrastructure, then get expert support to deploy reliable solutions for your business.
 - [Linux Freelancing Training — Watch Page](https://schooloffreelancing.com/resource-center/intro-video): Start Your Career as a Linux Freelancer! Watch the official promotional video for the School Of Freelancing Linux Freelancing Training.
-- [Resource Center](https://schooloffreelancing.com/resource-center): The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
-- [Set Up Your Own VoIP Phone System](https://schooloffreelancing.com/resource-center/guides/voip-setup): Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
+- [Resource Center](https://schooloffreelancing.com/resource-center): The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and Linux, Docker, VoIP, and AI.
+- [Set Up Your Own VoIP Phone System](https://schooloffreelancing.com/resource-center/voip-setup): Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
 - [Testimonials: School Of Freelancing](https://schooloffreelancing.com/resource-center/testimonials): School Of Freelancing offers Linux freelancing training and professional Linux cloud support for businesses.
 
 ## Optional

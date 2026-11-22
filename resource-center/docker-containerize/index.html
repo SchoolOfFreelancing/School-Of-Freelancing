@@ -1,61 +1,60 @@
-<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>How to Create Your First AI Chatbot | School Of Freelancing</title><meta name="description" content="Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production."><meta name="robots" content="index, follow"><link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/ai-chatbot"/>
-<link rel="amphtml" href="https://schooloffreelancing.com/resource-center/guides/ai-chatbot/amp"><link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/guides/ai-chatbot"/><link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/guides/ai-chatbot"/><meta property="og:type" content="article"><meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/ai-chatbot"/><meta property="og:title" content="How to Create Your First AI Chatbot | School Of Freelancing"><meta property="og:description" content="Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to Create Your First AI Chatbot | School Of Freelancing"><meta name="twitter:description" content="Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production."><link rel="stylesheet" href="/assets/css/style.css"><link rel="stylesheet" href="/assets/css/fa-subset.min.css"><link href="/favicon.ico" rel="icon" sizes="any">
+<!DOCTYPE html><html lang="en"><head><meta charset="UTF-8"><meta name="viewport" content="width=device-width, initial-scale=1.0"><title>How to Containerize a Legacy Web Application</title><meta name="description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."><meta name="robots" content="index, follow"><link rel="canonical" href="https://schooloffreelancing.com/resource-center/docker-containerize"/>
+<link rel="amphtml" href="https://schooloffreelancing.com/resource-center/docker-containerize/amp"><link rel="alternate" hreflang="en" href="https://schooloffreelancing.com/resource-center/docker-containerize"/><link rel="alternate" hreflang="x-default" href="https://schooloffreelancing.com/resource-center/docker-containerize"/><meta property="og:type" content="article"><meta property="og:url" content="https://schooloffreelancing.com/resource-center/docker-containerize"/><meta property="og:title" content="How to Containerize a Legacy Web Application | School Of Freelancing"><meta property="og:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."><meta name="twitter:card" content="summary_large_image"><meta name="twitter:title" content="How to Containerize a Legacy Web Application | School Of Freelancing"><meta name="twitter:description" content="Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment."><link href="/favicon.ico" rel="icon" sizes="any">
 <link href="/assets/icons/favicon-32x32.png" rel="icon" sizes="32x32" type="image/png">
 <link href="/assets/icons/favicon-16x16.png" rel="icon" sizes="16x16" type="image/png">
 <link href="/assets/icons/apple-touch-icon.png" rel="apple-touch-icon" sizes="180x180">
 <link href="/assets/icons/android-chrome-192x192.png" rel="icon" sizes="192x192" type="image/png">
-<link href="/site.webmanifest" rel="manifest"><script>(function(w,d,s,l,i){w[l]=w[l]||[];w[l].push({'gtm.start':new Date().getTime(),event:'gtm.js'});var f=d.getElementsByTagName(s)[0],j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src='https://www.googletagmanager.com/gtm.js?id='+i+dl;f.parentNode.insertBefore(j,f);})(window,document,'script','dataLayer','GTM-K52NJCLQ');</script><script defer
+<link href="/site.webmanifest" rel="manifest"><script defer
  type="module"
  src="https://d31aa325-40c1-401b-9581-4efb8d0e5044.search.ai.cloudflare.com/assets/v0.0.40/search-snippet.es.js"
- ></script><script defer src="https://kit.fontawesome.com/2f6f1b0709.js" crossorigin="anonymous"></script>
+></script>
 
- <script type="application/ld+json">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@graph": [
     {
-      "@context": "https://schema.org",
-      "@graph": [
-        {
-          "@type": "Article",
-          "@id": "https://schooloffreelancing.com/resource-center/guides/ai-chatbot#content",
-          "url": "https://schooloffreelancing.com/resource-center/guides/ai-chatbot",
-          "headline": "How to Create Your First AI Chatbot | School Of Freelancing",
-          "description": "Step-by-step guide to building an AI chatbot using Claude API: authentication, prompt engineering, and deployment to production.",
-          "publisher": {
-            "@id": "https://schooloffreelancing.com/#organization"
-          },
-          "isPartOf": {
-            "@type": "WebPage",
-            "@id": "https://schooloffreelancing.com/resource-center/guides/ai-chatbot"
-          }
-        },
-        {
-          "@type": "BreadcrumbList",
-          "@id": "https://schooloffreelancing.com/resource-center/guides/ai-chatbot#breadcrumb",
-          "itemListElement": [
-            { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-            { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center" },
-            { "@type": "ListItem", "position": 3, "name": "Guides", "item": "https://schooloffreelancing.com/resource-center/guides" },
-            { "@type": "ListItem", "position": 4, "name": "AI Chatbot Guide", "item": "https://schooloffreelancing.com/resource-center/guides/ai-chatbot" }
-          ]
-        },
-        {
-          "@type": "Organization",
-          "@id": "https://schooloffreelancing.com/#organization",
-          "name": "School Of Freelancing",
-          "url": "https://schooloffreelancing.com/",
-          "sameAs": [
-            "https://github.com/SchoolOfFreelancing",
-            "https://instagram.com/schooloffreelancing",
-            "https://www.facebook.com/SchoolOfFreelancing",
-            "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-            "https://www.linkedin.com/company/schooloffreelancing",
-            "https://www.linkedin.com/in/anythinglinux",
-            "https://www.youtube.com/@SchoolOfFreelancing",
-            "https://x.com/SchoolOfFreelan"
-          ]
-        }
+      "@type": "Article",
+      "@id": "https://schooloffreelancing.com/resource-center/docker-containerize#content",
+      "url": "https://schooloffreelancing.com/resource-center/docker-containerize",
+      "headline": "How to Containerize a Legacy Web Application",
+      "description": "Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose: Dockerfile creation, multi-stage builds, and production deployment.",
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "isPartOf": {
+        "@type": "WebPage",
+        "@id": "https://schooloffreelancing.com/resource-center/docker-containerize"
+      }
+    },
+    {
+      "@type": "BreadcrumbList",
+      "@id": "https://schooloffreelancing.com/resource-center/docker-containerize#breadcrumb",
+      "itemListElement": [
+        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
+        { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center" },
+        { "@type": "ListItem", "position": 3, "name": "Docker Containerize Guide", "item": "https://schooloffreelancing.com/resource-center/docker-containerize" }
+      ]
+    },
+    {
+      "@type": "Organization",
+      "@id": "https://schooloffreelancing.com/#organization",
+      "name": "School Of Freelancing",
+      "url": "https://schooloffreelancing.com/",
+      "sameAs": [
+        "https://github.com/SchoolOfFreelancing",
+        "https://instagram.com/schooloffreelancing",
+        "https://www.facebook.com/SchoolOfFreelancing",
+        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
+        "https://www.linkedin.com/company/schooloffreelancing",
+        "https://www.linkedin.com/in/anythinglinux",
+        "https://www.youtube.com/@SchoolOfFreelancing",
+        "https://x.com/SchoolOfFreelan"
       ]
     }
-    </script>
+  ]
+}
+</script>
 
  
 
@@ -67,6 +66,8 @@
     
     <!-- /AI.TXT PREFETCH DISCOVERY -->
 
+<link rel="stylesheet" href="/assets/css/style.css">
+<link rel="stylesheet" href="/assets/css/fa-subset.min.css">
 <link href="https://fonts.googleapis.com" rel="preconnect">
 <link href="https://fonts.gstatic.com" rel="preconnect" crossorigin="anonymous">
 <link rel="preload" href="https://fonts.googleapis.com/css2?family=Share+Tech+Mono&family=Orbitron:wght@400;700;900&display=swap" as="style" onload="this.onload=null;this.rel='stylesheet'">
@@ -184,85 +185,86 @@
     <!-- AI.TXT DISCOVERY LINK -->
     <link rel="alternate" type="text/plain" href="../../../ai.txt" title="AI-readable website discovery">
     <!-- /AI.TXT DISCOVERY LINK -->
-</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><a class="skip-link" href="#main">Skip to main content</a><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School Of Freelancing"><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/resource-center/testimonials">Testimonials</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero"><div class="container detail-wrap"><p><a href="/">Home</a> / <a href="/resource-center">Resource Center</a> / <a href="/resource-center/guides">Guides</a> / AI Chatbot Guide</p><h1>How to Create Your First AI Chatbot</h1><p>Build a production-ready AI chatbot using Claude API in under an hour.</p></div></header><article class="section"><div class="container detail-wrap"><h2>Overview</h2><p>This guide shows how to build an AI chatbot using Claude API. You'll authenticate, design prompts, and deploy a working chatbot that answers customer questions intelligently.</p><h2>Prerequisites</h2><ul class="detail-list"><li>Python 3.8+ installed</li><li>Claude API key (get at console.anthropic.com)</li><li>Basic Python programming knowledge</li></ul><h2>Step 1: Install Dependencies</h2>
- <pre><code>pip install anthropic flask</code></pre>
+</head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><a class="skip-link" href="#main">Skip to main content</a><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training &amp; Linux IT Service | School Of Freelancing"><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/resource-center/testimonials">Testimonials</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero"><div class="container detail-wrap"><p><a href="/">Home</a> / <a href="/resource-center">Resource Center</a> / Docker Containerize Guide</p><h1>Containerize a Legacy Web Application with Docker</h1><p>Transform any web application into a containerized, production-ready deployment.</p></div></header><article class="section"><div class="container detail-wrap"><h2>Overview</h2><p>This guide teaches containerizing existing web applications with Docker. You'll create a Dockerfile, build optimized images, and deploy with Docker Compose — enabling reliable, scalable deployments.</p><h2>Prerequisites</h2><ul class="detail-list"><li>Docker installed on your development machine</li><li>Your web application source code (Node.js, Python, PHP, etc.)</li><li>Basic familiarity with your application's dependencies</li></ul><h2>Step 1: Create a Dockerfile</h2><p>Create a <code>Dockerfile</code> in your application's root directory:</p>
+ <pre><code># Use official base image
+FROM node:20-alpine
 
- <h2>Step 2: Create Your Chatbot</h2><p>Create <code>chatbot.py</code>:</p>
- <pre><code>import anthropic
+# Set working directory
+WORKDIR /app
 
-client = anthropic.Anthropic(api_key="your-api-key")
+# Copy package files
+COPY package*.json ./
 
-def chat(user_message):
-    response = client.messages.create(
-        model="claude-sonnet-4-6",
-        max_tokens=1024,
-        system="You are a helpful customer support assistant for an e-commerce store.",
-        messages=[
-            {"role": "user", "content": user_message}
-        ]
-    )
-    return response.content[0].text
+# Install dependencies
+RUN npm install --only=production
 
-# Test it
-response = chat("What's your return policy?")
-print(response)</code></pre>
+# Copy application code
+COPY . .
 
- <h2>Step 3: Build a Web Interface</h2><p>Create <code>app.py</code>:</p>
- <pre><code>from flask import Flask, request, jsonify
-from chatbot import chat
+# Expose port
+EXPOSE 3000
 
-app = Flask(__name__)
+# Health check
+HEALTHCHECK --interval=30s CMD curl -f http://localhost:3000/health || exit 1
 
-@app.route('/chat', methods=['POST'])
-def handle_chat():
-    data = request.json
-    message = data.get('message', '')
-    response = chat(message)
-    return jsonify({'response': response})
+# Start application
+CMD ["npm", "start"]</code></pre>
 
-if __name__ == '__main__':
-    app.run(debug=False, host='0.0.0.0', port=5000)</code></pre>
+ <h2>Step 2: Build the Docker Image</h2>
+ <pre><code>docker build -t myapp:1.0 .</code></pre>
+ <p>Test locally:</p>
+ <pre><code>docker run -p 3000:3000 myapp:1.0</code></pre>
 
- <h2>Step 4: Create Frontend</h2><p>Create <code>index.html</code>:</p>
- <pre><code>&lt;!DOCTYPE html&gt;
-&lt;html lang="en"&gt;
-&lt;head&gt;
-    &lt;meta charset="UTF-8"&gt;
-    &lt;title&gt;AI Chatbot&lt;/title&gt;
-    &lt;style&gt;
-        body { font-family: Arial; max-width: 600px; margin: 50px auto; }
-        .chat { border: 1px solid #ccc; padding: 20px; height: 400px; overflow-y: auto; }
-        .message { margin: 10px 0; padding: 10px; border-radius: 5px; }
-        .user { background: #e3f2fd; }
-        .bot { background: #f5f5f5; }
-    &lt;/style&gt;
-&lt;/head&gt;
-&lt;body&gt;
-    &lt;h1&gt;AI Customer Support&lt;/h1&gt;
-    &lt;div class="chat" id="chat"&gt;&lt;/div&gt;
-    &lt;input type="text" id="message" placeholder="Ask a question..."&gt;
-    &lt;button onclick="sendMessage()"&gt;Send&lt;/button&gt;
-    &lt;script&gt;
-        async function sendMessage() {
-            const msg = document.getElementById('message').value;
-            document.getElementById('chat').innerHTML += '&lt;div class="message user"&gt;' + msg + '&lt;/div&gt;';
+ <h2>Step 3: Create Docker Compose</h2><p>Create <code>docker-compose.yml</code> for multi-container orchestration:</p>
+ <pre><code>version: '3.8'
+services:
+  web:
+    build: .
+    ports:
+      - "3000:3000"
+    environment:
+      - NODE_ENV=production
+      - DATABASE_URL=postgresql://user:password@db:5432/app
+    depends_on:
+      - db
+    restart: always
+    volumes:
+      - ./logs:/app/logs
 
-            const response = await fetch('/chat', {
-                method: 'POST',
-                headers: { 'Content-Type': 'application/json' },
-                body: JSON.stringify({ message: msg })
-            });
-            const data = await response.json();
-            document.getElementById('chat').innerHTML += '&lt;div class="message bot"&gt;' + data.response + '&lt;/div&gt;';
-            document.getElementById('message').value = '';
-        }
-    &lt;/script&gt;
-&lt;/body&gt;
-&lt;/html&gt;</code></pre>
+  db:
+    image: postgres:15-alpine
+    environment:
+      - POSTGRES_USER=user
+      - POSTGRES_PASSWORD=password
+      - POSTGRES_DB=app
+    volumes:
+      - db_data:/var/lib/postgresql/data
+    restart: always
 
- <h2>Step 5: Deploy to Production</h2>
- <pre><code>gunicorn -w 4 -b 0.0.0.0:5000 app:app</code></pre>
- <p>Use Docker to containerize and deploy on your Ubuntu server.</p><h2>Pro Tips</h2><ul class="detail-list"><li><strong>Customize the system prompt</strong> for your specific use case</li><li><strong>Add conversation history</strong> for multi-turn conversations</li><li><strong>Implement rate limiting</strong> to control costs</li><li><strong>Monitor token usage</strong> to optimize expenses</li></ul><p>Learn advanced AI integration in our <a href="/freelancing-training/claude-training">Claude AI Training</a> program.</p></div></article></main><footer class="footer footer-glass"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
+  nginx:
+    image: nginx:alpine
+    ports:
+      - "80:80"
+      - "443:443"
+    volumes:
+      - ./nginx.conf:/etc/nginx/nginx.conf
+      - /etc/letsencrypt:/etc/letsencrypt
+    depends_on:
+      - web
+    restart: always
+
+volumes:
+  db_data:</code></pre>
+
+ <h2>Step 4: Deploy to Production</h2>
+ <pre><code>docker-compose up -d</code></pre>
+ <p>Verify all services running:</p>
+ <pre><code>docker-compose ps</code></pre>
+
+ <h2>Step 5: SSL/HTTPS Configuration</h2><p>Install Certbot on the host and mount certificates into the nginx container:</p>
+ <pre><code>sudo certbot certonly --standalone -d yourdomain.com</code></pre>
+
+ <h2>Next Steps</h2><ul class="detail-list"><li>Implement health checks and monitoring</li><li>Set up automated backups for database containers</li><li>Deploy to production servers with Compose</li><li>Implement container logging and monitoring</li></ul><p>Learn more in our <a href="/freelancing-training/docker-training">Docker Training</a> program.</p></div></article></main><footer class="footer footer-glass"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
  AI-driven Linux training for freelancers and elite professional support for businesses.
  Founded in 2015 by
  <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: F126196700864).

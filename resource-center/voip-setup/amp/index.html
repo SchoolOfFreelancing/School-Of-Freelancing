@@ -4,14 +4,14 @@
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
 <title>Set Up Your Own VoIP Phone System</title>
-<link rel="canonical" href="https://schooloffreelancing.com/resource-center/guides/voip-setup">
+<link rel="canonical" href="https://schooloffreelancing.com/resource-center/voip-setup">
 <meta name="description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
 <meta name="author" content="Karim (Masum), School Of Freelancing">
 <meta name="robots" content="index, follow, max-image-preview:large, max-snippet:-1, max-video-preview:-1">
 <meta content="strict-origin-when-cross-origin" name="referrer">
 <meta content="#0024ED" name="theme-color">
 <meta property="og:type" content="article">
-<meta property="og:url" content="https://schooloffreelancing.com/resource-center/guides/voip-setup">
+<meta property="og:url" content="https://schooloffreelancing.com/resource-center/voip-setup">
 <meta property="og:title" content="Set Up Your Own VoIP Phone System">
 <meta property="og:description" content="Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.">
 <meta property="og:image" content="https://schooloffreelancing.com/assets/images/og-home.jpg">
@@ -344,8 +344,8 @@ amp-sidebar a {
   "@graph": [
     {
       "@type": "Article",
-      "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup#content",
-      "url": "https://schooloffreelancing.com/resource-center/guides/voip-setup",
+      "@id": "https://schooloffreelancing.com/resource-center/voip-setup#content",
+      "url": "https://schooloffreelancing.com/resource-center/voip-setup",
       "headline": "Set Up Your Own VoIP Phone System",
       "description": "Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.",
       "publisher": {
@@ -353,17 +353,16 @@ amp-sidebar a {
       },
       "isPartOf": {
         "@type": "WebPage",
-        "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup"
+        "@id": "https://schooloffreelancing.com/resource-center/voip-setup"
       }
     },
     {
       "@type": "BreadcrumbList",
-      "@id": "https://schooloffreelancing.com/resource-center/guides/voip-setup#breadcrumb",
+      "@id": "https://schooloffreelancing.com/resource-center/voip-setup#breadcrumb",
       "itemListElement": [
         { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
         { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center" },
-        { "@type": "ListItem", "position": 3, "name": "How-To Guides", "item": "https://schooloffreelancing.com/resource-center/guides" },
-        { "@type": "ListItem", "position": 4, "name": "VoIP Setup Guide", "item": "https://schooloffreelancing.com/resource-center/guides/voip-setup" }
+        { "@type": "ListItem", "position": 3, "name": "VoIP Setup Guide", "item": "https://schooloffreelancing.com/resource-center/voip-setup" }
       ]
     },
     {
@@ -434,10 +433,10 @@ amp-sidebar a {
 
 <!-- AMP notice bar -->
 <div class="amp-notice-bar">
-  &#9889; AMP Version &#8212; <a href="https://schooloffreelancing.com/resource-center/guides/voip-setup">View Full Site</a>
+  &#9889; AMP Version &#8212; <a href="https://schooloffreelancing.com/resource-center/voip-setup">View Full Site</a>
 </div>
 
-<a class="skip-link" href="#main">Skip to main content</a><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="School Of Freelancing"><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero"><div class="container detail-wrap"><p><a href="/">Home</a> / <a href="/resource-center">Resource Center</a> / <a href="/resource-center/guides">How-To Guides</a> / VoIP Setup Guide</p><h1>Set Up Your Own VoIP Phone System</h1><p class="u-c1da2a">Deploy FusionPBX for professional business phone infrastructure without expensive carrier lock-in.</p></div></header><article class="section"><div class="container detail-wrap"><h2>Overview</h2><p>This guide teaches you how to deploy FusionPBX, an open-source VoIP PBX system, on your Ubuntu server. You'll handle extensions, IVR menus, call routing, and SIP trunking — giving your business complete control over phone infrastructure and eliminating expensive carrier fees.</p><h2>Prerequisites</h2><ul class="detail-list"><li>A production-ready Ubuntu 24.04 LTS server (minimum 2GB RAM, 20GB disk)</li><li>A domain name for SIP registration</li><li>An external SIP trunk provider (Twilio, Telnyx, or similar)</li><li>Basic Linux command-line familiarity</li></ul><h2>Step 1: Install FusionPBX</h2><h3>1.1 Install FreeSWITCH Dependencies</h3><p>FusionPBX is built on FreeSWITCH. Install required packages:</p>
+<a class="skip-link" href="#main">Skip to main content</a><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="School Of Freelancing"><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero"><div class="container detail-wrap"><p><a href="/">Home</a> / <a href="/resource-center">Resource Center</a> / VoIP Setup Guide</p><h1>Set Up Your Own VoIP Phone System</h1><p class="u-c1da2a">Deploy FusionPBX for professional business phone infrastructure without expensive carrier lock-in.</p></div></header><article class="section"><div class="container detail-wrap"><h2>Overview</h2><p>This guide teaches you how to deploy FusionPBX, an open-source VoIP PBX system, on your Ubuntu server. You'll handle extensions, IVR menus, call routing, and SIP trunking — giving your business complete control over phone infrastructure and eliminating expensive carrier fees.</p><h2>Prerequisites</h2><ul class="detail-list"><li>A production-ready Ubuntu 24.04 LTS server (minimum 2GB RAM, 20GB disk)</li><li>A domain name for SIP registration</li><li>An external SIP trunk provider (Twilio, Telnyx, or similar)</li><li>Basic Linux command-line familiarity</li></ul><h2>Step 1: Install FusionPBX</h2><h3>1.1 Install FreeSWITCH Dependencies</h3><p>FusionPBX is built on FreeSWITCH. Install required packages:</p>
  <pre><code>sudo apt update &amp;&amp; sudo apt install -y curl wget gnupg2
 sudo apt install -y postgresql postgresql-contrib</code></pre>
 
