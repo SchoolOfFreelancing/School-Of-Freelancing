@@ -88,8 +88,8 @@
       inputSchema: { type: "object", properties: {} },
       execute: async function () {
         return ok({
-          training_catalog: ORIGIN + "/freelancing-training/",
-          services_catalog: ORIGIN + "/linux-ai-services/",
+          training_catalog: ORIGIN + "/freelancing-training",
+          services_catalog: ORIGIN + "/client-support",
           registration: ORIGIN + "/register/",
           contact: ORIGIN + "/contact-us/",
           llms_txt: ORIGIN + "/llms.txt",

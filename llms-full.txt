@@ -481,12 +481,12 @@ School Of Freelancing provides structured endpoints and protocol definitions for
 - **XML Sitemap**: https://schooloffreelancing.com/sitemap.xml
 - **Video Sitemap**: https://schooloffreelancing.com/video-sitemap.xml
 - **Security Policy**: https://schooloffreelancing.com/.well-known/security.txt
-- **Content Signals**: `search=yes, ai-input=yes, ai-train=no, use=reference` (declared in `robots.txt` and HTTP response headers).
+- **Content Signals**: `search=yes, ai-input=yes, ai-train=yes` (declared in `robots.txt` and HTTP response headers).
 
 ### Agent-to-Agent (A2A) Protocol
 - **Agent Card**: https://schooloffreelancing.com/.well-known/agent-card.json
 - **Agent Discovery Index**: https://schooloffreelancing.com/.well-known/agents.json
-- **A2A Endpoint**: https://agents.schooloffreelancing.com/a2a (JSON-RPC 1.0)
+- **A2A Endpoint**: https://schooloffreelancing.com/api/agents/a2a (JSON-RPC 1.0)
 - **Supported Capabilities**: `training-discovery`, `service-discovery`, `resource-lookup`, `mcp-integration`.
 
 ### Model Context Protocol (MCP) Server

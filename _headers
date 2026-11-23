@@ -1,6 +1,6 @@
 /*
   Link: </llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp", </.well-known/ard.json>; rel="ard"
-  Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference
+  Content-Signal: search=yes, ai-input=yes, ai-train=yes
   Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
   X-Robots-Tag: index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
   X-Content-Type-Options: nosniff

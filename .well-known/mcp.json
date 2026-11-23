@@ -83,13 +83,13 @@
     ],
     "resources": [
       {
-        "uri": "https://schooloffreelancing.com/freelancing-training/",
+        "uri": "https://schooloffreelancing.com/freelancing-training",
         "name": "Training Catalog",
         "description": "Complete training program catalog",
         "mimeType": "text/html"
       },
       {
-        "uri": "https://schooloffreelancing.com/linux-ai-services/",
+        "uri": "https://schooloffreelancing.com/client-support",
         "name": "Services Catalog",
         "description": "Complete services offering catalog",
         "mimeType": "text/html"
@@ -119,12 +119,13 @@
     ]
   },
   "authentication": {
-    "required": false,
+    "required": true,
     "methods": [
-    
+      "bearer_token",
+      "oauth2"
     ],
     "endpoints": {
-      "oauth": "https://schooloffreelancing.com/.well-known/openid-configuration.json"
+      "oauth": "https://schooloffreelancing.com/.well-known/openid-configuration"
     }
   },
   "transport": {

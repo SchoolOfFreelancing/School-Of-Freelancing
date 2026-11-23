@@ -121,13 +121,13 @@
   },
   "resources": [
     {
-      "uri": "https://schooloffreelancing.com/freelancing-training/",
+      "uri": "https://schooloffreelancing.com/freelancing-training",
       "type": "text/html",
       "title": "Training Catalog",
       "description": "Complete catalog of training programs"
     },
     {
-      "uri": "https://schooloffreelancing.com/linux-ai-services/",
+      "uri": "https://schooloffreelancing.com/client-support",
       "type": "text/html",
       "title": "Services Catalog",
       "description": "Complete catalog of IT and AI services"

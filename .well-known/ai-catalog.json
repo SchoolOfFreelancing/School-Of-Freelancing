@@ -11,7 +11,7 @@
       "displayName": "School Of Freelancing MCP Server",
       "description": "OAuth-protected MCP server for freelancing training and support, and Linux/AI services.",
       "type": "application/mcp+json",
-      "url": "https://agents.schooloffreelancing.com/mcp",
+      "url": "https://schooloffreelancing.com/api/mcp/sse",
       "representativeQueries": [
         "search freelancing training programs",
         "get support with freelancing",

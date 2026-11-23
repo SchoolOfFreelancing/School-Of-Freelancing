@@ -468,7 +468,7 @@ function updateHeaders(originHeaders) {
   );
   headers.set(
     "Content-Signal",
-    "search=yes, ai-input=yes, ai-train=no, use=reference"
+    "search=yes, ai-input=yes, ai-train=yes"
   );
   return headers;
 }
@@ -519,7 +519,7 @@ function setClientCacheHeaders(response, url) {
     );
     headers.set(
       "Content-Signal",
-      "search=yes, ai-input=yes, ai-train=no, use=reference"
+      "search=yes, ai-input=yes, ai-train=yes"
     );
   }
 

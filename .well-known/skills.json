@@ -137,6 +137,6 @@
   "endpoints": {
     "index": "https://schooloffreelancing.com/.well-known/skills.json",
     "mcp": "https://schooloffreelancing.com/.well-known/mcp.json",
-    "oauth": "https://schooloffreelancing.com/.well-known/openid-configuration.json"
+    "oauth": "https://schooloffreelancing.com/.well-known/openid-configuration"
   }
 }

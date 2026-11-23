@@ -71,7 +71,7 @@ School Of Freelancing provides an OAuth 2.0 authorization-code flow for agents t
 
 Example protected resource:
 
-https://agents.schooloffreelancing.com/mcp
+https://schooloffreelancing.com/api/mcp/sse
 
 Agents must not request, store, or expose user passwords or Google credentials.
 
@@ -92,7 +92,7 @@ Public catalog information is available without authentication:
 
 The MCP protected resource is:
 
-https://agents.schooloffreelancing.com/mcp
+https://schooloffreelancing.com/api/mcp/sse
 
 Protected-resource metadata:
 
@@ -126,7 +126,7 @@ https://schooloffreelancing.com/freelancing-training
 
 ### Services Catalog
 
-https://schooloffreelancing.com/linux-ai-services
+https://schooloffreelancing.com/client-support
 
 ### LLM Content
 
