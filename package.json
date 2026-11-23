@@ -1,8 +1,0 @@
-{
-  "dependencies": {
-    "amphtml-validator": "^1.0.38"
-  },
-  "devDependencies": {
-    "gulp-amphtml-validator": "^1.0.8"
-  }
-}
