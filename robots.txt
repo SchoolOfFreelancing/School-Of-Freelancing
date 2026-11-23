@@ -183,3 +183,6 @@ Sitemap: https://schooloffreelancing.com/video-sitemap.xml
 # Agent Card: https://schooloffreelancing.com/.well-known/agent-card.json
 # ARD Manifest: https://schooloffreelancing.com/.well-known/ard.json
 # MCP Server: https://schooloffreelancing.com/.well-known/mcp.json
+
+# IndexNow Key: c0326e255f0b4d45a96a9c7205d53fca
+# IndexNow: https://schooloffreelancing.com/c0326e255f0b4d45a96a9c7205d53fca.txt

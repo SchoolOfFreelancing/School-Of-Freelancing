@@ -1,6 +1,10 @@
 /*
   Link: </llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp", </.well-known/ard.json>; rel="ard"
   Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference
+  Permissions-Policy: camera=(), microphone=(), geolocation=(), browsing-topics=()
+  X-Robots-Tag: index, follow, max-snippet:-1, max-image-preview:large, max-video-preview:-1
+  X-Content-Type-Options: nosniff
+  Referrer-Policy: strict-origin-when-cross-origin
 
 /llms.txt
   Content-Type: text/markdown; charset=utf-8
@@ -108,4 +112,8 @@
 
 /assets/*
   Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *
+
+/c0326e255f0b4d45a96a9c7205d53fca.txt
+  Content-Type: text/plain; charset=utf-8
   Access-Control-Allow-Origin: *
