@@ -105,3 +105,7 @@
 /.well-known/http-message-signatures-directory
   Content-Type: application/http-message-signatures-directory+json
   Access-Control-Allow-Origin: *
+
+/assets/*
+  Cache-Control: public, max-age=31536000, immutable
+  Access-Control-Allow-Origin: *

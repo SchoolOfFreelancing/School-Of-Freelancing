@@ -14,3 +14,15 @@
 .float-contact a:hover{transform:scale(1.1);box-shadow:0 6px 18px rgba(0,0,0,0.45)}
 .float-contact svg{width:28px;height:28px;fill:currentColor}
 @media (prefers-reduced-motion:reduce){.float-contact a{transition:none}.float-contact a:hover{transform:none}}
+
+/* Explicit dimension and aspect ratio preservation */
+.training-banner img, .support-banner img {
+  width: 120px;
+  height: 120px;
+  aspect-ratio: 1 / 1;
+}
+.training-banner img[src*="telnyx"], .training-banner img[src*="digitalocean"] {
+  width: 140px;
+  height: 100px;
+  aspect-ratio: 7 / 5;
+}
