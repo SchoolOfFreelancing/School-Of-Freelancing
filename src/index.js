@@ -651,6 +651,31 @@ async function fetchWithFallback(request, ctx, env) {
 export default {
   async fetch(request, env, ctx) {
     const url = new URL(request.url);
+
+    /*
+     * Dedicated handling for mta-sts subdomain:
+     * - /robots.txt -> 200 OK text/plain (User-agent: *\nDisallow: /)
+     * - all other paths (including /.well-known/mta-sts.txt) -> 404 Not Found
+     */
+    if (url.hostname === "mta-sts.schooloffreelancing.com") {
+      if (url.pathname === "/robots.txt") {
+        return new Response("User-agent: *\nDisallow: /\n", {
+          status: 200,
+          headers: {
+            "Content-Type": "text/plain; charset=utf-8",
+            "Cache-Control": "public, max-age=86400",
+          },
+        });
+      }
+      return new Response("Not Found\n", {
+        status: 404,
+        headers: {
+          "Content-Type": "text/plain; charset=utf-8",
+          "Cache-Control": "public, max-age=3600",
+        },
+      });
+    }
+
     const isRead = request.method === "GET" || request.method === "HEAD";
 
     /* Path without trailing slashes ("/" stays "/"). */
