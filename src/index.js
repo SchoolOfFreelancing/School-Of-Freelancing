@@ -464,7 +464,7 @@ function updateHeaders(originHeaders) {
   headers.set("X-Markdown-Source", "Cloudflare-Worker");
   headers.set(
     "Link",
-    '</llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp"'
+    '</llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp", </.well-known/ard.json>; rel="ard"'
   );
   headers.set(
     "Content-Signal",
@@ -515,7 +515,7 @@ function setClientCacheHeaders(response, url) {
   if (!STATIC_ASSET_PATTERN.test(url.pathname)) {
     headers.set(
       "Link",
-      '</llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp"'
+      '</llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp", </.well-known/ard.json>; rel="ard"'
     );
     headers.set(
       "Content-Signal",

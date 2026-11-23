@@ -1,5 +1,5 @@
 /*
-  Link: </llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp"
+  Link: </llms.txt>; rel="llms-txt", </.well-known/ai.txt>; rel="ai.txt", </.well-known/agent-card.json>; rel="agent-card", </.well-known/mcp.json>; rel="mcp", </.well-known/ard.json>; rel="ard"
   Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference
 
 /llms.txt
@@ -51,6 +51,10 @@
   Access-Control-Allow-Origin: *
 
 /.well-known/ai-catalog.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/.well-known/ard.json
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
 

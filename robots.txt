@@ -181,4 +181,5 @@ Sitemap: https://schooloffreelancing.com/video-sitemap.xml
 # llms-full.txt: https://schooloffreelancing.com/llms-full.txt
 # ai.txt: https://schooloffreelancing.com/ai.txt
 # Agent Card: https://schooloffreelancing.com/.well-known/agent-card.json
+# ARD Manifest: https://schooloffreelancing.com/.well-known/ard.json
 # MCP Server: https://schooloffreelancing.com/.well-known/mcp.json

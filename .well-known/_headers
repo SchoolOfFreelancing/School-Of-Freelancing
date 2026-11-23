@@ -10,6 +10,9 @@
 /.well-known/ai-catalog.json
   Content-Type: application/json
   Access-Control-Allow-Origin: *
+/.well-known/ard.json
+  Content-Type: application/json
+  Access-Control-Allow-Origin: *
 /.well-known/agent-card.json
   Content-Type: application/json
   Access-Control-Allow-Origin: *
