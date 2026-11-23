@@ -18,14 +18,9 @@
 #           augmented generation, grounding, or other real-time taking of content for
 #           generative AI search answers).
 # ai-train: training or fine-tuning AI models.
-# use:      how AI systems may consume the content (immediate, reference, or full).
-
-# ANY RESTRICTIONS EXPRESSED VIA CONTENT SIGNALS ARE EXPRESS RESERVATIONS OF
-# RIGHTS UNDER ARTICLE 4 OF THE EUROPEAN UNION DIRECTIVE 2019/790 ON COPYRIGHT
-# AND RELATED RIGHTS IN THE DIGITAL SINGLE MARKET.
 
 User-agent: *
-Content-Signal: search=yes, ai-input=yes, ai-train=no, use=reference
+Content-Signal: search=yes, ai-input=yes, ai-train=yes
 Allow: /
 Disallow: /cgi-bin/
 Disallow: /scripts/
@@ -33,49 +28,24 @@ Disallow: /tmp/
 Disallow: /404.html
 Disallow: /cdn-cgi/
 
-# AI search, retrieval, and citation crawlers (explicitly allowed)
-# These bots fetch pages to answer questions and cite sources (search/ai-input).
+# ==============================================================================
+# Search Engines, AI Retrieval, Live Agents & AI Training Crawlers (Allowed)
+# Matches: search=yes, ai-input=yes, ai-train=yes
+# ==============================================================================
 
-User-agent: ChatGPT-User
-Allow: /
-
-User-agent: OAI-SearchBot
-Allow: /
-
-User-agent: Claude-User
-Allow: /
-
-User-agent: Claude-SearchBot
-Allow: /
-
-User-agent: GPTBot
-Allow: /
-
-User-agent: ClaudeBot
-Allow: /
-
-User-agent: Applebot-Extended
-Allow: /
-
-User-agent: PerplexityBot
-Allow: /
-
-User-agent: YouBot
+User-agent: Googlebot
 Allow: /
 
 User-agent: GoogleOther
 Allow: /
 
+User-agent: Google-Extended
+Allow: /
+
 User-agent: Google-CloudVertexBot
 Allow: /
 
-User-agent: Amazonbot
-Allow: /
-
-User-agent: BingBot
-Allow: /
-
-User-agent: bingbot
+User-agent: Bingbot
 Allow: /
 
 User-agent: MicrosoftBing
@@ -84,33 +54,57 @@ Allow: /
 User-agent: DuckDuckBot
 Allow: /
 
+User-agent: GPTBot
+Allow: /
+
+User-agent: OAI-SearchBot
+Allow: /
+
+User-agent: ChatGPT-User
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: Claude-SearchBot
+Allow: /
+
+User-agent: Claude-User
+Allow: /
+
+User-agent: Claude-Web
+Allow: /
+
+User-agent: anthropic-ai
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: YouBot
+Allow: /
+
+User-agent: Applebot-Extended
+Allow: /
+
+User-agent: Amazonbot
+Allow: /
+
+User-agent: cohere-ai
+Allow: /
+
+User-agent: meta-externalagent
+Allow: /
+
 User-agent: Cloudflare-AI-Search
 Allow: /
 
 User-agent: Cloudflare-AutoRAG
 Allow: /
 
-User-agent: Google-Extended
-Allow: /
-
-# AI model-training crawlers (blocked, matches ai-train=no)
-# These do not affect Google Search or Bing indexing.
-
-
-User-agent: Claude-Web
-Disallow: /
-
-User-agent: anthropic-ai
-Disallow: /
-
-
-User-agent: cohere-ai
-Disallow: /
-
-User-agent: meta-externalagent
-Disallow: /
-
-# Pure training scrapers and low-value crawlers (blocked)
+# ==============================================================================
+# Low-Value Scrapers & Unwanted Bots (Blocked)
+# ==============================================================================
 
 User-agent: Bytespider
 Disallow: /
@@ -184,5 +178,3 @@ Sitemap: https://schooloffreelancing.com/video-sitemap.xml
 # ARD Manifest: https://schooloffreelancing.com/.well-known/ard.json
 # MCP Server: https://schooloffreelancing.com/.well-known/mcp.json
 
-# IndexNow Key: c0326e255f0b4d45a96a9c7205d53fca
-# IndexNow: https://schooloffreelancing.com/c0326e255f0b4d45a96a9c7205d53fca.txt
