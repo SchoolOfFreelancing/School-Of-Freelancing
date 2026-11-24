@@ -23,7 +23,7 @@
       "identifier": "urn:air:schooloffreelancing.com:a2a:agent",
       "displayName": "School Of Freelancing Agent",
       "description": "A2A agent card for freelancing training, support and Linux/AI services.",
-      "type": "application/json",
+      "type": "application/agent-card+json",
       "url": "https://schooloffreelancing.com/.well-known/agent-card.json",
       "representativeQueries": [
         "freelancing training agent",
@@ -36,7 +36,7 @@
       "identifier": "urn:air:schooloffreelancing.com:skills:webmcp",
       "displayName": "School Of Freelancing Registration Tools",
       "description": "WebMCP tools to list training and service options and fill the human-confirmed registration payment form.",
-      "type": "application/json",
+      "type": "application/ai-catalog+json",
       "url": "https://schooloffreelancing.com/.well-known/agent-skills.json",
       "representativeQueries": [
         "enroll in a freelancing training program",
