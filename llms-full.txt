@@ -22,7 +22,7 @@ Full-Context: https://schooloffreelancing.com/llms.txt | https://schooloffreelan
 
 - **Organization**: School Of Freelancing
 - **Website**: https://schooloffreelancing.com/
-- **Founded**: February 2, 2015
+- **Founded**: 2015-05-01
 - **Founder & Lead Mentor**: Karim (Masum), Government-Verified Freelancer (Bangladesh Freelancer ID: F126196700864)
 - **LinkedIn**: https://www.linkedin.com/in/anythinglinux/
 - **Google Reviews Rating**: 5.0 / 5.0
