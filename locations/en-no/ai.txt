@@ -1,25 +1,4 @@
-# AI.TXT
-# School Of Freelancing
-# AI-readable website discovery document
-# Generated UTC: 2026-11-18T17:41:44+00:00
-
-Site: https://schooloffreelancing.com/
-Sitemap: https://schooloffreelancing.com/sitemap.xml
-Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/locations/en-no
-
-# PURPOSE
-# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
-
-# PAGES
-Page: https://schooloffreelancing.com/locations/en-no
-Title: Norway Freelance Training and IT Services
-Canonical: https://schooloffreelancing.com/locations/en-no
-Description: Top Norway freelance training & trusted business IT services. Level up your career and tech. Enrol now for success!
-
-# RELATIONSHIP
-Parent: https://schooloffreelancing.com/locations
-Current: https://schooloffreelancing.com/locations/en-no
-
-# HTML DISCOVERY
-# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">
+# AI Discovery — Norway Freelance Training and IT Services 🇳🇴
+Canonical-URL: https://schooloffreelancing.com/locations/en-no
+Markdown-Version: https://schooloffreelancing.com/locations/en-no/index.md
+Rating: 5.0/5.0 (36 Verified Reviews)

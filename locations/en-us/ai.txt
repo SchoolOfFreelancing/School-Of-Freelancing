@@ -1,9 +1,4 @@
-# AI Discovery Metadata — United States Hub
+# AI Discovery — American Freelancing Training &amp; Client Support 🇺🇸
 Canonical-URL: https://schooloffreelancing.com/locations/en-us
 Markdown-Version: https://schooloffreelancing.com/locations/en-us/index.md
-Entity: School Of Freelancing (Founded 2015 by Karim / Masum)
-Service-Focus: Live 1-on-1 Freelancing Training On-Demand (21 Tracks) & Enterprise Linux/AI/VoIP Client Support
-Primary-Market: United States (EST/CST/PST Flexible Scheduling) & 20 Countries Worldwide
 Rating: 5.0/5.0 (36 Verified Reviews)
-Training-Hub: https://schooloffreelancing.com/freelancing-training
-Support-Hub: https://schooloffreelancing.com/client-support
