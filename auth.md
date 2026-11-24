@@ -19,7 +19,7 @@ School Of Freelancing supports two independent registration methods. Use whichev
 
 ## Method 1: WebMCP Form-Fill (Human-Confirmed)
 
-This is a browser-side WebMCP tool that fills in the payment-confirmation form on the registration page. The human user must review the filled form and explicitly press Send in WhatsApp. Nothing is submitted automatically by the agent.
+This is a browser-side WebMCP tool that fills in the inquiry and registration form on the Contact Us page. The human user must review the filled form and explicitly press Send in WhatsApp. Nothing is submitted automatically by the agent.
 
 - Tool manifest: https://schooloffreelancing.com/.well-known/agent-skills.json
 - Tool implementation: https://schooloffreelancing.com/assets/js/tools.js
@@ -27,8 +27,8 @@ This is a browser-side WebMCP tool that fills in the payment-confirmation form o
 
 ### Supported Tools
 
-- `confirm_registration_payment` — fills the registration form with `fullName`, `email`, `trainingOrService`, `paymentMethod`, and `transactionId`, then opens WhatsApp with the details pre-filled for human review.
-- `get_registration_form_options` — returns the valid training/service names and payment method names accepted by `confirm_registration_payment`.
+- `fill_contact_registration_form` — fills the Contact Us & Registration form (`/contact-us/`) with `firstName`, `lastName`, `email`, `phone`, `subject`, and `message`, so the user can review and press Send Message to open WhatsApp.
+- `get_contact_form_options` — returns the valid `subject` topics accepted by `fill_contact_registration_form`.
 
 No credentials, tokens, or API keys are involved in this method.
 

@@ -1,6 +1,6 @@
 /*
  * WebMCP tools for schooloffreelancing.com
- * Include on EVERY page (the scanner loads the homepage):
+ * Include on EVERY page:
  *   <script src="/assets/js/tools.js" defer></script>
  */
 (function () {
@@ -22,10 +22,11 @@
     return { isError: true, content: [{ type: "text", text: message }] };
   }
 
-  // Find a form control by name/id first, then by its visible label text.
-  function findField(root, key, labelRe) {
-    var el = root.querySelector('[name="' + key + '"], [id="' + key + '"]');
-    if (el) return el;
+  function findField(root, selectors, labelRe) {
+    for (var s = 0; s < selectors.length; s++) {
+      var el = root.querySelector(selectors[s]);
+      if (el) return el;
+    }
     var labels = root.querySelectorAll("label");
     for (var i = 0; i < labels.length; i++) {
       var label = labels[i];
@@ -43,23 +44,23 @@
 
   function getFields(root) {
     return {
-      fullName: findField(root, "fullName", /full\s*name/i),
-      email: findField(root, "email", /email/i),
-      trainingOrService: findField(root, "trainingOrService", /training|service/i),
-      paymentMethod: findField(root, "paymentMethod", /payment\s*method/i),
-      transactionId: findField(root, "transactionId", /transaction|reference/i)
+      firstName: findField(root, ['[name="firstName"]', '[name="first_name"]', '[id*="first"]'], /first\s*name/i),
+      lastName: findField(root, ['[name="lastName"]', '[name="last_name"]', '[id*="last"]'], /last\s*name/i),
+      email: findField(root, ['[type="email"]', '[name="email"]', '[id*="email"]'], /email/i),
+      phone: findField(root, ['[type="tel"]', '[name="phone"]', '[id*="phone"]'], /phone/i),
+      subject: findField(root, ['select[name="subject"]', 'select[id*="subject"]', 'select'], /subject/i),
+      message: findField(root, ['textarea[name="message"]', 'textarea[id*="message"]', 'textarea'], /message/i)
     };
   }
 
   function selectOptions(select) {
-    var groups = {};
+    var list = [];
     Array.prototype.forEach.call(select.options, function (o, i) {
       var text = (o.text || "").trim();
       if (!text || (i === 0 && (!o.value || /^select/i.test(text)))) return;
-      var group = o.parentElement && o.parentElement.tagName === "OPTGROUP" ? o.parentElement.label : "options";
-      (groups[group] = groups[group] || []).push(text);
+      list.push(text);
     });
-    return groups;
+    return list;
   }
 
   function setValue(el, value) {
@@ -80,18 +81,16 @@
     return false;
   }
 
-  // 1. Site map for agents
   mc.registerTool(
     {
       name: "list_site_sections",
-      description: "List the main sections of School Of Freelancing: training catalog, Linux and AI services, registration, contact and LLM-friendly content.",
+      description: "List the main sections of School Of Freelancing: training catalog, Linux and AI services, contact/registration, and LLM-friendly content.",
       inputSchema: { type: "object", properties: {} },
       execute: async function () {
         return ok({
           training_catalog: ORIGIN + "/freelancing-training",
           services_catalog: ORIGIN + "/client-support",
-          registration: ORIGIN + "/contact-us/",
-          contact: ORIGIN + "/contact-us/",
+          contact_and_registration: ORIGIN + "/contact-us/",
           llms_txt: ORIGIN + "/llms.txt",
           llms_full_txt: ORIGIN + "/llms-full.txt",
           agent_auth: ORIGIN + "/auth.md"
@@ -101,61 +100,56 @@
     opts
   );
 
-  // 2. Valid values accepted by the registration form (read live from /contact-us/)
   mc.registerTool(
     {
-      name: "get_registration_form_options",
-      description: "Return the valid training/service names and payment methods accepted by confirm_registration_payment.",
+      name: "get_contact_form_options",
+      description: "Return the valid subject topics accepted by fill_contact_registration_form on /contact-us/.",
       inputSchema: { type: "object", properties: {} },
       execute: async function () {
         var root = document;
-        if (!getFields(document).trainingOrService) {
+        if (!getFields(document).subject) {
           var res = await fetch("/contact-us/", { credentials: "same-origin" });
-          if (!res.ok) return fail("Could not load the registration page (HTTP " + res.status + ").");
+          if (!res.ok) return fail("Could not load /contact-us/ (HTTP " + res.status + ").");
           root = new DOMParser().parseFromString(await res.text(), "text/html");
         }
         var f = getFields(root);
-        if (!f.trainingOrService || !f.paymentMethod) return fail("Registration form fields were not found.");
-        return ok({
-          trainingOrService: selectOptions(f.trainingOrService),
-          paymentMethod: selectOptions(f.paymentMethod)
-        });
+        if (!f.subject) return fail("Contact form subject field was not found.");
+        return ok({ subject: selectOptions(f.subject) });
       }
     },
     opts
   );
 
-  // 3. Fill the payment-confirmation form. Never submits: a human reviews and confirms.
   mc.registerTool(
     {
-      name: "confirm_registration_payment",
-      description: "Fill the registration payment-confirmation form on /contact-us/. Does not submit; the human must review the form and press the confirm button themselves.",
+      name: "fill_contact_registration_form",
+      description: "Fill the inquiry and registration form on /contact-us/. Does not submit; the human must review the form and press Send Message themselves.",
       inputSchema: {
         type: "object",
         properties: {
-          fullName: { type: "string", description: "Student's full name" },
-          email: { type: "string", description: "Student's email address" },
-          trainingOrService: { type: "string", description: "Exact training or service name (see get_registration_form_options)" },
-          paymentMethod: { type: "string", description: "Exact payment method (see get_registration_form_options)" },
-          transactionId: { type: "string", description: "Payment transaction ID or reference" }
+          firstName: { type: "string", description: "User's first name" },
+          lastName: { type: "string", description: "User's last name" },
+          email: { type: "string", description: "User's email address" },
+          phone: { type: "string", description: "User's phone number (optional)" },
+          subject: { type: "string", description: "Exact topic from get_contact_form_options (e.g. Training Inquiry, Enrollment Help, Payment Issue, Technical Support)" },
+          message: { type: "string", description: "Detailed inquiry, training/service name, or payment confirmation details" }
         },
-        required: ["fullName", "email", "trainingOrService", "paymentMethod", "transactionId"]
+        required: ["firstName", "lastName", "email", "subject", "message"]
       },
       execute: async function (args) {
         var f = getFields(document);
-        if (!f.fullName || !f.trainingOrService || !f.paymentMethod) {
+        if (!f.firstName || !f.email || !f.subject || !f.message) {
           return fail("Open " + ORIGIN + "/contact-us/ first, then call this tool again.");
         }
-        setValue(f.fullName, args.fullName);
-        if (f.email) setValue(f.email, args.email);
-        if (f.transactionId) setValue(f.transactionId, args.transactionId);
-        if (!setSelect(f.trainingOrService, args.trainingOrService)) {
-          return fail("Unknown trainingOrService. Call get_registration_form_options for valid values.");
+        setValue(f.firstName, args.firstName);
+        if (f.lastName && args.lastName) setValue(f.lastName, args.lastName);
+        setValue(f.email, args.email);
+        if (f.phone && args.phone) setValue(f.phone, args.phone);
+        if (!setSelect(f.subject, args.subject)) {
+          return fail("Unknown subject. Call get_contact_form_options for valid topics.");
         }
-        if (!setSelect(f.paymentMethod, args.paymentMethod)) {
-          return fail("Unknown paymentMethod. Call get_registration_form_options for valid values.");
-        }
-        return ok("Form filled. Ask the user to review the details and press the confirm button themselves. Nothing has been submitted.");
+        setValue(f.message, args.message);
+        return ok("Form filled on /contact-us/. Ask the user to review the details and press Send Message to open WhatsApp. Nothing has been submitted.");
       }
     },
     opts
