@@ -102,6 +102,9 @@ Allow: /
 User-agent: Cloudflare-AutoRAG
 Allow: /
 
+User-agent: CCBot
+Allow: /
+
 # ==============================================================================
 # Low-Value Scrapers & Unwanted Bots (Blocked)
 # ==============================================================================
