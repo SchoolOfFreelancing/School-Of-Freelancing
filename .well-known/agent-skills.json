@@ -4,6 +4,11 @@
   "url": "https://schooloffreelancing.com",
   "skills": [
     {
+      "name": "list_site_sections",
+      "description": "List the main sections of School Of Freelancing: training catalog, Linux and AI services, registration, contact and LLM-friendly content.",
+      "parameters": {}
+    },
+    {
       "name": "confirm_registration_payment",
       "description": "Fill and submit the School Of Freelancing payment confirmation form (/register/). Opens WhatsApp with pre-filled details.",
       "parameters": {

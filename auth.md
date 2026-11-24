@@ -138,7 +138,7 @@ https://schooloffreelancing.com/llms-full.txt
 
 For human-confirmed registration, use:
 
-https://schooloffreelancing.com/contact-us
+https://schooloffreelancing.com/register/contact-us
 
 The supported registration method is:
 
