@@ -1,27 +1,7 @@
----
-title: "Odysseus — Self-hosted AI workspace setup | Hire Support"
-author: "Karim (Masum)"
-date: 2026-11-11
-description: "Get Odysseus AI to run private chats, autonomous agents, and productivity tools on your own hardware."
----
+# Odysseus AI Setup
 
-# Odysseus — Self-hosted AI workspace setup | Hire Support
+> Get Odysseus AI production setup to run private LLMs, autonomous agents, and secure AI productivity tools on your own server hardware ($185 flat rate).
 
-## Support Overview
-
-Hire School Of Freelancing for expert Odysseus AI Setup, deployment, configuration, troubleshooting, and optimization—get production-ready AI infrastructure without the cost of hiring a full-time engineer.
-
-## Key Takeaways
-
-| Aspect | Detail |
-| --- | --- |
-| Turnaround: | 2 Business Days (Fully Tested). |
-| Price | $185 (One-Time Fixed Investment). |
-| Format: | Live Remote Support, Worldwide. |
-| Covers: | Comprehensive Odysseus AI engineering covering private AI chat deployment, autonomous agent configuration, and productivity tool setup on your own hardware. |
-| Best for: | Individuals, teams, and businesses requiring production Odysseus AI setup or ongoing private AI infrastructure support without a full-time hire. |
-| What you provide: | Team access to your hardware/server and any existing model or workflow files, ready for production deployment. |
-
-## Hire Your Support Now
-
-Book a free 10-minute consultation to scope your project.
+- **Canonical:** https://schooloffreelancing.com/client-support/odysseus-ai-setup
+- **Pricing:** $185 (1-5 business days)
+- **Rating:** 5.0/5.0 (36 reviews)

@@ -1,25 +1,5 @@
-# AI.TXT
-# School Of Freelancing
-# AI-readable website discovery document
-# Generated UTC: 2026-11-18T17:41:44+00:00
-
-Site: https://schooloffreelancing.com/
-Sitemap: https://schooloffreelancing.com/sitemap.xml
-Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
-
-# PURPOSE
-# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
-
-# PAGES
-Page: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
-Title: DigitalOcean — AI-Native Cloud | Hire Support
-Canonical: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
-Description: Hire DigitalOcean cloud experts for Linux, security, deployment, troubleshooting, and optimization—on demand.
-
-# RELATIONSHIP
-Parent: https://schooloffreelancing.com/client-support
-Current: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
-
-# HTML DISCOVERY
-# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">
+# AI Discovery — DigitalOcean Cloud Support
+Canonical-URL: https://schooloffreelancing.com/client-support/digitalocean-cloud-support
+Markdown-Version: https://schooloffreelancing.com/client-support/digitalocean-cloud-support/index.md
+Pricing: $499
+Rating: 5.0/5.0 (36 Verified Reviews)
