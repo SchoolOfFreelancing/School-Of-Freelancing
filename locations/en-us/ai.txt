@@ -1,25 +1,9 @@
-# AI.TXT
-# School Of Freelancing
-# AI-readable website discovery document
-# Generated UTC: 2026-11-18T17:41:44+00:00
-
-Site: https://schooloffreelancing.com/
-Sitemap: https://schooloffreelancing.com/sitemap.xml
-Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/locations/en-us
-
-# PURPOSE
-# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
-
-# PAGES
-Page: https://schooloffreelancing.com/locations/en-us
-Title: Freelancing Training & IT Support Services in USA
-Canonical: https://schooloffreelancing.com/locations/en-us
-Description: Top US freelance training & trusted business IT support. Elevate your tech skills and enterprise systems. Get started today!
-
-# RELATIONSHIP
-Parent: https://schooloffreelancing.com/locations
-Current: https://schooloffreelancing.com/locations/en-us
-
-# HTML DISCOVERY
-# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">
+# AI Discovery Metadata — United States Hub
+Canonical-URL: https://schooloffreelancing.com/locations/en-us
+Markdown-Version: https://schooloffreelancing.com/locations/en-us/index.md
+Entity: School Of Freelancing (Founded 2015 by Karim / Masum)
+Service-Focus: Live 1-on-1 Freelancing Training On-Demand (21 Tracks) & Enterprise Linux/AI/VoIP Client Support
+Primary-Market: United States (EST/CST/PST Flexible Scheduling) & 20 Countries Worldwide
+Rating: 5.0/5.0 (36 Verified Reviews)
+Training-Hub: https://schooloffreelancing.com/freelancing-training
+Support-Hub: https://schooloffreelancing.com/client-support
