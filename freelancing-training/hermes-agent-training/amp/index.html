@@ -363,7 +363,9 @@ amp-sidebar a {
       "url": "https://schooloffreelancing.com/",
       "name": "School Of Freelancing",
       "inLanguage": "en",
-      "publisher": { "@id": "https://schooloffreelancing.com/#organization" }
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      }
     },
     {
       "@type": "WebPage",
@@ -372,12 +374,26 @@ amp-sidebar a {
       "description": "Learn hands-on Hermes Agent deployment, Linux server setup, AI integrations, troubleshooting, client delivery, and freelance service packaging for global clients.",
       "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training",
       "inLanguage": "en",
-      "dateModified": "2026-10-26",
-      "publisher": { "@id": "https://schooloffreelancing.com/#organization" },
-      "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
-      "breadcrumb": { "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#breadcrumb" },
-      "primaryImageOfPage": { "@type": "ImageObject", "url": "https://schooloffreelancing.com/assets/images/og-home.jpg", "width": 1200, "height": 630 },
-      "mainEntity": { "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#course" }
+      "dateModified": "2026-11-25",
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "isPartOf": {
+        "@id": "https://schooloffreelancing.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#breadcrumb"
+      },
+      "primaryImageOfPage": {
+        "@type": "ImageObject",
+        "url": "https://schooloffreelancing.com/assets/images/og-home.jpg",
+        "width": 1200,
+        "height": 630
+      },
+      "mainEntity": {
+        "@id": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training#course"
+      },
+      "datePublished": "2015-05-01"
     },
     {
       "@type": "BreadcrumbList",
@@ -428,7 +444,10 @@ amp-sidebar a {
         "@type": "CourseInstance",
         "courseMode": "online",
         "courseWorkload": "PT20H",
-        "courseSchedule": { "@type": "Schedule", "repeatCount": 20 },
+        "courseSchedule": {
+          "@type": "Schedule",
+          "repeatCount": 20
+        },
         "instructor": {
           "@type": "Person",
           "name": "Karim (Masum)",
@@ -442,7 +461,9 @@ amp-sidebar a {
         "priceCurrency": "USD",
         "availability": "https://schema.org/InStock",
         "category": "Paid",
-        "seller": { "@id": "https://schooloffreelancing.com/#organization" },
+        "seller": {
+          "@id": "https://schooloffreelancing.com/#organization"
+        },
         "url": "https://schooloffreelancing.com/freelancing-training/hermes-agent-training"
       },
       "timeRequired": "PT20H",
@@ -457,19 +478,48 @@ amp-sidebar a {
         "Freelance service packaging and marketplace proposals"
       ],
       "syllabusSections": [
-        { "@type": "Syllabus", "name": "Week One", "description": "Server and DNS foundations, Linux security hardening, web server setup, domain SSL security, and Hermes Agent installation." },
-        { "@type": "Syllabus", "name": "Week Two", "description": "AI engine integration, core features setup, daemonization, production hardening, and bot integrations." },
-        { "@type": "Syllabus", "name": "Week Three", "description": "Advanced automations, portfolio repository build, service packaging, Upwork profile setup, and freelancer marketplace profiles." },
-        { "@type": "Syllabus", "name": "Week Four", "description": "Content strategy, social lead generation, bidding and proposal strategy, client onboarding and delivery, and capstone review." }
+        {
+          "@type": "Syllabus",
+          "name": "Week One",
+          "description": "Server and DNS foundations, Linux security hardening, web server setup, domain SSL security, and Hermes Agent installation."
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Week Two",
+          "description": "AI engine integration, core features setup, daemonization, production hardening, and bot integrations."
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Week Three",
+          "description": "Advanced automations, portfolio repository build, service packaging, Upwork profile setup, and freelancer marketplace profiles."
+        },
+        {
+          "@type": "Syllabus",
+          "name": "Week Four",
+          "description": "Content strategy, social lead generation, bidding and proposal strategy, client onboarding and delivery, and capstone review."
+        }
       ]
     },
     {
-      "@type": "Organization",
+      "@type": [
+        "Organization",
+        "LocalBusiness",
+        "EducationalOrganization"
+      ],
       "@id": "https://schooloffreelancing.com/#organization",
       "name": "School Of Freelancing",
       "url": "https://schooloffreelancing.com/",
-      "logo": { "@type": "ImageObject", "url": "https://schooloffreelancing.com/assets/icons/android-chrome-192x192.png", "width": 192, "height": 192 },
-      "founder": { "@type": "Person", "name": "Karim (Masum)", "url": "https://www.linkedin.com/in/anythinglinux/" },
+      "logo": {
+        "@type": "ImageObject",
+        "url": "https://schooloffreelancing.com/assets/icons/android-chrome-192x192.png",
+        "width": 192,
+        "height": 192
+      },
+      "founder": {
+        "@type": "Person",
+        "name": "Karim (Masum)",
+        "url": "https://www.linkedin.com/in/anythinglinux/"
+      },
       "foundingDate": "2015",
       "sameAs": [
         "https://github.com/SchoolOfFreelancing",
@@ -480,6 +530,22 @@ amp-sidebar a {
         "https://www.linkedin.com/company/SchoolOfFreelancing",
         "https://www.youtube.com/@SchoolOfFreelancing",
         "https://x.com/SchoolOfFreelan"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
       ]
     }
   ]

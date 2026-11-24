@@ -364,7 +364,11 @@ amp-sidebar a {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": [
+        "Organization",
+        "LocalBusiness",
+        "EducationalOrganization"
+      ],
       "@id": "https://schooloffreelancing.com/#organization",
       "name": "School Of Freelancing",
       "url": "https://schooloffreelancing.com/",
@@ -375,6 +379,22 @@ amp-sidebar a {
         "https://www.linkedin.com/company/schooloffreelancing",
         "https://www.youtube.com/@SchoolOfFreelancing",
         "https://x.com/SchoolOfFreelan"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
       ]
     },
     {
@@ -383,14 +403,33 @@ amp-sidebar a {
       "name": "Docker Freelancing Training",
       "description": "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.",
       "url": "https://schooloffreelancing.com/freelancing-training/docker-training",
-      "isPartOf": { "@id": "https://schooloffreelancing.com/#organization" }
+      "isPartOf": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
+      "datePublished": "2015-05-01",
+      "dateModified": "2026-11-25"
     },
     {
       "@type": "BreadcrumbList",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-        { "@type": "ListItem", "position": 2, "name": "All Training", "item": "https://schooloffreelancing.com/freelancing-training" },
-        { "@type": "ListItem", "position": 3, "name": "Docker Freelancing Training", "item": "https://schooloffreelancing.com/freelancing-training/docker-training" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://schooloffreelancing.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "All Training",
+          "item": "https://schooloffreelancing.com/freelancing-training"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Docker Freelancing Training",
+          "item": "https://schooloffreelancing.com/freelancing-training/docker-training"
+        }
       ]
     },
     {
@@ -398,7 +437,9 @@ amp-sidebar a {
       "@id": "https://schooloffreelancing.com/freelancing-training/docker-training#course",
       "name": "Docker Freelancing Training",
       "description": "Comprehensive Docker Freelancing Training designed to take you from a Docker practitioner to a high-earning freelancer.",
-      "provider": { "@id": "https://schooloffreelancing.com/#organization" },
+      "provider": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
       "hasCourseInstance": {
         "@type": "CourseInstance",
         "courseMode": "online"

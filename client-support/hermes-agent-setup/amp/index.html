@@ -355,7 +355,11 @@ amp-sidebar a {
   "@context": "https://schema.org",
   "@graph": [
     {
-      "@type": "Organization",
+      "@type": [
+        "Organization",
+        "LocalBusiness",
+        "EducationalOrganization"
+      ],
       "@id": "https://schooloffreelancing.com/#organization",
       "name": "School Of Freelancing",
       "url": "https://schooloffreelancing.com/",
@@ -366,6 +370,22 @@ amp-sidebar a {
         "https://www.linkedin.com/company/schooloffreelancing",
         "https://www.youtube.com/@SchoolOfFreelancing",
         "https://x.com/SchoolOfFreelan"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
       ]
     },
     {
@@ -373,7 +393,9 @@ amp-sidebar a {
       "@id": "https://schooloffreelancing.com/#website",
       "url": "https://schooloffreelancing.com/",
       "name": "School Of Freelancing",
-      "publisher": { "@id": "https://schooloffreelancing.com/#organization" }
+      "publisher": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      }
     },
     {
       "@type": "WebPage",
@@ -382,17 +404,40 @@ amp-sidebar a {
       "name": "Hermes Agent Setup Support",
       "description": "Production Hermes Agent setup on your server: task automation, chat workflows, code control and remote messaging control. $199 fixed price, delivered in 2 business days.",
       "inLanguage": "en-US",
-      "isPartOf": { "@id": "https://schooloffreelancing.com/#website" },
-      "breadcrumb": { "@id": "https://schooloffreelancing.com/client-support/hermes-agent-setup#breadcrumb" },
-      "mainEntity": { "@id": "https://schooloffreelancing.com/client-support/hermes-agent-setup#service" }
+      "isPartOf": {
+        "@id": "https://schooloffreelancing.com/#website"
+      },
+      "breadcrumb": {
+        "@id": "https://schooloffreelancing.com/client-support/hermes-agent-setup#breadcrumb"
+      },
+      "mainEntity": {
+        "@id": "https://schooloffreelancing.com/client-support/hermes-agent-setup#service"
+      },
+      "datePublished": "2015-05-01",
+      "dateModified": "2026-11-25"
     },
     {
       "@type": "BreadcrumbList",
       "@id": "https://schooloffreelancing.com/client-support/hermes-agent-setup#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Client Support", "item": "https://schooloffreelancing.com/client-support" },
-        { "@type": "ListItem", "position": 3, "name": "Hermes Agent Setup", "item": "https://schooloffreelancing.com/client-support/hermes-agent-setup" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://schooloffreelancing.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Client Support",
+          "item": "https://schooloffreelancing.com/client-support"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "Hermes Agent Setup",
+          "item": "https://schooloffreelancing.com/client-support/hermes-agent-setup"
+        }
       ]
     },
     {
@@ -401,7 +446,9 @@ amp-sidebar a {
       "url": "https://schooloffreelancing.com/client-support/hermes-agent-setup",
       "name": "Hermes Agent Setup",
       "description": "Production Hermes Agent setup and support covering task automation, chat workflows, code control and remote messaging control, delivered remotely in 2 business days.",
-      "provider": { "@id": "https://schooloffreelancing.com/#organization" },
+      "provider": {
+        "@id": "https://schooloffreelancing.com/#organization"
+      },
       "serviceType": "Technical Support",
       "areaServed": "Worldwide",
       "offers": {
@@ -421,29 +468,46 @@ amp-sidebar a {
         {
           "@type": "Question",
           "name": "How long does Hermes Agent setup take?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Setup is delivered in 2 business days and is fully tested before handover." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Setup is delivered in 2 business days and is fully tested before handover."
+          }
         },
         {
           "@type": "Question",
           "name": "How much does Hermes Agent setup cost?",
-          "acceptedAnswer": { "@type": "Answer", "text": "$199, a one-time fixed price." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "$199, a one-time fixed price."
+          }
         },
         {
           "@type": "Question",
           "name": "What do I need to provide?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Access to your server or VPS, your messaging platform credentials, and any existing automation workflows you want deployed to production." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Access to your server or VPS, your messaging platform credentials, and any existing automation workflows you want deployed to production."
+          }
         },
         {
           "@type": "Question",
           "name": "Is the support remote?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Yes. Support is delivered live and remotely, worldwide." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Yes. Support is delivered live and remotely, worldwide."
+          }
         },
         {
           "@type": "Question",
           "name": "Who is this service for?",
-          "acceptedAnswer": { "@type": "Answer", "text": "Individuals, teams and businesses that need a production Hermes Agent setup or ongoing automation support without hiring a full-time engineer." }
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "Individuals, teams and businesses that need a production Hermes Agent setup or ongoing automation support without hiring a full-time engineer."
+          }
         }
-      ]
+      ],
+      "datePublished": "2015-05-01",
+      "dateModified": "2026-11-25"
     }
   ]
 }

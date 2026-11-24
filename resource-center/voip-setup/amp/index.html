@@ -361,13 +361,32 @@ amp-sidebar a {
       "@type": "BreadcrumbList",
       "@id": "https://schooloffreelancing.com/resource-center/voip-setup#breadcrumb",
       "itemListElement": [
-        { "@type": "ListItem", "position": 1, "name": "Home", "item": "https://schooloffreelancing.com/" },
-        { "@type": "ListItem", "position": 2, "name": "Resource Center", "item": "https://schooloffreelancing.com/resource-center" },
-        { "@type": "ListItem", "position": 3, "name": "VoIP Setup Guide", "item": "https://schooloffreelancing.com/resource-center/voip-setup" }
+        {
+          "@type": "ListItem",
+          "position": 1,
+          "name": "Home",
+          "item": "https://schooloffreelancing.com/"
+        },
+        {
+          "@type": "ListItem",
+          "position": 2,
+          "name": "Resource Center",
+          "item": "https://schooloffreelancing.com/resource-center"
+        },
+        {
+          "@type": "ListItem",
+          "position": 3,
+          "name": "VoIP Setup Guide",
+          "item": "https://schooloffreelancing.com/resource-center/voip-setup"
+        }
       ]
     },
     {
-      "@type": "Organization",
+      "@type": [
+        "Organization",
+        "LocalBusiness",
+        "EducationalOrganization"
+      ],
       "@id": "https://schooloffreelancing.com/#organization",
       "name": "School Of Freelancing",
       "url": "https://schooloffreelancing.com/",
@@ -380,6 +399,22 @@ amp-sidebar a {
         "https://www.linkedin.com/in/anythinglinux",
         "https://www.youtube.com/@SchoolOfFreelancing",
         "https://x.com/SchoolOfFreelan"
+      ],
+      "openingHoursSpecification": [
+        {
+          "@type": "OpeningHoursSpecification",
+          "dayOfWeek": [
+            "Monday",
+            "Tuesday",
+            "Wednesday",
+            "Thursday",
+            "Friday",
+            "Saturday",
+            "Sunday"
+          ],
+          "opens": "00:00",
+          "closes": "23:59"
+        }
       ]
     }
   ]
