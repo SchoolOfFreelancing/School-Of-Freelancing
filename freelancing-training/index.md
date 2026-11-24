@@ -326,3 +326,30 @@ Training fees and durations are scaled transparently in USD based on technical c
 ## Global & US Availability
 
 Our live training sessions serve learners worldwide, with dedicated scheduling and support tailored for clients in the United States ([US Location Hub](https://schooloffreelancing.com/locations/en-us)).
+
+
+## Compare All 21 Live Training Programs
+
+| Training Program | Domain Track | Core Technologies | Production Portfolio Outcome |
+| :--- | :--- | :--- | :--- |
+| [Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training) | Enterprise Linux | RHEL/Ubuntu, SSH, Firewalls, LAMP/LEMP | Production Linux Server & Hardening Portfolio |
+| [Hermes Agent Training](https://schooloffreelancing.com/freelancing-training/hermes-agent-training) | AI Agents & LLMs | Hermes Agent Framework, Tool Use, Linux | Autonomous AI Agent Deployment |
+| [Telnyx SMS API Training](https://schooloffreelancing.com/freelancing-training/telnyx-sms-api-training) | Telecom & SMS APIs | Telnyx REST API, Webhooks, 10DLC | Automated Bulk SMS & Webhook App |
+| [Odysseus AI Training](https://schooloffreelancing.com/freelancing-training/odysseus-ai-training) | AI Agents & LLMs | Odysseus AI, Linux Orchestration, LLMs | Custom AI Workflow & Server Integration |
+| [OpenClaw Freelancing Training](https://schooloffreelancing.com/freelancing-training/openclaw-training) | AI Agents & LLMs | OpenClaw, Linux Agent Hosting, APIs | Self-Hosted AI Agent Server |
+| [LocalAI Freelancing Training](https://schooloffreelancing.com/freelancing-training/local-ai-training) | AI Agents & LLMs | LocalAI, GGUF Models, Docker, OpenAI API | Private On-Premise LLM Inference Server |
+| [ZeroClaw Freelancing Training](https://schooloffreelancing.com/freelancing-training/zeroclaw-training) | AI Agents & LLMs | ZeroClaw Runtime, Linux Deployment | Production ZeroClaw Agent Service |
+| [GitLab Freelancing Training](https://schooloffreelancing.com/freelancing-training/gitlab-training) | DevOps & CI/CD | Self-Hosted GitLab, Runners, CI/CD, Backup | Enterprise GitLab & DevSecOps Pipeline |
+| [GitHub Freelancing Training](https://schooloffreelancing.com/freelancing-training/github-training) | DevOps & CI/CD | GitHub Enterprise, Actions CI/CD, Migration | Automated GitHub CI/CD & Repo Migration |
+| [Docker Freelancing Training](https://schooloffreelancing.com/freelancing-training/docker-training) | DevOps & CI/CD | Docker Engine, Compose, Reverse Proxy, SSL | 3 Multi-Container Production Deployments |
+| [FusionPBX Freelancing Training](https://schooloffreelancing.com/freelancing-training/fusionpbx-training) | VoIP & Call Center | FusionPBX, FreeSWITCH, SIP Trunks, IVR | Multi-Tenant Cloud PBX System |
+| [GOautodial Freelancing Training](https://schooloffreelancing.com/freelancing-training/goautodial-training) | VoIP & Call Center | GOautodial, Asterisk, VICIdial, SIP | Outbound/Inbound Predictive Dialer Server |
+| [Call Center Freelancing Training](https://schooloffreelancing.com/freelancing-training/call-center-setup-training) | VoIP & Call Center | SIP Trunking, IVR, Predictive Dialer, CRM | End-to-End Enterprise Call Center |
+| [Ubuntu Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/ubuntu-linux-training) | Enterprise Linux | Ubuntu LTS, Nginx/Apache, CRM, UFW | Hardened Ubuntu Web & CRM Server |
+| [Debian Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/debian-linux-training) | Enterprise Linux | Debian, LEMP, Vtiger CRM, Odoo ERP | Production ERP/CRM Hosting Stack |
+| [CentOS Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/centos-linux-training) | Enterprise Linux | CentOS/RHEL, LEMP, Django, Next.js, MEAN | Full-Stack Enterprise App Deployment |
+| [OpenAI Freelancing Training](https://schooloffreelancing.com/freelancing-training/openai-training) | AI Agents & LLMs | OpenAI API, RAG, Function Calling, Agents | Production RAG & AI Assistant App |
+| [Claude Freelancing Training](https://schooloffreelancing.com/freelancing-training/claude-training) | AI Agents & LLMs | Anthropic Claude API, MCP, Tool Use, RAG | Claude AI Agent & Workflow Automation |
+| [Twilio SMS API Freelancing Training](https://schooloffreelancing.com/freelancing-training/twilio-sms-api-training) | Telecom & SMS APIs | Twilio Messaging API, TwiML, Webhooks | Two-Way Automated SMS Platform |
+| [Jasmin SMS Gateway Freelancing Training](https://schooloffreelancing.com/freelancing-training/jasmin-sms-gateway-training) | Telecom & SMS APIs | Jasmin SMS, SMPP, HTTP API, Ubuntu | Carrier-Grade SMPP Bulk SMS Gateway |
+| [Bulk SMS Freelancing Training](https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training) | Telecom & SMS APIs | SMS APIs, CSV Automation, Queue Workers | High-Throughput Bulk SMS System |
