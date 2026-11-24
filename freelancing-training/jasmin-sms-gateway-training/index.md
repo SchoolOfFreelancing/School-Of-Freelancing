@@ -20,7 +20,7 @@ Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs
 | Format: | Live Online, Instructor-Led Hands-On Training based directly on Official Jasmin Documentation. |
 | Covers: | Jasmin Core Deployment, SMPP Connectors, HTTP API, Interceptors, AMQP/RabbitMQ Queues, Morouter/Mtrouter Rules, Redis Billing, & Freelance Client Onboarding. |
 | Best for: | Linux Sysadmins, Telecom Engineers, Backend Developers, & Freelancers handling enterprise SMS infrastructure. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

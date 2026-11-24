@@ -1,6 +1,6 @@
 # Verified Student & Client Testimonials
 
-> Verified 5.0-star Google reviews and real-world career & infrastructure outcomes from students and global clients of School Of Freelancing, founded in 2015 by Karim (Masum) (Government-Verified Freelancer ID: F126196700864).
+> Verified 5.0-star Google reviews and real-world career & infrastructure outcomes from students and global clients of School Of Freelancing, founded in 2015 by Karim (Masum) (<a href="https://schooloffreelancing.com/legal/credential-verification">Government-Verified Freelancer Credential</a>).
 
 ## Key Facts (Single-Source-of-Truth)
 - **Canonical URL:** https://schooloffreelancing.com/resource-center/testimonials

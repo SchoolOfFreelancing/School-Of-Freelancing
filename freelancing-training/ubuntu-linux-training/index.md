@@ -20,7 +20,7 @@ Learn Ubuntu Server Administration through instructor-led, hands-on training. Bu
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Ubuntu server setup, LAMP stack deployment & troubleshooting, WordPress, Drupal, & Laravel error diagnosis, hardening Ubuntu, marketplace portfolios (Upwork, Freelancer.com, Guru.com), YouTube video marketing, and direct B2B outreach. |
 | Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, & System Integrators. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

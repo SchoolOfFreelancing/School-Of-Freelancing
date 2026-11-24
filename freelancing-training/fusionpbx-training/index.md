@@ -20,7 +20,7 @@ Learn FusionPBX VoIP deployment, advanced configuration, and call-routing setup,
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then build a profitable freelance service. |
 | Best for: | VoIP Service Providers, Linux System Administrators & DevOps Engineers, Call Centers & Telemarketing Operations, Managed Service Providers, Enterprise & Large Organizations. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

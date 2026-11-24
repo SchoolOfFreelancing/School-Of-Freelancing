@@ -20,7 +20,7 @@ Become an in-demand Linux System Administrator, build a freelance business, and 
 - 90 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Hermes Agent Training logo](/assets/images/hermesagent.svg)
@@ -34,7 +34,7 @@ Build an in-demand freelance career as a Hermes AI Agent Engineer and attract pr
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Telnyx SMS API Training logo](/assets/images/telnyx.svg)
@@ -48,7 +48,7 @@ Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium 
 - 30 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Odysseus AI Training logo](/assets/images/odysseus.svg)
@@ -76,7 +76,7 @@ Learn to deploy OpenClaw Linux servers for AI agents, build your service portfol
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![LocalAI Freelancing Training logo](/assets/images/localai.svg)
@@ -118,7 +118,7 @@ Learn GitLab production setup, migration, version control, CI/CD, & project mana
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![GitHub Freelancing Training logo](/assets/images/github.svg)
@@ -132,7 +132,7 @@ Learn GitHub Enterprise Server deployment, Actions CI/CD, migration, and buildin
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Docker Freelancing Training logo](/assets/images/docker.svg)
@@ -146,7 +146,7 @@ Hands-on Docker training covering three production deployments, building a freel
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![FusionPBX Freelancing Training logo](/assets/images/fusionpbx.svg)
@@ -160,7 +160,7 @@ Learn FusionPBX VoIP deployment, advanced configuration, and call routing, then 
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![GOautodial Freelancing Training logo](/assets/images/goautodial.svg)
@@ -174,7 +174,7 @@ Learn GOautodial Freelancing Training for VoIP setup, call testing, freelance po
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Call Center Freelancing Training logo](/assets/images/callcenter.svg)
@@ -188,7 +188,7 @@ Learn enterprise call center setup, for SIP trunking, IVR, predictive dialers, a
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Ubuntu Linux Freelancing Training logo](/assets/images/ubuntu.svg)
@@ -202,7 +202,7 @@ Learn Ubuntu Linux: setup web servers, CRMs & harden security. Build a portfolio
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Debian Linux Freelancing Training logo](/assets/images/debian.svg)
@@ -216,7 +216,7 @@ Learn Debian Linux admin: Set up LEMP, deploy Vtiger/Odoo/Attendize, fix errors,
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![CentOS Linux Freelancing Training logo](/assets/images/centos.svg)
@@ -230,7 +230,7 @@ Learn CentOS Linux admin — set up LEMP stacks, deploy Django, Hadoop, MEAN, Ne
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![OpenAI Freelancing Training logo](/assets/images/openai.svg)
@@ -244,7 +244,7 @@ OpenAI Developer Training: Build real-world AI applications, then find and apply
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Claude Freelancing Training logo](/assets/images/claudelogo.svg)
@@ -258,7 +258,7 @@ Learn Claude API & AI agent engineering — prompt engineering, tool use, RAG, a
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Twilio SMS API Freelancing Training logo](/assets/images/twilio.svg)
@@ -272,7 +272,7 @@ Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-w
 - 30 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Jasmin SMS Gateway Freelancing Training logo](/assets/images/jasmin.svg)
@@ -286,7 +286,7 @@ Learn Jasmin SMS Gateway — deploy bulk SMS on Ubuntu, integrate SMPP/HTTP APIs
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Bulk SMS Freelancing Training logo](/assets/images/bulksms.svg)
@@ -300,7 +300,7 @@ Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy producti
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 
@@ -313,8 +313,8 @@ Join Freelancing Training On-Demand at School Of Freelancing. Book live 1-on-1 h
 ### How does Freelancing Training On-Demand work?
 Freelancing Training On-Demand lets you book live, 1-on-1 or small-group Instructor-Led Training (ILT) sessions in Linux, AI agents, and VoIP scheduled directly around your availability—with zero pre-recorded videos.
 
-### What is Guaranteed Minimum Income (GMI) for training programs?
-Guaranteed Minimum Income (GMI) ensures eligible trainees earn a minimum income after completing their program, provided they attend all live sessions regularly without dropping out and purchase the required marketplace bids or connects to apply for client jobs.
+### What is Guaranteed Minimum Income (GMI* (subject to Training Rules)) for training programs?
+Guaranteed Minimum Income (GMI* (subject to Training Rules)) ensures eligible trainees earn a minimum income after completing their program, provided they attend all live sessions regularly without dropping out and purchase the required marketplace bids or connects to apply for client jobs.
 
 ### What kind of portfolio projects and credential verification do trainees receive?
 Trainees exclusively build functional, secure, production-ready Free and Open-Source Software (FOSS) projects on GitHub, and receive Credential Verification Support where School Of Freelancing directly confirms their skills to inquiring global clients.

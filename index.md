@@ -20,7 +20,7 @@ Become an in-demand Linux System Administrator, build a freelance business, and 
 - 90 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Hermes Agent Freelancing Training](/assets/images/hermesagent.webp)
@@ -34,7 +34,7 @@ Build an in-demand freelance career as a Hermes AI Agent Engineer and attract pr
 - 20 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ![Telnyx SMS API Freelancing Training](/assets/images/telnyx.webp)
@@ -48,7 +48,7 @@ Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium 
 - 30 Hands-on Training Sessions
 - No Pre-Recorded Training Videos
 - Live Online, Instructor-Led Training
-- Guaranteed Minimum Income (GMI)*
+- Guaranteed Minimum Income (GMI* (subject to Training Rules))*
 - Credential Verification Support
 
 ## Student Reviews

@@ -20,7 +20,7 @@ Learn how to build bulk SMS systems with SMS APIs — automate CSV messaging, de
 | Format: | Live Online, Instructor-Led Interactive Training with Practical Production Labs. |
 | Covers: | How to build bulk SMS systems with SMS APIs — automate CSV messaging, deploy production workflows, land freelance clients. |
 | Best for: | Backend Developers, Linux Administrators, Telecommunication Engineers, & Technical Freelancers. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

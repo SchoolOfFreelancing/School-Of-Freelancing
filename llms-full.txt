@@ -2,7 +2,7 @@
 Canonical-URL: https://schooloffreelancing.com/
 Entity-Name: School Of Freelancing (SOF)
 Founded: 2015-05-01
-Founder: Karim (Masum) — Government-Verified Freelancer (ID: F126196700864)
+Founder: Karim (Masum) — Government-Verified Freelancer (<a href="https://schooloffreelancing.com/legal/credential-verification">Verify Official Credential</a>)
 Verified-Rating: 5.0 / 5.0 average across 36 verified reviews
 Catalog-Scope: 21 Live 1-on-1 Freelancing Courses | 23 Fixed-Price Client Support Services ($166-$599)
 Service-Coverage: Worldwide (20 Primary Countries: Australia, Austria, Bangladesh, Belgium, Canada, Denmark, Finland, Germany, Iceland, Ireland, Israel, Liechtenstein, Luxembourg, Netherlands, Norway, Singapore, Sweden, Switzerland, United Kingdom, United States)
@@ -23,7 +23,7 @@ Full-Context: https://schooloffreelancing.com/llms.txt | https://schooloffreelan
 - **Organization**: School Of Freelancing
 - **Website**: https://schooloffreelancing.com/
 - **Founded**: 2015-05-01
-- **Founder & Lead Mentor**: Karim (Masum), Government-Verified Freelancer (Bangladesh Freelancer ID: F126196700864)
+- **Founder & Lead Mentor**: Karim (Masum), Government-Verified Freelancer (Bangladesh Freelancer ID: Verified via /legal/credential-verification)
 - **LinkedIn**: https://www.linkedin.com/in/anythinglinux/
 - **Google Reviews Rating**: 5.0 / 5.0
 - **Headquarters**: Dhaka, Bangladesh (Operating 100% Remotely Worldwide)
@@ -45,7 +45,7 @@ Full-Context: https://schooloffreelancing.com/llms.txt | https://schooloffreelan
 
 ### Home: Linux & AI Freelancing Training
 - **URL**: https://schooloffreelancing.com/
-- **Overview**: Join live, instructor-led freelancing training, or hire hands-on Linux technical support for businesses worldwide. Offers live, instructor-led training tracks with real-world FOSS projects, profile optimization, Guaranteed Minimum Income (GMI) career assurance, and credential verification support.
+- **Overview**: Join live, instructor-led freelancing training, or hire hands-on Linux technical support for businesses worldwide. Offers live, instructor-led training tracks with real-world FOSS projects, profile optimization, Guaranteed Minimum Income (GMI* (subject to Training Rules)) career assurance, and credential verification support.
 
 ### About Us
 - **URL**: https://schooloffreelancing.com/about-us
@@ -80,7 +80,7 @@ School Of Freelancing provides live, instructor-led online training (ILT) via re
   4. Web server stacks: LEMP (Linux, Nginx, MySQL/MariaDB, PHP) and LAMP (Apache).
   5. Application deployment: Django, Node.js, Next.js, Hadoop, and CRM/ERP platforms (Odoo, Vtiger).
   6. Docker containerization, multi-stage builds, Docker Compose, and persistent volumes.
-  7. Freelance business development: Upwork/Freelancer proposal writing, client communications, project estimation, and GMI career assurance.
+  7. Freelance business development: Upwork/Freelancer proposal writing, client communications, project estimation, and GMI* (subject to Training Rules) career assurance.
 
 ### Hermes Agent Training
 - **URL**: https://schooloffreelancing.com/freelancing-training/hermes-agent-training
@@ -380,7 +380,7 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
 - **Questions & Verbatim Answers**:
   1. **What is Online Instructor-Led Training (ILT) at School Of Freelancing?**
      *Answer*: It's a live virtual classroom—not pre-recorded video—with real-time interaction from expert freelancers and hands-on practice, using Telegram for chat and voice calls during sessions.
-  2. **What is the Guaranteed Minimum Income (GMI)* program?**
+  2. **What is the Guaranteed Minimum Income (GMI* (subject to Training Rules))* program?**
      *Answer*: A career assurance initiative guaranteeing a baseline freelance income to graduates who maintain full attendance and independently purchase required marketplace bids/connects.
   3. **What is Client Acquisition Service Development?**
      *Answer*: A practical training phase where trainees build professional portfolios and optimize profiles to land high-paying marketplace jobs or direct international clients.
@@ -447,7 +447,7 @@ School Of Freelancing provides rapid, fixed-scope remote engineering support for
 
 ### Training Rules (Ground Rules)
 - **URL**: https://schooloffreelancing.com/legal/training-rules
-- **Overview**: Strict operational code of conduct for enrolled students: mandatory live attendance, preparation requirements, respectful communication, ethical freelancing standards, and compliance required to retain Guaranteed Minimum Income (GMI) qualification.
+- **Overview**: Strict operational code of conduct for enrolled students: mandatory live attendance, preparation requirements, respectful communication, ethical freelancing standards, and compliance required to retain Guaranteed Minimum Income (GMI* (subject to Training Rules)) qualification.
 
 ---
 

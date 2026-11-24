@@ -20,7 +20,7 @@ Learn GitLab production setup, migration, version control, CI/CD, & project mana
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Set up a production GitLab server to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | The ultimate GitLab freelancing training designed to help developers, freelancers, and sysadmins master high-demand DevOps skills and sign premium global clients. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

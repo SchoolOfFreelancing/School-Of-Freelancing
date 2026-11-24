@@ -39,7 +39,7 @@
 - **Authority Backlinks & Unlinked Brand Citations:** Consistent brand entity naming (`School Of Freelancing` / `SOF`) and verifiable public profiles across GitHub, LinkedIn, YouTube, X, Instagram, Threads, and Pinterest.
 
 ## 12. E-E-A-T & Trust Signals
-- **Verifiable Credentials:** Principal mentor Karim (Masum), Government-Verified Freelancer (`ID: F126196700864`), 5.0/5.0 rating across 36 verified reviews, and transparent `/legal/*` policies (`credential-verification`, `privacy-policy`, `refund-policy`, `terms-and-conditions`, `training-rules`).
+- **Verifiable Credentials:** Principal mentor Karim (Masum), Government-Verified Freelancer (`ID: Verified via /legal/credential-verification`), 5.0/5.0 rating across 36 verified reviews, and transparent `/legal/*` policies (`credential-verification`, `privacy-policy`, `refund-policy`, `terms-and-conditions`, `training-rules`).
 
 ## 13. AI Agent Interactivity & Protocol Engineering
 - **Machine-Readable Actions:** Active `WebMCP` (`/assets/js/tools.js`), `/.well-known/webmcp.json`, `/.well-known/agent-card.json`, `/.well-known/agent-skills.json`, and `/.well-known/api-catalog.json`.

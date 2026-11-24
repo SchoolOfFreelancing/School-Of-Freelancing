@@ -15,7 +15,7 @@ School Of Freelancing delivers live, instructor-led online training that turns s
 
 ### 🎓 Freelancing Training
 
-Live, instructor-led, hands-on training tracks designed to build real freelance careers, each including a Guaranteed Minimum Income (GMI) component and credential verification support.
+Live, instructor-led, hands-on training tracks designed to build real freelance careers, each including a Guaranteed Minimum Income (GMI* (subject to Training Rules)) component and credential verification support.
 
 | Program | Modules | Duration | Starting Price |
 |---|---|---|---|

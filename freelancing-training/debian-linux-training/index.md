@@ -20,7 +20,7 @@ Learn Debian Linux admin — set up LEMP stacks, deploy Vtiger CRM, Odoo ERP & A
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Debian server setup, LEMP stack deployment with domains, LEMP stack error troubleshooting, Vtiger CRM, Odoo ERP & Attendize deployments and troubleshooting, portfolio creation on Upwork, Freelancer.com, and Guru.com, YouTube Proof of Work (PoW) video marketing, and client outreach. |
 | Best for: | Aspiring SysAdmins, Web Developers, Freelancers, DevOps Enthusiasts, IT Support Technicians, & System Integrators. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

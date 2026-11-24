@@ -20,7 +20,7 @@ Join live, hands-on Ubuntu Linux freelancing training. Learn server deployment, 
 | Format: | 100% Live, instructor-led training, with no pre-recorded videos. |
 | Covers: | Deploy real-world Linux server projects to production, and learn how to win premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
 | Best for: | Beginners comfortable with any operating system who want hands-on, project-based Linux system administration. |
-| (GMI)*: | Guaranteed Minimum Income secured only with 100% training attendance and active marketplace engagement (purchasing bids/connects to apply for jobs). |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income secured only with 100% training attendance and active marketplace engagement (purchasing bids/connects to apply for jobs). |
 
 ## Participation Requirements
 

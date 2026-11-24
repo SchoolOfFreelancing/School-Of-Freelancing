@@ -20,7 +20,7 @@ Learn Anthropic Claude API & AI agent engineering — prompt engineering, tool u
 | Format: | Live Online, Instructor-Led Interactive Training with Zero Pre-Recorded Videos. |
 | Covers: | Anthropic Messages API setup, XML Tag Prompting, Tool Use, Computer Use Agents, Extended Thinking Mode, Vision API, RAG Architecture, Multi-Agent Orchestration, Upwork/Freelancer/Guru profile setup, YouTube Proof of work (PoW) videos, and Client Outreach. |
 | Best for: | AI Engineers, Software Developers, Technical Freelancers, Automation Experts, & IT Consultants. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to submit client proposals. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to submit client proposals. |
 
 ### Participation Requirements:
 

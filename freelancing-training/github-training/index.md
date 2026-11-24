@@ -20,7 +20,7 @@ Learn GitHub production setup, migration, version control, CI/CD, & project mana
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Set up a production GitHub server to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | Freelancers, sysadmins, and DevOps engineers looking to master self-hosted GitHub infrastructure and offer high-demand server management services. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

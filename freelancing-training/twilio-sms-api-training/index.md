@@ -20,7 +20,7 @@ Learn Twilio SMS API setup, integration, automation, troubleshooting, and real-w
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Twilio Programmable SMS API, TwiML, Webhooks, Messaging Services, A2P 10DLC Compliance, API Troubleshooting, Upwork Profile Optimization, Proposal Writing, and Client Project Delivery. |
 | Best for: | Full-Stack Developers, Web Developers, Automation Engineers, Freelancers, & System Integrators. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

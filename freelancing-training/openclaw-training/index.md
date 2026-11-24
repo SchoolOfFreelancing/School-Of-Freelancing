@@ -20,7 +20,7 @@ Learn OpenClaw AI automation through hands-on, instructor-led freelancing traini
 | Format: | 100% Live, instructor-led training, with no pre-recorded videos. |
 | Covers: | Deploy OpenClaw into production to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | The ultimate OpenClaw Freelancing Training designed to help developers, freelancers, and agency owners master high-demand AI skills and sign premium global clients. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ## Participation Requirements
 

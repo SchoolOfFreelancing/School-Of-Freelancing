@@ -20,7 +20,7 @@ Learn to build and deploy a compliant two-way bulk SMS system using the Telnyx M
 | Format: | 100% Live, instructor-led training, with no pre-recorded videos. |
 | Covers: | Deploy a compliant two-way bulk SMS system using the Telnyx Messaging API, REST/HTTP, and SMPP, and offer the solution as a freelance service. |
 | Best for: | Businesses, developers, and freelancers who want hands-on Telnyx SMS API training to build compliant SMS infrastructure and win high-value global clients. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply and win jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply and win jobs. |
 
 ### Participation Requirements:
 

@@ -20,7 +20,7 @@ Learn enterprise call center infrastructure deployment, predictive dialer setup,
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Learn end-to-end call center architecture, auto-dialer engines, WebRTC agent portals, SIP trunking, call recording compliance, and client acquisition on freelance marketplaces. |
 | Best for: | Call Center Managers & BPO Owners, Telephony Engineers, Linux Administrators, DevOps Professionals, IT Consultants & MSPs. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 

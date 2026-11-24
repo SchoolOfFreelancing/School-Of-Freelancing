@@ -20,7 +20,7 @@ Learn Hermes Agent deployment, Linux, and AI automation. Build freelance service
 | Format: | 100% Live, instructor-led training, with no pre-recorded videos. |
 | Covers: | Deploy Hermes Agent in a production environment, and learn how to win premium clients on Upwork, Freelancer, Guru, LinkedIn, and YouTube. |
 | Best for: | Developers, freelancers, and agency owners who want practical Hermes Agent deployment and AI infrastructure skills for global client work. |
-| (GMI)*: | Guaranteed Minimum Income secured only with 100% training attendance and active marketplace engagement (purchasing bids/connects to apply for jobs). |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income secured only with 100% training attendance and active marketplace engagement (purchasing bids/connects to apply for jobs). |
 
 ## Participation Requirements
 

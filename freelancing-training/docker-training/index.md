@@ -20,7 +20,7 @@ Comprehensive Docker Freelancing Training designed to take you from a Docker pra
 | Format: | Live Online, Instructor-Led Hands-On Training with Zero Pre-Recorded Videos. |
 | Covers: | Set up a production Docker and Docker Compose application to offer freelance services and land clients through Upwork, Guru, Freelancer, LinkedIn, and YouTube. |
 | Best for: | Freelancers, sysadmins, and DevOps engineers looking to master Docker and Docker Compose for offer high-demand Docker support service. |
-| (GMI)*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
+| (GMI* (subject to Training Rules))*: | Guaranteed Minimum Income subject to 100% training attendance and purchasing marketplace bids/connects to apply for jobs. |
 
 ### Participation Requirements:
 
