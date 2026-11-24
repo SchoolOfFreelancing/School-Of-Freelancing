@@ -302,3 +302,22 @@ Build bulk SMS systems with SMS APIs — automate CSV messaging, deploy producti
 - Live Online, Instructor-Led Training
 - Guaranteed Minimum Income (GMI)*
 - Credential Verification Support
+
+
+## Overview
+
+Join Freelancing Training On-Demand at School Of Freelancing. Book live 1-on-1 hands-on sessions in Linux, AI, and VoIP scheduled on your request.
+
+## Frequently Asked Questions
+
+### How does Freelancing Training On-Demand work?
+Freelancing Training On-Demand lets you book live, 1-on-1 or small-group Instructor-Led Training (ILT) sessions in Linux, AI agents, and VoIP scheduled directly around your availability—with zero pre-recorded videos.
+
+### What is Guaranteed Minimum Income (GMI) for training programs?
+Guaranteed Minimum Income (GMI) ensures eligible trainees earn a minimum income after completing their program, provided they attend all live sessions regularly without dropping out and purchase the required marketplace bids or connects to apply for client jobs.
+
+### What kind of portfolio projects and credential verification do trainees receive?
+Trainees exclusively build functional, secure, production-ready Free and Open-Source Software (FOSS) projects on GitHub, and receive Credential Verification Support where School Of Freelancing directly confirms their skills to inquiring global clients.
+
+### How are training prices and session schedules determined?
+Training fees and durations are scaled transparently in USD based on technical complexity, instructional hours, and global market demand, with full payment required upfront prior to enrollment to reserve dedicated live mentor sessions.

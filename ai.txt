@@ -1,7 +1,7 @@
 # AI.TXT
 # School Of Freelancing
 # AI-readable website discovery document
-# Generated UTC: 2026-11-21T20:58:00+00:00
+# Generated UTC: 2026-11-24T17:35:00+00:00
 
 Site: https://schooloffreelancing.com/
 Sitemap: https://schooloffreelancing.com/sitemap.xml
@@ -148,9 +148,9 @@ Canonical: https://schooloffreelancing.com/contact-us
 Description: Contact School Of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
 
 Page: https://schooloffreelancing.com/freelancing-training
-Title: Freelancing Training: School Of Freelancing
+Title: Freelancing Training On-Demand | School Of Freelancing
 Canonical: https://schooloffreelancing.com/freelancing-training
-Description: Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!
+Description: Join Freelancing Training On-Demand at School Of Freelancing. Book live 1-on-1 hands-on sessions in Linux, AI, and VoIP scheduled on your request.
 
 Page: https://schooloffreelancing.com/freelancing-training/bulk-sms-setup-training
 Title: Bulk SMS - Setup Training | School Of Freelancing
