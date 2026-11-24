@@ -1,25 +1,4 @@
-# AI.TXT
-# School Of Freelancing
-# AI-readable website discovery document
-# Generated UTC: 2026-11-18T17:41:44+00:00
-
-Site: https://schooloffreelancing.com/
-Sitemap: https://schooloffreelancing.com/sitemap.xml
-Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/legal/credential-verification
-
-# PURPOSE
-# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
-
-# PAGES
-Page: https://schooloffreelancing.com/legal/credential-verification
-Title: Credential Verification Support | School Of Freelancing
-Canonical: https://schooloffreelancing.com/legal/credential-verification
-Description: Employers can verify a student's School Of Freelancing training. Free within 1 year, $20 USD after. Only student-authorized details are shared.
-
-# RELATIONSHIP
-Parent: https://schooloffreelancing.com/legal
-Current: https://schooloffreelancing.com/legal/credential-verification
-
-# HTML DISCOVERY
-# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">
+# AI Discovery — Credential Verification Support
+Canonical-URL: https://schooloffreelancing.com/legal/credential-verification
+Markdown-Version: https://schooloffreelancing.com/legal/credential-verification/index.md
+Rating: 5.0/5.0 (36 Verified Reviews)

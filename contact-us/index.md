@@ -1,14 +1,7 @@
----
-title: "Contact Us: School Of Freelancing"
-author: "Karim (Masum)"
-date: 2026-11-11
-description: "Contact School Of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible."
----
+# Contact Us
 
-# Contact Us: School Of Freelancing
+> Contact School Of Freelancing via Telegram, WhatsApp, phone & email to get a reply to all inquiries as soon as possible.
 
-## Get in Touch
-
-## Send a message
-
-## Find Us on the Map
+- **Canonical:** https://schooloffreelancing.com/contact-us
+- **Entity:** School Of Freelancing (Founded 2015 by Karim / Masum, ID: F126196700864)
+- **Rating:** 5.0/5.0 (36 Verified Reviews)

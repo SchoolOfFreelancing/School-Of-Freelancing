@@ -355,6 +355,9 @@ amp-sidebar a {
       "isPartOf": {
         "@type": "WebPage",
         "@id": "https://schooloffreelancing.com/resource-center/voip-setup"
+      },
+      "author": {
+        "@id": "https://schooloffreelancing.com/#person"
       }
     },
     {
@@ -391,14 +394,17 @@ amp-sidebar a {
       "name": "School Of Freelancing",
       "url": "https://schooloffreelancing.com/",
       "sameAs": [
+        "https://://linkedin.com/company/SchoolOfFreelancing",
+        "https://://facebook.com/SchoolOfFreelancing",
+        "https://://youtube.com/@SchoolOfFreelancing",
+        "https://://youtube.com/@AnythingLinux",
+        "https://x.com/SchoolOfFreelan",
+        "https://://instagram.com/SchoolOfFreelancing",
+        "https://://threads.com/@SchoolOfFreelancing",
         "https://github.com/SchoolOfFreelancing",
-        "https://instagram.com/schooloffreelancing",
-        "https://www.facebook.com/SchoolOfFreelancing",
-        "https://www.facebook.com/messages/t/SchoolOfFreelancing",
-        "https://www.linkedin.com/company/schooloffreelancing",
-        "https://www.linkedin.com/in/anythinglinux",
-        "https://www.youtube.com/@SchoolOfFreelancing",
-        "https://x.com/SchoolOfFreelan"
+        "https://://pinterest.com/schooloffreelancing/",
+        "https://wa.me/8801748973769",
+        "https://t.me/SchoolOfFreelancingTraining"
       ],
       "openingHoursSpecification": [
         {
@@ -415,11 +421,133 @@ amp-sidebar a {
           "opens": "00:00",
           "closes": "23:59"
         }
+      ],
+      "areaServed": [
+        {
+          "@type": "Place",
+          "name": "Worldwide"
+        },
+        {
+          "@type": "Country",
+          "name": "Australia"
+        },
+        {
+          "@type": "Country",
+          "name": "Austria"
+        },
+        {
+          "@type": "Country",
+          "name": "Bangladesh"
+        },
+        {
+          "@type": "Country",
+          "name": "Belgium"
+        },
+        {
+          "@type": "Country",
+          "name": "Canada"
+        },
+        {
+          "@type": "Country",
+          "name": "Denmark"
+        },
+        {
+          "@type": "Country",
+          "name": "Finland"
+        },
+        {
+          "@type": "Country",
+          "name": "Germany"
+        },
+        {
+          "@type": "Country",
+          "name": "Iceland"
+        },
+        {
+          "@type": "Country",
+          "name": "Ireland"
+        },
+        {
+          "@type": "Country",
+          "name": "Israel"
+        },
+        {
+          "@type": "Country",
+          "name": "Liechtenstein"
+        },
+        {
+          "@type": "Country",
+          "name": "Luxembourg"
+        },
+        {
+          "@type": "Country",
+          "name": "Netherlands"
+        },
+        {
+          "@type": "Country",
+          "name": "Norway"
+        },
+        {
+          "@type": "Country",
+          "name": "Singapore"
+        },
+        {
+          "@type": "Country",
+          "name": "Sweden"
+        },
+        {
+          "@type": "Country",
+          "name": "Switzerland"
+        },
+        {
+          "@type": "Country",
+          "name": "United Kingdom"
+        },
+        {
+          "@type": "Country",
+          "name": "United States"
+        }
+      ],
+      "aggregateRating": {
+        "@type": "AggregateRating",
+        "ratingValue": "5.0",
+        "bestRating": "5",
+        "worstRating": "1",
+        "reviewCount": "36"
+      }
+    },
+    {
+      "@type": "FAQPage",
+      "@id": "https://schooloffreelancing.com/resource-center/voip-setup#faq",
+      "mainEntity": [
+        {
+          "@type": "Question",
+          "name": "OverviewThis guide teaches you how to deploy FusionPBX, an open-source VoIP PBX system, on your Ubuntu server. You'll handle extensions, IVR menus, call routing, and SIP trunking — giving your business complete control over phone infrastructure and eliminating expensive carrier fees.PrerequisitesA production-ready Ubuntu 24.04 LTS server (minimum 2GB RAM, 20GB disk)A domain name for SIP registrationAn external SIP trunk provider (Twilio, Telnyx, or similar)Basic Linux command-line familiarityStep 1: Install FusionPBX1.1 Install FreeSWITCH DependenciesFusionPBX is built on FreeSWITCH. Install required packages:\n sudo apt update &amp;&amp; sudo apt install -y curl wget gnupg2\nsudo apt install -y postgresql postgresql-contrib\n\n 1.2 Install FusionPBXClone the FusionPBX repository and run the installer:\n cd /opt\nsudo git clone https://github.com/fusionpbx/fusionpbx.git\ncd fusionpbx\nsudo chmod +x -R install\nsudo ./install/install.sh\n The installer will prompt for PostgreSQL password and domain configuration.1.3 Secure the Web InterfaceAccess FusionPBX at https://your-domain.com (username: admin, password: provided during install).Immediately change the default password in Settings &rarr; Accounts.Step 2: Configure Extensions2.1 Create Your First ExtensionIn FusionPBX web interface: Dialplan &rarr; Extensions &rarr; AddExtension: 1000Enabled: YesDescription: Main OfficeVoicemail: EnableVoicemail Password: Strong passwordCaller ID Name: Your Business NameCaller ID Number: Main phone numberSave and note the SIP credentials (username/password) for connecting a phone or softphone.2.2 Configure SIP Phones or SoftphonesUse these credentials to register:Proxy/SIP Server: your-domain.comPort: 5060 (or 5061 for TLS)Username: Extension (e.g., 1000)Password: As configured aboveDisplay Name: Your nameStep 3: Build an IVR (Interactive Voice Response)3.1 Create an IVR MenuIn FusionPBX: Dialplan &rarr; IVR &rarr; AddName: Main MenuGreet Long: \"Welcome to [Company Name]. Press 1 for sales, 2 for support, 0 for operator.\"Menu Options:Press 1 &rarr; Route to extension 1001 (Sales)Press 2 &rarr; Route to extension 1002 (Support)Press 0 &rarr; Route to extension 1000 (Operator)Step 4: Set Up SIP Trunking4.1 Configure Telnyx SIP Trunk (Example)Register with Telnyx, get your SIP credentials, then in FusionPBX: Advanced &rarr; SIP Profiles &rarr; External ProfileAdd gateway settings (Gateways tab):Name: telnyx-trunkProxy: sip.telnyx.comUsername: Your Telnyx usernamePassword: Your Telnyx passwordRealm: sip.telnyx.com4.2 Create Dialplan for Outbound CallsIn FusionPBX: Dialplan &rarr; Dialplan &rarr; Add outbound routeExpression: ^(\\d{10})$ (for 10-digit US numbers)Gateway: telnyx-trunkAction: bridge {sip_from_user=$1@sip.telnyx.com}Step 5: Call Recording &amp; Voicemail5.1 Enable Call RecordingIn Extensions settings, enable \"Record Calls\" for quality assurance and compliance.5.2 Voicemail to EmailConfigure voicemail-to-email in Settings &rarr; Email to notify users of voicemails automatically.Step 6: Backup &amp; Monitoring6.1 Backup FusionPBX Configuration\n sudo pg_dump -U postgres fusionpbx &gt; /backups/fusionpbx_$(date +%Y%m%d).sql\n Schedule this daily via cron.6.2 Monitor System HealthIn FusionPBX: System &rarr; System StatusMonitor active calls, registered extensions, and SIP trunk status.Common TroubleshootingNo Inbound/Outbound Audio (One-Way Audio)Check: 1) SIP trunk credentials correct? 2) Firewall allows RTP ports (16384-32767)? 3) NAT settings correct?SIP Registration FailsVerify: 1) Domain DNS resolves? 2) Port 5060/5061 open? 3) Username/password correct?Extensions Don't RegisterIn FreeSWITCH console: freeswitch&gt; sofia status to see registration status. Check logs: tail -f /var/log/freeswitch/freeswitch.logNext StepsAdd additional extensions for team membersCreate department-specific IVR menusIntegrate with CRM (Salesforce, etc.)Set up call center features (agents, queues)Implement call center dialer functionalityLearn More",
+          "acceptedAnswer": {
+            "@type": "Answer",
+            "text": "For comprehensive hands-on training, enroll in our FusionPBX VoIP Training program."
+          }
+        }
+      ]
+    },
+    {
+      "@type": "Person",
+      "@id": "https://schooloffreelancing.com/#person",
+      "name": "Karim (Masum)",
+      "jobTitle": "Founder & Principal Linux/AI Mentor",
+      "url": "https://schooloffreelancing.com/about-us",
+      "sameAs": [
+        "https://://linkedin.com/in/anythinglinux/",
+        "https://github.com/AnythingLinux",
+        "https://://youtube.com/@AnythingLinux",
+        "https://://youtube.com/@SchoolOfFreelancing",
+        "https://x.com/AnythingLinux"
       ]
     }
   ]
 }
 </script>
+  <link rel="alternate" type="text/markdown" href="/resource-center/voip-setup/index.md" title="Markdown version for AI agents">
 </head>
 <body>
 

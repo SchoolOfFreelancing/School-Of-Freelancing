@@ -1,25 +1,4 @@
-# AI.TXT
-# School Of Freelancing
-# AI-readable website discovery document
-# Generated UTC: 2026-11-18T17:41:44+00:00
-
-Site: https://schooloffreelancing.com/
-Sitemap: https://schooloffreelancing.com/sitemap.xml
-Root-AI: https://schooloffreelancing.com/ai.txt
-Section: https://schooloffreelancing.com/resource-center/voip-setup
-
-# PURPOSE
-# Lightweight page-discovery information for AI agents, automated clients, browsers and crawlers.
-
-# PAGES
-Page: https://schooloffreelancing.com/resource-center/voip-setup
-Title: Set Up Your Own VoIP Phone System
-Canonical: https://schooloffreelancing.com/resource-center/voip-setup
-Description: Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system: installation, extensions, IVR, call routing, and SIP trunking.
-
-# RELATIONSHIP
-Parent: https://schooloffreelancing.com/resource-center
-Current: https://schooloffreelancing.com/resource-center/voip-setup
-
-# HTML DISCOVERY
-# Optional HTML relationship: <link rel="alternate" type="text/plain" href="/ai.txt">
+# AI Discovery — Set Up Your Own VoIP Phone System
+Canonical-URL: https://schooloffreelancing.com/resource-center/voip-setup
+Markdown-Version: https://schooloffreelancing.com/resource-center/voip-setup/index.md
+Rating: 5.0/5.0 (36 Verified Reviews)

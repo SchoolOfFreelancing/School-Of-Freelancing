@@ -1,44 +1,7 @@
----
-title: "Resource Center | School Of Freelancing"
-author: "Karim (Masum)"
-date: 2026-11-11
-description: "The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI."
----
+# Resource Center
 
-# Resource Center | School Of Freelancing
+> The School Of Freelancing Resource Center: FAQs, testimonials, case studies, an intro video, and free how-to guides on Linux, Docker, VoIP, and AI.
 
-## FAQs
-
-Quick answers about our training programs, payment, technical support, and how registration works.
-
-## Testimonials
-
-Read what past students and support clients say about training with, and getting support from, School Of Freelancing.
-
-## Intro Video
-
-Watch a short video introduction to School Of Freelancing's training and support offerings.
-
-## Case Studies
-
-Real case studies from clients: Docker deployments, AI integrations, VoIP systems, and trading infrastructure.
-
-## Guide: Deploy a Linux Server
-
-Step-by-step guide to deploying a production-ready Ubuntu Linux server, from installation to monitoring.
-
-## Guide: Containerize a Legacy App
-
-Step-by-step guide to containerizing legacy web applications with Docker and Docker Compose.
-
-## Guide: Set Up a VoIP Phone System
-
-Complete guide to setting up FusionPBX/FreeSWITCH for a professional VoIP phone system.
-
-## Guide: Create Your First AI Chatbot
-
-Step-by-step guide to building an AI chatbot using the Claude API, from prompts to production.
-
-## Guide: Automate a Repetitive Task
-
-Step-by-step guide to automating business tasks with Python and cron: email, files, and data entry.
+- **Canonical:** https://schooloffreelancing.com/resource-center
+- **Entity:** School Of Freelancing (Founded 2015 by Karim / Masum, ID: F126196700864)
+- **Rating:** 5.0/5.0 (36 Verified Reviews)
