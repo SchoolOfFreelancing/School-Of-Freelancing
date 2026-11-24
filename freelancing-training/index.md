@@ -1,11 +1,11 @@
 ---
-title: "Freelancing Training: School Of Freelancing"
+title: "Freelancing Training On-Demand | School Of Freelancing"
 author: "Karim (Masum)"
-date: 2026-11-11
-description: "Live hands-on freelancing training in Linux, VoIP, AI & cloud tech. Build real projects and land top global clients!"
+date: 2026-11-24
+description: "Join Freelancing Training On-Demand at School Of Freelancing. Book live 1-on-1 hands-on sessions in Linux, AI, and VoIP scheduled on your request."
 ---
 
-# Freelancing Training: School Of Freelancing
+# Freelancing Training On-Demand | School Of Freelancing
 
 ## All Training Programs
 
