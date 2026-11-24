@@ -10,7 +10,7 @@
       "identifier": "urn:air:schooloffreelancing.com:mcp:main",
       "displayName": "School Of Freelancing MCP Server",
       "description": "OAuth-protected MCP server for freelancing training and support, and Linux/AI services.",
-      "type": "application/mcp+json",
+      "type": "application/mcp-server-card+json",
       "url": "https://schooloffreelancing.com/api/mcp/sse",
       "representativeQueries": [
         "search freelancing training programs",
