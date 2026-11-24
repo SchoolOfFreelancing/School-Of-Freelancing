@@ -4,7 +4,7 @@
 
 ## Core Training Programs
 - [Linux Freelancing Training](https://schooloffreelancing.com/freelancing-training/linux-freelancing-training): 6-month (90 live sessions / 180 hours) hands-on program covering real-world Linux server deployment, Ubuntu/Debian, Git, and client acquisition on Upwork, Freelancer, and Guru ($599, includes Guaranteed Minimum Income subject to attendance/bidding conditions).
-- [Hermes Agent Training](https://schooloffreelancing.com): 1-month (20 live sessions / 20 hours) hands-on program focused on building a freelance career as a Hermes AI Agent Engineer ($149).
+- [Hermes Agent Training](https://schooloffreelancing.com/freelancing-training/hermes-agent-training): 1-month (20 live sessions / 20 hours) hands-on program focused on building a freelance career as a Hermes AI Agent Engineer ($149).
 
 ## Company & Support
 - [Home](https://schooloffreelancing.com/): Join live, instructor-led freelancing training, or hire hands-on Linux technical support for businesses worldwide.
