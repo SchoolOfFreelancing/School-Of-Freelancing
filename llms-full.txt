@@ -31,7 +31,7 @@
 
 ### Home: Linux & AI Freelancing Training
 - **URL**: https://schooloffreelancing.com/
-- **Overview**: Live Linux and AI freelancing training for aspiring freelancers, paired with hands-on technical support for businesses worldwide. Offers live, instructor-led training tracks with real-world FOSS projects, profile optimization, Guaranteed Minimum Income (GMI) career assurance, and credential verification support.
+- **Overview**: Join live, instructor-led freelancing training, or hire hands-on Linux technical support for businesses worldwide. Offers live, instructor-led training tracks with real-world FOSS projects, profile optimization, Guaranteed Minimum Income (GMI) career assurance, and credential verification support.
 
 ### About Us
 - **URL**: https://schooloffreelancing.com/about-us
