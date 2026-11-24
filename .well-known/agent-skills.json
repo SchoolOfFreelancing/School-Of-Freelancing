@@ -10,7 +10,7 @@
     },
     {
       "name": "confirm_registration_payment",
-      "description": "Fill and submit the School Of Freelancing payment confirmation form (/register/). Opens WhatsApp with pre-filled details.",
+      "description": "Fill and submit the School Of Freelancing payment confirmation form (/contact-us/). Opens WhatsApp with pre-filled details.",
       "parameters": {
         "fullName": "string",
         "email": "string",

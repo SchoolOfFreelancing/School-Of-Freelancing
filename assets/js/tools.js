@@ -90,7 +90,7 @@
         return ok({
           training_catalog: ORIGIN + "/freelancing-training",
           services_catalog: ORIGIN + "/client-support",
-          registration: ORIGIN + "/register/",
+          registration: ORIGIN + "/contact-us/",
           contact: ORIGIN + "/contact-us/",
           llms_txt: ORIGIN + "/llms.txt",
           llms_full_txt: ORIGIN + "/llms-full.txt",
@@ -101,7 +101,7 @@
     opts
   );
 
-  // 2. Valid values accepted by the registration form (read live from /register/)
+  // 2. Valid values accepted by the registration form (read live from /contact-us/)
   mc.registerTool(
     {
       name: "get_registration_form_options",
@@ -110,7 +110,7 @@
       execute: async function () {
         var root = document;
         if (!getFields(document).trainingOrService) {
-          var res = await fetch("/register/", { credentials: "same-origin" });
+          var res = await fetch("/contact-us/", { credentials: "same-origin" });
           if (!res.ok) return fail("Could not load the registration page (HTTP " + res.status + ").");
           root = new DOMParser().parseFromString(await res.text(), "text/html");
         }
@@ -129,7 +129,7 @@
   mc.registerTool(
     {
       name: "confirm_registration_payment",
-      description: "Fill the registration payment-confirmation form on /register/. Does not submit; the human must review the form and press the confirm button themselves.",
+      description: "Fill the registration payment-confirmation form on /contact-us/. Does not submit; the human must review the form and press the confirm button themselves.",
       inputSchema: {
         type: "object",
         properties: {
@@ -144,7 +144,7 @@
       execute: async function (args) {
         var f = getFields(document);
         if (!f.fullName || !f.trainingOrService || !f.paymentMethod) {
-          return fail("Open " + ORIGIN + "/register/ first, then call this tool again.");
+          return fail("Open " + ORIGIN + "/contact-us/ first, then call this tool again.");
         }
         setValue(f.fullName, args.fullName);
         if (f.email) setValue(f.email, args.email);
