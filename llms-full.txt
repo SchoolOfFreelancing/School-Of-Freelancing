@@ -1,3 +1,17 @@
+# School Of Freelancing — Single-Source-of-Truth (SSOT) AI Discovery
+Canonical-URL: https://schooloffreelancing.com/
+Entity-Name: School Of Freelancing (SOF)
+Founded: 2015-05-01
+Founder: Karim (Masum) — Government-Verified Freelancer (ID: F126196700864)
+Verified-Rating: 5.0 / 5.0 average across 36 verified reviews
+Catalog-Scope: 21 Live 1-on-1 Freelancing Courses | 23 Fixed-Price Client Support Services ($166-$599)
+Service-Coverage: Worldwide (20 Primary Countries: Australia, Austria, Bangladesh, Belgium, Canada, Denmark, Finland, Germany, Iceland, Ireland, Israel, Liechtenstein, Luxembourg, Netherlands, Norway, Singapore, Sweden, Switzerland, United Kingdom, United States)
+Operating-Hours: 24/7 Remote Support (Monday-Sunday 00:00-23:59)
+Contact: support@schooloffreelancing.com | +8801748973769 | https://wa.me/8801748973769
+Full-Context: https://schooloffreelancing.com/llms.txt | https://schooloffreelancing.com/llms-full.txt | https://schooloffreelancing.com/sitemap.xml
+
+---
+
 # School Of Freelancing — Complete Site Documentation
 
 > Live Linux & AI Freelancing Training and Elite Client Support Services. Founded 2015, based in Bangladesh, delivering remote, instructor-led online training and hands-on IT engineering worldwide. All billing in USD.
