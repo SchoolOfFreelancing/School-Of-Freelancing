@@ -1,3 +1,13 @@
+---
+title: SOF (School Of Freelancing) — Official Knowledge Base & Service Catalog
+emoji: 🚀
+colorFrom: blue
+colorTo: green
+sdk: static
+pinned: false
+license: gpl-3.0
+---
+
 # SOF (School Of Freelancing)
 
 > SOF (School Of Freelancing) is an online-only institute offering live 1-on-1 Linux, VoIP, DevOps and AI freelancing training, plus fixed-price remote server and infrastructure support. Founded May 1, 2015 by Karim (Masum). Serves learners and businesses in 20+ countries.
