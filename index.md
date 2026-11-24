@@ -11,7 +11,7 @@ description: "Live Linux and AI freelancing training for aspiring freelancers, w
 
 ![Linux Freelancing Training](/assets/images/linux.webp)
 
-### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training)
+### [Linux Freelancing Training](/freelancing-traininglinux-freelancing-training)
 
 Become an in-demand Linux System Administrator, build a freelance business, and win high-paying global clients.
 
@@ -25,7 +25,7 @@ Become an in-demand Linux System Administrator, build a freelance business, and 
 
 ![Hermes Agent Freelancing Training](/assets/images/hermesagent.webp)
 
-### [Hermes Agent Training](/freelancing-training/hermes-agent-training)
+### [Hermes Agent Training](/freelancing-traininghermes-agent-training)
 
 Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
 
@@ -39,7 +39,7 @@ Build an in-demand freelance career as a Hermes AI Agent Engineer and attract pr
 
 ![Telnyx SMS API Freelancing Training](/assets/images/telnyx.webp)
 
-### [Telnyx SMS API Training](/freelancing-training/telnyx-sms-api-training)
+### [Telnyx SMS API Training](/freelancing-trainingtelnyx-sms-api-training)
 
 Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium global clients now!
 
@@ -100,3 +100,8 @@ Total control over your voice agents. Build, deploy, and improve voice agents as
 - Multi-Language & Dialect Support Setup
 - Advanced Function Calling Configurations
 - Detailed Analytics & Call Analytics Setup
+
+
+## Global & US Service Coverage
+
+School Of Freelancing operates worldwide across 20+ countries (including the United States, United Kingdom, Canada, Australia, Germany, Singapore, and Bangladesh) with dedicated scheduling and support ([US Location Hub](https://schooloffreelancing.com/locations/en-us)).
