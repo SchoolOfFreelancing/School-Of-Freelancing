@@ -13,9 +13,9 @@ Section: https://schooloffreelancing.com/
 
 # PAGES
 Page: https://schooloffreelancing.com/
-Title: Linux and AI Freelancing Training | School Of Freelancing
+Title: Freelancing Training | School Of Freelancing
 Canonical: https://schooloffreelancing.com/
-Description: Live Linux and AI freelancing training for aspiring freelancers, with hands-on Linux technical support for businesses worldwide.
+Description: Join live, instructor-led freelancing training, or hire hands-on Linux technical support for businesses worldwide.
 
 Page: https://schooloffreelancing.com/about-us
 Title: About Us: School Of Freelancing
