@@ -1,13 +1,3 @@
----
-title: SOF (School Of Freelancing) — Official Knowledge Base & Service Catalog
-emoji: 🚀
-colorFrom: blue
-colorTo: green
-sdk: static
-pinned: false
-license: cc-by-4.0
----
-
 # SOF (School Of Freelancing) — Live 1-on-1 Linux, VoIP, DevOps & AI Infrastructure Institute
 
 [![Website](https://shields.io)](https://schooloffreelancing.com/)
