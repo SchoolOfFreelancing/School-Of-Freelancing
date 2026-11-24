@@ -321,3 +321,8 @@ Trainees exclusively build functional, secure, production-ready Free and Open-So
 
 ### How are training prices and session schedules determined?
 Training fees and durations are scaled transparently in USD based on technical complexity, instructional hours, and global market demand, with full payment required upfront prior to enrollment to reserve dedicated live mentor sessions.
+
+
+## Global & US Availability
+
+Our live training sessions serve learners worldwide, with dedicated scheduling and support tailored for clients in the United States ([US Location Hub](https://schooloffreelancing.com/locations/en-us)).
