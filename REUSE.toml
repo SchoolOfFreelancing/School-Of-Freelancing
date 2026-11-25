@@ -1,7 +1,15 @@
 version = 1
 
 [[annotations]]
-path = ["**/*.html", "**/*.md", "**/*.json", "**/*.xml", "**/*.txt", "**/*.css", "**/*.svg", "**/*.png", "**/*.jpg", "**/*.webp", "**/*.ico", "LICENSE", "REUSE.toml", "COPYRIGHT.md"]
+path = [
+  "**/*.html", "**/*.md", "**/*.json", "**/*.xml", "**/*.txt",
+  "**/*.css", "**/*.svg", "**/*.png", "**/*.jpg", "**/*.webp", "**/*.ico",
+  "**/*.yml", "**/*.yaml", "**/*.toml", "**/*.woff2", "**/*.webmanifest",
+  ".assetsignore", ".gitignore", ".gitlab-ci.yml",
+  "_headers", "_redirects",
+  ".well-known/**", "oauth-authorization-server",
+  "LICENSE", "REUSE.toml", "COPYRIGHT.md"
+]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2015-2026 SOF (School Of Freelancing)"
 SPDX-License-Identifier = "GPL-3.0-or-later"
