@@ -11,7 +11,7 @@ description: "Live Linux and AI freelancing training for aspiring freelancers, w
 
 ![Linux Freelancing Training](/assets/images/linux.webp)
 
-### [Linux Freelancing Training](/freelancing-traininglinux-freelancing-training)
+### [Linux Freelancing Training](/freelancing-training/linux-freelancing-training)
 
 Become an in-demand Linux System Administrator, build a freelance business, and win high-paying global clients.
 
@@ -25,7 +25,7 @@ Become an in-demand Linux System Administrator, build a freelance business, and 
 
 ![Hermes Agent Freelancing Training](/assets/images/hermesagent.webp)
 
-### [Hermes Agent Training](/freelancing-traininghermes-agent-training)
+### [Hermes Agent Training](/freelancing-training/hermes-agent-training)
 
 Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects.
 
@@ -39,7 +39,7 @@ Build an in-demand freelance career as a Hermes AI Agent Engineer and attract pr
 
 ![Telnyx SMS API Freelancing Training](/assets/images/telnyx.webp)
 
-### [Telnyx SMS API Training](/freelancing-trainingtelnyx-sms-api-training)
+### [Telnyx SMS API Training](/freelancing-training/telnyx-sms-api-training)
 
 Learn how to develop a bulk SMS system using Telnyx SMS API and attract premium global clients now!
 
