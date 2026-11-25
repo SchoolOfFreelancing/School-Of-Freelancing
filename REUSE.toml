@@ -8,7 +8,7 @@ path = [
   ".assetsignore", ".gitignore", ".gitlab-ci.yml",
   "_headers", "_redirects",
   ".well-known/**", "oauth-authorization-server",
-  "LICENSE", "REUSE.toml", "COPYRIGHT.md", "CITATION.cff"
+  "LICENSE", "REUSE.toml", "COPYRIGHT.md", "CITATION.cff", "c0326e255f0b4d45a96a9c7205d53fca.txt"
 ]
 precedence = "aggregate"
 SPDX-FileCopyrightText = "2015-2026 SOF (School Of Freelancing)"
