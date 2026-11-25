@@ -706,6 +706,23 @@ export default {
 
     if (isRead) {
       /*
+       * Decommissioned AMP routes redirect:
+       * /amp or /path/amp (and /amp/ or /path/amp/) -> canonical standard URL as a permanent 301.
+       */
+      if (cleanPath === "/amp" || cleanPath.endsWith("/amp")) {
+        const canonicalTarget = cleanPath === "/amp" ? "/" : cleanPath.slice(0, -4);
+        if (await targetExists(url, canonicalTarget, env)) {
+          return new Response(null, {
+            status: 301,
+            headers: {
+              Location: url.origin + canonicalTarget + url.search,
+              "Cache-Control": "public, max-age=86400",
+            },
+          });
+        }
+      }
+
+      /*
        * Directory index URLs: /index.html -> /, /legal/index.html -> /legal
        * (GET/HEAD only). A permanent 301 in ONE hop, so the assets layer's
        * temporary redirect is never reached. Skipped if the target is missing.
