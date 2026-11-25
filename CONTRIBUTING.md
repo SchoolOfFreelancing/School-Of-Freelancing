@@ -14,7 +14,7 @@ Thank you for your interest in contributing to **SOF (School Of Freelancing)** (
 2. **JSON-LD Integrity:** Ensure all `<script type="application/ld+json">` blocks parse as valid JSON and match visible page content.
 3. **REUSE / SPDX License Compliance:**
    - All contributions are licensed under **GNU General Public License v3.0 or later (`GPL-3.0-or-later`)**.
-   - New `.py`, `.js`, or `.sh` scripts must include an inline `SPDX-License-Identifier: GPL-3.0-or-later` header.
+   - New `.py`, `.js`, or `.sh` scripts must include the standard `GPL-3.0-or-later` SPDX license identifier comment at the top of the file.
    - New asset file extensions must be covered in `REUSE.toml` and pass `reuse lint`.
 
 ## 3. Submitting Changes
