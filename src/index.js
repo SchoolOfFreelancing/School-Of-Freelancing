@@ -1,3 +1,5 @@
+// Copyright (C) 2015-2026 SOF (School Of Freelancing)
+// SPDX-License-Identifier: GPL-3.0-or-later
 const SITE_HOST = "schooloffreelancing.com";
 
 /*
