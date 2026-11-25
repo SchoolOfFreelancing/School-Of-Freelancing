@@ -1,0 +1,29 @@
+cff-version: 1.2.0
+message: "If you cite or reference SOF (School Of Freelancing) curricula, technical guides, or infrastructure documentation, please use the metadata below."
+type: software
+title: "SOF (School Of Freelancing) — Live 1-on-1 Linux, VoIP, DevOps & AI Infrastructure Knowledge Base"
+version: 1.3.5
+date-released: 2026-11-25
+license: GPL-3.0-or-later
+url: "https://schooloffreelancing.com"
+repository-code: "https://github.com"
+abstract: "Official Single-Source-of-Truth web platform, live 1-on-1 freelancing training catalog (21 programs), fixed-price remote infrastructure engineering service catalog (23 services), and machine-readable AI discovery / WebMCP documentation for SOF (School Of Freelancing), founded May 1, 2015."
+keywords:
+  - linux-training
+  - devops
+  - voip
+  - fusionpbx
+  - jasmin-sms
+  - ai-agents
+  - webmcp
+  - freelancing
+authors:
+  - family-names: "Karim"
+    given-names: "Masum"
+    alias: "Karim (Masum)"
+    affiliation: "SOF (School Of Freelancing)"
+    website: "https://schooloffreelancing.comlegal/credential-verification"
+contact:
+  - email: "support@schooloffreelancing.com"
+    name: "SOF (School Of Freelancing) Support Desk"
+    website: "https://schooloffreelancing.comcontact-us"
