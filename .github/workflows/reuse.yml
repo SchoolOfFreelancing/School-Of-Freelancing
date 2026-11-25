@@ -1,0 +1,20 @@
+# Copyright (C) 2015-2026 SOF (School Of Freelancing)
+# SPDX-License-Identifier: GPL-3.0-or-later
+
+name: REUSE Compliance Check
+
+on:
+  push:
+    branches: [master, main]
+  pull_request:
+
+jobs:
+  reuse:
+    name: Verify REUSE / SPDX License Compliance
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+
+      - name: Run REUSE compliance lint
+        uses: fsfe/reuse-action@v4
