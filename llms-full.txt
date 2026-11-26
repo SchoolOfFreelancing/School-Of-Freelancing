@@ -188,6 +188,7 @@ School Of Freelancing provides live, instructor-led online training (ILT) via re
 - **Key Modules**: ZeroClaw lightweight agent framework, executing automated Linux tasks, bash automation hooks, and delivering autonomous server monitoring bots.
 
 ### LocalAI Freelancing Training
+- **Format & Fee**: 4 weeks, 20 live instructor-led sessions (5 sessions/week), $111 USD one-time fee (no prerecorded videos)
 - **URL**: https://schooloffreelancing.com/freelancing-training/local-ai-training
 - **Price**: $111 USD
 - **Key Modules**: Self-hosted LocalAI on consumer/server hardware, running open-source LLMs (Llama 3, Mistral, Qwen), vision, voice (TTS/STT), OpenAI API drop-in compatibility, and GPU/CPU optimization.
