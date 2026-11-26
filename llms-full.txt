@@ -82,10 +82,13 @@ School Of Freelancing provides live, instructor-led online training (ILT) via re
   6. Docker containerization, multi-stage builds, Docker Compose, and persistent volumes.
   7. Freelance business development: Upwork/Freelancer proposal writing, client communications, project estimation, and GMI* (subject to Training Rules) career assurance.
 
+- **90-Day Learning Progression (within 6-Month Program)**: Days 1–25 Ubuntu Server & CLI Foundation -> Days 26–50 Production Server Hardening -> Days 51–75 Web, Mail & Container Deployment -> Days 76–90 Capstone Delivery & Marketplace Pitching
+- **Related Done-For-You Services**: [Linux Server Support](https://schooloffreelancing.com) and [Ubuntu Linux Support](https://schooloffreelancing.com)
+
 ### Hermes Agent Training
 - **URL**: https://schooloffreelancing.com/freelancing-training/hermes-agent-training
 - **Price**: $149 USD
-- **Duration**: 20 hours / 2 weeks (20 practical modules)
+- **Duration**: 20 hours / 4 weeks (20 live practical sessions)
 - **Key Modules**:
   1. Hermes AI agent architecture, tool-calling protocols, and server automation capabilities.
   2. Integrating Hermes with local LLMs and cloud APIs for remote server administration.
