@@ -15,3 +15,6 @@
 - [Client Support Services](https://schooloffreelancing.com/client-support): Done-for-you server setup, AI agent deployment, VoIP, and Linux troubleshooting.
 - [US Location Hub](https://schooloffreelancing.com/locations/en-us): Dedicated scheduling and infrastructure support tailored for clients and trainees in the United States.
 - [Global Locations](https://schooloffreelancing.com/locations): Serving clients across 20 countries including Australia, Austria, Bangladesh, Belgium, Canada, Denmark, Finland, Germany, Iceland, Ireland, Israel, Liechtenstein, Luxembourg, Netherlands, Norway, Singapore, Sweden, Switzerland, United Kingdom, and United States.
+
+## Freelancing Training
+- [LocalAI Training](https://schooloffreelancing.com/freelancing-training/local-ai-training): Live 4-week instructor-led course (20 sessions, $111 USD) teaching Ubuntu Linux VPS deployment of LocalAI, GGUF models, and SSL APIs for freelancers.
