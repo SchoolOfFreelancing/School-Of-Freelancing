@@ -26,9 +26,9 @@
   height: 100px;
   aspect-ratio: 7 / 5;
 }
-
 /* Prevent horizontal scroll on mobile viewports */
 html, body { max-width: 100%; overflow-x: clip; }
-.contact-grid > *, .form-row > *, .footer-grid > *, .hero-container > *, .about-grid > * { min-width: 0; }
-.contact-grid a, .contact-grid p, .faq-answer p { overflow-wrap: anywhere; word-break: break-word; }
+.contact-grid *, .form-row > *, .footer-grid > *, .hero-container > *, .about-grid > * { min-width: 0; }
+.contact-grid a, .contact-grid strong, .contact-grid span, .contact-grid p, .faq-answer p { overflow-wrap: anywhere; word-break: break-word; }
+.contact-grid strong, .contact-grid a > div > strong, .contact-grid a > div > div:first-child { font-size: clamp(0.82rem, 3.6vw, 1rem); }
 iframe, img, svg, video, input, select, textarea { max-width: 100%; }
