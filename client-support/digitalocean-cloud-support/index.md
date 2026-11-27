@@ -4,7 +4,6 @@
 
 - **Canonical:** https://schooloffreelancing.com/client-support/digitalocean-cloud-support
 - **Pricing:** $499 (1-5 business days)
-- **Rating:** 5.0/5.0 (36 reviews)
 
 ## Frequently Asked Questions
 

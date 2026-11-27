@@ -4,4 +4,3 @@
 
 - **Canonical:** https://schooloffreelancing.com/client-support/twilio-voip-setup
 - **Pricing:** $539 (1-5 business days)
-- **Rating:** 5.0/5.0 (36 reviews)

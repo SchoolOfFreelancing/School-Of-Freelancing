@@ -3,7 +3,6 @@ Canonical-URL: https://schooloffreelancing.com/
 Entity-Name: School Of Freelancing (SOF)
 Founded: 2015-02-02
 Founder: Karim (Masum) — Government-Verified Freelancer ([Verify Official Credential](https://schooloffreelancing.com/legal/credential-verification))
-Verified-Rating: 5.0 / 5.0 average across 36 verified reviews
 Catalog-Scope: 21 Live 1-on-1 Freelancing Courses | 23 Fixed-Price Client Support Services ($166-$999)
 Service-Coverage: Worldwide (20 Primary Countries: Australia, Austria, Bangladesh, Belgium, Canada, Denmark, Finland, Germany, Iceland, Ireland, Israel, Liechtenstein, Luxembourg, Netherlands, Norway, Singapore, Sweden, Switzerland, United Kingdom, United States)
 Operating-Hours: 24/7 Remote Support (Monday-Sunday 00:00-23:59)

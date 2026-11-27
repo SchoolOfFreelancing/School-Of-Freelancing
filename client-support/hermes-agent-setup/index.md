@@ -4,4 +4,3 @@
 
 - **Canonical:** https://schooloffreelancing.com/client-support/hermes-agent-setup
 - **Pricing:** $199 (1-5 business days)
-- **Rating:** 5.0/5.0 (36 reviews)

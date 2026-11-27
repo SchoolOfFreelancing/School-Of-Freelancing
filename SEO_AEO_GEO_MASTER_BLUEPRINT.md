@@ -4,7 +4,7 @@
 
 ## 1. Technical SEO & Schema Markup Engineering
 - **JSON-LD `@graph` Architecture:** Unified `@id` entity graph containing `Organization`, `LocalBusiness`, `EducationalOrganization`, `WebSite`, `Person` (`Karim / Masum`), `WebPage`/`CollectionPage`, `ItemList` (21 Courses / 23 Services), `CourseInstance`, `BreadcrumbList`, `AggregateRating` (`5.0 / 36`), `OpeningHoursSpecification` (24/7), and `FAQPage`.
-- **Cross-Domain Fact Conflict Elimination:** Single-Source-of-Truth (`SSOT`) sync across all 172 HTML/AMP files, `llms.txt`, `llms-full.txt`, `ai.txt`, and `.well-known/ai.txt` (`Worldwide` + 20 countries `areaServed`, founded `2015-05-01`, rating `5.0 / 36`).
+- **Cross-Domain Fact Conflict Elimination:** Single-Source-of-Truth (`SSOT`) sync across all 172 HTML/AMP files, `llms.txt`, `llms-full.txt`, `ai.txt`, and `.well-known/ai.txt` (`Worldwide` + 20 countries `areaServed`, founded `2015-02-02`, rating `5.0 / 36`).
 
 ## 2. AI Search, AEO & GEO Optimization
 - **GEO Citation Hooks & Comparison Matrix:** Data-backed Key Facts blocks and structured HTML `<table>` + Markdown comparison matrices for direct extraction in ChatGPT, Perplexity, and Google AI Overviews.
