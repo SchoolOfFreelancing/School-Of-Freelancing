@@ -559,6 +559,29 @@ a:hover { color: #cccccc !important; }
   <meta property="article:modified_time" content="2026-11-25T00:00:00+00:00">
   <link rel="alternate" type="text/markdown" href="/about-us/index.md" title="Markdown version for AI agents">
   <script type="speculationrules">{"prerender":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/legal/*"}},{"not":{"href_matches":"/*.xml"}},{"not":{"href_matches":"/*.txt"}},{"not":{"href_matches":"/*.json"}}]},"eagerness":"conservative"}]}</script>
+<style>
+.direct-answer, .faq-direct { background: rgba(255,255,255,.08); border-left: 4px solid #ffffff; border-radius: 0 8px 8px 0; padding: 14px 18px; line-height: 1.7; margin: 0 0 16px; color: #fff; }
+.faq-list { display: flex; flex-direction: column; gap: 12px; }
+.faq-acc { border: 1px solid rgba(255,255,255,.28); border-radius: 12px; background: rgba(255,255,255,.04); font-family: var(--font-mono); overflow: hidden; padding: 0; transition: border-color .2s ease, background .2s ease; }
+.faq-acc:hover { border-color: rgba(255,255,255,.6); }
+.faq-acc[open] { border-color: rgba(255,255,255,.75); background: rgba(255,255,255,.06); }
+.faq-acc summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 20px; }
+.faq-acc summary::-webkit-details-marker { display: none; }
+.faq-acc summary:focus-visible { outline: 2px solid #ffffff; outline-offset: -2px; border-radius: 12px; }
+.faq-acc[open] summary { border-bottom: 1px solid rgba(255,255,255,.28); }
+.faq-q { margin: 0 !important; font: inherit !important; font-size: 1rem !important; font-weight: 400 !important; letter-spacing: 0; line-height: 1.5; text-transform: none; font-family: var(--font-mono) !important; }
+.faq-ico { position: relative; flex: 0 0 18px; height: 18px; }
+.faq-ico::before { content: "+"; position: absolute; inset: 0; text-align: center; line-height: 18px; font-size: 1.25rem; font-weight: 700; }
+.faq-ico::after { content: none !important; }
+.faq-acc[open] .faq-ico::before { content: ""; width: 8px; height: 8px; left: 5px; top: 2px; inset: auto; border-right: 2px solid #fff; border-bottom: 2px solid #fff; transform: rotate(45deg); }
+.faq-body { padding: 20px; margin: 0; border-top: 0; line-height: 1.8; font-size: .98rem; }
+.faq-body p { margin: 0 0 14px; }
+.faq-body p:last-child { margin-bottom: 0; }
+.faq-body a { color: #ffffff; text-decoration: underline; }
+.faq-acc { transition: none; }
+.faq-section{padding-bottom:0 !important}
+.faq-body .faq-direct{background:none !important;border:0 !important;border-radius:0 !important;padding:0 !important;margin:0 !important}
+</style>
 </head>
 <body>
 <noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ" height="0" width="0" style="display:none;visibility:hidden" title="Google Tag Manager"></iframe></noscript>
@@ -680,17 +703,34 @@ a:hover { color: #cccccc !important; }
   </div>
 </section>
 
-<section class="section" aria-label="Frequently Asked Questions">
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-item"><h3>When was School Of Freelancing founded and who leads the mentorship?</h3><p>School Of Freelancing (SOF) was founded on May 1, 2015, and is led by Karim (Masum), a Bangladesh Government-Verified Freelancer (<a href="https://schooloffreelancing.com/legal/credential-verification">Verify Official Credential</a>) specializing in Linux, VoIP, Docker, Cloud, and AI automation.</p></div>
-    <div class="faq-item"><h3>How many courses and client support services does School Of Freelancing offer?</h3><p>School Of Freelancing offers 21 live 1-on-1 freelancing training courses and 23 fixed-price technical implementation services ($166–$599) serving clients across 20+ countries.</p></div>
-    <div class="faq-item"><h3>What makes School Of Freelancing different from pre-recorded video platforms?</h3><p>Every training program is taught 100% live 1-on-1 on real production Linux servers with hands-on troubleshooting, portfolio deployment, and marketplace bidding guidance.</p></div>
+<section aria-labelledby="faq-title" class="section faq-section" style="padding-top:16px !important; padding-bottom:0 !important; margin-bottom:0 !important;">
+  <div class="container detail-wrap" style="padding-bottom:0 !important; margin-bottom:0 !important;">
+    <h2 id="faq-title" style="font-size: 1.5rem; margin-bottom: 16px;">Frequently Asked Questions</h2>
+    <div class="faq-list" style="margin-bottom:0;">
+      <details class="faq-acc">
+        <summary><h3 class="faq-q">When was School Of Freelancing founded and who leads the mentorship?</h3><span aria-hidden="true" class="faq-ico"></span></summary>
+        <div class="faq-body">
+          <p class="faq-direct">School Of Freelancing (SOF) was founded on May 1, 2015, and is led by Karim (Masum), a Bangladesh Government-Verified Freelancer (<a href="https://schooloffreelancing.com/legal/credential-verification">Verify Official Credential</a>) specializing in Linux, VoIP, Docker, Cloud, and AI automation.</p>
+        </div>
+      </details>
+      <details class="faq-acc">
+        <summary><h3 class="faq-q">How many courses and client support services does School Of Freelancing offer?</h3><span aria-hidden="true" class="faq-ico"></span></summary>
+        <div class="faq-body">
+          <p class="faq-direct">School Of Freelancing offers 21 live 1-on-1 freelancing training courses and 23 fixed-price technical implementation services ($166–$599) serving clients across 20+ countries.</p>
+        </div>
+      </details>
+      <details class="faq-acc">
+        <summary><h3 class="faq-q">What makes School Of Freelancing different from pre-recorded video platforms?</h3><span aria-hidden="true" class="faq-ico"></span></summary>
+        <div class="faq-body">
+          <p class="faq-direct">Every training program is taught 100% live 1-on-1 on real production Linux servers with hands-on troubleshooting, portfolio deployment, and marketplace bidding guidance.</p>
+        </div>
+      </details>
+    </div>
   </div>
 </section>
 </main>
 
-<footer class="footer footer-glass"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
+<footer class="footer footer-glass" style="margin-top:24px !important; padding-top:36px !important;"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
  AI-driven Linux training for freelancers and elite professional support for businesses.
  Founded in <time datetime="2015-02-02">2015</time> by
  <strong><cite><a href="https://www.linkedin.com/in/anythinglinux/" target="_blank" rel="author noopener noreferrer">Karim (Masum)</a></cite></strong>, Government-Verified Freelancer (Bangladesh, ID: Verified via /legal/credential-verification).
