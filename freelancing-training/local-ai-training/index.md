@@ -1,8 +1,8 @@
 ---
-title: "LocalAI Training: Linux VPS Deployment & Freelancing | School Of Freelancing"
+title: "LocalAI Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Learn LocalAI deployment on Ubuntu Linux VPS, configure GGUF models, secure AI APIs and build practical self-hosted AI projects for freelance clients. Live instructor-led training."
+description: "Learn LocalAI deployment on Ubuntu Linux VPS, configure GGUF models, secure AI APIs and build practical self-hosted AI projects for freelance clients."
 ---
 
 # LocalAI Training | School Of Freelancing

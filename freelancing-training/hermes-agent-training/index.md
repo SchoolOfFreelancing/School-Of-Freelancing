@@ -2,7 +2,7 @@
 title: "Hermes Agent Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Build an in-demand freelance career as a Hermes AI Agent Engineer and attract premium global projects."
+description: "Learn hands-on Hermes Agent deployment on Ubuntu Linux VPS, Nginx/SSL setup, Ollama, cloud LLM integration, Telegram/Discord bots, and freelance client."
 ---
 
 # Hermes Agent Training | School Of Freelancing

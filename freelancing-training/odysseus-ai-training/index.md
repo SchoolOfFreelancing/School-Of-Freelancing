@@ -2,7 +2,7 @@
 title: "Odysseus AI Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Master Odysseus AI integration, custom LLM workflows, and AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
+description: "Learn Odysseus AI integration, custom LLM workflows,, AI agent deployment to win high-paying freelancing contracts on Upwork and Freelancer."
 ---
 
 # Odysseus AI Training | School Of Freelancing

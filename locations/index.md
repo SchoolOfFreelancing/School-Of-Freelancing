@@ -1,8 +1,8 @@
 ---
-title: "Locations we serve"
+title: "Locations We Serve | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Global Linux and AI training & support for freelancers, businesses, and professionals worldwide."
+description: "Explore School Of Freelancing global locations across 20 countries for live Linux & AI freelancing training and 24/7 remote enterprise tech support."
 ---
 
 # Locations we serve

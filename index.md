@@ -1,8 +1,8 @@
 ---
-title: "Linux and AI Freelancing Training | School Of Freelancing"
+title: "Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Live Linux and AI freelancing training for aspiring freelancers, with hands-on Linux technical support for businesses worldwide."
+description: "Join live, instructor-led Linux, Cloud, VoIP, plus AI freelancing training, or hire hands-on technical support for businesses worldwide."
 ---
 
 # Linux and AI Freelancing Training | School Of Freelancing

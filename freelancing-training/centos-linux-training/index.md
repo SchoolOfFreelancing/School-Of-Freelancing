@@ -2,7 +2,7 @@
 title: "CentOS Linux - Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Learn CentOS Linux administration, deploy LEMP, Django, Hadoop, MEAN and Next.js, troubleshoot issues, and build a client-ready portfolio."
+description: "Learn CentOS Linux administration, deploy LEMP, Django, Hadoop, MEAN, Next.js, troubleshoot issues, and build a client-ready portfolio."
 ---
 
 # CentOS Linux - Freelancing Training | School Of Freelancing

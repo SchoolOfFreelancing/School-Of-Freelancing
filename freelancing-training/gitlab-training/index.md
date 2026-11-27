@@ -1,8 +1,8 @@
 ---
-title: "GitLab — Freelancing Training | Setup, CI/CD & Jobs"
+title: "GitLab Training for Freelancers: Hands-on Course | $239"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Learn GitLab production setup, migration, version control, CI/CD, & project management to secure freelance jobs."
+description: "GitLab training for freelancers. Gain practical skills with self-hosted setup, code hosting, migration, CI/CD, plus DevSecOps for client work."
 ---
 
 # GitLab — Freelancing Training | Setup, CI/CD & Jobs

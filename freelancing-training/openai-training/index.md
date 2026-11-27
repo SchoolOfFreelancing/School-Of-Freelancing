@@ -2,7 +2,7 @@
 title: "OpenAI: Freelancing Training | School Of Freelancing"
 author: "Karim (Masum)"
 date: 2026-11-11
-description: "Learn OpenAI, GPT apps, AI automation, RAG, agents, and APIs. Build your portfolio and win freelance clients."
+description: "Learn OpenAI APIs, GPT apps, AI automation, RAG pipelines,, autonomous agents with live mentorship to build your portfolio and win clients."
 ---
 
 # OpenAI: Freelancing Training | School Of Freelancing
