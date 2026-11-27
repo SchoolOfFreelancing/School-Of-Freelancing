@@ -28,7 +28,7 @@
       },
       "inLanguage": "en-US",
       "datePublished": "2015-05-01",
-      "dateModified": "2026-11-25",
+      "dateModified": "2026-11-27",
       "author": {
         "@id": "https://schooloffreelancing.com/#person"
       }
@@ -58,41 +58,11 @@
       "jobTitle": "Founder & Principal Linux/AI Mentor",
       "url": "https://schooloffreelancing.com/about-us",
       "sameAs": [
-        "https://://linkedin.com/in/anythinglinux/",
+        "https://linkedin.com/in/anythinglinux/",
         "https://github.com/AnythingLinux",
-        "https://://youtube.com/@AnythingLinux",
-        "https://://youtube.com/@SchoolOfFreelancing",
+        "https://youtube.com/@AnythingLinux",
+        "https://youtube.com/@SchoolOfFreelancing",
         "https://x.com/AnythingLinux"
-      ]
-    },
-    {
-      "@type": "FAQPage",
-      "@id": "https://schooloffreelancing.com/legal#faq",
-      "mainEntity": [
-        {
-          "@type": "Question",
-          "name": "What resources and services are available in Legal Documents & Policies?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Legal Documents & Policies provides structured access to School Of Freelancing's 21 live 1-on-1 technical courses, 23 fixed-price engineering services, and verified global compliance policies."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "Are School Of Freelancing services available worldwide?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "Yes, School Of Freelancing serves students and enterprise clients worldwide across 20 primary countries including the United States, United Kingdom, Canada, Germany, Australia, Singapore, and Bangladesh."
-          }
-        },
-        {
-          "@type": "Question",
-          "name": "How are School Of Freelancing courses and support services rated?",
-          "acceptedAnswer": {
-            "@type": "Answer",
-            "text": "School Of Freelancing maintains a verified 5.0 out of 5.0 average rating across 36 student and client reviews."
-          }
-        }
       ]
     }
   ]
@@ -185,15 +155,15 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   "name": "School Of Freelancing",
   "url": "https://schooloffreelancing.com/",
   "sameAs": [
-    "https://://linkedin.com/company/SchoolOfFreelancing",
-    "https://://facebook.com/SchoolOfFreelancing",
-    "https://://youtube.com/@SchoolOfFreelancing",
-    "https://://youtube.com/@AnythingLinux",
+    "https://linkedin.com/company/SchoolOfFreelancing",
+    "https://facebook.com/SchoolOfFreelancing",
+    "https://youtube.com/@SchoolOfFreelancing",
+    "https://youtube.com/@AnythingLinux",
     "https://x.com/SchoolOfFreelan",
-    "https://://instagram.com/SchoolOfFreelancing",
-    "https://://threads.com/@SchoolOfFreelancing",
+    "https://instagram.com/SchoolOfFreelancing",
+    "https://threads.com/@SchoolOfFreelancing",
     "https://github.com/SchoolOfFreelancing",
-    "https://://pinterest.com/schooloffreelancing/",
+    "https://pinterest.com/schooloffreelancing/",
     "https://wa.me/8801748973769",
     "https://t.me/SchoolOfFreelancingTraining"
   ],
@@ -451,16 +421,56 @@ j=d.createElement(s),dl=l!='dataLayer'?'&l='+l:'';j.async=true;j.src=
   <meta property="article:modified_time" content="2026-11-25T00:00:00+00:00">
   <link rel="alternate" type="text/markdown" href="/legal/index.md" title="Markdown version for AI agents">
   <script type="speculationrules">{"prerender":[{"source":"document","where":{"and":[{"href_matches":"/*"},{"not":{"href_matches":"/legal/*"}},{"not":{"href_matches":"/*.xml"}},{"not":{"href_matches":"/*.txt"}},{"not":{"href_matches":"/*.json"}}]},"eagerness":"conservative"}]}</script>
+<style>
+.direct-answer, .faq-direct { background: rgba(255,255,255,.08); border-left: 4px solid #ffffff; border-radius: 0 8px 8px 0; padding: 14px 18px; line-height: 1.7; margin: 0 0 16px; color: #fff; }
+.faq-list { display: flex; flex-direction: column; gap: 12px; }
+.faq-acc { border: 1px solid rgba(255,255,255,.28); border-radius: 12px; background: rgba(255,255,255,.04); font-family: var(--font-mono); overflow: hidden; padding: 0; transition: border-color .2s ease, background .2s ease; }
+.faq-acc:hover { border-color: rgba(255,255,255,.6); }
+.faq-acc[open] { border-color: rgba(255,255,255,.75); background: rgba(255,255,255,.06); }
+.faq-acc summary { list-style: none; cursor: pointer; display: flex; align-items: center; justify-content: space-between; gap: 16px; padding: 22px 20px; }
+.faq-acc summary::-webkit-details-marker { display: none; }
+.faq-acc summary:focus-visible { outline: 2px solid #ffffff; outline-offset: -2px; border-radius: 12px; }
+.faq-acc[open] summary { border-bottom: 1px solid rgba(255,255,255,.28); }
+.faq-q { margin: 0 !important; font: inherit !important; font-size: 1rem !important; font-weight: 400 !important; letter-spacing: 0; line-height: 1.5; text-transform: none; font-family: var(--font-mono) !important; }
+.faq-ico { position: relative; flex: 0 0 18px; height: 18px; }
+.faq-ico::before { content: "+"; position: absolute; inset: 0; text-align: center; line-height: 18px; font-size: 1.25rem; font-weight: 700; }
+.faq-ico::after { content: none !important; }
+.faq-acc[open] .faq-ico::before { content: ""; width: 8px; height: 8px; left: 5px; top: 2px; inset: auto; border-right: 2px solid #fff; border-bottom: 2px solid #fff; transform: rotate(45deg); }
+.faq-body { padding: 20px; margin: 0; border-top: 0; line-height: 1.8; font-size: .98rem; }
+.faq-body p { margin: 0 0 14px; }
+.faq-body p:last-child { margin-bottom: 0; }
+.faq-body a { color: #ffffff; text-decoration: underline; }
+.faq-acc { transition: none; }
+.faq-section{padding-bottom:0 !important}
+.faq-body .faq-direct{background:none !important;border:0 !important;border-radius:0 !important;padding:0 !important;margin:0 !important}
+</style>
 </head><body><noscript><iframe src="https://www.googletagmanager.com/ns.html?id=GTM-K52NJCLQ"
 height="0" width="0" style="display:none;visibility:hidden"></iframe></noscript><nav class="navbar" aria-label="Main navigation"><div class="nav-container"><a href="/" class="nav-logo" aria-label="High-Income Technical Freelancing Training & Linux IT Service | School Of Freelancing"><div class="logo-icon" aria-hidden="true"><i class="fa-solid fa-house" aria-hidden="true"></i></div><span>SCHOOL OF FREELANCING</span></a><ul class="nav-links" id="nav-links"><li><a href="/freelancing-training">Freelancing Training</a></li><li><a href="/client-support">Client Support</a></li><li><a href="/resource-center/testimonials">Testimonials</a></li><li><a href="/about-us">About Us</a></li><li><a href="/contact-us">Contact Us</a></li></ul><button class="nav-toggle" aria-label="Toggle mobile menu" aria-expanded="false" aria-controls="nav-links"><span></span><span></span><span></span></button></div></nav><div class="nav-overlay" id="nav-overlay" aria-hidden="true"></div><main id="main"><header class="page-hero" aria-label="Legal hero"><p class="breadcrumb-nav"><a href="/">Home</a> / Legal</p><div class="container"><h1 data-reveal><span style="color:var(--text-primary)">Legal</span></h1></div></header><section class="section" style="padding-top: 1px;" aria-label="Legal overview"><div class="container" style="max-width:900px;"><p style="color: var(--text-secondary); line-height: 1.8; font-size: 0.95rem; margin-bottom: 10px;">
  Legal information governing School Of Freelancing's Training and Client Support — including our Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support.
- </p></div></section><section class="section" style="padding-top: 1px;" aria-label="Legal documents"><div class="container" style="max-width:900px;"><div class="resource-grid" data-reveal><a class="resource-card" href="/legal"><h2>Legal</h2><p>An overview of School Of Freelancing's Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support — the legal terms governing our Training and Client Support.</p></a><a class="resource-card" href="/legal/credential-verification"><h2>Credential Verification</h2><p>Credential Verification Support is how School Of Freelancing confirms directly to a requesting organization that a named student completed our Training and holds the skills for a specific role, optionally including a formal recommendation.</p></a><a class="resource-card" href="/legal/privacy-policy"><h2>Privacy Policy</h2><p>School Of Freelancing ("we," "us," "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and protect information when you use our website, enroll in our trainings, or engage our tech support services.</p></a><a class="resource-card" href="/legal/refund-policy"><h2>Refund Policy</h2><p>This Refund Policy explains when a refund is and isn't available for School Of Freelancing Training and Client Support.</p></a><a class="resource-card" href="/legal/terms-and-conditions"><h2>Terms and Conditions</h2><p>By accessing or using School Of Freelancing ("we," "us," "our," the "Platform") — including our website, Trainings, and Support — you ("you," "user," "client") agree to these Terms and Conditions. If you disagree, do not use the Platform.</p></a><a class="resource-card" href="/legal/training-rules"><h2>Training Rules</h2><p>Training Rules ("Ground Rules") apply to everyone enrolled in School Of Freelancing's Linux Freelancing Training. They keep the environment fair, focused, and productive for trainees and mentors, and may be updated as the program evolves.</p></a></div></div></section>
-<section class="section" aria-label="Frequently Asked Questions">
-  <div class="container">
-    <h2>Frequently Asked Questions</h2>
-    <div class="faq-item"><h3>What resources and services are available in Legal Documents & Policies?</h3><p>Legal Documents & Policies provides structured access to School Of Freelancing's 21 live 1-on-1 technical courses, 23 fixed-price engineering services, and verified global compliance policies.</p></div>
-    <div class="faq-item"><h3>Are School Of Freelancing services available worldwide?</h3><p>Yes, School Of Freelancing serves students and enterprise clients worldwide across 20 primary countries including the United States, United Kingdom, Canada, Germany, Australia, Singapore, and Bangladesh.</p></div>
-    <div class="faq-item"><h3>How are School Of Freelancing courses and support services rated?</h3><p>School Of Freelancing maintains a verified 5.0 out of 5.0 average rating across 36 student and client reviews.</p></div>
+ </p></div></section><section class="section" aria-label="Legal documents" style="padding-bottom:16px;"><div class="container" style="max-width:900px;"><div class="resource-grid" data-reveal><a class="resource-card" href="/legal"><h2>Legal</h2><p>An overview of School Of Freelancing's Privacy Policy, Terms and Conditions, Refund Policy, Training Rules, and Credential Verification Support — the legal terms governing our Training and Client Support.</p></a><a class="resource-card" href="/legal/credential-verification"><h2>Credential Verification</h2><p>Credential Verification Support is how School Of Freelancing confirms directly to a requesting organization that a named student completed our Training and holds the skills for a specific role, optionally including a formal recommendation.</p></a><a class="resource-card" href="/legal/privacy-policy"><h2>Privacy Policy</h2><p>School Of Freelancing ("we," "us," "our") respects your privacy. This Privacy Policy explains how we collect, use, disclose, and protect information when you use our website, enroll in our trainings, or engage our tech support services.</p></a><a class="resource-card" href="/legal/refund-policy"><h2>Refund Policy</h2><p>This Refund Policy explains when a refund is and isn't available for School Of Freelancing Training and Client Support.</p></a><a class="resource-card" href="/legal/terms-and-conditions"><h2>Terms and Conditions</h2><p>By accessing or using School Of Freelancing ("we," "us," "our," the "Platform") — including our website, Trainings, and Support — you ("you," "user," "client") agree to these Terms and Conditions. If you disagree, do not use the Platform.</p></a><a class="resource-card" href="/legal/training-rules"><h2>Training Rules</h2><p>Training Rules ("Ground Rules") apply to everyone enrolled in School Of Freelancing's Linux Freelancing Training. They keep the environment fair, focused, and productive for trainees and mentors, and may be updated as the program evolves.</p></a></div></div></section>
+<section aria-labelledby="faq-title" class="section faq-section" style="padding-top:16px; padding-bottom:24px;">
+  <div class="container detail-wrap">
+    <h2 id="faq-title" style="font-size: 1.5rem; margin-bottom: 16px;">Frequently Asked Questions</h2>
+    <div class="faq-list">
+      <details class="faq-acc">
+        <summary><h3 class="faq-q">What resources and services are available in Legal Documents & Policies?</h3><span aria-hidden="true" class="faq-ico"></span></summary>
+        <div class="faq-body">
+          <p class="faq-direct">Legal Documents & Policies provides structured access to School Of Freelancing's 21 live 1-on-1 technical courses, 23 fixed-price engineering services, and verified global compliance policies.</p>
+        </div>
+      </details>
+      <details class="faq-acc">
+        <summary><h3 class="faq-q">Are School Of Freelancing services available worldwide?</h3><span aria-hidden="true" class="faq-ico"></span></summary>
+        <div class="faq-body">
+          <p class="faq-direct">Yes, School Of Freelancing serves students and enterprise clients worldwide across 20 primary countries including the United States, United Kingdom, Canada, Germany, Australia, Singapore, and Bangladesh.</p>
+        </div>
+      </details>
+      <details class="faq-acc">
+        <summary><h3 class="faq-q">How are School Of Freelancing courses and support services rated?</h3><span aria-hidden="true" class="faq-ico"></span></summary>
+        <div class="faq-body">
+          <p class="faq-direct">School Of Freelancing maintains a verified 5.0 out of 5.0 average rating across 36 student and client reviews.</p>
+        </div>
+      </details>
+    </div>
   </div>
 </section>
 </main><footer class="footer footer-glass"><div class="container"><div class="footer-grid"><div class="footer-brand"><p>
