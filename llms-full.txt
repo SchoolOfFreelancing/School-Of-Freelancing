@@ -486,64 +486,62 @@ School Of Freelancing serves students, professionals, and businesses across 20+ 
 
 ---
 
-## 8. Agent Readiness, Machine Protocols & AI Specifications
+## 8. AI Discovery, Browser Tools & Machine-Readable Documentation
 
-School Of Freelancing provides structured endpoints and protocol definitions for AI search engines, autonomous agents, and tool-calling models.
+School Of Freelancing publishes public website information and discovery documents for search engines, language models, and browser-based assistants. These documents describe the website and its available browser-side tools. They do not imply that a remote MCP server, A2A service, or OAuth authorization server is running.
 
-### AI Discovery & Content Signals
-- **ai.txt Discovery Manifest**: https://schooloffreelancing.com/ai.txt
-- **Well-Known ai.txt**: https://schooloffreelancing.com/.well-known/ai.txt
-- **LLM Summary Index**: https://schooloffreelancing.com/llms.txt
-- **LLM Full Documentation**: https://schooloffreelancing.com/llms-full.txt
+### Public AI Discovery Documents
+- **AI Discovery Manifest**: https://schooloffreelancing.com/ai.txt
+- **Well-Known AI Discovery Document**: https://schooloffreelancing.com/.well-known/ai.txt
+- **LLM Summary**: https://schooloffreelancing.com/llms.txt
+- **Extended LLM Documentation**: https://schooloffreelancing.com/llms-full.txt
 - **XML Sitemap**: https://schooloffreelancing.com/sitemap.xml
 - **Video Sitemap**: https://schooloffreelancing.com/video-sitemap.xml
 - **Security Policy**: https://schooloffreelancing.com/.well-known/security.txt
-- **Content Signals**: `search=yes, ai-input=yes, ai-train=yes` (declared in `robots.txt` and HTTP response headers).
 
-### Agent-to-Agent (A2A) Protocol
-- **Agent Card**: https://schooloffreelancing.com/.well-known/agent-card.json
-- **Agent Discovery Index**: https://schooloffreelancing.com/.well-known/agents.json
-- **A2A Endpoint**: https://schooloffreelancing.com/api/agents/a2a (JSON-RPC 1.0)
-- **Supported Capabilities**: `training-discovery`, `service-discovery`, `resource-lookup`, `mcp-integration`.
+These are public information and discovery resources. Their availability does not mean that every protocol or API described by older discovery metadata is implemented.
 
-### Model Context Protocol (MCP) Server
-- **MCP Server Discovery**: https://schooloffreelancing.com/.well-known/mcp.json
-- **MCP Server Card**: https://schooloffreelancing.com/.well-known/mcp/server-card.json
-- **Transport Endpoints**:
-  - SSE: https://schooloffreelancing.com/api/mcp/sse
-  - WebSocket: wss://schooloffreelancing.com/api/mcp/ws
-  - Stdio: https://schooloffreelancing.com/api/mcp/stdio
-- **MCP Tools**:
-  - `search_training_programs`: Query available courses by keyword, category, or difficulty level.
-  - `get_training_details`: Fetch full course curriculum, duration, and price by `training_id`.
-  - `search_services`: Query client support offerings.
-  - `get_service_details`: Fetch fixed-scope deliverables and turnaround times by `service_id`.
-  - `list_resources`: Query FAQs, resources, and case studies.
+### Agent Discovery
+- **Agent Discovery Manifest**: https://schooloffreelancing.com/.well-known/agents.json
+- **Documentation**: https://schooloffreelancing.com/auth.md
 
-### WebMCP Browser-Side Agent Integration
-- **WebMCP Manifest**: https://schooloffreelancing.com/.well-known/webmcp.json
-- **Agent Skills**: https://schooloffreelancing.com/.well-known/agent-skills.json
-- **Browser Tools**:
-  - `confirm_registration_payment`: Pre-fills the registration payment confirmation form (`fullName`, `email`, `trainingOrService`, `paymentMethod`, `transactionId`) and opens WhatsApp for mandatory human confirmation.
-  - `get_registration_form_options`: Retrieves the list of approved courses, services, and payment methods.
-  - Human Oversight Principle: Agents cannot execute payments or complete registration autonomously; explicit human confirmation in WhatsApp is always required.
+The agent discovery manifest identifies the School Of Freelancing website and links to its public information resources. It does not advertise an operational remote A2A or MCP endpoint.
 
-### Authentication & Authorization (OAuth 2.0)
-- **Authentication Specification**: https://schooloffreelancing.com/auth.md
-- **OAuth Authorization Server**: https://schooloffreelancing.com/.well-known/oauth-authorization-server
-- **OAuth Protected Resource**: https://schooloffreelancing.com/.well-known/oauth-protected-resource
-- **OpenID Configuration**: https://schooloffreelancing.com/.well-known/openid-configuration
-- **JWKS Endpoint**: https://schooloffreelancing.com/.well-known/jwks.json
-- **Supported Flows**: Authorization Code Flow with PKCE (`S256`), Bearer access tokens, Google-verified email identity assertion.
+### WebMCP Browser-Side Tools
 
-### Machine-Readable API Catalog
-- **API Catalog**: https://schooloffreelancing.com/.well-known/api-catalog.json
-- **OpenAPI 3.1 Specification**: https://schooloffreelancing.com/openapi.json
-- **Entity Schemas**:
-  - Training Program: https://schooloffreelancing.com/schemas/training.json
-  - Client Service: https://schooloffreelancing.com/schemas/service.json
-  - Educational Resource: https://schooloffreelancing.com/schemas/resource.json
+School Of Freelancing provides browser-side tools through its website JavaScript integration. These tools are intended for compatible browser environments and operate on the website's pages.
 
-### Markdown Content Negotiation
-- **Mechanism**: Send `Accept: text/markdown` in any HTTP request to `https://schooloffreelancing.com/*`.
-- **Response**: The Cloudflare Edge Worker dynamically transforms the page into semantic, clean Markdown, including hero headings and body content, accompanied by `Vary: Accept` and `X-Markdown-Content-Negotiation: text/markdown`.
+The documented tools are:
+
+- `list_site_sections`: Lists the main website sections and useful public documentation links.
+- `get_contact_form_options`: Retrieves the available contact-form subject options.
+- `fill_contact_registration_form`: Fills the contact form using user-provided details after validating the selected subject against the available options.
+
+**Human confirmation is required.** The form-filling tool does not submit the form. The user must review the populated fields and manually press the website's Send Message control to continue through WhatsApp. An agent must not claim that a message, enrollment, or payment has been submitted merely because the form was filled.
+
+- **WebMCP and tool-use documentation**: https://schooloffreelancing.com/auth.md
+- **Browser-side tool implementation**: https://schooloffreelancing.com/assets/js/tools.js
+
+These are browser-side tools, not a remotely accessible MCP server API.
+
+### API Documentation Status
+
+- **API Catalog document**: https://schooloffreelancing.com/.well-known/api-catalog.json
+- **OpenAPI document**: https://schooloffreelancing.com/openapi.json
+
+These URLs publish machine-readable API documentation. The documented operations must not be treated as working live API endpoints unless their corresponding routes are implemented and verified. In the current audited deployment, the documented `/api/courses`, `/api/services`, and `/api/resources` routes returned HTTP 404. Do not use them as live data APIs.
+
+### Protocol and Authentication Limitations
+
+The following server-side capabilities are **not confirmed as operational** in the audited deployment and must not be represented as available services:
+
+- Remote Model Context Protocol (MCP) server transports, including SSE, WebSocket, HTTP, or stdio.
+- Agent-to-Agent (A2A) JSON-RPC service endpoints.
+- Remote skills API endpoints.
+- OAuth 2.0 authorization, token, revocation, and userinfo endpoints.
+- OpenID Connect authentication or signed identity tokens.
+- A functioning JSON Web Key Set (JWKS) for token verification.
+
+Static discovery or metadata documents at `/.well-known/` are not proof that the corresponding runtime services exist. Do not send credentials, request tokens, or attempt remote MCP/A2A calls based only on the presence of those documents.
+
+For current website information, use the public pages, sitemap, `llms.txt`, `llms-full.txt`, and the browser-side tools documented in `auth.md`.

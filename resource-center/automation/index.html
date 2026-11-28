@@ -445,8 +445,8 @@ avg_order = total_sales / orders if orders &gt; 0 else 0
 
 # Create email
 msg = MIMEMultipart()
-msg['From'] = 'reports@yourcompany.com'
-msg['To'] = 'manager@yourcompany.com'
+msg['From'] = 'support@schooloffreelancing.com'
+msg['To'] = 'support@schooloffreelancing.com'
 msg['Subject'] = f'Daily Sales Report - {datetime.now().date()}'
 
 body = f"""
@@ -463,7 +463,7 @@ msg.attach(MIMEText(body, 'plain'))
 # Send email
 server = smtplib.SMTP('localhost', 587)
 server.starttls()
-server.login('your-email@gmail.com', 'app-password')
+server.login('support@schooloffreelancing.com', 'app-password')
 server.send_message(msg)
 server.quit()
 
