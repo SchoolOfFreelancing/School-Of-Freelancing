@@ -54,6 +54,10 @@
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
 
+/.well-known/oauth-protected-resource/mcp
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
 /.well-known/openid-configuration
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
@@ -75,6 +79,10 @@
   Access-Control-Allow-Origin: *
 
 /.well-known/agents.json
+  Content-Type: application/json; charset=utf-8
+  Access-Control-Allow-Origin: *
+
+/agents.json
   Content-Type: application/json; charset=utf-8
   Access-Control-Allow-Origin: *
 

@@ -531,6 +531,7 @@ function setClientCacheHeaders(response, url) {
     url.pathname === "/llms.txt" ||
     url.pathname === "/llms-full.txt" ||
     url.pathname === "/ai.txt" ||
+    url.pathname === "/agents.json" ||
     url.pathname === "/openapi.json" ||
     url.pathname.startsWith("/schemas/")
   ) {
@@ -611,9 +612,16 @@ function staleFromCache(cached, forHead) {
  */
 async function fetchWithFallback(request, ctx, env) {
   const isGet = request.method === "GET";
+  const reqUrl = new URL(request.url);
+  let assetRequest = request;
+  if (reqUrl.pathname === "/.well-known/oauth-protected-resource/mcp") {
+    const rewritten = new URL(request.url);
+    rewritten.pathname = "/.well-known/oauth-protected-resource.json";
+    assetRequest = new Request(rewritten.toString(), request);
+  }
   let response;
   try {
-    response = await env.ASSETS.fetch(request);
+    response = await env.ASSETS.fetch(assetRequest);
   } catch (err) {
     response = null;
   }

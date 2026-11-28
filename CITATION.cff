@@ -7,7 +7,7 @@ date-released: 2026-11-25
 license: GPL-3.0-or-later
 url: "https://schooloffreelancing.com"
 repository-code: "https://github.com"
-abstract: "Official Single-Source-of-Truth web platform, live 1-on-1 freelancing training catalog (21 programs), fixed-price remote infrastructure engineering service catalog (23 services), and machine-readable AI discovery / WebMCP documentation for SOF (School Of Freelancing), founded May 1, 2015."
+abstract: "Official Single-Source-of-Truth web platform, live 1-on-1 freelancing training catalog (21 programs), fixed-price remote infrastructure engineering service catalog (23 services), and machine-readable AI discovery / WebMCP documentation for SOF (School Of Freelancing), founded Feb 2, 2015."
 keywords:
   - linux-training
   - devops
