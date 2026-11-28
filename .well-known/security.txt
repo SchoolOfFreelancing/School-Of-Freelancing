@@ -1,4 +1,4 @@
-Contact: security@schooloffreelancing.com
+Contact: support@schooloffreelancing.com
 Expires: 2027-07-23T19:45:00Z
 Preferred-Languages: en
 Canonical: https://schooloffreelancing.com/.well-known/security.txt
